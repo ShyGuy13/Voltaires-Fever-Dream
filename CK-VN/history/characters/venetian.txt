@@ -1,0 +1,11 @@
+﻿#3.01
+
+3010001 = {
+	name = "Francesco" #Francesco d'Arco, count of Arco
+	dynasty = 9
+	religion = catholic
+	culture = venetian
+	1410.1.1 = { #fictional
+		birth = yes
+	}
+}

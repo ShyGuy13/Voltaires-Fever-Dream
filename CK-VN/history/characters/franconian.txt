@@ -1,0 +1,46 @@
+﻿#1.03
+
+1030001 = {
+	name = "Albrecht" #Albrecht Achilles I von Hohenzollern, margrave of Ansbach, Brandenburg
+	dynasty = 8
+	religion = catholic
+	culture = franconian
+	martial = 8
+	diplomacy = 6
+	stewardship = 4
+	intrigue = 4
+	learning = 4
+	trait = education_martial_3
+	trait = gregarious
+	trait = ambitious
+	trait = diligent
+	sexuality = heterosexual
+	1414.11.9 = {
+		birth = yes
+	}
+}
+
+1030002 = {
+	name = "Georg" #Georg I von Henneberg, count of Aschach
+	dynasty = 14
+	religion = catholic
+	culture = franconian
+	1395.1.1 = {
+		birth = yes
+	}
+	1423.5.13 = {
+		add_spouse = 1050002
+	}
+}
+
+1030003 = {
+	name = "Herman" #Herman VII von Henneberg, count of Aschach
+	religion = catholic
+	culture = franconian
+	dynasty = 14
+	father = 1030002
+	mother = 1050002
+	1430.1.1 = {
+		birth = yes
+	}
+}

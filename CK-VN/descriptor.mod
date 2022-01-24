@@ -1,0 +1,16 @@
+version="1.3.0"
+tags={
+	"Events"
+	"Gameplay"
+	"Culture"
+}
+name="Voltaire's Nightmare"
+replace_path="common/culture/cultures"
+replace_path="common/religion/religions"
+replace_path="events"
+replace_path="history/characters"
+replace_path="history/cultures"
+replace_path="history/provinces"
+replace_path="history/titles"
+supported_version="1.3.*"
+path="C:/Users/Johannes/Documents/Paradox Interactive/Crusader Kings III/mod/Voltaires-Dream"

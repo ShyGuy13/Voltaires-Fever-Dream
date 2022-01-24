@@ -1,0 +1,101 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+k_papal_state = {
+	color = { 255 249 198 }
+	color2 = { 220 220 0 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_roma
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Alexander Anastasius Benedictus Caelestinus Callistus Clemens Eugenius Leo Gregorius Hadrianus Honorius Innocentius Ioannes Lucius Marinus Martinus Nicolaus Sergius Silvester Stephanus Urbanus Victor }
+}
+
+k_switzerland = {
+	color = { 255 80 80 }
+	color2 = { 200 50 50 }
+
+	definite_form = yes
+	
+	capital = c_bern
+}
+
+k_austria = {
+	color = { 240 240 240 }
+	color2 = { 255 255 255 }
+
+	capital = c_wien
+}
+
+# HOLY ORDERS
+
+d_teutonic_order = {
+	
+	color = { 50 50 50 }
+	color2 = { 255 255 255 }
+	
+	capital = c_marienburg
+}
+
+d_teutonic_state = {
+	
+	color = { 50 50 50 }
+	color2 = { 255 255 255 }
+	
+	capital = c_mergentheim
+}
+
+d_knights_hospitaler = {
+
+	color = { 180 180 180 }
+	color2 = { 255 255 255 }
+	
+	capital = c_heitersheim
+	
+}
+
+# TITULAR KINGDOMS
+k_ngc = {
+	color = { 255 1 1 }
+	
+	capital = c_bern
+}
+
+k_sgc = {
+	color = { 255 1 1 }
+	
+	capital = c_bern
+}
+
+# TITULAR DUCHIES
+d_swiss = {
+	color = { 255 1 1 }
+	
+	capital = c_bern
+}
+
+k_hansa = {
+	color = { 142 142 142 }
+	color2 = { 255 255 255 }
+
+	capital = c_lubeck
+}
+
+d_dekapolis = {
+	color = { 219 102 96 }
+	color2 = { 255 255 255 }
+
+	capital = c_hagenau
+}

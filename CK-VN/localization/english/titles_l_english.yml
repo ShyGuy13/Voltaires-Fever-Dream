@@ -1,0 +1,17 @@
+﻿l_english:
+ TITLE_NAME:0 "$NAME$"
+ TITLE_TIERED_NAME:0 "$TIER|U$ of $NAME$"
+ TITLE_CLAN_TIERED_NAME:0 "the $NAME$ $TIER|U$"
+ TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "the $NAME$ $TIER|U$ #F ($TIER|U$ of $BASE_NAME$) #!"
+ TITLE_TIER_AS_NAME:0 "$TIER|U$"
+
+ e_test:0 "Test"
+ e_test_adj:0 "Testian"
+ k_test:0 "Test"
+ k_test_adj:0 "Testian"
+ c_test_1:0 "Test"
+ c_test_1_adj:0 "Testian"
+ d_test_1:0 "Test"
+ d_test_1_adj:0 "Testian"
+ b_test_1:0 "Test"
+ b_test_1:0 "Testian"

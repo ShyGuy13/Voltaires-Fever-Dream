@@ -1,0 +1,17 @@
+﻿#1.02
+
+1020001 = {
+	name = "Bernhard" #Bernhard VI Askanier, Anhalt-Bernburg
+	dynasty = 5
+	religion = catholic
+	culture = saxon
+	1400.1.1 = {
+		birth = yes #fic
+	}
+	1434.3.11 = {
+		add_spouse = 5020001 #Hedwig Piast
+	}
+	1468.2.2 = {
+		death = yes
+	}
+}

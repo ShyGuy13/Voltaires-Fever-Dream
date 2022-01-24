@@ -1,0 +1,42 @@
+﻿#4.01
+
+4010001 = {
+	name = "Louis" #Louis II de Chalon-Arlay, count of Arlay & prince of Orange
+	dynasty_house = house_chalon_arlay
+	religion = catholic
+	culture = burgundian
+	trait = education_intrigue_3
+	1390.1.1 = {
+		birth = yes
+	}
+	1415.1.1 = { #birth of son
+		add_spouse = 4010003
+	}
+	1417.10.1 = {
+		give_nickname = nick_the_good #becomes prince of Orange
+	}
+}
+
+4010002 = {
+	name = "Gillaume" #Guillaume III de Chalon-Arlay, count of Arlay & prince of Orange
+	dynasty_house = house_chalon_arlay
+	religion = catholic
+	culture = burgundian
+	father = 4010001
+	mother = 4010003
+	1415.1.1 = {
+		birth = yes
+	}
+
+}
+
+4010003 = {
+	name = "Jeanne" #Wife of Louis II de Chalon-Arlay
+	female = yes
+	dynasty = 13
+	religion = catholic
+	culture = burgundian
+	1395.1.1 = {
+		birth = yes
+	}
+}

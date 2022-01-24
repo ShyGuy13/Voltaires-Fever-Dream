@@ -1,0 +1,16 @@
+#5.02
+
+5020001 = {
+	name = "Hedwig" #Hedwig Piast, second wife of Bernhard VI Askanier, Anhalt-Bernburg
+	female = yes
+	dynasty = 6
+	religion = catholic
+	culture = schlesian
+	1410.1.1 = {
+		birth = yes
+	}
+	1497.5.14 = {
+		death = yes
+	}
+}
+
