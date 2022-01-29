@@ -1,4 +1,4 @@
-﻿bm_1000_test = {
+﻿bm_1441_peace_of_cremona = {
 	start_date = 1441.1.1
 	is_playable = yes
 
@@ -17,5 +17,22 @@
 		position = { 765 590 }
 
 		animation = disapproval
+	}
+
+	character = {
+		name = "bookmark_francesco_sforza"
+		dynasty = 121
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1401.6.23
+		title = k_duce
+		government = feudal_government
+		culture = marchigian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = sforza1
+		position = { 200 400 }
+
+		animation = personality_zealous
 	}
 }

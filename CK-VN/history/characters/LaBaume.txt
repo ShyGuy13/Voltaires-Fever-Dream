@@ -1,0 +1,9 @@
+labaume = {
+	name = "Perceval" #bishop of Belley
+	dynasty = 35
+	culture = savoyard
+	religion = catholic
+	1385.1.1 = { #fic
+		birth = yes
+	}
+}

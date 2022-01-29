@@ -1,0 +1,10 @@
+﻿wettin1 = {
+	name = "Katharina" #Katharina von Wettin, wife of Friedrich II of Brandenburg
+	female = yes
+	dynasty = 54
+	culture = saxon
+	religion = catholic
+	1421.1.1 = {
+		birth = yes
+	}
+}

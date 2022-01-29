@@ -1,0 +1,23 @@
+askanier1 = {
+	name = "Bernhard" #Bernhard VI Askanier, Anhalt-Bernburg
+	dynasty = 5
+	religion = catholic
+	culture = saxon
+	1390.1.1 = { #fic
+		birth = yes
+	}
+	1434.3.11 = {
+		add_spouse = piast1
+	}
+}
+
+askanier2 = {
+	name = "Barbara" #Barbara, wife of Johann the Alchemist
+	female = yes
+	dynasty = 5
+	religion = catholic
+	culture = saxon
+	1405.1.1 = {
+		birth = yes
+	}
+}

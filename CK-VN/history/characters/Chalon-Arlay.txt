@@ -1,0 +1,40 @@
+﻿chalonarlay1 = {
+	name = "Gillaume" #Guillaume III de Chalon-Arlay
+	dynasty_house = house_chalon_arlay
+	religion = catholic
+	culture = burgundian
+	father = chalonarlay2
+	mother = montfaucon1
+	1415.1.1 = {
+		birth = yes
+	}
+}
+
+chalonarlay2 = {
+	name = "Louis" #Louis II de Chalon-Arlay
+	dynasty_house = house_chalon_arlay
+	religion = catholic
+	culture = burgundian
+	trait = education_intrigue_3
+	father = chalonarlay3
+	1390.1.1 = {
+		birth = yes
+		give_nickname = nick_the_good
+	}
+	1415.1.1 = { #birth of son
+		add_spouse = montfaucon1
+	}
+}
+
+chalonarlay3 = {
+	name = "Jean" #Jean III de Chalon-Arlay
+	dynasty_house = house_chalon_arlay
+	religion = catholic
+	culture = burgundian
+	1360.1.1 = { #fic
+		birth = yes
+	}
+	1418.1.1 = {
+		death = yes
+	}
+}

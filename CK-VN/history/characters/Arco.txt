@@ -1,0 +1,10 @@
+﻿arco1 = {
+	name = "Francesco" #Francesco d'Arco, count of Arco
+	dynasty = 9
+	religion = catholic
+	culture = venetian
+	1410.1.1 = { #fictional
+		birth = yes
+		add_pressed_claim = c_arco
+	}
+}

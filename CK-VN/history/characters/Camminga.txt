@@ -1,0 +1,9 @@
+﻿camminga1 = {
+	name = "Ritske" #Ritske Camminga, Ameland
+	dynasty = 4
+	religion = catholic
+	culture = frisian
+	1383.1.1 = {
+		birth = yes
+	}
+}

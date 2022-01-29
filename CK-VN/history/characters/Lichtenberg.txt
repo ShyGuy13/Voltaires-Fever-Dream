@@ -1,0 +1,34 @@
+﻿lichtenberg1 = {
+	name = "Jakob" # Jakob I von Lichtenberg
+	dynasty = 226
+	religion = catholic
+	culture = alemannic
+	father = lichtenberg2
+	1416.5.25 = {
+		birth = yes
+	}
+}
+
+lichtenberg1_brother = {
+	name = "Ludwig" # Ludwig V von Lichtenberg
+	dynasty = 226
+	religion = catholic
+	culture = alemannic
+	father = lichtenberg2
+	1417.5.12 = {
+		birth = yes
+	}
+}
+
+lichtenberg2 = {
+	name = "Ludwig" # Ludwig IV von Lichtenberg
+	dynasty = 226
+	religion = catholic
+	culture = alemannic
+	1380.1.1 = { #fic
+		birth = yes
+	}
+	1434.8.28 = {
+		death = yes
+	}
+}

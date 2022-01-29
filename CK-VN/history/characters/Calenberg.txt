@@ -1,0 +1,44 @@
+﻿calenberg1 = {
+	name = "Wilhelm" #Wilhelm I of Calenberg
+	dynasty_house = house_calenberg
+	culture = eastphalian
+	religion = catholic
+	1392.1.1 = {
+		birth = yes
+		give_nickname = nick_the_victorious
+	}
+	1423.5.30 = {
+		add_spouse = hohenzollern5
+	}
+}
+
+calenberg2 = {
+	name = "Friedrich" #Friedrich of Calenberg
+	dynasty_house = house_calenberg
+	culture = eastphalian
+	religion = catholic
+	trait = wrathful
+	trait = stubborn
+	trait = cynical
+	trait = twin
+	father = calenberg1
+	mother = hohenzollern5
+	1425.1.1 = {
+		birth = yes
+		give_nickname = nick_the_restless
+	}
+}
+
+calenberg3 = {
+	name = "Wilhelm" #Wilhelm II of Calenberg
+	dynasty_house = house_calenberg
+	culture = eastphalian
+	religion = catholic
+	trait = twin
+	father = calenberg1
+	mother = hohenzollern5
+	1425.1.1 = {
+		birth = yes
+		give_nickname = nick_the_young
+	}
+}

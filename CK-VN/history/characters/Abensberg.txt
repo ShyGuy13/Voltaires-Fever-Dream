@@ -1,0 +1,23 @@
+abensberg1 = {
+	name = "Nikolaus" #Nikolaus von Abensberg
+	dynasty = 1
+	religion = catholic
+	culture = bavarian
+	father = abensberg2
+	1441.1.1 = {
+		birth = yes
+	}
+}
+
+abensberg2 = {
+	name = "Johann" #Johann III von Abensberg
+	dynasty = 1
+	religion = catholic
+	culture = bavarian
+	1389.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		add_spouse = ptujski1
+	}
+}

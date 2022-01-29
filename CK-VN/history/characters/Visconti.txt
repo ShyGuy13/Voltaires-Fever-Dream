@@ -1,0 +1,63 @@
+visconti1 = {
+	name = "Bianca Maria" #Bianca Maria Visconti
+	female = yes
+	dynasty = 44
+	religion = catholic
+	culture = lombard
+	trait = education_diplomacy_2
+	trait = content
+	trait = diligent
+	trait = just
+	trait = legitimized_bastard
+	sexuality = heterosexual
+	father = visconti2
+	1423.3.31 = {
+		birth = yes
+	}
+}
+
+visconti2 = {
+	name = "Filippo Maria" #Filippo Maria Visconti
+	dynasty = 44
+	religion = catholic
+	culture = lombard
+	trait = education_stewardship_2
+	trait = arbitrary
+	trait = paranoid
+	trait = wrathful
+	trait = beauty_bad_2
+	trait = infertile
+	trait = feeble
+	sexuality = heterosexual
+	father = visconti4
+	1392.9.3 = {
+		birth = yes
+	}
+}
+
+visconti3 = {
+	name = "Gian Maria" #Gian Maria Visconti
+	dynasty = 44
+	religion = catholic
+	culture = lombard
+	father = visconti4
+	1388.9.7 = {
+		birth = yes
+	}
+	1412.5.16 = {
+		death = yes
+	}
+}
+
+visconti4 = {
+	name = "Gian Galeazzo" #Gian Galeazzo Visconti
+	dynasty = 44
+	religion = catholic
+	culture = lombard
+	1388.9.7 = {
+		birth = yes
+	}
+	1412.5.16 = {
+		death = yes
+	}
+}

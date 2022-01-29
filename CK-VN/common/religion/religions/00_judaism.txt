@@ -205,141 +205,16 @@
 			icon = rabbinism
 			religious_head = d_rabbinism
 
-			holy_site = jerusalem
-			holy_site = sufed
-			holy_site = sinai
-			holy_site = alexandria
-			holy_site = semien
+			holy_site = mainz
+			holy_site = pisa
+			holy_site = speyer
+			holy_site = venice
+			holy_site = geneva
 
 			#tenets
 			doctrine = tenet_communal_identity
 			doctrine = tenet_legalism
 			doctrine = tenet_religious_legal_pronouncements
-
-			#Doctrines
-			doctrine = doctrine_spiritual_head
-		}
-
-		karaism = {
-			color = { 0.1 0.5 0.9 }
-			icon = karaism
-			religious_head = d_karaism
-
-			holy_site = jerusalem
-			holy_site = sufed
-			holy_site = sinai
-			holy_site = alexandria
-			holy_site = semien
-
-			#tenets
-			doctrine = tenet_communal_identity
-			doctrine = tenet_literalism
-			doctrine = tenet_religious_legal_pronouncements
-
-			#Doctrines
-			doctrine = doctrine_spiritual_head
-		}
-
-		haymanot = {
-			color = { 0.1 0.5 0.9 }
-			icon = judaism
-			religious_head = d_haymanot
-
-			holy_site = jerusalem
-			holy_site = sufed
-			holy_site = sinai
-			holy_site = alexandria
-			holy_site = semien
-
-			#tenets
-			doctrine = tenet_communal_identity
-			doctrine = tenet_religious_legal_pronouncements
-			doctrine = tenet_esotericism
-
-			#Doctrines
-			doctrine = doctrine_spiritual_head
-
-			localization = {
-				ReligiousText = haymanot_religious_text
-				ReligiousHeadName = haymanot_religious_head_title
-				DevoteeMale = haymanot_devotee
-				DevoteeMalePlural = haymanot_devotee_plural
-				DevoteeFemale = haymanot_devotee
-				DevoteeFemalePlural = haymanot_devotee_plural
-				DevoteeNeuter = haymanot_devotee
-				DevoteeNeuterPlural = haymanot_devotee_plural
-				PriestMale = haymanot_priest
-				PriestMalePlural = haymanot_priest_plural
-				PriestFemale = haymanot_priest
-				PriestFemalePlural = haymanot_priest_plural
-				PriestNeuter = haymanot_priest
-				PriestNeuterPlural = haymanot_priest_plural
-				AltPriestTermPlural = haymanot_priest_plural
-				BishopMale = haymanot_bishop
-				BishopMalePlural = haymanot_bishop_plural
-				BishopFemale = haymanot_bishop
-				BishopFemalePlural = haymanot_bishop_plural
-				BishopNeuter = haymanot_bishop
-				BishopNeuterPlural = haymanot_bishop_plural
-			}
-		}
-
-		malabarism = {
-			color = { 0.3 0.5 0.7 }
-			icon = malabarism
-			religious_head = d_malabarism
-
-			holy_site = jerusalem
-			holy_site = sufed
-			holy_site = sinai
-			holy_site = alexandria
-			holy_site = semien
-
-			#tenets
-			doctrine = tenet_communal_identity
-			doctrine = tenet_religious_legal_pronouncements
-			doctrine = tenet_eastern_syncretism
-
-			#Doctrines
-			doctrine = doctrine_theocracy_lay_clergy
-			doctrine = doctrine_temporal_head
-		}
-		
-		samaritan = {
-			color = { 0.1 0.8 0.8 }
-			icon = samaritan
-			religious_head = d_samaritan
-
-			holy_site = gerizim
-			holy_site = sufed
-			holy_site = sinai
-			holy_site = alexandria
-			holy_site = semien
-
-			#tenets
-			doctrine = tenet_communal_identity
-			doctrine = tenet_literalism
-			doctrine = tenet_esotericism
-
-			#Doctrines
-			doctrine = doctrine_spiritual_head
-		}
-
-		kabarism = {
-			color = { 0.1 0.3 0.7 }
-			icon = kabarism
-			religious_head = d_kabarism
-
-			holy_site = jerusalem
-			holy_site = sufed
-			holy_site = sinai
-			holy_site = alexandria
-			holy_site = semien
-
-			#tenets
-			doctrine = tenet_religious_legal_pronouncements
-			doctrine = tenet_legalism
-			doctrine = tenet_esotericism
 
 			#Doctrines
 			doctrine = doctrine_spiritual_head

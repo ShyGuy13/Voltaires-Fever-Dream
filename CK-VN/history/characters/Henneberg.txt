@@ -1,0 +1,24 @@
+henneberg1 = {
+	name = "Herman" #Herman VII von Henneberg, count of Aschach
+	religion = catholic
+	culture = franconian
+	dynasty = 14
+	father = henneberg2
+	mother = saarbrucken1
+	1430.1.1 = {
+		birth = yes
+	}
+}
+
+henneberg2 = {
+	name = "Georg" #Georg I von Henneberg, count of Aschach
+	dynasty = 14
+	religion = catholic
+	culture = franconian
+	1395.1.1 = {
+		birth = yes
+	}
+	1423.5.13 = {
+		add_spouse = saarbrucken1
+	}
+}

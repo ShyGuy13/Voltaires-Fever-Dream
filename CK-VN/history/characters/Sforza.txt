@@ -1,0 +1,121 @@
+﻿sforza1 = {
+	name = "Francesco" #Francesco I Sforza
+	dynasty = 121
+	religion = catholic
+	culture = marchigian
+	martial = 4
+	trait = education_martial_4
+	trait = brave
+	trait = ambitious
+	trait = wrathful
+	trait = strong
+	trait = organizer
+	trait = legitimized_bastard
+	trait = physique_good_1
+	sexuality = heterosexual
+	father = sforza2
+	1401.6.23 = {
+		birth = yes
+	}
+	1441.1.1 = { #1441.10.24
+		add_spouse = visconti1
+	}
+}
+
+sforza2 = {
+	name = "Muzio Attendolo" #Muzio Attendolo Sforza
+	dynasty = 121
+	religion = catholic
+	culture = marchigian
+	trait = education_martial_3
+	1369.6.10 = {
+		birth = yes
+	}
+	1424.1.4 = {
+		death = yes
+	}
+}
+
+sforza3 = {
+	name = "Bosio" #Bosio Sforza
+	dynasty = 121
+	father = sforza2
+	1410.1.1 = {
+		birth = yes
+	}
+}
+
+sforza4 = {
+	name = "Carlo" #Carlo Sforza
+	dynasty = 121
+	father = sforza2
+	1423.6.15 = {
+		birth = yes
+	}
+}
+
+sforza5 = {
+	name = "Alesandro" #Alesandro Sforza
+	dynasty = 121
+	trait = legitimized_bastard
+	father = sforza2
+	1409.10.29 = {
+		birth = yes
+	}
+}
+
+sforza6 = {
+	name = "Bartolomeo" #Bartolomeo Sforza
+	dynasty = 121
+	father = sforza2
+	1420.1.1 = {
+		birth = yes
+	}
+	1435.1.1 = {
+		death = yes
+	}
+}
+
+sforza7 = {
+	name = "Elisa" #Elisa Sforza
+	female = yes
+	dynasty = 121
+	father = sforza2
+	trait = bastard
+	1402.1.1 = {
+		birth = yes
+	}
+}
+
+sforza8 = {
+	name = "Antonia" #Antonia Sforza
+	female = yes
+	dynasty = 121
+	father = sforza2
+	trait = bastard
+	1404.1.16 = {
+		birth = yes
+	}
+}
+
+sforza9 = {
+	name = "Giovanni" #Giovanni Sforza
+	dynasty = 121
+	father = sforza2
+	trait = bastard
+	1407.1.1 = {
+		birth = yes
+	}
+}
+
+sforza10 = {
+	name = "Orsola" #Orsola Sforza
+	female = yes
+	dynasty = 121
+	father = sforza2
+	trait = bastard
+	trait = nun
+	1411.1.1 = {
+		birth = yes
+	}
+}

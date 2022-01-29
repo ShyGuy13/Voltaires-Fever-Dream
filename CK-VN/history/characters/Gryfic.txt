@@ -1,0 +1,12 @@
+﻿gryfic1 = {
+	name = "Joachim" #Joachim I of Stettin
+	dynasty = 60
+	culture = pommeranian
+	religion = catholic
+	1425.1.1 = {
+		birth = yes
+	}
+	1440.8.27 = {
+		add_spouse = hohenzollern12
+	}
+}

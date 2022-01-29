@@ -37,5 +37,12 @@ house_konigstein = {
 house_este = {
 	prefix = "dynnp_d_"
 	name = "dynn_Este"
-	dynasty = 122 #von Welf
+	dynasty = 84 #von Welf
+}
+
+#House of Calenberg
+house_calenberg = {
+	prefix = "dynnp_von"
+	name = "dynn_Calenberg"
+	dynasty = 84 #von Welf
 }

@@ -97,7 +97,7 @@
 }
 20 = {
 	prefix = "dynnp_von"
-	name = "dynn_Za_hringen"
+	name = "dynn_Zahringen"
 	culture = swabian
 }
 21 = {
@@ -570,9 +570,8 @@
 	culture = marchigian
 }
 122 = {
-	prefix = "dynnp_von"
-	name = "dynn_Welf"
-	culture = swabian
+	name = "dynn_Piccinino"
+	culture = lombard
 }
 123 = {
 	name = "dynn_Aleramici"
@@ -1349,9 +1348,7 @@
 	culture = tuscan
 }
 287 = {
-	prefix = "dynnp_von"
-	name = "dynn_Ottingen"
-	culture = swabian
+	
 }
 288 = {
 	name = "dynn_Trotti"
@@ -1965,8 +1962,7 @@
 	culture = swabian
 }
 419 = {
-	name = "dynn_Piccinino"
-	culture = lombard
+	
 }
 420 = {
 	

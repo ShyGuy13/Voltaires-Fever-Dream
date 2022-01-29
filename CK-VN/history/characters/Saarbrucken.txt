@@ -1,0 +1,10 @@
+saarbrucken1 = {
+	name = "Johanna" #Johanna von Nassau-Saarbrücken, wife of Georg von Henneberg, count of Aschach
+	female = yes
+	dynasty_house = house_saarbrucken
+	religion = catholic
+	culture = palatine
+	1408.1.1 = {
+		birth = yes
+	}
+}

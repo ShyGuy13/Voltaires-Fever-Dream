@@ -1,0 +1,23 @@
+﻿arenberg1 = {
+	name = "Eberhard" #Eberhard III von der Mark, son of Johann I 
+	dynasty_house = house_arenberg
+	culture = rhenish
+	religion = catholic
+	father = arenberg2
+	1435.1.1 = {
+		birth = yes
+	}
+}
+
+arenberg2 = {
+	name = "Johann" #Johann I von der Mark, count of Arenberg
+	dynasty_house = house_arenberg
+	culture = rhenish
+	religion = catholic
+	1410.11.1 = {
+		birth = yes
+	}
+	1440.10.14 = {
+		add_spouse = virneburg4
+	}
+}

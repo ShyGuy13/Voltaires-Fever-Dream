@@ -1,0 +1,10 @@
+mark1 = {
+	name = "Jeanne" #Wife of Carlo I de Valois, count of Asti
+	female = yes
+	dynasty = 10
+	religion = catholic
+	culture = rhenish
+	1426.9.19 = {
+		birth = yes
+	}
+}

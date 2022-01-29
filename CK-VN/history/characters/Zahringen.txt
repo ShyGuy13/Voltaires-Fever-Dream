@@ -1,0 +1,132 @@
+﻿zahringen1 = {
+	name = "Bernhard" #Bernhard II of Baden
+	dynasty = 20
+	culture = alemannic
+	religion = catholic
+	father = zahringen2
+	mother = metz1
+	1428.1.1 = {
+		birth = yes
+	}
+}
+
+zahringen2 = {
+	name = "Jakob" #Jakob I of Baden
+	dynasty = 20
+	culture = alemannic
+	religion = catholic
+	father = zahringen3
+	mother = oettingen1
+	1407.3.1 = {
+		birth = yes
+	}
+	1422.7.25 = {
+		add_spouse = metz1
+	}
+}
+
+zahringen3 = {
+	name = "Bernhard" #Bernhard I of Baden
+	dynasty = 20
+	culture = alemannic
+	religion = catholic
+	1364.1.1 = {
+		birth = yes
+	}
+	1397.9.15 = {
+		add_spouse = oettingen1
+	}
+	1431.4.5 = {
+		death = yes
+	}
+}
+
+zahringen4 = {
+	name = "Karl" #Karl II of Baden
+	dynasty = 20
+	culture = alemannic
+	religion = catholic
+	father = zahringen2
+	mother = metz1
+	1427.1.1 = {
+		birth = yes
+	}
+}
+
+zahringen5 = {
+	name = "Johann" #Archbishop of Trier
+	dynasty = 20
+	culture = alemannic
+	religion = catholic
+	trait = devoted
+	father = zahringen2
+	mother = metz1
+	1434.1.1 = {
+		birth = yes
+	}
+}
+
+zahringen6 = {
+	name = "Georg" #Bishop of Metz
+	dynasty = 20
+	culture = alemannic
+	religion = catholic
+	trait = devoted
+	father = zahringen2
+	mother = metz1
+	1433.1.1 = {
+		birth = yes
+	}
+}
+
+zahringen7 = {
+	name = "Markus" #Monk
+	dynasty = 20
+	culture = alemannic
+	religion = catholic
+	trait = devoted
+	father = zahringen2
+	mother = metz1
+	1433.1.1 = {
+		birth = yes
+	}
+}
+
+zahringen8 = {
+	name = "Margarete" #wife of Albrecht Achilles von Hohenstaufen
+	female = yes
+	dynasty = 20
+	culture = alemannic
+	religion = catholic
+	father = zahringen2
+	mother = metz1
+	1431.1.1 = {
+		birth = yes
+	}
+}
+
+zahringen9 = {
+	name = "Matilde" #Nun
+	female = yes
+	dynasty = 20
+	culture = alemannic
+	religion = catholic
+	trait = devoted
+	father = zahringen2
+	mother = metz1
+	1439.1.1 = {
+		birth = yes
+	}
+}
+
+zahringen10 = {
+	name = "Rudolf"
+	dynasty = 20
+	culture = alemannic
+	religion = catholic
+	trait = bastard
+	father = zahringen2
+	1440.1.1 = { #fic
+		birth = yes
+	}
+}

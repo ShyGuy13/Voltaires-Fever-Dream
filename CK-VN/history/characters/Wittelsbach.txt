@@ -1,0 +1,12 @@
+wittelsbach1 = {
+	name = "Elisabeth"
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	trait = beauty_good_3
+	1383.1.1 = {
+		birth = yes
+		give_nickname = nick_the_beautiful
+	}
+}
