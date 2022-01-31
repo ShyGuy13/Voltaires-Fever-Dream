@@ -380,7 +380,7 @@
 		}
 
 		fraticelli  = {
-			color = { 0.6 0.1 0.4 }
+			color = { 178 178 102 }
 			icon = christianity_paulicanism
 
 			#Shared with Catholics
@@ -464,7 +464,7 @@
 		}
 
 		utraquist = {
-			color = { 0.8 0.3 0.5 }
+			color = { 244 55 9 }
 			icon = christianity_messalian
 
 			#Shared with Catholics
@@ -486,49 +486,29 @@
 		}
 
 		anabaptist = {
-			color = { 0.6 0.1 0.4 }
+			color = { 135 77 255 }
 			icon = christianity_messalian
 
 			#Shared with Catholics
-			holy_site = rome
-			holy_site = cologne
-			holy_site = speyer
-			holy_site = milano
-			holy_site = ulm
+			holy_site = wittenberg
+			holy_site = strasburg
+			holy_site = munster
+			holy_site = zwickau
+			holy_site = haarlem
 
 			#Main Group
 			doctrine = doctrine_no_head
-			doctrine = doctrine_gender_equal
 			doctrine = doctrine_theocracy_lay_clergy
-
-			#Marriage
-			doctrine = doctrine_consanguinity_unrestricted
-
-			#Crimes
-			doctrine = doctrine_homosexuality_accepted
-			doctrine = doctrine_adultery_men_accepted
-			doctrine = doctrine_adultery_women_accepted
-			doctrine = doctrine_deviancy_accepted
-			doctrine = doctrine_witchcraft_accepted
+			doctrine = doctrine_pluralism_fundamentalist
 
 			#Clerical Functions
 			doctrine = doctrine_clerical_gender_either
 			doctrine = doctrine_clerical_marriage_allowed
 
 			#Tenets
-			doctrine = tenet_divine_marriage
-			doctrine = tenet_carnal_exaltation
-			doctrine = tenet_esotericism
-
-			#Unique Localization
-			localization = {
-				PriestMale = messalian_priest
-				PriestMalePlural = messalian_priest_plural
-				PriestFemale = messalian_priest
-				PriestFemalePlural = messalian_priest_plural
-				PriestNeuter = messalian_priest
-				PriestNeuterPlural = messalian_priest_plural
-			}
+			doctrine = tenet_credobaptism
+			doctrine = tenet_mendicant_preachers
+			doctrine = tenet_literalism
 		}
 
 		adamites = {
@@ -576,12 +556,12 @@
 		}
 
 		protestant = {
-			color = { 0.5 0.5 0.3 }
+			color = { 0 0 178 }
 			icon = insular_celtic
 			graphical_faith = "catholic_gfx"
 			
 			#Shared with Catholics
-			holy_site = rome
+			holy_site = wittenberg
 			holy_site = cologne
 			holy_site = speyer
 			holy_site = milano
@@ -688,29 +668,19 @@
 		}
 
 		reformed = {
-			color = { 153 117 134 }
+			color = { 76 76 229 }
 			icon = bosnian_church
 			graphical_faith = "catholic_gfx"
 			
-			#Shared with Catholics
-			holy_site = rome
+			holy_site = zurich
+			holy_site = strasburg
 			holy_site = cologne
-			holy_site = speyer
-			holy_site = milano
-			holy_site = ulm
+			holy_site = geneva
+			holy_site = antwerpen
 
 			#Main Group
 			doctrine = doctrine_no_head
 			doctrine = doctrine_pluralism_pluralistic
-
-			#Crimes
-			#Generally quite bad at enforcing religious dictats from Rome: many things are shunned, few things are criminal.
-			doctrine = doctrine_homosexuality_shunned
-			doctrine = doctrine_adultery_men_shunned
-			doctrine = doctrine_adultery_women_shunned
-			doctrine = doctrine_kinslaying_shunned
-			doctrine = doctrine_deviancy_shunned
-			doctrine = doctrine_witchcraft_shunned	#Mostly for being rural and having an unfortunate habit of taking in travelling heretics.
 
 			#Clerical Functions
 			doctrine = doctrine_clerical_function_alms_and_pacification
@@ -719,33 +689,6 @@
 			doctrine = tenet_mendicant_preachers
 			doctrine = tenet_pastoral_isolation
 			doctrine = tenet_monasticism
-
-			localization = {
-				#Represents the peculiar Bosnian ecclesiastic setup as best as possible.
-				HouseOfWorship = bosnian_house_of_worship
-				HouseOfWorshipPlural = bosnian_house_of_worship_plural
-				ReligiousHeadName = bosnian_religious_head_title
-				ReligiousHeadTitleName = bosnian_religious_head_title_name
-				DevoteeMale = bosnian_devotee_male
-				DevoteeMalePlural = bosnian_devotee_male_plural
-				DevoteeFemale = bosnian_devotee_female
-				DevoteeFemalePlural = bosnian_devotee_female_plural
-				DevoteeNeuter = bosnian_devotee_neuter
-				DevoteeNeuterPlural = bosnian_devotee_neuter_plural
-				PriestMale = bosnian_priest_male
-				PriestMalePlural = bosnian_priest_male_plural
-				PriestFemale = bosnian_priest_female
-				PriestFemalePlural = bosnian_priest_female_plural
-				PriestNeuter = bosnian_priest_neuter
-				PriestNeuterPlural = bosnian_priest_neuter_plural
-				AltPriestTermPlural = bosnian_priest_alternate_plural
-				BishopMale = bosnian_bishop_male
-				BishopMalePlural = bosnian_bishop_male_plural
-				BishopFemale = bosnian_bishop_female
-				BishopFemalePlural = bosnian_bishop_female_plural
-				BishopNeuter = bosnian_bishop_neuter
-				BishopNeuterPlural = bosnian_bishop_neuterplural
-			}
 		}
 	}
 }

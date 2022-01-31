@@ -1,5 +1,4 @@
-﻿#5
-west_slavic_group = {
+﻿west_slavic_group = {
 	
 	graphical_cultures = {
 		west_slavic_group_coa_gfx

@@ -1,0 +1,16 @@
+doctrine_core_tenets = {
+	group = "core_tenets"
+	number_of_picks = 3
+
+	tenet_credobaptism = {
+		icon = core_tenet_bhakti
+		piety_cost = {
+			value = faith_tenet_cost_mid
+		}
+		character_modifier = {
+			domain_limit = 1
+			ai_war_chance = -0.25
+			ai_war_cooldown = 0.25
+		}
+	}
+}

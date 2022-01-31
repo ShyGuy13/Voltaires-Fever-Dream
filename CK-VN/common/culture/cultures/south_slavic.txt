@@ -1,5 +1,4 @@
-﻿#7
-south_slavic_group = {
+﻿south_slavic_group = {
 	
 	graphical_cultures = {
 		south_slavic_group_coa_gfx
@@ -20,73 +19,92 @@ south_slavic_group = {
 		color = { 0.4 0.2 0.2 }
 
 		cadet_dynasty_names = {
-			"dynn_Bogenski"
-			"dynn_Breski"
-			"dynn_Celjski"
-			"dynn_Crnomaljski"
-			"dynn_Hadik"
-			"dynn_Izanski"
-			"dynn_Jablaniski"
-			"dynn_Koroski"
-			"dynn_Lenkovic"
-			"dynn_Mocnik"
-			"dynn_Pustalski"
-			"dynn_Ptujski"
-			"dynn_Rusbachi"
-			"dynn_Strmski"
-			"dynn_Savinjski"
-			"dynn_Turjaski"
-			"dynn_Visnjegorski"
-			"dynn_Vovbrzani"
-			"dynn_Zovneski"
-			"dynn_Zois"
-			"dynn_Zagar"
-			"dynn_Zelko"
+			"dynn_Trpimirovic"
+			"dynn_Mihaljevic"
+			"dynn_Subic"
+			"dynn_Hrvatinic" 
+			"dynn_Kosaca"
+			"dynn_Vukcic"
+			"dynn_Vukasin"
+			"dynn_Dukasin"
+			"dynn_Babonic"
+			"dynn_Frankopan"
+			"dynn_Kacic"
+			"dynn_Draskovic" 
+			"dynn_Bebek"
+			"dynn_Svetoslavic"
+			"dynn_Kresimirovic"
+			"dynn_Domagojevic"
+			"dynn_Festetic"
+			"dynn_Gorjanski"
+			"dynn_Svacic"
+			"dynn_Kobilic"
+			"dynn_Lackovic"
+			"dynn_Berislavic"
+			"dynn_Nepilic"
+			"dynn_Jalacic"
+			"dynn_Zrinski"
+			"dynn_Garaj"
+			"dynn_Eltz"
+			"dynn_Kabuzic"
+			"dynn_Crnkovic"
+			"dynn_Crijevic"
+			"dynn_Rubido"
 		}
 
 		dynasty_names = {
-			"dynn_MihaljeviC_"
+			"dynn_Trpimirovic"
+			"dynn_Mihaljevic"
+			"dynn_Subic"
+			"dynn_Hrvatinic" 
+			"dynn_Kosaca"
+			"dynn_Vukcic"
 			"dynn_Vukasin"
 			"dynn_Dukasin"
-			"dynn_KastriotiC_"
+			"dynn_Babonic"
 			"dynn_Frankopan"
-			"dynn_KaC_iC_"
-			"dynn_DraskoviC_"
-			"dynn_ZelemE_ri"
+			"dynn_Kacic"
+			"dynn_Draskovic" 
 			"dynn_Bebek"
-			"dynn_SvetoslaviC_"
-			"dynn_KreS_imiroviC_"
-			"dynn_FeS_tetiC_"
-			"dynn_Lackfi"
-			"dynn_S_ubiC_"
-			"dynn_KobiliC_"
-			"dynn_LackoviC_"
-			"dynn_Frankopan"
-			"dynn_TrpimiroviC_"
-			"dynn_Lopac"
-			"dynn_Winch"
-			"dynn_BijelahrvatskiC_"
-			"dynn_BaboniC_"
-			"dynn_DomagojeviC_"
+			"dynn_Svetoslavic"
+			"dynn_Kresimirovic"
+			"dynn_Domagojevic"
+			"dynn_Festetic"
 			"dynn_Gorjanski"
-			"dynn_Lackfi"
-			"dynn_SvaciC_"
-			"dynn_SenulatoviC_"
-			"dynn_Vit"
-			"dynn_JesoviC_"
-			"dynn_TeroviC_"
+			"dynn_Svacic"
+			"dynn_Kobilic"
+			"dynn_Lackovic"
+			"dynn_Berislavic"
+			"dynn_Nepilic"
+			"dynn_Jalacic"
+			"dynn_Zrinski"
+			"dynn_Garaj"
+			"dynn_Eltz"
+			"dynn_Kabuzic"
+			"dynn_Crnkovic"
+			"dynn_Crijevic"
+			"dynn_Rubido"
 		}
 
 		male_names = {
-			Adam Andrija Bartol Besar Bojan Boris Branimir Castimir Danail Dmitar Dobromir Dragan Dragomir Drzislav Dujam Duym Filip Gaspar Gheorghe Grigorii
-			Hranislav Hrvoje Igor Ioan Ivan Ivanis Jitej Karlo Koloman KreS_imir Ladislav Ljudevit Ljutomisl Lovro Matej Mihajlo Milman Mislav Mutimir
-			Nikolitza Ognjen Petar Prohor Radomir Ratimir Sebeslav Seslav Slavich Stanislav Stjepan Sulvan Teodor TI_semir Tomislav Tvrdoslav Tvrtko Ulfo Uskrsimir Vid Vitomir Vlaicu
-			Vukan Zvonimir
+			Kresimir Stjepan Almos Dimitrije Zvonimir Trpimir Goislav Slavic Svetoslav Miroslav Mutimir 
+			Ladislav Karlo Andrej Luj Pero Vladislav Vjenceslav Aleksandar Dragutin Fauszty Franjo Gavrilo Ivan 
+			Juraj Luka Matija Marko Mihajlo Milan Mirko Nenad Nikola Slavko Toma Vladko Zvonomir
+			Adam Andrija Bartol Bartolomeus Besar Bojan Boris Branimir Castimir Danail Daniel Dmitar 
+			Dobromir Dragan Dragomir Drzislav Dujam Duym Filip Philip Gaspar Gheorghe George Grigorii 
+			Hranislav Hrvoje Igor Ioan John Ivan John Ivanis Jitej Karlo Charles Koloman Koloman 
+			Ladislav Ljudevit Ljutomisl Lovro Matej Matthew Mihajlo Milman Mislav Mutimir
+			Nikolitza Nicholas Ognjen Petar Peter Prohor Radomir Ratimir Sebeslav Seslav Slavich 
+			Stanislav Stjepan Sulvan Teodor Tomislav Tvrdoslav Tvrtko Ulfo Ulf Vid Vitomir Vlaicu
+			Vukan Zvonimir Kresimir Gregory Caspar Josip
 		}
 		female_names = {
-			Adriana Anna Borislava Cededa Doroteja Ekaterina Helena Jadviga Jovana Kera Ladika Maria Mihaela Nada Petra Viola Jadranka Mare
-			Antonija Capeka Dragana Dubravka Emilija Gordana Jagoda Jelena Jelka Lucija Katalin Marija Marijana Mirjana Mirna Mojca Natalija NataS_a
-			Rijeka Silvija Snjezana Sofija Suzana Svjetlana Suronja Tatjana Tihana Valerija Vedrana Visnja Vjekoslava Zlata Zvonimira
+			Adriana Anna Borislava Cededa Doroteja Dorothy Ekaterina Catherine Helena Helen Jadviga 
+			Jovana Kera Ladika Maria Maria Mihaela Nada Petra Viola Yolanda Jadranka Mare
+			Antonija Capeka Dragana Dubravka Emilija Emily Gordana Jagoda Jelena Jelka Lucija Lucia 
+			Catherine Marija Maria Marijana Mirjana Mirna Mojca Natalija Natasha
+			Rijeka Silvija Snjezana Sofija Sophia Suzana Susana Svjetlana Suronja Tatjana Tihana 
+			Vedrana Visnja Vjekoslava Zlata Zvonimira Valerija Katalin
 		}
 		
 		dynasty_of_location_prefix = "dynnp_od"
@@ -114,93 +132,65 @@ south_slavic_group = {
 		color = { 0.4 0.2 0.2 }
 
 		cadet_dynasty_names = {
-			"dynn_MihaljeviC_"
-			"dynn_Vukasin"
-			"dynn_Dukasin"
-			"dynn_KastriotiC_"
-			"dynn_Frankopan"
-			"dynn_KaC_iC_"
-			"dynn_DraskoviC_"
-			"dynn_ZelemE_ri"
-			"dynn_Bebek"
-			"dynn_SvetoslaviC_"
-			"dynn_KreS_imiroviC_"
-			"dynn_FeS_tetiC_"
-			"dynn_Lackfi"
-			"dynn_S_ubiC_"
-			"dynn_KobiliC_"
-			"dynn_LackoviC_"
-			"dynn_Frankopan"
-			"dynn_TrpimiroviC_"
-			"dynn_Lopac"
-			"dynn_Winch"
-			"dynn_BijelahrvatskiC_"
-			"dynn_BaboniC_"
-			"dynn_DomagojeviC_"
-			"dynn_Gorjanski"
-			"dynn_Lackfi"
-			"dynn_SvaciC_"
-			"dynn_SenulatoviC_"
-			"dynn_Vit"
-			"dynn_JesoviC_"
-			"dynn_TeroviC_"
+			"dynn_Bogenski"
+			"dynn_Breski"
+			"dynn_Celjski"
+			"dynn_Crnomaljski"
+			"dynn_Cresnjevec"
+			"dynn_Hadik"
+			"dynn_Izanski"
+			"dynn_Jablaniski"
+			"dynn_Koroski"
+			"dynn_Lenkovic"
+			"dynn_Mocnik"
+			"dynn_Pustalski"
+			"dynn_Ptujski"
+			"dynn_Rusbachi"
+			"dynn_Strmski"
+			"dynn_Savinjski"
+			"dynn_Turjaski"
+			"dynn_Visnjegorski"
+			"dynn_Vovbrzani"
+			"dynn_Zovneski"
+			"dynn_Zois"
+			"dynn_Zagar"
+			"dynn_Zelko"
 		}
 
 		dynasty_names = {
+			"dynn_Bogenski"
+			"dynn_Breski"
 			"dynn_Celjski"
-			"dynn_Albreht"
-			"dynn_Berger"
-			"dynn_Cater"
-			"dynn_Cufar"
-			"dynn_Dekleva"
-			"dynn_Finzgar"
-			"dynn_Gradisnik"
-			"dynn_Hocevar"
-			"dynn_Hudolin"
-			"dynn_Ingolic"
-			"dynn_Jalen"
-			"dynn_Jancar"
-			"dynn_Karlin"
-			"dynn_Kosmac"
-			"dynn_Kralj"
-			"dynn_Kveder"
-			"dynn_Levstik"
-			"dynn_Mal"
-			"dynn_Pahor"
-			"dynn_Remec"
-			"dynn_Rozanc"
-			"dynn_Seligo"
-			"dynn_Tavcar"
-			"dynn_Trdina"
-			"dynn_Vidmar"
-			"dynn_Zabot"
-			"dynn_Zlobec"
+			"dynn_Crnomaljski"
+			"dynn_Cresnjevec"
+			"dynn_Hadik"
+			"dynn_Izanski"
+			"dynn_Jablaniski"
+			"dynn_Koroski"
+			"dynn_Lenkovic"
+			"dynn_Mocnik"
+			"dynn_Pustalski"
+			"dynn_Ptujski"
+			"dynn_Rusbachi"
+			"dynn_Strmski"
+			"dynn_Savinjski"
+			"dynn_Turjaski"
+			"dynn_Visnjegorski"
+			"dynn_Vovbrzani"
+			"dynn_Zovneski"
+			"dynn_Zois"
+			"dynn_Zagar"
+			"dynn_Zelko"
 		}
 
 		male_names = {
-			Stefan Lazar Djuradj Milosh Djordje Alexa Grgur Petrija Todor Aleksandar Mihailo Milan 
-			Bratislav Darko Dragan Dubravko Dusan Filip Goran Ivan Josif Konstantin Luka Marko Mateja Miroslav 
-			Nebojsa Nemanja Nenad Nikola Pedrag Stanko Toma Vinko Vjekoslav Zdravko Zvonimir
-			Aldimir Asen Berbat Blaz Blaise Boleslav Borna Branimir Budimir Kosmin Danilo Daniel 
-			George Dmitar Dobroslav Dragija Dragos Dragutin Gavrilo Gabriel Godimir
-			Ilija Joseph Josip Jovan John Kasjan Constantine 
-			Ljudevit Marcus Martin Matija Matthew Mihovil Milorad 
-			Mircea Mislav Nikodim Nicodemus Nicholas
-			Ninoslav Petar Peter Porin Prvoslav Radoslav Rastko Ratomir Roman Serapion Simeon 
-			Sinisa Slavko Slobodan Stephen Teodosije Trajan Uros Visarion Vladimir 
-			Vladislav Vlastimir Milutin Krsto Bogdan Branko 
-			Vuk Lupo Vukan Vukasin Vukoman Zoran Simon Mladen
-			Ulrik Friderik Herman Georg Konrad Gebhard Viljem Liutpold Ludvik
-			Hans Jurij Henrik Herbert Jaka Jernej Josip Nikolaj Ozbalt Pavel
+			Andrej Albreht Alojzij Anton Adam Avgust Boris Blaz	Davorin	Etbin Filip Franc Friderik
+			Gregorij Henrik Ivan Igor Ignacij Janez Janko Jernej Jozef Karel Konrad	Lovro Luka Ludvik
+			Marko Matija Milan Oton Peter Primoz Roman Rado Slavoj Simon Stanislav Stanko Stefan
+			Tobija Toma Valentin Vitomil
 		}
 		female_names = {
-			Agata Agatha Barbara Branimira Desislava Dubravka Elena Helen Hicela Jelena Karolina 
-			Lovorka Marija Maria Milka Neda Radica Zdenka Andjela Antonija
-			Bastina Biljana Bistrina Bojana Casna Chasna Dejana Dragana Dragoslava Duga Dusica Gordana 
-			Grana Grubana Jagoda Jovana Jovanka Karika
-			Ljubica Luka Majka Malina Medeni Meki Milinka Miljana Miriti Mirjana Mudary Mudra Nada 
-			Namena Nadanje Keratza Branka Mirna
-			Elizabeta Barbara Anna Katarina
+			Agnes Angela Alenka Helena Izabela Ivana Jozefa	Katarina Katja Margareta Marija Majda Marjanca Terezija
 		}
 		
 		dynasty_of_location_prefix = "dynnp_od"

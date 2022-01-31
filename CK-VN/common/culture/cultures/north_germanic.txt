@@ -1,5 +1,4 @@
-﻿#8
-north_germanic_group = {
+﻿north_germanic_group = {
 	
 	graphical_cultures = {
 		norse_unit_gfx

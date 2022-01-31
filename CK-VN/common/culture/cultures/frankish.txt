@@ -1,5 +1,4 @@
-﻿#4
-frankish_group = {
+﻿frankish_group = {
 	graphical_cultures = {
 		frankish_group_coa_gfx
 		western_coa_gfx

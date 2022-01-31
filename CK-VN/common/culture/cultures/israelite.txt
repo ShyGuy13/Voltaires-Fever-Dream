@@ -1,5 +1,4 @@
-﻿#6
-israelite_group = {
+﻿israelite_group = {
 	
 	graphical_cultures = {
 		israelite_group_coa_gfx
