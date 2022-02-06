@@ -729,8 +729,8 @@
 	culture = hessian
 }
 156 = {
-	name = "dynn_Meinhardiner"
-	culture = slovene
+	name = "dynn_Meinharding"
+	culture = bavarian
 }
 157 = {
 	name = "dynn_Garai"
@@ -1348,7 +1348,9 @@
 	culture = tuscan
 }
 287 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Hohenberg"
+	culture = swabian
 }
 288 = {
 	name = "dynn_Trotti"
@@ -1962,10 +1964,14 @@
 	culture = swabian
 }
 419 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Starhemberg"
+	culture = austrian
 }
 420 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Stixenstein"
+	culture = austrian
 }
 421 = {
 	

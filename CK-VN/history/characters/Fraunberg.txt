@@ -1,0 +1,20 @@
+﻿fraunberg1 = {
+	name = "Hans" #Hans V of Fraunberg
+	dynasty = 176
+	culture = bavarian
+	religion = catholic
+	father = fraunberg2
+	1415.1.1 = {
+		birth = yes
+	}
+}
+
+fraunberg2 = {
+	name = "Hans" #Hans IV of Fraunberg
+	dynasty = 176
+	culture = bavarian
+	religion = catholic
+	1395.1.1 = {
+		birth = yes
+	}
+}

@@ -1,12 +1,199 @@
 wittelsbach1 = {
-	name = "Elisabeth"
+	name = "Elisabeth" #wife of Friedrich I of Brandenburg
 	female = yes
 	dynasty = 190
 	religion = catholic
 	culture = bavarian
 	trait = beauty_good_3
+	father = wittelsbach3
 	1383.1.1 = {
 		birth = yes
 		give_nickname = nick_the_beautiful
+	}
+}
+
+wittelsbach2 = {
+	name = "Heinrich" #Heinrich XVI of Landshut
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	trait = education_stewardship_3
+	trait = vengeful
+	trait = greedy
+	father = wittelsbach3
+	mother = visconti8
+	1386.1.1 = {
+		birth = yes
+		give_nickname = nick_the_rich
+	}
+	1412.11.25 = {
+		add_spouse = habsburg17
+	}
+}
+
+wittelsbach3 = {
+	name = "Friedrich" #Friedrich I of Landshut
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	trait = education_learning_4
+	1339.1.1 = {
+		birth = yes
+		give_nickname = nick_the_wise
+	}
+	1381.9.2 = {
+		add_spouse = visconti8
+	}
+	1393.12.4 = {
+		death = yes
+	}
+}
+
+wittelsbach4 = {
+	name = "Johanna" #wife of Otto I von Pfalz-Mosbach
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach2
+	mother = habsburg17
+	1413.1.1 = {
+		birth = yes
+	}
+}
+
+wittelsbach5 = {
+	name = "Albrecht"
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach2
+	mother = habsburg17
+	1414.1.1 = {
+		birth = yes
+	}
+	1418.1.1 = {
+		death = yes
+	}
+}
+
+wittelsbach6 = {
+	name = "Friedrich"
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach2
+	mother = habsburg17
+	1415.1.1 = {
+		birth = yes
+	}
+	1416.6.7 = {
+		death = yes
+	}
+}
+
+wittelsbach7 = {
+	name = "Ludwig" #Ludwig IX of Landshut
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach2
+	mother = habsburg17
+	1417.2.23 = {
+		birth = yes
+		give_nickname = nick_the_rich
+	}
+}
+
+wittelsbach8 = {
+	name = "Elisabeth" #wife of Ulrich V of Württemberg
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach2
+	mother = habsburg17
+	1419.1.1 = {
+		birth = yes
+	}
+}
+
+wittelsbach8 = {
+	name = "Margarethe"
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	trait = nun
+	father = wittelsbach2
+	mother = habsburg17
+	1420.1.1 = {
+		birth = yes
+	}
+	1435.1.1 = { #fic
+		death = yes
+	}
+}
+
+wittelsbach9 = {
+	name = "Magdalena" #wife of Johann VII of Görz-Kirchberg
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	trait = nun
+	father = wittelsbach3
+	mother = visconti8
+	1388.1.1 = {
+		birth = yes
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+
+wittelsbach10 = {
+	name = "Johann"
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach3
+	mother = visconti8
+	1390.1.1 = {
+		birth = yes
+	}
+	1396.1.1 = {
+		death = yes
+	}
+}
+
+wittelsbach11 = {
+	name = "Margarethe"
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach3
+	mother = visconti8
+	1380.1.1 = { #fic
+		birth = yes
+	}
+	1384.1.1 = {
+		death = yes
+	}
+}
+
+wittelsbach12 = {
+	name = "Elisabeth" #wife of Marco Visconti of Parma
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach3
+	1361.1.1 = {
+		birth = yes
+	}
+	1382.1.17 = {
+		death = yes
 	}
 }

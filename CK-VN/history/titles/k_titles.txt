@@ -1,4 +1,4 @@
-﻿# e_hre = {
+# e_hre = {
 # 	1500.1.1 = {
 # 		holder = 6000000
 # 		government = feudal_government
@@ -919,12 +919,7 @@
 # 		government = feudal_government
 # 	}
 # }
-# c_fermo = {
-# 	1433.12.7 = {
-# 		holder = sforza1
-# 		government = feudal_government
-# 	}
-# }
+
 # c_montolmo = {
 # 	1500.1.1 = {
 # 		holder = 6000000
@@ -11185,12 +11180,7 @@
 # 		government = feudal_government
 # 	}
 # }
-# c_cremona = {
-# 	1500.1.1 = {
-# 		holder = sforza1
-# 		government = feudal_government
-# 	}
-# }
+
 # c_graz = {
 # 	1500.1.1 = {
 # 		holder = 6000000
@@ -16537,12 +16527,13 @@
 # 		government = feudal_government
 # 	}
 # }
-# c_kulmbach = {
-# 	1440.9.21 = {
-# 		holder = hohenzollern1
-# 		government = feudal_government
-# 	}
-# }
+
+
+c_kulmbach = {
+ 	1440.9.21 = {
+ 		holder = hohenzollern8
+	}
+}
 # c_waldenfels = {
 # 	1500.1.1 = {
 # 		holder = 6000000
@@ -16621,12 +16612,12 @@
 # 		government = feudal_government
 # 	}
 # }
-c_pappenheim = {
- 	1439.1.1 = {
-		holder = pappenheim2
- 		government = feudal_government
- 	}
-}
+# c_pappenheim = {
+#  	1439.1.1 = {
+# 		holder = pappenheim2
+#  		government = feudal_government
+#  	}
+# }
 # c_sugenheim = {
 # 	1439.1.1 = {
 # 		holder = pappenheim2
@@ -20906,12 +20897,6 @@ c_pappenheim = {
 # 	}
 # }
 # c_wienerwald = {
-# 	1500.1.1 = {
-# 		holder = 6000000
-# 		government = feudal_government
-# 	}
-# }
-# c_alps6 = {
 # 	1500.1.1 = {
 # 		holder = 6000000
 # 		government = feudal_government

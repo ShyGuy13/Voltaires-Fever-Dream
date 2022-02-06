@@ -46,3 +46,24 @@ house_calenberg = {
 	name = "dynn_Calenberg"
 	dynasty = 84 #von Welf
 }
+
+#House of del Vasto
+house_del_vasto = {
+	prefix = "dynnp_del"
+	name = "dynn_Vasto"
+	dynasty = 123 #Aleramici
+}
+
+#House of Wittelsbach-Pfalz
+house_wittelsbach_pfalz = {
+	prefix = "dynnp_von"
+	name = "dynn_Wittelsbach-Pfalz"
+	dynasty = 190 #Wittelsbach
+}
+
+#House of Braunschweig-Lüneburg
+house_braunschweig_luneburg = {
+	prefix = "dynnp_von"
+	name = "dynn_Braunschweig-Luneburg"
+	dynasty = 84 #von Welf
+}

@@ -16,5 +16,6 @@ celjski2 = {
 	religion = catholic
 	1379.1.17 = {
 		birth = yes
+		set_primary_title_to = title:c_cilli
 	}
 }

@@ -1,0 +1,21 @@
+﻿meinharding1 = {
+	name = "Johann" #Johann II of Görz
+	dynasty = 156
+	culture = tirolian
+	religion = catholic
+	father = meinharding2
+	1438.1.1 = {
+		birth = yes
+	}
+}
+
+meinharding2 = {
+	name = "Johann" #Heinrich IV of Görz
+	dynasty = 156
+	culture = tirolian
+	religion = catholic
+	1375.5.6 = {
+		birth = yes
+		set_primary_title_to = title:c_gorz
+	}
+}

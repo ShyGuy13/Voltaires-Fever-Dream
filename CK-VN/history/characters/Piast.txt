@@ -24,3 +24,17 @@ piast2 = {
 		death = yes
 	}
 }
+
+piast3 = {
+	name = "Cymbarka" #wife of Ernst I of Austria
+	female = yes
+	dynasty = 6
+	religion = catholic
+	culture = polish
+	1394.1.1 = {
+		birth = yes
+	}
+	1429.11.28 = {
+		death = yes
+	}
+}

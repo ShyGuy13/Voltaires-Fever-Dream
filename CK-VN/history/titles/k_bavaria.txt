@@ -1,0 +1,142 @@
+c_pappenheim = {
+	1440.9.21 = {
+ 		holder = pappenheim2
+	}
+}
+
+c_sugenheim = {
+	1440.9.21 = {
+ 		holder = pappenheim2
+	}
+}
+
+c_breitenegg = {
+	1440.9.21 = {
+ 		holder = pappenheim2
+	}
+}
+
+c_parsberg = {
+	1408.1.1 = {
+		holder = parsberg2
+   	}
+}
+
+#Margraviate of Ansbach
+d_ansbach = {
+	1440.9.21 = {
+		holder = hohenzollern1
+	}
+}
+
+c_hohenlohe = {
+	1440.9.21 = {
+		holder = hohenzollern1
+	}
+}
+
+c_ansbach = {
+	1440.9.21 = {
+		holder = hohenzollern1
+	}
+}
+
+c_feuchtwangen = {
+	1440.9.21 = {
+		holder = hohenzollern1
+	}
+}
+
+c_hohentrudingen = {
+	1440.9.21 = {
+		holder = hohenzollern1
+	}
+}
+
+c_stauf = {
+	1440.9.21 = {
+		holder = hohenzollern1
+	}
+}
+
+c_schwabach = {
+	1440.9.21 = {
+		holder = hohenzollern1
+	}
+}
+
+#Prince-Bishopric of Passau
+d_east_bavaria = {
+	1000.1.1 = { government = theocracy_government }
+	1423.7.1 = {
+		holder = laiming1
+	}
+}
+
+c_passau = {
+	1000.1.1 = { government = theocracy_government }
+	1423.7.1 = {
+		holder = laiming1
+	}
+}
+
+c_freyung = {
+	1000.1.1 = { government = theocracy_government }
+	1423.7.1 = {
+		holder = laiming1
+	}
+}
+
+c_wegscheid = {
+	1000.1.1 = { government = theocracy_government }
+	1423.7.1 = {
+		holder = laiming1
+	}
+}
+
+c_obernberg = {
+	1000.1.1 = { government = theocracy_government }
+	1423.7.1 = {
+		holder = laiming1
+	}
+}
+
+c_sankt_polten = {
+	1000.1.1 = { government = theocracy_government }
+	1423.7.1 = {
+		holder = laiming1
+	}
+}
+
+#County of Waldau
+c_waldthurn = {
+	1419.1.1 = {
+		holder = waldau1
+	}
+}
+
+#County of Hohenwaldeck
+c_hohenwaldeck = {
+	1441.11.1 = {
+		holder = hohenwaldeck2
+	}
+}
+
+#Prince-Bishopric of Regensburg
+c_allersburg = {
+	1437.5.18 = {
+		holder = parsberg4
+	}
+}
+
+c_worth = {
+	1437.5.18 = {
+		holder = parsberg4
+	}
+}
+
+c_wiesent = {
+	1437.5.18 = {
+		holder = parsberg4
+	}
+}

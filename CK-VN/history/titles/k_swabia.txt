@@ -1,0 +1,186 @@
+#Vorlande
+c_breisgau = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_burgg = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_frickgau = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_beffert = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_dattenried = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_dammerkirch = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_thann = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_huningen = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_landser = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_ensisheim = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_ingersheim = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_weiler = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_sundgau = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_ortenau = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_kenzingen = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_triberg = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_breitnau = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_sankt_blasien = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_todtnau = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_hauenstein = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_villingen = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_schramberg = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_horb = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_wernau = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_haigerloch = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_krauchenwies = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_hohenberg = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_ehringen = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_saulgau = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_baienfurt = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}
+
+c_herlazhofen = {
+	1440.2.2 = {
+		holder = habsburg2
+	}
+}

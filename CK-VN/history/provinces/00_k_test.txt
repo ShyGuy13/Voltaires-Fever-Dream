@@ -479,17 +479,17 @@
 	holding = castle_holding
 }
 97 = { # c_holland
-	culture = saxon
+	culture = dutch
 	religion = catholic
 	holding = castle_holding
 }
 98 = { # c_utrecht
-	culture = saxon
+	culture = dutch
 	religion = catholic
 	holding = castle_holding
 }
 99 = { # c_gelre
-	culture = saxon
+	culture = dutch
 	religion = catholic
 	holding = castle_holding
 }
@@ -564,7 +564,7 @@
 	holding = castle_holding
 }
 114 = { # c_romagna
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
@@ -814,7 +814,7 @@
 	holding = castle_holding
 }
 164 = { # c_senigallia
-	culture = swiss
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
@@ -829,102 +829,102 @@
 	holding = castle_holding
 }
 167 = { # c_fano
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 168 = { # c_mondavio
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 169 = { # c_fossombrone
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 170 = { # c_pesaro
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 171 = { # c_cagli
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 172 = { # c_castel durante
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 173 = { # c_pratieghi
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 174 = { # c_scavolino
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 175 = { # c_montefeltro
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 176 = { # c_talamello
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 177 = { # c_san marino
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 178 = { # c_rimini
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 179 = { # c_savignano
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 180 = { # c_gatteo
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 181 = { # c_cesena
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 182 = { # c_sarsina
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 183 = { # c_cervia
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 184 = { # c_forlimpopoli
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 185 = { # c_forli
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 186 = { # c_faenza
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
@@ -944,17 +944,17 @@
 	holding = castle_holding
 }
 190 = { # c_cotignola
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 191 = { # c_castel bolognese
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 192 = { # c_imola
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
@@ -964,7 +964,7 @@
 	holding = castle_holding
 }
 194 = { # c_castel del rio
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
@@ -994,7 +994,7 @@
 	holding = castle_holding
 }
 200 = { # c_lugo
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
@@ -1169,22 +1169,22 @@
 	holding = castle_holding
 }
 235 = { # c_bagno
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 236 = { # c_modigliana
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 237 = { # c_marradi
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
 238 = { # c_firenzuola
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }
@@ -4170,8 +4170,8 @@
 }
 835 = { # c_podborany
 	culture = czech
-	religion = catholic
-	holding = utraquist
+	religion = utraquist
+	holding = castle_holding
 }
 836 = { # c_rakovnik
 	culture = czech
@@ -14879,7 +14879,7 @@
 	holding = castle_holding
 }
 2977 = { # c_urbino
-	culture = saxon
+	culture = romagnan
 	religion = catholic
 	holding = castle_holding
 }

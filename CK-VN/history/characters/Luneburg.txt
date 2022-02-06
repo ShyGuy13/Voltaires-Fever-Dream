@@ -1,0 +1,59 @@
+﻿luneburg1 = {
+	name = "Anna" #wife of Friedrich IV von Habsburg of Tirol
+	female = yes
+	dynasty_house = house_braunschweig_luneburg
+	religion = catholic
+	culture = eastphalian
+	1390.1.1 = {
+		birth = yes
+	}
+	1432.8.10 = {
+		death = yes
+	}
+}
+
+luneburg2 = {
+	name = "Friedrich" #Friedrich II of Braunschweig-Lüneburg
+	dynasty_house = house_braunschweig_luneburg
+	religion = catholic
+	culture = eastphalian
+	trait = education_stewardship_3
+	trait = craven
+	trait = humble
+	father = luneburg4
+	1418.1.1 = {
+		birth = yes
+		give_nickname = nick_the_pious
+	}
+	1430.9.14 = {
+		add_spouse = hohenzollern7
+	}
+}
+
+luneburg3 = {
+	name = "Otto" #Otto IV of Braunschweig-Lüneburg
+	dynasty_house = house_braunschweig_luneburg
+	religion = catholic
+	culture = eastphalian
+	trait = education_martial_2
+	trait = greedy
+	trait = compassionate
+	father = luneburg4
+	1400.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_lame
+	}
+}
+
+luneburg4 = {
+	name = "Bernhard" #Otto I of Braunschweig-Lüneburg
+	dynasty_house = house_braunschweig_luneburg
+	religion = catholic
+	culture = eastphalian
+	1358.1.1 = { #fic
+		birth = yes
+	}
+	1434.6.11 = {
+		death = yes
+	}
+}

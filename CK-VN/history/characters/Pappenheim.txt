@@ -1,4 +1,4 @@
-pappenheim1 = { 
+﻿pappenheim1 = { 
 	name = "Wilhelm" #Wilhelm I of Pappenheim
 	dynasty = 3
 	religion = catholic

@@ -17,155 +17,44 @@
 		color = { 0.2 0.8 0.5 }
 
 		cadet_dynasty_names = {
-			"dynn_HrabiS_id"
-			"dynn_Markvartid"
-			"dynn_VI_tkid"
-			"dynn_VrS_ovid"
-			"dynn_Vratislavid"
-			"dynn_Bavorid"
-			"dynn_Harrach"
-			"dynn_Drslavid"
-			"dynn_Hroznatid"
-			"dynn_Z_erotI_nid"
+			"dynn_Jankovsky_z_Vlasimi"
+			"dynn_Chotek"
+			"dynn_Lobkowicz"
+			"dynn_Kutscha"
+			"dynn_Vitkovec"
 			"dynn_Czernin"
-			"dynn_BeneS_id"
-			"dynn_OpavskY__PR_emyslid"
-			{ "dynnp_z" "dynn_Ronova" }
-			{ "dynnp_ze" "dynn_Z_erotI_na" }
-			{ "dynnp_z" "dynn_Kouic" }
-			{ "dynnp_ze" "dynn_PS_ova" }
-			{ "dynnp_z" "dynn_Buzic" }
-			{ "dynnp_z" "dynn_LipE_" }
-			{ "dynnp_z" "dynn_Lichtenburka" }
-			{ "dynnp_z" "dynn_Michalovic" }
-			{ "dynnp_z" "dynn_Lemberka" }
-			{ "dynnp_ze" "dynn_ZvI_R_etic" }
-			{ "dynnp_z" "dynn_Vartmberka" }
-			{ "dynnp_z" "dynn_ValdS_tejna" }
-			{ "dynnp_z" "dynn_BR_ezna" }
-			{ "dynnp_z" "dynn_RoZ_mberka" }
-			{ "dynnp_z" "dynn_Hradce" }
-			{ "dynnp_z" "dynn_Krumlova" }
-			{ "dynnp_z" "dynn_U_stI_" }
-			{ "dynnp_z" "dynn_DubE_" }
-			{ "dynnp_z" "dynn_FalknS_tejna" }
-			{ "dynnp_z" "dynn_LandS_tejna" }
-			{ "dynnp_ze" "dynn_StrA_Z_e" }
-			{ "dynnp_z" "dynn_Lomnice" }
-			{ "dynnp_z" "dynn_Tasova" }
-			{ "dynnp_z" "dynn_KR_iZ_anova" }
-			{ "dynnp_z" "dynn_BeneS_ova" }
-			{ "dynnp_z" "dynn_CvilI_na" }
-			{ "dynnp_z" "dynn_BechyN_e" }
-			{ "dynnp_z" "dynn_Tvorkova" }
-			{ "dynnp_z" "dynn_DE_dic" }
-			{ "dynnp_z" "dynn_KravaR_" }
-			{ "dynnp_z" "dynn_DiviS_ova" }
-			{ "dynnp_z" "dynn_KunS_tA_tu" }
-			{ "dynnp_ze" "dynn_Zbraslavi" }
-			{ "dynnp_z" "dynn_ObR_an" }
-			{ "dynnp_z" "dynn_PernS_tejna" }
-			"dynn_Benedid"
-			"dynn_LichovskY_"
-			{ "dynnp_z" "dynn_Boskovic" }
-			{ "dynnp_ze" "dynn_Sovince" }
-			{ "dynnp_ze" "dynn_SS_vA_benic" }
-			{ "dynnp_z" "dynn_Ojnic" }
-			{ "dynnp_z" "dynn_Hodic" }
-			{ "dynnp_z" "dynn_Drnovic" }
-			{ "dynnp_z" "dynn_VI_ckova" }
-			{ "dynnp_z" "dynn_NeC_tin" }
-			{ "dynnp_z" "dynn_Cimburka" }
-			{ "dynnp_z" "dynn_Homberka" }
-			{ "dynnp_z" "dynn_DonI_na" }
-			{ "dynnp_von" "dynn_Sternberg" }
-			"dynn_Bavor_ze_Strakonic"
-			{ "dynnp_von" "dynn_Harrach" }
+			"dynn_Harrachove"
+			"dynn_Kinsky"
+			{ "dynnp_z" "dynn_Rozmberka" }
+			"dynn_Valdstejn"
+			"dynn_Jeszenszky"
+			"dynn_Premyslovec"
+			{ "dynnp_z" "dynn_Podebrad" }
 		}
 
 		dynasty_names = {
-			"dynn_HrabiS_id"
-			"dynn_Markvartid"
-			"dynn_VI_tkid"
-			"dynn_VrS_ovid"
-			"dynn_Vratislavid"
-			"dynn_Bavorid"
-			"dynn_Harrach"
-			"dynn_Drslavid"
-			"dynn_Hroznatid"
-			"dynn_Z_erotI_nid"
+			"dynn_Jankovsky_z_Vlasimi"
+			"dynn_Chotek"
+			"dynn_Lobkowicz"
+			"dynn_Kutscha"
+			"dynn_Vitkovec"
 			"dynn_Czernin"
-			"dynn_BeneS_id"
-			"dynn_OpavskY__PR_emyslid"
-			{ "dynnp_z" "dynn_Ronova" }
-			{ "dynnp_ze" "dynn_Z_erotI_na" }
-			{ "dynnp_z" "dynn_Kouic" }
-			{ "dynnp_ze" "dynn_PS_ova" }
-			{ "dynnp_z" "dynn_Buzic" }
-			{ "dynnp_z" "dynn_LipE_" }
-			{ "dynnp_z" "dynn_Lichtenburka" }
-			{ "dynnp_z" "dynn_Michalovic" }
-			{ "dynnp_z" "dynn_Lemberka" }
-			{ "dynnp_ze" "dynn_ZvI_R_etic" }
-			{ "dynnp_z" "dynn_Vartmberka" }
-			{ "dynnp_z" "dynn_ValdS_tejna" }
-			{ "dynnp_z" "dynn_BR_ezna" }
-			{ "dynnp_z" "dynn_RoZ_mberka" }
-			{ "dynnp_z" "dynn_Hradce" }
-			{ "dynnp_z" "dynn_Krumlova" }
-			{ "dynnp_z" "dynn_U_stI_" }
-			{ "dynnp_z" "dynn_DubE_" }
-			{ "dynnp_z" "dynn_FalknS_tejna" }
-			{ "dynnp_z" "dynn_LandS_tejna" }
-			{ "dynnp_ze" "dynn_StrA_Z_e" }
-			{ "dynnp_z" "dynn_Lomnice" }
-			{ "dynnp_z" "dynn_Tasova" }
-			{ "dynnp_z" "dynn_KR_iZ_anova" }
-			{ "dynnp_z" "dynn_BeneS_ova" }
-			{ "dynnp_z" "dynn_CvilI_na" }
-			{ "dynnp_z" "dynn_BechyN_e" }
-			{ "dynnp_z" "dynn_Tvorkova" }
-			{ "dynnp_z" "dynn_DE_dic" }
-			{ "dynnp_z" "dynn_KravaR_" }
-			{ "dynnp_z" "dynn_DiviS_ova" }
-			{ "dynnp_z" "dynn_KunS_tA_tu" }
-			{ "dynnp_ze" "dynn_Zbraslavi" }
-			{ "dynnp_z" "dynn_ObR_an" }
-			{ "dynnp_z" "dynn_PernS_tejna" }
-			"dynn_Benedid"
-			"dynn_LichovskY_"
-			{ "dynnp_z" "dynn_Boskovic" }
-			{ "dynnp_ze" "dynn_Sovince" }
-			{ "dynnp_ze" "dynn_SS_vA_benic" }
-			{ "dynnp_z" "dynn_Ojnic" }
-			{ "dynnp_z" "dynn_Hodic" }
-			{ "dynnp_z" "dynn_Drnovic" }
-			{ "dynnp_z" "dynn_VI_ckova" }
-			{ "dynnp_z" "dynn_NeC_tin" }
-			{ "dynnp_z" "dynn_Cimburka" }
-			{ "dynnp_z" "dynn_Homberka" }
-			{ "dynnp_z" "dynn_DonI_na" }
-			{ "dynnp_von" "dynn_Sternberg" }
-			"dynn_Bavor_ze_Strakonic"
-			{ "dynnp_von" "dynn_Harrach" }
+			"dynn_Harrachove"
+			"dynn_Kinsky"
+			{ "dynnp_z" "dynn_Rozmberka" }
+			"dynn_Valdstejn"
+			"dynn_Jeszenszky"
+			"dynn_Premyslovec"
+			{ "dynnp_z" "dynn_Podebrad" }
 		}
 		
 		male_names = {
-			Albrecht ArnoS_t Beneda BeneS_ BedR_ich Bernard BoC_ek Bohuslav BohuS_e Boleslav BoreS_ BoR_ek BoR_ivoj Borut BoZ_ej BoZ_epor
-			BR_etislav Budislav CzernI_n CC_aslav CC_astolov CC_enEE_k CC_esta Chval DamaS_a Dalibor Dalimil DEE_polt DEE_tR_ich DiviS_ DobeS_ Dobromil Domaslav Drslav
-			DrZ_islav Fridrich HaS_ek Havel HenI_k Heralt Heriman HrabiS_e Hroznata Hruta Hynek Jakub Jan JarohnEE_v JaromI_r Jaroslav JaroS_ Jenec JeS_ek JetR_ich
-			Jimram JindR_ich JiR_I_ JiR_I_k JoS_t Karel Kochan Kojata KonrA_d Kuna KunrA_t Letoslav Litolt Lupold Markvart Martin MatouS_ MEE_S_ek
-			Mikul MikulA_S_ Milota Mstidruh Mutina NaC_erat Nadej Nemoj NeuS_a Odolen OjI_R_ OldR_ich OndR_ej Ota Otakar PelhR_im Petr Prech PR_emysl
-			PR_ibyslav Prokop Radosta Rajmund Robert Sezema SlA_vek Slavibor Smil SobEE_slav SpytihnEE_v Strachkvas Svatobor Svatopluk SvEE_tlI_k
-			Tas Tista TobiA_S_ VA_clav Velen VeliS_ VilE_m VI_tek VladimI_r Vladislav VlachnI_k Vnislav VojtEE_ch Vok Vratislav VS_ebor Vznata
-			ZA_viS_ ZA_S_tita ZbynEE_k Zbyslav ZdI_k Zdislav Zikmund
+			Fryderyk Jan Henryk Ludwik Krystian Jerzy Wladislaw Aleksander Andel Cezar Eugeniusz
+			Filip Krzysztof Lech Libor Markus Maurycy Radomir Václav Branko Bruno Tomás 
 		}
 		female_names = {
-			AdlE_ta AlZ_bEE_ta AneZ_ka Anna Barbora BedR_iS_ka Berta BlahomI_ra BlaZ_ena Bohdana Bohumila Bohunka Bohuslava BoZ_ena BoZ_islava BR_etislava
-			CC_astava CecI_lie Ctislava Dobrava Dobromila Dobroslava Domaslava Dorota Doubravka DrahomI_ra Drahoslava EliS_ka Eufemie Gertruda Guta
-			Hedvika Helena Hodka Jana Jaroslava Jitka Johanka Judita Justina KateR_ina KlA_ra Konstancie KristY_na Kunhuta
-			LibuS_e Ludmila Marie MarkE_ta Mlada Olga Perchta PR_ibyslava Radka Rejna Richeza Richsa SS_A_rka Skonka Stanislava Svatava
-			VilemI_na Viola Vladislava Vlasta Vojslava Zdislava Zdenka ZZ_ofie
+			Anezka Eliska Katerina Marie Ludmila Alzbeta Agnieszka Agnes Andela Anna Berta Bohuslava Bozena 
+			Branislava Dagmar Danuta Dobravy
 		}
 		
 		dynasty_of_location_prefix = "dynnp_of"
@@ -186,7 +75,7 @@
 
 	schlesian = {
 		
-		color = { 0.2 0.8 0.5 }
+		color = { 0.3 0.6 0.6 }
 
 		cadet_dynasty_names = {
 			"dynn_HrabiS_id"
@@ -358,7 +247,7 @@
 
 	sorbian = {
 		
-		color = { 0.2 0.8 0.5 }
+		color = { 0.3 0.6 0.4 }
 
 		cadet_dynasty_names = {
 			"dynn_HrabiS_id"
@@ -830,155 +719,33 @@
 		color = { 0.2 0.8 0.5 }
 
 		cadet_dynasty_names = {
-			"dynn_HrabiS_id"
-			"dynn_Markvartid"
-			"dynn_VI_tkid"
-			"dynn_VrS_ovid"
-			"dynn_Vratislavid"
-			"dynn_Bavorid"
-			"dynn_Harrach"
-			"dynn_Drslavid"
-			"dynn_Hroznatid"
-			"dynn_Z_erotI_nid"
-			"dynn_Czernin"
-			"dynn_BeneS_id"
-			"dynn_OpavskY__PR_emyslid"
-			{ "dynnp_z" "dynn_Ronova" }
-			{ "dynnp_ze" "dynn_Z_erotI_na" }
-			{ "dynnp_z" "dynn_Kouic" }
-			{ "dynnp_ze" "dynn_PS_ova" }
-			{ "dynnp_z" "dynn_Buzic" }
-			{ "dynnp_z" "dynn_LipE_" }
-			{ "dynnp_z" "dynn_Lichtenburka" }
-			{ "dynnp_z" "dynn_Michalovic" }
-			{ "dynnp_z" "dynn_Lemberka" }
-			{ "dynnp_ze" "dynn_ZvI_R_etic" }
-			{ "dynnp_z" "dynn_Vartmberka" }
-			{ "dynnp_z" "dynn_ValdS_tejna" }
-			{ "dynnp_z" "dynn_BR_ezna" }
-			{ "dynnp_z" "dynn_RoZ_mberka" }
-			{ "dynnp_z" "dynn_Hradce" }
-			{ "dynnp_z" "dynn_Krumlova" }
-			{ "dynnp_z" "dynn_U_stI_" }
-			{ "dynnp_z" "dynn_DubE_" }
-			{ "dynnp_z" "dynn_FalknS_tejna" }
-			{ "dynnp_z" "dynn_LandS_tejna" }
-			{ "dynnp_ze" "dynn_StrA_Z_e" }
-			{ "dynnp_z" "dynn_Lomnice" }
-			{ "dynnp_z" "dynn_Tasova" }
-			{ "dynnp_z" "dynn_KR_iZ_anova" }
-			{ "dynnp_z" "dynn_BeneS_ova" }
-			{ "dynnp_z" "dynn_CvilI_na" }
-			{ "dynnp_z" "dynn_BechyN_e" }
-			{ "dynnp_z" "dynn_Tvorkova" }
-			{ "dynnp_z" "dynn_DE_dic" }
-			{ "dynnp_z" "dynn_KravaR_" }
-			{ "dynnp_z" "dynn_DiviS_ova" }
-			{ "dynnp_z" "dynn_KunS_tA_tu" }
-			{ "dynnp_ze" "dynn_Zbraslavi" }
-			{ "dynnp_z" "dynn_ObR_an" }
-			{ "dynnp_z" "dynn_PernS_tejna" }
-			"dynn_Benedid"
-			"dynn_LichovskY_"
-			{ "dynnp_z" "dynn_Boskovic" }
-			{ "dynnp_ze" "dynn_Sovince" }
-			{ "dynnp_ze" "dynn_SS_vA_benic" }
-			{ "dynnp_z" "dynn_Ojnic" }
-			{ "dynnp_z" "dynn_Hodic" }
-			{ "dynnp_z" "dynn_Drnovic" }
-			{ "dynnp_z" "dynn_VI_ckova" }
-			{ "dynnp_z" "dynn_NeC_tin" }
-			{ "dynnp_z" "dynn_Cimburka" }
-			{ "dynnp_z" "dynn_Homberka" }
-			{ "dynnp_z" "dynn_DonI_na" }
-			{ "dynnp_von" "dynn_Sternberg" }
-			"dynn_Bavor_ze_Strakonic"
-			{ "dynnp_von" "dynn_Harrach" }
+			"dynn_Zerotin"
+			{ "dynnp_z" "dynn_Kounic" }
+			"dynn_Lichnowsky"
+			{ "dynnp_z" "dynn_Pernstejn" }
+			{ "dynnp_z" "dynn_Nostic" }
+			"dynn_Mojmirovci"
+			"dynn_Petrasch"
 		}
 
 		dynasty_names = {
-			"dynn_HrabiS_id"
-			"dynn_Markvartid"
-			"dynn_VI_tkid"
-			"dynn_VrS_ovid"
-			"dynn_Vratislavid"
-			"dynn_Bavorid"
-			"dynn_Harrach"
-			"dynn_Drslavid"
-			"dynn_Hroznatid"
-			"dynn_Z_erotI_nid"
-			"dynn_Czernin"
-			"dynn_BeneS_id"
-			"dynn_OpavskY__PR_emyslid"
-			{ "dynnp_z" "dynn_Ronova" }
-			{ "dynnp_ze" "dynn_Z_erotI_na" }
-			{ "dynnp_z" "dynn_Kouic" }
-			{ "dynnp_ze" "dynn_PS_ova" }
-			{ "dynnp_z" "dynn_Buzic" }
-			{ "dynnp_z" "dynn_LipE_" }
-			{ "dynnp_z" "dynn_Lichtenburka" }
-			{ "dynnp_z" "dynn_Michalovic" }
-			{ "dynnp_z" "dynn_Lemberka" }
-			{ "dynnp_ze" "dynn_ZvI_R_etic" }
-			{ "dynnp_z" "dynn_Vartmberka" }
-			{ "dynnp_z" "dynn_ValdS_tejna" }
-			{ "dynnp_z" "dynn_BR_ezna" }
-			{ "dynnp_z" "dynn_RoZ_mberka" }
-			{ "dynnp_z" "dynn_Hradce" }
-			{ "dynnp_z" "dynn_Krumlova" }
-			{ "dynnp_z" "dynn_U_stI_" }
-			{ "dynnp_z" "dynn_DubE_" }
-			{ "dynnp_z" "dynn_FalknS_tejna" }
-			{ "dynnp_z" "dynn_LandS_tejna" }
-			{ "dynnp_ze" "dynn_StrA_Z_e" }
-			{ "dynnp_z" "dynn_Lomnice" }
-			{ "dynnp_z" "dynn_Tasova" }
-			{ "dynnp_z" "dynn_KR_iZ_anova" }
-			{ "dynnp_z" "dynn_BeneS_ova" }
-			{ "dynnp_z" "dynn_CvilI_na" }
-			{ "dynnp_z" "dynn_BechyN_e" }
-			{ "dynnp_z" "dynn_Tvorkova" }
-			{ "dynnp_z" "dynn_DE_dic" }
-			{ "dynnp_z" "dynn_KravaR_" }
-			{ "dynnp_z" "dynn_DiviS_ova" }
-			{ "dynnp_z" "dynn_KunS_tA_tu" }
-			{ "dynnp_ze" "dynn_Zbraslavi" }
-			{ "dynnp_z" "dynn_ObR_an" }
-			{ "dynnp_z" "dynn_PernS_tejna" }
-			"dynn_Benedid"
-			"dynn_LichovskY_"
-			{ "dynnp_z" "dynn_Boskovic" }
-			{ "dynnp_ze" "dynn_Sovince" }
-			{ "dynnp_ze" "dynn_SS_vA_benic" }
-			{ "dynnp_z" "dynn_Ojnic" }
-			{ "dynnp_z" "dynn_Hodic" }
-			{ "dynnp_z" "dynn_Drnovic" }
-			{ "dynnp_z" "dynn_VI_ckova" }
-			{ "dynnp_z" "dynn_NeC_tin" }
-			{ "dynnp_z" "dynn_Cimburka" }
-			{ "dynnp_z" "dynn_Homberka" }
-			{ "dynnp_z" "dynn_DonI_na" }
-			{ "dynnp_von" "dynn_Sternberg" }
-			"dynn_Bavor_ze_Strakonic"
-			{ "dynnp_von" "dynn_Harrach" }
+			"dynn_Zerotin"
+			{ "dynnp_z" "dynn_Kounic" }
+			"dynn_Lichnowsky"
+			{ "dynnp_z" "dynn_Pernstejn" }
+			{ "dynnp_z" "dynn_Nostic" }
+			"dynn_Mojmirovci"
+			"dynn_Petrasch"
 		}
 		
 		male_names = {
-			Albrecht ArnoS_t Beneda BeneS_ BedR_ich Bernard BoC_ek Bohuslav BohuS_e Boleslav BoreS_ BoR_ek BoR_ivoj Borut BoZ_ej BoZ_epor
-			BR_etislav Budislav CzernI_n CC_aslav CC_astolov CC_enEE_k CC_esta Chval DamaS_a Dalibor Dalimil DEE_polt DEE_tR_ich DiviS_ DobeS_ Dobromil Domaslav Drslav
-			DrZ_islav Fridrich HaS_ek Havel HenI_k Heralt Heriman HrabiS_e Hroznata Hruta Hynek Jakub Jan JarohnEE_v JaromI_r Jaroslav JaroS_ Jenec JeS_ek JetR_ich
-			Jimram JindR_ich JiR_I_ JiR_I_k JoS_t Karel Kochan Kojata KonrA_d Kuna KunrA_t Letoslav Litolt Lupold Markvart Martin MatouS_ MEE_S_ek
-			Mikul MikulA_S_ Milota Mstidruh Mutina NaC_erat Nadej Nemoj NeuS_a Odolen OjI_R_ OldR_ich OndR_ej Ota Otakar PelhR_im Petr Prech PR_emysl
-			PR_ibyslav Prokop Radosta Rajmund Robert Sezema SlA_vek Slavibor Smil SobEE_slav SpytihnEE_v Strachkvas Svatobor Svatopluk SvEE_tlI_k
-			Tas Tista TobiA_S_ VA_clav Velen VeliS_ VilE_m VI_tek VladimI_r Vladislav VlachnI_k Vnislav VojtEE_ch Vok Vratislav VS_ebor Vznata
-			ZA_viS_ ZA_S_tita ZbynEE_k Zbyslav ZdI_k Zdislav Zikmund
+			Václav Jirí Karel Premysl Zikmund Frantisek Jindrich Josef Bocek
+			Vladislav Vladimír Petr Viktorín Jan Matyáš Ferdinand 
+			Boleslav Vilém Viktor Jaromír Jaroslav Ludvík Otakar
 		}
 		female_names = {
-			AdlE_ta AlZ_bEE_ta AneZ_ka Anna Barbora BedR_iS_ka Berta BlahomI_ra BlaZ_ena Bohdana Bohumila Bohunka Bohuslava BoZ_ena BoZ_islava BR_etislava
-			CC_astava CecI_lie Ctislava Dobrava Dobromila Dobroslava Domaslava Dorota Doubravka DrahomI_ra Drahoslava EliS_ka Eufemie Gertruda Guta
-			Hedvika Helena Hodka Jana Jaroslava Jitka Johanka Judita Justina KateR_ina KlA_ra Konstancie KristY_na Kunhuta
-			LibuS_e Ludmila Marie MarkE_ta Mlada Olga Perchta PR_ibyslava Radka Rejna Richeza Richsa SS_A_rka Skonka Stanislava Svatava
-			VilemI_na Viola Vladislava Vlasta Vojslava Zdislava Zdenka ZZ_ofie
+			Anezka Eliska Katerina Marie Ludmila Alzbeta Agnieszka Agnes Andela Anna Berta Bohuslava Bozena 
+			Branislava Dagmar Danuta Dobravy
 		}
 		
 		dynasty_of_location_prefix = "dynnp_of"
@@ -991,9 +758,7 @@
 		}
 
 		mercenary_names = {
-			{ name = "mercenary_company_freelances_of_brandys" }
-			{ name = "mercenary_company_army_of_the_ore" }
-			{ name = "mercenary_company_company_of_the_cruel_hand" }
+			{ name = "mercenary_company_army_of_morava_bend" }
 		}
 	}
 }

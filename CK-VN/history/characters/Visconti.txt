@@ -54,10 +54,67 @@ visconti4 = {
 	dynasty = 44
 	religion = catholic
 	culture = lombard
-	1388.9.7 = {
+	father = visconti5
+	1351.10.16 = {
 		birth = yes
 	}
-	1412.5.16 = {
+	1402.9.3 = {
+		death = yes
+	}
+}
+
+visconti5 = {
+	name = "Galeazzo" #Galeazzo II Visconti
+	dynasty = 44
+	religion = catholic
+	culture = lombard
+	father = visconti6
+	1320.1.1 = {
+		birth = yes
+	}
+	1378.8.4 = {
+		death = yes
+	}
+}
+
+visconti6 = {
+	name = "Stefano" #Stefano Visconti
+	dynasty = 44
+	religion = catholic
+	culture = lombard
+	1287.1.1 = {
+		birth = yes
+	}
+	1327.7.4 = {
+		death = yes
+	}
+}
+
+visconti7 = {
+	name = "Bernabò" #Bernabò Visconti
+	dynasty = 44
+	religion = catholic
+	culture = lombard
+	father = visconti6
+	1323.1.1 = {
+		birth = yes
+	}
+	1385.12.19 = {
+		death = yes
+	}
+}
+
+visconti8 = {
+	name = "Maddalena" #wife of Friedrich I von Wittelsbach of Landshut
+	female = yes
+	dynasty = 44
+	religion = catholic
+	culture = lombard
+	father = visconti7
+	1366.1.1 = {
+		birth = yes
+	}
+	1404.8.24 = {
 		death = yes
 	}
 }

@@ -12,3 +12,8 @@
 ###########################################################################
 
 
+world_austria = {
+	duchies = {
+		d_inner_austria d_austria_proper
+	}
+}

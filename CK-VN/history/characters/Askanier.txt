@@ -1,4 +1,4 @@
-askanier1 = {
+﻿askanier1 = {
 	name = "Bernhard" #Bernhard VI Askanier, Anhalt-Bernburg
 	dynasty = 5
 	religion = catholic

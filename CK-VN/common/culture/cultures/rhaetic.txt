@@ -90,7 +90,6 @@
 			"dynn_Rampa"
 			"dynn_Zaccon"
 			{ "dynnp_di" "dynn_Monte-Villa" }
-
 		}
 
 		dynasty_names = {

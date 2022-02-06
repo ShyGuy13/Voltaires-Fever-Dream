@@ -23,22 +23,6 @@ k_papal_state = {
 	male_names = { Alexander Anastasius Benedictus Caelestinus Callistus Clemens Eugenius Leo Gregorius Hadrianus Honorius Innocentius Ioannes Lucius Marinus Martinus Nicolaus Sergius Silvester Stephanus Urbanus Victor }
 }
 
-k_switzerland = {
-	color = { 255 80 80 }
-	color2 = { 200 50 50 }
-
-	definite_form = yes
-	
-	capital = c_bern
-}
-
-k_austria = {
-	color = { 240 240 240 }
-	color2 = { 255 255 255 }
-
-	capital = c_wien
-}
-
 # HOLY ORDERS
 
 d_teutonic_order = {

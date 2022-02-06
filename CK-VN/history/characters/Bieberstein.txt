@@ -1,0 +1,9 @@
+﻿bieberstein1 = {
+	name = "Wenzel" #Wenzel II of Sorau
+	dynasty = 31
+	religion = catholic
+	culture = lusatian
+	1420.1.1 = { #fic
+		birth = yes
+	}
+}

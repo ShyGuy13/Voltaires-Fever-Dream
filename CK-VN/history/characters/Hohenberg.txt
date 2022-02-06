@@ -1,0 +1,13 @@
+﻿hohenberg1 = {
+	name = "Gertrud" #wife of Rudolf I of Austria
+	female = yes
+	dynasty = 287
+	religion = catholic
+	culture = swabian
+	1225.1.1 = {
+		birth = yes
+	}
+	1281.2.16 = {
+		death = yes
+	}
+}

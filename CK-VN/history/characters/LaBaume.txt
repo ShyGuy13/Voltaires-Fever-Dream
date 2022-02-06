@@ -1,4 +1,4 @@
-labaume = {
+﻿labaume = {
 	name = "Perceval" #bishop of Belley
 	dynasty = 35
 	culture = savoyard

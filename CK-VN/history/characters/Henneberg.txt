@@ -1,4 +1,4 @@
-henneberg1 = {
+﻿henneberg1 = {
 	name = "Herman" #Herman VII von Henneberg, count of Aschach
 	religion = catholic
 	culture = franconian

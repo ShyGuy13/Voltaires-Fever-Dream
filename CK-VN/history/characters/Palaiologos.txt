@@ -1,0 +1,10 @@
+﻿palaiologos1 = {
+	name = "Isabella" #wife of Ludovico I of Saluzzo
+	female = yes
+	dynasty = 246
+	culture = piedmontese
+	religion = catholic
+	1419.1.1 = {
+		birth = yes
+	}
+}

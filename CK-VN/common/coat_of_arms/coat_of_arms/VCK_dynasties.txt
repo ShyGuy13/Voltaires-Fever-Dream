@@ -1,0 +1,31 @@
+﻿@smErmine = 0.27
+
+8 = { # Hohenzollern
+	pattern = "pattern_checkers_01.dds"
+	color1 = "white"	
+	color2 = "black"	
+}
+
+164 = { # Habsburg
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
+	}
+}
+
+190 = { # Wittelsbach
+	pattern = "pattern_solid.dds"	
+	color1 = "blue"
+	color2 = "yellow"	
+	colored_emblem = {
+		texture = "ce_fess_dancetty.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
+	}	
+}

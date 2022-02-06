@@ -1,0 +1,107 @@
+c_berlin = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_potsdam = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_ziebingen = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_sternberg = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_drossen = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_zielenzig = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_sonnenburg = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_konigswalde = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_mullrose = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_lietzen = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_golzow = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_muncheberg = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_wriezen = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_rudersdorf = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_strausberg = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_eberswalde = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_altlandsberg = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_bernau = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}

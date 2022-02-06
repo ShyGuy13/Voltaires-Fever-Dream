@@ -25,6 +25,7 @@ hohenzollern2 = {
 	dynasty = 8
 	religion = catholic
 	culture = markish
+	father = hohenzollern16
 	1371.1.1 = {
 		birth = yes
 	}
@@ -92,7 +93,7 @@ hohenzollern6 = {
 }
 
 hohenzollern7 = {
-	name = "Magdalena"
+	name = "Magdalena" #wife of Friedrich II of Braunschweig-Lüneburg
 	female = yes
 	dynasty = 8
 	religion = catholic
@@ -216,5 +217,33 @@ hohenzollern15 = {
 	mother = askanier2
 	1430.1.1 = {
 		birth = yes
+	}
+}
+
+hohenzollern16 = {
+	name = "Friedrich" #Friedrich V of Nuremberg
+	dynasty = 8
+	religion = catholic
+	culture = franconian
+	1333.1.1 = {
+		birth = yes
+	}
+	1398.1.21 = {
+		death = yes
+	}
+}
+
+hohenzollern17 = {
+	name = "Beatrix" #wife of Albrecht III of Austria
+	female = yes
+	dynasty = 8
+	religion = catholic
+	culture = franconian
+	father = hohenzollern16
+	1355.1.1 = {
+		birth = yes
+	}
+	1414.6.10 = {
+		death = yes
 	}
 }

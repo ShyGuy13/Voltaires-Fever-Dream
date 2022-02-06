@@ -1,0 +1,20 @@
+﻿hohenwaldeck1 = {
+	name = "Wolfgang" #Wolfgang I von Hohenwaldeck
+	dynasty = 186
+	culture = bavarian
+	religion = catholic
+	father = hohenwaldeck2
+	1430.1.1 = {
+		birth = yes
+	}
+}
+
+hohenwaldeck2 = {
+	name = "Georg" #Georg III von Hohenwaldeck
+	dynasty = 186
+	culture = bavarian
+	religion = catholic
+	1401.1.1 = {
+		birth = yes
+	}
+}

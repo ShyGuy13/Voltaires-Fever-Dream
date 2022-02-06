@@ -1,5 +1,5 @@
 ﻿arenberg1 = {
-	name = "Eberhard" #Eberhard III von der Mark, son of Johann I 
+	name = "Eberhard" #Eberhard III von der Mark
 	dynasty_house = house_arenberg
 	culture = rhenish
 	religion = catholic
@@ -10,7 +10,7 @@
 }
 
 arenberg2 = {
-	name = "Johann" #Johann I von der Mark, count of Arenberg
+	name = "Johann" #Johann I von der Mark of Arenberg
 	dynasty_house = house_arenberg
 	culture = rhenish
 	religion = catholic

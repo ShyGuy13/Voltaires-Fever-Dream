@@ -1,0 +1,9 @@
+﻿walsee1 = {
+	name = "Reinprecht" # Reinprecht IV of Walsee
+	dynasty = 92
+	culture = tirolian
+	religion = catholic
+	1406.1.1 = {
+		birth = yes
+	}
+}

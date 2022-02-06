@@ -1,4 +1,4 @@
-montfaucon1 = {
+﻿montfaucon1 = {
 	name = "Jeanne" #Wife of Louis II de Chalon-Arlay
 	female = yes
 	dynasty = 13

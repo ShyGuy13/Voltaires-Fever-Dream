@@ -10,3 +10,18 @@
 		add_spouse = hohenzollern12
 	}
 }
+
+gryfic2 = {
+	name = "Margarethe" #wife of Ernst I of Austria
+	female = yes
+	dynasty = 60
+	culture = pommeranian
+	religion = catholic
+	1366.1.1 = {
+		birth = yes
+	}
+	1407.4.30 = {
+		death = yes
+	}
+}
+

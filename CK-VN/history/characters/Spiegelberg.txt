@@ -1,0 +1,9 @@
+﻿spiegelberg1 = {
+	name = "Johann" #Johann II von Spiegelberg
+	dynasty = 354
+	religion = catholic
+	culture = eastphalian
+	1421.1.1 = {
+		birth = yes
+	}
+}

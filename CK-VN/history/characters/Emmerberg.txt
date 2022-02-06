@@ -1,0 +1,10 @@
+﻿emmerberg1 = {
+	name = "Friedrich" #Prince-Bishop Friedrich IV of Salzburg
+	dynasty = 348
+	culture = tirolian
+	religion = catholic
+	trait = craven
+	1400.1.1 = { #fic
+		birth = yes
+	}
+}
