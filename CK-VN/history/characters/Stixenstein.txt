@@ -1,9 +1,0 @@
-stixenstein1 = { 
-	name = "Ferdinand" #fic
-	dynasty = 420
-	culture = austrian
-	religion = catholic
-	1400.1.1 = {
-		birth = yes
-	}
-}

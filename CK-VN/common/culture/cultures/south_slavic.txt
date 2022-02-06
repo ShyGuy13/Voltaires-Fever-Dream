@@ -195,9 +195,6 @@
 		
 		dynasty_of_location_prefix = "dynnp_od"
 
-		patronym_suffix_male = "dynnpat_suf_iC_"
-		always_use_patronym = yes
-
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 40
 		mat_grf_name_chance = 10

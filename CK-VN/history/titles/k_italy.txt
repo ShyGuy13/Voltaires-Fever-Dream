@@ -1,13 +1,11 @@
 c_fermo = {
 	1433.12.7 = {
 		holder = sforza1
-		government = feudal_government
 	}
 }
 
 c_cremona = {
 	1433.12.7 = {
 		holder = sforza1
-		government = feudal_government
 	}
 }

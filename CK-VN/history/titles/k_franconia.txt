@@ -1,0 +1,98 @@
+#Prince-Bishopric of Bamberg
+c_bamberg = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}
+
+c_tarviso = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}
+
+c_griffen = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}
+
+c_wolfsberg = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}
+
+c_bleiburg = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}
+
+c_windischgarsten = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}
+
+c_kirchdorf = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}
+
+c_hochstadt = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}
+
+c_forchheim = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}
+
+c_vilseck = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}
+
+c_staffelstein = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}
+
+c_lichtenfels = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}
+
+c_kronach = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}
+
+c_oberkaernten = {
+	1000.1.1 = { government = theocracy_government }
+	1431.9.1 = {
+		holder = rotenhan1
+	}
+}

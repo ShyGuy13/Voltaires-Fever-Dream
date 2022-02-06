@@ -1,0 +1,9 @@
+﻿rotenhan1 = {
+	name = "Anton" #Prince-Bishop Anton of Bamberg
+	dynasty = 19
+	culture = franconian
+	religion = catholic
+	1390.1.1 = {
+		birth = yes
+	}
+}

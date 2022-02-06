@@ -140,3 +140,60 @@ c_wiesent = {
 		holder = parsberg4
 	}
 }
+
+#Prince-Bishopric of Freising
+c_innichen = {
+	1000.1.1 = { government = theocracy_government }
+	1421.12.13 = {
+		holder = scala1
+	}
+}
+
+c_oberwolz = {
+	1000.1.1 = { government = theocracy_government }
+	1421.12.13 = {
+		holder = scala1
+	}
+}
+
+c_skofja_loka = {
+	1000.1.1 = { government = theocracy_government }
+	1421.12.13 = {
+		holder = scala1
+	}
+}
+
+c_waidhofen = {
+	1000.1.1 = { government = theocracy_government }
+	1421.12.13 = {
+		holder = scala1
+	}
+}
+
+c_enzersdorf = {
+	1000.1.1 = { government = theocracy_government }
+	1421.12.13 = {
+		holder = scala1
+	}
+}
+
+c_werdenfels = {
+	1000.1.1 = { government = theocracy_government }
+	1421.12.13 = {
+		holder = scala1
+	}
+}
+
+c_burgraun = {
+	1000.1.1 = { government = theocracy_government }
+	1421.12.13 = {
+		holder = scala1
+	}
+}
+
+c_freising = {
+	1000.1.1 = { government = theocracy_government }
+	1421.12.13 = {
+		holder = scala1
+	}
+}

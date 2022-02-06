@@ -18,9 +18,7 @@
 		birth = yes
 	}
 	1441.1.1 = {
-		effect = {
-			create_betrothal = character:visconti1 # marriage in 1441.10.24
-		}
+		add_spouse = visconti1 # marriage in 1441.10.24
 	}
 }
 

@@ -5196,7 +5196,7 @@
 1040 = { # c_friedau
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = none #temple
 }
 1041 = { # c_luttenberg
 	culture = saxon
@@ -5611,27 +5611,27 @@
 1123 = { # c_wiener neustadt
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = castle_holding #city
 }
 1124 = { # c_neunkirchen
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 1125 = { # c_puchberg
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = none #castle
 }
 1126 = { # c_starhemberg
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = none #castle
 }
 1127 = { # c_leobersdorf
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = none #city
 }
 1128 = { # c_modling
 	culture = austrian
@@ -5641,17 +5641,17 @@
 1129 = { # c_hainburg
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = none #castle
 }
 1130 = { # c_ganserndorf
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = none #city
 }
 1131 = { # c_zistersdorf
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = none #city
 }
 1132 = { # c_mistelbach
 	culture = austrian
@@ -5666,17 +5666,17 @@
 1134 = { # c_korneuburg
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 1135 = { # c_tulln
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = temple_holding
 }
 1136 = { # c_hollabrunn
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = none #city
 }
 1137 = { # c_retz
 	culture = austrian
@@ -5806,22 +5806,22 @@
 1162 = { # c_wels
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = none #city
 }
 1163 = { # c_gmunden
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 1164 = { # c_vocklabruck
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = none #city
 }
 1165 = { # c_grieskirchen
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = temple_holding #Saint Nikola
 }
 1166 = { # c_scharding
 	culture = saxon
@@ -5846,7 +5846,7 @@
 1170 = { # c_enzersdorf
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = none #city
 }
 1171 = { # c_lipno
 	culture = austrian
@@ -6096,7 +6096,7 @@
 1220 = { # c_spannberg
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = none #city
 }
 1221 = { # c_sankt pankraz
 	culture = austrian

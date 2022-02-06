@@ -1969,9 +1969,7 @@
 	culture = austrian
 }
 420 = {
-	prefix = "dynnp_von"
-	name = "dynn_Stixenstein"
-	culture = austrian
+	
 }
 421 = {
 	

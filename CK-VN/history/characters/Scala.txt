@@ -1,0 +1,9 @@
+﻿scala1 = {
+	name = "Nikodemus" #Prince-Bishop Nikodemus I pf Freising
+	dynasty = 131
+	culture = venetian
+	religion = catholic
+	1380.1.1 = { #fic
+		birth = yes
+	}
+}
