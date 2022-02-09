@@ -10,12 +10,13 @@
 }
 
 meinharding2 = {
-	name = "Johann" #Heinrich IV of Görz
+	name = "Heinrich" #Heinrich IV of Görz
 	dynasty = 156
 	culture = tirolian
 	religion = catholic
+	trait = drunkard
+	trait = reveler_2
 	1375.5.6 = {
 		birth = yes
-		set_primary_title_to = title:c_gorz
 	}
 }

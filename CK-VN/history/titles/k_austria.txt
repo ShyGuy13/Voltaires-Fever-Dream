@@ -42,8 +42,254 @@ c_austria_proper = {
 	}
 }
 
+c_weinviertel = {
+	1330.1.13 = {
+		holder = habsburg16
+	}
+	1358.8.16 = {
+		holder = habsburg28
+	}
+	1365.7.27 = {
+		holder = habsburg15
+	}
+	1395.8.29 = {
+		holder = habsburg14
+	}
+	1404.9.14 = {
+		holder = habsburg13
+	}
+	1439.10.27 = {
+		holder = habsburg1
+	}
+}
+
+c_pingau = {
+	1330.1.13 = {
+		holder = habsburg16
+	}
+	1358.8.16 = {
+		holder = habsburg28
+	}
+	1365.7.27 = {
+		holder = habsburg15
+	}
+	1395.8.29 = {
+		holder = habsburg14
+	}
+	1404.9.14 = {
+		holder = habsburg13
+	}
+	1439.10.27 = {
+		holder = habsburg1
+	}
+}
+
+c_traungau = {
+	1330.1.13 = {
+		holder = habsburg16
+	}
+	1358.8.16 = {
+		holder = habsburg28
+	}
+	1365.7.27 = {
+		holder = habsburg15
+	}
+	1395.8.29 = {
+		holder = habsburg14
+	}
+	1404.9.14 = {
+		holder = habsburg13
+	}
+	1439.10.27 = {
+		holder = habsburg1
+	}
+}
+
+c_kremsland = {
+	1330.1.13 = {
+		holder = habsburg16
+	}
+	1358.8.16 = {
+		holder = habsburg28
+	}
+	1365.7.27 = {
+		holder = habsburg15
+	}
+	1395.8.29 = {
+		holder = habsburg14
+	}
+	1404.9.14 = {
+		holder = habsburg13
+	}
+	1439.10.27 = {
+		holder = habsburg1
+	}
+}
+
+c_waldviertel = {
+	1330.1.13 = {
+		holder = habsburg16
+	}
+	1358.8.16 = {
+		holder = habsburg28
+	}
+	1365.7.27 = {
+		holder = habsburg15
+	}
+	1395.8.29 = {
+		holder = habsburg14
+	}
+	1404.9.14 = {
+		holder = habsburg13
+	}
+	1439.10.27 = {
+		holder = habsburg1
+	}
+}
+
+c_pitten = {
+	1330.1.13 = {
+		holder = habsburg16
+	}
+	1358.8.16 = {
+		holder = habsburg28
+	}
+	1365.7.27 = {
+		holder = habsburg15
+	}
+	1395.8.29 = {
+		holder = habsburg14
+	}
+	1404.9.14 = {
+		holder = habsburg13
+	}
+	1439.10.27 = {
+		holder = habsburg1
+	}
+}
+
+c_ostmark = {
+	1330.1.13 = {
+		holder = habsburg16
+	}
+	1358.8.16 = {
+		holder = habsburg28
+	}
+	1365.7.27 = {
+		holder = habsburg15
+	}
+	1395.8.29 = {
+		holder = habsburg14
+	}
+	1404.9.14 = {
+		holder = habsburg13
+	}
+	1439.10.27 = {
+		holder = habsburg1
+	}
+}
+
+c_muhlviertel = {
+	1330.1.13 = {
+		holder = habsburg16
+	}
+	1358.8.16 = {
+		holder = habsburg28
+	}
+	1365.7.27 = {
+		holder = habsburg15
+	}
+	1395.8.29 = {
+		holder = habsburg14
+	}
+	1404.9.14 = {
+		holder = habsburg13
+	}
+	1439.10.27 = {
+		holder = habsburg1
+	}
+}
+
+c_mostviertel = {
+	1330.1.13 = {
+		holder = habsburg16
+	}
+	1358.8.16 = {
+		holder = habsburg28
+	}
+	1365.7.27 = {
+		holder = habsburg15
+	}
+	1395.8.29 = {
+		holder = habsburg14
+	}
+	1404.9.14 = {
+		holder = habsburg13
+	}
+	1439.10.27 = {
+		holder = habsburg1
+	}
+}
+
+c_vorland = {
+	1330.1.13 = {
+		holder = habsburg16
+	}
+	1358.8.16 = {
+		holder = habsburg28
+	}
+	1365.7.27 = {
+		holder = habsburg15
+	}
+	1395.8.29 = {
+		holder = habsburg14
+	}
+	1404.9.14 = {
+		holder = habsburg13
+	}
+	1439.10.27 = {
+		holder = habsburg1
+	}
+}
+
+c_waidhofen = {
+	1330.1.13 = {
+		holder = habsburg16
+	}
+	1358.8.16 = {
+		holder = habsburg28
+	}
+	1365.7.27 = {
+		holder = habsburg15
+	}
+	1395.8.29 = {
+		holder = habsburg14
+	}
+	1404.9.14 = {
+		holder = habsburg13
+	}
+	1439.10.27 = {
+		holder = habsburg1
+	}
+}
+
 #Duchy of Styria
 d_inner_austria = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+d_carinthia = {
 	1379.9.25 = {
 		holder = habsburg8
 	}
@@ -73,6 +319,201 @@ c_inner_austria = {
 	}
 }
 
+c_murau = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+c_spittal = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+c_judenberg = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+c_murztal = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+c_ennstal = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+c_ljubljana = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+c_carinthia = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+c_litija = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+c_jauntal = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+c_klagenfurt = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+c_leibnitz = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+c_irdning = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+c_pazin = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
 #Schaunberg
 c_schaunberg = {
 	1419.1.1 = {
@@ -88,7 +529,14 @@ c_pettau = {
 }
 
 #Prince-Bishopric of Brixen
-d_brixen = {
+#d_brixen = {
+#	1000.1.1 = { government = theocracy_government }
+#	1437.8.28 = {
+#		holder = stubai1
+#	}
+#}
+
+c_brixen = {
 	1000.1.1 = { government = theocracy_government }
 	1437.8.28 = {
 		holder = stubai1
@@ -137,6 +585,18 @@ c_cilli = {
 	}
 }
 
+c_hermagor = {
+	1435.1.17 = {
+		holder = celjski2
+	}
+}
+
+c_metlika = {
+	1435.1.17 = {
+		holder = celjski2
+	}
+}
+
 #County of Walsee
 # c_duino = {
 # 	1423.1.1 = {
@@ -144,82 +604,62 @@ c_cilli = {
 # 	}
 # }
 
-#County of Görz
-# c_codroipo = {
-# 	1385.5.6 = {
-# 		holder = meinharding2
-# 	}
-# }
+#County of Gorizia
+c_gorizia = {
+	1385.5.6 = {
+		holder = meinharding2
+	}
+}
 
-# c_ajdovscina = {
-# 	1385.5.6 = {
-# 		holder = meinharding2
-# 	}
-# }
+c_bruneck = {
+	1385.5.6 = {
+		holder = meinharding2
+	}
+}
 
-# c_divaca = {
-# 	1385.5.6 = {
-# 		holder = meinharding2
-# 	}
-# }
-
-# c_uttenheim = {
-# 	1385.5.6 = {
-# 		holder = meinharding2
-# 	}
-# }
-
-# c_luggau = {
-# 	1385.5.6 = {
-# 		holder = meinharding2
-# 	}
-# }
-
-# c_mortschach = {
-# 	1385.5.6 = {
-# 		holder = meinharding2
-# 	}
-# }
-
-# c_hermagor = {
-# 	1385.5.6 = {
-# 		holder = meinharding2
-# 	}
-# }
-
-# c_greifenburg = {
-# 	1385.5.6 = {
-# 		holder = meinharding2
-# 	}
-# }
-
-# c_obervellach = {
-# 	1385.5.6 = {
-# 		holder = meinharding2
-# 	}
-# }
-
-# c_lienz = {
-# 	1385.5.6 = {
-# 		holder = meinharding2
-# 	}
-# }
-
-c_gorz = {
+c_lienz = {
 	1385.5.6 = {
 		holder = meinharding2
 	}
 }
 
 #Prince-Bishopric of Salzburg
-d_salzburggau = {
+c_salzburggau = {
 	1000.1.1 = { government = theocracy_government }
 	1441.1.1 = {
 		holder = emmerberg1
 	}
 }
 
-c_salzburg = {
+c_lungau = {
+	1000.1.1 = { government = theocracy_government }
+	1441.1.1 = {
+		holder = emmerberg1
+	}
+}
+
+c_pongau = {
+	1000.1.1 = { government = theocracy_government }
+	1441.1.1 = {
+		holder = emmerberg1
+	}
+}
+
+c_pinzgau = {
+	1000.1.1 = { government = theocracy_government }
+	1441.1.1 = {
+		holder = emmerberg1
+	}
+}
+
+c_traismauer = {
+	1000.1.1 = { government = theocracy_government }
+	1441.1.1 = {
+		holder = emmerberg1
+	}
+}
+
+c_friesach = {
 	1000.1.1 = { government = theocracy_government }
 	1441.1.1 = {
 		holder = emmerberg1
@@ -303,13 +743,6 @@ c_taxenbach = {
 	}
 }
 
-c_pinzgau = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
 c_saalfelden = {
 	1000.1.1 = { government = theocracy_government }
 	1441.1.1 = {
@@ -367,13 +800,6 @@ c_zillertal = {
 }
 
 c_windautal = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_traismauer = {
 	1000.1.1 = { government = theocracy_government }
 	1441.1.1 = {
 		holder = emmerberg1

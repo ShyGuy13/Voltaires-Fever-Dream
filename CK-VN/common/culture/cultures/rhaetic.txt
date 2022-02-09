@@ -1,208 +1,86 @@
-﻿rhaetic_group = {
-	graphical_cultures = {
-		latin_group_coa_gfx
-		western_coa_gfx
-		mediterranean_building_gfx
-		western_clothing_gfx
-		western_unit_gfx
+﻿friulian = {
+	color = italian
+
+	parents = { roman }
+
+	created = 476.11.4
+	
+	ethos = ethos_spiritual
+	heritage = heritage_rhaetic
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_formation_fighting
+		tradition_republican_legacy
+		tradition_poetry
 	}
 	
-	ladin = {
-		
-		color = { 0.45 0.0 0.0 }
-
-		cadet_dynasty_names = {
-			"dynn_Ribi"
-			"dynn_Madruzzo"
-			"dynn_Zeno"
-			"dynn_Moroder"
-			{ "dynnp_di" "dynn_Enno" }
-			{ "dynnp_di" "dynn_Bonporto" }
-			{ "dynnp_de" "dynn_Mul" }
-			{ "dynnp_de" "dynn_Net" }
-			{ "dynnp_de" "dynn_Ru" }
-		}
-
-		dynasty_names = {
-			"dynn_Ribi"
-			"dynn_Madruzzo"
-			"dynn_Zeno"
-			"dynn_Moroder"
-			{ "dynnp_di" "dynn_Enno" }
-			{ "dynnp_di" "dynn_Bonporto" }
-			{ "dynnp_de" "dynn_Mul" }
-			{ "dynnp_de" "dynn_Net" }
-			{ "dynnp_de" "dynn_Ru" }
-		}
-
-		male_names = {
-			Alexandru Valentin Victorin Petrica Viturin Rapoto Andrin Cosmin
-			Mattia Flurin Maurus Uorsin Fadri Ionut Liviu Mihal Clario
-			Franceschi Jacum Lissandri Michelagnul Pieri Tuone Zirolamo
-		}
-		female_names = {
-			Agnabella Adelca Anute Biatris Madlaina Ottavia Teigra Ioana
-			Crestina Marila Mira Miria Mirvana Neva Oderica
-		}
-
-		dynasty_of_location_prefix = "dynnp_di"
-
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 25
-		mat_grf_name_chance = 5
-		father_name_chance = 40
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 5
-		mother_name_chance = 25
-
-		ethnicities = {
-			10 = mediterranean
-		}
-
-		mercenary_names = {
-			{ name = "mercenary_company_condottiere_band" }
-		}
+	name_list = name_list_italian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
 	}
+}
 
-	romansh = {
-		
-		color = { 0.8 0.4 0.0 }
+romansh = {
+	color = italian
 
-		cadet_dynasty_names = {
-			"dynn_Accola"
-			"dynn_Battaglia"
-			"dynn_Bazzell"
-			"dynn_Bossi"
-			"dynn_Cadruvi"
-			"dynn_Caduff"
-			"dynn_Camenisch"
-			"dynn_Caminada"
-			"dynn_Capeder"
-			"dynn_Corsin"
-			"dynn_Decurtins"
-			"dynn_Derungs"
-			"dynn_Menduri"
-			"dynn_Naso"
-			"dynn_Planta"
-			"dynn_Porta"
-			"dynn_Rampa"
-			"dynn_Zaccon"
-			{ "dynnp_di" "dynn_Monte-Villa" }
-		}
+	parents = { roman }
 
-		dynasty_names = {
-			"dynn_Accola"
-			"dynn_Battaglia"
-			"dynn_Bazzell"
-			"dynn_Bossi"
-			"dynn_Cadruvi"
-			"dynn_Caduff"
-			"dynn_Camenisch"
-			"dynn_Caminada"
-			"dynn_Capeder"
-			"dynn_Corsin"
-			"dynn_Decurtins"
-			"dynn_Derungs"
-			"dynn_Menduri"
-			"dynn_Naso"
-			"dynn_Planta"
-			"dynn_Porta"
-			"dynn_Rampa"
-			"dynn_Zaccon"
-			{ "dynnp_di" "dynn_Monte-Villa" }
-		}
-
-		male_names = {
-			Alexandru Valentin Victorin Petrica Viturin Rapoto Andrin Cosmin
-			Mattia Flurin Maurus Uorsin Fadri Ionut Liviu Mihal Clario
-			Franceschi Jacum Lissandri Michelagnul Pieri Tuone Zirolamo
-		}
-		female_names = {
-			Agnabella Adelca Anute Biatris Madlaina Ottavia Teigra Ioana
-			Crestina Marila Mira Miria Mirvana Neva Oderica
-		}
-
-		dynasty_of_location_prefix = "dynnp_di"
-
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 25
-		mat_grf_name_chance = 5
-		father_name_chance = 40
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 5
-		mother_name_chance = 25
-
-		ethnicities = {
-			10 = mediterranean
-		}
-
-		mercenary_names = {
-			{ name = "mercenary_company_condottiere_band" }
-		}
+	created = 476.11.4
+	
+	ethos = ethos_spiritual
+	heritage = heritage_rhaetic
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_formation_fighting
+		tradition_republican_legacy
+		tradition_poetry
 	}
+	
+	name_list = name_list_italian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}
 
-	friulan = {
-		
-		color = { 0.6 0.3 0.0 }
+ladin = {
+	color = italian
 
-		cadet_dynasty_names = {
-			"dynn_Primiero"
-			"dynn_Panciera"
-			"dynn_Gerra"
-			"dynn_Barbarigo"
-			"dynn_Gradenigo"
-			"dynn_Grimani"
-			{ "dynnp_di" "dynn_Montelongo" }
-			{ "dynnp_di" "dynn_San_Genesio" }
-			{ "dynnp_di" "dynn_Razzi" }
-			{ "dynnp_di" "dynn_Villalta" }
-		}
+	parents = { roman }
 
-		dynasty_names = {
-			"dynn_Primiero"
-			"dynn_Panciera"
-			"dynn_Gerra"
-			"dynn_Barbarigo"
-			"dynn_Gradenigo"
-			"dynn_Grimani"
-			{ "dynnp_di" "dynn_Montelongo" }
-			{ "dynnp_di" "dynn_San_Genesio" }
-			{ "dynnp_di" "dynn_Razzi" }
-			{ "dynnp_di" "dynn_Villalta" }
-		}
-
-		male_names = {
-			Alexandru Valentin Victorin Petrica Viturin Rapoto Andrin Cosmin
-			Mattia Flurin Maurus Uorsin Fadri Ionut Liviu Mihal Clario
-			Franceschi Jacum Lissandri Michelagnul Pieri Tuone Zirolamo
-		}
-		female_names = {
-			Agnabella Adelca Anute Biatris Madlaina Ottavia Teigra Ioana
-			Crestina Marila Mira Miria Mirvana Neva Oderica
-		}
-
-		dynasty_of_location_prefix = "dynnp_di"
-
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 25
-		mat_grf_name_chance = 5
-		father_name_chance = 40
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 5
-		mother_name_chance = 25
-
-		ethnicities = {
-			10 = mediterranean
-		}
-
-		mercenary_names = {
-			{ name = "mercenary_company_condottiere_band" }
-		}
+	created = 476.11.4
+	
+	ethos = ethos_spiritual
+	heritage = heritage_rhaetic
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_formation_fighting
+		tradition_republican_legacy
+		tradition_poetry
+	}
+	
+	name_list = name_list_italian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
 	}
 }

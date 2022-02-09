@@ -1,0 +1,78 @@
+﻿name_list_czech = {
+	cadet_dynasty_names = {
+		"dynn_Jankovsky_z_Vlasimi"
+		"dynn_Chotek"
+		"dynn_Lobkowicz"
+		"dynn_Kutscha"
+		"dynn_Vitkovec"
+		"dynn_Czernin"
+		"dynn_Harrachove"
+		"dynn_Kinsky"
+		{ "dynnp_z" "dynn_Rozmberka" }
+		"dynn_Valdstejn"
+		"dynn_Jeszenszky"
+		"dynn_Premyslovec"
+		{ "dynnp_z" "dynn_Podebrad" }
+	}
+
+	dynasty_names = {
+		"dynn_Jankovsky_z_Vlasimi"
+		"dynn_Chotek"
+		"dynn_Lobkowicz"
+		"dynn_Kutscha"
+		"dynn_Vitkovec"
+		"dynn_Czernin"
+		"dynn_Harrachove"
+		"dynn_Kinsky"
+		{ "dynnp_z" "dynn_Rozmberka" }
+		"dynn_Valdstejn"
+		"dynn_Jeszenszky"
+		"dynn_Premyslovec"
+		{ "dynnp_z" "dynn_Podebrad" }
+	}
+	
+	male_names = {
+		Fryderyk Jan Henryk Ludwik Krystian Jerzy Wladislaw Aleksander Andel Cezar Eugeniusz
+		Filip Krzysztof Lech Libor Markus Maurycy Radomir Václav Branko Bruno Tomás 
+	}
+	female_names = {
+		Anezka Eliska Katerina Marie Ludmila Alzbeta Agnieszka Agnes Andela Anna Berta Bohuslava Bozena 
+		Branislava Dagmar Danuta Dobravy
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+}
+
+name_list_moravian = {
+	cadet_dynasty_names = {
+		"dynn_Zerotin"
+		{ "dynnp_z" "dynn_Kounic" }
+		"dynn_Lichnowsky"
+		{ "dynnp_z" "dynn_Pernstejn" }
+		{ "dynnp_z" "dynn_Nostic" }
+		"dynn_Mojmirovci"
+		"dynn_Petrasch"
+	}
+
+	dynasty_names = {
+		"dynn_Zerotin"
+		{ "dynnp_z" "dynn_Kounic" }
+		"dynn_Lichnowsky"
+		{ "dynnp_z" "dynn_Pernstejn" }
+		{ "dynnp_z" "dynn_Nostic" }
+		"dynn_Mojmirovci"
+		"dynn_Petrasch"
+	}
+	
+	male_names = {
+		Václav Jirí Karel Premysl Zikmund Frantisek Jindrich Josef Bocek
+		Vladislav Vladimír Petr Viktorín Jan Matyáš Ferdinand 
+		Boleslav Vilém Viktor Jaromír Jaroslav Ludvík Otakar
+	}
+	female_names = {
+		Anezka Eliska Katerina Marie Ludmila Alzbeta Agnieszka Agnes Andela Anna Berta Bohuslava Bozena 
+		Branislava Dagmar Danuta Dobravy
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+}

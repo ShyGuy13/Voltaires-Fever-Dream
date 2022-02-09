@@ -3,9 +3,24 @@
 	dynasty = 85
 	culture = slovene
 	religion = catholic
+	trait = education_intrigue_4
+	trait = brave
+	trait = just
+	trait = intellect_good_2
+	trait = blademaster_1
 	father = celjski2
 	1406.1.1 = {
 		birth = yes
+	}
+	1436.11.12 = {
+		effect = {
+			set_relation_rival = character:habsburg2 #Friedrich III of Styria
+		}
+	}
+	1439.10.27 = {
+		effect = {
+			set_relation_friend = character:habsburg1 #Ladislaus of Austria
+		}
 	}
 }
 
@@ -16,6 +31,10 @@ celjski2 = {
 	religion = catholic
 	1379.1.17 = {
 		birth = yes
-		set_primary_title_to = title:c_cilli
+	}
+	1436.11.12 = {
+		effect = {
+			set_relation_rival = character:habsburg2 #Friedrich III of Styria
+		}
 	}
 }

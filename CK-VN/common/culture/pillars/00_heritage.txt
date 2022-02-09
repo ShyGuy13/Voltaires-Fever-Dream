@@ -1,0 +1,36 @@
+﻿heritage_central_germanic = {
+	type = heritage
+}
+
+heritage_frankish = {
+	type = heritage
+}
+
+heritage_israelite = {
+	type = heritage
+}
+
+heritage_latin = {
+	type = heritage
+}
+
+heritage_north_germanic = {
+	type = heritage
+}
+
+heritage_south_slavic = {
+	type = heritage
+}
+
+heritage_west_slavic = {
+	type = heritage
+}
+
+#VCK
+heritage_lowlands = {
+	type = heritage
+}
+
+heritage_rhaetic = {
+	type = heritage
+}

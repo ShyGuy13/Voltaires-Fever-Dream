@@ -5176,7 +5176,7 @@
 1036 = { # c_windischgratz
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = temple_building
 }
 1037 = { # c_unterdrauburg
 	culture = saxon
@@ -5601,7 +5601,7 @@
 1121 = { # c_bled
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = temple_holding
 }
 1122 = { # c_bela pec
 	culture = saxon
@@ -5791,7 +5791,7 @@
 1159 = { # c_kirchdorf
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = none # temple
 }
 1160 = { # c_scharnstein
 	culture = austrian
@@ -6101,7 +6101,7 @@
 1221 = { # c_sankt pankraz
 	culture = austrian
 	religion = catholic
-	holding = castle_holding
+	holding = temple_holding
 }
 1222 = { # c_lombardore
 	culture = piedmontese

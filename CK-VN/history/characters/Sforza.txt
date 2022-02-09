@@ -17,8 +17,8 @@
 	1401.6.23 = {
 		birth = yes
 	}
-	1441.1.1 = {
-		add_spouse = visconti1 # marriage in 1441.10.24
+	1441.10.24 = {
+		add_spouse = visconti1
 	}
 }
 

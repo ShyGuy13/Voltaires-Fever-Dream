@@ -1,5 +1,5 @@
 ﻿bm_1441_peace_of_cremona = {
-	start_date = 1441.1.1
+	start_date = 1441.11.20
 	is_playable = yes
 
 	character = {
