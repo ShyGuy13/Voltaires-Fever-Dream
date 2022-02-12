@@ -10,8 +10,13 @@ nick_the_friendly = {}
 nick_the_alchemist = {}
 nick_the_irontooth = {}
 nick_the_restless = {}
-nick_the_posthumous = {}
+nick_the_posthumous = { is_bad = yes }
 nick_the_beautiful = {}
+nick_the_fop = {}
+nick_the_bearded = {}
+nick_the_hunchback = { is_bad = yes }
+nick_the_bavarian = {}
+nick_achilles = {}
 
 # #############################################
 # # CHARACTER NICKNAMES

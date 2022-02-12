@@ -1,5 +1,5 @@
 ﻿heeckeren1 = {
-	name = "Otto" #Otto I van Heeckeren, Almelo
+	name = "Otto" #Otto I of Almelo
 	dynasty = 2
 	religion = catholic
 	culture = dutch

@@ -1,0 +1,51 @@
+@smCastleX = 0.27
+@smCastleY = 0.23
+@smLysX = 0.23
+@smLysY = 0.26
+@smCross = 0.22
+
+k_austria = {
+	pattern = "pattern_shield_03_small.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_eagle_double.dds"
+		color1 = "black"
+		color2 = "red"
+		mask = { 1 }
+		instance = { position = { 0.5 0.5 } scale = { 0.9 1.0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 }  }
+		mask = { 2 }
+	}
+	colored_emblem = {
+		texture = "ce_block_01.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.42 } scale = { 1.0 0.24 }  }
+		mask = { 2 }
+	}
+}
+
+k_switzerland = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_cross_09.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.45 } scale = { 0.8 0.8 }  }
+	}
+}
+

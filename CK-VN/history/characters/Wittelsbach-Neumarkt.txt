@@ -1,0 +1,110 @@
+﻿neumarkt1 = {
+	name = "Johann" #Johann I of Pfalz-Neumarkt
+	dynasty_house = house_wittelsbach_neumarkt
+	culture = palatine
+	religion = catholic
+	trait = zealous
+	father = pfalz8
+	1383.1.1 = {
+		birth = yes
+	}
+	1407.9.15 = {
+		add_spouse = gryfic3
+	}
+	1428.1.1 = {
+		add_spouse = wittelsbach20
+	}
+}
+
+neumarkt2 = {
+	name = "Christoph" #Christoph III of Denmark
+	dynasty_house = house_wittelsbach_neumarkt
+	culture = palatine
+	religion = catholic
+	father = neumarkt1
+	mother = gryfic3
+	1416.2.26 = {
+		birth = yes
+	}
+}
+
+neumarkt3 = {
+	name = "Margaretha"
+	female = yes
+	dynasty_house = house_wittelsbach_neumarkt
+	culture = palatine
+	religion = catholic
+	father = neumarkt1
+	mother = gryfic3
+	1408.1.1 = {
+		birth = yes
+		death = yes
+	}
+}
+
+neumarkt4 = {
+	name = "Adolf"
+	dynasty_house = house_wittelsbach_neumarkt
+	culture = palatine
+	religion = catholic
+	father = neumarkt1
+	mother = gryfic3
+	1409.1.1 = {
+		birth = yes
+		death = yes
+	}
+}
+
+neumarkt5 = {
+	name = "Otto"
+	dynasty_house = house_wittelsbach_neumarkt
+	culture = palatine
+	religion = catholic
+	father = neumarkt1
+	mother = gryfic3
+	1410.1.1 = {
+		birth = yes
+		death = yes
+	}
+}
+
+neumarkt6 = {
+	name = "Johann"
+	dynasty_house = house_wittelsbach_neumarkt
+	culture = palatine
+	religion = catholic
+	father = neumarkt1
+	mother = gryfic3
+	1411.1.1 = {
+		birth = yes
+		death = yes
+	}
+}
+
+neumarkt7 = {
+	name = "Friedrich"
+	dynasty_house = house_wittelsbach_neumarkt
+	culture = palatine
+	religion = catholic
+	father = neumarkt1
+	mother = gryfic3
+	1412.1.1 = {
+		birth = yes
+		death = yes
+	}
+}
+
+neumarkt8 = {
+	name = "Johann" #yes, two Johanns
+	dynasty_house = house_wittelsbach_neumarkt
+	culture = palatine
+	religion = catholic
+	father = neumarkt1
+	mother = gryfic3
+	1413.9.1 = {
+		birth = yes
+	}
+	1413.9.4 = {
+		death = yes
+	}
+}

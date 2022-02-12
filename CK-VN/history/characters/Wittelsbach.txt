@@ -1,4 +1,4 @@
-wittelsbach1 = {
+﻿wittelsbach1 = {
 	name = "Elisabeth" #wife of Friedrich I of Brandenburg
 	female = yes
 	dynasty = 190
@@ -37,6 +37,7 @@ wittelsbach3 = {
 	religion = catholic
 	culture = bavarian
 	trait = education_learning_4
+	father = wittelsbach26
 	1339.1.1 = {
 		birth = yes
 		give_nickname = nick_the_wise
@@ -106,7 +107,7 @@ wittelsbach7 = {
 }
 
 wittelsbach8 = {
-	name = "Elisabeth" #wife of Ulrich V of W�rttemberg
+	name = "Elisabeth" #wife of Ulrich V of Württemberg
 	female = yes
 	dynasty = 190
 	religion = catholic
@@ -136,7 +137,7 @@ wittelsbach8 = {
 }
 
 wittelsbach9 = {
-	name = "Magdalena" #wife of Johann VII of G�rz-Kirchberg
+	name = "Magdalena" #wife of Johann VII of Görz-Kirchberg
 	female = yes
 	dynasty = 190
 	religion = catholic
@@ -194,6 +195,364 @@ wittelsbach12 = {
 		birth = yes
 	}
 	1382.1.17 = {
+		death = yes
+	}
+}
+
+wittelsbach13 = {
+	name = "Albrecht" #Albrecht III of Munich
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	trait = zealous
+	trait = gregarious
+	trait = forgiving
+	father = wittelsbach14
+	mother = visconti9
+	1401.3.27 = {
+		birth = yes
+		give_nickname = nick_the_pious
+	}
+	1415.1.1 = {
+		effect = {
+			learn_language = language_czech_slovak #studied in Prague
+		}
+	}
+	1428.2.1 = {
+		add_spouse = character:agnes_bernauer
+		effect = {
+			set_relation_rival = character:wittelsbach14
+		}
+	}
+	1436.1.1 = {
+		effect = {
+			remove_relation_rival = character:wittelsbach14
+		}
+	}
+}
+
+wittelsbach14 = {
+	name = "Ernst" #Ernst I of Munich
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach22
+	1373.1.1 = {
+		birth = yes
+	}
+	1396.2.24 = {
+		add_spouse = visconti9
+	}
+	1438.7.2 = {
+		death = yes
+	}
+}
+
+wittelsbach15 = {
+	name = "Johann" #Johann IV of Munich
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach13
+	1437.10.4 = {
+		birth = yes
+		give_nickname = nick_the_truthful
+	}
+}
+
+wittelsbach16 = {
+	name = "Ernst"
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach13
+	1438.8.26 = {
+		birth = yes
+	}
+}
+
+wittelsbach17 = {
+	name = "Sigismund" #Sigismund I of Munich
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach13
+	1439.7.26 = {
+		birth = yes
+	}
+}
+
+wittelsbach18 = {
+	name = "Albrecht"
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	trait = sickly
+	father = wittelsbach13
+	1440.12.24 = {
+		birth = yes
+	}
+}
+
+wittelsbach19 = {
+	name = "Margarethe" #wife of Friedrich I of Mantua
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach13
+	1442.1.1 = {
+		birth = yes
+	}
+}
+
+wittelsbach20 = {
+	name = "Beatrix" #wife of Hermann II of Cilli and Johann of Neumarkt
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach14
+	mother = visconti9
+	1403.1.1 = {
+		birth = yes
+	}
+}
+
+wittelsbach21 = {
+	name = "Elisabeth" #wife of Adolf of Jülich-Berg and Hesso of Leiningen
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach14
+	mother = visconti9
+	1406.1.1 = {
+		birth = yes
+	}
+}
+
+wittelsbach22 = {
+	name = "Johann" #Johann II of Bavaria
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach26
+	1341.1.1 = {
+		birth = yes
+	}
+	1397.6.14 = {
+		death = yes
+	}
+}
+
+wittelsbach23 = {
+	name = "Wilhelm" #Wilhelm III of Bavaria
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach22
+	1375.1.1 = {
+		birth = yes
+	}
+	1435.9.13 = {
+		death = yes
+	}
+}
+
+wittelsbach24 = {
+	name = "Sophie" #wife of Wenzel of Luxemburg
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach22
+	1376.1.1 = {
+		birth = yes
+	}
+	1428.11.4 = {
+		death = yes
+	}
+}
+
+wittelsbach25 = {
+	name = "Johannes" #Bishop of Freising
+	dynasty = 190
+	trait = bastard
+	trait = devoted
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach22
+	1392.1.1 = {
+		birth = yes
+	}
+}
+
+wittelsbach26 = {
+	name = "Stephan" #Stephan II of Bavaria
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach34
+	1319.1.1 = {
+		birth = yes
+	}
+	1375.5.13 = {
+		death = yes
+	}
+}
+
+wittelsbach27 = {
+	name = "Stephan" #Stephan III of Ingolstadt
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach26
+	1337.1.1 = {
+		birth = yes
+		give_nickname = nick_the_fop
+	}
+	1413.9.26 = {
+		death = yes
+	}
+}
+
+wittelsbach28 = {
+	name = "Elisabeth" #wife of Charles VI of France
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach27
+	1370.1.1 = {
+		birth = yes
+	}
+	1435.9.30 = {
+		death = yes
+	}
+}
+
+wittelsbach29 = {
+	name = "Ludwig" #Ludwig VII of Ingolstadt
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach27
+	1368.1.1 = {
+		birth = yes
+		give_nickname = nick_the_bearded
+	}
+}
+
+wittelsbach30 = {
+	name = "Ludwig" #Ludwig VIII of Ingolstadt
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach29
+	1403.9.1 = {
+		birth = yes
+		give_nickname = nick_the_hunchback
+	}
+}
+
+wittelsbach31 = {
+	name = "Johann"
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach29
+	1404.1.1 = {
+		birth = yes
+		death = yes
+	}
+}
+
+wittelsbach32 = {
+	name = "Johann" #yes, Ludwig VIII named two of his sons Johann
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach29
+	1415.2.6 = {
+		birth = yes
+	}
+	1420.1.1 = {
+		death = yes
+	}
+}
+
+wittelsbach33 = {
+	name = "Anna"
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach29
+	1416.1.1 = {
+		birth = yes
+	}
+	1418.1.1 = {
+		death = yes
+	}
+}
+
+wittelsbach34 = {
+	name = "Ludwig" #Emperor Ludwig IV
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach36
+	1282.1.1 = {
+		birth = yes
+		give_nickname = nick_the_bavarian
+	}
+	1347.10.11 = {
+		death = yes
+	}
+}
+
+wittelsbach35 = {
+	name = "Ludwig" #Ludwig VI of Bavaria and Brandenburg
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	father = wittelsbach34
+	1328.5.7 = {
+		birth = yes
+	}
+	1365.2.27 = {
+		death = yes
+	}
+}
+
+wittelsbach36 = {
+	name = "Ludwig" #Ludwig II of Bavaria
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	1229.4.13 = {
+		birth = yes	
+		give_nickname = nick_the_grave
+	}
+	1294.2.2 = {
+		death = yes
+	}
+}
+
+wittelsbach37 = {
+	name = "Amalie"
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	trait = devoted
+	father = wittelsbach14
+	mother = visconti9
+	1408.1.1 = {
+		birth = yes
+	}
+	1432.1.1 = {
 		death = yes
 	}
 }

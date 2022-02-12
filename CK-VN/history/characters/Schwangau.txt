@@ -1,0 +1,9 @@
+﻿schwangau1 = {
+	name = "Georg" #Georg I von Schwangau
+	dynasty = 335
+	culture = tirolian
+	religion = catholic
+	1405.1.1 = { #fic
+		birth = yes
+	}
+}

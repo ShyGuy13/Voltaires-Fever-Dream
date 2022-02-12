@@ -61,6 +61,27 @@ house_wittelsbach_pfalz = {
 	dynasty = 190 #Wittelsbach
 }
 
+#House of Wittelsbach-Pfalz-Simmern
+house_wittelsbach_simmern = {
+	prefix = "dynnp_von"
+	name = "dynn_Wittelsbach-Simmern"
+	dynasty = 190 #Wittelsbach
+}
+
+#House of Wittelsbach-Pfalz-Mosbach
+house_wittelsbach_mosbach = {
+	prefix = "dynnp_von"
+	name = "dynn_Wittelsbach-Mosbach"
+	dynasty = 190 #Wittelsbach
+}
+
+#House of Wittelsbach-Pfalz-Neumarkt
+house_wittelsbach_neumarkt = {
+	prefix = "dynnp_von"
+	name = "dynn_Wittelsbach-Neumarkt"
+	dynasty = 190 #Wittelsbach
+}
+
 #House of Braunschweig-Lüneburg
 house_braunschweig_luneburg = {
 	prefix = "dynnp_von"

@@ -1,0 +1,9 @@
+﻿praun1 = {
+	name = "Johann" #Abbot of Berchtesgaden
+	dynasty = 30
+	culture = tirolian
+	religion = catohlic
+	1400.1.1 = { #fic
+		birth = yes
+	}
+}

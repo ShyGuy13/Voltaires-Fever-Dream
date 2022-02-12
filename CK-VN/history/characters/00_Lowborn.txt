@@ -1,0 +1,21 @@
+﻿agnes_bernauer = {
+	name = "Agner Bernauer"
+	female = yes
+	religion = catholic
+	culture = swabian
+	trait = seducer
+	trait = brave
+	trait = lustful
+	trait = cynical
+	trait = beauty_good_3
+	sexuality = heterosexual
+	1410.1.1 = {
+		birth = yes
+	}
+	1435.10.12 = {
+		death = {
+			death_reason = death_drowned
+			killer = wittelsbach14 #Ernst I of Munich
+		}
+	}
+}

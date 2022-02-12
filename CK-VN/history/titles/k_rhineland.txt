@@ -1,0 +1,6 @@
+#Kurpfalz
+c_oberpfalz = {
+	1436.12.30 = {
+		holder = pfalz2
+	}
+}

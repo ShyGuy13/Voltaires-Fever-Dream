@@ -59,7 +59,7 @@ lombard = {
 
 	created = 650.1.1
 
-	parents = { langobard italian }
+	parents = { roman }
 	
 	ethos = ethos_stoic
 	heritage = heritage_latin

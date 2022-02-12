@@ -1,0 +1,9 @@
+﻿foscari1 = {
+	name = "Francesco" #Doge of Venice
+	dynasty = 383
+	culture = venetian
+	religion = catholic
+	1373.1.1 = {
+		birth = yes
+	}
+}

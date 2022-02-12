@@ -1,0 +1,6 @@
+#Davos
+c_prattigau = {
+	1000.1.1 = {
+		government = republic_government
+	}
+}

@@ -3,6 +3,10 @@
 	dynasty = 85
 	culture = slovene
 	religion = catholic
+	martial = 6
+	diplomacy = 8
+	intrigue = 6
+	stewardship = 5
 	trait = education_intrigue_4
 	trait = brave
 	trait = just

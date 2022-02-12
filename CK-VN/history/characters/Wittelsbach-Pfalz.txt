@@ -1,0 +1,155 @@
+﻿pfalz1 = {
+	name = "Elisabeth" #wife of Friedrich IV of Tirol
+	female = yes
+	dynasty_house = house_wittelsbach_pfalz
+	religion = catholic
+	culture = palatine
+	father = pfalz8
+	1381.10.27 = {
+		birth = yes
+	}
+	1408.12.31 = {
+		death = yes
+	}
+}
+
+pfalz2 = {
+	name = "Ludwig" #Ludwig IV of Pfalz
+	dynasty_house = house_wittelsbach_pfalz
+	religion = catholic
+	culture = palatine
+	trait = calm
+	trait = trusting
+	father = pfalz6
+	1424.1.1 = {
+		birth = yes
+		give_nickname = nick_the_gentle
+	}
+}
+
+pfalz3 = {
+	name = "Friedrich" #Friedrich I of Pfalz
+	dynasty_house = house_wittelsbach_pfalz
+	religion = catholic
+	culture = palatine
+	trait = brave
+	father = pfalz6
+	1425.8.1 = {
+		birth = yes
+		give_nickname = nick_the_victorious
+	}
+}
+
+pfalz4 = {
+	name = "Ruprecht" #archbishop of Cologne
+	dynasty_house = house_wittelsbach_pfalz
+	religion = catholic
+	culture = palatine
+	trait = devoted
+	father = pfalz6
+	1427.2.27 = {
+		birth = yes
+	}
+}
+
+pfalz5 = {
+	name = "Mechthild" #wife of Ludwig I of Urach & Albrecht VI of Austria
+	female = yes
+	dynasty_house = house_wittelsbach_pfalz
+	religion = catholic
+	culture = palatine
+	father = pfalz6
+	1419.3.7 = {
+		birth = yes
+	}
+}
+
+pfalz6 = {
+	name = "Ludwig" #Ludwig III of Pfalz
+	dynasty_house = house_wittelsbach_pfalz
+	religion = catholic
+	culture = palatine
+	father = pfalz8
+	1378.1.23 = {
+		birth = yes
+		give_nickname = nick_the_bearded
+	}
+	1436.12.30 = {
+		death = yes
+	}
+}
+
+pfalz7 = {
+	name = "Ruprecht"
+	dynasty_house = house_wittelsbach_pfalz
+	religion = catholic
+	culture = palatine
+	father = pfalz6
+	1406.5.22 = {
+		birth = yes
+	}
+	1426.5.20 = {
+		death = yes
+	}
+}
+
+pfalz8 = {
+	name = "Ruprecht" #Emperor Ruprecht
+	dynasty_house = house_wittelsbach_pfalz
+	religion = catholic
+	culture = palatine
+	father = pfalz9
+	1352.5.5 = {
+		birth = yes
+	}
+	1410.5.18 = {
+		death = yes
+	}
+}
+
+pfalz9 = {
+	name = "Ruprecht" #Ruprecht II of Pfalz
+	dynasty_house = house_wittelsbach_pfalz
+	religion = catholic
+	culture = palatine
+	father = pfalz10
+	1325.5.12 = {
+		birth = yes
+		give_nickname = nick_the_grave
+	}
+	1398.1.6 = {
+		death = yes
+	}
+}
+
+pfalz10 = {
+	name = "Adolf" #Adolf I of Pfalz
+	dynasty_house = house_wittelsbach_pfalz
+	religion = catholic
+	culture = palatine
+	trait = honest
+	father = pfalz11
+	1300.9.27 = {
+		birth = yes
+		give_nickname = nick_the_honest
+	}
+	1327.1.29 = {
+		death = yes
+	}
+}
+
+pfalz11 = {
+	name = "Rudolf" #Rudolf I of Pfalz
+	dynasty_house = house_wittelsbach_pfalz
+	religion = catholic
+	culture = palatine
+	trait = stuttering
+	father = wittelsbach36
+	1274.10.4 = {
+		birth = yes
+		give_nickname = nick_the_stammerer
+	}
+	1319.8.12 = {
+		death = yes
+	}
+}

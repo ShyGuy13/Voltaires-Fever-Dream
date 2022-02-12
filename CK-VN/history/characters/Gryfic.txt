@@ -25,3 +25,17 @@ gryfic2 = {
 	}
 }
 
+gryfic3 = {
+	name = "Katharina" #wife of Johann I of Pfalz-Neumarkt
+	female = yes
+	dynasty = 60
+	culture = pommeranian
+	religion = catholic
+	1384.1.1 = {
+		birth = yes
+	}
+	1426.3.12 = {
+		death = yes
+	}
+}
+

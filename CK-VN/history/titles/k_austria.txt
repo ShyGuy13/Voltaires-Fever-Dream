@@ -63,27 +63,6 @@ c_weinviertel = {
 	}
 }
 
-c_pingau = {
-	1330.1.13 = {
-		holder = habsburg16
-	}
-	1358.8.16 = {
-		holder = habsburg28
-	}
-	1365.7.27 = {
-		holder = habsburg15
-	}
-	1395.8.29 = {
-		holder = habsburg14
-	}
-	1404.9.14 = {
-		holder = habsburg13
-	}
-	1439.10.27 = {
-		holder = habsburg1
-	}
-}
-
 c_traungau = {
 	1330.1.13 = {
 		holder = habsburg16
@@ -319,7 +298,7 @@ c_inner_austria = {
 	}
 }
 
-c_murau = {
+c_sachsenweg = {
 	1379.9.25 = {
 		holder = habsburg8
 	}
@@ -334,7 +313,22 @@ c_murau = {
 	}
 }
 
-c_spittal = {
+c_pingau = {
+	1379.9.25 = {
+		holder = habsburg8
+	}
+	1386.7.9 = {
+		holder = habsburg12
+	}
+	1406.7.16 = {
+		holder = habsburg3
+	}
+	1441.1.1 = {
+		holder = habsburg2
+	}
+}
+
+c_murau = {
 	1379.9.25 = {
 		holder = habsburg8
 	}
@@ -499,29 +493,39 @@ c_irdning = {
 	}
 }
 
-c_pazin = {
-	1379.9.25 = {
-		holder = habsburg8
-	}
-	1386.7.9 = {
-		holder = habsburg12
-	}
-	1406.7.16 = {
-		holder = habsburg3
-	}
-	1441.1.1 = {
-		holder = habsburg2
+#Duchy of Triol
+c_tirol = {
+	1439.6.24 = {
+		holder = habsburg11
 	}
 }
 
-#Schaunberg
+c_nordvoralberg = {
+	1439.6.24 = {
+		holder = habsburg11
+	}
+}
+
+c_reutte = {
+	1439.6.24 = {
+		holder = habsburg11
+	}
+}
+
+c_landeck = {
+	1439.6.24 = {
+		holder = habsburg11
+	}
+}
+
+#County of Schaunberg
 c_schaunberg = {
 	1419.1.1 = {
 		holder = schaunberg2
 	}
 }
 
-#Pettau
+#County of Pettau
 c_pettau = {
 	1438.1.6 = {
 		holder = ptujski2
@@ -529,13 +533,6 @@ c_pettau = {
 }
 
 #Prince-Bishopric of Brixen
-#d_brixen = {
-#	1000.1.1 = { government = theocracy_government }
-#	1437.8.28 = {
-#		holder = stubai1
-#	}
-#}
-
 c_brixen = {
 	1000.1.1 = { government = theocracy_government }
 	1437.8.28 = {
@@ -564,20 +561,6 @@ c_brixen = {
 # 	}
 # }
 
-# c_brixen = {
-# 	1000.1.1 = { government = theocracy_government }
-# 	1437.8.28 = {
-# 		holder = stubai1
-# 	}
-# }
-
-# c_bled = {
-# 	1000.1.1 = { government = theocracy_government }
-# 	1437.8.28 = {
-# 		holder = stubai1
-# 	}
-# }
-
 #County of Cilli
 c_cilli = {
 	1435.1.17 = {
@@ -597,12 +580,33 @@ c_metlika = {
 	}
 }
 
-#County of Walsee
-# c_duino = {
+c_spittal = {
+	1435.1.17 = {
+		holder = celjski2
+	}
+}
+
+#Lordship of Duino - promoted to County of Trieste
+c_trieste = {
+	1423.1.1 = {
+		liege = d_inner_austria
+		holder = walsee1
+	}
+}
+
+# b_duino = {
 # 	1423.1.1 = {
 # 		holder = walsee1
 # 	}
 # }
+
+#Lordship of Lupoglav - promoted to County of Pazin
+c_pazin = {
+	1421.1.1 = {
+		liege = d_inner_austria
+		holder = herberstein2
+	}
+}
 
 #County of Gorizia
 c_gorizia = {
@@ -625,6 +629,13 @@ c_lienz = {
 
 #Prince-Bishopric of Salzburg
 c_salzburggau = {
+	1000.1.1 = { government = theocracy_government }
+	1441.1.1 = {
+		holder = emmerberg1
+	}
+}
+
+c_zillertal = {
 	1000.1.1 = { government = theocracy_government }
 	1441.1.1 = {
 		holder = emmerberg1
@@ -666,156 +677,23 @@ c_friesach = {
 	}
 }
 
-c_matrei = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
+#County of Vaduz
+c_sudvoralberg = {
+	1418.1.1 = {
+		holder = brandis2
 	}
 }
 
-c_stall = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
+#Abbacy of Berchtesgaden
+b_berchtesgaden = {
+	1432.1.1 = {
+		holder = praun1
 	}
 }
 
-c_sachsenweg = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_friesach = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_sankt_andrea = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_althofen = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_deutschlandsberg = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_grobming = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_mittersill = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_kaprun = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_taxenbach = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_saalfelden = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_bischofshofen = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_radstadt = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_lungau = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_tamsweg = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_tennengau = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_flachgau = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_zillertal = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_windautal = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_waging = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
-	}
-}
-
-c_muhldorf = {
-	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
+#Abbacy of Mondsee
+b_mondsee = {
+	1420.1.1 = {
+		holder = reuchlin1
 	}
 }

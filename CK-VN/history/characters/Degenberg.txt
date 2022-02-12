@@ -1,0 +1,7 @@
+﻿degenberg1 = {
+	name = "Jakob" #Jakob I of Degenberg
+	dynasty = 94
+	1420.1.1 = { #fic
+		birth = yes
+	}
+}

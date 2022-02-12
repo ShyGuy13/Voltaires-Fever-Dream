@@ -17,6 +17,7 @@
 	mother = wittelsbach1
 	1414.11.9 = {
 		birth = yes
+		give_nickname = nick_achilles
 	}
 }
 

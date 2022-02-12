@@ -1,0 +1,9 @@
+﻿wolfstein1 = {
+	name = "Wilhelm" #Wilhelm I von Wolfstein
+	dynasty = 407
+	culture = bavarian
+	religion = catholic
+	1380.1.1 = { #fic
+		birth = yes
+	}
+}

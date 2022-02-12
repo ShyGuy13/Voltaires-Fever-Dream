@@ -118,3 +118,18 @@ visconti8 = {
 		death = yes
 	}
 }
+
+visconti9 = {
+	name = "Elisabetta" #wife of Ernst I von Wittelsbach of Munich
+	female = yes
+	dynasty = 44
+	religion = catholic
+	culture = lombard
+	father = visconti7
+	1374.1.1 = {
+		birth = yes
+	}
+	1432.2.2 = {
+		death = yes
+	}
+}

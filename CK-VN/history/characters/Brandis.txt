@@ -1,0 +1,20 @@
+﻿brandis1 = {
+	name = "Wolfhard" #Wolfhard III of Vaduz
+	dynasty = 376
+	religion = catholic
+	culture = swiss
+	father = brandis2
+	1430.1.1 = {
+		birth = yes
+	}
+}
+
+brandis2 = {
+	name = "Wolfhard" #Wolfhard II of Vaduz
+	dynasty = 376
+	religion = catholic
+	culture = swiss
+	1380.1.1 = {
+		birth = yes
+	}
+}

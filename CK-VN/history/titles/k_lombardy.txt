@@ -1,0 +1,6 @@
+#Republic of Venice
+c_istria = {
+	1423.4.5 = {
+		holder = foscari1
+	}
+}
