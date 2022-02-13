@@ -1,4 +1,4 @@
-visconti1 = {
+﻿visconti1 = {
 	name = "Bianca Maria" #Bianca Maria Visconti
 	female = yes
 	dynasty = 44
@@ -27,7 +27,7 @@ visconti2 = {
 	trait = wrathful
 	trait = beauty_bad_2
 	trait = infertile
-	trait = feeble
+	trait = physique_bad_3
 	sexuality = heterosexual
 	father = visconti4
 	1392.9.3 = {

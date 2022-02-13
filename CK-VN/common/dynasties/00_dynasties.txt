@@ -647,7 +647,7 @@
 }
 139 = {
 	prefix = "dynnp_von"
-	name = "dynn_Freundsperg"
+	name = "dynn_Freundsberg"
 	culture = tirolian
 }
 140 = {
@@ -1969,7 +1969,9 @@
 	culture = austrian
 }
 420 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Reisberg"
+	culture = tirolian
 }
 421 = {
 	

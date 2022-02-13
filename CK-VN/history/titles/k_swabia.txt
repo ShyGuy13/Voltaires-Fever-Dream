@@ -1,3 +1,18 @@
+#Bishopric of Augsburg
+c_augsburg = {
+	1000.1.1 = { government = theocracy_government }
+	1423.1.1 = {
+		holder = schaumberg1	
+	}
+}
+
+c_fussen = {
+	1000.1.1 = { government = theocracy_government }
+	1423.1.1 = {
+		holder = schaumberg1	
+	}
+}
+
 #Vorlande
 c_breisgau = {
 	1440.2.2 = {

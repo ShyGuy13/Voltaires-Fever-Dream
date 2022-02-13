@@ -442,17 +442,17 @@ tradition_esteemed_hospitality = {
 					desc = not_courtly_communal_or_spiritual_desc
 				}
 			}
-			if = {
-				limit = {
-					NOT = {
-						has_cultural_pillar = heritage_iranian 
-					}
-				}
-				add = {
-					value = tradition_unfulfilled_criteria_penalty
-					desc = iranian_desc
-				}
-			}
+			# if = {
+			# 	limit = {
+			# 		NOT = {
+			# 			has_cultural_pillar = heritage_iranian 
+			# 		}
+			# 	}
+			# 	add = {
+			# 		value = tradition_unfulfilled_criteria_penalty
+			# 		desc = iranian_desc
+			# 	}
+			# }
 			
 			multiply = tradition_replacement_cost_if_relevant
 		}

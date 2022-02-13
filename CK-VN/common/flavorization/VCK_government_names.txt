@@ -1,0 +1,98 @@
+﻿#Imperial Provostries
+imperial_provost_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 8
+	religions = { christianity_religion }
+	titles = { b_wettenhausen b_ellwangen b_berchtesgaden }
+	governments = { theocracy_government }
+	top_liege = no
+}
+imperial_provostess_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 8
+	religions = { christianity_religion }
+	titles = { b_wettenhausen b_ellwangen b_berchtesgaden }
+	governments = { theocracy_government }
+	top_liege = no
+}
+imperial_provostry = {
+	type = title
+	tier = barony
+	priority = 8
+	religions = { christianity_religion }
+	titles = { b_wettenhausen b_ellwangen b_berchtesgaden }
+	governments = { theocracy_government }
+	top_liege = no
+}
+
+#Landgraviates
+landgrave_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	titles = { c_leuchtenberg }
+	governments = { feudal_government }
+	#heritages = { heritage_central_germanic }
+	top_liege = no
+}
+landgravine_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	titles = { c_leuchtenberg }
+	governments = { feudal_government }
+	#heritages = { heritage_central_germanic }
+	top_liege = no
+}
+landgraviate = {
+	type = title
+	tier = county
+	priority = 18
+	titles = { c_leuchtenberg }
+	governments = { feudal_government }
+	#heritages = { heritage_central_germanic }
+	top_liege = no
+}
+
+#Burgraviates
+burgrave_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	titles = { c_pettau }
+	governments = { feudal_government }
+	#heritages = { heritage_central_germanic }
+	top_liege = no
+}
+burgravine_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	titles = { c_pettau }
+	governments = { feudal_government }
+	#heritages = { heritage_central_germanic }
+	top_liege = no
+}
+burgraviate = {
+	type = title
+	tier = county
+	priority = 18
+	titles = { c_pettau }
+	governments = { feudal_government }
+	#heritages = { heritage_central_germanic }
+	top_liege = no
+}

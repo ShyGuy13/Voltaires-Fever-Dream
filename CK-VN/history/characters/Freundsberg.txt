@@ -1,0 +1,9 @@
+﻿freundsberg1 = {
+	name = "Wolfgang" #wolfgang of Gastein
+	dynasty = 139
+	culture = tirolian
+	religion = catholic
+	1427.1.1 = {
+		birth = yes
+	}
+}

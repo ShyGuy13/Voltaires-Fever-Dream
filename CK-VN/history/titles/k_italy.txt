@@ -1,4 +1,4 @@
-c_fermo = {
+c_fermo = {
 	1433.12.7 = {
 		holder = sforza1
 	}

@@ -88,3 +88,10 @@ house_braunschweig_luneburg = {
 	name = "dynn_Braunschweig-Luneburg"
 	dynasty = 84 #von Welf
 }
+
+#House of Anhalt-Bernburg
+house_anhalt_bernburg = {
+	prefix = "dynnp_von"
+	name = "dynn_Anhalt-Bernburg"
+	dynasty = 5 #Askanier
+}

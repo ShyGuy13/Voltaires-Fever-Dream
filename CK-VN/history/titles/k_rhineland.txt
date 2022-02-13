@@ -4,3 +4,9 @@ c_oberpfalz = {
 		holder = pfalz2
 	}
 }
+
+c_kemnath = {
+	1436.12.30 = {
+		holder = pfalz2
+	}
+}

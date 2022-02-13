@@ -23,6 +23,41 @@ k_papal_state = {
 	male_names = { Alexander Anastasius Benedictus Caelestinus Callistus Clemens Eugenius Leo Gregorius Hadrianus Honorius Innocentius Ioannes Lucius Marinus Martinus Nicolaus Sergius Silvester Stephanus Urbanus Victor }
 }
 
+k_fraticelli_papacy = {
+	color = { 255 249 198 }
+	color2 = { 220 220 0 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_roma
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Alexander Anastasius Benedictus Caelestinus Callistus Clemens Eugenius Leo Gregorius Hadrianus Honorius Innocentius Ioannes Lucius Marinus Martinus Nicolaus Sergius Silvester Stephanus Urbanus Victor }
+}
+
+d_rabbinism = {
+	color = { 0 80 255 }
+	
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	
+	capital = c_speyer
+}
+
+
 # HOLY ORDERS
 
 d_teutonic_order = {

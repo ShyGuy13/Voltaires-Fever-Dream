@@ -17,6 +17,9 @@ nick_the_bearded = {}
 nick_the_hunchback = { is_bad = yes }
 nick_the_bavarian = {}
 nick_achilles = {}
+nick_the_grave = {}
+nick_the_truthful = {}
+nick_the_mathematicus = {}
 
 # #############################################
 # # CHARACTER NICKNAMES

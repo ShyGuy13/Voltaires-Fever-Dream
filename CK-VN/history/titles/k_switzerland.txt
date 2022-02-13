@@ -4,3 +4,10 @@ c_prattigau = {
 		government = republic_government
 	}
 }
+
+#County of Vaduz
+c_sudvoralberg = {
+	1418.1.1 = {
+		holder = brandis2
+	}
+}

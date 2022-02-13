@@ -1,23 +1,71 @@
 #Duchy of Bavaria-Munich
 d_upper_bavaria = {
+	1361.9.18 = {
+		holder = wittelsbach22
+	}
+	1397.1.1 = {
+		holder = wittelsbach14
+	}
 	1438.7.3 = {
 		holder = wittelsbach13
 	}
 }
 
 c_upper_bavaria = {
+	1361.9.18 = {
+		holder = wittelsbach22
+	}
+	1397.1.1 = {
+		holder = wittelsbach14
+	}
+	1438.7.3 = {
+		holder = wittelsbach13
+	}
+}
+
+c_grafenau = {
+	1361.9.18 = {
+		holder = wittelsbach22
+	}
+	1397.1.1 = {
+		holder = wittelsbach14
+	}
 	1438.7.3 = {
 		holder = wittelsbach13
 	}
 }
 
 c_scheyern = {
+	1361.9.18 = {
+		holder = wittelsbach22
+	}
+	1397.1.1 = {
+		holder = wittelsbach14
+	}
 	1438.7.3 = {
 		holder = wittelsbach13
 	}
 }
 
 c_weilheim = {
+	1361.9.18 = {
+		holder = wittelsbach22
+	}
+	1397.1.1 = {
+		holder = wittelsbach14
+	}
+	1438.7.3 = {
+		holder = wittelsbach13
+	}
+}
+
+c_straubing = {
+	1361.9.18 = {
+		holder = wittelsbach22
+	}
+	1397.1.1 = {
+		holder = wittelsbach14
+	}
 	1438.7.3 = {
 		holder = wittelsbach13
 	}
@@ -98,6 +146,14 @@ c_neunburg = {
 	}
 }
 
+#County of Abensberg
+c_abensberg = {
+	1419.1.1 = {
+		liege = d_upper_bavaria
+		holder = abensberg2
+	}
+}
+
 #Lordship of Degenberg - promoted to County of Degenberg
 c_degenberg = {
 	1438.6.1 = {
@@ -117,7 +173,15 @@ c_schwangau = {
 #Lordship of Hohenwaldeck - promoted to County of Hohenwaldeck
 c_hohenwaldeck = {
 	1441.11.1 = {
+		liege = d_upper_bavaria
 		holder = hohenwaldeck2
+	}
+}
+
+#County of Leuchtenberg
+c_leuchtenberg = {
+	1404.1.1 = {
+		holder = leuchtenberg2
 	}
 }
 
@@ -142,37 +206,7 @@ d_ansbach = {
 	}
 }
 
-c_hohenlohe = {
-	1440.9.21 = {
-		holder = hohenzollern1
-	}
-}
-
 c_ansbach = {
-	1440.9.21 = {
-		holder = hohenzollern1
-	}
-}
-
-c_feuchtwangen = {
-	1440.9.21 = {
-		holder = hohenzollern1
-	}
-}
-
-c_hohentrudingen = {
-	1440.9.21 = {
-		holder = hohenzollern1
-	}
-}
-
-c_stauf = {
-	1440.9.21 = {
-		holder = hohenzollern1
-	}
-}
-
-c_schwabach = {
 	1440.9.21 = {
 		holder = hohenzollern1
 	}
@@ -235,54 +269,54 @@ c_wiesent = {
 }
 
 #Prince-Bishopric of Freising
-c_innichen = {
-	1000.1.1 = { government = theocracy_government }
-	1421.12.13 = {
-		holder = scala1
-	}
-}
+# c_innichen = {
+# 	1000.1.1 = { government = theocracy_government }
+# 	1421.12.13 = {
+# 		holder = scala1
+# 	}
+# }
 
-c_oberwolz = {
-	1000.1.1 = { government = theocracy_government }
-	1421.12.13 = {
-		holder = scala1
-	}
-}
+# c_oberwolz = {
+# 	1000.1.1 = { government = theocracy_government }
+# 	1421.12.13 = {
+# 		holder = scala1
+# 	}
+# }
 
-c_skofja_loka = {
-	1000.1.1 = { government = theocracy_government }
-	1421.12.13 = {
-		holder = scala1
-	}
-}
+# c_skofja_loka = {
+# 	1000.1.1 = { government = theocracy_government }
+# 	1421.12.13 = {
+# 		holder = scala1
+# 	}
+# }
 
-c_waidhofen = {
-	1000.1.1 = { government = theocracy_government }
-	1421.12.13 = {
-		holder = scala1
-	}
-}
+# c_waidhofen = {
+# 	1000.1.1 = { government = theocracy_government }
+# 	1421.12.13 = {
+# 		holder = scala1
+# 	}
+# }
 
-c_enzersdorf = {
-	1000.1.1 = { government = theocracy_government }
-	1421.12.13 = {
-		holder = scala1
-	}
-}
+# c_enzersdorf = {
+# 	1000.1.1 = { government = theocracy_government }
+# 	1421.12.13 = {
+# 		holder = scala1
+# 	}
+# }
 
-c_werdenfels = {
-	1000.1.1 = { government = theocracy_government }
-	1421.12.13 = {
-		holder = scala1
-	}
-}
+# c_werdenfels = {
+# 	1000.1.1 = { government = theocracy_government }
+# 	1421.12.13 = {
+# 		holder = scala1
+# 	}
+# }
 
-c_burgraun = {
-	1000.1.1 = { government = theocracy_government }
-	1421.12.13 = {
-		holder = scala1
-	}
-}
+# c_burgraun = {
+# 	1000.1.1 = { government = theocracy_government }
+# 	1421.12.13 = {
+# 		holder = scala1
+# 	}
+# }
 
 c_freising = {
 	1000.1.1 = { government = theocracy_government }

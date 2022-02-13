@@ -1,4 +1,4 @@
-abensberg1 = {
+﻿abensberg1 = {
 	name = "Nikolaus" #Nikolaus von Abensberg
 	dynasty = 1
 	religion = catholic

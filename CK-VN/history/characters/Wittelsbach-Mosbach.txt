@@ -78,7 +78,7 @@ mosbach6 = {
 	}
 }
 
-mosbach6 = {
+mosbach7 = {
 	name = "Dorothea" #nun
 	female = yes
 	dynasty_house = house_wittelsbach_mosbach

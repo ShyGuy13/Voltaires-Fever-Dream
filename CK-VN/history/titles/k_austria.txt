@@ -540,27 +540,6 @@ c_brixen = {
 	}
 }
 
-# c_fassa = {
-# 	1000.1.1 = { government = theocracy_government }
-# 	1437.8.28 = {
-# 		holder = stubai1
-# 	}
-# }
-
-# c_fodom = {
-# 	1000.1.1 = { government = theocracy_government }
-# 	1437.8.28 = {
-# 		holder = stubai1
-# 	}
-# }
-
-# c_bruneck = {
-# 	1000.1.1 = { government = theocracy_government }
-# 	1437.8.28 = {
-# 		holder = stubai1
-# 	}
-# }
-
 #County of Cilli
 c_cilli = {
 	1435.1.17 = {
@@ -594,12 +573,6 @@ c_trieste = {
 	}
 }
 
-# b_duino = {
-# 	1423.1.1 = {
-# 		holder = walsee1
-# 	}
-# }
-
 #Lordship of Lupoglav - promoted to County of Pazin
 c_pazin = {
 	1421.1.1 = {
@@ -627,9 +600,22 @@ c_lienz = {
 	}
 }
 
-#Prince-Bishopric of Salzburg
+#Prince-Archbishopric of Salzburg
+d_salzburg = {
+	1000.1.1 = { government = theocracy_government }
+	1429.1.1 = {
+		holder = reisberg1
+	}
+	1441.1.1 = {
+		holder = emmerberg1
+	}
+}
+
 c_salzburggau = {
 	1000.1.1 = { government = theocracy_government }
+	1429.1.1 = {
+		holder = reisberg1
+	}
 	1441.1.1 = {
 		holder = emmerberg1
 	}
@@ -637,6 +623,9 @@ c_salzburggau = {
 
 c_zillertal = {
 	1000.1.1 = { government = theocracy_government }
+	1429.1.1 = {
+		holder = reisberg1
+	}
 	1441.1.1 = {
 		holder = emmerberg1
 	}
@@ -644,13 +633,9 @@ c_zillertal = {
 
 c_lungau = {
 	1000.1.1 = { government = theocracy_government }
-	1441.1.1 = {
-		holder = emmerberg1
+	1429.1.1 = {
+		holder = reisberg1
 	}
-}
-
-c_pongau = {
-	1000.1.1 = { government = theocracy_government }
 	1441.1.1 = {
 		holder = emmerberg1
 	}
@@ -658,6 +643,9 @@ c_pongau = {
 
 c_pinzgau = {
 	1000.1.1 = { government = theocracy_government }
+	1429.1.1 = {
+		holder = reisberg1
+	}
 	1441.1.1 = {
 		holder = emmerberg1
 	}
@@ -665,6 +653,9 @@ c_pinzgau = {
 
 c_traismauer = {
 	1000.1.1 = { government = theocracy_government }
+	1429.1.1 = {
+		holder = reisberg1
+	}
 	1441.1.1 = {
 		holder = emmerberg1
 	}
@@ -672,15 +663,19 @@ c_traismauer = {
 
 c_friesach = {
 	1000.1.1 = { government = theocracy_government }
+	1429.1.1 = {
+		holder = reisberg1
+	}
 	1441.1.1 = {
 		holder = emmerberg1
 	}
 }
 
-#County of Vaduz
-c_sudvoralberg = {
-	1418.1.1 = {
-		holder = brandis2
+#County of Gastein
+c_pongau = {
+	1438.1.1 = {
+		liege = d_salzburg
+		holder = freundsberg1
 	}
 }
 

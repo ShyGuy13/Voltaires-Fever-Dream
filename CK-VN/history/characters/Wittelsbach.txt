@@ -119,30 +119,13 @@ wittelsbach8 = {
 	}
 }
 
-wittelsbach8 = {
-	name = "Margarethe"
-	female = yes
-	dynasty = 190
-	religion = catholic
-	culture = bavarian
-	trait = nun
-	father = wittelsbach2
-	mother = habsburg17
-	1420.1.1 = {
-		birth = yes
-	}
-	1435.1.1 = { #fic
-		death = yes
-	}
-}
-
 wittelsbach9 = {
 	name = "Magdalena" #wife of Johann VII of Görz-Kirchberg
 	female = yes
 	dynasty = 190
 	religion = catholic
 	culture = bavarian
-	trait = nun
+	trait = devoted
 	father = wittelsbach3
 	mother = visconti8
 	1388.1.1 = {
@@ -219,7 +202,7 @@ wittelsbach13 = {
 		}
 	}
 	1428.2.1 = {
-		add_spouse = character:agnes_bernauer
+		add_spouse = agnes_bernauer
 		effect = {
 			set_relation_rival = character:wittelsbach14
 		}
@@ -553,6 +536,23 @@ wittelsbach37 = {
 		birth = yes
 	}
 	1432.1.1 = {
+		death = yes
+	}
+}
+
+wittelsbach38 = {
+	name = "Margarethe"
+	female = yes
+	dynasty = 190
+	religion = catholic
+	culture = bavarian
+	trait = devoted
+	father = wittelsbach2
+	mother = habsburg17
+	1420.1.1 = {
+		birth = yes
+	}
+	1435.1.1 = { #fic
 		death = yes
 	}
 }

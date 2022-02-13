@@ -32,6 +32,7 @@ virneburg3 = {
 
 virneburg4 = {
 	name = "Anna" # Anna von Virneburg, wife to Johann II von der Mark / Arenberg
+	female = yes
 	dynasty = 11
 	culture = rhenish
 	religion = catholic
