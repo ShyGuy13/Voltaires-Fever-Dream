@@ -73,24 +73,36 @@ c_straubing = {
 
 #Duchy of Bavaria-Ingolstadt
 c_ingolstadt = {
+	1392.1.1 = {
+		holder = wittelsbach27
+	}
 	1413.9.26 = {
 		holder = wittelsbach29
 	}
 }
 
 c_wasserburg = {
+	1392.1.1 = {
+		holder = wittelsbach27
+	}
 	1413.9.26 = {
 		holder = wittelsbach29
 	}
 }
 
 c_pfaffenberg = {
+	1392.1.1 = {
+		holder = wittelsbach27
+	}
 	1413.9.26 = {
 		holder = wittelsbach29
 	}
 }
 
 c_scharding = {
+	1392.1.1 = {
+		holder = wittelsbach27
+	}
 	1413.9.26 = {
 		holder = wittelsbach29
 	}
@@ -98,36 +110,72 @@ c_scharding = {
 
 #Duchy of Bavaria-Landshut
 c_niederbayern = {
+	1349.1.1 = {
+		holder = wittelsbach26
+	}
+	1375.5.13 = {
+		holder = wittelsbach2
+	}
 	1393.12.4 = {
 		holder = wittelsbach2
 	}
 }
 
 c_moosburg = {
+	1349.1.1 = {
+		holder = wittelsbach26
+	}
+	1375.5.13 = {
+		holder = wittelsbach2
+	}
 	1393.12.4 = {
 		holder = wittelsbach2
 	}
 }
 
 c_rosenheim = {
+	1349.1.1 = {
+		holder = wittelsbach26
+	}
+	1375.5.13 = {
+		holder = wittelsbach2
+	}
 	1393.12.4 = {
 		holder = wittelsbach2
 	}
 }
 
 c_innviertel = {
+	1349.1.1 = {
+		holder = wittelsbach26
+	}
+	1375.5.13 = {
+		holder = wittelsbach2
+	}
 	1393.12.4 = {
 		holder = wittelsbach2
 	}
 }
 
-c_eggenfelden = {
+c_kraiburg = {
+	1349.1.1 = {
+		holder = wittelsbach26
+	}
+	1375.5.13 = {
+		holder = wittelsbach2
+	}
 	1393.12.4 = {
 		holder = wittelsbach2
 	}
 }
 
-c_griesbach = {
+c_vornbach = {
+	1349.1.1 = {
+		holder = wittelsbach26
+	}
+	1375.5.13 = {
+		holder = wittelsbach2
+	}
 	1393.12.4 = {
 		holder = wittelsbach2
 	}
@@ -182,6 +230,23 @@ c_hohenwaldeck = {
 c_leuchtenberg = {
 	1404.1.1 = {
 		holder = leuchtenberg2
+	}
+}
+
+#County of Ortenburg
+c_ortenberg = {
+	1391.1.1 = {
+		liege = c_niederbayern
+	}
+	1422.1.1 = {
+		holder = ortenburg1
+	}
+}
+
+#County of Haag
+c_haag = {
+	1436.12.13 = {
+		holder = fraunberg2
 	}
 }
 

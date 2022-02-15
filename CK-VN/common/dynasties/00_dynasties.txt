@@ -1974,7 +1974,8 @@
 	culture = tirolian
 }
 421 = {
-	
+	name = "dynn_Trevisano"
+	culture = venetian
 }
 422 = {
 	

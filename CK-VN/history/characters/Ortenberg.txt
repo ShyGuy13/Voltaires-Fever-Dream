@@ -1,0 +1,85 @@
+﻿ortenberg1 = {
+	name = "Etzel" #Etzel I of Ortenberg
+	dynasty_house = house_ortenberg
+	religion = catholic
+	culture = bavarian
+	father = ortenberg4
+	1376.1.1 = {
+		birth = yes
+	}
+}
+
+ortenberg2 = {
+	name = "Alram" #Alram I of Ortenberg
+	dynasty_house = house_ortenberg
+	religion = catholic
+	culture = bavarian
+	father = ortenberg4
+	1370.1.1 = { #fic
+		birth = yes
+	}
+	1399.1.1 = {
+		death = yes
+	}
+}
+
+ortenberg3 = {
+	name = "Georg" #Georg I of Ortenberg
+	dynasty_house = house_ortenberg
+	religion = catholic
+	culture = bavarian
+	father = ortenberg4
+	1380.1.1 = { #fic
+		birth = yes
+	}
+	1422.3.4 = {
+		death = yes
+	}
+}
+
+ortenberg4 = {
+	name = "Heinrich" #Heinrich IV of Ortenberg
+	dynasty_house = house_ortenberg
+	religion = catholic
+	culture = bavarian
+	1380.1.1 = { #fic
+		birth = yes
+	}
+	1422.3.4 = {
+		death = yes
+	}
+}
+
+ortenberg5 = {
+	name = "Ulrich" #Ulrich I of Ortenberg
+	dynasty_house = house_ortenberg
+	religion = catholic
+	culture = bavarian
+	father = ortenberg2
+	1400.1.1 = { #fic
+		birth = yes
+	}
+}
+
+ortenberg6 = {
+	name = "Alram" #Alram II of Ortenberg
+	dynasty_house = house_ortenberg
+	religion = catholic
+	culture = bavarian
+	father = ortenberg2
+	1410.1.1 = { #fic
+		birth = yes
+	}
+}
+
+ortenberg6 = {
+	name = "Margarethe" #wife of Heinrich III Notthaft zu Wernberg
+	female = yes
+	dynasty_house = house_ortenberg
+	religion = catholic
+	culture = bavarian
+	father = ortenberg1
+	1395.1.1 = { #fic
+		birth = yes
+	}
+}

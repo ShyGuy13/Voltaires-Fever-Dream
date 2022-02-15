@@ -14076,17 +14076,17 @@
 2816 = { # c_freyung
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = none #city
 }
 2817 = { # c_wegscheid
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 2818 = { # c_hals
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = none #castle
 }
 2819 = { # c_vilshofen
 	culture = bavarian
@@ -14106,12 +14106,12 @@
 2822 = { # c_haidenburg
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = none #castle
 }
 2823 = { # c_osterhofen
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 2824 = { # c_niederalteich
 	culture = bavarian
@@ -14141,7 +14141,7 @@
 2829 = { # c_griesbach
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = none #castle
 }
 2830 = { # c_pfarrkirchen
 	culture = bavarian
@@ -14156,7 +14156,7 @@
 2832 = { # c_obernberg
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2833 = { # c_otting
 	culture = bavarian
@@ -14181,7 +14181,7 @@
 2837 = { # c_burgrain
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2838 = { # c_abbach
 	culture = bavarian

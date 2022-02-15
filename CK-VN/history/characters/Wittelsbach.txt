@@ -437,6 +437,11 @@ wittelsbach30 = {
 		birth = yes
 		give_nickname = nick_the_hunchback
 	}
+	1438.1.1 = {
+		effect = {
+			set_relation_rival = character:wittelsbach29
+		}
+	}
 }
 
 wittelsbach31 = {

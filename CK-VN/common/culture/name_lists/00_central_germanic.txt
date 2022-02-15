@@ -1179,22 +1179,22 @@ name_list_dutch = {
 
 name_list_german = {
 	male_names = {
-		Anno Apel Arnold Adam Andreas Alfons Adolf August Alexander Arnold Alram Anselm Ansgar Archibald Armin Albrecht Anton Aaron Amadeus Adalbert Alfred Amandus
+		Anno Apel Arnold Adam Andreas Alram Alfons Adolf August Alexander Arnold Alram Anselm Ansgar Archibald Armin Albrecht Anton Aaron Amadeus Adalbert Alfred Amandus
 		Bertram Berthold Balthasar Bernhard Benedikt Benjamin Bartholomäus Bernold Björn Balduin Burkhard Busso
 		Christoph Christian Clemens
 		Daniel David Dietrich Dietmar Diethelm Degenhard
-		Endres Edmund Eduard Elias Emanuel Emmerich Ernst Enzio Eglolf Eberhard Engelbert Engelhard Erich Etzel Emicho Eppo Ekbert
+		Endres Edmund Eduard Elias Emanuel Emmerich Erasmus Ernst Enzio Eglolf Eberhard Engelbert Engelhard Erich Etzel Emicho Eppo Ekbert
 		Friedrich Fritz Franz Franzisco Ferdinand
 		Georg Gottfried Goswin Gottlob Gottschalk Gundekar Gotthard Gabriel Günther Gebhard Gumprecht Giselmar Gustav
 		Hans Herwig Hartmann Heinrich Heinz Hartmut Hugo Herman Hesso Hieronymus Hildebrand Henneke
 		Ignatz
 		Jakob Jobst Jost Jofridus Johann Julius Johannes Joachim Joseph Julian Joachim
 		Konstantin Konrad Karl Kaspar Korbinian Kasimir Klaus Kilian
-		Lambert Leopold Lothar Ludwig Ludolf Leonhard Lukard 
+		Lambert Leopold Lothar Ludwig Ludolf Leonhard Lukard Ladislaus 
 		Magnus Marx Meinhard Maximin Menhart Manfred Martin Matthias Michael Maginulf Moritz Markus Melchior Maximilian Marquard Meinwerk Meinrad
 		Nikolaus
 		Odo Otto Oswald Otmar Osmund
-		Peter Paul Philipp Pancratius Pilgrim Pleikard
+		Peter Paul Philipp Pancratius Pilgrim Pleikard Pankraz
 		Reinhold Reinhard Rudolf Robert Raimund Ruprecht Raymund Raphael Reiner Richard
 		Sebastian Siegfried Severin Stephan Simon Sylvester Sigismund
 		Thomas Tobias Theobald Tillmann Thile Thimo Theodor
@@ -1216,14 +1216,14 @@ name_list_german = {
 		Irmgard Iduberga Ingeborg Ilse Iris
 		Johanna Jutta Juliane Jakoba
 		Katrin Klara
-		Luitgard Liselotte Linda
+		Luitgard Liselotte Linda Luise Luisa
 		Kunigunde Katharina Konstanze
 		Magdalena Maria Martha Miriam Margaretha Margarethe Mechthild
 		Natascha Nathalie
 		Ottilia 
-		Philippa Petra Pauline
+		Philippa Petra Pauline Paula
 		Ruth Rosemarie Roswitha
-		Sophia Susanna
+		Sophia Susanna Sibylle Sidonia
 		Ursula 
 		Veronika
 		Walburga Walpurgis Wilhelmina Waltraut
