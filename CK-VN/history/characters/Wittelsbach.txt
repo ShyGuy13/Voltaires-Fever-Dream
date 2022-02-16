@@ -202,8 +202,8 @@ wittelsbach13 = {
 		}
 	}
 	1428.2.1 = {
-		add_spouse = agnes_bernauer
 		effect = {
+			set_relation_lover = character:agnes_bernauer
 			set_relation_rival = character:wittelsbach14
 		}
 	}

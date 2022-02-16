@@ -6,6 +6,21 @@
 	color2 = "black"	
 }
 
+102 = { # Ptujski
+	pattern = "pattern__solid_designer.dds"
+	color1 = red
+	color2 = red
+	colored_emblem = {
+		color1 = white
+		texture = "ce_anchor.dds"
+		instance = {
+			position = { 0.490000 0.410000 }
+			scale = { 0.910000 0.910000 }
+			rotation = 180
+		}
+	}
+}
+
 164 = { # Habsburg
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
@@ -15,6 +30,23 @@
 		color1 = "red"
 		color2 = "red"
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
+	}
+}
+
+176 = { # Fraunberg
+	pattern = "pattern__solid_designer.dds"
+	color1 = red
+	color2 =blue_light
+	color3 = white
+	colored_emblem = {
+		color1 = white
+		color2 = white
+		color3 = black
+		texture = "ce_horse_rampant.dds"
+		instance = {
+			position={ 0.500000 0.470000 }
+			scale = { 0.860000 0.860000 }
+		}
 	}
 }
 
@@ -28,4 +60,26 @@
 		color2 = "yellow"
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
 	}	
+}
+
+226 = { # Leuchtenberg
+	pattern = "pattern_tricolor_horizontal_01.dds"
+	color1 = white
+	color2 = blue_light
+	color3 = white
+	colored_emblem={
+		color1 = yellow
+		texture = "ce__empty_designer.dds"
+		instance = {
+			scale = { 0.700000 0.700000 }
+		}
+	}
+}
+
+338 = { #Schaunberg
+	custom = yes
+	pattern = "pattern_vertical_split_01.dds"
+	color1 = white
+	color2 = red
+	color3 = white
 }

@@ -124,3 +124,22 @@ c_mantua = {
 		holder = gonzaga3
 	}
 }
+
+#County of Ferrara
+c_ferrara = {
+	1393.1.1 = {
+		holder = este1
+	}
+}
+
+c_modena = {
+	1393.1.1 = {
+		holder = este1
+	}
+}
+
+c_reggio = {
+	1393.1.1 = {
+		holder = este1
+	}
+}

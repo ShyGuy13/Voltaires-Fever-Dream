@@ -1,0 +1,18 @@
+﻿savorgnano1 = {
+	name = "Ghibellino" #Ghibellino I of Savorgnan
+	religion = catholic
+	culture = friulian
+	father = savorgnano2
+	1428.1.1 = {
+		birth = yes
+	}
+}
+
+savorgnano2 = {
+	name = "Urbano" #Urbano I of Savorgnan
+	religion = catholic
+	culture = friulian
+	1397.1.1 = {
+		birth = yes
+	}
+}

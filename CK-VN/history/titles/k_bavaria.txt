@@ -23,6 +23,18 @@ c_upper_bavaria = {
 	}
 }
 
+c_regenstauf = {
+	1361.9.18 = {
+		holder = wittelsbach22
+	}
+	1397.1.1 = {
+		holder = wittelsbach14
+	}
+	1438.7.3 = {
+		holder = wittelsbach13
+	}
+}
+
 c_grafenau = {
 	1361.9.18 = {
 		holder = wittelsbach22
@@ -90,7 +102,7 @@ c_wasserburg = {
 	}
 }
 
-c_pfaffenberg = {
+c_dingolfing = {
 	1392.1.1 = {
 		holder = wittelsbach27
 	}
@@ -109,6 +121,18 @@ c_scharding = {
 }
 
 #Duchy of Bavaria-Landshut
+d_landshut = {
+	1349.1.1 = {
+		holder = wittelsbach26
+	}
+	1375.5.13 = {
+		holder = wittelsbach2
+	}
+	1393.12.4 = {
+		holder = wittelsbach2
+	}
+}
+
 c_niederbayern = {
 	1349.1.1 = {
 		holder = wittelsbach26
@@ -300,6 +324,13 @@ c_eichstatt = {
 	}
 }
 
+#Lordship of Heideck
+b_heideck = {
+	1425.11.26 = {
+		holder = heideck1
+	}
+}
+
 #County of Waldau
 c_waldthurn = {
 	1419.1.1 = {
@@ -334,55 +365,6 @@ c_wiesent = {
 }
 
 #Prince-Bishopric of Freising
-# c_innichen = {
-# 	1000.1.1 = { government = theocracy_government }
-# 	1421.12.13 = {
-# 		holder = scala1
-# 	}
-# }
-
-# c_oberwolz = {
-# 	1000.1.1 = { government = theocracy_government }
-# 	1421.12.13 = {
-# 		holder = scala1
-# 	}
-# }
-
-# c_skofja_loka = {
-# 	1000.1.1 = { government = theocracy_government }
-# 	1421.12.13 = {
-# 		holder = scala1
-# 	}
-# }
-
-# c_waidhofen = {
-# 	1000.1.1 = { government = theocracy_government }
-# 	1421.12.13 = {
-# 		holder = scala1
-# 	}
-# }
-
-# c_enzersdorf = {
-# 	1000.1.1 = { government = theocracy_government }
-# 	1421.12.13 = {
-# 		holder = scala1
-# 	}
-# }
-
-# c_werdenfels = {
-# 	1000.1.1 = { government = theocracy_government }
-# 	1421.12.13 = {
-# 		holder = scala1
-# 	}
-# }
-
-# c_burgraun = {
-# 	1000.1.1 = { government = theocracy_government }
-# 	1421.12.13 = {
-# 		holder = scala1
-# 	}
-# }
-
 c_freising = {
 	1000.1.1 = { government = theocracy_government }
 	1421.12.13 = {

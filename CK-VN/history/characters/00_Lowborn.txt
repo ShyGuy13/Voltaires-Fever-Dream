@@ -1,5 +1,5 @@
 ﻿agnes_bernauer = {
-	name = "Agner Bernauer"
+	name = "Agnes Bernauer"
 	female = yes
 	religion = catholic
 	culture = swabian

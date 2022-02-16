@@ -133,3 +133,30 @@ visconti9 = {
 		death = yes
 	}
 }
+
+visconti10 = {
+	name = "Lancellotto" #
+	dynasty = 44
+	religion = catholic
+	culture = lombard
+	trait = legitimazed_bastartd
+	father = visconti7
+	1380.1.1 = { #fic
+		birth = yes
+	}
+	1441.1.1 = {
+		death = yes
+	}
+}
+
+visconti11 = {
+	name = "Donnina" #wife of Annibale I Bentivoglio of Bologna
+	female = yes
+	dynasty = 44
+	religion = catholic
+	culture = lombard
+	father = visconti10
+	1420.1.1 = {
+		birth = yes
+	}
+}
