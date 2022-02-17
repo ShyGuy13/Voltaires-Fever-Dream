@@ -3607,20 +3607,20 @@ headgear = {
 	    }
 	    weight = {
 	        base = 0
-	        modifier = {
-	            add = 200
-				exists = this
-				faith = faith:orthodox
-				exists = primary_title
-				primary_title = {
-					exists = controlled_faith
-				}
-				NOT = {
-					faith = {
-						has_doctrine_parameter = vows_of_poverty_active
-					}
-				}
-	        }
+	        # modifier = {
+	        #     add = 200
+			# 	exists = this
+			# 	faith = faith:orthodox
+			# 	exists = primary_title
+			# 	primary_title = {
+			# 		exists = controlled_faith
+			# 	}
+			# 	NOT = {
+			# 		faith = {
+			# 			has_doctrine_parameter = vows_of_poverty_active
+			# 		}
+			# 	}
+	        # }
 	    }
 	}	
 

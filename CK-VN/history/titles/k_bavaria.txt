@@ -302,7 +302,7 @@ c_ansbach = {
 }
 
 #Bishopric of Passau
-c_east_bavaria = {
+c_passau = {
 	1000.1.1 = { government = theocracy_government }
 	1423.7.1 = {
 		holder = laiming1
@@ -346,21 +346,10 @@ c_hohenwaldeck = {
 }
 
 #Prince-Bishopric of Regensburg
-c_allersburg = {
+c_regensburg = {
+	1000.1.1 = { government = theocracy_government }
 	1437.5.18 = {
-		holder = parsberg4
-	}
-}
-
-c_worth = {
-	1437.5.18 = {
-		holder = parsberg4
-	}
-}
-
-c_wiesent = {
-	1437.5.18 = {
-		holder = parsberg4
+		holder = parsberg3
 	}
 }
 

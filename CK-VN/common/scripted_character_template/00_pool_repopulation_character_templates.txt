@@ -432,10 +432,10 @@ pool_repopulate_intrigue = {
 			}
 			modifier = {
 				add = 5
-				OR = {
+				#OR = {
 					culture = { has_cultural_pillar = heritage_north_germanic }
-					religion = religion:germanic_religion
-				}
+					#religion = religion:germanic_religion
+				#}
 			}
 		}
 	}

@@ -1,0 +1,9 @@
+﻿avogadro1 = {
+	name = "Genevra" #wife of Giorgio of Lodrone
+	dynasty = 232
+	religion = catholic
+	culture = lombard
+	1405.1.1 = {
+		birth = yes
+	}
+}

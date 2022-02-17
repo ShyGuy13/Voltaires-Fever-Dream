@@ -3621,13 +3621,13 @@ clothes = {
 		outfit_tags = { monk_outfit }
 		weight = {
 			base = 0
-			modifier = {
-				add = 100
-				portrait_has_trait_trigger = { TRAIT = devoted }
-				OR = {
-					religion = religion:jainism_religion
-				}
-			}
+			# modifier = {
+			# 	add = 100
+			# 	portrait_has_trait_trigger = { TRAIT = devoted }
+			# 	OR = {
+			# 		religion = religion:jainism_religion
+			# 	}
+			# }
 		}
 	}
 
@@ -3650,19 +3650,19 @@ clothes = {
 	    outfit_tags = { priest_outfit }
 	    weight = {
 	        base = 0
-	        modifier = {
-				add = 110
-				exists = this
-				OR = {
-					has_character_flag = need_priest_outfit
-					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
-					has_council_position = councillor_court_chaplain
-				}
-				OR = {
-					religion = religion:jainism_religion
-				}
-			}
+	        # modifier = {
+			# 	add = 110
+			# 	exists = this
+			# 	OR = {
+			# 		has_character_flag = need_priest_outfit
+			# 		is_theocratic_lessee = yes
+			# 		AND = { is_ruler = yes has_government = theocracy_government }
+			# 		has_council_position = councillor_court_chaplain
+			# 	}
+			# 	OR = {
+			# 		religion = religion:jainism_religion
+			# 	}
+			# }
 	    }
 	}
 
@@ -3707,25 +3707,25 @@ clothes = {
 	    outfit_tags = { priest_outfit }
 	    weight = {
 	        base = 0
-	        modifier = {
-				add = 100
-				exists = this
-				OR = {
-					has_character_flag = need_priest_outfit
-					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
-					has_council_position = councillor_court_chaplain
-				}
-				OR = {
-					religion = religion:akom_religion
-					religion = religion:waaqism_religion
-					religion = religion:west_african_religion
-					religion = religion:west_african_bori_religion
-					religion = religion:west_african_roog_religion
-					religion = religion:kushitism_religion
-					religion = religion:west_african_orisha_religion
-				}
-			}
+	        # modifier = {
+			# 	add = 100
+			# 	exists = this
+			# 	OR = {
+			# 		has_character_flag = need_priest_outfit
+			# 		is_theocratic_lessee = yes
+			# 		AND = { is_ruler = yes has_government = theocracy_government }
+			# 		has_council_position = councillor_court_chaplain
+			# 	}
+			# 	OR = {
+			# 		religion = religion:akom_religion
+			# 		religion = religion:waaqism_religion
+			# 		religion = religion:west_african_religion
+			# 		religion = religion:west_african_bori_religion
+			# 		religion = religion:west_african_roog_religion
+			# 		religion = religion:kushitism_religion
+			# 		religion = religion:west_african_orisha_religion
+			# 	}
+			# }
 	    }
 	}
 

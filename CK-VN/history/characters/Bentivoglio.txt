@@ -4,7 +4,7 @@
 	religion = catholic
 	culture = emilian
 	1415.8.1 = {
-		birith = yes
+		birth = yes
 	}
 	1441.1.1 = {
 		add_spouse = visconti11

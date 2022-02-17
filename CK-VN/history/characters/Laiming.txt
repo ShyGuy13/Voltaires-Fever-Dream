@@ -5,6 +5,5 @@
 	culture = bavarian
 	1381.1.1 = {
 		birth = yes
-		set_primary_title_to = title:c_passau
 	}
 }

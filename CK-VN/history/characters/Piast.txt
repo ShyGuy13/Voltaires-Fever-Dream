@@ -1,4 +1,4 @@
-piast1 = {
+﻿piast1 = {
 	name = "Hedwig" #Hedwig Piast, second wife of Bernhard VI Askanier, Anhalt-Bernburg
 	female = yes
 	dynasty = 6
@@ -36,5 +36,15 @@ piast3 = {
 	}
 	1429.11.28 = {
 		death = yes
+	}
+}
+
+piast4 = {
+	name = "Aleksander" #Bishop Aleksander I of Trent
+	dynasty = 6
+	religion = catholic
+	culture = schlesian
+	1400.1.1 = {
+		birth = yes
 	}
 }

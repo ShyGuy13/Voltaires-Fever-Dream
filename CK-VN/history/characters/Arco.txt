@@ -5,6 +5,5 @@
 	culture = venetian
 	1410.1.1 = { #fic
 		birth = yes
-		#add_pressed_claim = c_arco
 	}
 }

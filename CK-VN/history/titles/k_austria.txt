@@ -1,5 +1,5 @@
 #Duchy of Austria
-d_austria_proper = {
+d_osterreich = {
 	1000.1.1 = {
 		succession_laws = { male_only_law }
 	}
@@ -23,7 +23,7 @@ d_austria_proper = {
 	}
 }
 
-c_austria_proper = {
+c_vienna = {
 	1330.1.13 = {
 		holder = habsburg16
 	}
@@ -86,7 +86,7 @@ c_traungau = {
 	}
 }
 
-c_kremsland = {
+c_krems = {
 	1330.1.13 = {
 		holder = habsburg16
 	}
@@ -170,7 +170,7 @@ c_ostmark = {
 	}
 }
 
-c_muhlviertel = {
+c_linz = {
 	1330.1.13 = {
 		holder = habsburg16
 	}
@@ -499,10 +499,22 @@ c_irdning = {
 }
 
 #Duchy of Triol
-c_tirol = {
+d_tyrol = {
 	1000.1.1 = {
 		succession_laws = { male_only_law }
 	}
+	1439.6.24 = {
+		holder = habsburg11
+	}
+}
+
+c_tirol = {
+	1439.6.24 = {
+		holder = habsburg11
+	}
+}
+
+c_valsugana = {
 	1439.6.24 = {
 		holder = habsburg11
 	}
@@ -619,7 +631,7 @@ d_salzburg = {
 	}
 }
 
-c_salzburggau = {
+c_salzburg = {
 	1000.1.1 = { government = theocracy_government }
 	1429.1.1 = {
 		holder = reisberg1
@@ -676,6 +688,29 @@ c_friesach = {
 	}
 	1441.1.1 = {
 		holder = emmerberg1
+	}
+}
+
+#Bishopric of Trent
+d_trent = {
+	1000.1.1 = { government = theocracy_government }
+	1423.10.20 = {
+		holder = piast4
+	}
+}
+
+c_sole = {
+	1000.1.1 = { government = theocracy_government }
+	1423.10.20 = {
+		holder = piast4
+	}
+}
+
+#County of Lodron
+c_lodrone = {
+	1439.1.1 = {
+		liege = d_trent
+		holder = lodrone1
 	}
 }
 

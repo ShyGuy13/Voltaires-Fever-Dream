@@ -1,4 +1,4 @@
-hohenrechberg1 = {
+﻿hohenrechberg1 = {
 	name = "Albrecht" #Bishop Albrecht II of Eichstätt
 	dynasty = 106
 	religion = catholic

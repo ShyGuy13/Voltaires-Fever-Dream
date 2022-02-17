@@ -1,4 +1,4 @@
-metz1 = {
+﻿metz1 = {
 	name = "Catherine" #Catherine of Lorraine, wife of Jakob I of Baden
 	female = yes
 	dynasty = 233

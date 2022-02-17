@@ -12,6 +12,12 @@ d_veneto = {
 	}
 }
 
+c_vallagarina = {
+	1423.4.5 = {
+		holder = foscari1
+	}
+}
+
 c_venetia = {
 	1423.4.5 = {
 		holder = foscari1

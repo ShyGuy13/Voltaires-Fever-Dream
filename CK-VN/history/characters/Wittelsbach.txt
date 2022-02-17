@@ -432,6 +432,7 @@ wittelsbach30 = {
 	dynasty = 190
 	religion = catholic
 	culture = bavarian
+	trait = hunchbacked
 	father = wittelsbach29
 	1403.9.1 = {
 		birth = yes
