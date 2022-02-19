@@ -1188,7 +1188,7 @@ name_list_german = {
 		Georg Gottfried Goswin Gottlob Gottschalk Gundekar Gotthard Gabriel Günther Gebhard Gumprecht Giselmar Gustav
 		Hans Herwig Hartmann Heinrich Heinz Hartmut Hugo Herman Hesso Hieronymus Hildebrand Henneke
 		Ignatz
-		Jakob Jobst Jost Jofridus Johann Julius Johannes Joachim Joseph Julian Joachim
+		Jakob Jobst Jost Jofridus Johann Julius Johannes Joachim Joseph Julian Joachim Jan
 		Konstantin Konrad Karl Kaspar Korbinian Kasimir Klaus Kilian
 		Lambert Leopold Lothar Ludwig Ludolf Leonhard Lukard Ladislaus 
 		Magnus Marx Meinhard Maximin Menhart Manfred Martin Matthias Michael Maginulf Moritz Markus Melchior Maximilian Marquard Meinwerk Meinrad
@@ -1228,5 +1228,9 @@ name_list_german = {
 		Veronika
 		Walburga Walpurgis Wilhelmina Waltraut
 		Xenia
+	}
+
+	dynasty_names = {
+		
 	}
 }

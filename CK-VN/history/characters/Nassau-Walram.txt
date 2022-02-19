@@ -1,0 +1,27 @@
+﻿walram1 = {
+	name = "Adolf" #Emperor Adolf
+	dynasty_house = house_nassau_walram
+	religion = catholic
+	culture = hessian
+	father = walram2
+	1255.1.1 = {
+		birth = yes
+	}
+	1298.7.2 = {
+		death = yes
+	}
+}
+
+walram2 = {
+	name = "Walram" #Walram II of Nassau
+	dynasty_house = house_nassau_walram
+	religion = catholic
+	culture = hessian
+	father = nassau1
+	1220.1.1 = {
+		birth = yes
+	}
+	1276.1.24 = {
+		death = yes
+	}
+}

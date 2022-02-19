@@ -15,6 +15,11 @@ habsburg2 = {
 	dynasty = 164
 	culture = austrian
 	religion = catholic
+	diplomacy = 4
+	martial = 2
+	stewardship = 6
+	intrigue = 6
+	learning = 4
 	trait = education_diplomacy_4
 	trait = gregarious
 	trait = calm
@@ -603,7 +608,6 @@ habsburg39 = {
 
 habsburg40 = {
 	name = "Karl"
-	female = yes
 	dynasty = 164
 	culture = austrian
 	religion = catholic
@@ -611,6 +615,22 @@ habsburg40 = {
 	mother = hohenberg1
 	1276.1.1 = {
 		birth = yes
+		death = yes
+	}
+}
+
+habsburg41 = {
+	name = "Friedrich" #Friedrich I of Austria & III of Styria
+	dynasty = 164
+	culture = austrian
+	religion = catholic
+	trait = beauty_good_2
+	father = habsburg29
+	1289.1.1 = {
+		birth = yes
+		give_nick = nick_the_beautiful
+	}
+	1330.1.13 = {
 		death = yes
 	}
 }

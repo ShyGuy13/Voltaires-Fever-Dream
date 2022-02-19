@@ -1,3 +1,9 @@
+c_altmark = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
 c_berlin = {
 	1437.6.7 = {
 		holder = hohenzollern8

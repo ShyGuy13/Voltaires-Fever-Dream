@@ -11115,7 +11115,7 @@
 		c_ossola=0
 		c_biandrate=0
 		c_arona=0
-		c_romagnano=0
+		c_ravennano=0
 		c_novara=0
 		c_orta=0
 		c_varallo=0
@@ -11459,7 +11459,7 @@
 		c_liguria=0
 		c_trent=0
 		c_ferrara=0
-		c_romagna=0
+		c_ravenna=0
 		c_roma=0
 		c_ancona=0
 		c_viterbo=0
@@ -13177,7 +13177,7 @@
 		c_stauf=0
 		c_schwabach=0
 		c_berching=0
-		c_eichstatt=0
+		c_eichstadt=0
 		c_spalt=0
 		c_herrieden=0
 		c_bairisch_weissenburg=0
@@ -13205,7 +13205,7 @@
 		c_tirschenreuth=0
 		c_waldthurn=0
 		c_floss=0
-		c_leuchtenberg=0
+		c_leuchtenburg=0
 		c_nabburg=0
 		c_waldau=0
 		c_neunburg=0
@@ -13286,7 +13286,7 @@
 		c_weilheim=0
 		c_eschenlohe=0
 		c_schongau=0
-		c_schwangau=0
+		c_eschenlohe=0
 		c_pforzheim=0
 		c_neuhausen=0
 		c_malsch=0
@@ -13789,7 +13789,7 @@
 		d_eneda=0
 		d_contadinanza=0
 		d_friuli=0
-		d_aquileia=0
+		d_friuli=0
 		d_carnia=0
 		d_cadore=0
 		d_gaeta=0

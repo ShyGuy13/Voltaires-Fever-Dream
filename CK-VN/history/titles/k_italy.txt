@@ -10,3 +10,10 @@ c_cremona = {
 		holder = sforza1
 	}
 }
+
+#Lordship of Bologna
+c_bologna = {
+	1435.12.23 = {
+		holder = bentivoglio1
+	}
+}

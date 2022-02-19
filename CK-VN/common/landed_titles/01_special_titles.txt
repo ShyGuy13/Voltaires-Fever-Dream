@@ -59,9 +59,7 @@ d_rabbinism = {
 
 
 # HOLY ORDERS
-
 d_teutonic_order = {
-	
 	color = { 50 50 50 }
 	color2 = { 255 255 255 }
 	
@@ -69,7 +67,6 @@ d_teutonic_order = {
 }
 
 d_teutonic_state = {
-	
 	color = { 50 50 50 }
 	color2 = { 255 255 255 }
 	
@@ -77,12 +74,24 @@ d_teutonic_state = {
 }
 
 d_knights_hospitaler = {
-
 	color = { 180 180 180 }
 	color2 = { 255 255 255 }
 	
 	capital = c_heitersheim
+}
+
+d_red_star_crusaders = {
+	color = { 128 128 128 }
+	color2 = { 255 255 255 }
 	
+	capital = c_bohemia
+}
+
+d_bethlehemites = {
+	color = { 30 144 255 }
+	color2 = { 255 255 255 }
+	
+	capital = c_asti
 }
 
 # TITULAR KINGDOMS

@@ -1,1 +1,14 @@
-﻿
+﻿nassau1 = {
+	name = "Heinrich" #Heinrich II of Nassau
+	dynasty = 15
+	religion = catholic
+	culture = hessian
+	trait = crusader
+	1180.1.1 = {
+		birth = yes
+		give_nickname = nick_the_rich
+	}
+	1247.4.26 = {
+		death = yes
+	}
+}

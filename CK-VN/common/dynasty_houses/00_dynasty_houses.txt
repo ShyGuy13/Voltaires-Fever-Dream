@@ -19,6 +19,20 @@ house_saarbrucken = {
 	dynasty = 15 #von Nassau
 }
 
+#House of Nassau-Walram
+house_nassau_walram = {
+	prefix = "dynnp_von"
+	name = "dynn_Nassau-Walram"
+	dynasty = 15 #von Nassau
+}
+
+#House of Nassau-Otto
+house_nassau_otto = {
+	prefix = "dynnp_von"
+	name = "dynn_Nassau-Otto"
+	dynasty = 15 #von Nassau
+}
+
 #House of Münzenberg
 house_munzenberg = {
 	prefix = "dynnp_von"
@@ -108,4 +122,10 @@ house_ortenberg = {
 	prefix = "dynnp_von"
 	name = "dynn_Ortenberg"
 	dynasty = 174 #Sponheim
+}
+
+#House of Sforza
+house_sforza = {
+	name = "dynn_Sforza"
+	dynasty = 121 #Attendolo
 }

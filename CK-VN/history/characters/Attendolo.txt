@@ -1,6 +1,6 @@
 ﻿sforza1 = {
 	name = "Francesco" #Francesco I Sforza
-	dynasty = 121
+	dynasty_house = house_sforza
 	religion = catholic
 	culture = marchigian
 	martial = 4
@@ -12,8 +12,9 @@
 	trait = organizer
 	trait = legitimized_bastard
 	trait = physique_good_1
+	trait = adventurer
 	sexuality = heterosexual
-	father = sforza2
+	father = attendolo2
 	1401.6.23 = {
 		birth = yes
 	}
@@ -22,60 +23,76 @@
 	}
 }
 
-sforza2 = {
-	name = "Muzio Attendolo" #Muzio Attendolo Sforza
+attendolo1 = {
+	name = "Giovanni" #Giovanni Attendolo
+	dynasty = 121
+	religion = catholic
+	culture = marchigian
+	1319.1.1 = {
+		birth = yes
+	}
+	1385.1.1 = {
+		death = yes
+	}
+}
+
+attendolo2 = {
+	name = "Giacomo" #Giacomo 'Muzio' Attendolo
 	dynasty = 121
 	religion = catholic
 	culture = marchigian
 	trait = education_martial_3
+	trait = adventurer
+	father = attendolo1
 	1369.6.10 = {
 		birth = yes
+		give_nickname = nick_the_conqueror
 	}
 	1424.1.4 = {
 		death = yes
 	}
 }
 
-sforza3 = {
-	name = "Bosio" #Bosio Sforza
+attendolo3 = {
+	name = "Bosio" #Bosio Attendolo
 	dynasty = 121
 	religion = catholic
 	culture = marchigian
-	father = sforza2
+	father = attendolo2
 	1410.1.1 = {
 		birth = yes
 	}
 }
 
-sforza4 = {
-	name = "Carlo" #Carlo Sforza
+attendolo4 = {
+	name = "Carlo" #Carlo Attendolo
 	dynasty = 121
 	religion = catholic
 	culture = marchigian
-	father = sforza2
+	father = attendolo2
 	1423.6.15 = {
 		birth = yes
 	}
 }
 
-sforza5 = {
-	name = "Alesandro" #Alesandro Sforza
+attendolo5 = {
+	name = "Alesandro" #Alesandro Attendolo
 	dynasty = 121
 	religion = catholic
 	culture = marchigian
 	trait = legitimized_bastard
-	father = sforza2
+	father = attendolo2
 	1409.10.29 = {
 		birth = yes
 	}
 }
 
-sforza6 = {
-	name = "Bartolomeo" #Bartolomeo Sforza
+attendolo6 = {
+	name = "Bartolomeo" #Bartolomeo Attendolo
 	dynasty = 121
 	religion = catholic
 	culture = marchigian
-	father = sforza2
+	father = attendolo2
 	1420.1.1 = {
 		birth = yes
 	}
@@ -84,53 +101,53 @@ sforza6 = {
 	}
 }
 
-sforza7 = {
-	name = "Elisa" #Elisa Sforza
+attendolo7 = {
+	name = "Elisa" #Elisa Attendolo
 	female = yes
 	dynasty = 121
 	religion = catholic
 	culture = marchigian
-	father = sforza2
+	father = attendolo2
 	trait = bastard
 	1402.1.1 = {
 		birth = yes
 	}
 }
 
-sforza8 = {
-	name = "Antonia" #Antonia Sforza
+attendolo8 = {
+	name = "Antonia" #Antonia Attendolo
 	female = yes
 	dynasty = 121
 	religion = catholic
 	culture = marchigian
-	father = sforza2
+	father = attendolo2
 	trait = bastard
 	1404.1.16 = {
 		birth = yes
 	}
 }
 
-sforza9 = {
-	name = "Giovanni" #Giovanni Sforza
+attendolo9 = {
+	name = "Giovanni" #Giovanni Attendolo
 	dynasty = 121
 	religion = catholic
 	culture = marchigian
 	trait = bastard
-	father = sforza2
+	father = attendolo2
 	1407.1.1 = {
 		birth = yes
 	}
 }
 
-sforza10 = {
-	name = "Orsola" #Orsola Sforza
+attendolo10 = {
+	name = "Orsola" #Orsola Attendolo
 	female = yes
 	dynasty = 121
 	religion = catholic
 	culture = marchigian
 	trait = bastard
 	trait = devoted
-	father = sforza2
+	father = attendolo2
 	1411.1.1 = {
 		birth = yes
 	}

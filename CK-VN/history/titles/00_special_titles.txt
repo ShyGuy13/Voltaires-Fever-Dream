@@ -1,0 +1,35 @@
+e_hre = {
+	1272.4.2 = {
+		holder = habsburg31 #Rudolf I von Habsburg
+	}
+	1291.7.15 = {
+		holder = walram1 #Adolf I of Nassau-Walram
+	}
+	1298.6.23 = {
+		holder = habsburg29 #Albrecht I von Habsburg
+	}
+	1308.5.1 = {
+		#heinrich of luxemburg
+	}
+	1313.8.24 = {
+		holder = wittelsbach34 #Ludwig IV von Wittelsbach
+	}
+	1347.10.11 = {
+		#karl of luxemburg
+	}
+	1400.8.21 = {
+		holder = pfalz8 #Rudolf II von Wittelsbach-Pfalz
+	}
+	1410.5.18 = {
+		#jobst of moravia
+	}
+	1411.1.18 = {
+		#sigismund of luxemburg
+	}
+	1437.12.9 = {
+		holder = habsburg13 #Albrecht II von Habsburg
+	}
+	1439.10.27 = {
+		holder = habsburg2 #Friedrich III von Habsburg
+	}
+}

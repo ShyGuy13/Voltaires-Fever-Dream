@@ -235,7 +235,7 @@ c_degenberg = {
 }
 
 #Lordship of Schwangau - promoted to County of Schwangau
-c_schwangau = {
+c_eschenlohe = {
 	1428.1.1 = {
 		liege = d_upper_bavaria
 		holder = schwangau1
@@ -251,7 +251,7 @@ c_hohenwaldeck = {
 }
 
 #County of Leuchtenberg
-c_leuchtenberg = {
+c_leuchtenburg = {
 	1404.1.1 = {
 		holder = leuchtenberg2
 	}
@@ -317,7 +317,7 @@ c_sankt_polten = {
 }
 
 #Bishopric of Eichstätt
-c_eichstatt = {
+c_eichstadt = {
 	1000.1.1 = { government = theocracy_government }
 	1429.8.26 = {
 		holder = hohenrechberg1

@@ -6,7 +6,7 @@ k_venice = {
 	}
 }
 
-d_veneto = {
+d_venice = {
 	1423.4.5 = {
 		holder = foscari1
 	}
@@ -18,8 +18,14 @@ c_vallagarina = {
 	}
 }
 
-c_venetia = {
+c_veneto = {
 	1423.4.5 = {
+		holder = foscari1
+	}
+}
+
+c_ravenna = {
+	1441.2.1 = {
 		holder = foscari1
 	}
 }
@@ -73,7 +79,7 @@ c_istria = {
 }
 
 #Patriarchate of Aquileia
-d_aquileia = {
+d_friuli = {
 	1000.1.1 = {
 		government = theocracy_government
 	}
@@ -131,7 +137,13 @@ c_mantua = {
 	}
 }
 
-#County of Ferrara
+#Duchy of Ferrara
+d_emilia = {
+	1393.1.1 = {
+		holder = este1
+	}
+}
+
 c_ferrara = {
 	1393.1.1 = {
 		holder = este1
@@ -147,5 +159,12 @@ c_modena = {
 c_reggio = {
 	1393.1.1 = {
 		holder = este1
+	}
+}
+
+#Lordship of Correggio
+b_correggio = {
+	1430.1.1 = {
+		holder = correggio2
 	}
 }

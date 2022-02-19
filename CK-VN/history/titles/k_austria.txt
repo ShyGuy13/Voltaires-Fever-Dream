@@ -3,23 +3,32 @@ d_osterreich = {
 	1000.1.1 = {
 		succession_laws = { male_only_law }
 	}
+	1239.12.13 = {
+		holder = habsburg31 #Rudolf III
+	}
+	1282.12.27 = {
+		holder = habsburg29 #Albrecht II
+	}
+	1308.5.1 = {
+		holder = habsburg41 #Friedrich I
+	}
 	1330.1.13 = {
-		holder = habsburg16
+		holder = habsburg16 #Albrecht II
 	}
 	1358.8.16 = {
-		holder = habsburg28
+		holder = habsburg28 #Rudolf IV
 	}
 	1365.7.27 = {
-		holder = habsburg15
+		holder = habsburg15 #Albrecht III
 	}
 	1395.8.29 = {
-		holder = habsburg14
+		holder = habsburg14 #Albrecht IV
 	}
 	1404.9.14 = {
-		holder = habsburg13
+		holder = habsburg13 #Albrecht V
 	}
 	1439.10.27 = {
-		holder = habsburg1
+		holder = habsburg1 #Ladislaus I
 	}
 }
 
@@ -255,7 +264,7 @@ c_waidhofen = {
 }
 
 #Duchy of Styria
-d_inner_austria = {
+d_steyermark = {
 	1000.1.1 = {
 		succession_laws = { male_only_law }
 	}
@@ -288,7 +297,7 @@ d_carinthia = {
 	}
 }
 
-c_inner_austria = {
+c_graz = {
 	1379.9.25 = {
 		holder = habsburg8
 	}
@@ -588,7 +597,7 @@ c_spittal = {
 #Lordship of Duino - promoted to County of Trieste
 c_trieste = {
 	1423.1.1 = {
-		liege = d_inner_austria
+		liege = d_steyermark
 		holder = walsee1
 	}
 }
@@ -596,13 +605,13 @@ c_trieste = {
 #Lordship of Lupoglav - promoted to County of Pazin
 c_pazin = {
 	1421.1.1 = {
-		liege = d_inner_austria
+		liege = d_steyermark
 		holder = herberstein2
 	}
 }
 
 #County of Gorizia
-c_gorizia = {
+c_gorz = {
 	1385.5.6 = {
 		holder = meinharding2
 	}
@@ -734,4 +743,10 @@ b_mondsee = {
 	1420.1.1 = {
 		holder = reuchlin1
 	}
+}
+
+#Lordship of Arco - promoted to County of Arco
+c_arco = {
+	d_trent
+	holder = arco1
 }

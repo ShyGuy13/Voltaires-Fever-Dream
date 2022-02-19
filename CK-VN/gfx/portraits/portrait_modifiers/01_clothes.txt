@@ -3129,9 +3129,9 @@ clothes = {
 					faith = faith:catholic
 					faith.religious_head = this
 				}
-				NOT = {
-					faith = faith:orthodox
-				}
+				#NOT = {
+				#	faith = faith:orthodox
+				#}
 				NOT = {
 					faith = {
 						has_doctrine_parameter = vows_of_poverty_active
@@ -3206,10 +3206,10 @@ clothes = {
 					AND = { is_ruler = yes has_government = theocracy_government }
 					has_council_position = councillor_court_chaplain
 				}
-				OR = {
+				#OR = {
 					religion = religion:judaism_religion
-					religion = religion:hellenism_religion
-				}
+					#religion = religion:hellenism_religion
+				#}
 			}
 	    }
 	}
@@ -3514,13 +3514,13 @@ clothes = {
 		outfit_tags = { monk_outfit }
 		weight = {
 			base = 0
-			modifier = {
-				add = 100
-				portrait_has_trait_trigger = { TRAIT = devoted }
-				OR = {
-					religion = religion:hinduism_religion
-				}
-			}
+			# modifier = {
+			# 	add = 100
+			# 	portrait_has_trait_trigger = { TRAIT = devoted }
+			# 	OR = {
+			# 		religion = religion:hinduism_religion
+			# 	}
+			# }
 		}
 	}
 
@@ -3543,19 +3543,19 @@ clothes = {
 	    outfit_tags = { priest_outfit }
 	    weight = {
 	        base = 0
-	        modifier = {
-				add = 110
-				exists = this
-				OR = {
-					has_character_flag = need_priest_outfit
-					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
-					has_council_position = councillor_court_chaplain
-				}
-				OR = {
-					religion = religion:hinduism_religion
-				}
-			}
+	        # modifier = {
+			# 	add = 110
+			# 	exists = this
+			# 	OR = {
+			# 		has_character_flag = need_priest_outfit
+			# 		is_theocratic_lessee = yes
+			# 		AND = { is_ruler = yes has_government = theocracy_government }
+			# 		has_council_position = councillor_court_chaplain
+			# 	}
+			# 	OR = {
+			# 		religion = religion:hinduism_religion
+			# 	}
+			# }
 	    }
 	}
 

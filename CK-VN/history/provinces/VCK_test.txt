@@ -546,7 +546,7 @@
 110 = { # c_trent
 	culture = venetian
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 111 = { # c_friuli
 	culture = friulian
@@ -563,10 +563,10 @@
 	religion = catholic
 	holding = castle_holding
 }
-114 = { # c_romagna
+114 = { # c_ravenna
 	culture = romagnan
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 115 = { # c_pisa
 	culture = tuscan
@@ -1861,7 +1861,7 @@
 373 = { # c_torbole
 	culture = venetian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 374 = { # c_rovereto
 	culture = venetian
@@ -1921,7 +1921,7 @@
 385 = { # c_primiero
 	culture = venetian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 386 = { # c_fassa
 	culture = ladin
@@ -2668,7 +2668,7 @@
 	religion = catholic
 	holding = castle_holding
 }
-535 = { # c_romagnano
+535 = { # c_ravennano
 	culture = lombard
 	religion = catholic
 	holding = castle_holding
@@ -13808,7 +13808,7 @@
 	religion = catholic
 	holding = none
 }
-2763 = { # c_eichstatt
+2763 = { # c_eichstadt
 	culture = bavarian
 	religion = catholic
 	holding = church_holding
@@ -13948,7 +13948,7 @@
 	religion = catholic
 	holding = none
 }
-2791 = { # c_leuchtenberg
+2791 = { # c_leuchtenburg
 	culture = bavarian
 	religion = catholic
 	holding = castle_holding
@@ -14351,7 +14351,7 @@
 2871 = { # c_eschenlohe
 	culture = tirolian
 	religion = catholic
-	holding = church_holding
+	holding = castle_holding
 }
 2872 = { # c_schongau
 	culture = tirolian
@@ -14361,7 +14361,7 @@
 2873 = { # c_schwangau
 	culture = tirolian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2874 = { # c_pforzheim
 	culture = franconian

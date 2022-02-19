@@ -566,7 +566,7 @@
 	culture = frisian
 }
 121 = {
-	name = "dynn_Sforza"
+	name = "dynn_Attendolo"
 	culture = marchigian
 }
 122 = {
@@ -1041,7 +1041,7 @@
 221 = {
 	prefix = "dynnp_von"
 	name = "dynn_der_Alben"
-	culture = bavarian
+	culture = tirolian
 }
 222 = {
 	prefix = "dynnp_von"
@@ -1454,9 +1454,7 @@
 	culture = alemannic
 }
 311 = {
-	prefix = "dynnp_von"
-	name = "dynn_Parsberg"
-	culture = bavarian
+	#free
 }
 312 = {
 	prefix = "dynnp_von"
