@@ -129,3 +129,17 @@ house_sforza = {
 	name = "dynn_Sforza"
 	dynasty = 121 #Attendolo
 }
+
+#House of Lindow-Ruppin
+house_lindow_ruppin = {
+	prefix = "dynnp_von"
+	name = "dynn_Lindow-Ruppin"
+	dynasty = 28 #Arnstein
+}
+
+#House of Barby
+house_barby = {
+	prefix = "dynnp_von"
+	name = "dynn_Barby"
+	dynasty = 28 #Arnstein
+}

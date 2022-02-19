@@ -243,6 +243,9 @@ habsburg15 = {
 		birth = yes
 		give_nickname = nick_the_pigtail
 	}
+	1366.1.1 = {
+		add_spouse = luxemburg5
+	}
 	1375.1.1 = {
 		add_spouse = hohenzollern17
 	}
@@ -428,6 +431,9 @@ habsburg28 = {
 	1339.11.1 = {
 		birth = yes
 		give_nickname = nick_the_founder
+	}
+	1357.7.1 = {
+		add_spouse = luxemburg6
 	}
 	1365.7.27 = {
 		death = yes
@@ -628,7 +634,7 @@ habsburg41 = {
 	father = habsburg29
 	1289.1.1 = {
 		birth = yes
-		give_nick = nick_the_beautiful
+		give_nickname = nick_the_beautiful
 	}
 	1330.1.13 = {
 		death = yes

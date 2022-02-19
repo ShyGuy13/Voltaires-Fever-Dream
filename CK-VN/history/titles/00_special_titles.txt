@@ -9,22 +9,22 @@ e_hre = {
 		holder = habsburg29 #Albrecht I von Habsburg
 	}
 	1308.5.1 = {
-		#heinrich of luxemburg
+		holder = luxemburg10 #Heinrich VII of Luxemburg
 	}
 	1313.8.24 = {
 		holder = wittelsbach34 #Ludwig IV von Wittelsbach
 	}
 	1347.10.11 = {
-		#karl of luxemburg
+		holder = luxemburg2 #Karl IV von Luxemburg
 	}
 	1400.8.21 = {
 		holder = pfalz8 #Rudolf II von Wittelsbach-Pfalz
 	}
 	1410.5.18 = {
-		#jobst of moravia
+		holder = luxemburg9 #Jobst I von Luxemburg
 	}
 	1411.1.18 = {
-		#sigismund of luxemburg
+		holder = luxemburg1 #Siegmund I of Luxemburg
 	}
 	1437.12.9 = {
 		holder = habsburg13 #Albrecht II von Habsburg

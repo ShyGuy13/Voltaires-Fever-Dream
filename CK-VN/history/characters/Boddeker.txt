@@ -1,0 +1,9 @@
+﻿boddeker1 = {
+	name = "Stephan" #bishop Stephan I of Brandenburg
+	dynasty = 56
+	religion = catholic
+	culture = mecklenburgish
+	1384.1.1 = {
+		birth = yes
+	}
+}

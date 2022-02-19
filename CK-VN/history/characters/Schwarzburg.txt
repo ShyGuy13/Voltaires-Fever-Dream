@@ -1,0 +1,14 @@
+﻿schwarzburg1 = {
+	name = "Günther" #Bishop Günther II of Magdenburg
+	dyansty = 42
+	religion = catholic
+	culture = eastphalian
+	trait = education_learning_3
+	trait = cynical
+	trait = impatient
+	trait = arbitrary
+	trait = devoted
+	1382.1.1 = {
+		birth = yes
+	}
+}

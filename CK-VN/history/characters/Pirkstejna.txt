@@ -1,0 +1,11 @@
+pirkstejna1 = {
+	name = "Hynce" #Leader of the Landfryd
+	dynasty = 48
+	religion = utraquist
+	culture = czech
+	trait = education_stewardship_3
+	trait = flexible_leader
+	1404.1.1 = {
+		birth = yes
+	}
+}

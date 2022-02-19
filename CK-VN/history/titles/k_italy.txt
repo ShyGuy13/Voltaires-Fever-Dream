@@ -11,9 +11,17 @@ c_cremona = {
 	}
 }
 
-#Lordship of Bologna
+#Lordship of Bologna - promoted to County of Bologna
 c_bologna = {
 	1435.12.23 = {
 		holder = bentivoglio1
+	}
+}
+
+#Republic of Florence
+c_firenze = {
+	1000.1.1 = { government = republic_government }
+	1429.2.20 = {
+		holder = medici1
 	}
 }

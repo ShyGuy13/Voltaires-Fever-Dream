@@ -42,10 +42,10 @@ ortenberg4 = {
 	dynasty_house = house_ortenberg
 	religion = catholic
 	culture = bavarian
-	1380.1.1 = { #fic
+	1330.1.1 = { #fic
 		birth = yes
 	}
-	1422.3.4 = {
+	1395.4.8 = {
 		death = yes
 	}
 }
@@ -72,7 +72,7 @@ ortenberg6 = {
 	}
 }
 
-ortenberg6 = {
+ortenberg7 = {
 	name = "Margarethe" #wife of Heinrich III Notthaft zu Wernberg
 	female = yes
 	dynasty_house = house_ortenberg

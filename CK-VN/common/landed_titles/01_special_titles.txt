@@ -63,14 +63,14 @@ d_teutonic_order = {
 	color = { 50 50 50 }
 	color2 = { 255 255 255 }
 	
-	capital = c_marienburg
+	capital = c_mergentheim
 }
 
 d_teutonic_state = {
 	color = { 50 50 50 }
 	color2 = { 255 255 255 }
 	
-	capital = c_mergentheim
+	capital = c_marienburg
 }
 
 d_knights_hospitaler = {

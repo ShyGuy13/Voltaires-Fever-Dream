@@ -747,6 +747,6 @@ b_mondsee = {
 
 #Lordship of Arco - promoted to County of Arco
 c_arco = {
-	d_trent
+	liege = d_trent
 	holder = arco1
 }

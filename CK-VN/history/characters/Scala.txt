@@ -1,5 +1,5 @@
 ﻿scala1 = {
-	name = "Nikodemus" #Prince-Bishop Nikodemus I pf Freising
+	name = "Nikodemus" #Prince-Bishop Nikodemus I of Freising
 	dynasty = 131
 	culture = venetian
 	religion = catholic

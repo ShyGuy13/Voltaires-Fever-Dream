@@ -443,6 +443,9 @@ wittelsbach30 = {
 			set_relation_rival = character:wittelsbach29
 		}
 	}
+	1441.7.20 = {
+		add_spouse = hohenzollern6
+	}
 }
 
 wittelsbach31 = {

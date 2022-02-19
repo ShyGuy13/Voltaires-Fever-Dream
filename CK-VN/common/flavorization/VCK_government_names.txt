@@ -126,3 +126,33 @@ friulan_theocracy = {
 	governments = { theocracy_government }
 	top_liege = no
 }
+
+#Teutonic Order
+teutonic_order_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 48
+	titles = { d_teutonic_order }
+	governments = { theocracy_government }
+	top_liege = no
+}
+teutonic_order_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 48
+	titles = { d_teutonic_order }
+	governments = { theocracy_government }
+	top_liege = no
+}
+teutonic_order = {
+	type = title
+	tier = duchy
+	priority = 48
+	titles = { d_friuli }
+	governments = { theocracy_government }
+	top_liege = no
+}

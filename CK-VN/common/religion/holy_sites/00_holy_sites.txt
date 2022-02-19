@@ -61,7 +61,7 @@ zurich = {
 }
 
 strasburg = {
-	county = c_strasburg
+	county = c_elsass
 
 	character_modifier = {
 		name = holy_site_alexandria_effect_name

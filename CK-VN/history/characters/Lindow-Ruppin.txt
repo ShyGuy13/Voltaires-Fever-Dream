@@ -1,0 +1,9 @@
+﻿ruppin1 = {
+	name = "Ulrich" #Ulrich V of Lindow-Ruppin
+	dynasty_house = house_lindow_ruppin
+	religion = catholic
+	culture = markish
+	1395.1.1 = {
+		birth = yes
+	}
+}

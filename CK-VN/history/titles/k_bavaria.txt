@@ -11,7 +11,7 @@ d_upper_bavaria = {
 	}
 }
 
-c_upper_bavaria = {
+c_munchen = {
 	1361.9.18 = {
 		holder = wittelsbach22
 	}
@@ -84,7 +84,25 @@ c_straubing = {
 }
 
 #Duchy of Bavaria-Ingolstadt
+d_ingolstadt = {
+	1392.1.1 = {
+		holder = wittelsbach27
+	}
+	1413.9.26 = {
+		holder = wittelsbach29
+	}
+}
+
 c_ingolstadt = {
+	1392.1.1 = {
+		holder = wittelsbach27
+	}
+	1413.9.26 = {
+		holder = wittelsbach29
+	}
+}
+
+c_sulzbach = {
 	1392.1.1 = {
 		holder = wittelsbach27
 	}
@@ -206,6 +224,12 @@ c_vornbach = {
 }
 
 #Duchy of Pfalz-Neumarkt
+c_neumark = {
+	1410.5.18 = {
+		holder = neumarkt1
+	}
+}
+
 c_waldau = {
 	1410.5.18 = {
 		holder = neumarkt1
@@ -213,6 +237,12 @@ c_waldau = {
 }
 
 c_neunburg = {
+	1410.5.18 = {
+		holder = neumarkt1
+	}
+}
+
+c_lengenfeld = {
 	1410.5.18 = {
 		holder = neumarkt1
 	}
@@ -263,7 +293,7 @@ c_ortenberg = {
 		liege = c_niederbayern
 	}
 	1422.1.1 = {
-		holder = ortenburg1
+		holder = ortenberg1
 	}
 }
 
@@ -324,13 +354,6 @@ c_eichstadt = {
 	}
 }
 
-#Lordship of Heideck
-b_heideck = {
-	1425.11.26 = {
-		holder = heideck1
-	}
-}
-
 #County of Waldau
 c_waldthurn = {
 	1419.1.1 = {
@@ -365,5 +388,12 @@ c_freising = {
 b_wolfstein = {
 	1402.2.15 = {
 		holder = wolfstein1
+	}
+}
+
+#Lordship of Heideck
+b_heideck = {
+	1425.11.26 = {
+		holder = heideck1
 	}
 }

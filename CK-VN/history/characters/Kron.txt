@@ -1,0 +1,9 @@
+﻿kron1 = {
+	name = "Kornad" #Bishop Konrad II of Lebus
+	dynasty = 224
+	culture = eastphalian
+	religion = catholic
+	1380.1.1 = { #fic
+		birth = yes
+	}
+}

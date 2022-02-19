@@ -1,5 +1,5 @@
 ﻿saarbrucken1 = {
-	name = "Johanna" #Johanna von Nassau-Saarbrücken, wife of Georg von Henneberg, count of Aschach
+	name = "Johanna" #wife of Georg von Henneberg, count of Aschach
 	female = yes
 	dynasty_house = house_saarbrucken
 	religion = catholic

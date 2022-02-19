@@ -1,0 +1,9 @@
+﻿lintorff1 = {
+	name = "Konrad" #Bishop Konrad I of Havelberg
+	dynasty = 167
+	religion = catholic
+	culture = markish
+	1405.1.1 = {
+		birth = yes
+	}
+}

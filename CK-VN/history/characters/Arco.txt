@@ -1,5 +1,5 @@
 ﻿arco1 = {
-	name = "Francesco" #Francesco d'Arco, count of Arco
+	name = "Francesco" #Francesco I of Arco
 	dynasty = 9
 	religion = catholic
 	culture = venetian

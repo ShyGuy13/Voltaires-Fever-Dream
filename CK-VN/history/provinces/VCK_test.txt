@@ -10131,7 +10131,7 @@
 2027 = { # c_ziebingen
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2028 = { # c_sternberg
 	culture = saxon
@@ -10141,7 +10141,7 @@
 2029 = { # c_goritz
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2030 = { # c_drossen
 	culture = saxon
@@ -10286,7 +10286,7 @@
 2058 = { # c_lebus
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2059 = { # c_lietzen
 	culture = saxon
@@ -10301,7 +10301,7 @@
 2061 = { # c_furstenwalde
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2062 = { # c_muncheberg
 	culture = saxon
@@ -10471,17 +10471,17 @@
 2095 = { # c_kremmen
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2096 = { # c_nauen
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2097 = { # c_bellin
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2098 = { # c_ketzin
 	culture = saxon
@@ -10506,7 +10506,7 @@
 2102 = { # c_glien
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2103 = { # c_gransee
 	culture = saxon
@@ -10551,12 +10551,12 @@
 2111 = { # c_zechlin
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2112 = { # c_wittstock
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2113 = { # c_kyritz
 	culture = saxon
@@ -10601,7 +10601,7 @@
 2121 = { # c_havelberg
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2122 = { # c_seehausen
 	culture = saxon
@@ -14841,7 +14841,7 @@
 2969 = { # c_sternberg
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 2970 = { # c_hradekco
 	culture = czech
@@ -17166,7 +17166,7 @@
 3434 = { # c_danzig
 	culture = prussian
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 3435 = { # c_dirschau
 	culture = saxon

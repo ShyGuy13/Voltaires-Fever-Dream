@@ -82,11 +82,12 @@ hohenzollern5 = {
 }
 
 hohenzollern6 = {
-	name = "Margarete"
+	name = "Margarethe" #wife of Ludwig VIII of Ingolstadt
 	female = yes
 	dynasty = 8
 	religion = catholic
 	culture = markish
+	trait = infertile
 	father = hohenzollern2
 	mother = wittelsbach1
 	1410.1.1 = {

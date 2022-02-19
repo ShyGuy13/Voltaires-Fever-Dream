@@ -230,8 +230,7 @@
 	culture = piedmontese
 }
 48 = {
-	prefix = "dynnp_z"
-	name = "dynn_Pirkstejna"
+	name = "dynn_Ptácek_z_Pirkstejna"
 	culture = czech
 }
 49 = {
@@ -297,9 +296,7 @@
 	culture = eastphalian
 }
 62 = {
-	prefix = "dynnp_von"
-	name = "dynn_Stubai"
-	culture = ladin
+	#free
 }
 63 = {
 	name = "dynn_Rottel"
@@ -1022,7 +1019,9 @@
 	culture = prussian
 }
 217 = {
-	#free
+	prefix = "dynnp_von"
+	name = "dynn_Quitzow"
+	culture = markish
 }
 218 = {
 	name = "dynn_Kammerer"
@@ -1055,7 +1054,7 @@
 }
 224 = {
 	name = "dynn_Kron"
-	culture = markish
+	culture = eastphalian
 }
 225 = {
 	prefix = "dynnp_von"
@@ -1454,7 +1453,9 @@
 	culture = alemannic
 }
 311 = {
-	#free
+	prefix = "dynnp_ze"
+	name = "dynn_Zampachu"
+	culture = czech
 }
 312 = {
 	prefix = "dynnp_von"
@@ -1648,7 +1649,7 @@
 }
 353 = {
 	prefix = "dynnp_von"
-	name = "dynn_Ilburg"
+	name = "dynn_Eulenburg"
 	culture = markish
 }
 354 = {

@@ -1,9 +1,0 @@
-﻿stubai1 = {
-	name = "Georg" #Prince-Bishop Giorgio of Brixen
-	dynasty = 62
-	culture = tirolian
-	religion = catholic
-	1390.1.1 = { #fic
-		birth = yes
-	}
-}
