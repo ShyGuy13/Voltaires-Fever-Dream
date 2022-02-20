@@ -316,7 +316,7 @@ wittelsbach21 = {
 }
 
 wittelsbach22 = {
-	name = "Johann" #Johann II of Bavaria
+	name = "Johann" #Johann II of München
 	dynasty = 190
 	religion = catholic
 	culture = bavarian

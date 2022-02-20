@@ -1,6 +1,6 @@
 ﻿schwarzburg1 = {
 	name = "Günther" #Bishop Günther II of Magdenburg
-	dyansty = 42
+	dynasty = 42
 	religion = catholic
 	culture = eastphalian
 	trait = education_learning_3

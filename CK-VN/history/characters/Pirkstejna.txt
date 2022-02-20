@@ -1,4 +1,4 @@
-pirkstejna1 = {
+﻿pirkstejna1 = {
 	name = "Hynce" #Leader of the Landfryd
 	dynasty = 48
 	religion = utraquist

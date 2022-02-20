@@ -1,4 +1,4 @@
-vasto1 = {
+﻿vasto1 = {
 	name = "Ludovico" #Ludovico II of Saluzzo
 	dynasty_house = house_del_vasto
 	culture = piedmontese

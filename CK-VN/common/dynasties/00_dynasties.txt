@@ -268,7 +268,7 @@
 	culture = lazian
 }
 56 = {
-	name = "dynn_Boddeker"
+	name = "dynn_Bodecker"
 	culture = markish
 }
 57 = {
@@ -1549,7 +1549,8 @@
 	culture = friulan
 }
 331 = {
-	name = "dynn_degli_Atti"
+	prefix = "dynnp_degli"
+	name = "dynn_Atti"
 	culture = marchigian
 }
 332 = {

@@ -5176,7 +5176,7 @@
 1036 = { # c_windischgratz
 	culture = slovene
 	religion = catholic
-	holding = church_building
+	holding = church_holding
 }
 1037 = { # c_unterdrauburg
 	culture = slovene
@@ -10411,7 +10411,7 @@
 2083 = { # c_teltow
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2084 = { # c_tempelhof
 	culture = saxon
@@ -10556,7 +10556,7 @@
 2112 = { # c_wittstock
 	culture = saxon
 	religion = catholic
-	holding = church_holding
+	holding = castle_holding
 }
 2113 = { # c_kyritz
 	culture = saxon
@@ -10596,12 +10596,12 @@
 2120 = { # c_perleberg
 	culture = saxon
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 2121 = { # c_havelberg
 	culture = saxon
 	religion = catholic
-	holding = church_holding
+	holding = city_holding
 }
 2122 = { # c_seehausen
 	culture = saxon
@@ -13971,7 +13971,7 @@
 2795 = { # c_roding
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2796 = { # c_abensberg
 	culture = bavarian
@@ -13996,7 +13996,7 @@
 2800 = { # c_hemau
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 2801 = { # c_parsberg
 	culture = bavarian
@@ -14016,7 +14016,7 @@
 2804 = { # c_hohenfels
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2805 = { # c_lengenfeld
 	culture = bavarian
@@ -14026,7 +14026,7 @@
 2806 = { # c_schwandorf
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2807 = { # c_regenstauf
 	culture = saxon
@@ -14056,12 +14056,12 @@
 2812 = { # c_waldmunchen
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2813 = { # c_cham
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 2814 = { # c_kotzting
 	culture = bavarian
@@ -14071,7 +14071,7 @@
 2815 = { # c_viechtach
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 2816 = { # c_freyung
 	culture = bavarian
@@ -14086,12 +14086,12 @@
 2818 = { # c_hals
 	culture = bavarian
 	religion = catholic
-	holding = none #castle
+	holding = castle_holding
 }
 2819 = { # c_vilshofen
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2820 = { # c_neuburg
 	culture = bavarian
@@ -14116,17 +14116,17 @@
 2824 = { # c_niederalteich
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2825 = { # c_regen
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2826 = { # c_zwiesel
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2827 = { # c_grafenau
 	culture = bavarian
@@ -14146,12 +14146,12 @@
 2830 = { # c_pfarrkirchen
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2831 = { # c_eggenfelden
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2832 = { # c_obernberg
 	culture = bavarian
@@ -14161,12 +14161,12 @@
 2833 = { # c_otting
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 2834 = { # c_muhldorf
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2835 = { # c_kraiburg
 	culture = bavarian
@@ -14221,7 +14221,7 @@
 2845 = { # c_marquartstein
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2846 = { # c_traunstein
 	culture = bavarian
@@ -17553,15 +17553,15 @@
 	religion = catholic
 	holding = castle_holding
 }
-3513 = { # c_rosenheim
+3513 = { # c_traunstein
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 3514 = { # c_freising
 	culture = bavarian
 	religion = catholic
-	holding = church_holding
+	holding = castle_holding
 }
 3515 = { # c_passau
 	culture = bavarian

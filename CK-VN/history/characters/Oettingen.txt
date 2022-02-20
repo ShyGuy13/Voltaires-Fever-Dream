@@ -1,4 +1,4 @@
-oettingen1 = {
+﻿oettingen1 = {
 	name = "Anna" #wife of Bernhard I of Baden
 	female = yes
 	dynasty = 179

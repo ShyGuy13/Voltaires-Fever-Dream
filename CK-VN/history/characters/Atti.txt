@@ -1,0 +1,9 @@
+atti1 = {
+	name = "Luigi" #Luigi of Sasoferrato
+	dynasty = 331
+	culture = marchigian
+	religion = catholic
+	1410.1.1 = { #fic
+		birth = yes
+	}
+}

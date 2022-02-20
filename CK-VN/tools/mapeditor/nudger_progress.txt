@@ -13609,7 +13609,7 @@
 		c_strand=0
 		c_ejdersted=0
 		c_gallura=0
-		c_rosenheim=0
+		c_traunstein=0
 		c_freising=0
 		c_passau=0
 		c_bregenz=0

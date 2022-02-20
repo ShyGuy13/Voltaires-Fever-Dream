@@ -30,6 +30,11 @@ habsburg2 = {
 		birth = yes
 		give_nickname = nick_the_peaceful
 	}
+	1440.8.23 = {
+		effect = {
+			set_relation_ward = habsburg1
+		}
+	}
 }
 
 habsburg3 = {

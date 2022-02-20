@@ -1,11 +1,17 @@
-#
+#Margraviate of Fermo
+d_fermo = {
+	1433.12.7 = {
+		holder = sforza1
+	}
+}
+
 c_fermo = {
 	1433.12.7 = {
 		holder = sforza1
 	}
 }
 
-c_cremona = {
+c_camerino = {
 	1433.12.7 = {
 		holder = sforza1
 	}
@@ -23,5 +29,13 @@ c_firenze = {
 	1000.1.1 = { government = republic_government }
 	1429.2.20 = {
 		holder = medici1
+	}
+}
+
+#Lordship of Sassoferrato - promoted to County of Sassoferrato
+c_sassoferrato = {
+	1440.1.1 = {
+		liege = d_fermo
+		holder = atti1
 	}
 }

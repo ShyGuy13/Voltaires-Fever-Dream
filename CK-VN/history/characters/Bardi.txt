@@ -1,0 +1,9 @@
+﻿bardi1 = {
+	name = "Alberto" #Alberto I of Vernio
+	dynasty = 382
+	religion = catholic
+	culture = tuscan
+	1406.1.1 = {
+		birth = yes
+	}
+}

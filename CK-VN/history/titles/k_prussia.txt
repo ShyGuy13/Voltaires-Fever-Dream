@@ -7,7 +7,12 @@ d_teutonic_state = {
 }
 
 c_marienburg = {
-	1000.1.1 = { government = theocracy_government }
+	1441.4.12 = {
+		holder = erlichshausen1
+	}
+}
+
+c_tuchel = {
 	1441.4.12 = {
 		holder = erlichshausen1
 	}
@@ -43,7 +48,7 @@ c_graudenz = {
 	}
 }
 
-d_danzig = {
+c_danzig = {
 	1441.4.12 = {
 		holder = erlichshausen1
 	}

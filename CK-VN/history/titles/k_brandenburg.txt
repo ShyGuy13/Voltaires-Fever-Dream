@@ -5,13 +5,32 @@ d_brandenburg = {
 	}
 }
 
+c_berlin = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+
 c_altmark = {
 	1437.6.7 = {
 		holder = hohenzollern8
 	}
 }
 
-c_berlin = {
+c_salzwedel = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_priegnitz = {
+	1437.6.7 = {
+		holder = hohenzollern8
+	}
+}
+
+c_putlitz = {
 	1437.6.7 = {
 		holder = hohenzollern8
 	}
@@ -99,10 +118,17 @@ c_wittstock = {
 }
 
 #Bishopric of Brandenburg
-c_havelberg = {
+c_brandenburg = {
 	1000.1.1 = { government = theocracy_government }
 	1420.3.27 = {
-		holder = boddeker1
+		holder = bodecker1
+	}
+}
+
+c_teltow = {
+	1000.1.1 = { government = theocracy_government }
+	1420.3.27 = {
+		holder = bodecker1
 	}
 }
 
@@ -128,7 +154,21 @@ c_jerichow = {
 	}
 }
 
+c_genthin = {
+	1000.1.1 = { government = theocracy_government }
+	1403.6.12 = {
+		holder = schwarzburg1
+	}
+}
+
 c_zinna = {
+	1000.1.1 = { government = theocracy_government }
+	1403.6.12 = {
+		holder = schwarzburg1
+	}
+}
+
+c_lostau = {
 	1000.1.1 = { government = theocracy_government }
 	1403.6.12 = {
 		holder = schwarzburg1

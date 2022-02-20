@@ -138,13 +138,17 @@ c_scharding = {
 	}
 }
 
-#Duchy of Bavaria-Landshut
+#Duchy of Bavaria & Bavaria-Landshut
 d_landshut = {
+	1000.1.1 = {
+		name = BAVARIA
+	}
 	1349.1.1 = {
 		holder = wittelsbach26
 	}
 	1375.5.13 = {
-		holder = wittelsbach2
+		reset_name = yes
+		holder = wittelsbach3
 	}
 	1393.12.4 = {
 		holder = wittelsbach2
@@ -156,7 +160,7 @@ c_niederbayern = {
 		holder = wittelsbach26
 	}
 	1375.5.13 = {
-		holder = wittelsbach2
+		holder = wittelsbach3
 	}
 	1393.12.4 = {
 		holder = wittelsbach2
@@ -168,19 +172,19 @@ c_moosburg = {
 		holder = wittelsbach26
 	}
 	1375.5.13 = {
-		holder = wittelsbach2
+		holder = wittelsbach3
 	}
 	1393.12.4 = {
 		holder = wittelsbach2
 	}
 }
 
-c_rosenheim = {
+c_traunstein = {
 	1349.1.1 = {
 		holder = wittelsbach26
 	}
 	1375.5.13 = {
-		holder = wittelsbach2
+		holder = wittelsbach3
 	}
 	1393.12.4 = {
 		holder = wittelsbach2
@@ -192,7 +196,7 @@ c_innviertel = {
 		holder = wittelsbach26
 	}
 	1375.5.13 = {
-		holder = wittelsbach2
+		holder = wittelsbach3
 	}
 	1393.12.4 = {
 		holder = wittelsbach2
@@ -204,7 +208,7 @@ c_kraiburg = {
 		holder = wittelsbach26
 	}
 	1375.5.13 = {
-		holder = wittelsbach2
+		holder = wittelsbach3
 	}
 	1393.12.4 = {
 		holder = wittelsbach2
@@ -216,7 +220,7 @@ c_vornbach = {
 		holder = wittelsbach26
 	}
 	1375.5.13 = {
-		holder = wittelsbach2
+		holder = wittelsbach3
 	}
 	1393.12.4 = {
 		holder = wittelsbach2
@@ -355,7 +359,7 @@ c_eichstadt = {
 }
 
 #County of Waldau
-c_waldthurn = {
+c_waldau = {
 	1419.1.1 = {
 		holder = waldau1
 	}
@@ -378,6 +382,13 @@ c_regensburg = {
 
 #Prince-Bishopric of Freising
 c_freising = {
+	1000.1.1 = { government = theocracy_government }
+	1421.12.13 = {
+		holder = scala1
+	}
+}
+
+c_waidhofen = {
 	1000.1.1 = { government = theocracy_government }
 	1421.12.13 = {
 		holder = scala1
