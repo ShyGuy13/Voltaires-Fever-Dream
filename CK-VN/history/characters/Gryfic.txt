@@ -3,8 +3,10 @@
 	dynasty = 60
 	culture = pommeranian
 	religion = catholic
+	father = gryfic5
 	1425.1.1 = {
 		birth = yes
+		give_nickname = nick_the_younger
 	}
 	1440.8.27 = {
 		add_spouse = hohenzollern12
@@ -39,3 +41,54 @@ gryfic3 = {
 	}
 }
 
+gryfic5 = {
+	name = "Kasimir" #Kasimir V of Stetin
+	dynasty = 60
+	culture = pommeranian
+	religion = catholic
+	1380.1.1 = {
+		birth = yes
+	}
+	1435.4.13 = {
+		death = yes
+	}
+}
+
+gryfic6 = {
+	name = "Margaretha" #wife of Albrecht III of Ruppin
+	female = yes
+	dynasty = 60
+	culture = pommeranian
+	religion = catholic
+	father = gryfic5
+	1430.1.1 = { #fic
+		birth = yes
+	}
+}
+
+gryfic7 = {
+	name = "Joachim"
+	dynasty = 60
+	culture = pommeranian
+	religion = catholic
+	father = gryfic5
+	1400.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_older
+	}
+	1420.1.1 = { #fic
+		death = yes
+	}
+}
+
+gryfic8 = {
+	name = "Anna" #wife of Johann V of Mecklenburg-Schwerin
+	female = yes
+	dynasty = 60
+	culture = pommeranian
+	religion = catholic
+	father = gryfic5
+	1428.1.1 = { #fic
+		birth = yes
+	}
+}

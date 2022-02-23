@@ -269,7 +269,7 @@
 }
 56 = {
 	name = "dynn_Bodecker"
-	culture = markish
+	culture = mecklenburgish
 }
 57 = {
 	prefix = "dynnp_von"
@@ -653,9 +653,7 @@
 	culture = thuringian
 }
 141 = {
-	prefix = "dynnp_von"
-	name = "dynn_Reuss"
-	culture = saxon
+	#free
 }
 142 = {
 	prefix = "dynnp_von"
@@ -1591,8 +1589,7 @@
 	culture = mecklenburgish
 }
 340 = {
-	name = "dynn_Bodekker"
-	culture = mecklenburgish
+	#free
 }
 341 = {
 	name = "dynn_Munch"
@@ -2708,7 +2705,9 @@
 	
 }
 666 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Reuss"
+	culture = saxon
 }
 667 = {
 	

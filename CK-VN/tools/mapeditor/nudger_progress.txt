@@ -11430,7 +11430,7 @@
 		c_dresden=0
 		c_leipzig=0
 		c_erfurt=0
-		c_niederbayern=0
+		c_landshut=0
 		c_munchen=0
 		c_bamberg=0
 		c_franken=0
@@ -11585,7 +11585,6 @@
 		c_arco=0
 		c_ledro=0
 		c_giudicarie=0
-		c_sole=0
 		c_non=0
 		c_lavis=0
 		c_valsugana=0
@@ -13283,7 +13282,7 @@
 		c_tegernsee=0
 		c_wolfratshausen=0
 		c_tolz=0
-		c_weilheim=0
+		c_andechs=0
 		c_eschenlohe=0
 		c_schongau=0
 		c_eschenlohe=0

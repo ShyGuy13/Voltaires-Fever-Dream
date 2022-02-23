@@ -1,5 +1,5 @@
 #Margraviate of Fermo
-d_fermo = {
+d_ancona = {
 	1433.12.7 = {
 		holder = sforza1
 	}
@@ -35,7 +35,7 @@ c_firenze = {
 #Lordship of Sassoferrato - promoted to County of Sassoferrato
 c_sassoferrato = {
 	1440.1.1 = {
-		liege = d_fermo
+		liege = d_ancona
 		holder = atti1
 	}
 }

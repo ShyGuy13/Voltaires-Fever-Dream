@@ -76,7 +76,7 @@ attendolo4 = {
 }
 
 attendolo5 = {
-	name = "Alesandro" #Alesandro Attendolo
+	name = "Alessandro" #Alessandro Attendolo
 	dynasty = 121
 	religion = catholic
 	culture = marchigian

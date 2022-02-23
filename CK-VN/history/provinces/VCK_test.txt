@@ -313,7 +313,7 @@
 	religion = catholic
 	holding = castle_holding
 }
-64 = { # c_niederbayern
+64 = { # c_landshut
 	culture = bavarian
 	religion = catholic
 	holding = castle_holding
@@ -1701,17 +1701,17 @@
 341 = { # c_tolmin
 	culture = slovene
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 342 = { # c_idrija
 	culture = slovene
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 343 = { # c_ajdovscina
 	culture = slovene
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 344 = { # c_duino
 	culture = slovene
@@ -1721,7 +1721,7 @@
 345 = { # c_divaca
 	culture = slovene
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 346 = { # c_buzet
 	culture = croatian
@@ -2806,7 +2806,7 @@
 562 = { # c_sankt ulrich
 	culture = ladin
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 563 = { # c_maultasch
 	culture = tirolian
@@ -14296,7 +14296,7 @@
 2860 = { # c_dachau
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 2861 = { # c_andechs
 	culture = bavarian
@@ -14306,12 +14306,12 @@
 2862 = { # c_furstenfeldbruck
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 2863 = { # c_lechrain
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2864 = { # c_aibling
 	culture = bavarian
@@ -14336,17 +14336,17 @@
 2868 = { # c_wolfratshausen
 	culture = bavarian
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 2869 = { # c_tolz
 	culture = tirolian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2870 = { # c_weilheim
 	culture = tirolian
 	religion = catholic
-	holding = castle_holding
+	holding = none
 }
 2871 = { # c_eschenlohe
 	culture = tirolian

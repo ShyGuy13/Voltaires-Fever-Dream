@@ -1,0 +1,20 @@
+﻿querfurt1 = {
+	name = "Volrad" #Volrad I of Querfurt
+	dynasty = 45
+	religion = catholic
+	culture = saxon
+	1380.1.1 = {
+		birth = yes
+	}
+}
+
+querfurt2 = {
+	name = "Burkhard" #Burkhard VII of Querfurt
+	dynasty = 45
+	religion = catholic
+	culture = saxon
+	father = querfurt1
+	1434.1.1 = {
+		birth = yes
+	}
+}

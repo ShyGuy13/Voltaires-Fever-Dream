@@ -3138,6 +3138,11 @@ clothes = {
 					}
 				}
 			}
+			modifier = {
+				add = 0
+				exists = this
+				has_primary_title = d_teutonic_state
+			}
 	    }
 	}
 

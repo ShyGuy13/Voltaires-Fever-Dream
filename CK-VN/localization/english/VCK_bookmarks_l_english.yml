@@ -1,7 +1,16 @@
 ﻿l_english:
+ BOOKMARK_RELATION_RIVAL: "(Rival)"
+#Peace of Cremona 1441
  bm_1441_peace_of_cremona: "Peace of Cremona"
  bm_1441_peace_of_cremona_desc: "The Peace of Cremona put an end to the last and most devastating conflict between Milan and Venice for dominance in Northern Italy, leaving the peninsula scorched by fickle condottieri who have exploited the chaos to carve our their own states. To the south, Pope Eugenius IV and the Council of Florence grapple with the schismatic Council of Basel and its recent election of a retired Savoyard Duke as Antipope Felix V.\nMeanwhile, Friedrich III von Habsburg, having succeeded the late Emperor Sigismund as King of the Romans, attempts to assert his power over the other Habsburg lines and against the Hussite nobility in Bohemia who have repeatedly refused to recognize Habsburg claimaints to their throne.#!"
-
  bookmark_francesco_sforza: "Francesco I Sforza"
  bookmark_francesco_sforza_desc: ""
-
+ bookmark_bianca_visconti: "Bianca Visconti"
+ bookmark_alessandro_attendolo: "Alessandro Attendolo"
+#Aftermath of the Hussite Wars
+ bm_1441_aftermath_of_the_hussite_wars: "Aftermath of the Hussite Wars"
+ bm_1441_aftermath_of_the_hussite_wars_desc: ""
+ bookmark_hynce_pirkstejna: "Hynce Ptáček z Pirkštejna"
+ bookmark_hynce_pirkstejna_desc: ""
+ bookmark_jiri_podebrad: "Jiří z Poděbrad"
+ bookmark_jan_zampachu: "Jan Kolda II. ze Žampachu"

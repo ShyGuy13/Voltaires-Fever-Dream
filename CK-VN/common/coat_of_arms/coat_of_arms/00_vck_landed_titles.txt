@@ -4,6 +4,8 @@
 @smLysY = 0.26
 @smCross = 0.22
 
+#Kingdom
+
 #Duchy
 d_magdeburg={
 	pattern="pattern_horizontal_split_01.dds"
@@ -21,6 +23,21 @@ d_ingolstadt = {
 		color1 = "blue"
 		color2 = "red"
 		instance = { position = { 0.5 0.49 } scale = { 0.9 1.0 }  }
+	}
+}
+
+d_ancona={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=white
+		color2=white
+		texture="ce_cross_06.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
 	}
 }
 
@@ -63,7 +80,6 @@ c_schaunberg = {
 }
 
 c_ortenberg = {
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=red
 	color2=white
@@ -75,7 +91,6 @@ c_ortenberg = {
 }
 
 c_hohenwaldeck={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=white
 	color2=yellow
@@ -138,4 +153,101 @@ c_abensberg = {
 	pattern = "pattern_diagonal_split_02.dds"
 	color1 = black
 	color2 = white
+}
+
+c_wasserburg={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=red
+		color2=yellow
+		texture="ce_lion_rampant_crown.dds"
+		instance={
+			scale={ 0.820000 0.820000 }
+		}
+	}
+}
+
+c_waldau={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=yellow
+		color2=white
+		texture="ce_arrow.dds"
+		instance={
+			position={ 0.500000 0.500000 }
+			rotation=45
+		}
+	}
+}
+
+c_wolfstein={
+	pattern="pattern_solid.dds"
+	color1=yellow
+	color2=yellow
+	colored_emblem={
+		color1=red
+		color2=red
+		color3=red
+		texture="ce_lion_rampant.dds"
+		instance={
+			position={ 0.500000 0.580000 }
+			scale={ 0.850000 0.680000 }
+			depth=1.010000
+		}
+
+	}
+	colored_emblem={
+		color1=red
+		color2=red
+		color3=red
+		texture="ce_leopard_passant_guardant.dds"
+		instance={
+			position={ 0.500000 0.150000 }
+			scale={ 0.800000 0.800000 }
+		}
+	}
+}
+
+c_kraiburg={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=blue_light
+		color2=red
+		texture="ce_lion_rampant_crown.dds"
+		instance={
+			scale={ 0.890000 0.890000 }
+		}
+	}
+}
+
+#Barony
+b_helfenstein={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=red
+		color2=white
+		texture="ce_lozengy.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+		}
+	}
+}
+
+b_heideck={
+	pattern="pattern_tricolor_horizontal_01.dds"
+	color1=red
+	color2=white
+	color3=blue_light
 }

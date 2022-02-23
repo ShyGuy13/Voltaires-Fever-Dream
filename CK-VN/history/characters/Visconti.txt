@@ -33,6 +33,9 @@ visconti2 = {
 	1392.9.3 = {
 		birth = yes
 	}
+	1428.1.1 = {
+		add_spouse = savoia6
+	}
 }
 
 visconti3 = {

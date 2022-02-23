@@ -1,6 +1,6 @@
 ﻿simmern1 = {
 	name = "Friedrich" #Friedrich I of Pfalz-Simmern
-	dynasty_house = house_wittelsbach_simmern
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	father = simmern2
@@ -11,7 +11,7 @@
 
 simmern2 = {
 	name = "Stephan" #Stephan I of Pfalz-Simmern
-	dynasty_house = house_wittelsbach_simmern
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	father = pfalz8
@@ -23,7 +23,7 @@ simmern2 = {
 simmern3 = {
 	name = "Anna" #wife of Vincenz of Moers and Saarwerden
 	female = yes
-	dynasty_house = house_wittelsbach_simmern
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	father = simmern2
@@ -35,7 +35,7 @@ simmern3 = {
 simmern4 = {
 	name = "Margarethe"
 	female = yes
-	dynasty_house = house_wittelsbach_simmern
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	father = simmern2
@@ -49,7 +49,7 @@ simmern4 = {
 
 simmern5 = {
 	name = "Ruprecht" #bishop of Strassburg
-	dynasty_house = house_wittelsbach_simmern
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	father = simmern2
@@ -60,7 +60,7 @@ simmern5 = {
 
 simmern6 = {
 	name = "Stephan" #monk
-	dynasty_house = house_wittelsbach_simmern
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	trait = devoted
 	religion = catholic
@@ -72,7 +72,7 @@ simmern6 = {
 
 simmern7 = {
 	name = "Ludwig" #Ludwig I of Pfalz-Simmern
-	dynasty_house = house_wittelsbach_simmern
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	father = simmern2
@@ -84,7 +84,7 @@ simmern7 = {
 
 simmern8 = {
 	name = "Johann" #bishop of Münster & archbishop of Magdeburg
-	dynasty_house = house_wittelsbach_simmern
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	trait = devoted
 	religion = catholic

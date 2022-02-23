@@ -1,6 +1,6 @@
 ﻿neumarkt1 = {
 	name = "Johann" #Johann I of Pfalz-Neumarkt
-	dynasty_house = house_wittelsbach_neumarkt
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	trait = zealous
@@ -18,7 +18,7 @@
 
 neumarkt2 = {
 	name = "Christoph" #Christoph III of Denmark
-	dynasty_house = house_wittelsbach_neumarkt
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	father = neumarkt1
@@ -31,7 +31,7 @@ neumarkt2 = {
 neumarkt3 = {
 	name = "Margaretha"
 	female = yes
-	dynasty_house = house_wittelsbach_neumarkt
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	father = neumarkt1
@@ -44,7 +44,7 @@ neumarkt3 = {
 
 neumarkt4 = {
 	name = "Adolf"
-	dynasty_house = house_wittelsbach_neumarkt
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	father = neumarkt1
@@ -57,7 +57,7 @@ neumarkt4 = {
 
 neumarkt5 = {
 	name = "Otto"
-	dynasty_house = house_wittelsbach_neumarkt
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	father = neumarkt1
@@ -70,7 +70,7 @@ neumarkt5 = {
 
 neumarkt6 = {
 	name = "Johann"
-	dynasty_house = house_wittelsbach_neumarkt
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	father = neumarkt1
@@ -83,7 +83,7 @@ neumarkt6 = {
 
 neumarkt7 = {
 	name = "Friedrich"
-	dynasty_house = house_wittelsbach_neumarkt
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	father = neumarkt1
@@ -96,7 +96,7 @@ neumarkt7 = {
 
 neumarkt8 = {
 	name = "Johann" #yes, two Johanns
-	dynasty_house = house_wittelsbach_neumarkt
+	dynasty_house = house_wittelsbach_pfalz
 	culture = palatine
 	religion = catholic
 	father = neumarkt1

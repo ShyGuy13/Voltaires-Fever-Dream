@@ -8,4 +8,9 @@
 	1404.1.1 = {
 		birth = yes
 	}
+	1437.9.29 = {
+		effect = {
+			set_relation_rival = zampachu1 #Jan Kolda seizes Náchod from Jiri Podebrad
+		}
+	}
 }

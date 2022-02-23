@@ -59,7 +59,7 @@ c_scheyern = {
 	}
 }
 
-c_weilheim = {
+c_andechs = {
 	1361.9.18 = {
 		holder = wittelsbach22
 	}
@@ -155,7 +155,7 @@ d_landshut = {
 	}
 }
 
-c_niederbayern = {
+c_landshut = {
 	1349.1.1 = {
 		holder = wittelsbach26
 	}
@@ -228,13 +228,13 @@ c_vornbach = {
 }
 
 #Duchy of Pfalz-Neumarkt
-c_neumark = {
+d_nordgau = {
 	1410.5.18 = {
 		holder = neumarkt1
 	}
 }
 
-c_waldau = {
+c_neumarkt = {
 	1410.5.18 = {
 		holder = neumarkt1
 	}
@@ -268,6 +268,14 @@ c_degenberg = {
 	}
 }
 
+#Lordship of Wolfstien - promoted to County of Wolfstein
+c_wolfstein = {
+	1402.2.15 = {
+		liege = d_nordgau
+		holder = wolfstein1
+	}
+}
+
 #Lordship of Schwangau - promoted to County of Schwangau
 c_eschenlohe = {
 	1428.1.1 = {
@@ -294,7 +302,7 @@ c_leuchtenburg = {
 #County of Ortenburg
 c_ortenberg = {
 	1391.1.1 = {
-		liege = c_niederbayern
+		liege = c_landshut
 	}
 	1422.1.1 = {
 		holder = ortenberg1
@@ -361,6 +369,7 @@ c_eichstadt = {
 #County of Waldau
 c_waldau = {
 	1419.1.1 = {
+		liege = d_nordgau
 		holder = waldau1
 	}
 }
@@ -369,6 +378,13 @@ c_waldau = {
 c_hohenwaldeck = {
 	1441.11.1 = {
 		holder = hohenwaldeck2
+	}
+}
+
+#County of Parsberg
+c_parsberg = {
+	1408.1.1 = {
+		holder = parsberg2
 	}
 }
 

@@ -1,0 +1,20 @@
+﻿seinsheim1 = {
+	name = "Michael" #Michael III of Schwarzenberg
+	dynasty = 143
+	religion = catholic
+	culture = franconian
+	father = seinsheim2
+	1425.1.1 = {
+		birth = yes
+	}
+}
+
+seinsheim2 = {
+	name = "Michael" #Michael II of Schwarzenberg
+	dynasty = 143
+	religion = catholic
+	culture = franconian
+	1404.1.1 = {
+		birth = yes
+	}
+}

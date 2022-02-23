@@ -10,3 +10,9 @@ c_kemnath = {
 		holder = pfalz2
 	}
 }
+
+c_weiden = {
+	1436.12.30 = {
+		holder = pfalz2
+	}
+}

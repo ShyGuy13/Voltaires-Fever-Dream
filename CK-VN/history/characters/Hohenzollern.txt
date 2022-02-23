@@ -12,6 +12,7 @@
 	trait = gregarious
 	trait = ambitious
 	trait = diligent
+	trait = shrewd
 	sexuality = heterosexual
 	father = hohenzollern2
 	mother = wittelsbach1

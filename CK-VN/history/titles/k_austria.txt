@@ -762,13 +762,6 @@ d_trent = {
 	}
 }
 
-c_sole = {
-	1000.1.1 = { government = theocracy_government }
-	1423.10.20 = {
-		holder = piast4
-	}
-}
-
 #County of Lodron
 c_lodrone = {
 	1439.1.1 = {

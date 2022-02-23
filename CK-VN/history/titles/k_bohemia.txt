@@ -1,0 +1,13 @@
+#Kingdom of Bohemia
+k_bohemia = {
+	#Landfryd
+	1439.10.27 = {
+		holder = pirkstejna1
+	}
+}
+
+c_bohemia = {
+	1439.10.27 = {
+		holder = pirkstejna1
+	}
+}

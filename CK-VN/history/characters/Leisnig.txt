@@ -1,0 +1,9 @@
+﻿leisnig1 = {
+	name = "Albrecht" #Albrecht VIII of Leisnig
+	dynasty = 223
+	religion = catholic
+	culture = saxon
+	1410.1.1 = { #fic
+		birth = yes
+	}
+}

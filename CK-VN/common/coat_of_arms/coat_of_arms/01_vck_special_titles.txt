@@ -23,7 +23,6 @@ ho_red_star_crusaders={
 	}
 }
 
-
 d_teutonic_state={
 	pattern="pattern_solid.dds"
 	color1=white
