@@ -2,7 +2,7 @@ version="1.4"
 tags={
 	"Total Conversion"
 }
-name="Total Conversion Sandbox"
+name="VN"
 replace_path="common/bookmark_portraits"
 replace_path="common/bookmarks"
 replace_path="common/religion/religions"
