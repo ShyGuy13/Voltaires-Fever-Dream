@@ -1,9 +1,0 @@
-﻿heideck1 = {
-	name = "Konrad" #Konrad II of Heideck
-	dynasty = 170
-	religion = catholic
-	culture = bavarian
-	1417.1.1 = {
-		birth = yes
-	}
-}

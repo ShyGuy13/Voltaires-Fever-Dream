@@ -1,9 +1,0 @@
-﻿arco1 = {
-	name = "Francesco" #Francesco I of Arco
-	dynasty = 9
-	religion = catholic
-	culture = venetian
-	1410.1.1 = { #fic
-		birth = yes
-	}
-}

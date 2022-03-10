@@ -1,9 +1,0 @@
-﻿schenklandsberg1 = {
-	name = "Otto" #Otto I of Teupitz
-	dynasty = 364
-	culture = markish
-	religion = catholic
-	1420.1.1 = { #fic
-		birth = yes
-	}
-}

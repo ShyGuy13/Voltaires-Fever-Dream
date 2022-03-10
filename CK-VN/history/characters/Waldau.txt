@@ -1,9 +1,0 @@
-﻿waldau1 = {
-	name = "Ulrich" #Ulrich II von Waldau
-	dynasty = 387
-	culture = bavarian
-	religion = catholic
-	1415.1.1 = {
-		birth = yes
-	}
-}

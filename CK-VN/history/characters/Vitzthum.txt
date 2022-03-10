@@ -1,9 +1,0 @@
-vitzthum1 = {
-	name = "Apel" #Apel II of Kriebstein
-	dynasty = 210
-	religion = catholic
-	culture = saxon
-	1420.1.1 = { #fic
-		birth = yes
-	}
-}

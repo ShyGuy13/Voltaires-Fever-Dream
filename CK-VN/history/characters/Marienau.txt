@@ -1,9 +1,0 @@
-﻿marienau1 = {
-	name = "Johann" #bishop of Kulm
-	dynasty = 216
-	religion = catholic
-	culture = prussian
-	1380.1.1 = {
-		birth = yes
-	}
-}

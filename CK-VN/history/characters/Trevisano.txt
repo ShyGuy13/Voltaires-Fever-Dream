@@ -1,9 +1,0 @@
-﻿trevisano1 = {
-	name = "Lodovico" #Patriarch Lodovico III of Aquileia
-	dynasty = 421
-	culture = venetian
-	religion = catholic
-	1401.11.1 = {
-		birth = yes
-	}
-}

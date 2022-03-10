@@ -1,9 +1,0 @@
-﻿bose1 = {
-	name = "Johann" #bishop of Merseburg
-	dynasty = 199
-	religion = catholic
-	culture = saxon
-	1410.1.1 = { #fic
-		birth = yes
-	}
-}

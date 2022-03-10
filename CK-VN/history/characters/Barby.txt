@@ -1,9 +1,0 @@
-﻿barby1 = {
-	name = "Günther" #Günther IV of Barby
-	dynasty_house = house_barby
-	religion = catholic
-	culture = eastphalian
-	1410.1.1 = {
-		birth = yes
-	}
-}

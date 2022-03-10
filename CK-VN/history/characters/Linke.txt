@@ -1,9 +1,0 @@
-﻿linke1 = {
-	name = "Kaspar" #bishop of Pomesania
-	dynasty = 301
-	religion = catholic
-	culture = prussian
-	1400.1.1 = {
-		birth = yes
-	}
-}

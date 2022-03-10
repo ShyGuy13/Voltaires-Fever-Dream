@@ -1,9 +1,0 @@
-﻿wendel1 = {
-	name = "Johannes" #Abbot Johannes VI of Waldsassen
-	dynasty = 390
-	religion = catholic
-	culture = bavarian
-	1410.1.1 = { #fic
-		birth = yes
-	}
-}

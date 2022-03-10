@@ -1,9 +1,0 @@
-﻿reuchlin1 = {
-	name = "Simon" #Abbot of Mondsee
-	dynasty = 254
-	religion = catholic
-	culture = austrian
-	1390.1.1 = { #fic
-		birth = yes
-	}
-}

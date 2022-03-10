@@ -1,9 +1,0 @@
-﻿erlichshausen1 = {
-	name = "Korand" #Hochmeister of Teutonic State
-	dynasty = 362
-	religion = catholic
-	culture = franconian
-	1395.1.1 = {
-		birth = yes
-	}
-}

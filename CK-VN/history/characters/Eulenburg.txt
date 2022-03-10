@@ -1,9 +1,0 @@
-﻿eulenburg1 = {
-	name = "Botho" #Botho II of Sonnewalde
-	dynasty = 353
-	religion = catholic
-	culture = markish
-	1400.1.1 = { #fic
-		birth = yes
-	}
-}

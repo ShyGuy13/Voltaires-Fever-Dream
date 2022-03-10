@@ -1,9 +1,0 @@
-﻿everstein1 = {
-	name = "Ludwig" #Ludwig of Naugard
-	dynasty = 272
-	religion = catholic
-	culture = pommeranian
-	1400.1.1 = { #fic
-		birth = yes
-	}
-}

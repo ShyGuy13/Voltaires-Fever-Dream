@@ -1,9 +1,0 @@
-﻿laiming1 = {
-	name = "Leonhard" #bishop of Passau
-	dynasty = 303
-	religion = catholic
-	culture = bavarian
-	1381.1.1 = {
-		birth = yes
-	}
-}

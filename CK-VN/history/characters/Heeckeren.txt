@@ -1,9 +1,0 @@
-﻿heeckeren1 = {
-	name = "Otto" #Otto I of Almelo
-	dynasty = 2
-	religion = catholic
-	culture = dutch
-	1420.1.1 = { #fic
-		birth = yes
-	}
-}
