@@ -1,0 +1,46 @@
+﻿traungau1 = {
+	name = "Ottokar" #Ottokar I of Styria
+	dynasty = 7
+	culture = austrian
+	religion = catholic
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1040.1.1 = { #fic
+		add_spouse = eppenstein6 #Willibirg of Eppenstein
+	}
+	1075.3.29 = {
+		death = yes
+	}
+}
+
+traungau2 = {
+	name = "Adalbero" #Adalbero I of Styria
+	dynasty = 7
+	culture = austrian
+	religion = catholic
+	father = traungau1
+	mother = eppenstein6
+	1040.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_rough
+	}
+	1082.1.1 = {
+		death = yes
+	}
+}
+
+traungau3 = {
+	name = "Ottokar" #Ottokar II of Styria
+	dynasty = 7
+	culture = austrian
+	religion = catholic
+	father = traungau1
+	mother = eppenstein6
+	1045.1.1 = { #fic
+		birth = yes
+	}
+	1122.11.28 = {
+		death = yes
+	}
+}

@@ -1,0 +1,26 @@
+﻿meinharding1 = {
+	name = "Meginhard" #Meginhard I of Gorizia
+	dynasty = 2
+	culture = austrian
+	religion = catholic
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+
+meinharding2 = {
+	name = "Engelbert" #Engelbert I of Gorizia
+	dynasty = 2
+	culture = austrian
+	religion = catholic
+	father = meinharding1
+	1050.1.1 = { #fic
+		birth = yes
+	}
+	1142.1.1 = {
+		death = yes
+	}
+}

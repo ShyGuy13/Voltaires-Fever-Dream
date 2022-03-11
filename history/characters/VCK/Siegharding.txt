@@ -1,0 +1,96 @@
+﻿siegharding1 = {
+	name = "Marquard" #Marquard I of Chiemgau
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding7
+	1025.1.1 = { #fic
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+
+siegharding2 = {
+	name = "Ellenhard" #bishop of Freising
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding3
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1078.3.11 = {
+		death = yes
+	}
+}
+
+siegharding3 = {
+	name = "Sieghard" #Sieghard VII of Chiemgau
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding4
+	1010.1.1 = {
+		birth = yes
+	}
+	1044.7.5 = {
+		death = yes
+	}
+}
+
+siegharding4 = {
+	name = "Engelbert" #Engelbert III of Chiemgau
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding5
+	970.1.1 = { #fic
+		birth = yes
+	}
+	1020.1.1 = {
+		death = yes
+	}
+}
+
+siegharding5 = {
+	name = "Sieghard" #Sieghard IV of Chiemgau
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	950.1.1 = { #fic
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+
+siegharding6 = {
+	name = "Sieghard" #Sieghard V of Chiemgau
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding5
+	968.1.1 = { #fic
+		birth = yes
+	}
+	1020.1.1 = {
+		death = yes
+	}
+}
+
+siegharding7 = {
+	name = "Sieghard" #Sieghard VI of Chiemgau
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding6
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1046.1.1 = {
+		death = yes
+	}
+}

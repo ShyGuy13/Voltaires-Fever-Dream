@@ -1,0 +1,143 @@
+# #Austria
+# d_osterreich = {
+# 	1018.6.23 = {
+# 		holder = babenberg1
+# 	}
+# }
+# c_vienna = {
+# 	1018.6.23 = {
+# 		holder = babenberg1
+# 	}
+# }
+# c_ostmark = {
+# 	1018.6.23 = {
+# 		holder = babenberg1
+# 	}
+# }
+# c_ybbs = {
+# 	1018.6.23 = {
+# 		holder = babenberg1
+# 	}
+# }
+# c_freistadt = {
+# 	1018.6.23 = {
+# 		holder = babenberg1
+# 	}
+# }
+# c_krems = {
+# 	1018.6.23 = {
+# 		holder = babenberg1
+# 	}
+# }
+# c_enns = {
+# 	1018.6.23 = {
+# 		holder = babenberg1
+# 	}
+# }
+
+# #Carinthia
+# d_carinthia = {
+# 	1039.11.29 = {
+# 		holder = eppenstein1
+# 	}
+# }
+
+# #Styria
+# d_steiermark = {
+# 	1050.1.1 = {
+# 		holder = traungau1
+# 	}
+# }
+# c_steiermark = {
+# 	1050.1.1 = {
+# 		holder = traungau1
+# 	}
+# }
+# c_donnersbach = {
+# 	1050.1.1 = {
+# 		holder = traungau1
+# 	}
+# }
+# c_murztal = {
+# 	1050.1.1 = {
+# 		holder = traungau1
+# 	}
+# }
+# c_gurktal = {
+# 	1050.1.1 = {
+# 		holder = traungau1
+# 	}
+# }
+# c_sannmark = {
+# 	1050.1.1 = {
+# 		holder = traungau1
+# 	}
+# }
+
+# #Carniola
+# d_carniola = {
+# 	1044.1.1 = {
+# 		holder = weimar1
+# 	}
+# }
+
+# #Tirol
+# d_tyrol = {
+# 	1054.7.1 = {
+# 		holder = tirol1
+# 	}
+# }
+
+# #Murmark
+# c_murmark = {
+# 	1035.1.1 = {
+# 		holder = formbach5
+# 	}
+# }
+
+# #Chiemgau
+# c_chiemgau = {
+# 	1046.1.1 = {
+# 		holder = siegharding1
+# 	}
+# }
+
+# #Pitten
+# c_pitten = {
+# 	1050.1.1 = {
+# 		holder = welslambach1
+# 	}
+# }
+
+# #Cilli
+# c_cilli = {
+# 	1000.1.1 = {
+# 		name = SAVINJA
+# 	}
+# 	1045.1.1 = {
+# 		holder = askuining1
+# 	}
+# 	1341.1.1 = {
+# 		reset_name = yes
+# 	}
+# }
+# c_pettau = {
+# 	1045.1.1 = {
+# 		holder = askuining1
+# 	}
+# }
+
+# 
+
+#Eschenlohe
+c_eschenlohe = {
+	1000.1.1 = {
+		name = EPPAN
+	}
+	1054.1.1 = {
+		holder = bozen1
+	}
+	1248.1.1 = {
+ 		reset_name = yes
+ 	}
+}

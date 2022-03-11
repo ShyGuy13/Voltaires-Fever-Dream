@@ -1,0 +1,40 @@
+﻿salier1 = {
+	name = "Heinrich" #Heinrich IV of HRE
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier3
+	1050.11.11 = {
+		birth = yes
+	}
+	1106.8.7 = {
+		death = yes
+	}
+}
+
+salier2 = {
+	name = "Konrad" #Konrad II of Bavaria
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier3
+	1052.10.1 = {
+		birth = yes
+	}
+	1055.4.10 = {
+		death = yes
+	}
+}
+
+salier3 = {
+	name = "Heinrich" #Heinrich III of HRE
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	1016.10.28 = {
+		birth = yes
+	}
+	1056.10.5 = {
+		death = yes
+	}
+}

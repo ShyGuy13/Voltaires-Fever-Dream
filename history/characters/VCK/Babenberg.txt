@@ -1,0 +1,102 @@
+﻿babenberg1 = {
+	name = "Albrecht" #Albrecht I of Austria
+	dynasty = 3
+	culture = austrian
+	religion = catholic
+	father = babenberg7
+	985.1.1 = {
+		birth = yes
+		give_nickname = nick_the_victorious
+	}
+	1055.5.26 = {
+		death = yes
+	}
+}
+
+babenberg2 = {
+	name = "Ernst" #Ernst I of Austria
+	dynasty = 3
+	culture = austrian
+	religion = catholic
+	trait = brave
+	father = babenberg1
+	1027.1.1 = { #fic
+		birth = yes
+	}
+	1075.6.10 = {
+		death = yes
+	}
+}
+
+babenberg3 = {
+	name = "Leopold"
+	dynasty = 3
+	culture = austrian
+	religion = catholic
+	father = babenberg1
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1043.1.1 = {
+		death = yes
+	}
+}
+
+babenberg4 = {
+	name = "Leopold" #Leopold II of Austria
+	dynasty = 3
+	culture = austrian
+	religion = catholic
+	trait = beauty_good_2
+	father = babenberg2
+	1050.1.1 = {
+		birth = yes
+		give_nickname = nick_the_beautiful
+	}
+	1095.10.12 = {
+		death = yes
+	}
+}
+
+babenberg5 = {
+	name = "Albert" #Albert of Bogen, Windberg and Pernegg 
+	dynasty = 3
+	culture = austrian
+	religion = catholic
+	father = babenberg2
+	1054.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_faceless
+	}
+	1100.7.27 = {
+		death = yes
+	}
+}
+
+babenberg6 = {
+	name = "Justizia" #wife of Otto of Wolfratshausen
+	female = yes
+	dynasty = 3
+	culture = austrian
+	religion = catholic
+	father = babenberg2
+	1052.1.1 = { #fic
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+
+babenberg7 = {
+	name = "Leopold" #Leopold I of Austria
+	dynasty = 3
+	culture = austrian
+	religion = catholic
+	940.1.1 = {
+		birth = yes
+	}
+	994.7.10 = {
+		death = yes
+	}
+}

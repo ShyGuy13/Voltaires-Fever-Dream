@@ -1,0 +1,140 @@
+﻿eppenstein1 = {
+	name = "Marquard" #Marquard IV of Carinthia
+	dynasty = 1
+	culture = austrian
+	religion = catholic
+	father = eppenstein4
+	1020.1.1 = {
+		birth = yes
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}
+
+eppenstein2 = {
+	name = "Luitpold" #Luitpold I of Eppenstein
+	dynasty = 1
+	culture = austrian
+	religion = catholic
+	father = eppenstein1
+	1045.1.1 = {
+		birth = yes
+	}
+	1090.5.12 = {
+		birth = yes
+	}
+}
+
+eppenstein3 = {
+	name = "Heinrich" #Heinrich III of Eppenstein
+	dynasty = 1
+	culture = austrian
+	religion = catholic
+	father = eppenstein1
+	1050.1.1 = {
+		birth = yes
+	}
+	1122.12.4 = {
+		death = yes
+	}
+}
+
+eppenstein4 = {
+	name = "Albrecht" #Albrecht I of Eppenstein
+	dynasty = 1
+	culture = austrian
+	religion = catholic
+	father = eppenstein7
+	980.1.1 = {
+		birth = yes
+	}
+	1039.11.28 = {
+		death = yes
+	}
+}
+
+eppenstein5 = {
+	name = "Albrecht" #bishop of Bamberg
+	dynasty = 1
+	culture = austrian
+	religion = catholic
+	father = eppenstein4
+	1022.1.1 = { #fic
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+
+eppenstein6 = {
+	name = "Willibirg" #wife of Ottokar I of Styria
+	female = yes
+	dynasty = 1
+	culture = austrian
+	religion = catholic
+	father = eppenstein4
+	1025.1.1 = { #fic
+		birth = yes
+	}
+	1070.1.1 = { #fic
+		death = yes
+	}
+}
+
+eppenstein7 = {
+	name = "Marquard" #Marquard III of Eppenstein
+	dynasty = 1
+	culture = austrian
+	religion = catholic
+	father = eppenstein8
+	950.1.1 = { #fic
+		birth = yes
+	}
+	1000.4.13 = {
+		death = yes
+	}
+}
+
+eppenstein8 = {
+	name = "Marquard" #Marquard II of Eppenstein
+	dynasty = 1
+	culture = austrian
+	religion = catholic
+	father = eppenstein9
+	920.1.1 = { #fic
+		birth = yes
+	}
+	980.4.13 = { #fic
+		death = yes
+	}
+}
+
+eppenstein9 = {
+	name = "Marquard" #Marquard I of Eppenstein
+	dynasty = 1
+	culture = austrian
+	religion = catholic
+	890.1.1 = { #fic
+		birth = yes
+	}
+	940.1.1 = { #fic
+		death = yes
+	}
+}
+
+eppenstein10 = {
+	name = "Richardis" #wife of Ulrich of Ebersberg
+	female = yes
+	dynasty = 1
+	culture = austrian
+	religion = catholic
+	father = eppenstein8
+	945.1.1 = { #fic
+		birth = yes
+	}
+	1013.1.1 = {
+		death = yes
+	}
+}

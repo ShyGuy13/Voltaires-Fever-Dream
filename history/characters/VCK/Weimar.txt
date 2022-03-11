@@ -1,0 +1,69 @@
+﻿weimar1 = {
+	name = "Ulrich" #Ulrich I of Krain
+	dynasty = 4
+	culture = thuringian
+	religion = catholic
+	father = weimar2
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1070.3.6 = {
+		death = yes
+	}
+}
+
+weimar2 = {
+	name = "Poppo" #Poppo I of Krain
+	dynasty = 4
+	culture = thuringian
+	religion = catholic
+	father = weimar3
+	980.1.1 = { #fic
+		birth = yes
+	}
+	1044.7.13 = {
+		death = yes
+	}
+}
+
+weimar3 = {
+	name = "Wilhelm" #Wilhelm II of Weimar
+	dynasty = 4
+	culture = thuringian
+	religion = catholic
+	930.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_great
+	}
+	1003.12.24 = {
+		death = yes
+	}
+}
+
+weimar4 = {
+	name = "Wilhelm" #Wilhelm III of Weimar
+	dynasty = 4
+	culture = thuringian
+	religion = catholic
+	father = weimar3
+	970.1.1 = { #fic
+		birth = yes
+	}
+	1039.4.16 = {
+		death = yes
+	}
+}
+
+weimar5 = {
+	name = "Wilhelm" #Wilhelm III of Weimar
+	dynasty = 4
+	culture = thuringian
+	religion = catholic
+	father = weimar4
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1062.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,12 @@
+﻿askuining1 = {
+	name = "Askuin" #Askuin I of Savinja
+	dynasty = 9
+	religion = catholic
+	culture = slovenian
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}

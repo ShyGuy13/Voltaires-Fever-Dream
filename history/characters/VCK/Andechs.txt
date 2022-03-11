@@ -1,0 +1,54 @@
+andechs1 = {
+	name = "Arnold" #Arnold I of Andechs
+	dynasty = 27
+	religion = catholic
+	culture = bavarian
+	father = andechs2
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+
+andechs2 = {
+	name = "Friedrich" #Friedrich III of Andechs
+	dynasty = 27
+	religion = catholic
+	culture = bavarian
+	father = andechs3
+	1005.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+
+andechs3 = {
+	name = "Friedrich" #Friedrich II of Andechs
+	dynasty = 27
+	religion = catholic
+	culture = bavarian
+	father = andechs4
+	990.1.1 = { #fic
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}
+
+andechs4 = {
+	name = "Friedrich" #Friedrich I of Andechs
+	dynasty = 27
+	religion = catholic
+	culture = bavarian
+	960.1.1 = { #fic
+		birth = yes
+	}
+	1020.1.1 = {
+		death = yes
+	}
+}

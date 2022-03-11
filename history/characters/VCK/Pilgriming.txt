@@ -1,0 +1,9 @@
+﻿pilgriming1 = {
+	name = "Kuno" #Kuno I of Rott
+	dynasty = 15
+	religion = catholic
+	culture = bavarian
+	1015.1.1 = {
+		birth = yes
+	}
+}

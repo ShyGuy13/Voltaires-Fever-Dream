@@ -1,0 +1,96 @@
+﻿ariboning1 = {
+	name = "Aribo" #Aribo II of Grafengaden
+	dynasty = 12
+	religion = catholic
+	culture = bavarian
+	father = ariboning3
+	1024.1.1 = {
+		birth = yes
+	}
+	1102.3.18 = {
+		death = yes
+	}
+}
+
+ariboning2 = {
+	name = "Hartwig" #Hartwig III of Grafengaden
+	dynasty = 12
+	religion = catholic
+	culture = bavarian
+	father = ariboning1
+	1054.1.1 = { #fic
+		birth = yes
+	}
+	1100.1.1 = { #fic
+		death = yes
+	}
+}
+
+ariboning3 = {
+	name = "Hartwig" #Hartwig II of Grafengaden
+	dynasty = 12
+	religion = catholic
+	culture = bavarian
+	father = ariboning5
+	985.1.1 = {
+		birth = yes
+	}
+	1027.12.24 = {
+		death = yes
+	}
+}
+
+ariboning4 = {
+	name = "Botho" #Botho of Pottenstein
+	dynasty = 12
+	religion = catholic
+	culture = bavarian
+	father = ariboning3
+	1028.1.1 = {
+		birth = yes
+	}
+	1104.3.1 = {
+		death = yes
+	}
+}
+
+ariboning5 = {
+	name = "Aribo" #Aribo I of Grafengaden
+	dynasty = 12
+	religion = catholic
+	culture = bavarian
+	940.1.1 = { #fic
+		birth = yes
+	}
+	1001.1.1 = {
+		death = yes
+	}
+}
+
+ariboning6 = {
+	name = "Aribo" #bishop of Mainz
+	dynasty = 12
+	religion = catholic
+	culture = bavarian
+	father = ariboning5
+	990.1.1 = { #fic
+		birth = yes
+	}
+	1031.4.6 = {
+		death = yes
+	}
+}
+
+ariboning7 = {
+	name = "Pilgrim" #bishop of Cologne
+	dynasty = 12
+	religion = catholic
+	culture = bavarian
+	father = ariboning5
+	995.1.1 = { #fic
+		birth = yes
+	}
+	1036.8.25 = {
+		death = yes
+	}
+}

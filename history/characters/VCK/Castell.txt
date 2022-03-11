@@ -1,0 +1,12 @@
+﻿castell1 = {
+	name = "Ruprecht" #Ruprecht I of Castell
+	dynasty = 31
+	culture = franconian
+	religion = catholic
+	1025.1.1 = { #fic
+		birth = yes
+	}
+	1100.1.1 = { #fic
+		death = yes
+	}
+}

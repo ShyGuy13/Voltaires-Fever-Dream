@@ -1,0 +1,26 @@
+﻿tirol1 = {
+	name = "Albrecht" #Albrecht I of Tirol
+	dynasty = 8
+	culture = austrian
+	religion = catholic
+	1000.1.1 = {
+		birth = yes
+	}
+	1078.1.1 = {
+		death = yes
+	}
+}
+
+tirol2 = {
+	name = "Albrecht" #Albrecht II of Tirol
+	dynasty = 8
+	culture = austrian
+	religion = catholic
+	father = tirol1
+	1054.7.1 = {
+		birth = yes
+	}
+	1125.1.1 = {
+		death = yes
+	}
+}

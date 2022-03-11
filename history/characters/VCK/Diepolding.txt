@@ -1,0 +1,26 @@
+diepolding1 = {
+	name = "Diepold" #Diepold I of Nordgau
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	1010.1.1 = { #est
+		birth = yes
+	}
+	1060.5.18 = {
+		death = yes
+	}
+}
+
+diepolding2 = {
+	name = "Diepold" #Diepold II of Nordgau
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	father = diepolding1
+	1030.1.1 = { #est
+		birth = yes
+	}
+	1078.8.7 = {
+		death = yes
+	}
+}

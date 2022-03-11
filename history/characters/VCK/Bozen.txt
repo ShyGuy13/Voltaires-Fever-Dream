@@ -1,0 +1,12 @@
+﻿bozen1 = {
+	name = "Friedrich" #Friedrich I of Eppan
+	dynasty = 14
+	culture = bavarian
+	religion = catholic
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1078.1.1 = { #fic
+		death = yes
+	}
+}

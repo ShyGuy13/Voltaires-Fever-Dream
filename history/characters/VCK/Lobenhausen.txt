@@ -1,0 +1,12 @@
+lobenhausen1 = {
+	name = "Heinrich" #Heinrich I of Maulachgau
+	dynasty = 29
+	religion = catholic
+	culture = franconian
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1090.1.1 = { #fic
+		death = yes
+	}
+}
