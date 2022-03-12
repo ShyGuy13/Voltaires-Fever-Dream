@@ -1,4 +1,4 @@
-diepolding1 = {
+﻿diepolding1 = {
 	name = "Diepold" #Diepold I of Nordgau
 	dynasty = 26
 	religion = catholic

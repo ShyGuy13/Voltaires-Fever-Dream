@@ -1,0 +1,26 @@
+﻿wittelsbach1 = {
+	name = "Otto" #Otto I of Scheyern
+	dynasty= 19
+	culture = bavarian
+	religion = catholic
+	1022.12.3 = {
+		birth = yes
+	}
+	1072.12.3 = {
+		death = yes
+	}
+}
+
+wittelsbach2 = {
+	name = "Eckhard" #Eckhard I of Scheyern
+	dynasty= 19
+	culture = bavarian
+	religion = catholic
+	father = wittelsbach1
+	1052.1.1 = {
+		birth = yes
+	}
+	1091.5.10 = {
+		death = yes
+	}
+}

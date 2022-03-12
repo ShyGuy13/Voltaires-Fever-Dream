@@ -1,5 +1,6 @@
 formbach1 = {
 	name = "Mathilde" #wife of Ekbert I of Formbach
+	female = yes
 	dynasty = 5
 	culture = austrian
 	religion = catholic

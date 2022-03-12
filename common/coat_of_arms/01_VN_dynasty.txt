@@ -1,0 +1,32 @@
+1 = { # Eppenstein
+	pattern = "pattern_solid.dds"	
+	color1 = "white"		
+	color2 = "red"	
+	colored_emblem = {
+		texture = "ce_ordinary_chevron_5.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 1.0 } scale = { 1.03 1.03 }  }		
+		instance = { position = { 0.5 0.064 } scale = { 1.03 1.03 }  }	
+		instance = { position = { 0.5 0.532 } scale = { 1.03 1.03 }  }									
+	}	
+}
+
+2 = c_gorz # Meinharding
+
+3 = d_austria # Babenberg
+
+6 = { # Julbach
+	pattern="pattern_barry_06.dds"
+	color1=white
+	color2=red
+	colored_emblem={
+		color1=blue_light
+		texture="ce_chevron_in_chief.dds"
+		instance={
+			position={ 0.5 0.75 }
+		}
+	}
+}
+
+7 = d_steyermark # Traungau

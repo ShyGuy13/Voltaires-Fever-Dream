@@ -3,6 +3,7 @@
 	dynasty = 7
 	culture = austrian
 	religion = catholic
+	father = traungau4
 	1010.1.1 = { #fic
 		birth = yes
 	}
@@ -41,6 +42,19 @@ traungau3 = {
 		birth = yes
 	}
 	1122.11.28 = {
+		death = yes
+	}
+}
+
+traungau4 = {
+	name = "Ottokar"
+	dynasty = 7
+	culture = austrian
+	religion = catholic
+	990.1.1 = {
+		birth = yes
+	}
+	1020.3.5 = {
 		death = yes
 	}
 }

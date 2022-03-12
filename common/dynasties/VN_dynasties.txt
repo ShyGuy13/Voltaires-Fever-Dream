@@ -110,7 +110,7 @@
 }
 24 = {
 	name = "dynn_Reginbodoning"
-	culture = bavarian
+	culture = hessian
 }
 25 = {
 	prefix = "dynnp_zu"

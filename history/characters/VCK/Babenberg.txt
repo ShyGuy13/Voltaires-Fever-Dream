@@ -95,8 +95,81 @@ babenberg7 = {
 	religion = catholic
 	940.1.1 = {
 		birth = yes
+		give_nickname = nick_the_illustrious
 	}
 	994.7.10 = {
+		death = yes
+	}
+}
+
+babenberg8 = {
+	name = "Heinrich" #Heinrich I of Austria
+	dynasty = 3
+	culture = austrian
+	religion = catholic
+	father = babenberg7
+	974.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_strong
+	}
+	1018.6.23 = {
+		death = yes
+	}
+}
+
+babenberg9 = {
+	name = "Ernst" #Ernst I of Swabia
+	dynasty = 3
+	culture = austrian
+	religion = catholic
+	father = babenberg7
+	978.1.1 = { #fic
+		birth = yes
+	}
+	1015.5.31 = {
+		death = yes
+	}
+}
+
+babenberg10 = {
+	name = "Poppo" #bishop of Trier
+	dynasty = 3
+	culture = austrian
+	religion = catholic
+	father = babenberg7
+	986.1.1 = { #fic
+		birth = yes
+	}
+	1047.6.16 = {
+		death = yes
+	}
+}
+
+babenberg11 = {
+	name = "Leopold" #bishop of Mainz
+	dynasty = 3
+	culture = austrian
+	religion = catholic
+	father = babenberg7
+	990.1.1 = { #fic
+		birth = yes
+	}
+	1059.1.1 = {
+		death = yes
+	}
+}
+
+babenberg12 = {
+	name = "Judith"
+	female = yes
+	dynasty = 3
+	culture = austrian
+	religion = catholic
+	father = babenberg7
+	976.1.1 = { #fic
+		birth = yes
+	}
+	1020.1.1 = { #fic
 		death = yes
 	}
 }

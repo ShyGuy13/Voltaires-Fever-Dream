@@ -1,0 +1,12 @@
+gilching1 = {
+	name = "Meinhard" #bishop of Bayreuth
+	dynasty = 36
+	religion = catholic
+	culture = franconian
+	1015.1.1 = { #fic
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}

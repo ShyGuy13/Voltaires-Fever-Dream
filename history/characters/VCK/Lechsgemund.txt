@@ -1,0 +1,12 @@
+﻿lechsgemund1 = {
+	name = "Luitger" #Luitger of Lechsgemünd
+	dynasty = 21
+	religion = catholic
+	culture = bavarian
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}

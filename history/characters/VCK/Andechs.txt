@@ -1,4 +1,4 @@
-andechs1 = {
+﻿andechs1 = {
 	name = "Arnold" #Arnold I of Andechs
 	dynasty = 27
 	religion = catholic

@@ -1,4 +1,4 @@
-lobenhausen1 = {
+﻿lobenhausen1 = {
 	name = "Heinrich" #Heinrich I of Maulachgau
 	dynasty = 29
 	religion = catholic

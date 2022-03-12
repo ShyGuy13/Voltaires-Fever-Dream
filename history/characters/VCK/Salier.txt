@@ -31,10 +31,67 @@ salier3 = {
 	dynasty = 38
 	culture = swabian
 	religion = catholic
+	father = salier4
 	1016.10.28 = {
 		birth = yes
 	}
 	1056.10.5 = {
+		death = yes
+	}
+}
+
+salier4 = {
+	name = "Konrad" #Konrad II of HRE
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier5
+	990.1.1 = {
+		birth = yes
+	}
+	1039.6.4 = {
+		death = yes
+	}
+}
+
+salier5 = {
+	name = "Heinrich" #Heinrich of Worms
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier6
+	970.1.1 = {
+		birth = yes
+	}
+	991.1.1 = {
+		death = yes
+	}
+}
+
+salier6 = {
+	name = "Otto" #Otto of Worms
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier7
+	948.1.1 = {
+		birth = yes
+	}
+	1004.11.4 = {
+		death = yes
+	}
+}
+
+salier7 = {
+	name = "Konrad" #Konrad of Lorraine
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	922.1.1 = {
+		birth = yes
+		give_nickname = nick_the_red
+	}
+	955.8.10 = {
 		death = yes
 	}
 }

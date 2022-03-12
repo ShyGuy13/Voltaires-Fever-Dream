@@ -1,0 +1,26 @@
+﻿udalriching1 = {
+	name = "Ludwig" #Ludwig I of Pfullendorf
+	dynasty = 54
+	religion = catholic
+	culture = swabian
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+
+udalriching2 = {
+	name = "Gero" #Gero I of Pfullendorf
+	dynasty = 54
+	religion = catholic
+	culture = swabian
+	father = udalriching1
+	1050.1.1 = { #fic
+		birth = yes
+	}
+	1116.1.1 = {
+		death = yes
+	}
+}

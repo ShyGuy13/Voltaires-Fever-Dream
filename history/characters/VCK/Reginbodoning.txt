@@ -1,0 +1,12 @@
+﻿reginbodoning1 = {
+	name = "Egilbert" #bishop of Passau
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1065.5.17 = {
+		death = yes
+	}
+}

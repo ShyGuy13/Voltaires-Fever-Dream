@@ -1,0 +1,14 @@
+﻿#All bishops and archbishops with unknown dynasty or of lowborn heritage
+
+#Salzburg
+salzburg_balduin = {
+	name = "Balduin"
+	religion = catholic
+	culture = flamish
+	1000.1.1 = { #est
+		birth = yes
+	}
+	1060.4.8 = {
+		death = yes
+	}
+}
