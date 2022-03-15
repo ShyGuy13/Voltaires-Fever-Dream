@@ -84,12 +84,15 @@ c_pitten = {
 	}
 }
 
-
-
-c_waidhofen-ybbs = {
-	1000.1.1 = { government = theocracy_government }
-	1052.4.6 = {
-		holder = siegharding2
+#Neuburg
+c_scharding = {
+	1040.1.1 = {
+		holder = formbach7
+	}
+}
+c_linz = {
+	1040.1.1 = {
+		holder = formbach7
 	}
 }
 
@@ -143,11 +146,6 @@ c_krain = {
 		holder = weimar1
 	}
 }
-c_sannmark = {
-	1044.1.1 = {
-		holder = weimar1
-	}
-}
 c_pazin = {
 	1044.1.1 = {
 		holder = weimar1
@@ -156,6 +154,13 @@ c_pazin = {
 c_vipava = {
 	1044.1.1 = {
 		holder = weimar1
+	}
+}
+
+#Görz
+c_gorz = {
+	1054.1.1 = {
+		holder = meinharding1
 	}
 }
 
@@ -169,12 +174,17 @@ d_tyrol = {
 #Murmark
 c_graz = {
 	1035.1.1 = {
-		holder = formbach5
+		holder = formbach3
 	}
 }
 c_pingau = {
 	1035.1.1 = {
-		holder = formbach5
+		holder = formbach3
+	}
+}
+c_mahrenberg = {
+	1035.1.1 = {
+		holder = formbach3
 	}
 }
 
@@ -235,8 +245,62 @@ c_berchtesgaden = {
 
 #Bavaria
 d_bavaria = {
+	1026.2.27 = {
+		holder = salier4
+	}
+	1027.1.1 = {
+		holder = salier3
+	}
+	1042.1.1 = {
+		holder = luxemburg1
+	}
+	1047.10.14 = {
+		holder = salier3
+	}
+	1049.1.1 = {
+		holder = ezzoning1
+	}
+	1053.4.11 = {
+		holder = salier1
+	}
 	1054.6.1 = {
 		holder = salier2
+	}
+}
+c_neumarkt = {
+	1026.2.27 = {
+		holder = salier4
+	}
+	1027.1.1 = {
+		holder = salier3
+	}
+	1042.1.1 = {
+		holder = luxemburg1
+	}
+	1047.10.14 = {
+		holder = salier3
+	}
+	1049.1.1 = {
+		holder = ezzoning1
+	}
+	1053.4.11 = {
+		holder = salier1
+	}
+	1054.6.1 = {
+		holder = salier2
+	}
+}
+
+#Freising
+c_freising = {
+	1000.1.1 = { government = theocracy_government }
+	1052.4.6 = {
+		holder = siegharding2
+	}
+}
+c_waidhofen-ybbs = {
+	1052.4.6 = {
+		holder = siegharding2
 	}
 }
 
@@ -247,9 +311,18 @@ c_eichstadt = {
 		holder = calw1
 	}
 }
+
+#Hirschberg
 c_hirschberg  = {
 	1042.1.1 = {
-		holder = calw1
+		holder = hirschberg1
+	}
+}
+
+#Abensberg
+c_abensberg = {
+	1054.1.1 = {
+		holder = abensberg1
 	}
 }
 
@@ -265,6 +338,13 @@ c_ingolstadt = {
 	}
 }
 
+#Andechs
+c_andechs = {
+	1054.1.1 = {
+		holder = andechs1
+	}
+}
+
 #Passau 
 c_passau = {
 	1000.1.1 = { government = theocracy_government }
@@ -275,6 +355,13 @@ c_passau = {
 c_sankt_polten = {
 	1045.7.14 = {
 		holder = reginbodoning1
+	}
+}
+
+#Neuburg
+c_linz = {
+	1040.1.1 = {
+		holder = formbach7
 	}
 }
 
@@ -328,5 +415,12 @@ c_wolfsbach = {
 c_pfullendorf = {
 	1054.1.1 = {
 		holder = udalriching1
+	}
+}
+
+#Beuren
+c_kaufbeuren = {
+	1054.1.1 = {
+		holder = beuren1
 	}
 }

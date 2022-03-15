@@ -12,3 +12,16 @@ salzburg_balduin = {
 		death = yes
 	}
 }
+
+#Brixen
+brixen_altwin = {
+	name = "Altwin"
+	religion = catholic
+	culture = austrian
+	1020.1.1 = { #est
+		birth = yes
+	}
+	1097.3.7 = { #resignation
+		death = yes
+	}
+}

@@ -1,0 +1,12 @@
+﻿luxemburg1 = {
+	name = "Heinrich" #Heinrich VII of Bavaria
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	1005.1.1 = {
+		birth = yes
+	}
+	1047.10.14 = {
+		death = yes
+	}
+}

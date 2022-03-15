@@ -1,0 +1,97 @@
+﻿habsburg1 = {
+	name = "Werner" #Werner I of Aargau
+	dynasty = 70
+	culture = swiss
+	religion = catholic
+	father = habsburg2
+	1030.1.1 = {
+		birth = yes
+		give_nickname = nick_the_pious
+	}
+	1096.11.11 = {
+		death = yes
+	}
+}
+
+habsburg2 = {
+	name = "Radbot" #Radbot I of Aargau
+	dynasty = 70
+	culture = swiss
+	religion = catholic
+	father = habsburg3
+	985.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		death = yes
+	}
+}
+
+habsburg3 = {
+	name = "Lanzelin" #Lanzelin I of Aargau
+	dynasty = 70
+	culture = swiss
+	religion = catholic
+	father = habsburg7
+	940.1.1 = { #fic
+		birth = yes
+	}
+	991.1.1 = {
+		death = yes
+	}
+}
+
+habsburg4 = {
+	name = "Werner" #bishop of Straßburg
+	dynasty = 70
+	culture = swiss
+	religion = catholic
+	father = habsburg3
+	980.1.1 = { #est
+		birth = yes
+	}
+	1028.10.28 = {
+		death = yes
+	}
+}
+
+habsburg5 = {
+	name = "Rudolf" #Rudolf I of Aargau
+	dynasty = 70
+	culture = swiss
+	religion = catholic
+	father = habsburg3
+	990.1.1 = { #est
+		birth = yes
+	}
+	1064.3.1 = { #est
+		death = yes
+	}
+}
+
+habsburg6 = {
+	name = "Lanzelin" #Lanzelin II of Aargau
+	dynasty = 70
+	culture = swiss
+	religion = catholic
+	father = habsburg3
+	975.1.1 = { #fic
+		birth = yes
+	}
+	1027.1.1 = { #est
+		death = yes
+	}
+}
+
+habsburg7 = {
+	name = "Guntram" #Guntram I of Aargau
+	dynasty = 70
+	culture = swiss
+	religion = catholic
+	920.1.1 = { #est
+		birth = yes
+	}
+	973.3.26 = {
+		death = yes
+	}
+}

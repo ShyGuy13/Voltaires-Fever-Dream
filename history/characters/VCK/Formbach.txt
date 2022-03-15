@@ -46,6 +46,7 @@ formbach4 = {
 	dynasty = 5
 	culture = austrian
 	religion = catholic
+	father = formbach10
 	950.1.1 = { #fic
 		birth = yes
 	}
@@ -73,6 +74,7 @@ formbach6 = {
 	dynasty = 5
 	culture = austrian
 	religion = catholic
+	father = formbach8
 	1010.1.1 = { #fic
 		birth = yes
 	}
@@ -81,3 +83,55 @@ formbach6 = {
 	}
 }
 
+formbach7 = {
+	name = "Meinhard" #Meinhard IV of Neuburg
+	dynasty = 5
+	culture = austrian
+	religion = catholic
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+
+formbach8 = {
+	name = "Dietmar" #Dietmar II of Quinzingau
+	dynasty = 5
+	culture = austrian
+	religion = catholic
+	father = formbach9
+	980.1.1 = { #fic
+		birth = yes
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+
+formbach9 = {
+	name = "Dietmar" #Dietmar I of Quinzingau
+	dynasty = 5
+	culture = austrian
+	religion = catholic
+	960.1.1 = { #fic
+		birth = yes
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+
+formbach10 = {
+	name = "Meinhard" #Meinhard I
+	dynasty = 5
+	culture = austrian
+	religion = catholic
+	930.1.1 = { #fic
+		birth = yes
+	}
+	963.1.1 = {
+		death = yes
+	}
+}

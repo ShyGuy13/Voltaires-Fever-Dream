@@ -94,6 +94,61 @@ c_matrei={
 	}
 }
 
+c_hirschberg = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_mount.dds"
+		color1 = "green"
+		color2 = "green"
+		instance = { position = { 0.5 0.66 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_stag.dds"
+		color1 = "black"
+		color2 = "red"
+		instance = { position = { 0.5 0.48 } scale = { 1.0 1.0 }  }
+	}
+}
+
+c_moosburg={
+	custom=yes
+	pattern="pattern_horizontal_split_01.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=red
+		color2=green
+		color3=yellow
+		texture="ce_flower.dds"
+		instance={
+			position={ 0.50 0.70 }
+			scale={ 0.425 0.425 }
+			rotation=180
+		}
+	}
+	colored_emblem={
+		color1=white
+		color2=green
+		color3=yellow
+		texture="ce_flower.dds"
+		instance={
+			position={ 0.70 0.30 }
+			scale={ 0.425 0.425 }
+			depth=1.010000
+			rotation=180
+		}
+		instance={
+			position={ 0.30 0.30 }
+			scale={ 0.425 0.425 }
+			depth=2.010000
+			rotation=180
+		}
+	}
+}
+
 # c_wildenstein={
 # 	pattern="pattern_solid.dds"
 # 	color1=yellow
@@ -216,36 +271,36 @@ c_andechs = {
 	}
 }
 
-c_hohenwaldeck={
-	pattern="pattern_solid.dds"
-	color1=white
-	color2=yellow
-	color3=black
-	colored_emblem={
-		color1=red
-		texture="ce_block_04.dds"
-		instance={
-			position={ 0.500000 0.730000 }
-			rotation=15
-		}
-		instance={
-			position={ 0.500000 0.730000 }
-			depth=1.010000
-			rotation=165
-		}
-	}
-	colored_emblem={
-		color1=red
-		color2=yellow
-		color3=black
-		texture="ce_eagle_small.dds"
-		instance={
-			position={ 0.500000 0.350000 }
-			scale={ 0.750000 0.750000 }
-			depth=2.010000
-		}
-	}
-}
+# c_hohenwaldeck={
+# 	pattern="pattern_solid.dds"
+# 	color1=white
+# 	color2=yellow
+# 	color3=black
+# 	colored_emblem={
+# 		color1=red
+# 		texture="ce_block_04.dds"
+# 		instance={
+# 			position={ 0.500000 0.730000 }
+# 			rotation=15
+# 		}
+# 		instance={
+# 			position={ 0.500000 0.730000 }
+# 			depth=1.010000
+# 			rotation=165
+# 		}
+# 	}
+# 	colored_emblem={
+# 		color1=red
+# 		color2=yellow
+# 		color3=black
+# 		texture="ce_eagle_small.dds"
+# 		instance={
+# 			position={ 0.500000 0.350000 }
+# 			scale={ 0.750000 0.750000 }
+# 			depth=2.010000
+# 		}
+# 	}
+# }
 
 c_haag = {
 	pattern = "pattern_solid.dds"
@@ -406,4 +461,20 @@ b_wittelsbach = {
 		color2 = "yellow"
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
 	}	
+}
+
+b_pfannberg = {
+	custom=yes
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=blue_light
+		texture="ce_chevronny.dds"
+		instance={
+			position={ 0.500000 0.800000 }
+		}
+	}
 }

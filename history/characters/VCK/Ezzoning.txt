@@ -1,0 +1,15 @@
+﻿ezzoning1 = {
+	name = "Kuno" #Kuno I of Bavaria
+	dynasty = 81
+	religion = catholic
+	culture = swabian
+	1020.1.1 = {
+		birth = yes
+	}
+	#1053.1.1 = {
+		#gets deposed & moves to Andreas of Hungary
+	#}
+	1055.12.5 = {
+		death = yes
+	}
+}
