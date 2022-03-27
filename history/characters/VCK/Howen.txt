@@ -1,0 +1,12 @@
+﻿howen1 = {
+	name = "Eberhard" #Eberhard I of Höwen
+	dynasty = 87
+	religion = catholic
+	culture = boden_alemannic
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1112.1.1 = {
+		death = yes
+	}
+}

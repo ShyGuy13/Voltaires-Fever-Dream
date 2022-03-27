@@ -1,11 +1,11 @@
-formbach1 = {
+﻿formbach1 = {
 	name = "Mathilde" #wife of Ekbert I of Formbach
 	female = yes
 	dynasty = 5
 	culture = austrian
 	religion = catholic
 	father = formbach2
-	1030.1.1 = { #fic
+	1037.1.1 = {
 		birth = yes
 	}
 	1100.1.1 = {
@@ -19,7 +19,7 @@ formbach2 = {
 	culture = austrian
 	religion = catholic
 	father = formbach3
-	1025.1.1 = { #fic
+	1005.1.1 = {
 		birth = yes
 	}
 	1050.1.1 = {
@@ -33,7 +33,7 @@ formbach3 = {
 	culture = austrian
 	religion = catholic
 	father = formbach4
-	1000.1.1 = { #fic
+	980.1.1 = { #fic
 		birth = yes
 	}
 	1055.1.1 = {

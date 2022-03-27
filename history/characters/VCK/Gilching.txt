@@ -1,5 +1,5 @@
-gilching1 = {
-	name = "Meinhard" #bishop of Bayreuth
+﻿gilching1 = {
+	name = "Meinhard" #Meinhard III of Bayreuth
 	dynasty = 36
 	religion = catholic
 	culture = franconian

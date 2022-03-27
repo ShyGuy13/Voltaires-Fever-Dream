@@ -1,0 +1,42 @@
+#Trent
+d_trento = {
+	350.1.1 = { government = theocracy_government }
+	1006.1.1 = {
+		holder = trent_uldarico_1
+	}
+	1022.1.1 = {
+		holder = trent_uldarico_2
+	}
+}
+
+c_trent = {
+	1006.1.1 = {
+		holder = trent_uldarico_1
+	}
+	1022.1.1 = {
+		holder = trent_uldarico_2
+	}
+}
+c_bozen = {
+	1006.1.1 = {
+		holder = trent_uldarico_1
+	}
+	1022.1.1 = {
+		holder = trent_uldarico_2
+	}
+}
+c_rovereto = {
+	1006.1.1 = {
+		holder = trent_uldarico_1
+	}
+	1022.1.1 = {
+		holder = trent_uldarico_2
+	}
+}
+
+#Trieste
+c_trieste = {
+	1050.1.1 = {
+		holder = hugoning1
+	}
+}

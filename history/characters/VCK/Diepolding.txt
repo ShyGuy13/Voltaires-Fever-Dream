@@ -3,6 +3,7 @@
 	dynasty = 26
 	religion = catholic
 	culture = bavarian
+	father = diepolding5
 	1010.1.1 = { #est
 		birth = yes
 	}
@@ -21,6 +22,61 @@ diepolding2 = {
 		birth = yes
 	}
 	1078.8.7 = {
+		death = yes
+	}
+}
+
+diepolding3 = {
+	name = "Rapato" #Rapato III of Nordgau
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	father = diepolding5
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1050.6.19 = {
+		death = yes
+	}
+}
+
+diepolding4 = {
+	name = "Ulrich"
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	father = diepolding5
+	1005.1.1 = { #fic
+		birth = yes
+	}
+	1051.3.5 = {
+		death = yes
+	}
+}
+
+diepolding5 = {
+	name = "Rapato" #Rapato II of Nordgau
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	father = diepolding6
+	980.1.1 = { #fic
+		birth = yes
+	}
+	1025.1.1 = { #fic
+		death = yes
+	}
+}
+
+diepolding6 = {
+	name = "Rapato" #Rapato I of Nordgau
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	956.1.1 = {
+		birth = yes
+	}
+	984.1.1 = {
 		death = yes
 	}
 }

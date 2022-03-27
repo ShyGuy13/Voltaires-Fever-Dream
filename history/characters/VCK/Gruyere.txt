@@ -1,0 +1,12 @@
+﻿gruyere1 = {
+	name = "Guillaime" #Guillaime I of Gruyère
+	dynasty = 92
+	religion = catholic
+	culture = arpitan
+	1044.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}

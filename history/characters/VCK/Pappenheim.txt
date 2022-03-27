@@ -1,0 +1,12 @@
+﻿pappenheim1 = {
+	name = "Heinrich" #Heinrich der Erbauer of Pappenheim
+	dynasty = 25
+	religion = catholic
+	culture = bavarian
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}

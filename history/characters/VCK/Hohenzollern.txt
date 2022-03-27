@@ -1,0 +1,40 @@
+﻿hohenzollern1 = {
+	name = "Burkhard" # Burkhard I of Zollern
+	dynasty = 64
+	religion = catholic
+	culture = swabian
+	father = hohenzollern3
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+
+hohenzollern2 = {
+	name = "Friedrich" # Friedrich I of Zollern
+	dynasty = 64
+	religion = catholic
+	culture = swabian
+	father = hohenzollern1
+	1040.1.1 = { #fic
+		birth = yes
+	}
+	1108.1.1 = {
+		death = yes
+	}
+}
+
+hohenzollern3 = {
+	name = "Friedrich"
+	dynasty = 64
+	religion = catholic
+	culture = swabian
+	980.1.1 = { #fic
+		birth = yes
+	}
+	1040.1.1 = { #fic
+		death = yes
+	}
+}

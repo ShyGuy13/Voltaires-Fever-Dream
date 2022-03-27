@@ -21,6 +21,17 @@ c_vienna = {
 		holder = babenberg1 #Albrecht I
 	}
 }
+c_hainburg = {
+	981.1.1 = {
+		holder = babenberg7 #Leopold I
+	}
+	994.7.10 = {
+		holder = babenberg8 #Heinrich I
+	}
+	1018.6.23 = {
+		holder = babenberg1 #Albrecht I
+	}
+}
 c_ostmark = {
 	981.1.1 = {
 		holder = babenberg7 #Leopold I
@@ -79,13 +90,16 @@ c_enns = {
 
 #Pitten
 c_pitten = {
+	1042.1.1 = {
+		holder = formbach2 #Gottfried von Formbach
+	}
 	1050.1.1 = {
-		holder = formbach1
+		holder = formbach1 #Mathilde von Formbach
 	}
 }
 
 #Neuburg
-c_scharding = {
+c_neuburg = {
 	1040.1.1 = {
 		holder = formbach7
 	}
@@ -97,12 +111,29 @@ c_linz = {
 }
 
 #Schaunberg
-c_schaunberg = {
-
-}
 
 #Carinthia
 d_carinthia = {
+	1039.11.29 = {
+		holder = eppenstein1
+	}
+}
+c_karnten = {
+	1039.11.29 = {
+		holder = eppenstein1
+	}
+}
+c_lienz = {
+	1039.11.29 = {
+		holder = eppenstein1
+	}
+}
+c_treffen = {
+	1039.11.29 = {
+		holder = eppenstein1
+	}
+}
+c_sachsenburg = {
 	1039.11.29 = {
 		holder = eppenstein1
 	}
@@ -119,12 +150,12 @@ c_steiermark = {
 		holder = traungau1
 	}
 }
-c_donnersbach = {
+c_admont = {
 	1050.1.1 = {
 		holder = traungau1
 	}
 }
-c_murztal = {
+c_kapfenberg = {
 	1050.1.1 = {
 		holder = traungau1
 	}
@@ -141,7 +172,7 @@ d_krain = {
 		holder = weimar1
 	}
 }
-c_krain = {
+c_ljubljana = {
 	1044.1.1 = {
 		holder = weimar1
 	}
@@ -170,21 +201,49 @@ d_tyrol = {
 		holder = tirol1
 	}
 }
+c_meran = {
+	1054.7.1 = {
+		holder = tirol1
+	}
+}
+c_ischgl = {
+	1054.7.1 = {
+		holder = tirol1
+	}
+}
+
+#Brixen
+c_brixen = {
+	1000.1.1 = { government = theocracy_government }
+	1048.7.17 = {
+		holder = brixen_altwin
+	}
+}
+c_bled = {
+	1048.7.17 = {
+		holder = brixen_altwin
+	}
+}
 
 #Murmark
 c_graz = {
 	1035.1.1 = {
-		holder = formbach3
+		holder = formbach3 #Arnold II
 	}
 }
 c_pingau = {
 	1035.1.1 = {
-		holder = formbach3
+		holder = formbach3 #Arnold II
 	}
 }
 c_mahrenberg = {
 	1035.1.1 = {
-		holder = formbach3
+		holder = formbach3 #Arnold II
+	}
+}
+c_enns = {
+	1035.1.1 = {
+		holder = formbach3 #Arnold II
 	}
 }
 
@@ -194,18 +253,23 @@ c_chiemgau = {
 		holder = siegharding1
 	}
 }
+c_taufers = {
+	1046.1.1 = {
+		holder = siegharding1
+	}
+}
 
 #Cilli
 c_cilli = {
-	1000.1.1 = {
-		name = SAVINJA
-	}
+	#1000.1.1 = {
+	#	name = SAVINJA
+	#}
 	1045.1.1 = {
 		holder = askuining1
 	}
-	1341.1.1 = {
-		reset_name = yes
-	}
+	#1341.1.1 = {
+	#	reset_name = yes
+	#}
 }
 c_pettau = {
 	1045.1.1 = {
@@ -225,7 +289,7 @@ c_salzburg = {
 		holder = salzburg_balduin
 	}
 }
-c_pinzgau = {
+c_goldegg = {
 	1041.7.28 = {
 		holder = salzburg_balduin
 	}
@@ -267,7 +331,7 @@ d_bavaria = {
 		holder = salier2
 	}
 }
-c_neumarkt = {
+c_straubing = {
 	1026.2.27 = {
 		holder = salier4
 	}
@@ -288,6 +352,37 @@ c_neumarkt = {
 	}
 	1054.6.1 = {
 		holder = salier2
+	}
+}
+c_cham = {
+	1026.2.27 = {
+		holder = salier4
+	}
+	1027.1.1 = {
+		holder = salier3
+	}
+	1042.1.1 = {
+		holder = luxemburg1
+	}
+	1047.10.14 = {
+		holder = salier3
+	}
+	1049.1.1 = {
+		holder = ezzoning1
+	}
+	1053.4.11 = {
+		holder = salier1
+	}
+	1054.6.1 = {
+		holder = salier2
+	}
+}
+
+#Moosburg
+c_moosburg = {
+	1054.1.1 = {
+		liege = d_bavaria
+		holder = moosburg1
 	}
 }
 
@@ -319,6 +414,19 @@ c_hirschberg  = {
 	}
 }
 
+#Regensburg
+c_regensburg = {
+	1000.1.1 = { government = theocracy_government }
+	1036.3.17 = {
+		holder = popponing1
+	}
+}
+c_kitzbuhel = {
+	1036.3.17 = {
+		holder = popponing1
+	}
+}
+
 #Abensberg
 c_abensberg = {
 	1054.1.1 = {
@@ -344,6 +452,16 @@ c_andechs = {
 		holder = andechs1
 	}
 }
+c_seefeld = {
+	1054.1.1 = {
+		holder = andechs1
+	}
+}
+c_innsbruck = {
+	1054.1.1 = {
+		holder = andechs1
+	}
+}
 
 #Passau 
 c_passau = {
@@ -358,37 +476,105 @@ c_sankt_polten = {
 	}
 }
 
-#Neuburg
-c_linz = {
-	1040.1.1 = {
-		holder = formbach7
+#Schaunberg
+c_schaunberg = {
+	1054.1.1 = {
+		holder = julbach1
 	}
 }
 
 #Eschenlohe
 c_eschenlohe = {
-	1000.1.1 = {
-		name = EPPAN
-	}
+	#1000.1.1 = {
+	#	name = EPPAN
+	#}
 	1054.1.1 = {
-		holder = bozen1
+		holder = eppan1
 	}
-	1248.1.1 = {
- 		reset_name = yes
- 	}
+	#1248.1.1 = {
+ 	#	reset_name = yes
+ 	#}
+}
+c_seefeld = {
+	1054.1.1 = {
+		holder = eppan1
+	}
 }
 
 #Wasserburg
 c_wasserburg = {
-	1000.1.1 = {
-		name = ROTT
-	}
+	#1000.1.1 = {
+	#	name = ROTT
+	#}
 	1054.1.1 = {
 		holder = pilgriming1
 	}
-	1098.1.1 = {
- 		reset_name = yes
- 	}
+	#1098.1.1 = {
+ 	#	reset_name = yes
+ 	#}
+}
+
+#Nordgau
+d_nordgau = {
+	956.1.1 = {
+		holder = diepolding6
+	}
+	984.1.1. = {
+		holder = diepolding5
+	}
+	1025.1.1 = {
+		holder = diepolding3
+	}
+	1050.6.19 = {
+		holder = diepolding1
+	}
+}
+c_neumarkt = {
+	956.1.1 = {
+		holder = diepolding6
+	}
+	984.1.1. = {
+		holder = diepolding5
+	}
+	1025.1.1 = {
+		holder = diepolding3
+	}
+	1050.6.19 = {
+		holder = diepolding1
+	}
+}
+c_velden = {
+	956.1.1 = {
+		holder = diepolding6
+	}
+	984.1.1. = {
+		holder = diepolding5
+	}
+	1025.1.1 = {
+		holder = diepolding3
+	}
+	1050.6.19 = {
+		holder = diepolding1
+	}
+}
+
+#Schwarzenburg
+c_rotz = {
+	1048.1.1 = {
+		liege = d_nordgau
+		holder = schwarzenburg1
+	}
+}
+
+#Sulzbach
+c_sulzbach = {
+	1007.1.1 = {
+		liege = d_nordgau
+		holder = sulzbach2
+	}
+	1043.1.1 = {
+		holder = sulzbach1
+	}
 }
 
 #Bamberg
@@ -399,15 +585,49 @@ c_bamberg = {
 	}
 }
 c_villach = {
-	1000.1.1 = { government = theocracy_government }
 	1053.1.2 = {
 		holder = eppenstein5
 	}
 }
-c_wolfsbach = {
-	1000.1.1 = { government = theocracy_government }
+c_wolfsberg = {
 	1053.1.2 = {
 		holder = eppenstein5
+	}
+}
+
+#Bayreuth
+c_bayreuth = {
+	1054.1.1 = {
+		holder = gilching1
+	}
+}
+c_kronach = {
+	1054.1.1 = {
+		holder = gilching1
+	}
+}
+
+#Leuchtenberg
+c_leuchtenburg = {
+	1054.1.1 = {
+		holder = leuchtenberg1
+	}
+}
+
+#Swabia
+d_swabia = {
+	1047.9.7 = {
+		holder = luitpolding1
+	}
+}
+c_fussen = {
+	1047.9.7 = {
+		holder = luitpolding1
+	}
+}
+c_kempten = {
+	1047.9.7 = {
+		holder = luitpolding1
 	}
 }
 
@@ -418,9 +638,57 @@ c_pfullendorf = {
 	}
 }
 
+#Konstanz
+c_konstanz = {
+	1000.1.1 = { government = theocracy_government }
+	1051.6.22 = {
+		holder = konstanz_rumold
+	}
+}
+
+#Bregenz
+c_bregenz = {
+	1054.1.1 = {
+		holder = udalriching3
+	}
+}
+c_vaduz = {
+	1054.1.1 = {
+		holder = udalriching3
+	}
+}
+
+#Stühlingen
+c_stuhlingen = {
+	1054.1.1 = {
+		holder = stuhlingen1
+	}
+}
+
 #Beuren
 c_kaufbeuren = {
 	1054.1.1 = {
 		holder = beuren1
+	}
+}
+
+#Hohentrüdingen
+c_hohentrudingen = {
+	1050 = {
+		holder = truhendingen1
+	}
+}
+
+#Zollern
+c_zollern = {
+	1040.1.1 = {
+		holder = hohenzollern1
+	}
+}
+
+#Sigmaringen
+c_sigmaringen = {
+	1054.1.1 = {
+		holder = sigmaringen1
 	}
 }

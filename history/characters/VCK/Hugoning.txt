@@ -1,0 +1,14 @@
+﻿#Tybein
+
+hugoning1 = {
+	name = "Adalgero" # Adalgero I of Trieste
+	dynasty = 91
+	culture = venetian
+	religion = catholic
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1077.1.1 = {
+		death = yes
+	}
+}

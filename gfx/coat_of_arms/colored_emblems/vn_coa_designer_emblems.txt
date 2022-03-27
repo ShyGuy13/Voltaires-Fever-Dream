@@ -1,0 +1,2 @@
+﻿#ce_lion_rampant_split.dds = { colors = 3 category = animals }
+#ce_lion_rampant_colored_head.dds = { colors = 3 category = animals }

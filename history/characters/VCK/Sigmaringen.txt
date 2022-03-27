@@ -1,0 +1,12 @@
+﻿sigmaringen1 = {
+	name = "Manegold" # Manegold I of Sigmaringen
+	dynasty = 47
+	religion = catholic
+	culture = swabian
+	1020.1.1 = {
+		birth = yes
+	}
+	1084.1.1 = {
+		death = yes
+	}
+}

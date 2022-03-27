@@ -25,3 +25,54 @@ brixen_altwin = {
 		death = yes
 	}
 }
+
+#Trent
+trent_uldarico_1 = {
+	name = "Uldarico" #Uldarico I of Trent
+	religion = catholic
+	culture = venetian
+	970.1.1 = { #fic
+		birth = yes
+	}
+	1022.1.1 = {
+		death = yes
+	}
+}
+
+trent_uldarico_2 = {
+	name = "Uldarico" #Uldarico II of Trent
+	religion = catholic
+	culture = venetian
+	990.1.1 = { #fic
+		birth = yes
+	}
+	1055.2.25 = {
+		death = yes
+	}
+}
+
+#Constance
+konstanz_rumold = {
+	name = "Rumold" #Rumold I of Konstanz
+	religion = catholic
+	culture = boden_alemannic
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1069.11.4 = {
+		death = yes
+	}
+}
+
+#Sitten
+sitten_ermenfroi = {
+	name = "Ermenfroi" #Ermenfried
+	religion = catholic
+	culture = arpitan
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1090.1.1 = { #fic
+		death = yes
+	}
+}

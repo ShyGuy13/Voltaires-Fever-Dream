@@ -1,0 +1,12 @@
+﻿popponing1 = {
+	name = "Gebhard" #bishop of Regensburg
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	1005.1.1 = { #fic
+		birth = yes
+	}
+	1060.12.2 = {
+		death = yes
+	}
+}

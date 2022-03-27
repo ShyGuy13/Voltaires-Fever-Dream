@@ -1,3 +1,10 @@
+@smCastleX = 0.27
+@smCastleY = 0.23
+@smLysX = 0.23
+@smLysY = 0.26
+@smCross = 0.22
+@smErmine = 0.27
+
 1 = { # Eppenstein
 	pattern = "pattern_solid.dds"	
 	color1 = "white"		
@@ -16,21 +23,7 @@
 
 3 = d_osterreich # Babenberg
 
-5={ # Formbach
-	pattern="pattern_solid.dds"
-	color1=white
-	color2=white
-	color3=black
-	colored_emblem={
-		color1=red
-		color2=red
-		color3=red
-		texture="ce_griffin_rampant.dds"
-		instance={
-			scale={ 0.870000 0.870000 }
-		}
-	}
-}
+5 = c_neuburg # Formbach
 
 6 = { # Julbach
 	pattern="pattern_barry_06.dds"
@@ -38,6 +31,8 @@
 	color2=red
 	colored_emblem={
 		color1=blue_light
+		color1=red
+		color1=red
 		texture="ce_chevron_in_chief.dds"
 		instance={
 			position={ 0.5 0.75 }
@@ -53,11 +48,19 @@
 
 11 = c_scheyern # Scheyern
 
+13 = c_chiemgau # Siegharding
+
+14 = c_bozen
+
 16 = c_moosburg # Moosburg
 
 17 = c_hirschberg # Hirschberg
 
 19 = d_bavaria # Wittelsbach
+
+22 = c_leuchtenburg # Leuchtenberg
+
+25 = c_pappenheim # Pappenheim
 
 27 = c_andechs # Andechs
 
@@ -75,58 +78,42 @@
 	}
 }
 
+46 = c_helfenstein # Helfenstein
+
+54 = c_bregenz # Udalriching
+
+55 = c_sulz # Sulz
+
+64 = c_zollern # Hohenzollern
+
+84 = c_hohentrudingen # Hohentrüdingen
+
+86 = c_rotz # Schwarzenburg
+
+90 = c_sulzbach # Sulzbach
+
+91 = { # Hugoning
+	pattern="pattern__solid_designer.dds"
+	color1=red
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=red
+		texture="ce_quarterly.dds"
+		instance={
+			scale={ 1.000000 0.500000 }
+		}
+	}
+}
+
+
 # 2 = { #Heeckeren
 # 	pattern = "pattern_cross_01.dds"
 # 	color1 = yellow
 # 	color2 = red
 # }
 
-# 3 = { #Pappenheim
-# 	pattern = "pattern_solid.dds"
-# 	color1 = blue_light
-# 	color2 = red
-# 	colored_emblem = {
-# 		color1 = white
-# 		color2 = blue_light
-# 		texture = "ce_vairy.dds"
-# 		instance = {
-# 			position={ 0.500000 0.500000 }
-# 		}
-# 	}
-# }
-
-# 6 = { # Piast
-# 	pattern = "pattern_solid.dds"
-# 	color1 = "red"
-# 	color2 = "white"
-# 	colored_emblem = {
-# 		texture = "ce_eagle_crown_boned.dds"
-# 		color1 = "white"
-# 		color2 = "yellow"
-# 		instance = { position = { 0.5 0.52 } scale = { 1.1 1.1 }  }		
-# 	}
-# }
-
-# 8 = { # Hohenzollern
-# 	pattern = "pattern_checkers_01.dds"
-# 	color1 = "white"	
-# 	color2 = "black"	
-# }
-
-# 9 = { #Arco
-# 	pattern = "pattern_solid.dds"
-# 	color1 = yellow_light
-# 	color2 = red
-# 	colored_emblem = {
-# 		color1 = blue_light
-# 		texture = "ce_bow_single.dds"
-# 		instance = {
-# 			position = { 0.540000 0.460000 }
-# 			scale = { 0.890000 0.890000 }
-# 			rotation = 270
-# 		}
-# 	}
-# }
 
 # 14 = { # Henneberg
 # 	pattern = "pattern_solid.dds"
@@ -553,20 +540,6 @@
 # 	}
 # }
 
-# 156 = c_gorz # Meinharding
-
-# 164 = { # Habsburg
-# 	pattern = "pattern_solid.dds"
-# 	color1 = "yellow"
-# 	color2 = "red"
-# 	colored_emblem = {
-# 		texture = "ce_lion_rampant.dds"
-# 		color1 = "red"
-# 		color2 = "red"
-# 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
-# 	}
-# }
-
 # 170 = b_heideck #Heideck
 
 # 174 = { # Sponheim
@@ -583,18 +556,12 @@
 
 # 176 = c_haag #Fraunberg
 
-# 178 = c_hohenlohe #Hohenlohe
-
 # 182={ #Sax
 # 	pattern="pattern_vertical_split_01.dds"
 # 	color1=yellow
 # 	color2=red
 # 	color3=blue
 # }
-
-# 186 = c_hohenwaldeck #Hohenwaldeck
-
-# 190 = d_bavaria #Wittelsbach
 
 # 196 = { # Katzenelnbogen
 # 	pattern = "pattern_solid.dds"
@@ -990,8 +957,6 @@
 # 	}
 # }
 
-# 407 = c_wolfstein #Wolfstein
-
 # 411 = { # Berg
 # 	pattern = "pattern_solid.dds"
 # 	color1 = "white"	
@@ -1016,53 +981,3 @@
 # 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }			
 # 	}		
 # }
-
-# house_sforza = { #Sforza
-# 	pattern = "pattern_solid.dds"
-# 	color1 = blue_light
-# 	color2 = yellow
-# 	colored_emblem = {
-# 		color1 = yellow
-# 		texture = "ce_lion_rampant.dds"
-# 		instance={
-# 			position = { 0.500000 0.480000 }
-# 			scale = { 0.830000 0.830000 }
-# 		}
-# 	}
-# }
-
-# house_lindow_ruppin = c_ruppin
-
-# house_anhalt_bernburg={
-# 	pattern="pattern_solid.dds"
-# 	color1=white
-# 	color2=yellow
-# 	color3=red
-# 	colored_emblem={
-# 		color1=black
-# 		color2=black
-# 		color3=white
-# 		texture="ce_bear_passant.dds"
-# 		instance={
-# 			scale={ 0.760000 0.760000 }
-# 		}
-# 	}
-# }
-
-# house_wittelsbach_pfalz = {
-# 	pattern="pattern__solid_designer.dds"
-# 	color1=black
-# 	color2=yellow
-# 	color3=black
-# 	colored_emblem={
-# 		color1=yellow
-# 		color2=red
-# 		texture="ce_lion_rampant_crown.dds"
-# 		instance={
-# 			scale={ 0.920000 0.920000 }
-# 		}
-
-# 	}
-# }
-
-# house_ortenberg = c_ortenberg

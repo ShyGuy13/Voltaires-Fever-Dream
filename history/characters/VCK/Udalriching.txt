@@ -24,3 +24,16 @@ udalriching2 = {
 		death = yes
 	}
 }
+
+udalriching3 = {
+	name = "Ulrich" #Ulrich IX of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1078.1.1 = {
+		death = yes
+	}
+}

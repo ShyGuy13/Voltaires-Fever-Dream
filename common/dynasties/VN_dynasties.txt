@@ -62,7 +62,7 @@
 14 = {
 	prefix = "dynnp_von"
 	name = "dynn_Bozen"
-	culture = bavarian
+	culture = austrian
 }
 15 = {
 	name = "dynn_Pilgriming"
@@ -129,7 +129,7 @@
 28 = {
 	prefix = "dynnp_von"
 	name = "dynn_Falkenberg"
-	culture = franconian
+	culture = hessian
 }
 29 = {
 	prefix = "dynnp_von"
@@ -397,34 +397,52 @@
 	culture = moselle_franconian
 }
 83 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Wiltberg"
+	culture = franconian
 }
 84 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Truhendingen"
+	culture = franconian
 }
 85 = {
-	
+	name = "dynn_Reuss"
+	culture = franconian
 }
 86 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Schwarzenburg"
+	culture = bavarian
 }
 87 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Howen"
+	culture = boden_alemannic
 }
 88 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Stuhlingen"
+	culture = boden_alemannic
 }
 89 = {
-	
+	prefix = "dynnp_de"
+	name = "dynn_Faucigny"
+	culture = arpitan
 }
 90 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Sulzbach"
+	culture = bavarian
 }
 91 = {
-	
+	name = "dynn_Hugoning"
+	culture = venetian
 }
 92 = {
-	
+	prefix = "dynnp_de"
+	name = "dynn_Gruyere"
+	culture = arpitan
 }
 93 = {
 	

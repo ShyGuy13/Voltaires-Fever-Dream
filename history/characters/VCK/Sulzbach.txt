@@ -1,0 +1,26 @@
+﻿sulzbach1 = {
+	name = "Gebhard" #Gebhard I of Sulzbach
+	dynasty = 90
+	religion = catholic
+	culture = bavarian
+	father = sulzbach2
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+
+sulzbach2 = {
+	name = "Berengar" #Berengar I of Sulzbach
+	dynasty = 90
+	religion = catholic
+	culture = bavarian
+	980.1.1 = { #fic
+		birth = yes
+	}
+	1043.1.1 = {
+		death = yes
+	}
+}

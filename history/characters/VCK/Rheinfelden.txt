@@ -1,0 +1,13 @@
+﻿rheinfelden1 = {
+	name = "Rudolf" #Rudolf I of Swabia
+	dynasty = 68
+	religion = catholic
+	culture = swiss
+	trait = strong
+	1025.1.1 = {
+		birth = yes
+	}
+	1080.10.16 = {
+		death = yes
+	}
+}

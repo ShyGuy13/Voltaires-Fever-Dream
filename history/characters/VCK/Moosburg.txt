@@ -1,0 +1,26 @@
+﻿moosburg1 = {
+	name = "Burkhard" #Burkhard I of Moosburg
+	dynasty = 16
+	religion = catholic
+	culture = bavarian
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1078.1.1 = {
+		death = yes
+	}
+}
+
+moosburg2 = {
+	name = "Burkhard" #Burkhard II of Moosburg
+	dynasty = 16
+	religion = catholic
+	culture = bavarian
+	father = moosburg1
+	1040.1.1 = { #fic
+		birth = yes
+	}
+	1101.1.1 = {
+		death = yes
+	}
+}

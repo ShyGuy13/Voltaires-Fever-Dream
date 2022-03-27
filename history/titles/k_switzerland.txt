@@ -1,0 +1,21 @@
+#Sitten
+c_sitten = {
+	1000.1.1 = { government = theocracy_government }
+	1054.7.13 = {
+		holder = sitten_ermenfroi
+	}
+}
+
+#Faugnicy
+c_faucigny = {
+	1030.1.1 = {
+		holder = faucigny1
+	}
+}
+
+#Gruyère
+c_gruyere = {
+	1054.1.1 = {
+		holder = gruyere1
+	}
+}

@@ -1,0 +1,88 @@
+﻿luitpolding1 = {
+	name = "Otto" #Otto III of Swabia
+	dynasty = 63
+	religion = catholic
+	culture = swabian
+	994.1.1 = {
+		birth = yes
+		give_nickname = nick_the_white
+	}
+	1057.9.28 = {
+		death = yes
+	}
+}
+
+luitpolding2 = {
+	name = "Bertha"
+	female = yes
+	dynasty = 63
+	religion = catholic
+	culture = swabian
+	father = luitpolding1
+	1025.1.1 = { #fic
+		birth = yes
+	}
+	1103.4.1 = {
+		death = yes
+	}
+}
+
+luitpolding3 = {
+	name = "Gisela" #wife of Arnold of Andechs
+	female = yes
+	dynasty = 63
+	religion = catholic
+	culture = swabian
+	father = luitpolding1
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1100.2.22 = {
+		death = yes
+	}
+}
+
+luitpolding4 = {
+	name = "Judith"
+	female = yes
+	dynasty = 63
+	religion = catholic
+	culture = swabian
+	father = luitpolding1
+	1033.1.1 = { #fic
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
+
+luitpolding5 = {
+	name = "Elikia"
+	female = yes
+	dynasty = 63
+	religion = catholic
+	culture = swabian
+	father = luitpolding1
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1090.1.1 = { #fic
+		death = yes
+	}
+}
+
+luitpolding6 = {
+	name = "Beatrix"
+	female = yes
+	dynasty = 63
+	religion = catholic
+	culture = swabian
+	father = luitpolding1
+	1040.1.1 = {
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
