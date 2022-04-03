@@ -13,7 +13,7 @@
 }
 
 luitpolding2 = {
-	name = "Bertha"
+	name = "Alberada"
 	female = yes
 	dynasty = 63
 	religion = catholic

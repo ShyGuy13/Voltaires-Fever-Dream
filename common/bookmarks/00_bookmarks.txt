@@ -1,22 +1,40 @@
-﻿bm_1054_canarias = {
+﻿bm_1054_hre = {
 	start_date = 1054.7.16
 	is_playable = yes
 
-	# Guanarigato
+	# Burkhard von Hohenzollern
 	character = {
-		name = "bookmark_canarias_guanarigato"
-		dynasty = 3
+		name = "bookmark_hre_burkhard_hohenzollern"
+		dynasty = 64
 		dynasty_splendor_level = 1
 		type = male
-		birth = 985.1.1
-		title = d_austria
+		birth = 1010.1.1
+		title = c_zollern
 		government = feudal_government
-		culture = austrian
+		culture = swabian
 		religion = catholic
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = babenberg1
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = hohenzollern1
 		position = { 250 750 }
 
 		animation = happiness
+	}
+
+	# Rudolf von Rheinfelden
+	character = {
+		name = "bookmark_hre_rudolf_rheinfelden"
+		dynasty = 68
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1025.1.1
+		title = c_laufenburg
+		government = feudal_government
+		culture = swabian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = rheinfelden1
+		position = { 750 250 }
+
+		animation = personality_greedy
 	}
 }

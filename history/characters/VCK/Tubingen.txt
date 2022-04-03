@@ -1,0 +1,12 @@
+﻿tubingen1 = {
+	name = "Anselm" # Anselm I of Tübingen
+	dynasty = 56
+	religion = catholic
+	culture = swabian
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1087.12.25 = {
+		death = yes
+	}
+}

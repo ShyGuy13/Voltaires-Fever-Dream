@@ -172,6 +172,11 @@ d_krain = {
 		holder = weimar1
 	}
 }
+c_kranj = {
+	1044.1.1 = {
+		holder = weimar1
+	}
+}
 c_ljubljana = {
 	1044.1.1 = {
 		holder = weimar1
@@ -183,6 +188,11 @@ c_pazin = {
 	}
 }
 c_vipava = {
+	1044.1.1 = {
+		holder = weimar1
+	}
+}
+c_pula = {
 	1044.1.1 = {
 		holder = weimar1
 	}
@@ -331,6 +341,29 @@ d_bavaria = {
 		holder = salier2
 	}
 }
+c_innkreis = {
+	1026.2.27 = {
+		holder = salier4
+	}
+	1027.1.1 = {
+		holder = salier3
+	}
+	1042.1.1 = {
+		holder = luxemburg1
+	}
+	1047.10.14 = {
+		holder = salier3
+	}
+	1049.1.1 = {
+		holder = ezzoning1
+	}
+	1053.4.11 = {
+		holder = salier1
+	}
+	1054.6.1 = {
+		holder = salier2
+	}
+}
 c_straubing = {
 	1026.2.27 = {
 		holder = salier4
@@ -355,6 +388,52 @@ c_straubing = {
 	}
 }
 c_cham = {
+	1026.2.27 = {
+		holder = salier4
+	}
+	1027.1.1 = {
+		holder = salier3
+	}
+	1042.1.1 = {
+		holder = luxemburg1
+	}
+	1047.10.14 = {
+		holder = salier3
+	}
+	1049.1.1 = {
+		holder = ezzoning1
+	}
+	1053.4.11 = {
+		holder = salier1
+	}
+	1054.6.1 = {
+		holder = salier2
+	}
+}
+c_ortenberg = {
+	1026.2.27 = {
+		holder = salier4
+	}
+	1027.1.1 = {
+		holder = salier3
+	}
+	1042.1.1 = {
+		holder = luxemburg1
+	}
+	1047.10.14 = {
+		holder = salier3
+	}
+	1049.1.1 = {
+		holder = ezzoning1
+	}
+	1053.4.11 = {
+		holder = salier1
+	}
+	1054.6.1 = {
+		holder = salier2
+	}
+}
+c_innkreis = {
 	1026.2.27 = {
 		holder = salier4
 	}
@@ -628,6 +707,78 @@ c_fussen = {
 c_kempten = {
 	1047.9.7 = {
 		holder = luitpolding1
+	}
+}
+
+#Augsburg
+c_augsburg = {
+	300.1.1 = { government = theocracy_government }
+	973.1.1 = {
+		holder = augsburg_heinrich_1
+	}
+	#982.7.13 = {
+	#
+	#}
+	#...
+	1047.1.1 = {
+		holder = augsburg_heinrich_2
+	}
+	#1063.9.3 = {
+	#...
+	#}
+}
+
+#Höwen
+c_howen = {
+	1054.1.1 = {
+		holder = howen1
+	}
+}
+
+#Stühlingen
+c_stuhlingen = {
+	1054.1.1 = {
+		holder = stuhlingen1
+	}
+}
+
+#Nellenburg
+c_nellenburg = {
+	1036.1.1 = {
+		holder = eberharding1 # Eberhard I
+	}
+}
+
+#Veringen
+c_veringen = {
+	1032.1.1 = {
+		holder = veringen1 # Wolfrad I
+	}
+}
+
+#Tübingen
+c_tubingen = {
+	1054.1.1 = {
+		holder = tubingen1 # Anselm I
+	}
+}
+c_horb = {
+	1054.1.1 = {
+		holder = tubingen1 # Anselm I
+	}
+}
+
+#Wolfach
+c_wolfach = {
+	1054.1.1 = {
+		holder = wolfach1 # Friedrich I
+	}
+}
+
+#Ravensburg
+c_ravensburg = {
+	1030.3.10 = {
+		holder = welf1 # Welf III
 	}
 }
 

@@ -26,7 +26,7 @@ dilching2 = {
 }
 
 dilching3 = {
-	name = "Herrand" #Herrand I of Falkenstiein
+	name = "Herrand" #Herrand I of Falkenstein
 	dynasty = 20
 	culture = bavarian
 	religion = catholic

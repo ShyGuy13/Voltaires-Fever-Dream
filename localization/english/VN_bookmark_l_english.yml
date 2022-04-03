@@ -1,10 +1,9 @@
 ﻿l_english:
- bm_1054_the_great_schism: "The Great Schism"
- bm_1054_the_great_schism_desc: "This is a bookmark.#!"
-
-
- #Jarl Haesteinn
- bookmark_canarias_guanarigato:0 "Guanarigato"
- bookmark_canarias_guanarigato_desc:0 "This is a character.#!"
-
- start_year_1066_10_01_desc:0 "This is a start year."
+#1054
+ bm_1054_hre: "The Holy Roman Empire"
+ bm_1054_hre_desc: "#boldThis is a bookmark.#!"
+ bookmark_hre_burkhard_hohenzollern: "Count Burkhard"
+ bookmark_hre_burkhard_hohenzollern_desc: ""
+ bookmark_hre_rudolf_rheinfelden: "Count Rudolf"
+ bookmark_hre_rudolf_rheinfelden_desc: ""
+ start_year_1054_7_16_desc: "1054"

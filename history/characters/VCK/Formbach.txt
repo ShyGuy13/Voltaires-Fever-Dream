@@ -28,7 +28,7 @@ formbach2 = {
 }
 
 formbach3 = {
-	name = "Arnold" #Arnold II of Murmark
+	name = "Arnold" #Arnold II of Graz
 	dynasty = 5
 	culture = austrian
 	religion = catholic
@@ -42,7 +42,7 @@ formbach3 = {
 }
 
 formbach4 = {
-	name = "Arnold" #Arnold I
+	name = "Arnold" #Arnold I of Graz
 	dynasty = 5
 	culture = austrian
 	religion = catholic
@@ -56,7 +56,7 @@ formbach4 = {
 }
 
 formbach5 = {
-	name = "Arnold" #Arnold III
+	name = "Arnold" #Arnold III of Graz
 	dynasty = 5
 	culture = austrian
 	religion = catholic
@@ -74,7 +74,6 @@ formbach6 = {
 	dynasty = 5
 	culture = austrian
 	religion = catholic
-	father = formbach8
 	1010.1.1 = { #fic
 		birth = yes
 	}
@@ -88,6 +87,7 @@ formbach7 = {
 	dynasty = 5
 	culture = austrian
 	religion = catholic
+	father = formbach8
 	1000.1.1 = { #fic
 		birth = yes
 	}
@@ -115,6 +115,7 @@ formbach9 = {
 	dynasty = 5
 	culture = austrian
 	religion = catholic
+	father = formbach13
 	960.1.1 = { #fic
 		birth = yes
 	}
@@ -124,14 +125,56 @@ formbach9 = {
 }
 
 formbach10 = {
-	name = "Meinhard" #Meinhard I
+	name = "Meinhard" #Meinhard II of Graz
 	dynasty = 5
 	culture = austrian
 	religion = catholic
-	930.1.1 = { #fic
+	father = formbach11
+	920.1.1 = { #fic
 		birth = yes
 	}
 	963.1.1 = {
+		death = yes
+	}
+}
+
+formbach11 = {
+	name = "Meinhard" #Meinhard I of Graz
+	dynasty = 5
+	culture = austrian
+	religion = catholic
+	890.1.1 = { #fic
+		birth = yes
+	}
+	944.1.1 = {
+		death = yes
+	}
+}
+
+formbach12 = {
+	name = "Ulrich" #Ulrich I
+	dynasty = 5
+	culture = austrian
+	religion = catholic
+	father = formbach11
+	925.1.1 = { #fic
+		birth = yes
+	}
+	970.1.1 = {
+		death = yes
+	}
+}
+
+formbach13 = {
+	name = "Bertold" #Bertold I
+	dynasty = 5
+	culture = austrian
+	religion = catholic
+	father = formbach12
+	950.1.1 = { #fic
+		birth = yes
+	}
+	1005.1.1 = {
 		death = yes
 	}
 }

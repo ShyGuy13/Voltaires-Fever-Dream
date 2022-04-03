@@ -1,0 +1,70 @@
+﻿welf1 = {
+	name = "Welf" # Welf III of Ravensburg
+	dynasty = 93
+	religion = catholic
+	culture = swabian
+	father = welf2
+	990.1.1 = { #fic
+		birth = yes
+	}
+	1055.11.13 = {
+		death = yes
+	}
+}
+
+welf2 = {
+	name = "Welf" # Welf II of Ravensburg
+	dynasty = 93
+	religion = catholic
+	culture = swabian
+	father = welf4
+	960.1.1 = { #est
+		birth = yes
+	}
+	1030.3.10 = {
+		death = yes
+	}
+}
+
+welf3 = {
+	name = "Kunigunde" # wife of Alberto Azzo II d'Este
+	female = yes
+	dynasty = 93
+	religion = catholic
+	culture = swabian
+	father = welf2
+	1020.1.1 = { #est
+		birth = yes
+	}
+	1054.8.31 = {
+		death = yes
+	}
+}
+
+welf4 = {
+	name = "Rudolf" # Rudolf II of Ravensburg
+	dynasty = 93
+	religion = catholic
+	culture = swabian
+	930.1.1 = { #fic
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+
+welf5 = {
+	name = "Welf" # Welf IV of Ravensburg
+	dynasty = 93
+	religion = catholic
+	culture = swabian
+	father = este1
+	mother = welf3
+	1040.1.1 = { #est
+		birth = yes
+	}
+	1101.11.6 = {
+		death = yes
+	}
+}

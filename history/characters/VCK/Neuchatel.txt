@@ -1,0 +1,40 @@
+﻿neuchatel1 = {
+	name = "Ulrich" # Ulrich I of Neuchâtel
+	dynasty = 96
+	religion = catholic
+	culture = arpitan
+	1020.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+
+neuchatel2 = {
+	name = "Burkhard" # bishop of Basel
+	dynasty = 96
+	religion = catholic
+	culture = arpitan
+	father = neuchatel1
+	1040.1.1 = {
+		birth = yes
+	}
+	1107.4.12 = {
+		death = yes
+	}
+}
+
+neuchatel3 = {
+	name = "Kuno" # bishop of Lausanne
+	dynasty = 96
+	religion = catholic
+	culture = arpitan
+	father = neuchatel1
+	1045.1.1 = { #fic
+		birth = yes
+	}
+	1103.12.19 = {
+		death = yes
+	}
+}

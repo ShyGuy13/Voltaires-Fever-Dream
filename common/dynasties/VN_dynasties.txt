@@ -445,19 +445,28 @@
 	culture = arpitan
 }
 93 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Welf"
+	culture = swabian
 }
 94 = {
-	
+	prefix = "dynnp_d_"
+	name = "dynn_Este"
+	culture = emilian
 }
 95 = {
-	
+	name = "dynn_Eberharding"
+	culture = boden_alemannic
 }
 96 = {
-	
+	prefix = "dynnp_de"
+	name = "dynn_Neuchatel"
+	culture = arpitan
 }
 97 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Wolfach"
+	culture = boden_alemannic
 }
 98 = {
 	

@@ -3,11 +3,39 @@
 	dynasty = 68
 	religion = catholic
 	culture = swiss
-	trait = strong
+	father = rheinfelden2
 	1025.1.1 = {
 		birth = yes
 	}
 	1080.10.16 = {
+		death = yes
+	}
+}
+
+rheinfelden2 = {
+	name = "Kuno" #
+	dynasty = 68
+	religion = catholic
+	culture = swiss
+	995.1.1 = { #est
+		birth = yes
+	}
+	1035.1.1 = { #fic
+		death = yes
+	}
+}
+
+rheinfelden3 = {
+	name = "Adalbert" #bishop of Worms
+	dynasty = 68
+	religion = catholic
+	culture = swiss
+	father = rheinfelden2
+	1030.1.1 = {
+		birth = yes
+		give_nickname = nick_the_fat
+	}
+	1070.8.6 = {
 		death = yes
 	}
 }

@@ -19,3 +19,10 @@ c_gruyere = {
 		holder = gruyere1
 	}
 }
+
+#Neuchâtel
+c_neuchatel = {
+	1040.1.1 = {
+		holder = neuchatel1
+	}
+}

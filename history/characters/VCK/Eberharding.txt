@@ -1,0 +1,225 @@
+﻿eberharding1 = {
+	name = "Eberhard" #Eberhard I (VI.) of Nellenburg
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding2
+	1015.1.1 = {
+		birth = yes
+		give_nickname = nick_the_blessed
+	}
+	1078.3.26 = {
+		death = yes
+	}
+}
+
+eberharding2 = {
+	name = "Eberhard" #Eberhard (V.)
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding3
+	980.1.1 = { #est
+		birth = yes
+	}
+	1034.2.1 = { #est
+		death = yes
+	}
+}
+
+eberharding3 = {
+	name = "Manegold" #
+	dynasty = 95
+	religion = catholic
+	culture = swiss
+	father = eberharding4
+	940.1.1 = { #est
+		birth = yes
+	}
+	991.1.1 = {
+		death = yes
+	}
+}
+
+eberharding4 = {
+	name = "Burkhard" #
+	dynasty = 95
+	religion = catholic
+	culture = swiss
+	915.1.1 = { #est
+		birth = yes
+	}
+	968.1.1 = {
+		death = yes
+	}
+}
+
+eberharding5 = {
+	name = "Eberhard" #
+	dynasty = 95
+	religion = catholic
+	culture = swiss
+	father = eberharding4
+	940.1.1 = { #est
+		birth = yes
+	}
+	995.1.1 = {
+		death = yes
+	}
+}
+
+eberharding6 = {
+	name = "Gottfried" #
+	dynasty = 95
+	religion = catholic
+	culture = swiss
+	father = eberharding4
+	940.1.1 = { #est
+		birth = yes
+	}
+	995.11.12 = {
+		death = yes
+	}
+}
+
+eberharding7 = {
+	name = "Eberhard" #
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding2
+	1009.1.1 = {
+		birth = yes
+	}
+	1053.6.18 = {
+		death = yes
+	}
+}
+
+eberharding8 = {
+	name = "Manegold" #
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding2
+	1010.1.1 = {
+		birth = yes
+	}
+	1030.8.17 = {
+		death = yes
+	}
+}
+
+eberharding9 = {
+	name = "Adelhaid" # wife of Arnold von Lauffen
+	female = yes
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding1
+	1030.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = { #fic
+		death = yes
+	}
+}
+
+eberharding10 = {
+	name = "Udo" #bishop of Trier
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding1
+	1034.1.1 = {
+		birth = yes
+	}
+	1078.11.11 = {
+		death = yes
+	}
+}
+
+eberharding11 = {
+	name = "Eberhard" #
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding1
+	1036.1.1 = {
+		birth = yes
+	}
+	1075.6.9 = {
+		death = yes
+	}
+}
+
+eberharding12 = {
+	name = "Ekkehard" #
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding1
+	1039.1.1 = {
+		birth = yes
+	}
+	1088.11.24 = {
+		death = yes
+	}
+}
+
+eberharding13 = {
+	name = "Heinrich" #
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding1
+	1041.1.1 = {
+		birth = yes
+	}
+	1075.6.9 = {
+		death = yes
+	}
+}
+
+eberharding14 = {
+	name = "Burkhard" #
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding1
+	1049.1.1 = {
+		birth = yes
+	}
+	1101.1.21 = {
+		death = yes
+	}
+}
+
+eberharding15 = {
+	name = "Adalbert" #
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding1
+	1051.1.1 = {
+		birth = yes
+	}
+	1054.1.1 = {
+		death = yes
+	}
+}
+
+eberharding16 = {
+	name = "Irmengard" #wife of Diethelm II of Toggenburg
+	female = yes
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding1
+	1054.1.1 = { #fic
+		birth = yes
+	}
+	1100.1.1 = { #fic
+		death = yes
+	}
+}

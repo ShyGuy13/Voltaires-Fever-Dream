@@ -1,0 +1,57 @@
+﻿este1 = {
+	name = "Alberto Azzo" # Alberto Azzo II of Milan
+	dynasty = 94
+	religion = catholic
+	culture = emilian
+	father = este2
+	1009.7.10 = {
+		birth = yes
+	}
+	1036.1.1 = {
+		add_spouse = welf3 # Kunigunde of Welf
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}
+
+este2 = {
+	name = "Alberto Azzo" # Alberto Azzo I of Milan
+	dynasty = 94
+	religion = catholic
+	culture = emilian
+	970.1.1 = { #est
+		birth = yes
+	}
+	1029.1.1 = { #est
+		death = yes
+	}
+}
+
+este3 = {
+	name = "Folco" # Folco I of Milan
+	dynasty = 94
+	religion = catholic
+	culture = emilian
+	father = este1
+	1045.1.1 = {
+		birth = yes
+	}
+	1128.1.1 = {
+		death = yes
+	}
+}
+
+este4 = {
+	name = "Ugo" # Ugo V of Maine
+	dynasty = 94
+	religion = catholic
+	culture = emilian
+	father = este1
+	1050.1.1 = {
+		birth = yes
+	}
+	1131.1.1 = {
+		death = yes
+	}
+}

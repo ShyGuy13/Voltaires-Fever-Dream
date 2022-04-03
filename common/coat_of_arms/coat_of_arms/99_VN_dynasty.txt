@@ -44,6 +44,13 @@
 
 8 = d_tyrol # Tirol
 
+9 = { # Askuining / Sanneck
+	pattern = "pattern_barry_04.dds"
+	color1 = white
+	color2 = red
+	color3 = red
+}
+
 10 = c_raabs # Raabs
 
 11 = c_scheyern # Scheyern
@@ -80,11 +87,29 @@
 
 46 = c_helfenstein # Helfenstein
 
+47 = c_sigmaringen # Sigmaringen
+
 54 = c_bregenz # Udalriching
 
 55 = c_sulz # Sulz
 
+56 = c_tubingen # Tübingen
+
+60 = c_veringen # Veringen
+
 64 = c_zollern # Hohenzollern
+
+68 = { # Rheinfelden
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_horizontal_stripes_01.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { position = { 0.50 0.67 } scale = { 1.0 1.34 }  }		
+	}			
+}
 
 84 = c_hohentrudingen # Hohentrüdingen
 
@@ -93,7 +118,7 @@
 90 = c_sulzbach # Sulzbach
 
 91 = { # Hugoning
-	pattern="pattern__solid_designer.dds"
+	pattern="pattern_solid.dds"
 	color1=red
 	color2=yellow
 	color3=red
@@ -107,6 +132,34 @@
 	}
 }
 
+93 = { # Welf
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }			
+	}	
+}
+
+95 = c_nellenburg # Nellenburg
+
+96 = { # Neuchâtel
+	pattern = "pattern_vertical_stripes_02.dds"
+	color1 = "yellow"	
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_ordinary_chevron_3.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 }  }
+		mask = {2}
+	}
+}
+
+97 = c_wolfach # Wolfach
 
 # 2 = { #Heeckeren
 # 	pattern = "pattern_cross_01.dds"

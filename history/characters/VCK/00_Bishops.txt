@@ -1,5 +1,30 @@
 ﻿#All bishops and archbishops with unknown dynasty or of lowborn heritage
 
+#Augsburg
+augsburg_heinrich_1 = {
+	name = "Heinrich" # Heinrich I of Augsburg
+	#Luitpolding ?
+	religion = catholic
+	culture = swabian
+	923.1.1 = {
+		birth = yes
+	}
+	982.7.13 = {
+		death = yes
+	}
+}
+augsburg_heinrich_2 = {
+	name = "Heinrich" # Heinrich II of Augsburg
+	religion = catholic
+	culture = swabian
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1063.9.3 = {
+		death = yes
+	}
+}
+
 #Salzburg
 salzburg_balduin = {
 	name = "Balduin"

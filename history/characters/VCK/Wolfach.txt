@@ -1,0 +1,13 @@
+﻿#von Wolfach = von Sulz???
+wolfach1 = {
+	name = "Friedrich" # Friedrich I of Wolfach
+	dynasty = 97
+	religion = catholic
+	culture = boden_alemannic
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}

@@ -124,7 +124,6 @@ arpitan = {
 	language = language_occitano_romance
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_equal_inheritance
 		tradition_chivalry
 		tradition_chanson_de_geste
 		tradition_parochialism
