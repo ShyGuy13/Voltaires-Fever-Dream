@@ -1,0 +1,26 @@
+﻿collalto1 = {
+	name = "Rambaldo" # Rambaldo III of Treviso
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+
+collalto2 = {
+	name = "Ensedisio" # Ensedisio I of Treviso
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	father = collalto1
+	1040.1.1 = { #fic
+		birth = yes
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}

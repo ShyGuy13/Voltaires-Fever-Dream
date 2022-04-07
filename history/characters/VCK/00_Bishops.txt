@@ -101,3 +101,16 @@ sitten_ermenfroi = {
 		death = yes
 	}
 }
+
+#Aquileia
+aquileia_gotebald = {
+	name = "Gotebald"
+	religion = catholic
+	culture = franconian
+	995.1.1 = { #fic
+		birth = yes
+	}
+	1063.1.1 = {
+		death = yes
+	}
+}

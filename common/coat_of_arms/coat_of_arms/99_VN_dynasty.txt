@@ -23,6 +23,8 @@
 
 3 = d_osterreich # Babenberg
 
+4 = b_weimar # Weimar
+
 5 = c_neuburg # Formbach
 
 6 = { # Julbach
@@ -30,9 +32,7 @@
 	color1=white
 	color2=red
 	colored_emblem={
-		color1=blue_light
-		color1=red
-		color1=red
+		color1=blue
 		texture="ce_chevron_in_chief.dds"
 		instance={
 			position={ 0.5 0.75 }
@@ -63,6 +63,8 @@
 
 17 = c_hirschberg # Hirschberg
 
+18 = b_hals # Hals
+
 19 = d_bavaria # Wittelsbach
 
 22 = c_leuchtenburg # Leuchtenberg
@@ -70,6 +72,8 @@
 25 = c_pappenheim # Pappenheim
 
 27 = c_andechs # Andechs
+
+31 = c_castell # Castell
 
 35 = c_abensberg # Abensberg
 
@@ -84,6 +88,10 @@
 		instance = { position = { 0.5 0.52 } scale = { 1.1 1.1 }  }		
 	}
 }
+
+42 = c_calw # Calw
+
+44 = c_staufen # Hohenstaufen
 
 46 = c_helfenstein # Helfenstein
 
@@ -144,6 +152,8 @@
 	}	
 }
 
+94 = c_este # Este
+
 95 = c_nellenburg # Nellenburg
 
 96 = { # Neuchâtel
@@ -160,6 +170,26 @@
 }
 
 97 = c_wolfach # Wolfach
+
+98 = { # Contarini
+	pattern = "pattern_solid.dds"	
+	color1 = "yellow"		
+	color2 = "blue"	
+	colored_emblem = {
+		texture = "ce_diagonal_stripes_01.dds"
+		color1 = "yellow"
+		color2 = "blue"
+		instance = { position = { 0.471 0.497 } scale = { 1.5 1.5 }  }		
+	}	
+}
+
+99 = { # Collalto
+	pattern="pattern_checkers_02.dds"
+	color1=black
+	color2=white
+	color3=black
+}
+
 
 # 2 = { #Heeckeren
 # 	pattern = "pattern_cross_01.dds"

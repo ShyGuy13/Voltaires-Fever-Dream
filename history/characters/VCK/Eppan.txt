@@ -1,6 +1,6 @@
 ﻿eppan1 = {
 	name = "Friedrich" #Friedrich I of Eppan
-	dynasty = house_eppan
+	dynasty_house = house_eppan
 	culture = bavarian
 	religion = catholic
 	1030.1.1 = { #fic

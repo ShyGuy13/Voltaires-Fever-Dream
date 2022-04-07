@@ -433,29 +433,6 @@ c_ortenberg = {
 		holder = salier2
 	}
 }
-c_innkreis = {
-	1026.2.27 = {
-		holder = salier4
-	}
-	1027.1.1 = {
-		holder = salier3
-	}
-	1042.1.1 = {
-		holder = luxemburg1
-	}
-	1047.10.14 = {
-		holder = salier3
-	}
-	1049.1.1 = {
-		holder = ezzoning1
-	}
-	1053.4.11 = {
-		holder = salier1
-	}
-	1054.6.1 = {
-		holder = salier2
-	}
-}
 
 #Moosburg
 c_moosburg = {
@@ -487,7 +464,12 @@ c_eichstadt = {
 }
 
 #Hirschberg
-c_hirschberg  = {
+c_hirschberg = {
+	1042.1.1 = {
+		holder = hirschberg1
+	}
+}
+c_heideck = {
 	1042.1.1 = {
 		holder = hirschberg1
 	}
@@ -663,6 +645,11 @@ c_bamberg = {
 		holder = eppenstein5
 	}
 }
+c_ansbach = {
+	1053.1.2 = {
+		holder = eppenstein5
+	}
+}
 c_villach = {
 	1053.1.2 = {
 		holder = eppenstein5
@@ -709,19 +696,29 @@ c_kempten = {
 		holder = luitpolding1
 	}
 }
+c_crailsheim = {
+	1047.9.7 = {
+		holder = luitpolding1
+	}
+}
+c_feuchtwangen = {
+	1047.9.7 = {
+		holder = luitpolding1
+	}
+}
 
 #Augsburg
 c_augsburg = {
 	300.1.1 = { government = theocracy_government }
 	973.1.1 = {
-		holder = augsburg_heinrich_1
+		holder = augsburg_heinrich_1 # Heinrich I
 	}
 	#982.7.13 = {
 	#
 	#}
 	#...
 	1047.1.1 = {
-		holder = augsburg_heinrich_2
+		holder = augsburg_heinrich_2 # Heinrich II
 	}
 	#1063.9.3 = {
 	#...
@@ -732,6 +729,16 @@ c_augsburg = {
 c_howen = {
 	1054.1.1 = {
 		holder = howen1
+	}
+}
+
+#Lauffen
+c_lauffen = {
+	1000.1.1 = {
+		holder = lauffen3 # Boppo I
+	}
+	1030.1.1 = {
+		holder = lauffen1 # Boppo II
 	}
 }
 
@@ -775,6 +782,13 @@ c_wolfach = {
 	}
 }
 
+#Staufen
+c_staufen = {
+	1053.1.1 = {
+		holder = hohenstaufen2
+	}
+}
+
 #Ravensburg
 c_ravensburg = {
 	1030.3.10 = {
@@ -803,7 +817,22 @@ c_bregenz = {
 		holder = udalriching3
 	}
 }
+c_argengau = {
+	1054.1.1 = {
+		holder = udalriching3
+	}
+}
+c_bludenz = {
+	1054.1.1 = {
+		holder = udalriching3
+	}
+}
 c_vaduz = {
+	1054.1.1 = {
+		holder = udalriching3
+	}
+}
+c_werdenberg = {
 	1054.1.1 = {
 		holder = udalriching3
 	}
@@ -842,4 +871,9 @@ c_sigmaringen = {
 	1054.1.1 = {
 		holder = sigmaringen1
 	}
+}
+
+#Schwarzburg
+c_schwarzburg = {
+
 }

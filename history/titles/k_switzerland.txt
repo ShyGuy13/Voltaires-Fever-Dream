@@ -26,3 +26,18 @@ c_neuchatel = {
 		holder = neuchatel1
 	}
 }
+
+#Toggenburg
+c_toggenburg = {
+	1054.1.1 = {
+		holder = toggenburg1 # Diethelm I
+	}
+}
+
+#Sankt Gallen
+c_sankt_gallen = {
+	612.1.1 = { government = theocracy_government }
+	1034.1.1 = {
+		holder = stgallen_norpert # Norpert
+	}
+}

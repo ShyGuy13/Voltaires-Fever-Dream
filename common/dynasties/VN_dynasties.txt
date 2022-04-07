@@ -469,46 +469,71 @@
 	culture = boden_alemannic
 }
 98 = {
-	
+	name = "dynn_Contarini"
+	culture = venetian
 }
 99 = {
-	
+	prefix = "dynnp_di"
+	name = "dynn_Collalto"
+	culture = venetian
 }
 100 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Schwarzburg"
+	culture = thuringian
 }
 101 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Gleichen"
+	culture = thuringian
 }
 102 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Wettin"
+	culture = thuringian
 }
 103 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Arnstein"
+	culture = thuringian
 }
 104 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Hohnstein"
+	culture = thuringian
 }
 105 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Lobdeburg"
+	culture = thuringian
 }
 106 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Mansfeld"
+	culture = thuringian
 }
 107 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Wippra"
+	culture = thuringian
 }
 108 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Querfurt"
+	culture = thuringian
 }
 109 = {
-	
+	name = "dynn_Ludowing"
+	culture = thuringian
 }
 110 = {
-	
+	name = "dynn_Billung"
+	culture = thuringian
 }
 111 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Klettenberg"
+	culture = thuringian
 }
 112 = {
 	

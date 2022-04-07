@@ -1,0 +1,26 @@
+﻿hohenstaufen1 = {
+	name = "Friedrich" # Friedrich I of Swabia
+	dynasty = 44
+	religion = catholic
+	culture = swabian
+	father = hohenstaufen2
+	1050.1.1 = {
+		birth = yes
+	}
+	1105.7.21 = {
+		death = yes
+	}
+}
+
+hohenstaufen2 = {
+	name = "Friedrich" # 
+	dynasty = 44
+	religion = catholic
+	culture = swabian
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1075.1.1 = { #fic
+		death = yes
+	}
+}

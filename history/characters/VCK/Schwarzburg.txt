@@ -1,0 +1,87 @@
+schwarzburg1 = {
+	name = "Sizzo" # Sizzo II of Schwarzburg
+	dynasty = 100
+	religion = catholic
+	culture = thuringian
+	father = schwarzburg5
+	1020.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+
+schwarzburg2 = {
+	name = "Sizzo" # Sizzo I of Schwarzburg
+	dynasty = 100
+	religion = catholic
+	culture = thuringian
+	father = schwarzburg4
+	950.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+
+schwarzburg3 = {
+	name = "Günther" # Günther I of Schwarzburg
+	dynasty = 100
+	religion = catholic
+	culture = thuringian
+	father = schwarzburg4
+	955.1.1 = {
+		birth = yes
+	}
+	1005.12.25 = {
+		trait = devoted
+		add_nickname = nick_the_hermit
+	}
+	1045.10.9 = {
+		death = yes
+	}
+}
+
+schwarzburg4 = {
+	name = "Günther" # 
+	dynasty = 100
+	religion = catholic
+	culture = thuringian
+	father = schwarzburg5
+	920.1.1 = { #fic
+		birth = yes
+	}
+	970.1.1 = { #fic
+		death = yes
+	}
+}
+
+schwarzburg5 = {
+	name = "Günther" # unknown name
+	dynasty = 100
+	religion = catholic
+	culture = thuringian
+	father = schwarzburg2
+	980.1.1 = { #fic
+		birth = yes
+	}
+	1040.1.1 = { #fic
+		death = yes
+	}
+}
+
+schwarzburg6 = {
+	name = "Heinrich" # unknown name
+	dynasty = 100
+	religion = catholic
+	culture = thuringian
+	father = schwarzburg2
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1060.1.1 = { #fic
+		death = yes
+	}
+}
