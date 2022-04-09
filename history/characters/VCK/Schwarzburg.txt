@@ -49,7 +49,6 @@ schwarzburg4 = {
 	dynasty = 100
 	religion = catholic
 	culture = thuringian
-	father = schwarzburg5
 	920.1.1 = { #fic
 		birth = yes
 	}

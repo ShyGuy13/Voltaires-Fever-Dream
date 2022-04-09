@@ -536,43 +536,59 @@
 	culture = thuringian
 }
 112 = {
-	
+	name = "dynn_Gisalberting"
+	culture = lombard
 }
 113 = {
-	
+	name = "dynn_Ugoning"
+	culture = lombard
 }
 114 = {
-	
+	name = "dynn_Supponing"
+	culture = lombard
 }
 115 = {
-	
+	name = "dynn_Oberting"
+	culture = lombard
 }
 116 = {
-	
+	name = "dynn_Widoning"
+	culture = lombard
 }
 117 = {
-	
+	name = "dynn_Confalonieri"
+	culture = lombard
 }
 118 = {
-	
+	name = "dynn_Hucpolding"
+	culture = lombard
 }
 119 = {
-	
+	name = "dynn_Attoning"
+	culture = tuscan
 }
 120 = {
-	
+	name = "dynn_Wigeriching"
+	culture = lorrainian
 }
 121 = {
-	
+	name = "dynn_Gandolfing"
+	culture = lombard
 }
 122 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Fleckenstein"
+	culture = pfalzish
 }
 123 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Rappoltstein"
+	culture = boden_alemannic
 }
 124 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Huneburg"
+	culture = boden_alemannic
 }
 125 = {
 	

@@ -1,0 +1,7 @@
+# TITULAR TITLES
+
+k_liechtenstein = {
+	color = { 0 40 130 }
+	
+	capital = c_vaduz
+}

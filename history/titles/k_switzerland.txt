@@ -1,6 +1,29 @@
+#Chadé
+d_currezia = {
+	451.1.1 = { government = theocracy_government }
+	1040.1.1 = {
+		holder = chade_thietmar # Thietmar
+	}
+}
+c_chur = {
+	1040.1.1 = {
+		holder = chade_thietmar # Thietmar
+	}
+}
+c_savognin = {
+	1040.1.1 = {
+		holder = chade_thietmar # Thietmar
+	}
+}
+
 #Sitten
 c_sitten = {
 	1000.1.1 = { government = theocracy_government }
+	1054.7.13 = {
+		holder = sitten_ermenfroi # Ermenfroi
+	}
+}
+c_valais = {
 	1054.7.13 = {
 		holder = sitten_ermenfroi
 	}

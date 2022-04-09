@@ -877,3 +877,11 @@ c_sigmaringen = {
 c_schwarzburg = {
 
 }
+
+#Strasburg
+c_strassburg = {
+	343.1.1 = { government = theocracy_government }
+	1047.11.7 = {
+		holder = strassburg_wizelin
+	}
+}
