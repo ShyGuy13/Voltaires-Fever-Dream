@@ -10,6 +10,17 @@ d_osterreich = {
 		holder = babenberg1 #Albrecht I
 	}
 }
+c_melk = {
+	981.1.1 = {
+		holder = babenberg7 #Leopold I
+	}
+	994.7.10 = {
+		holder = babenberg8 #Heinrich I
+	}
+	1018.6.23 = {
+		holder = babenberg1 #Albrecht I
+	}
+}
 c_vienna = {
 	981.1.1 = {
 		holder = babenberg7 #Leopold I
@@ -65,26 +76,20 @@ c_freistadt = {
 		holder = babenberg1 #Albrecht I
 	}
 }
+
+#Krems
 c_krems = {
-	981.1.1 = {
-		holder = babenberg7 #Leopold I
-	}
-	994.7.10 = {
-		holder = babenberg8 #Heinrich I
-	}
-	1018.6.23 = {
-		holder = babenberg1 #Albrecht I
+	1054.1.1 = {
+		liege = d_osterreich
+		holder = kuenring1 # Azzo I
 	}
 }
-c_enns = {
-	981.1.1 = {
-		holder = babenberg7 #Leopold I
-	}
-	994.7.10 = {
-		holder = babenberg8 #Heinrich I
-	}
-	1018.6.23 = {
-		holder = babenberg1 #Albrecht I
+
+#Raabs
+c_raabs = {
+	1054.1.1 = {
+		liege = d_osterreich
+		holder = raabs1 # Ulrich I
 	}
 }
 
@@ -660,6 +665,11 @@ c_wolfsberg = {
 		holder = eppenstein5
 	}
 }
+c_nurnberg = {
+	1053.1.2 = {
+		holder = eppenstein5
+	}
+}
 
 #Bayreuth
 c_bayreuth = {
@@ -670,6 +680,29 @@ c_bayreuth = {
 c_kronach = {
 	1054.1.1 = {
 		holder = gilching1
+	}
+}
+c_coburg = {
+	1054.1.1 = {
+		holder = gilching1
+	}
+}
+
+#Würzburg
+c_wurzburg = {
+	742.1.1 = { government = theocracy_government }
+	1045.5.27 = {
+		holder = formbach14 # Adalbero I
+	}
+}
+c_hohenlohe = {
+	1045.5.27 = {
+		holder = formbach14 # Adalbero I
+	}
+}
+c_crailsheim = {
+	1045.5.27 = {
+		holder = formbach14 # Adalbero I
 	}
 }
 
@@ -723,6 +756,27 @@ c_augsburg = {
 	#1063.9.3 = {
 	#...
 	#}
+}
+
+#Helfenstein
+c_helfenstein = {
+	1054.1.1 = {
+		holder = helfenstein1 # Manegold I
+	}
+}
+
+#Burgau
+c_burgau = {
+	1054.1.1 = {
+		holder = ronsberg1 # Reginhard I
+	}
+}
+
+#Dillingen
+c_dillingen = {
+	1054.1.1 = {
+		holder = dillingen1 # Hupold III
+	}
 }
 
 #Höwen
@@ -837,6 +891,11 @@ c_werdenberg = {
 		holder = udalriching3
 	}
 }
+c_waldburg = {
+	1054.1.1 = {
+		holder = udalriching3
+	}
+}
 
 #Stühlingen
 c_stuhlingen = {
@@ -866,10 +925,55 @@ c_zollern = {
 	}
 }
 
+#Sulz
+c_sulz = {
+	1054.1.1 = {
+		holder = sulz1 # Alwig I
+	}
+}
+
 #Sigmaringen
 c_sigmaringen = {
 	1054.1.1 = {
 		holder = sigmaringen1
+	}
+}
+
+#Eberstein
+c_eberstein = {
+	940.1.1 = {
+		holder = eberstein5 # Eberhard I
+	}
+	960.1.1 = {
+		holder = eberstein4 # Gebhard I
+	}
+	1010.1.1 = {
+		holder = eberstein3 # Adalbert I
+	}
+	1046.1.1 = {
+		holder = eberstein1 # Berthold I
+	}
+}
+
+#Strasburg
+c_strassburg = {
+	343.1.1 = { government = theocracy_government }
+	1001.4.30 = {
+		holder = habsburg4 # Werner I
+	}
+	1028.10.28 = {
+		holder = salier8 # Wilhelm I
+	}
+	1047.11.7 = {
+		holder = strassburg_wizelin # Winzelin
+	}
+}
+
+#Speyer Bishopric
+c_bruchsal = {
+	346.1.1 = { government = theocracy_government }
+	1051.1.1 = {
+		holder = falkenberg1
 	}
 }
 
@@ -878,10 +982,30 @@ c_schwarzburg = {
 
 }
 
-#Strasburg
-c_strassburg = {
-	343.1.1 = { government = theocracy_government }
-	1047.11.7 = {
-		holder = strassburg_wizelin
+#Lobdeburg
+c_lobdaburg = {
+	1054.1.1 = {
+		holder = lobdeburg1
+	}
+}
+
+#Dresden
+c_dresden = {
+	968.1.1 = { government = theocracy_government }
+	1046.1.1 = {
+		holder = dresden_bruno # Bruno I
+	}
+}
+
+#Fulda
+c_fulda = {
+	744.1.1 = { government = theocracy_government }
+	1047.1.1. = {
+		holder = fulda_egbert # Egbert I
+	}
+}
+c_hammelburg = {
+	1047.1.1. = {
+		holder = fulda_egbert # Egbert I
 	}
 }

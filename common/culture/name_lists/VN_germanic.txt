@@ -1,0 +1,66 @@
+name_list_austrian = {
+	mercenary_names = {
+	}
+
+	male_names = {
+		
+	}
+	
+	female_names = {
+		
+	}
+
+	dynasty_names = {
+		{ dynnp_von dynn_Tannberg }
+		{ dynnp_von dynn_Tschernembl }
+		{ dynnp_von dynn_Tschugguel }
+		{ dynnp_von dynn_Unverzagt }
+		{ dynnp_von dynn_Lilienberg }
+		{ dynnp_von dynn_Volkenstorf }
+		{ dynnp_von dynn_Walsee }
+		{ dynnp_von dynn_Webenau }
+		{ dynnp_von dynn_Webern }
+		{ dynnp_von dynn_Weisspriach }
+		{ dynnp_von dynn_Wellenheim }
+		{ dynnp_von dynn_Wernhardt }
+		{ dynnp_von dynn_Wessenberg }
+		{ dynnp_von dynn_Westenholz }
+		{ dynnp_von dynn_Westersheimb }
+		{ dynnp_von dynn_Wiedersperg }
+		{ dynnp_von dynn_Wildenstein }
+		{ dynnp_von dynn_Wildon }
+		{ dynnp_von dynn_Winkel }
+		{ dynnp_von dynn_Morgenstern }
+		{ dynnp_von dynn_Wispeck }
+		{ dynnp_von dynn_Wolfurt }
+		{ dynnp_von dynn_Wolkenstein }
+		{ dynnp_von dynn_Wolzogen }
+		{ dynnp_von dynn_Gamsendorf }
+		{ dynnp_von dynn_Zelking }
+		{ dynnp_von dynn_Zinzendorf }
+		{ dynnp_von dynn_Schweissing }
+		{ dynnp_von dynn_Zschock }
+		{ dynnp_von dynn_Zwickel }
+	}
+	dynasty_of_location_prefix = "dynnp_von"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 5
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 50
+	mother_name_chance = 5
+	
+	# Patronyms. Names after the primary parent. Can use both prefix and suffix together ("McDavidson"). _vowel is used for when the parent's name starts with a vowel.
+	patronym_prefix_male = "dynnpat_pre_mac"
+	patronym_prefix_male_vowel = "dynnpat_pre_vow_mag"
+	patronym_prefix_female = "dynnpat_pre_nic"
+	patronym_prefix_female_vowel = "dynnpat_pre_vow_nig"
+	
+	patronym_suffix_male = "dynnpat_suf_son"
+	patronym_suffix_female = "dynnpat_suf_sdaughter"
+
+}

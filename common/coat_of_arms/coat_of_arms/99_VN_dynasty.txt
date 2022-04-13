@@ -109,6 +109,18 @@
 	}
 }
 
+41 = { # Ronsberg
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "white"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }			
+	}	
+}
+
 42 = c_calw # Calw
 
 44 = c_staufen # Hohenstaufen
@@ -139,6 +151,8 @@
 	}			
 }
 
+70 = c_laufenburg # Habsburg
+
 73 = { #Frohburg
 	pattern = "pattern_vair.dds"
 	color1 = "blue"
@@ -153,14 +167,14 @@
 		texture = "ce_lion_rampant_crown.dds"
 		color1 = "blue"
 		color2 = "red"
-		instance = { position = { 0.5 0.50 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
 		mask = { 1 }
 	}
 	colored_emblem = {
 		texture = "ce_lion_rampant_crown.dds"
 		color1 = "white"
 		color2 = "red"
-		instance = { position = { 0.5 0.50 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
 		mask = { 2 }
 	}
 }
@@ -235,6 +249,37 @@
 	color2=white
 	color3=black
 }
+
+105 = c_lobdaburg # Lobdeburg
+
+125 = c_eberstein # Eberstein
+
+126 = c_monferrato # Aleraming
+
+127 = c_krems # Kuenring
+
+128 = { # Challant
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.156 } scale = { 1.0 0.312 }  }
+	}
+	colored_emblem = {
+		texture = "ce_bendlet.dds"
+		color1 = "black"
+		color2 = "black"
+	}
+}
+
+129 = c_winterthur # Winterthur
+
+130 = c_waldburg # Waldburg
+
+131 = c_klingenberg # Reginbodoning / Beckenheim
 
 
 # 2 = { #Heeckeren
@@ -1109,3 +1154,15 @@
 # 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }			
 # 	}		
 # }
+
+house_vasto = { # Vasto
+	pattern = "pattern_solid.dds" 
+	color1 = "white"	  
+	color2 = "blue"   
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { position = { 0.5 0.156 } scale = { 1.0 0.312 }  }
+	}
+}

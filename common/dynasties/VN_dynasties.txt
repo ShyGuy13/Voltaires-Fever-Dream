@@ -191,7 +191,7 @@
 }
 41 = {
 	prefix = "dynnp_von"
-	name = "dynn_Ursin"
+	name = "dynn_Ronsberg" #Ursin
 	culture = swabian
 }
 42 = {
@@ -436,8 +436,9 @@
 	culture = bavarian
 }
 91 = {
-	name = "dynn_Hugoning"
-	culture = venetian
+	prefix = "dynnp_von"
+	name = "dynn_Tybein"
+	culture = austrian
 }
 92 = {
 	prefix = "dynnp_de"
@@ -591,68 +592,81 @@
 	culture = boden_alemannic
 }
 125 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Eberstein"
+	culture = boden_alemannic
 }
 126 = {
-	
+	name = "dynn_Aleraming"
+	culture = piedmontese
 }
 127 = {
+	prefix = "dynnp_von"
+	name = "dynn_Kuenring"
+	culture = austrian
+}
+128 = {
+	prefix = "dynnp_de"
+	name = "dynn_Challant"
+	culture = piedmontese
+}
+129 = {
+	prefix = "dynnp_von"
+	name = "dynn_Winterthur"
+	culture = swiss
+}
+130 = {
+	prefix = "dynnp_von"
+	name = "dynn_Waldburg"
+	culture = swabian
+}
+131 = {
+	prefix = "dynnp_von"
+	name = "dynn_Beckenbach" # Reginbodoning
+	culture = hessian
+}
+132 = {
 	
 }
-# 128 = {
+133 = {
 	
-# }
-# 129 = {
+}
+134 = {
 	
-# }
-# 130 = {
+}
+135 = {
 	
-# }
-# 131 = {
+}
+136 = {
 	
-# }
-# 132 = {
+}
+137 = {
 	
-# }
-# 133 = {
+}
+138 = {
 	
-# }
-# 134 = {
+}
+139 = {
 	
-# }
-# 135 = {
+}
+140 = {
 	
-# }
-# 136 = {
+}
+141 = {
 	
-# }
-# 137 = {
+}
+142 = {
 	
-# }
-# 138 = {
+}
+143 = {
 	
-# }
-# 139 = {
+}
+144 = {
 	
-# }
-# 140 = {
+}
+145 = {
 	
-# }
-# 141 = {
-	
-# }
-# 142 = {
-	
-# }
-# 143 = {
-	
-# }
-# 144 = {
-	
-# }
-# 145 = {
-	
-# }
+}
 # 146 = {
 	
 # }

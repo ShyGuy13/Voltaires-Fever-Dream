@@ -1,0 +1,11 @@
+﻿house_eppan = {
+	prefix = "dynnp_von"
+	name = "dynn_Eppan"
+	dynasty = 14 #Bozen
+}
+
+house_vasto = {
+	prefix = "dynnp_del"
+	name = "dynn_Vasto"
+	dynasty = 126 # Aleraming
+}

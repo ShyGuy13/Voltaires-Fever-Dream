@@ -90,6 +90,7 @@ habsburg7 = {
 	religion = catholic
 	920.1.1 = { #est
 		birth = yes
+		give_nickname = nick_the_rich
 	}
 	973.3.26 = {
 		death = yes

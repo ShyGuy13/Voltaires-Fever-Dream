@@ -1,0 +1,13 @@
+﻿winterthur1 = {
+	name = "Adelheid" #wife of Hartmann I of Dillingen
+	female = yes
+	dynasty = 129
+	religion = catholic
+	culture = swiss
+	1050.1.1 = {
+		birth = yes
+	}
+	1125.1.1 = {
+		death = yes
+	}
+}

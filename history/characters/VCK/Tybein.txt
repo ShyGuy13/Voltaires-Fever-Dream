@@ -1,6 +1,4 @@
-﻿#Tybein
-
-hugoning1 = {
+﻿tybein1 = {
 	name = "Adalgero" # Adalgero I of Trieste
 	dynasty = 91
 	culture = venetian

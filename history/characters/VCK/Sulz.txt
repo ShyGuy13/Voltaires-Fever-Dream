@@ -1,0 +1,12 @@
+﻿sulz1 = {
+	name = "Alwig" # Alwig I
+	dynasty = 55
+	religion = catholic
+	culture = swabian
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1095.1.1 = {
+		death = yes
+	}
+}

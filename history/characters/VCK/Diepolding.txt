@@ -4,7 +4,7 @@
 	religion = catholic
 	culture = bavarian
 	father = diepolding5
-	1010.1.1 = { #est
+	1005.1.1 = { #est
 		birth = yes
 	}
 	1060.5.18 = {
@@ -77,6 +77,52 @@ diepolding6 = {
 		birth = yes
 	}
 	984.1.1 = {
+		death = yes
+	}
+}
+
+diepolding7 = {
+	name = "Rapoto" # 
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	father = diepolding1
+	1026.1.1 = {
+		birth = yes
+	}
+	1080.10.15 = {
+		death = yes
+	}
+}
+
+diepolding8 = {
+	name = "Mathilde" # wife of Friedrich I of Tengling
+	female = yes
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	father = diepolding1
+	1028.1.1 = {
+		birth = yes
+	}
+	1092.1.1 = {
+		add_trait = devoted
+	}
+	1100.9.30 = { #fic year
+		death = yes
+	}
+}
+
+diepolding9 = {
+	name = "Heinrich"
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	father = diepolding1
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	1116.9.24 = {
 		death = yes
 	}
 }

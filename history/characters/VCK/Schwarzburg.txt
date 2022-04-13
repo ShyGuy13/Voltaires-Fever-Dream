@@ -37,7 +37,7 @@ schwarzburg3 = {
 	}
 	1005.12.25 = {
 		trait = devoted
-		add_nickname = nick_the_hermit
+		give_nickname = nick_the_hermit
 	}
 	1045.10.9 = {
 		death = yes

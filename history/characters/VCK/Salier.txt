@@ -95,3 +95,17 @@ salier7 = {
 		death = yes
 	}
 }
+
+salier8 = {
+	name = "Wilhelm" # bishop of Strassburg
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier6
+	980.1.1 = { #fic
+		birth = yes
+	}
+	1047.11.7 = {
+		death = yes
+	}
+}

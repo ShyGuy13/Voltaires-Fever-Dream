@@ -1,0 +1,25 @@
+﻿lobdeburg1 = {
+	name = "Hermann" # Hermann I of Lobdeburg
+	dynasty = 105
+	religion = catholic
+	culture = thuringian
+	1011.1.1 = { #fic
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+lobdeburg2 = {
+	name = "Hermann" # Hermann II of Lobdeburg
+	dynasty = 105
+	religion = catholic
+	culture = thuringian
+	1043.1.1 = { #fic
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}

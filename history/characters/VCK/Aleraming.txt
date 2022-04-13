@@ -1,0 +1,67 @@
+﻿aleraming1 = {
+	name = "Ottone" # Ottone II of Monferrat
+	dynasty = 126
+	culture = piedmontese
+	religion = catholic
+	father = aleraming3
+	1015.1.1 = {
+		birth = yes
+	}
+	1084.11.20 = {
+		death = yes
+	}
+}
+
+aleraming2 = {
+	name = "Enrico" # 
+	dynasty = 126
+	culture = piedmontese
+	religion = catholic
+	father = aleraming3
+	1020.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		death = yes
+	}
+}
+
+aleraming3 = {
+	name = "Guglielmo" # Guglielmo III of Monferrat
+	dynasty = 126
+	culture = piedmontese
+	religion = catholic
+	father = aleraming4
+	970.1.1 = {
+		birth = yes
+	}
+	1042.1.1 = {
+		death = yes
+	}
+}
+
+aleraming4 = {
+	name = "Ottone" # Ottone I of Monferrat
+	dynasty = 126
+	culture = piedmontese
+	religion = catholic
+	940.1.1 = { #fic
+		birth = yes
+	}
+	991.1.1 = {
+		death = yes
+	}
+}
+
+aleraming5 = {
+	name = "Aleramo" # Aleramo I of Monferrat
+	dynasty = 126
+	culture = piedmontese
+	religion = catholic
+	920.1.1 = { #fic
+		birth = yes
+	}
+	991.1.1 = {
+		death = yes
+	}
+}

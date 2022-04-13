@@ -178,3 +178,17 @@ formbach13 = {
 		death = yes
 	}
 }
+
+formbach14 = {
+	name = "Adalbero" #bishop of Würzburg
+	dynasty = 5
+	culture = austrian
+	religion = catholic
+	father = formbach3
+	1010.1.1 = {
+		birth = yes
+	}
+	1090.10.6 = {
+		death = yes
+	}
+}

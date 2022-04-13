@@ -64,3 +64,32 @@ c_sankt_gallen = {
 		holder = stgallen_norpert # Norpert
 	}
 }
+
+#Sankt Blasien
+c_sankt_blasien = {
+	858.1.1 = { government = theocracy_government }
+	1045.1.1 = {
+		holder = stblasien_werner # Werner
+	}
+}
+
+#Solothurn
+c_solothurn = {
+	1050.1.1 = {
+		holder = frohburg1 # Albrecht I
+	}
+}
+
+#Aargau
+c_aargau = {
+	1045.1.1 = {
+		holder = habsburg1 # Werner I
+	}
+}
+
+#Winterthur
+c_winterthur = {
+	1053.6.18 = {
+		holder = winterthur1 # Adelheid I
+	}
+}

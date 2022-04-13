@@ -1,1 +1,0 @@
-﻿pattern_vair.dds = { colors = 2 visible = no }

@@ -9,8 +9,8 @@ k_liechtenstein={
 		color2=blue
 		texture="ce_crown.dds"
 		instance={
-			position={ 0.300000 0.250000 }
-			scale={ 0.400000 0.400000 }
+			position={ 0.3 0.25 }
+			scale={ 0.4 0.4 }
 		}
 	}
 }

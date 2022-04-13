@@ -12,3 +12,29 @@ stgallen_norpert = {
 		death = yes
 	}
 }
+
+#Sankt Blasien
+stblasien_werner = {
+	name = "Werner"
+	religion = catholic
+	culture = swiss
+	1006.1.1 = {
+		birth = yes
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}
+
+#Fulda
+fulda_egbert = {
+	name = "Egbert" # Egbert of Fulda
+	religion = catholic
+	culture = franconian
+	1010.1.1 = { #est
+		birth = yes
+	}
+	1076.11.25 = {
+		death = yes
+	}
+}

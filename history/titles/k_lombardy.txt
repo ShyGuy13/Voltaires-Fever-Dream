@@ -36,18 +36,13 @@ c_rovereto = {
 #Trieste
 c_trieste = {
 	1050.1.1 = {
-		holder = hugoning1
+		holder = tybein1
 	}
 }
 
 #Venice
 c_venice = {
 	697.1.1 = { government = republic_government }
-	1043.1.1 = {
-		holder = contarini1
-	}
-}
-c_chioggia = {
 	1043.1.1 = {
 		holder = contarini1
 	}
@@ -75,5 +70,22 @@ c_pordenone = {
 c_treviso = {
 	1054.1.1 = {
 		holder = collalto1 # Rambaldo III
+	}
+}
+
+#Monferrato
+c_monferrato = {
+	958.1.1 = {
+		holder = aleraming5 # Aleramo I
+	}
+	1042.1.1 = {
+		holder = aleraming1 # Ottone II
+	}
+}
+
+#Sovana
+c_savona = {
+	1050.1.1 = {
+		holder = vasto1 # Ottone I
 	}
 }
