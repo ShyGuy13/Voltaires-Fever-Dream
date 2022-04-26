@@ -1,0 +1,12 @@
+﻿munzenberg1 = {
+	name = "Kuno" # Kuno I of Arnsburg
+	dynasty = 133
+	religion = catholic
+	culture = hessian
+	1012.1.1 = { #fic
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}

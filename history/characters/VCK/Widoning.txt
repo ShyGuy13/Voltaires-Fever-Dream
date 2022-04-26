@@ -1,0 +1,12 @@
+﻿widoning1 = {
+	name = "Uberto" # Uberto I of Verona
+	dynasty = 116
+	religion = catholic
+	culture = venetian
+	1034.1.1 = { #fic
+		birth = yes
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}

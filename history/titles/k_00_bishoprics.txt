@@ -1,0 +1,144 @@
+d_bm_aquileia = {
+	1000.1.1 = { government = theocracy_government }
+	1049.1.1 = {
+		holder = aquileia_gotebald # Gotebald I
+	}
+}
+
+d_bm_konstanz = {
+	1000.1.1 = { government = theocracy_government }
+	1051.6.22 = {
+		holder = konstanz_rumold # Rumold I
+	}
+}
+
+d_bm_strassburg = {
+	343.1.1 = { government = theocracy_government }
+	1001.4.30 = {
+		holder = habsburg4 # Werner I
+	}
+	1028.10.28 = {
+		holder = salier8 # Wilhelm I
+	}
+	1047.11.7 = {
+		holder = strassburg_wizelin # Winzelin
+	}
+}
+
+d_bm_speyer = {
+	346.1.1 = { government = theocracy_government }
+	1051.1.1 = {
+		holder = falkenberg1
+	}
+}
+
+d_bm_sitten = {
+	1000.1.1 = { government = theocracy_government }
+	1054.7.13 = {
+		holder = sitten_ermenfroi # Ermenfroi
+	}
+}
+
+d_bm_chur = {
+	451.1.1 = { government = theocracy_government }
+	1040.1.1 = {
+		holder = chade_thietmar # Thietmar
+	}
+}
+
+d_bm_dresden = {
+	968.1.1 = { government = theocracy_government }
+	1046.1.1 = {
+		holder = dresden_bruno # Bruno I
+	}
+}
+
+d_bm_brixen = {
+	1000.1.1 = { government = theocracy_government }
+	1048.7.17 = {
+		holder = brixen_altwin
+	}
+}
+
+d_bm_salzburg = {
+	1000.1.1 = { government = theocracy_government }
+	1041.7.28 = {
+		holder = salzburg_balduin
+	}
+}
+
+d_bm_eichstadt = {
+	1000.1.1 = { government = theocracy_government }
+	1042.1.1 = {
+		holder = calw1
+	}
+}
+
+d_bm_regensburg = {
+	1000.1.1 = { government = theocracy_government }
+	1036.3.17 = {
+		holder = popponing1
+	}
+}
+
+d_bm_passau = {
+	1000.1.1 = { government = theocracy_government }
+	1045.7.14 = {
+		holder = reginbodoning1
+	}
+}
+
+d_bm_bamberg = {
+	1000.1.1 = { government = theocracy_government }
+	1053.1.2 = {
+		holder = eppenstein5
+	}
+}
+
+d_bm_wurzburg = {
+	742.1.1 = { government = theocracy_government }
+	1045.5.27 = {
+		holder = formbach14 # Adalbero I
+	}
+}
+
+d_bm_augsburg = {
+	300.1.1 = { government = theocracy_government }
+	973.1.1 = {
+		holder = augsburg_heinrich_1 # Heinrich I
+	}
+	#982.7.13 = {
+	#
+	#}
+	#...
+	1047.1.1 = {
+		holder = augsburg_heinrich_2 # Heinrich II
+	}
+	#1063.9.3 = {
+	#...
+	#}
+}
+
+d_bm_trent = {
+	350.1.1 = { government = theocracy_government }
+	1006.1.1 = {
+		holder = trent_uldarico_1
+	}
+	1022.1.1 = {
+		holder = trent_uldarico_2
+	}
+}
+
+d_bm_mainz = {
+	1000.1.1 = { government = theocracy_government }
+	1051.6.11 = {
+		holder = babenberg11 # Luitpold I
+	}
+}
+
+d_bm_worms = {
+	1000.1.1 = { government = theocracy_government }
+	1044.1.1 = {
+		holder = worms_arnold # Arnold
+	}
+}

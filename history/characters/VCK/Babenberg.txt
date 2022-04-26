@@ -146,7 +146,7 @@ babenberg10 = {
 }
 
 babenberg11 = {
-	name = "Leopold" #bishop of Mainz
+	name = "Luitpold" #bishop of Mainz
 	dynasty = 3
 	culture = austrian
 	religion = catholic

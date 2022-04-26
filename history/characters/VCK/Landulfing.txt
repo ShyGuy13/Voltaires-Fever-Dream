@@ -1,0 +1,25 @@
+﻿landulfing1 = {
+	name = "Gisulfo" # Gisulfo II of Salerno
+	dynasty = 148
+	religion = catholic
+	culture = langobardic
+	1030.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+
+landulfing2 = {
+	name = "Pandolfo" # Pandolfo VI of Capua
+	dynasty = 148
+	religion = catholic
+	culture = langobardic
+	1012.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}

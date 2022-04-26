@@ -1,0 +1,12 @@
+﻿sergii1 = {
+	name = "Sergio" # Sergio V of Naples
+	dynasty = 152
+	religion = catholic
+	culture = neapolitan
+	1015.1.1 = { #fic
+		birth = yes
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}

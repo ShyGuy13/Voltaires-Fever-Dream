@@ -55,7 +55,7 @@ weimar4 = {
 }
 
 weimar5 = {
-	name = "Wilhelm" #Wilhelm III of Weimar
+	name = "Wilhelm" #Wilhelm I of Meissen
 	dynasty = 4
 	culture = thuringian
 	religion = catholic

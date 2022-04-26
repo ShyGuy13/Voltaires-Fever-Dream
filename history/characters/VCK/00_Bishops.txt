@@ -153,3 +153,16 @@ dresden_bruno = {
 		death = yes
 	}
 }
+
+#Worms
+worms_arnold = {
+	name = "Arnold" # Arnold of Worms
+	religion = catholic
+	culture = pfalzish
+	1002.1.1 = { #fic
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+} 

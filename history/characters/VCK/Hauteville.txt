@@ -1,0 +1,114 @@
+﻿hauteville1 = {
+	name = "Humphrey" # Humphrey I of Apulia & Calabria
+	dynasty = 150
+	religion = catholic
+	culture = norman
+	father = hauteville2
+	1010.1.1 = {
+		birth = yes
+	}
+	1057.8.1 = {
+		death = yes
+	}
+}
+
+hauteville2 = {
+	name = "Tancred" #
+	dynasty = 150
+	religion = catholic
+	culture = norman
+	980.1.1 = {
+		birth = yes
+	}
+	1041.8.1 = {
+		death = yes
+	}
+}
+
+hauteville3 = {
+	name = "Robert" # Robert I of Apulia & Calabria
+	dynasty = 150
+	religion = catholic
+	culture = norman
+	father = hauteville2
+	1015.1.1 = {
+		birth = yes
+		give_nickname = nick_the_fox
+	}
+	1085.7.17 = {
+		death = yes
+	}
+}
+
+hauteville4 = {
+	name = "Roger" # Roger I of Apulia & Calabria
+	dynasty = 150
+	religion = catholic
+	culture = norman
+	father = hauteville2
+	1031.1.1 = {
+		birth = yes
+	}
+	1101.7.22 = {
+		death = yes
+	}
+}
+
+hauteville5 = {
+	name = "Guillaume" # 
+	dynasty = 150
+	religion = catholic
+	culture = norman
+	father = hauteville2
+	1027.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+hauteville6 = {
+	name = "Godefroi" # Godefroi I of Foggia
+	dynasty = 150
+	religion = catholic
+	culture = norman
+	father = hauteville2
+	1020.1.1 = {
+		birth = yes
+	}
+	1071.1.1 = {
+		death = yes
+	}
+}
+
+hauteville7 = {
+	name = "Drogon" # Drogon I of Apulia
+	dynasty = 150
+	religion = catholic
+	culture = norman
+	father = hauteville2
+	1008.1.1 = {
+		birth = yes
+	}
+	1051.8.10 = {
+		death = yes
+	}
+}
+
+hauteville8 = {
+	name = "Guillaume" # Guillaume I of Apulia
+	dynasty = 150
+	religion = catholic
+	culture = norman
+	father = hauteville2
+	1006.1.1 = {
+		birth = yes
+	}
+	1042.1.1 = {
+		give_nickname = nick_iron_arm
+	}
+	1046.1.1 = {
+		death = yes
+	}
+}

@@ -622,90 +622,127 @@
 }
 131 = {
 	prefix = "dynnp_von"
-	name = "dynn_Beckenbach" # Reginbodoning
+	name = "dynn_Beckenbach" # Reginbodoning?
 	culture = hessian
 }
 132 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Zahringen"
+	culture = boden_alemannic
 }
 133 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Munzenberg"
+	culture = hessian
 }
 134 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Achalm"
+	culture = swabian
 }
 135 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Arnsberg"
+	culture = hessian
 }
 136 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Falkenstein"
+	culture = hessian
 }
 137 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Selbold"
+	culture = hessian
 }
 138 = {
-	
+	name = "dynn_Gisoning"
+	culture = hessian
 }
 139 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Dorfelden"
+	culture = hessian
 }
 140 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Malsburg"
+	culture = hessian
 }
 141 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Diez"
+	culture = hessian
 }
 142 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Merenberg"
+	culture = hessian
 }
 143 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Grafschaft"
+	culture = hessian
 }
 144 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Katzenelnbogen"
+	culture = hessian
 }
 145 = {
+	prefix = "dynnp_von"
+	name = "dynn_Reichenbach"
+	culture = hessian
+}
+146 = {
+	name = "dynn_Embrichoning"
+	culture = pfalzish
+}
+147 = {
+	name = "dynn_Monomachos"
+	culture = greek
+}
+148 = {
+	name = "dynn_Landulfing"
+	culture = langobardic
+}
+149 = {
+	prefix = "dynnp_da"
+	name = "dynn_Bari" # used for Catepan Argyrus + family (fictional?)
+	culture = langobardic
+}
+150 = {
+	prefix = "dynnp_de"
+	name = "dynn_Hauteville"
+	culture = norman
+}
+151 = {
+	prefix = "dynnp_de"
+	name = "dynn_Carreaux" #Drengot family
+	culture = norman
+}
+152 = {
+	name = "dynn_Sergii"
+	culture = neapolitan
+}
+153 = {
 	
 }
-# 146 = {
+154 = {
 	
-# }
-# 147 = {
+}
+155 = {
 	
-# }
-# 148 = {
+}
+156 = {
 	
-# }
-# 149 = {
+}
+157 = {
 	
-# }
-# 150 = {
+}
+158 = {
 	
-# }
-# 151 = {
-	
-# }
-# 152 = {
-	
-# }
-# 153 = {
-	
-# }
-# 154 = {
-	
-# }
-# 155 = {
-	
-# }
-# 156 = {
-	
-# }
-# 157 = {
-	
-# }
-# 158 = {
-	
-# }
+}
 # 159 = {
 	
 # }

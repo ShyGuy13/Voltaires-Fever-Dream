@@ -1,0 +1,12 @@
+vaihingen1 = {
+	name = "Adalbert" # Adalbert I of Vaihingen
+	dynasty = 59
+	culture = swabian
+	religion = catholic
+	1042.1.1 = {
+		birth = yes
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}

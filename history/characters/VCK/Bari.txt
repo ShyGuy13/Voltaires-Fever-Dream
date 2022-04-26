@@ -1,0 +1,26 @@
+﻿bari1 = {
+	name = "Argryus" # Catepan of Italy
+	dynasty = 149
+	religion = catholic
+	culture = langobardic
+	father = bari2
+	1000.1.1 = {
+		birth = yes
+	}
+	1068.1.1 = { # deposed in 1058
+		death = yes
+	}
+}
+
+bari2 = {
+	name = "Melus" # 
+	dynasty = 149
+	religion = catholic
+	culture = langobardic
+	971.1.1 = { #est
+		birth = yes
+	}
+	1020.4.23 = {
+		death = yes
+	}
+}

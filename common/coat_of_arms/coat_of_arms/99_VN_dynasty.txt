@@ -69,7 +69,7 @@
 
 22 = c_leuchtenburg # Leuchtenberg
 
-25 = c_pappenheim # Pappenheim
+25 = b_pappenheim # Pappenheim
 
 27 = c_andechs # Andechs
 
@@ -250,6 +250,8 @@
 	color3=black
 }
 
+100 = c_schwarzburg # Schwarzburg
+
 105 = c_lobdaburg # Lobdeburg
 
 125 = c_eberstein # Eberstein
@@ -280,6 +282,121 @@
 130 = c_waldburg # Waldburg
 
 131 = c_klingenberg # Reginbodoning / Beckenheim
+
+132 = c_breisgau # Zähringen
+
+134={ # Achalm
+	pattern="pattern__solid_designer.dds"
+	color1=green
+	color2=yellow
+	color3=yellow
+	colored_emblem={
+		color1=yellow
+		texture="ce_bendlet.dds"
+		instance={
+			position={ 0.700000 0.300000 }
+		}
+		instance={
+			position={ 0.300000 0.700000 }
+		}
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_star_06.dds"
+		instance={
+			position={ 0.100000 0.750000 }
+			scale={ 0.250000 0.250000 }
+		}
+		instance={
+			position={ 0.75 0.1 }
+			scale={ 0.250000 0.250000 }
+		}
+		instance={
+			position={ 0.25 0.9 }
+			scale={ 0.250000 0.250000 }
+		}
+		instance={
+			position={ 0.9 0.25 }
+			scale={ 0.250000 0.250000 }
+		}
+		instance={
+			position={ 0.750000 0.750000 }
+			scale={ 0.400000 0.400000 }
+		}
+		instance={
+			scale={ 0.400000 0.400000 }
+		}
+		instance={
+			position={ 0.250000 0.250000 }
+			scale={ 0.400000 0.400000 }
+		}
+	}
+}
+
+144 = c_katzenelnbogen # Katzenelnbogen
+
+147 = { # Monomachos
+	pattern = "pattern_solid.dds" 
+	color1 = "blue"	   
+	color2 = "white"  
+	colored_emblem = {
+		texture = "ce_heart.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.72 } scale = { 0.25 0.25 }  }   
+		instance = { position = { 0.5 0.18 } rotation = 180 scale = { 0.25 0.25 }  }
+		instance = { position = { 0.77 0.45 } rotation = -90 scale = { 0.25 0.25 }  }
+		instance = { position = { 0.23 0.45 }rotation = 90 scale = { 0.25 0.25 }  }			 
+	}	   
+	colored_emblem = {
+		texture = "ce_circle_mask.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.75 0.45 } scale = { 0.1 0.27 }  }   
+		instance = { position = { 0.25 0.45 } scale = { 0.1 0.27 }  }   
+		instance = { position = { 0.50 0.70 } scale = { 0.27 0.1 }  }   
+		instance = { position = { 0.50 0.20 } scale = { 0.27 0.1 }  }
+	}   
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { position = { 0.5 0.45 } scale = { 0.52 0.52 }  }
+	}   
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.45 } scale = { 0.75 0.75 }  }   
+	}   
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.19 } scale = { 0.24 0.02 }  }   
+		instance = { position = { 0.5 0.71 } scale = { 0.24 0.02 }  }
+		instance = { position = { 0.24 0.45 } scale = { 0.02 0.24 }  }
+		instance = { position = { 0.76 0.45 } scale = { 0.02 0.24 }  }			  
+	}	   
+}
+
+148 = c_capua # Landulfing
+
+149 = c_bari # Bari
+
+150 = c_melfi # Hauteville
+
+151 = { # Carreaux
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_checkers_diagonal_6x3.dds"
+		color1 = "red"
+		color2 = "white"
+		instance = { position = { 0.5 0.6 } scale = { 1.15 1.2 }  }		
+	}			
+}
 
 
 # 2 = { #Heeckeren

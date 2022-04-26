@@ -10,3 +10,16 @@
 		death = yes
 	}
 }
+
+calw2 = {
+	name = "Adalbert" #Adalbert I of Calw
+	dynasty = 42
+	religion = catholic
+	culture = swabian
+	1022.1.1 = { #fic
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}

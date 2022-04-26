@@ -1,13 +1,4 @@
 #Trent
-d_trento = {
-	350.1.1 = { government = theocracy_government }
-	1006.1.1 = {
-		holder = trent_uldarico_1
-	}
-	1022.1.1 = {
-		holder = trent_uldarico_2
-	}
-}
 c_trent = {
 	1006.1.1 = {
 		holder = trent_uldarico_1
@@ -41,16 +32,20 @@ c_trieste = {
 }
 
 #Venice
-c_venice = {
+k_venice = {
 	697.1.1 = { government = republic_government }
+	1043.1.1 = {
+		holder = contarini1
+	}
+}
+c_veneto = {
 	1043.1.1 = {
 		holder = contarini1
 	}
 }
 
 #Aquileia
-c_aquileia = {
-	1000.1.1 = { government = theocracy_government }
+c_friuli = {
 	1049.1.1 = {
 		holder = aquileia_gotebald
 	}
@@ -70,6 +65,28 @@ c_pordenone = {
 c_treviso = {
 	1054.1.1 = {
 		holder = collalto1 # Rambaldo III
+	}
+}
+c_belluno = {
+	1054.1.1 = {
+		holder = collalto1 # Rambaldo III
+	}
+}
+c_padua = {
+	1054.1.1 = {
+		holder = collalto1 # Rambaldo III
+	}
+}
+
+#Verona
+c_verona = {
+	1054.1.1 = {
+		holder = widoning1 # Uberto I
+	}
+}
+c_vicenza = {
+	1054.1.1 = {
+		holder = widoning1 # Uberto I
 	}
 }
 

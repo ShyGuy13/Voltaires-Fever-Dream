@@ -1,0 +1,84 @@
+﻿zahringen1 = {
+	name = "Berthold" # Berthold I of Breisgau
+	dynasty = 132
+	religion = catholic
+	culture = boden_alemannic
+	father = zahringen6
+	1004.1.1 = {
+		birth  = yes
+		give_nickname = nick_the_bearded
+	}
+	1078.11.6 = {
+		death = yes
+	}
+}
+
+zahringen2 = {
+	name = "Hermann" # Hermann I of Baden
+	dynasty = 132
+	religion = catholic
+	culture = boden_alemannic
+	father = zahringen1
+	1038.1.1 = {
+		birth  = yes
+	}
+	1074.4.25 = {
+		death = yes
+	}
+}
+
+zahringen3 = {
+	name = "Liutgard" # wife of Diepold II of Nordgau
+	female = yes
+	dynasty = 132
+	religion = catholic
+	culture = boden_alemannic
+	father = zahringen1
+	1047.1.1 = {
+		birth  = yes
+	}
+	1119.7.9 = {
+		death = yes
+	}
+}
+
+zahringen4 = {
+	name = "Berthold" # Berthold II of Breisgau
+	dynasty = 132
+	religion = catholic
+	culture = boden_alemannic
+	father = zahringen1
+	1050.1.1 = {
+		birth  = yes
+	}
+	1111.4.12 = {
+		death = yes
+	}
+}
+
+zahringen5 = {
+	name = "Gebhard" # bishop of Konstanz
+	dynasty = 132
+	religion = catholic
+	culture = boden_alemannic
+	father = zahringen1
+	1053.1.1 = {
+		birth  = yes
+	}
+	1110.11.12 = {
+		death = yes
+	}
+}
+
+zahringen6 = {
+	name = "Berthold " # 
+	dynasty = 132
+	religion = catholic
+	culture = boden_alemannic
+	960.1.1 = { # fic
+		birth = yes
+	}
+	1024.7.15 = {
+		death = yes
+	}
+}

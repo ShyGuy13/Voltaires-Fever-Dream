@@ -1,0 +1,12 @@
+﻿monomachos1 = {
+	name = "Konstantinos" # Konstantinos IX of Byzantium
+	dynasty = 147
+	religion = orthodox
+	culture = greek
+	1000.1.1 = {
+		birth = yes
+	}
+	1055.1.11 = {
+		death = yes
+	}
+}

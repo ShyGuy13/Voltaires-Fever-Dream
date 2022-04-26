@@ -1,0 +1,12 @@
+﻿maden1 = {
+	name = "Werner" # Werner III of Neckargau
+	dynasty = 57
+	religion = catholic
+	culture = swabian
+	1040.1.1 = {
+		birth = yes
+	}
+	1065.2.24 = {
+		death = yes
+	}
+}

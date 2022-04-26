@@ -115,8 +115,6 @@ c_linz = {
 	}
 }
 
-#Schaunberg
-
 #Carinthia
 d_carinthia = {
 	1039.11.29 = {
@@ -182,6 +180,11 @@ c_kranj = {
 		holder = weimar1
 	}
 }
+c_rijeka = {
+	1044.1.1 = {
+		holder = weimar1
+	}
+}
 c_ljubljana = {
 	1044.1.1 = {
 		holder = weimar1
@@ -229,7 +232,6 @@ c_ischgl = {
 
 #Brixen
 c_brixen = {
-	1000.1.1 = { government = theocracy_government }
 	1048.7.17 = {
 		holder = brixen_altwin
 	}
@@ -293,12 +295,6 @@ c_pettau = {
 }
 
 #Salzburg
-d_salzburg = {
-	1000.1.1 = { government = theocracy_government }
-	1041.7.28 = {
-		holder = salzburg_balduin
-	}
-}
 c_salzburg = {
 	1041.7.28 = {
 		holder = salzburg_balduin
@@ -462,7 +458,6 @@ c_waidhofen-ybbs = {
 
 #Eichstätt
 c_eichstadt = {
-	1000.1.1 = { government = theocracy_government }
 	1042.1.1 = {
 		holder = calw1
 	}
@@ -482,7 +477,6 @@ c_heideck = {
 
 #Regensburg
 c_regensburg = {
-	1000.1.1 = { government = theocracy_government }
 	1036.3.17 = {
 		holder = popponing1
 	}
@@ -531,7 +525,6 @@ c_innsbruck = {
 
 #Passau 
 c_passau = {
-	1000.1.1 = { government = theocracy_government }
 	1045.7.14 = {
 		holder = reginbodoning1
 	}
@@ -645,7 +638,6 @@ c_sulzbach = {
 
 #Bamberg
 c_bamberg = {
-	1000.1.1 = { government = theocracy_government }
 	1053.1.2 = {
 		holder = eppenstein5
 	}
@@ -688,9 +680,15 @@ c_coburg = {
 	}
 }
 
+#Schweinfurt
+c_schweinfurt = {
+	1054.1.1 = {
+		holder = luitpolding6 # Beatrix
+	}
+}
+
 #Würzburg
 c_wurzburg = {
-	742.1.1 = { government = theocracy_government }
 	1045.5.27 = {
 		holder = formbach14 # Adalbero I
 	}
@@ -742,7 +740,6 @@ c_feuchtwangen = {
 
 #Augsburg
 c_augsburg = {
-	300.1.1 = { government = theocracy_government }
 	973.1.1 = {
 		holder = augsburg_heinrich_1 # Heinrich I
 	}
@@ -762,6 +759,41 @@ c_augsburg = {
 c_helfenstein = {
 	1054.1.1 = {
 		holder = helfenstein1 # Manegold I
+	}
+}
+
+#Urach
+c_urach = {
+	1054.1.1 = {
+		holder = urach1 # Egino II
+	}
+}
+
+#Zweifalten
+c_zwiefalten = {
+	1050.1.1 = {
+		holder = achalm1 # Gero
+	}
+}
+
+#Calw
+c_calw = {
+	1049.1.1 = {
+		holder = calw2 # Adalbert I
+	}
+}
+
+#Vaihingen / Löwenstein
+c_vaihingen = {
+	1054.1.1 = {
+		holder = vaihingen1 # Adalbert I
+	}
+}
+
+#Teck
+c_teck = {
+	1053.6.18 = {
+		holder = maden1 # Werner III
 	}
 }
 
@@ -856,10 +888,14 @@ c_pfullendorf = {
 		holder = udalriching1
 	}
 }
+c_heiligenberg = {
+	1054.1.1 = {
+		holder = udalriching1
+	}
+}
 
 #Konstanz
 c_konstanz = {
-	1000.1.1 = { government = theocracy_government }
 	1051.6.22 = {
 		holder = konstanz_rumold
 	}
@@ -925,6 +961,13 @@ c_zollern = {
 	}
 }
 
+#Helfenstein
+c_helfenstein = {
+	1054.1.1 = {
+		holder = helfenstein1 # Manegold I
+	}
+}
+
 #Sulz
 c_sulz = {
 	1054.1.1 = {
@@ -936,6 +979,25 @@ c_sulz = {
 c_sigmaringen = {
 	1054.1.1 = {
 		holder = sigmaringen1
+	}
+}
+
+#Baden
+c_baden = {
+	1054.1.1 = {
+		holder = zahringen2 # Hermann I
+	}
+}
+
+#Breisgau / Freiburg
+c_breisgau = {
+	1024.1.1 = {
+		holder = zahringen1 # Berthold I
+	}
+}
+c_furstenberg = {
+	1024.1.1 = {
+		holder = zahringen1 # Berthold I
 	}
 }
 
@@ -957,7 +1019,6 @@ c_eberstein = {
 
 #Strasburg
 c_strassburg = {
-	343.1.1 = { government = theocracy_government }
 	1001.4.30 = {
 		holder = habsburg4 # Werner I
 	}
@@ -971,7 +1032,6 @@ c_strassburg = {
 
 #Speyer Bishopric
 c_bruchsal = {
-	346.1.1 = { government = theocracy_government }
 	1051.1.1 = {
 		holder = falkenberg1
 	}
@@ -989,9 +1049,37 @@ c_lobdaburg = {
 	}
 }
 
+#Vogtland
+c_zwickau = {
+	1054.1.1 = {
+		holder = reuss1 # Erkenbert I
+	}
+}
+c_hartenstein = {
+	1054.1.1 = {
+		holder = reuss1 # Erkenbert I
+	}
+}
+c_gera = {
+	1054.1.1 = {
+		holder = reuss1 # Erkenbert I
+	}
+}
+
+#Naumburg
+c_naumburg = {
+
+}
+
+#Meissen
+c_dohna = {
+	1046.1.24 = {
+		holder = weimar5 # Wilhelm I
+	}
+}
+
 #Dresden
 c_dresden = {
-	968.1.1 = { government = theocracy_government }
 	1046.1.1 = {
 		holder = dresden_bruno # Bruno I
 	}
@@ -1007,5 +1095,48 @@ c_fulda = {
 c_hammelburg = {
 	1047.1.1. = {
 		holder = fulda_egbert # Egbert I
+	}
+}
+
+#Münzenberg
+c_munzenberg = {
+	1054.1.1 = {
+		holder = munzenberg1 # Kuno I
+	}
+}
+c_gleiberg = {
+	1054.1.1 = {
+		holder = munzenberg1 # Kuno I
+	}
+}
+
+#Mainz
+c_mainz = {
+	1051.6.11 = {
+		holder = babenberg11 # Luitpold I
+	}
+}
+
+#Worms Diocese
+c_heidelberg = {
+	1044.1.1 = {
+		holder = worms_arnold # Arnold
+	}
+}
+c_erbach = {
+	1044.1.1 = {
+		holder = worms_arnold # Arnold
+	}
+}
+
+#Worms
+c_worms = {
+	1039.6.4 = {
+		holder = salier3 # Heinrich III
+	}
+}
+c_speyer = {
+	1039.6.4 = {
+		holder = salier3 # Heinrich III
 	}
 }

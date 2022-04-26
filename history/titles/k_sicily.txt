@@ -1,0 +1,181 @@
+#Catepanate of Italy
+d_taranto = {
+	1050.1.1 = {
+		#liege = e_byzantium
+		holder = bari1 # Argyrus
+	}
+}
+c_bari = {
+	1050.1.1 = {
+		holder = bari1 # Argyrus
+	}
+}
+c_lecce = {
+	1050.1.1 = {
+		holder = bari1 # Argyrus
+	}
+}
+c_taranto = {
+	1050.1.1 = {
+		holder = bari1 # Argyrus
+	}
+}
+c_nicastro = {
+	1050.1.1 = {
+		holder = bari1 # Argyrus
+	}
+}
+c_reggio_calabria = {
+	1050.1.1 = {
+		holder = bari1 # Argyrus
+	}
+}
+c_rossano  = {
+	1050.1.1 = {
+		holder = bari1 # Argyrus
+	}
+}
+
+#Foggia
+c_foggia = {
+	1054.6.1 = {
+		liege = d_apulia
+		holder = hauteville6 # Godefroi I
+	}
+}
+
+#Gargano
+c_gargano = {
+	1045.1.1 = {
+		liege = d_apulia
+		holder = carreaux1 # Robert I
+	}
+}
+c_larino = {
+	1045.1.1 = {
+		liege = d_apulia
+		holder = carreaux1 # Robert I
+	}
+}
+
+#Apulia
+d_apulia = {
+	1042.1.1 = {
+		holder = hauteville8 # Guillaume I
+	}
+	1046.1.1 = {
+		holder = hauteville7 # Drogon I
+	}
+	1051.8.10 = {
+		holder = hauteville1 # Humphrey I
+	}
+}
+d_calabria = {
+	1042.1.1 = {
+		holder = hauteville8 # Guillaume I
+	}
+	1046.1.1 = {
+		holder = hauteville7 # Drogon I
+	}
+	1051.8.10 = {
+		holder = hauteville1 # Humphrey I
+	}
+}
+c_melfi = {
+	1042.1.1 = {
+		holder = hauteville8 # Guillaume I
+	}
+	1046.1.1 = {
+		holder = hauteville7 # Drogon I
+	}
+	1051.8.10 = {
+		holder = hauteville1 # Humphrey I
+	}
+}
+c_matera = {
+	1042.1.1 = {
+		holder = hauteville8 # Guillaume I
+	}
+	1046.1.1 = {
+		holder = hauteville7 # Drogon I
+	}
+	1051.8.10 = {
+		holder = hauteville1 # Humphrey I
+	}
+}
+c_cosenza = {
+	1042.1.1 = {
+		holder = hauteville8 # Guillaume I
+	}
+	1046.1.1 = {
+		holder = hauteville7 # Drogon I
+	}
+	1051.8.10 = {
+		holder = hauteville1 # Humphrey I
+	}
+}
+
+#Aversa
+c_aversa = {
+	1030.1.1 = {
+		holder = carreaux9 # Rainulf I
+	}
+	1045.6.1 = {
+		holder = carreaux12 # Asclettin I
+	}
+	1046.1.1 = {
+		holder = carreaux16 # Rainulf II
+	}
+	1048.1.1 = {
+		holder = carreaux17 # Herman I
+	}
+	1049.1.1 = {
+		holder = carreaux13 # Richard I
+	}
+}
+
+#Naples
+c_napoli = {
+	1036.1.1 = {
+		holder = sergii # Sergio V
+	}
+}
+
+#Salerno
+d_salerno = {
+	1052.6.3 = {
+		holder = landulfing1 # Gisulfo II
+	}
+}
+c_salerno = {
+	1052.6.3 = {
+		holder = landulfing1 # Gisulfo II
+	}
+}
+c_potenza = {
+	1052.6.3 = {
+		holder = landulfing1 # Gisulfo II
+	}
+}
+c_consilina = {
+	1052.6.3 = {
+		holder = landulfing1 # Gisulfo II
+	}
+}
+
+#Capua
+c_capua = {
+	1050.1.1 = {
+		holder = landulfing2 # Pandolfo VI
+	}
+}
+c_sora = {
+	1050.1.1 = {
+		holder = landulfing2 # Pandolfo VI
+	}
+}
+c_cassino = {
+	1050.1.1 = {
+		holder = landulfing2 # Pandolfo VI
+	}
+}

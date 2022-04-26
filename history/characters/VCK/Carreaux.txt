@@ -1,0 +1,294 @@
+﻿carreaux1 = {
+	name = "Robert" # Robert I of Gargano
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux6
+	1018.1.1 = { #fic
+		birth = yes
+	}
+	1072.1.1 = {
+		death = yes
+	}
+}
+
+carreaux2 = {
+	name = "Henri" # Henri I of Gargano
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux1
+	1038.1.1 = { #fic
+		birth = yes
+	}
+	1102.12.21 = {
+		death = yes
+	}
+}
+
+carreaux3 = {
+	name = "Guillaume" # Guillaume I of Gargano
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux1
+	1040.1.1 = { #fic
+		birth = yes
+	}
+	1106.1.1 = { #deposed in 1104.10.1, unknown death date
+		death = yes
+	}
+}
+
+carreaux4 = {
+	name = "Drogon" # 
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux1
+	1045.1.1 = { #fic
+		birth = yes
+	}
+	1100.1.1 = { #fic
+		death = yes
+	}
+}
+
+carreaux5 = {
+	name = "Umberto" # 
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux1
+	1048.1.1 = { #fic
+		birth = yes
+	}
+	1095.1.1 = { #fic
+		death = yes
+	}
+}
+
+carreaux6 = {
+	name = "Asclettin" # Asclettin I of Acerenza
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux7
+	990.1.1 = { #fic
+		birth = yes
+	}
+	1043.1.1 = { #fic
+		death = yes
+	}
+}
+
+carreaux7 = {
+	name = "Gilbert" # Just a fictional character to make the others siblings
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	951.1.1 = { #fic
+		birth = yes
+	}
+	1004.1.1 = { #fic
+		death = yes
+	}
+}
+
+carreaux8 = {
+	name = "Gilbert" # 
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux7
+	985.1.1 = {
+		birth = yes
+	}
+	1018.10.1 = { #est
+		death = yes
+	}
+}
+
+carreaux9 = {
+	name = "Rainulf" # Rainulf I of Aversa
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux7
+	988.1.1 = { #fic
+		birth = yes
+	}
+	1045.6.1 = {
+		death = yes
+	}
+}
+
+carreaux10 = {
+	name = "Osmond" # 
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux7
+	992.1.1 = { #fic
+		birth = yes
+	}
+	1018.10.1 = {
+		death = yes
+	}
+}
+
+carreaux11 = {
+	name = "Rodolphe" # 
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux7
+	994.1.1 = { #fic
+		birth = yes
+	}
+	1020.1.1 = {
+		death = yes
+	}
+}
+
+carreaux12 = {
+	name = "Asclettin" # Asclettin I of Aversa
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux6
+	1018.1.1 = { #fic
+		birth = yes
+	}
+	1046.1.1 = {
+		death = yes
+	}
+}
+
+carreaux13 = {
+	name = "Richard" # Richard I of Aversa
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux6
+	1024.1.1 = { #est
+		birth = yes
+	}
+	1078.4.5 = {
+		death = yes
+	}
+}
+
+carreaux14 = {
+	name = "Mathilde" #
+	female = yes
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux6
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1080.1.1 = { #fic
+		death = yes
+	}
+}
+
+carreaux15 = {
+	name = "Rainulf" #
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux6
+	1022.1.1 = { #fic
+		birth = yes
+	}
+	1088.1.1 = { 
+		death = yes
+	}
+}
+
+carreaux16 = {
+	name = "Rainulf" # Rainulf II of Aversa
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux10
+	1022.1.1 = { #fic
+		birth = yes
+	}
+	1048.1.1 = {
+		death = yes
+	}
+}
+
+carreaux17 = {
+	name = "Herman" # Herman I of Aversa
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux16
+	1045.1.1 = { #fic
+		birth = yes
+	}
+	1049.1.1 = {
+		death = yes
+	}
+}
+
+carreaux18 = {
+	name = "Jourdain" # Jourdain I of Aversa
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux13
+	1046.1.1 = {
+		birth = yes
+	}
+	1091.4.5 = {
+		death = yes
+	}
+}
+
+carreaux19 = {
+	name = "Jonathan" # Jonathan I of Carinola
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux13
+	1049.1.1 = { #fic
+		birth = yes
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}
+
+carreaux20 = {
+	name = "Gradilon" # 
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux13
+	1053.1.1 = { #fic
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+
+carreaux21 = {
+	name = "Limpiasa" # wife of Sergius VI of Naples
+	female = yes
+	dynasty = 151
+	religion = catholic
+	culture = norman
+	father = carreaux13
+	1043.1.1 = { #fic
+		birth = yes
+	}
+	1105.1.1 = { #fic
+		death = yes
+	}
+}
