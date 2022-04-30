@@ -185,9 +185,7 @@
 	culture = swabian
 }
 40 = {
-	prefix = "dynnp_von"
-	name = "dynn_Aalen"
-	culture = swabian
+	
 }
 41 = {
 	prefix = "dynnp_von"
@@ -726,13 +724,18 @@
 	culture = neapolitan
 }
 153 = {
-	
+	prefix = "dynnp_d_"
+	name = "dynn_Orange"
+	culture = provencal
 }
 154 = {
-	
+	name = "dynn_Bosoning"
+	culture = provencal
 }
 155 = {
-	
+	prefix = "dynnp_de"
+	name = "dynn_Valence"
+	culture = vivaro_alpine
 }
 156 = {
 	

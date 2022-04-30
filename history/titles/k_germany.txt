@@ -288,7 +288,7 @@ c_cilli = {
 	#	reset_name = yes
 	#}
 }
-c_pettau = {
+c_ptuj = {
 	1045.1.1 = {
 		holder = askuining1
 	}
@@ -314,6 +314,7 @@ c_matrei = {
 #Berchtesgaden
 c_berchtesgaden = {
 	1054.1.1 = {
+		liege = d_bm_salzburg
 		holder = ariboning1
 	}
 }
@@ -1095,6 +1096,18 @@ c_fulda = {
 c_hammelburg = {
 	1047.1.1. = {
 		holder = fulda_egbert # Egbert I
+	}
+}
+
+#Henneberg
+c_henneberg = {
+	1049.1.1 = {
+		holder = popponing2 # Poppo I
+	}
+}
+c_schmalkalden = {
+	1049.1.1 = {
+		holder = popponing2 # Poppo I
 	}
 }
 

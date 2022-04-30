@@ -3,10 +3,66 @@
 	dynasty = 34
 	religion = catholic
 	culture = bavarian
-	1005.1.1 = { #fic
+	father = popponing5
+	1016.1.1 = { #fic
 		birth = yes
 	}
 	1060.12.2 = {
+		death = yes
+	}
+}
+
+popponing2 = {
+	name = "Poppo" #Poppo I of Henneberg
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing3
+	1027.1.1 = { #fic
+		birth = yes
+	}
+	1078.8.7 = {
+		death = yes
+	}
+}
+
+popponing3 = {
+	name = "Otto" #Otto III of Henneberg
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing4
+	991.1.1 = { #fic
+		birth = yes
+	}
+	1049.1.1 = {
+		death = yes
+	}
+}
+
+popponing4 = {
+	name = "Otto" #Otto II of Henneberg
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	941.1.1 = { #fic
+		birth = yes
+	}
+	1008.1.1 = {
+		death = yes
+	}
+}
+
+popponing5 = {
+	name = "Poppo" #abbot of Fulda
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing4
+	987.1.1 = { #fic
+		birth = yes
+	}
+	1018.1.1 = {
 		death = yes
 	}
 }

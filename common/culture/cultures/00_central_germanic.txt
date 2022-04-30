@@ -312,7 +312,7 @@ thuringian = {
 		tradition_religious_patronage
 	}
 	
-	name_list = name_list_saxon
+	name_list = name_list_german
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 

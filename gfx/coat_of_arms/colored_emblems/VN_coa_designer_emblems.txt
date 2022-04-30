@@ -1,0 +1,2 @@
+﻿ce_slovenian_hat.dds = { colors = 2 category = manmade }
+ce_crow.dds = { colors = 3 category = animals }
