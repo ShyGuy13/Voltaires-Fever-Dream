@@ -1,4 +1,4 @@
-schwarzburg1 = {
+﻿schwarzburg1 = {
 	name = "Sizzo" # Sizzo II of Schwarzburg
 	dynasty = 100
 	religion = catholic

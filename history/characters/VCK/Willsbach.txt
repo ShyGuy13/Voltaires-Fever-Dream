@@ -1,1 +1,13 @@
-﻿
+﻿willsbach1 = {
+	name = "Cunizza" # Cunizza of Willsbach
+	female = yes
+	dynasty = 33
+	religion = catholic
+	culture = franconian
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1099.1.1 = {
+		death = yes
+	}
+}

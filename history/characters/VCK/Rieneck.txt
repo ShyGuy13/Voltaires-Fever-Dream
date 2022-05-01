@@ -1,0 +1,41 @@
+rieneck1 = {
+	name = "Gerhard" #Gerhard I of Rieneck
+	dynasty = 37
+	religion = catholic
+	culture = franconian
+	father = rieneck2
+	1039.11.25 = {
+		birth = yes
+	}
+	1105.4.11 = {
+		death = yes
+	}
+}
+
+rieneck2 = {
+	name = "Gerard" #Gerhard I of Rieneck
+	dynasty = 37
+	religion = catholic
+	culture = franconian
+	father = rieneck3
+	995.1.1 = { #fic
+		birth = yes
+	}
+	1045.1.1 = { #fic
+		death = yes
+	}
+}
+
+rieneck3 = {
+	name = "Gebhard" #Gerhard I of Rieneck
+	dynasty = 37
+	religion = catholic
+	culture = franconian
+	#father = #Heribert
+	965.1.1 = {
+		birth = yes
+	}
+	1016.11.8 = {
+		death = yes
+	}
+}

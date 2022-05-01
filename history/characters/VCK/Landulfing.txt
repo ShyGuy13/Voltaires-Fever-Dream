@@ -2,7 +2,7 @@
 	name = "Gisulfo" # Gisulfo II of Salerno
 	dynasty = 148
 	religion = catholic
-	culture = langobardic
+	culture = langobard
 	1030.1.1 = {
 		birth = yes
 	}
@@ -15,7 +15,7 @@ landulfing2 = {
 	name = "Pandolfo" # Pandolfo VI of Capua
 	dynasty = 148
 	religion = catholic
-	culture = langobardic
+	culture = langobard
 	1012.1.1 = {
 		birth = yes
 	}

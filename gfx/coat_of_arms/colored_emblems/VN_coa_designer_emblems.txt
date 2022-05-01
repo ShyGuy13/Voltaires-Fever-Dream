@@ -1,2 +1,8 @@
-﻿ce_slovenian_hat.dds = { colors = 2 category = manmade }
-ce_crow.dds = { colors = 3 category = animals }
+﻿ce_vn_slovenian_hat.dds = { colors = 2 category = manmade }
+ce_vn_crow.dds = { colors = 3 category = animals }
+ce_vn_fish_sideways_left.dds = { colors = 2 category = animals }
+ce_vn_fish_sideways_left2.dds = { colors = 3 category = animals }
+ce_vn_fish_sideways_left3.dds = { colors = 3 category = animals }
+ce_vn_fish_sideways_right.dds = { colors = 2 category = animals }
+ce_vn_fish_sideways_right2.dds = { colors = 3 category = animals }
+ce_vn_fish_sideways_right3.dds = { colors = 3 category = animals }

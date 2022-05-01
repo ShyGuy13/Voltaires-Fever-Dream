@@ -142,3 +142,24 @@ d_bm_worms = {
 		holder = worms_arnold # Arnold
 	}
 }
+
+d_bm_naumburg = {
+	1000.1.1 = { government = theocracy_government }
+	1045.1.1 = {
+		holder = wippra1 # Eberhard I
+	}
+}
+
+d_bm_trier = {
+	1000.1.1 = { government = theocracy_government }
+	1047.6.16 = {
+		holder = ezzoning4 # Eberhard I
+	}
+}
+
+d_bm_metz = {
+	1000.1.1 = { government = theocracy_government }
+	1047.1.1 = {
+		holder = luxemburg2 # Adalbéron III
+	}
+}

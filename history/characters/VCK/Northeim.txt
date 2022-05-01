@@ -1,0 +1,12 @@
+﻿northeim1 = {
+	name = "Otto" # Otto I of Gleichenstein
+	dynasty = 184
+	religion = catholic
+	culture = thuringian
+	1020.1.1 = {
+		birth = yes
+	}
+	1083.1.11 = {
+		death = yes
+	}
+}

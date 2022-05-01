@@ -10,3 +10,16 @@
 		death = yes
 	}
 }
+
+luxemburg2 = {
+	name = "Adalbéron" #bishop of Metz
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	1010.1.1 = {
+		birth = yes
+	}
+	1072.11.13 = {
+		death = yes
+	}
+}

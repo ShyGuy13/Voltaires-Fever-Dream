@@ -1,0 +1,12 @@
+﻿gerharding1 = {
+	name = "Gérard" #duke of Lorraine
+	dynasty = 186
+	religion = catholic
+	culture = lorrainian
+	1030.1.1 = {
+		birth = yes
+	}
+	1070.4.14 = {
+		death = yes
+	}
+}

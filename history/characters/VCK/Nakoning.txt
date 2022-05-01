@@ -1,0 +1,26 @@
+﻿nakoning1 = {
+	name = "Gotszalk"
+	dynasty = 185
+	religion = catholic
+	culture = polabian
+	father = nakoning2
+	1010.1.1 = {
+		birth = yes
+	}
+	1066.6.7 = {
+		death = { death_reason = death_fight }
+	}
+}
+
+nakoning2 = {
+	name = "Udo" #born Pribignev
+	dynasty = 185
+	religion = catholic
+	culture = polabian
+	972.1.1 = { #fic
+		birth = yes
+	}
+	1028.1.1 = {
+		death = yes
+	}
+}

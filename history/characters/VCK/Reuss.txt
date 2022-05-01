@@ -1,4 +1,4 @@
-reuss1 = {
+﻿reuss1 = {
 	name = "Erkenbert" # Erkenbert I of Vogtland
 	dynasty = 85
 	religion = catholic

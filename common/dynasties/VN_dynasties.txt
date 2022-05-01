@@ -185,7 +185,8 @@
 	culture = swabian
 }
 40 = {
-	
+	name = "dynn_Ezzoning"
+	culture = pfalzish
 }
 41 = {
 	prefix = "dynnp_von"
@@ -702,12 +703,12 @@
 }
 148 = {
 	name = "dynn_Landulfing"
-	culture = langobardic
+	culture = langobard
 }
 149 = {
 	prefix = "dynnp_da"
 	name = "dynn_Bari" # used for Catepan Argyrus + family (fictional?)
-	culture = langobardic
+	culture = langobard
 }
 150 = {
 	prefix = "dynnp_de"
@@ -738,155 +739,215 @@
 	culture = vivaro_alpine
 }
 156 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Werl"
+	culture = hannoverian
 }
 157 = {
-	
+	name = "dynn_Brunoning"
+	culture = eastphalian
 }
 158 = {
+	prefix = "dynnp_von"
+	name = "dynn_Dagsburg"
+	culture = pfalzish
+}
+159 = {
+	prefix = "dynnp_von"
+	name = "dynn_Finstingen"
+	culture = pfalzish
+}
+160 = {
+	prefix = "dynnp_von"
+	name = "dynn_Blieskastel"
+	culture = pfalzish
+}
+161 = {
+	prefix = "dynnp_von"
+	name = "dynn_Bliesgau"
+	culture = pfalzish
+}
+162 = {
+	name = "dynn_Embrichoning"
+	culture = pfalzish
+}
+163 = {
+	prefix = "dynnp_von"
+	name = "dynn_Saarbrucken"
+	culture = pfalzish
+}
+164 = {
+	prefix = "dynnp_von"
+	name = "dynn_Sponheim"
+	culture = pfalzish
+}
+165 = {
+	prefix = "dynnp_von"
+	name = "dynn_Saarwerden"
+	culture = pfalzish
+}
+166 = {
+	prefix = "dynnp_von"
+	name = "dynn_Dhaun"
+	culture = pfalzish
+}
+167 = {
+	prefix = "dynnp_von"
+	name = "dynn_Leiningen"
+	culture = pfalzish
+}
+168 = {
+	prefix = "dynnp_von"
+	name = "dynn_Sirck"
+	culture = pfalzish
+}
+169 = {
+	prefix = "dynnp_von"
+	name = "dynn_Zweibrucken"
+	culture = pfalzish
+}
+170 = {
+	prefix = "dynnp_von"
+	name = "dynn_Berg"
+	culture = ripuarian
+}
+171 = {
+	prefix = "dynnp_von"
+	name = "dynn_Huckeswagen"
+	culture = ripuarian
+}
+172 = {
+	prefix = "dynnp_von"
+	name = "dynn_Julich"
+	culture = ripuarian
+}
+173 = {
+	prefix = "dynnp_von"
+	name = "dynn_Kleve"
+	culture = ripuarian
+}
+174 = {
+	prefix = "dynnp_von"
+	name = "dynn_Mors"
+	culture = ripuarian
+}
+175 = {
+	prefix = "dynnp_von"
+	name = "dynn_Neuenahr"
+	culture = ripuarian
+}
+176 = {
+	prefix = "dynnp_von"
+	name = "dynn_Sayn"
+	culture = ripuarian
+}
+177 = {
+	prefix = "dynnp_von"
+	name = "dynn_Isenburg"
+	culture = moselle_franconian
+}
+178 = {
+	prefix = "dynnp_von"
+	name = "dynn_Manderscheid"
+	culture = moselle_franconian
+}
+179 = {
+	prefix = "dynnp_von"
+	name = "dynn_Arberg"
+	culture = moselle_franconian
+}
+180 = {
+	prefix = "dynnp_von"
+	name = "dynn_Vianden"
+	culture = moselle_franconian
+}
+181 = {
+	prefix = "dynnp_von"
+	name = "dynn_Wied"
+	culture = moselle_franconian
+}
+182 = {
+	prefix = "dynnp_von"
+	name = "dynn_Arenberg"
+	culture = moselle_franconian
+}
+183 = {
+	prefix = "dynnp_von"
+	name = "dynn_Wippra"
+	culture = saxon
+}
+184 = {
+	prefix = "dynnp_von"
+	name = "dynn_Northeim"
+	culture = thuringian
+}
+185 = {
+	name = "dynn_Nakoning"
+	culture = polabian
+}
+186 = {
+	name = "dynn_Gerharding"
+	culture = lorrainian
+}
+187 = {
+	name = "dynn_Wigeriching"
+	culture = lorrainian
+}
+188 = {
+	name = "dynn_Hucpolding"
+	culture = umbrian
+}
+189 = {
 	
 }
-# 159 = {
+190 = {
 	
-# }
-# 160 = {
+}
+191 = {
 	
-# }
-# 161 = {
+}
+192 = {
 	
-# }
-# 162 = {
+}
+193 = {
 	
-# }
-# 163 = {
+}
+194 = {
 	
-# }
-# 164 = {
+}
+195 = {
 	
-# }
-# 165 = {
+}
+196 = {
 	
-# }
-# 166 = {
+}
+197 = {
 	
-# }
-# 167 = {
+}
+198 = {
 	
-# }
-# 168 = {
+}
+199 = {
 	
-# }
-# 169 = {
+}
+200 = {
 	
-# }
-# 170 = {
+}
+201 = {
 	
-# }
-# 171 = {
+}
+202 = {
 	
-# }
-# 172 = {
+}
+203 = {
 	
-# }
-# 173 = {
+}
+204 = {
 	
-# }
-# 174 = {
+}
+205 = {
 	
-# }
-# 175 = {
-	
-# }
-# 176 = {
-	
-# }
-# 177 = {
-	
-# }
-# 178 = {
-	
-# }
-# 179 = {
-	
-# }
-# 180 = {
-	
-# }
-# 181 = {
-	
-# }
-# 182 = {
-	
-# }
-# 183 = {
-	
-# }
-# 184 = {
-	
-# }
-# 185 = {
-	
-# }
-# 186 = {
-	
-# }
-# 187 = {
-	
-# }
-# 188 = {
-	
-# }
-# 189 = {
-	
-# }
-# 190 = {
-	
-# }
-# 191 = {
-	
-# }
-# 192 = {
-	
-# }
-# 193 = {
-	
-# }
-# 194 = {
-	
-# }
-# 195 = {
-	
-# }
-# 196 = {
-	
-# }
-# 197 = {
-	
-# }
-# 198 = {
-	
-# }
-# 199 = {
-	
-# }
-# 200 = {
-	
-# }
-# 201 = {
-	
-# }
-# 202 = {
-	
-# }
-# 203 = {
-	
-# }
-# 204 = {
-	
-# }
-# 205 = {
-	
-# }
+}
 # 206 = {
 	
 # }

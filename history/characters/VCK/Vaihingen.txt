@@ -1,4 +1,4 @@
-vaihingen1 = {
+﻿vaihingen1 = {
 	name = "Adalbert" # Adalbert I of Vaihingen
 	dynasty = 59
 	culture = swabian

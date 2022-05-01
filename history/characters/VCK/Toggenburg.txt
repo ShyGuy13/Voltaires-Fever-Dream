@@ -1,4 +1,4 @@
-toggenburg1 = {
+﻿toggenburg1 = {
 	name = "Diethelm" # Diethelm II of Toggenburg
 	dynasty = 74
 	religion = catholic

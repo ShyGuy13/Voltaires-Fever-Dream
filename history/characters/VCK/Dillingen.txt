@@ -1,4 +1,4 @@
-dillingen1 = {
+﻿dillingen1 = {
 	name = "Hupold" # Hupold III of Dillingen
 	dynasty = 43
 	religion = catholic

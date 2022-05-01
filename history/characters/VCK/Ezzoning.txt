@@ -2,7 +2,7 @@
 	name = "Kuno" #Kuno I of Bavaria
 	dynasty = 81
 	religion = catholic
-	culture = swabian
+	culture = pfalzish
 	1020.1.1 = {
 		birth = yes
 	}
@@ -10,6 +10,84 @@
 		#gets deposed & moves to Andreas of Hungary
 	#}
 	1055.12.5 = {
+		death = yes
+	}
+}
+
+ezzoning2 = {
+	name = "Heinrich" #Heinrich I of Pfalz
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	trait = lunatic
+	father = ezzoning5
+	1015.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_insane
+	}
+	1058.1.1 = { #goes insane, kills wifes, is put into a monastery
+		give_nickname = nick_the_monk
+		add_trait = murderer
+		add_trait = devoted
+	}
+	1060.7.27 = {
+		death = yes
+	}
+}
+
+ezzoning3 = {
+	name = "Hermann" #Hermann II of Pfalz
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning2
+	1049.1.1 = {
+		birth = yes
+	}
+	1085.9.20 = {
+		death = yes
+	}
+}
+
+ezzoning4 = {
+	name = "Eberhard" #bishop of Trier
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning5
+	1010.1.1 = {
+		birth = yes
+	}
+	1066.4.15 = {
+		death = yes
+	}
+}
+
+ezzoning5 = {
+	name = "Hezzelin" #
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning6
+	985.1.1 = {
+		birth = yes
+	}
+	1033.11.20 = {
+		death = yes
+	}
+}
+
+ezzoning6 = {
+	name = "Hermann" #Hermann I of Pfalz
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	trait = delicate
+	940.1.1 = { #fic
+		birth = yes
+		give_nickname = the_delicate
+	}
+	996.7.16 = {
 		death = yes
 	}
 }

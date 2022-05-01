@@ -3,3 +3,42 @@ c_valence = {
 		holder = valence1 # Aymar I
 	}
 }
+
+#Metz
+c_metz = {
+	1047.1.1 = {
+		holder = luxemburg2 # Adalbéron III
+	}
+}
+c_tenquin = {
+	1047.1.1 = {
+		holder = luxemburg2 # Adalbéron III
+	}
+}
+
+#Lorraine
+d_lorraine = {
+	1048.11.11 = {
+		holder = gerharding1 # Gérard I
+	}
+}
+c_nancy = {
+	1048.11.11 = {
+		holder = gerharding1 # Gérard I
+	}
+}
+c_remiremont = {
+	1048.11.11 = {
+		holder = gerharding1 # Gérard I
+	}
+}
+c_blamont = {
+	1048.11.11 = {
+		holder = gerharding1 # Gérard I
+	}
+}
+c_vaudemont = {
+	1048.11.11 = {
+		holder = gerharding1 # Gérard I
+	}
+}

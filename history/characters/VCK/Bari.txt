@@ -2,7 +2,7 @@
 	name = "Argryus" # Catepan of Italy
 	dynasty = 149
 	religion = catholic
-	culture = langobardic
+	culture = langobard
 	father = bari2
 	1000.1.1 = {
 		birth = yes
@@ -16,7 +16,7 @@ bari2 = {
 	name = "Melus" # 
 	dynasty = 149
 	religion = catholic
-	culture = langobardic
+	culture = langobard
 	971.1.1 = { #est
 		birth = yes
 	}
