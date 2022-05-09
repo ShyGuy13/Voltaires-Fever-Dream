@@ -40,7 +40,7 @@ c_lille = {
 
 #Cambrai
 c_cambrai = {
-	580.1.1 = {	government = theocracy_government 
+	580.1.1 = {	government = theocracy_government }
 	1051.3.14 = {
 		holder = opbrakel1 # Liébert I
 	}
@@ -140,6 +140,11 @@ c_fivelgo = {
 	}
 }
 c_ostergo = {
+	1038.4.23 = {
+		holder = brunoning1 # Bruno II
+	}
+}
+c_alkmaar = {
 	1038.4.23 = {
 		holder = brunoning1 # Bruno II
 	}

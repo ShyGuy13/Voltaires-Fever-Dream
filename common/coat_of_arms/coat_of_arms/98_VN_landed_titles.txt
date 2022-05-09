@@ -7,6 +7,20 @@
 
 #Duchy
 
+d_wurttemberg = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_antler.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.5 0.690 } scale = { 0.8 0.8 }  }
+		instance = { position = { 0.5 0.430 } scale = { 0.8 0.8 }  }
+		instance = { position = { 0.5 0.170 } scale = { 0.8 0.8 }  }
+	}
+}
+
 d_ostfriesland = {
 	pattern = "pattern_solid.dds"
 	color1 = "black"
@@ -121,6 +135,67 @@ d_taranto = {
 # }
 
 #County
+
+c_artois = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_fleur.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.10 0.00 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.30 0.00 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.50 0.00 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.70 0.00 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.90 0.00 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.00 0.20 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.20 0.20 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.40 0.20 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.60 0.20 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.80 0.20 } scale = { 0.23 0.23 }  }
+		instance = { position = { 1.00 0.20 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.10 0.40 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.30 0.40 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.50 0.40 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.70 0.40 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.90 0.40 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.00 0.60 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.20 0.60 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.40 0.60 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.60 0.60 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.80 0.60 } scale = { 0.23 0.23 }  }
+		instance = { position = { 1.00 0.60 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.10 0.80 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.30 0.80 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.50 0.80 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.70 0.80 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.90 0.80 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.00 1.00 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.20 1.00 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.40 1.00 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.60 1.00 } scale = { 0.23 0.23 }  }
+		instance = { position = { 0.80 1.00 } scale = { 0.23 0.23 }  }
+		instance = { position = { 1.00 1.00 } scale = { 0.23 0.23 }  }
+	}
+	colored_emblem = {
+		color1 = "red"
+		color2 = "yellow"
+		texture = "ce_label_castles.dds"
+	}
+}
+
+c_lille = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_fleur_florence.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
 
 c_vipava={
 	pattern="pattern_checkers_02.dds"
@@ -4189,5 +4264,23 @@ b_maribor={
 		instance={
 			scale={ 0.900000 0.900000 }
 		}
+	}
+}
+
+b_murzzuschlag = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_barry_04.dds"
+		color1 = "yellow"
+		color2 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.75 0.5 } scale = { 0.5 1.0 }  }
 	}
 }

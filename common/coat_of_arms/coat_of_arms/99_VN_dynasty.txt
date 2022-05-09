@@ -474,6 +474,10 @@
 
 190 = c_uzes # Uzès
 
+192 = d_flanders # Vlsanderen
+
+193 = c_lille # Lille
+
 # 2 = { #Heeckeren
 # 	pattern = "pattern_cross_01.dds"
 # 	color1 = yellow

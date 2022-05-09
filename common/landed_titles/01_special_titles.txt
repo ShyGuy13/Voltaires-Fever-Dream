@@ -67,6 +67,9 @@ d_bm_augsburg = {
 }
 
 d_bm_bamberg = {
+	color = { 197  196  156 }
+	color2 = { 255 255 255 }
+
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -130,6 +133,9 @@ d_bm_basel = {
 }
 
 d_bm_konstanz = {
+	color = { 18  59  138 }
+	color2 = { 255 255 255 }
+
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -705,6 +711,9 @@ d_bm_lebus = {
 }
 
 d_bm_worms = {
+	color = { 224 140 140 }
+	color2 = { 255 255 255 }
+
 	capital = c_worms
 
 	definite_form = yes
