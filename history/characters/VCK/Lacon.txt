@@ -1,0 +1,108 @@
+﻿lacon1 = {
+	name = "Salusio" # Salusio I of Cagliari
+	dynasty = 189
+	religion = catholic
+	culture = sardinian
+	1000.1.1 = {
+		birth = yes
+	}
+	1058.1.1 = {
+		death = yes
+	}
+}
+
+lacon2 = {
+	name = "Torchitorio" # Torchitorio I of Cagliari
+	dynasty = 189
+	religion = catholic
+	culture = sardinian
+	father = lacon1
+	1025.1.1 = { #fic
+		birth = yes
+	}
+	1089.1.1 = {
+		death = yes
+	}
+}
+
+lacon3 = {
+	name = "Barisone" # Barisone I of Arborea
+	dynasty = 189
+	religion = catholic
+	culture = sardinian
+	1020.1.1 = { #est
+		birth = yes
+	}
+	#1060 moves to Logudoro
+	1073.1.1 = {
+		death = yes
+	}
+}
+
+lacon4 = {
+	name = "Mariano" # Mariano I of Arborea
+	dynasty = 189
+	religion = catholic
+	culture = sardinian
+	father = lacon3
+	1040.1.1 = { #fic
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+lacon5 = {
+	name = "Ubaldo" # Ubaldo I of Gallura
+	dynasty = 189
+	religion = catholic
+	culture = sardinian
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+
+lacon6 = {
+	name = "Constantino" # Constantino I of Gallura
+	dynasty = 189
+	religion = catholic
+	culture = sardinian
+	father = lacon5
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+lacon7 = {
+	name = "Comita" # Comita I of Logudoro
+	dynasty = 189
+	religion = catholic
+	culture = sardinian
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+
+lacon8 = {
+	name = "Barisone" # Barisone I of Logudoro
+	dynasty = 189
+	religion = catholic
+	culture = sardinian
+	father = lacon7
+	1020.1.1 = { #est
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}

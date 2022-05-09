@@ -1,0 +1,26 @@
+hoorn1 = {
+	name = "Engelbert" #Engelbert I of Hoorn
+	dynasty = 197
+	religion = catholic
+	culture = brabantian
+	1011.1.1 = { #fic
+		birth = yes
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}
+
+hoorn2 = {
+	name = "Reginbald" #Reginbald I of Hoorn
+	dynasty = 197
+	religion = catholic
+	culture = brabantian
+	father = hoorn1
+	1052.1.1 = { #fic
+		birth = yes
+	}
+	1134.1.1 = {
+		death = yes
+	}
+}

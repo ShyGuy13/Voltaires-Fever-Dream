@@ -23,3 +23,29 @@ luxemburg2 = {
 		death = yes
 	}
 }
+
+luxemburg3 = {
+	name = "Friedrich" #Friedrich I of Antwerp / Lower Lorraine
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	1003.1.1 = { #est
+		birth = yes
+	}
+	1065.5.18 = {
+		death = yes
+	}
+}
+
+luxemburg4 = {
+	name = "Giselbert" #Giselbert I of Luxemburg
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	1007.1.1 = {
+		birth = yes
+	}
+	1059.8.14 = {
+		death = yes
+	}
+}

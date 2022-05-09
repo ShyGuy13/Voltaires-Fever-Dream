@@ -7,6 +7,17 @@
 
 #Duchy
 
+d_ostfriesland = {
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_eagle.dds" # Harpy
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.52 } scale = { 1.1 1.1 }  }
+	}
+}
 
 d_taranto = {
 	pattern = "pattern_solid.dds"
@@ -110,6 +121,21 @@ d_taranto = {
 # }
 
 #County
+
+c_vipava={
+	pattern="pattern_checkers_02.dds"
+	color1=red
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=yellow
+		color2=purple
+		texture="ce_vn_grape_vine.dds"
+		instance={
+			scale={ 0.800000 0.800000 }
+		}
+	}
+}
 
 c_arenberg={
 	pattern="pattern_solid.dds"
@@ -1914,6 +1940,32 @@ c_verdun={
 	}
 }
 
+c_leiningen = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"	
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_eagle.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { position = { 0.32 0.29 } scale = { 0.5 0.5 }  }
+		instance = { position = { 0.68 0.29 } scale = { 0.5 0.5 }  }
+		instance = { position = { 0.5 0.68 } scale = { 0.5 0.5 }  }
+	}
+}
+
+c_perugia = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_griffin_rampant.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
 c_venaissin = {
 	pattern = "pattern_solid.dds"
 	color1 = "red"
@@ -1925,6 +1977,23 @@ c_venaissin = {
 		instance = { position = { 0.5 0.18 } rotation = -90 scale = { 0.80 0.70 }  }
 		instance = { position = { 0.5 0.42 } rotation = -90 scale = { 0.80 0.70 }  }
 		instance = { position = { 0.5 0.66 } rotation = -90 scale = { 0.80 0.70 }  }
+	}
+}
+
+c_rijeka = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_mount.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.66 } scale = { 0.9 0.9 }  }
+	}	
+	colored_emblem = {
+		texture = "ce_eagle_double.dds"
+		color1 = "black"
+		color2 = "yellow"
 	}
 }
 
@@ -4104,5 +4173,21 @@ b_bistrica={
 	colored_emblem={
 		color1=white
 		texture="ce_ordinary_pily_vertical_04.dds"
+	}
+}
+
+b_maribor={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=blue
+		texture="ce_vn_pigeon.dds"
+		instance={
+			scale={ 0.900000 0.900000 }
+		}
 	}
 }

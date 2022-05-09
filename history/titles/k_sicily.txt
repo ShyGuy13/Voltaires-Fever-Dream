@@ -179,3 +179,16 @@ c_cassino = {
 		holder = landulfing2 # Pandolfo VI
 	}
 }
+
+#Siracusa
+c_siracusa = {
+	1053.1.1 = {
+		holder = timnah1 # Muhammad
+	}
+	1062.3.5 = {
+		holder = timnah2 # Ibn ‘Abbâd
+	}
+	#1086.1.1 = {
+		#Normans
+	#}
+}

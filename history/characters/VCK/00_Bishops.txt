@@ -166,3 +166,29 @@ worms_arnold = {
 		death = yes
 	}
 } 
+
+#Viviers
+viviers_gerard = {
+	name = "Gerard" # Gérard of Viviers
+	religion = catholic
+	culture = vivaro_alpine
+	1007.1.1 = { #fic
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+#Utrecht
+utrecht_bernold = {
+	name = "Bernold" # Bernold of Viviers
+	religion = catholic
+	culture = dutch
+	977.1.1 = { #fic
+		birth = yes
+	}
+	1054.7.19 = {
+		death = yes
+	}
+}

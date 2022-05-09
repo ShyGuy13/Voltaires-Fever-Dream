@@ -1,0 +1,26 @@
+timnah1 = {
+	name = "Muhammad" # Muhammad I of Siracusa
+	dynasty = 202
+	religion = maliki
+	culture = tunisian
+	993.1.1 = { #fic
+		birth = yes
+	}
+	1062.3.5 = {
+		death = yes
+	}
+}
+
+timnah2 = {
+	name = "Ibn ‘Abbâd" # Ibn ‘Abbâd I of Siracusa
+	dynasty = 202
+	religion = maliki
+	culture = tunisian
+	father = timnah1
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1110.1.1 = { #fic
+		death = yes
+	}
+}

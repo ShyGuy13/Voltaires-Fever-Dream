@@ -1,0 +1,187 @@
+#Flanders
+d_flanders = {
+	1035.5.30 = {
+		holder = vlaanderen1 # Badouin V
+	}
+}
+c_gent = {
+	1035.5.30 = {
+		holder = vlaanderen1 # Badouin V
+	}
+}
+c_brugge = {
+	1035.5.30 = {
+		holder = vlaanderen1 # Badouin V
+	}
+}
+c_yperen = {
+	1035.5.30 = {
+		holder = vlaanderen1 # Badouin V
+	}
+}
+c_zeeland = {
+	1035.5.30 = {
+		holder = vlaanderen1 # Badouin V
+	}
+}
+c_artois = {
+	1035.5.30 = {
+		holder = vlaanderen1 # Badouin V
+	}
+}
+
+#Lille
+c_lille = {
+	1036.1.1 = {
+		liege = d_flanders
+		holder = lille1 # Saswallon I
+	}
+}
+
+#Cambrai
+c_cambrai = {
+	580.1.1 = {	government = theocracy_government 
+	1051.3.14 = {
+		holder = opbrakel1 # Liébert I
+	}
+}
+
+#Brabant
+d_brabant = {
+	1054.1.1 = {
+		holder = reginaring1 # Hendrik Leuven I
+	}
+}
+c_brussels = {
+	1054.1.1 = {
+		holder = reginaring1 # Hendrik Leuven I
+	}
+}
+c_turnhout = {
+	1054.1.1 = {
+		holder = reginaring1 # Hendrik Leuven I
+	}
+}
+c_tilburg = {
+	1054.1.1 = {
+		holder = reginaring1 # Hendrik Leuven I
+	}
+}
+
+#Loon
+c_loon = {
+	1036.1.1 = {
+		holder = loon1 # Emmon I
+	}
+}
+
+#Enghien
+c_enghien = {
+	1054.1.1 = {
+		holder = enghien1 # Engelbert I
+	}
+}
+
+#Holland
+d_holland = {
+	1049.1.13 = {
+		holder = gerulfing1 # Floris I
+	}
+}
+c_amsterdam = {
+	1049.1.13 = {
+		holder = gerulfing1 # Floris I
+	}
+}
+c_leiden = {
+	1049.1.13 = {
+		holder = gerulfing1 # Floris I
+	}
+}
+
+#Antwerp
+c_antwerpen = {
+	1046.1.1 = {
+		holder = luxemburg3 # Friedrich I
+	}
+}
+
+#Hoorn
+c_hoorne = {
+	1054.1.1 = {
+		holder = hoorn1 # Engelbert I
+	}
+	1094.1.1 = {
+		holder = hoorn2 # Reginbald I
+	}
+}
+
+#Cuijk
+c_cuijk = {
+	1054.1.1 = {
+		holder = cuijk1 # Herman I
+	}
+}
+
+#Frisia
+d_frisia = {
+	1038.4.23 = {
+		holder = brunoning1 # Bruno II
+	}
+}
+c_westergo = {
+	1038.4.23 = {
+		holder = brunoning1 # Bruno II
+	}
+}
+c_fivelgo = {
+	1038.4.23 = {
+		holder = brunoning1 # Bruno II
+	}
+}
+c_ostergo = {
+	1038.4.23 = {
+		holder = brunoning1 # Bruno II
+	}
+}
+
+#Luxembourg
+d_luxembourg = {
+	1047.10.16 = {
+		holder = luxemburg4 # Giselbert I
+	}
+}
+c_luxembourg = {
+	1047.10.16 = {
+		holder = luxemburg4 # Giselbert I
+	}
+}
+c_bitburg = {
+	1047.10.16 = {
+		holder = luxemburg4 # Giselbert I
+	}
+}
+
+#Emsigerland
+c_emsigerland = {
+	1044.7.12 = {
+		holder = werl1 # Hermann III
+	}
+}
+
+#Utrecht
+c_utrecht = {
+	1026.11.27 = {
+		holder = utrecht_bernold # Bernhold I
+	}
+}
+c_deventer = {
+	1026.11.27 = {
+		holder = utrecht_bernold # Bernhold I
+	}
+}
+c_groningen = {
+	1026.11.27 = {
+		holder = utrecht_bernold # Bernhold I
+	}
+}

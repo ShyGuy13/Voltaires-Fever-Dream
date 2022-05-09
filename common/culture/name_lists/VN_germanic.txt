@@ -14,8 +14,8 @@ name_list_german = {
 			Hermann Hans Heinrich Heribert Hugo Humbert Hartwig Hildebrand
 			Johann Johannes Jakob Josef Joachim
 			Konrad Kuno Karl Konstantin
-			Leonhard Ludwig Lothar Ludolf Lambert
-			Matthias Matthäus Maximilian Moritz Marcus Magnus Melchior Markus Marquard Martin Michael
+			Leonhard Ludwig Lothar Ludolf Lambert Liutgard
+			Matthias Matthäus Maximilian Moritz Marcus Melchior Markus Marquard Martin Michael
 			Nikolaus
 			Oswald Otto
 			Peter Philipp
@@ -28,63 +28,67 @@ name_list_german = {
 		}
 		3 = {
 			Altmann Anselm Achilles Alois Adam
-			Bertram Bernd Berthold Benedikt Bartholomäus Benjamin 
-			Detlev Daniel  
-			Erasmus Erich Egon Elias Egbert Ekkehard
-			Felix
-			Gustav Gabriel 
+			Bertram Bernd Berthold Beringer Benedikt Bartholomäus Benjamin 
+			Detlev Daniel Diepold 
+			Erasmus Erich Egon Einhard Elias Egbert Ekkehard
+			Felix Folmar
+			Gustav Gabriel Gero
 			Henning Hieronymus Hector Heinz Herbert Hensel Hugo
 			Jens Jobst Jost Jan
 			Kornelius Kurt
-			Lukas Lorenz
-			Manfred
+			Lukas Lorenz Lamprecht Leo
+			Manfred Magnus
 			Pawel Paul
-			Roman
+			Roman Reginbald
 			Simon Salomon
-			Tilmann
+			Tilmann Theoderich Thiemo
 			Volker Valentin
-			Winrich Wolfram Wiegand Winter Wolf
+			Winrich Wolfram Wiegand Winter Wolf 
 		}
 		1 = {
-			Albuin Amandus 
-			Bawin Bertrand Boppo Batok Bastian 
+			Albuin Amandus Aribo
+			Bawin Bertrand Boppo Batok Bastian Bardo Boemund
 			Carste 
-			Detward
-			Elger Esico Elert Eberwin Egidius Einhard Egilmar Engilbert Ezzelin Egno Egelolf
+			Detward David
+			Elger Emich Esico Elert Eberwin Egidius Everger Egilmar Engilbert Ezzelin Egno Egelolf
 			Florenz Franco Frederik
 			Giselbert Gerold Gundekar Gobel Goswin 
-			Hildorf Hildebold Hilger 
+			Hildorf Hildebold Hilger Hatto Hillin
 			Isaac
 			Jodokus
 			Liemar Ludger Liborius Lienhardt 
 			Metfried Mauritz Megingoz Modestinus 
 			Nickel
-			Reimar Richald Rutger Rüdiger Reinboto Richolf Ripert
+			Pilgrim Pankraz
+			Rhaban Reimar Richald Rutger Rüdiger Reinboto Richolf Ripert
 			Salentin Sigewin Siger Statius Sebastian
 			Thietmar 
+			Uriel
 			Vincenz Vizelin Volkwin Volrad Volkhard Veit 
-			Wicker Wiprecht Woffo Winland Wezelo Wittekind Wulf Widelo Wedekind Wilbrand
+			Warin Wicker Wiprecht Woffo Winland Wezelo Wittekind Wulf Widelo Wedekind Wilbrand
 		}
 	}
 	
 	female_names = {
-		Anna Adelheid Agnes Amalie Apollonia Ada Adela
+		Anna Adelheid Agnes Amalie Antonia Apollonia Ada Adela Auguste
 		Barbara Beatrix
 		Christina Charlotte 
 		Dorothea 
-		Euphemia Elisabeth Eleonore Ernestine Eva Emma Eberhardine 
+		Euphemia Elisabeth Eleonore Ernestine Else Eva Emma Eberhardine 
 		Franziska Florentina 
-		Guda 
-		Hildegard Hedwig 
+		Guda Gertrude
+		Hildegard Hedwig Henriette
 		Isabelle Ida
-		Jutta Juliane Judith
-		Katharina
-		Luise
-		Margarete Marie Maria Magdalena Mechthild 
+		Jutta Juliane Judith Jacoba Johanna
+		Katharina Kunigunde Karoline
+		Luise Liutgard
+		Margarete Marie Maria Magdalena Mechthild Michaela
+		Reinhilde Rosemarie
 		Susanna Sabine Sibylle Sophie 
+		Therese Theresa
 		Ursula 
 		Verena
-		Walpurgis 
+		Walpurgis Willibirg
 		Yolande 
 	}
 
@@ -353,7 +357,7 @@ name_list_german = {
 		{ dynnp_von dynn_Muris }
 		{ dynnp_von dynn_Bechburg }
 		{ dynnp_von dynn_Ebersberg }
-		{ dynn_Hasenbein  }
+		{ dynn_Hasenbein }
 		{ dynnp_von dynn_Tierberg }
 		{ dynnp_von dynn_Rohrdorf }
 		{ dynnp_von dynn_Marbach }
@@ -689,64 +693,256 @@ name_list_german = {
 		{ dynnp_von dynn_Grunenberg }
 
 		#Reichsritter
-		{ dynnp_von dynn_Absberg }
-		{ dynnp_von dynn_Adelsheim }
-		{ dynnp_von dynn_Altenstein }
-		{ dynnp_von dynn_Angelach }
-		{ dynnp_von dynn_Ansbach }
-		{ dynnp_von dynn_Arnim }
-		{ dynnp_von dynn_Aschhausen }
+		#Donau
+		{ dynnp_von dynn_Bernhausen }
+		{ dynnp_von dynn_Boyneburg }
+		{ dynnp_von dynn_Freyberg }
+		{ dynnp_von dynn_Gemmingen }
+		{ dynnp_von dynn_Hornstein }
+		{ dynnp_von dynn_Imhof }
+		{ dynnp_von dynn_Knoringen }
+		{ dynnp_von dynn_Rechberg }
+		{ dynnp_zu dynn_Horgau }
+		{ dynnp_von dynn_Meldegg }
+		{ dynnp_von dynn_Riedheim }
+		{ dynnp_von dynn_Bussmannshausen }
+		{ dynnp_von dynn_Mittelbiberach }
+		{ dynnp_von dynn_Burtenbach }
+		{ dynnp_von dynn_Speth }
+		{ dynnp_vom dynn_Stain }
+		{ dynnp_von dynn_Stauffenberg }
+		{ dynnp_von dynn_Stotzingen }
+		{ dynnp_von dynn_Tratzberg }
+		{ dynnp_von dynn_Frickenhausen }
+		{ dynnp_von dynn_Welden }
+		{ dynnp_von dynn_Werdenstein }
+		{ dynnp_von dynn_Deubach }
+		#Gebürg
 		{ dynnp_von dynn_Aufsess }
-		{ dynnp_von dynn_Balitzheim }
-		{ dynnp_von dynn_Baltzhoven }
-		{ dynnp_von dynn_Bastheim }
-		{ dynnp_von dynn_Baumsdorf }
-		{ dynnp_von dynn_Bayersdorff }
-		{ dynnp_von dynn_Berlichingen }
-		{ dynnp_von dynn_Bernheim }
-		{ dynnp_von dynn_Bernholt }
-		{ dynnp_von dynn_Berolzheim }
-		{ dynnp_von dynn_Bertram }
-		{ dynnp_von dynn_Bettendorf }
-		{ dynnp_von dynn_Biberehren }
-		{ dynnp_von dynn_Bibra }
-		{ dynnp_von dynn_Bickenbach }
-		{ dynnp_von dynn_Bilversheim }
-		{ dynnp_von dynn_Blanckenberg }
-		{ dynnp_von dynn_Blanckenfels }
-		{ dynnp_von dynn_Blassenberg }
-		{ dynnp_von dynn_Bobenhausen }
-		{ dynnp_von dynn_Boxberg }
+		{ dynnp_zu dynn_Seubitz }
 		{ dynnp_von dynn_Brandt }
-		{ dynnp_von dynn_Brandenstein }
-		{ dynnp_von dynn_Brende }
-		{ dynnp_von dynn_Buches }
-		{ dynnp_von dynn_Bunau }
-		{ dynnp_von dynn_Burdian }
-		{ dynnp_von dynn_Buttlar }
-		{ dynnp_von dynn_Oedheim }
-		{ dynnp_von dynn_Cappel }
-		{ dynnp_von dynn_Cottenau }
-		{ dynnp_von dynn_Crailsheim }
-		{ dynnp_von dynn_Dachroden }
-		{ dynnp_von dynn_Degenfeld }
-		{ dynnp_von dynn_Dettelbach }
-		{ dynnp_von dynn_Diemar }
-		{ dynnp_von dynn_Dietenhofen }
-		{ dynnp_von dynn_Didelzheim }
+		{ dynn_von_der_Cappel }
 		{ dynnp_von dynn_Dobeneck }
-		{ dynnp_zu dynn_Jagstheim }
-		{ dynnp_von dynn_Donndorf }
-		{ dynnp_von dynn_Dottenheim }
-		{ dynnp_von dynn_Drossendorf }
-		{ dynnp_von dynn_Riegelstein }
-		{ dynnp_von dynn_Eberbach }
-		{ dynnp_von dynn_Ebersberg }
-		{ dynnp_von dynn_Eberstein }
-		{ dynnp_zu dynn_Mespelbrunn }
-		{ dynnp_von dynn_Eckersberg }
 		{ dynnp_von dynn_Egloffstein }
+		{ dynnp_von dynn_Eyb }
+		{ dynnp_von dynn_Feilitzsch }
+		{ dynnp_von_der_Grun }
+		{ dynnp_von dynn_Guttenberg }
+		{ dynnp_von dynn_Gailsdorf }
+		{ dynnp_von dynn_Giech }
+		{ dynnp_von dynn_Gottsmann }
+		{ dynnp_von dynn_Haidenab }
+		{ dynnp_von dynn_Hirschaid }
+		{ dynnp_von dynn_Hasslach }
+		{ dynnp_von dynn_Hainold }
+		{ dynnp_von dynn_Herdegen }
+		{ dynnp_von dynn_Kotzau }
+		{ dynnp_von dynn_Kunssberg }
+		{ dynnp_von dynn_Konigsfeld }
+		{ dynnp_von dynn_Konitz }
+		{ dynnp_von dynn_Luschwitz }
+		{ dynnp_von dynn_Laineck }
+		{ dynnp_von dynn_Minkwitz }
+		{ dynnp_von dynn_Ebneth }
+		{ dynnp_von dynn_Modschiedler }
+		{ dynnp_von dynn_Mengersdorf }
+		{ dynnp_von dynn_Neustetter }
+		{ dynnp_von dynn_Peulwitz }
+		{ dynnp_von dynn_Plankenberg }
+		{ dynnp_von dynn_Plassenberg }
+		{ dynnp_von dynn_Pötzing }
+		{ dynnp_von dynn_Rabenstein }
+		{ dynnp_von dynn_Raittenbach }
+		{ dynnp_von dynn_Redwitz }
+		{ dynnp_von dynn_Reitzenstein }
+		{ dynnp_von dynn_Rothschutz }
+		{ dynnp_von dynn_Sparneck }
+		{ dynnp_von dynn_Schirnding }
+		{ dynnp_von dynn_Schaumberg }
+		{ dynnp_von dynn_Seckendorff }
+		{ dynnp_von dynn_Stiebar }
+		{ dynnp_von dynn_Thun }
+		{ dynnp_von dynn_Truppach }
+		{ dynnp_von dynn_Thienheim }
+		{ dynnp_von dynn_Waldenfels }
+		{ dynnp_von dynn_Wallenrod }
+		{ dynnp_von dynn_Weiher }
+		{ dynnp_von dynn_Wannbach }
+		{ dynnp_von dynn_Wichsenstein } #ok coomer
+		{ dynnp_von dynn_Wiesenthau }
+		{ dynnp_von dynn_Wirsberg }
+		{ dynnp_von dynn_Witzleben }
+		{ dynnp_von dynn_Wurtzburg }
+		{ dynnp_von dynn_Zedtwitz }
+		{ dynnp_von dynn_Zeyern }
+		{ dynnp_von dynn_Streitberg }
+		{ dynnp_von dynn_Russwurm }
+		{ dynnp_von dynn_Polnitz }
+		#Odenwald
+		{ dynnp_von dynn_Adelsheim }
+		{ dynnp_von dynn_Aschhausen }
+		{ dynnp_von dynn_Balitzheim }
+		{ dynnp_von dynn_Balzhofen }
+		{ dynnp_von dynn_Berlichingen }
+		{ dynnp_von dynn_Bieberehren }
+		{ dynnp_von dynn_Bobenhausen }
+		{ dynnp_von dynn_Crailsheim }
+		{ dynnp_von dynn_Dudelsheim }
+		{ dynnp_von dynn_Echter }
 		{ dynnp_von dynn_Ehenheim }
+		{ dynnp_von dynn_Eicholzheim }
+		{ dynnp_von dynn_Eltershofen }
+		{ dynnp_von dynn_Ellrichshausen }
+		{ dynnp_von dynn_Fechenbach }
+		{ dynnp_von dynn_Finsterlohr }
+		{ dynnp_von dynn_Franckenstein }
+		{ dynnp_von dynn_Fuchs }
+		{ dynnp_von dynn_Geyling }
+		{ dynnp_von dynn_Otzberg }
+		{ dynnp_von dynn_Schollkrippen }
+		{ dynnp_von dynn_Giebelstadt }
+		{ dynnp_von dynn_Kochendorf }
+		{ dynnp_von dynn_Dieburg }
+		{ dynnp_von dynn_Hoheneck }
+		{ dynnp_von dynn_Hardheim }
+		{ dynnp_von dynn_Helmstatt }
+		{ dynnp_von dynn_Hettersdorff }
+		{ dynnp_von dynn_Heusenstamm }
+		{ dynnp_von dynn_Hirschhorn }
+		{ dynnp_von dynn_Reinheim }
+		{ dynnp_von dynn_Klinkhart }
+		{ dynnp_von dynn_Kottenheim }
+		{ dynnp_von dynn_Kottwitz }
+		{ dynnp_von dynn_Kritheim }
+		{ dynnp_von dynn_Laimingen }
+		{ dynnp_von dynn_Steinach }
+		{ dynnp_von dynn_Leutzenbrunn }
+		{ dynnp_von dynn_Archshofen }
+		{ dynnp_von dynn_Morstein }
+		{ dynnp_von dynn_Lindenfels }
+		{ dynnp_von dynn_Neudeck }
+		{ dynnp_von dynn_Pfraumheim }
+		{ dynnp_von dynn_Ratzenberg }
+		{ dynnp_von dynn_Reyn }
+		{ dynnp_von dynn_Riedern }
+		{ dynnp_von dynn_Rinderbach }
+		{ dynnp_von dynn_Rodenstein }
+		{ dynnp_von dynn_Rosenberg }
+		{ dynnp_von dynn_Bodigheim }
+		{ dynnp_von dynn_Ostheim }
+		{ dynnp_von dynn_Bergen }
+		{ dynnp_von dynn_Schrozberg }
+		{ dynnp_von dynn_Trampe }
+		{ dynnp_von dynn_Stiess }
+		{ dynnp_von dynn_Stetten }
+		{ dynnp_von dynn_Stettenberg }
+		{ dynnp_von dynn_Mergentheim }
+		{ dynnp_von dynn_Baldersheim }
+		{ dynnp_von dynn_Dieburg }
+		{ dynnp_von dynn_Vellberg }
+		{ dynnp_von dynn_Wallstadt }
+		{ dynnp_von dynn_Wallbrunn }
+		{ dynnp_von dynn_Umstadt }
+		{ dynnp_von dynn_Wasen }
+		{ dynnp_von dynn_Wittstadt }
+		{ dynnp_von dynn_Wolfskeel }
+		{ dynnp_von dynn_Wolmershausen }
+		{ dynnp_von dynn_Zobel }
+		{ dynnp_von dynn_Bulach }
+		{ dynnp_von dynn_Bettendorff }
+		{ dynnp_von dynn_Bouwinghausen }
+		{ dynnp_von dynn_Oedheim }
+		{ dynnp_von dynn_Degenfeld }
+		{ dynnp_von dynn_Hatzfeld }
+		{ dynnp_von dynn_Haxthausen }
+		{ dynnp_von dynn_Hettersdorff }
+		{ dynnp_von dynn_Holtz }
+		{ dynnp_von dynn_Ingelheim }
+		{ dynnp_von dynn_Lehrbach }
+		{ dynnp_von dynn_Lerchenfeld }
+		{ dynnp_von dynn_Maierhofen }
+		{ dynnp_von dynn_Oetinger }
+		{ dynnp_von dynn_Pollnitz }
+		{ dynnp_von dynn_Prettlack }
+		{ dynnp_von dynn_Racknitz }
+		{ dynnp_von dynn_Reigersberg }
+		{ dynnp_von dynn_Riaucour }
+		{ dynnp_von dynn_Rosenbach }
+		{ dynnp_von dynn_Saint-Andre }
+		{ dynnp_von dynn_Schonborn }
+		{ dynnp_von dynn_Sulburg }
+		{ dynnp_von dynn_Rodenstein }
+		{ dynnp_von dynn_Zylnhardt }
+		#Rhön-Werra
+		{ dynnp_von dynn_Bibra }
+		{ dynnp_von dynn_Buchenau }
+		{ dynnp_von dynn_Erthal }
+		{ dynnp_von dynn_Gebsattel }
+		{ dynnp_von dynn_Geyso }
+		{ dynnp_von dynn_Gleichen }		
+		{ dynnp_von dynn_Hutten }
+		{ dynnp_von dynn_Munster }
+		{ dynnp_von dynn_Eisenbach }
+		{ dynnp_zu dynn_Schweinsberg }
+		{ dynnp_von dynn_Schlitz }		
+		{ dynnp_von dynn_Soden }
+		{ dynnp_von dynn_Spesshardt }
+		{ dynnp_von dynn_Steinau }
+		{ dynnp_von dynn_Thungen }
+		{ dynnp_von dynn_Wetzhausen }		
+		{ dynnp_von dynn_Volkershausen }
+		{ dynnp_von dynn_Salzburg }
+		{ dynnp_von dynn_Wechmar }
+		{ dynnp_von dynn_Wolzogen }
+		#Altmühl
+		{ dynnp_von dynn_Hessberg }
+		{ dynnp_von dynn_Jaxtheim }
+		{ dynnp_von dynn_Knoringen }
+		{ dynnp_von dynn_Lentersheim }
+		{ dynnp_von dynn_Leonrod }
+		{ dynnp_von dynn_Geyern }		
+		{ dynnp_von dynn_Wollwarth }
+		{ dynnp_von dynn_Absberg }
+		{ dynnp_von dynn_Gundelsheim }
+		{ dynnp_von dynn_Haltermannstetten }
+		{ dynnp_von dynn_Herckam }
+		{ dynnp_von dynn_Kuhdorf }
+		{ dynnp_von dynn_Lochinger }
+		{ dynnp_von dynn_Ottenberg }
+		{ dynnp_von dynn_Bibart }
+		{ dynnp_von dynn_Schenkenstein }
+		{ dynnp_von dynn_Schrotzberg }
+		{ dynnp_von dynn_Wilhelmsdorf }
+		{ dynnp_von dynn_Appold }
+		{ dynnp_von dynn_Berga }
+		{ dynnp_von dynn_Auritz }
+		{ dynnp_von dynn_Falkenhausen }
+		{ dynnp_von dynn_Hallerstein }
+		{ dynnp_von dynn_Kressenstein }
+		{ dynnp_von dynn_Leublfing }
+		{ dynnp_von dynn_Grabenhof }
+		{ dynnp_von dynn_Mohrenfels }
+		{ dynnp_von dynn_Kornburg }
+		{ dynnp_zu dynn_Burgfarrnbach }
+
+
+
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
+		{ dynnp_von dynn_Geuder }
 
 
 
@@ -765,14 +961,12 @@ name_list_german = {
 		{ dynnp_von dynn_Westenholz }
 		{ dynnp_von dynn_Westersheimb }
 		{ dynnp_von dynn_Wiedersperg }
-		{ dynnp_von dynn_Wildenstein }
 		{ dynnp_von dynn_Wildon }
 		{ dynnp_von dynn_Winkel }
 		{ dynnp_von dynn_Morgenstern }
 		{ dynnp_von dynn_Wispeck }
 		{ dynnp_von dynn_Wolfurt }
 		{ dynnp_von dynn_Wolkenstein }
-		{ dynnp_von dynn_Wolzogen }
 		{ dynnp_von dynn_Gamsendorf }
 		{ dynnp_von dynn_Zelking }
 		{ dynnp_von dynn_Zinzendorf }

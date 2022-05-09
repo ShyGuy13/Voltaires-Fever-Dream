@@ -1,0 +1,12 @@
+﻿loon1 = {
+	name = "Emmon" #Emmon I of Loon
+	dynasty = 196
+	religion = catholic
+	culture = franconian
+	1030.1.1 = {
+		birth = yes
+	}
+	1078.1.17 = { #fic
+		death = yes
+	}
+}

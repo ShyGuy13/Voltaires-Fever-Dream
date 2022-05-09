@@ -1,0 +1,26 @@
+﻿gerulfing1 = {
+	name = "Floris" #Floris I of Holland
+	dynasty = 199
+	religion = catholic
+	culture = dutch
+	1017.1.1 = {
+		birth = yes
+	}
+	1061.6.28 = {
+		death = yes
+	}
+}
+
+gerulfing2 = {
+	name = "Dirk" #Dirk V of Holland
+	dynasty = 199
+	religion = catholic
+	culture = dutch
+	father = gerulfing1
+	1051.1.1 = {
+		birth = yes
+	}
+	1091.6.17 = {
+		death = yes
+	}
+}

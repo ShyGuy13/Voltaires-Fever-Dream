@@ -1,0 +1,12 @@
+﻿opbrakel1 = {
+	name = "Liebert" # bishop of Cambrai
+	dynasty = 194
+	religion = catholic
+	culture = picard
+	1010.1.1 = {
+		birth = yes
+	}
+	1076.9.28 = {
+		death = yes
+	}
+}

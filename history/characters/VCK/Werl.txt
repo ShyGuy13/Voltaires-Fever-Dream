@@ -1,0 +1,12 @@
+﻿werl1 = {
+	name = "Hermann" # Hermann III of Emsgau
+	dynasty = 156
+	religion = catholic
+	culture = hannoverian
+	978.1.1 = { #fic
+		birth = yes
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}

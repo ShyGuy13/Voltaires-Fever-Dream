@@ -1,0 +1,85 @@
+﻿brunoning1 = {
+	name = "Bruno" #Bruno II of Frisia
+	dynasty = 157
+	religion = catholic
+	culture = eastphalian
+	father = brunoning3
+	1024.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+
+brunoning2 = {
+	name = "Egbert" #Egbert I of Frisia
+	dynasty = 157
+	religion = catholic
+	culture = eastphalian
+	father = brunoning3
+	1036.1.1 = {
+		birth = yes
+	}
+	1068.1.11 = {
+		death = yes
+	}
+}
+
+brunoning3 = {
+	name = "Liudolf" #Liudolf I of Frisia
+	dynasty = 157
+	religion = catholic
+	culture = eastphalian
+	1003.1.1 = {
+		birth = yes
+	}
+	1038.4.23 = {
+		death = yes
+	}
+}
+
+brunoning4 = {
+	name = "Mathilde" #wife of Henri I of France
+	female = yes
+	dynasty = 157
+	religion = catholic
+	culture = eastphalian
+	father = brunoning3
+	1026.1.1 = { #fic
+		birth = yes
+	}
+	1044.1.1 = {
+		death = yes
+	}
+}
+
+brunoning5 = {
+	name = "Ida" #wife of Leopold of Babenberg
+	female = yes
+	dynasty = 157
+	religion = catholic
+	culture = eastphalian
+	father = brunoning3
+	1027.1.1 = { #fic
+		birth = yes
+	}
+	1050.1.1 = { #fic
+		death = yes
+	}
+}
+
+brunoning6 = {
+	name = "Agatha" #wife of Edward the Exile
+	female = yes
+	dynasty = 157
+	religion = catholic
+	culture = eastphalian
+	father = brunoning3 #possibly
+	1030.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}

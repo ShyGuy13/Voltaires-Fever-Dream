@@ -1,0 +1,12 @@
+﻿enghien1 = {
+	name = "Engelbert" # Engelbert I of Enghien
+	dynasty = 20
+	religion = catholic
+	culture = picard
+	1025.1.1 = { # fic
+		birth = yes
+	} 
+	1090.1.1 = {
+		death = yes
+	}
+}

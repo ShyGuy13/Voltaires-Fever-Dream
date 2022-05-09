@@ -1,0 +1,12 @@
+﻿vlaanderen1 = {
+	name = "Baudouin" # Baudouin V of Flanders
+	dynasty = 192
+	religion = catholic
+	culture = flamish
+	1012.8.19 = {
+		birth = yes
+	}
+	1067.9.1 = {
+		death = yes
+	}
+}

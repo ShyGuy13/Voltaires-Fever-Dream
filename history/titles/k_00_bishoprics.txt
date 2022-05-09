@@ -163,3 +163,10 @@ d_bm_metz = {
 		holder = luxemburg2 # Adalbéron III
 	}
 }
+
+d_bm_utrecht = {
+	1000.1.1 = { government = theocracy_government }
+	1026.11.27 = {
+		holder = utrecht_bernold # Bernhold I
+	}
+}

@@ -1097,7 +1097,7 @@ c_naumburg = {
 }
 
 #Gleichenstein
-c_gleichenstein = {
+c_northeim = {
 	1040.1.1 = {
 		holder = northeim1 # Otto I
 	}
@@ -1125,11 +1125,6 @@ c_gera = {
 	1054.1.1 = {
 		holder = reuss1 # Erkenbert I
 	}
-}
-
-#Naumburg
-c_naumburg = {
-
 }
 
 #Meissen
@@ -1173,6 +1168,11 @@ c_schmalkalden = {
 
 #Münzenberg
 c_munzenberg = {
+	1054.1.1 = {
+		holder = munzenberg1 # Kuno I
+	}
+}
+c_gleiberg = {
 	1054.1.1 = {
 		holder = munzenberg1 # Kuno I
 	}

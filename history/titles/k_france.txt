@@ -17,7 +17,7 @@ c_tenquin = {
 }
 
 #Lorraine
-d_lorraine = {
+d_upper_lorraine = {
 	1048.11.11 = {
 		holder = gerharding1 # Gérard I
 	}

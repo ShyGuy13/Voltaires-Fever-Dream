@@ -11,6 +11,7 @@ k_liechtenstein = {
 k_papal_state = {
 	color = { 255 249 198 }
 	color2 = { 220 220 0 }
+
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -30,6 +31,9 @@ k_papal_state = {
 }
 
 d_bm_aquileia = {
+	color = { 34  30  174 }
+	color2 = { 255 255 255 }
+
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -45,6 +49,9 @@ d_bm_aquileia = {
 }
 
 d_bm_augsburg = {
+	color = { 70 238 181 }
+	color2 = { 255 255 255 }
+
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -90,6 +97,9 @@ d_bm_brandenburg = {
 }
 
 d_bm_regensburg = {
+	color = { 180  116  193 }
+	color2 = { 255 255 255 }
+
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -150,6 +160,9 @@ d_bm_lubeck = {
 }
 
 d_bm_metz = {
+	color = { 25 52 115 }
+	color2 = { 255 255 255 }
+
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -165,6 +178,9 @@ d_bm_metz = {
 }
 
 d_bm_speyer = {
+	color = { 122  41  32 }
+	color2 = { 255 255 255 }
+
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -240,6 +256,9 @@ d_bm_schwerin = {
 }
 
 d_bm_brixen = {
+
+	capital = c_brixen
+
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -270,6 +289,9 @@ d_bm_cammin = {
 }
 
 d_bm_dresden = {
+	color = { 254  204  91 }
+	color2 = { 255 255 255 }
+
 	capital = c_dresden
 
 	definite_form = yes
@@ -287,6 +309,9 @@ d_bm_dresden = {
 }
 
 d_bm_eichstadt = {
+	color = { 3 101 178 }
+	color2 = { 255 255 255 }
+
 	capital = c_eichstadt
 
 	definite_form = yes
@@ -356,6 +381,8 @@ d_bm_hildesheim = {
 }
 
 d_bm_havelberg = {
+	color = { 73  42  24 }
+	color2 = { 255 255 255 }
 
 	definite_form = yes
 	ruler_uses_title_name = no
@@ -420,6 +447,9 @@ d_bm_liege = {
 }
 
 d_bm_lausanne = {
+	color = { 63  65  118 }
+	color2 = { 255 255 255 }
+
 	capital = c_lausanne
 
 	definite_form = yes
@@ -454,7 +484,8 @@ d_bm_lyon = {
 }
 
 d_bm_magdeburg = {
-
+	color = { 189  115  99 }
+	color2 = { 255 255 255 }
 
 	definite_form = yes
 	ruler_uses_title_name = no
@@ -471,6 +502,9 @@ d_bm_magdeburg = {
 }
 
 d_bm_mainz = {
+	color = { 178  145  87 }
+	color2 = { 255 255 255 }
+
 	capital = c_mainz
 
 	definite_form = yes
@@ -523,6 +557,9 @@ d_bm_munster = {
 }
 
 d_bm_naumburg = {
+	color = { 101  161  192 }
+	color2 = { 255 255 255 }
+
 	capital = c_naumburg
 
 	definite_form = yes
@@ -557,6 +594,9 @@ d_bm_osnabruck = {
 }
 
 d_bm_passau = {
+	color = { 108  206  255 }
+	color2 = { 255 255 255 }
+
 	capital = c_passau
 
 	definite_form = yes
@@ -590,6 +630,9 @@ d_bm_ratzeburg = {
 }
 
 d_bm_salzburg = {
+	color = { 129  109  9 }
+	color2 = { 255 255 255 }
+
 	capital = c_salzburg
 
 	definite_form = yes
@@ -608,6 +651,9 @@ d_bm_salzburg = {
 
 
 d_bm_strassburg = {
+	color = { 255 255 55 }
+	color2 = { 255 255 255 }
+
 	capital = c_strassburg
 
 	definite_form = yes
@@ -692,6 +738,9 @@ d_bm_trier = {
 }
 
 d_bm_trent = {
+	color = { 220 93 71 }
+	color2 = { 255 255 255 }
+
 	capital = c_trent
 
 	color = { 148  122  151 }
@@ -712,6 +761,10 @@ d_bm_trent = {
 }
 
 d_bm_utrecht = {
+	color = { 223 198 64 }
+	color2 = { 255 255 255 }
+
+	capital = c_utrecht
 
 	definite_form = yes
 	ruler_uses_title_name = no
@@ -728,6 +781,8 @@ d_bm_utrecht = {
 }
 
 d_bm_verden = {
+	color = { 227 211 34 }
+	color2 = { 255 255 255 }
 
 	definite_form = yes
 	ruler_uses_title_name = no
@@ -744,6 +799,8 @@ d_bm_verden = {
 }
 
 d_bm_viviers = {
+	color = { 63 194 82 }
+	color2 = { 255 255 255 }
 
 	definite_form = yes
 	ruler_uses_title_name = no
@@ -760,6 +817,9 @@ d_bm_viviers = {
 }
 
 d_bm_wurzburg = {
+	color = { 147  146  106 }
+	color2 = { 255 255 255 }
+
 	capital = c_wurzburg
 
 	definite_form = yes

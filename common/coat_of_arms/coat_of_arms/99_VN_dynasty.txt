@@ -457,6 +457,22 @@
 	}			
 }
 
+157 = { # Brunoning
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_lion_rampant_per_pale.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.290 0.45 } scale = { -0.7 0.75 }  }			
+		instance = { position = { 0.710 0.45 } scale = { 0.7 0.75 }  }			
+	}	
+}
+
+167 = c_leiningen # Leiningen
+
+190 = c_uzes # Uzès
 
 # 2 = { #Heeckeren
 # 	pattern = "pattern_cross_01.dds"
