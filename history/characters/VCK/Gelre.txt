@@ -1,0 +1,12 @@
+﻿gelre1 = {
+	name = "Gerard Flamens" # Gerard Flamens III of Solothurn
+	dynasty = 206
+	religion = catholic
+	culture = dutch
+	1022.1.1 = {
+		birth = yes
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}

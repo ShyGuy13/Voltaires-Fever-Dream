@@ -437,6 +437,8 @@ d_bm_cologne = {
 }
 
 d_bm_liege = {
+	color = { 149  186  37 }
+	color2 = { 255 255 255 }
 
 	definite_form = yes
 	ruler_uses_title_name = no

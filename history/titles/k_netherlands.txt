@@ -190,3 +190,37 @@ c_groningen = {
 		holder = utrecht_bernold # Bernhold I
 	}
 }
+
+#Gelre
+c_gelderen = {
+	1054.1.1 = {
+		holder = gelre1 # Gerard Flamens III
+	}
+}
+c_arnhem = {
+	1054.1.1 = {
+		holder = gelre1 # Gerard Flamens III
+	}
+}
+c_veluwe = {
+	1054.1.1 = {
+		holder = gelre1 # Gerard Flamens III
+	}
+}
+
+#Liege
+c_liege = {
+	1048.7.8 = {
+		holder = liege_theoduin # Théoduin I
+	}
+}
+c_mechelen = {
+	1048.7.8 = {
+		holder = liege_theoduin # Théoduin I
+	}
+}
+c_dinant = {
+	1048.7.8 = {
+		holder = liege_theoduin # Théoduin I
+	}
+}

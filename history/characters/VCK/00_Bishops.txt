@@ -192,3 +192,16 @@ utrecht_bernold = {
 		death = yes
 	}
 }
+
+#Liege
+liege_theoduin = {
+	name = "Theoduin" # Théoduin I
+	religion = catholic
+	culture = bavarian
+	1001.1.1 = { #fic
+		birth = yes
+	}
+	1075.6.23 = {
+		death = yes
+	}
+}

@@ -170,3 +170,10 @@ d_bm_utrecht = {
 		holder = utrecht_bernold # Bernhold I
 	}
 }
+
+d_bm_liege = {
+	1000.1.1 = { government = theocracy_government }
+	1048.7.8 = {
+		holder = liege_theoduin # Théoduin I
+	}
+}

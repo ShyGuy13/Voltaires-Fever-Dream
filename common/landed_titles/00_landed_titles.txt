@@ -236,6 +236,9 @@ e_netherlands = {
 					color = { 32 124 32 }
 					color2 = { 255 255 255 }
 				}
+			}
+
+			c_mechelen = {
 				b_mechelen = {
 					province = 1057
 					color = { 156 42 79 }
@@ -525,6 +528,19 @@ e_netherlands = {
 			color = { 190  32  16 }
 			color2 = { 255 255 255 }
 
+			c_ostringen = {
+				b_ostringen = {
+					province = 2750
+					color = { 161 131 246 }
+					color2 = { 255 255 255 }
+				}
+				b_varel = {
+					province = 2827
+					color = { 165 116 117 }
+					color2 = { 255 255 255 }
+				}
+			}
+
 			c_rustingen = {
 				color = { 200  42  26 }
 				color2 = { 255 255 255 }
@@ -537,6 +553,19 @@ e_netherlands = {
 				b_wursten = {
 					province = 1765
 					color = { 16 253 253 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_federgo = {
+				b_federgo = {
+					province = 2217
+					color = { 66 156 186 }
+					color2 = { 255 255 255 }
+				}
+				b_oostfriese_eilanden = {
+					province = 254
+					color = { 163 146 255 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -2068,7 +2097,41 @@ e_italia = {
 				}
 			}
 
+			c_ventimiglia = {
+				color = { 225  186 221 }
+				color2 = { 255 255 255 }
+
+				b_ventimiglia = {
+					province = 1806
+					color = { 57 203 203 }
+					color2 = { 255 255 255 }
+				}
+				b_dolceacqua = {
+					province = 1812
+					color = { 63 223 253 }
+					color2 = { 255 255 255 }
+				}
+				b_tenda = {
+					province = 2086
+					color = { 78 0 244 }
+					color2 = { 255 255 255 }
+				}
+				b_menton = {
+					province = 1127
+					color = { 38 52 126 }
+					color2 = { 255 255 255 }
+				}
+				b_monaco = {
+					province = 2262
+					color = { 118 126 240 }
+					color2 = { 255 255 255 }
+				}
+			}
+
 			c_saluzzo = {
+				color = { 179 212 219 }
+				color2 = { 255 255 255 }
+
 				b_saluzzo = {
 					province = 1007
 					color = { 21 72 32 }
@@ -2105,6 +2168,9 @@ e_italia = {
 			}
 
 			c_fossano = {
+				color = { 195  146 190 }
+				color2 = { 255 255 255 }
+
 				b_fossano = {
 					province = 368
 					color = { 179 118 192 }
@@ -4194,7 +4260,13 @@ e_hre = {
 		}
 
 		d_slesvig = {
+			color = { 224 74 74 }
+			color2 = { 255 255 255 }
+
 			c_slesvig = {
+				color = { 224 74 74 }
+				color2 = { 255 255 255 }
+
 				b_slesvig = {
 					province = 2384
 					color = { 240 125 232 }
@@ -5412,6 +5484,19 @@ e_hre = {
 				}
 			}
 
+			c_prenzlau = {
+				b_prenzlau = {
+					province = 2666
+					color = { 97 12 145 }
+					color2 = { 255 255 255 }
+				}
+				b_pasewalk = {
+					province = 48
+					color = { 6 128 192 }
+					color2 = { 255 255 255 }
+				}
+			}
+
 			c_stettin = {
 				b_stettin = {
 					province = 2417
@@ -5429,6 +5514,11 @@ e_hre = {
 				b_wolgast = {
 					province = 2642
 					color = { 91 2 95 }
+					color2 = { 255 255 255 }
+				}
+				b_usedom = {
+					province = 858
+					color = { 129 54 173 }
 					color2 = { 255 255 255 }
 				}
 				b_greifswald = {
@@ -5467,6 +5557,19 @@ e_hre = {
 				}
 			}
 
+			c_barth = {
+				b_barth = {
+					province = 851
+					color = { 0 40 32 }
+					color2 = { 255 255 255 }
+				}
+				b_stralsund = {
+					province = 2623
+					color = { 232 201 46 }
+					color2 = { 255 255 255 }
+				}
+			}
+
 			c_mecklenburg = {
 				b_mecklenburg = {
 					province = 854
@@ -5478,9 +5581,17 @@ e_hre = {
 					color = { 80 211 231 }
 					color2 = { 255 255 255 }
 				}
+			}
+
+			c_schwerin = {
 				b_schwerin = {
 					province = 1983
 					color = { 212 62 173 }
+					color2 = { 255 255 255 }
+				}
+				b_warin = {
+					province = 12
+					color = { 1 56 128 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -5587,6 +5698,138 @@ e_hre = {
 				b_plau = {
 					province = 2667
 					color = { 223 132 95 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_brandenburg = {
+
+			c_templin = {
+				b_templin = {
+					province = 843
+					color = { 118 156 0 }
+					color2 = { 255 255 255 }
+				}
+				b_lychen = {
+					province = 406
+					color = { 185 66 64 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_pritzwalk = {
+				b_pritzwalk = {
+					province = 746
+					color = { 153 134 173 }
+					color2 = { 255 255 255 }
+				}
+				b_kyritz = {
+					province = 3209
+					color = { 212 204 118 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_jerichow = {
+				b_jerichow = {
+					province = 589
+					color = { 211 42 64 }
+					color2 = { 255 255 255 }
+				}
+				b_parey = {
+					province = 2649
+					color = { 136 158 246 }
+					color2 = { 255 255 255 }
+				}
+				b_genthin = {
+					province = 2631
+					color = { 214 231 145 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_brandenburg = {
+				b_brandenburg = {
+					province = 241
+					color = { 33 120 64 }
+					color2 = { 255 255 255 }
+				}
+				b_werder = {
+					province = 2933
+					color = { 206 101 70 }
+					color2 = { 255 255 255 }
+				}
+				b_ziesar = {
+					province = 1861
+					color = { 66 72 32 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_berlin = {
+				b_berlin = {
+					province = 2652
+					color = { 31 64 95 }
+					color2 = { 255 255 255 }
+				}
+				b_spandau = {
+					province = 2634
+					color = { 109 41 246 }
+					color2 = { 255 255 255 }
+				}
+				b_rathenow = {
+					province = 2934
+					color = { 183 132 255 }
+					color2 = { 255 255 255 }
+				}
+				b_beelitz = {
+					province = 3211
+					color = { 148 176 117 }
+					color2 = { 255 255 255 }
+				}
+				b_potsdam = {
+					province = 2640
+					color = { 28 171 196 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_wittstock = {
+				b_wittstock = {
+					province = 239
+					color = { 33 116 255 }
+					color2 = { 255 255 255 }
+				}
+				b_malchow = {
+					province = 882
+					color = { 133 102 173 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_ruppin = {
+				b_ruppin = {
+					province = 845
+					color = { 118 32 128 }
+					color2 = { 255 255 255 }
+				}
+				b_lindow = {
+					province = 3207
+					color = { 89 29 76 }
+					color2 = { 255 255 255 }
+				}
+				b_katerbow = {
+					province = 234
+					color = { 160 106 255 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_havelberg = {
+				b_havelberg = {
+					province = 233
+					color = { 32 104 192 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -5789,6 +6032,50 @@ e_hre = {
 				b_zerbst = {
 					province = 2923
 					color = { 255 153 153 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_silesia = {
+			c_zary = {
+				b_zary = {
+					province = 1956
+					color = { 80 136 32 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+
+		d_lausitz = {
+
+			c_chotebuz = {
+				b_chotebuz = {
+					province = 1778
+					color = { 29 203 203 }
+					color2 = { 255 255 255 }
+				}
+				b_spremberg = {
+					province = 3016
+					color = { 58 117 171 }
+					color2 = { 255 255 255 }
+				}
+				b_nowa cala = {
+					province = 1755
+					color = { 7 223 253 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_bautzen = {
+				b_budysin = {
+					province = 834
+					color = { 245 138 64 }
+					color2 = { 255 255 255 }
+				}
+				b_hoyerswerda = {
+					province = 3019
+					color = { 9 140 159 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -8945,6 +9232,9 @@ e_hre = {
 			}
 
 			c_vianden = {
+				color = { 101 100 225 }
+				color2 = { 255 255 255 }
+
 				b_vianden = {
 					province = 2534
 					color = { 182 182 182 }
@@ -8953,6 +9243,8 @@ e_hre = {
 			}
 
 			c_bouillon = {
+				color = { 113  72  95 }
+				color2 = { 255 255 255 }
 
 				cultural_names = {
 					name_list_german = cn_beulen
@@ -9644,11 +9936,7 @@ e_hre = {
 # 	color = { 129 50 255 }
 # 	color2 = { 255 255 255 }
 # }
-# b_warin = {
-# 	province = 12
-# 	color = { 1 56 128 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_nohfelden = {
 # 	province = 18
 # 	color = { 2 68 192 }
@@ -9705,11 +9993,7 @@ e_hre = {
 # 	color = { 134 118 192 }
 # 	color2 = { 255 255 255 }
 # }
-# b_pasewalk = {
-# 	province = 48
-# 	color = { 6 128 192 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_dramburg = {
 # 	province = 49
 # 	color = { 135 130 255 }
@@ -9877,31 +10161,14 @@ e_hre = {
 # 	color = { 159 94 192 }
 # 	color2 = { 255 255 255 }
 # }
-# b_havelberg = {
-# 	province = 233
-# 	color = { 32 104 192 }
-# 	color2 = { 255 255 255 }
-# }
-# b_katerbow = {
-# 	province = 234
-# 	color = { 160 106 255 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_alzira = {
 # 	province = 237
 # 	color = { 33 112 128 }
 # 	color2 = { 255 255 255 }
 # }
-# b_wittstock = {
-# 	province = 239
-# 	color = { 33 116 255 }
-# 	color2 = { 255 255 255 }
-# }
-# b_brandenburg = {
-# 	province = 241
-# 	color = { 33 120 64 }
-# 	color2 = { 255 255 255 }
-# }
+
+
 # b_furstenwalde = {
 # 	province = 242
 # 	color = { 161 122 128 }
@@ -9922,11 +10189,7 @@ e_hre = {
 # 	color = { 35 144 192 }
 # 	color2 = { 255 255 255 }
 # }
-# b_oostfriese eilanden = {
-# 	province = 254
-# 	color = { 163 146 255 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_corcaigh = {
 # 	province = 258
 # 	color = { 164 154 192 }
@@ -10237,11 +10500,7 @@ e_hre = {
 # 	color = { 57 64 0 }
 # 	color2 = { 255 255 255 }
 # }
-# b_lychen = {
-# 	province = 406
-# 	color = { 185 66 64 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_kielce = {
 # 	province = 409
 # 	color = { 57 72 255 }
@@ -10810,11 +11069,7 @@ e_hre = {
 # 	color = { 82 40 0 }
 # 	color2 = { 255 255 255 }
 # }
-# b_jerichow = {
-# 	province = 589
-# 	color = { 211 42 64 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_tabarka = {
 # 	province = 590
 # 	color = { 83 44 128 }
@@ -11310,11 +11565,7 @@ e_hre = {
 # 	color = { 235 235 235 }
 # 	color2 = { 255 255 255 }
 # }
-# b_pritzwalk = {
-# 	province = 746
-# 	color = { 153 134 173 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_clermont-oise = {
 # 	province = 748
 # 	color = { 233 98 128 }
@@ -11673,11 +11924,7 @@ e_hre = {
 # 	color = { 245 134 255 }
 # 	color2 = { 255 255 255 }
 # }
-# b_budysin = {
-# 	province = 834
-# 	color = { 245 138 64 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_zielona góra = {
 # 	province = 835
 # 	color = { 117 140 128 }
@@ -11708,21 +11955,13 @@ e_hre = {
 # 	color = { 118 152 192 }
 # 	color2 = { 255 255 255 }
 # }
-# b_templin = {
-# 	province = 843
-# 	color = { 118 156 0 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_león = {
 # 	province = 844
 # 	color = { 246 158 64 }
 # 	color2 = { 255 255 255 }
 # }
-# b_ruppin = {
-# 	province = 845
-# 	color = { 118 32 128 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_tweeddale = {
 # 	province = 846
 # 	color = { 247 34 192 }
@@ -11748,11 +11987,7 @@ e_hre = {
 # 	color = { 128 38 173 }
 # 	color2 = { 255 255 255 }
 # }
-# b_barth = {
-# 	province = 851
-# 	color = { 0 40 32 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_cill dara = {
 # 	province = 853
 # 	color = { 0 44 126 }
@@ -11773,11 +12008,7 @@ e_hre = {
 # 	color = { 1 52 126 }
 # 	color2 = { 255 255 255 }
 # }
-# b_usedom = {
-# 	province = 858
-# 	color = { 129 54 173 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_barwalde = {
 # 	province = 859
 # 	color = { 1 56 32 }
@@ -11842,11 +12073,7 @@ e_hre = {
 # 	color2 = { 255 255 255 }
 # }
 
-# b_malchow = {
-# 	province = 882
-# 	color = { 133 102 173 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_swindon = {
 # 	province = 884
 # 	color = { 133 106 79 }
@@ -12320,11 +12547,7 @@ e_hre = {
 # 	color = { 165 50 79 }
 # 	color2 = { 255 255 255 }
 # }
-# b_menton = {
-# 	province = 1127
-# 	color = { 38 52 126 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_estremoz = {
 # 	province = 1128
 # 	color = { 166 54 173 }
@@ -14735,11 +14958,7 @@ e_hre = {
 # 	color = { 6 203 253 }
 # 	color2 = { 255 255 255 }
 # }
-# b_nowa cala = {
-# 	province = 1755
-# 	color = { 7 223 253 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_montgomeryshire = {
 # 	province = 1756
 # 	color = { 8 253 253 }
@@ -14766,11 +14985,7 @@ e_hre = {
 # 	color = { 28 253 253 }
 # 	color2 = { 255 255 255 }
 # }
-# b_chotebuz = {
-# 	province = 1778
-# 	color = { 29 203 203 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_slunj = {
 # 	province = 1780
 # 	color = { 31 223 253 }
@@ -14851,11 +15066,6 @@ e_hre = {
 # 	color = { 55 223 253 }
 # 	color2 = { 255 255 255 }
 # }
-# b_ventimiglia = {
-# 	province = 1806
-# 	color = { 57 203 203 }
-# 	color2 = { 255 255 255 }
-# }
 # b_va = {
 # 	province = 1807
 # 	color = { 58 203 253 }
@@ -14871,11 +15081,7 @@ e_hre = {
 # 	color = { 62 203 253 }
 # 	color2 = { 255 255 255 }
 # }
-# b_dolceacqua = {
-# 	province = 1812
-# 	color = { 63 223 253 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_dubica = {
 # 	province = 1815
 # 	color = { 66 203 253 }
@@ -14952,11 +15158,7 @@ e_hre = {
 # 	color = { 110 203 253 }
 # 	color2 = { 255 255 255 }
 # }
-# b_ziesar = {
-# 	province = 1861
-# 	color = { 66 72 32 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_tiree = {
 # 	province = 1865
 # 	color = { 67 80 32 }
@@ -15276,11 +15478,7 @@ e_hre = {
 # 	color = { 208 134 173 }
 # 	color2 = { 255 255 255 }
 # }
-# b_zary = {
-# 	province = 1956
-# 	color = { 80 136 32 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_boulogne = {
 # 	province = 1957
 # 	color = { 208 138 79 }
@@ -15633,11 +15831,7 @@ e_hre = {
 # 	color = { 77 0 240 }
 # 	color2 = { 255 255 255 }
 # }
-# b_tenda = {
-# 	province = 2086
-# 	color = { 78 0 244 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_blois = {
 # 	province = 2088
 # 	color = { 80 0 232 }
@@ -15971,11 +16165,7 @@ e_hre = {
 # 	color = { 161 165 225 }
 # 	color2 = { 255 255 255 }
 # }
-# b_federgo = {
-# 	province = 2217
-# 	color = { 66 156 186 }
-# 	color2 = { 255 255 255 }
-# }
+
 
 # b_sambir = {
 # 	province = 2224
@@ -16092,11 +16282,7 @@ e_hre = {
 # 	color = { 119 138 144 }
 # 	color2 = { 255 255 255 }
 # }
-# b_monaco = {
-# 	province = 2262
-# 	color = { 118 126 240 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_santarem = {
 # 	province = 2264
 # 	color = { 118 130 80 }
@@ -17100,11 +17286,7 @@ e_hre = {
 # 	color = { 106 12 95 }
 # 	color2 = { 255 255 255 }
 # }
-# b_stralsund = {
-# 	province = 2623
-# 	color = { 232 201 46 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_pelmonostor = {
 # 	province = 2624
 # 	color = { 4 51 246 }
@@ -17126,11 +17308,7 @@ e_hre = {
 # 	color = { 88 38 196 }
 # 	color2 = { 255 255 255 }
 # }
-# b_genthin = {
-# 	province = 2631
-# 	color = { 214 231 145 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_santok = {
 # 	province = 2632
 # 	color = { 46 231 95 }
@@ -17141,11 +17319,7 @@ e_hre = {
 # 	color = { 172 191 46 }
 # 	color2 = { 255 255 255 }
 # }
-# b_spandau = {
-# 	province = 2634
-# 	color = { 109 41 246 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_soldin = {
 # 	province = 2635
 # 	color = { 235 152 196 }
@@ -17161,21 +17335,13 @@ e_hre = {
 # 	color = { 196 31 246 }
 # 	color2 = { 255 255 255 }
 # }
-# b_potsdam = {
-# 	province = 2640
-# 	color = { 28 171 196 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_celle = {
 # 	province = 2647
 # 	color = { 238 244 95 }
 # 	color2 = { 255 255 255 }
 # }
-# b_parey = {
-# 	province = 2649
-# 	color = { 136 158 246 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_sonnenburg = {
 # 	province = 2650
 # 	color = { 73 112 196 }
@@ -17186,11 +17352,7 @@ e_hre = {
 # 	color = { 199 232 145 }
 # 	color2 = { 255 255 255 }
 # }
-# b_berlin = {
-# 	province = 2652
-# 	color = { 31 64 95 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_hód = {
 # 	province = 2653
 # 	color = { 157 164 46 }
@@ -17231,11 +17393,7 @@ e_hre = {
 # 	color = { 34 122 246 }
 # 	color2 = { 255 255 255 }
 # }
-# b_prenzlau = {
-# 	province = 2666
-# 	color = { 97 12 145 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_tiobraid arann = {
 # 	province = 2668
 # 	color = { 55 131 46 }
@@ -17486,11 +17644,7 @@ e_hre = {
 # 	color = { 203 41 95 }
 # 	color2 = { 255 255 255 }
 # }
-# b_ostringen = {
-# 	province = 2750
-# 	color = { 161 131 246 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_simmern = {
 # 	province = 2752
 # 	color = { 224 44 145 }
@@ -17803,11 +17957,7 @@ e_hre = {
 # 	color = { 198 98 83 }
 # 	color2 = { 255 255 255 }
 # }
-# b_varel = {
-# 	province = 2827
-# 	color = { 165 116 117 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_attiki = {
 # 	province = 2828
 # 	color = { 216 58 34 }
@@ -18195,16 +18345,8 @@ e_hre = {
 # 	color = { 206 145 88 }
 # 	color2 = { 255 255 255 }
 # }
-# b_werder = {
-# 	province = 2933
-# 	color = { 206 101 70 }
-# 	color2 = { 255 255 255 }
-# }
-# b_rathenow = {
-# 	province = 2934
-# 	color = { 183 132 255 }
-# 	color2 = { 255 255 255 }
-# }
+
+
 # b_tabai = {
 # 	province = 2936
 # 	color = { 160 160 88 }
@@ -18392,11 +18534,7 @@ e_hre = {
 # 	color = { 179 101 229 }
 # 	color2 = { 255 255 255 }
 # }
-# b_spremberg = {
-# 	province = 3016
-# 	color = { 58 117 171 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_lubbenau = {
 # 	province = 3017
 # 	color = { 97 56 208 }
@@ -18407,11 +18545,7 @@ e_hre = {
 # 	color = { 191 40 143 }
 # 	color2 = { 255 255 255 }
 # }
-# b_hoyerswerda = {
-# 	province = 3019
-# 	color = { 9 140 159 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_muskau = {
 # 	province = 3020
 # 	color = { 164 234 53 }
@@ -19054,31 +19188,19 @@ e_hre = {
 # 	color = { 66 107 135 }
 # 	color2 = { 255 255 255 }
 # }
-# b_lindow = {
-# 	province = 3207
-# 	color = { 89 29 76 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_navruz = {
 # 	province = 3208
 # 	color = { 138 212 118 }
 # 	color2 = { 255 255 255 }
 # }
-# b_kyritz = {
-# 	province = 3209
-# 	color = { 212 204 118 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_tuczno = {
 # 	province = 3210
 # 	color = { 131 191 211 }
 # 	color2 = { 255 255 255 }
 # }
-# b_beelitz = {
-# 	province = 3211
-# 	color = { 148 176 117 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_kopenick = {
 # 	province = 3212
 # 	color = { 40 1 232 }
