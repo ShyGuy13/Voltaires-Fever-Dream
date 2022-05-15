@@ -236,6 +236,8 @@
 
 74 = c_toggenburg # Toggenburg
 
+82 = d_luxembourg # Luxemburg
+
 84 = c_hohentrudingen # Hohentrüdingen
 
 86 = c_rotz # Schwarzenburg
@@ -309,7 +311,11 @@
 
 100 = c_schwarzburg # Schwarzburg
 
+102 = c_wettin # Wettin
+
 105 = c_lobdaburg # Lobdeburg
+
+109 = d_thuringia # Ludowing
 
 123 = c_rappoltstein # Rappoltstein
 
@@ -392,6 +398,35 @@
 	}
 }
 
+142 = { # Merenberg
+	pattern="pattern_solid.dds"
+	color1=green_light
+	color2=yellow
+	color3=yellow
+	colored_emblem={
+		color1=yellow
+		texture="ce_bendlet.dds"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } rotation = 90 }
+	}
+	colored_emblem={
+		color1 = yellow
+		texture = "ce_cross_09.dds"
+		instance = { position = { 0.7 0.5 } scale = { 0.2 0.2 } }
+		instance = { position = { 0.3 0.5 } scale = { 0.2 0.2 } }
+		instance = { position = { 0.5 0.3 } scale = { 0.2 0.2 } }
+		instance = { position = { 0.5 0.7 } scale = { 0.2 0.2 } }
+		instance = { position = { 0.85 0.35 } scale = { 0.2 0.2 } }
+		instance = { position = { 0.85 0.65 } scale = { 0.2 0.2 } }
+		instance = { position = { 0.15 0.35 } scale = { 0.2 0.2 } }
+		instance = { position = { 0.15 0.65 } scale = { 0.2 0.2 } }
+		instance = { position = { 0.35 0.85 } scale = { 0.2 0.2 } }
+		instance = { position = { 0.35 0.15 } scale = { 0.2 0.2 } }
+		instance = { position = { 0.65 0.85 } scale = { 0.2 0.2 } }
+		instance = { position = { 0.65 0.15 } scale = { 0.2 0.2 } }
+	}
+}
+
 144 = c_katzenelnbogen # Katzenelnbogen
 
 147 = { # Monomachos
@@ -457,6 +492,16 @@
 	}			
 }
 
+156 = { # Werl
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_eagle.dds"
+		color1 = "white"
+		color2 = "white"
+	}
+}
+
 157 = { # Brunoning
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
@@ -477,6 +522,46 @@
 192 = d_flanders # Vlsanderen
 
 193 = c_lille # Lille
+
+194 = { # Opbrakel
+	pattern = "pattern_solid.dds"	
+	color1 = "red"		
+	color2 = "white"	
+	colored_emblem = {
+		texture = "ce_ordinary_chevron_5.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 1.0 } scale = { 1.03 1.03 }  }		
+		instance = { position = { 0.5 0.064 } scale = { 1.03 1.03 }  }	
+		instance = { position = { 0.5 0.532 } scale = { 1.03 1.03 }  }									
+	}	
+}
+
+195 = d_brabant # Reginaring
+
+196 = c_loon # Loon
+
+197 = c_hoorne # Hoorn
+
+198 = c_namur # Namur
+
+199 = d_holland # Gerulfing
+
+200 = c_enghein # Enghien
+
+205 = c_cuijk # Cuijk
+
+206 = d_gelders # Gelre
+
+207 = c_gent # Gent
+
+208 = c_briey # Briey
+
+210 = c_apremont # Aspremont
+
+212 = c_limburg # Limburg
+
+213 = c_commercy # Commercy
 
 # 2 = { #Heeckeren
 # 	pattern = "pattern_cross_01.dds"

@@ -1,0 +1,28 @@
+﻿ludowing1 = {
+	name = "Ludwig" # Ludwig I of Thuringia
+	dynasty = 109
+	religion = catholic
+	culture = thuringian
+	987.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_beardy
+	}
+	1056.1.1 = {
+		death = yes
+	}
+}
+
+ludowing2 = {
+	name = "Ludwig" # Ludwig II of Thuringia
+	dynasty = 109
+	religion = catholic
+	culture = thuringian
+	father = ludowing1
+	1042.1.1 = {
+		birth = yes
+		give_nickname = nick_the_jumper
+	}
+	1123.5.8 = {
+		death = yes
+	}
+}

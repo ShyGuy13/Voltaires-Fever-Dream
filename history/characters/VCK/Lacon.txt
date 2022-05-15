@@ -58,6 +58,7 @@ lacon5 = {
 	dynasty = 189
 	religion = catholic
 	culture = sardinian
+	father = lacon9
 	1010.1.1 = { #fic
 		birth = yes
 	}
@@ -85,7 +86,8 @@ lacon7 = {
 	dynasty = 189
 	religion = catholic
 	culture = sardinian
-	1000.1.1 = { #fic
+	father = lacon10
+	1015.1.1 = { #fic
 		birth = yes
 	}
 	1060.1.1 = {
@@ -98,11 +100,37 @@ lacon8 = {
 	dynasty = 189
 	religion = catholic
 	culture = sardinian
-	father = lacon7
+	father = lacon10
 	1020.1.1 = { #est
 		birth = yes
 	}
 	1073.1.1 = {
+		death = yes
+	}
+}
+
+lacon9 = {
+	name = "Manfredi" # Manfredi I of Gallura
+	dynasty = 189
+	religion = catholic
+	culture = sardinian
+	980.1.1 = { #fic
+		birth = yes
+	}
+	1040.1.1 = { #est
+		death = yes
+	}
+}
+
+lacon10 = {
+	name = "Gonario" # Gonario I of Arborea & Logudoro
+	dynasty = 189
+	religion = catholic
+	culture = sardinian
+	970.1.1 = { #fic
+		birth = yes
+	}
+	1038.1.1 = {
 		death = yes
 	}
 }

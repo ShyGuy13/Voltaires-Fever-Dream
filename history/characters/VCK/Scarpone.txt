@@ -1,0 +1,45 @@
+scarpone1 = {
+	name = "Louis" # Louis I of Montbéliard
+	dynasty = 187
+	religion = catholic
+	culture = lorrainian
+	1015.1.1 = {
+		birth = yes
+	}
+	1038.1.1 = {
+		add_spouse = wigeriching1 # Sophie of Bar
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+
+scarpone2 = {
+	name = "Frederic" # Frédéric I of Bar
+	dynasty = 187
+	religion = catholic
+	culture = lorrainian
+	father = scarpone1
+	mother = wigeriching1
+	1044.1.1 = { #est
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+scarpone3 = {
+	name = "Thierry" # Thierry I of Montbéliard
+	dynasty = 187
+	religion = catholic
+	culture = lorrainian
+	father = scarpone1
+	mother = wigeriching1
+	1045.1.1 = { #est
+		birth = yes
+	}
+	1103.1.2 = {
+		death = yes
+	}
+}

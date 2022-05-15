@@ -1,0 +1,26 @@
+﻿briey1 = {
+	name = "Hermann"
+	dynasty = 208
+	religion = catholic
+	culture = lorrainian
+	1025.1.1 = {
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+
+briey2 = {
+	name = "Albert"
+	dynasty = 208
+	religion = catholic
+	culture = lorrainian
+	father = briey1
+	1050.1.1 = {
+		birth = yes
+	}
+	1114.10.14 = {
+		death = yes
+	}
+}

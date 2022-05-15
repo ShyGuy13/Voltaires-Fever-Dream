@@ -890,7 +890,8 @@
 	culture = lorrainian
 }
 187 = {
-	name = "dynn_Wigeriching"
+	prefix = "dynnp_de"
+	name = "dynn_Scarpone"
 	culture = lorrainian
 }
 188 = {
@@ -985,25 +986,37 @@
 	culture = dutch
 }
 207 = {
-	
+	prefix = "dynnp_van"
+	name = "dynn_Gent"
+	culture = flemish
 }
 208 = {
-	
+	prefix = "dynnp_de"
+	name = "dynn_Briey"
+	culture = lorrainian
 }
 209 = {
-	
+	name = "dynn_Anskaring"
+	culture = lorrainian
 }
 210 = {
-	
+	prefix = "dynnp_d_"
+	name = "dynn_Aspremont"
+	culture = lorrainian
 }
 211 = {
-	
+	name = "dynn_Karling"
+	culture = frankish
 }
 212 = {
-	
+	prefix = "dynnp_van"
+	name = "dynn_Limburg"
+	culture = brabantian
 }
 213 = {
-	
+	prefix = "dynnp_de"
+	name = "dynn_Commercy"
+	culture = lorrainian
 }
 214 = {
 	

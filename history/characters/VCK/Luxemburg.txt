@@ -3,6 +3,7 @@
 	dynasty = 82
 	religion = catholic
 	culture = moselle_franconian
+	father = luxemburg5
 	1005.1.1 = {
 		birth = yes
 	}
@@ -12,10 +13,11 @@
 }
 
 luxemburg2 = {
-	name = "Adalbéron" #bishop of Metz
+	name = "Adalbero" #bishop of Metz
 	dynasty = 82
 	religion = catholic
 	culture = moselle_franconian
+	father = luxemburg5
 	1010.1.1 = {
 		birth = yes
 	}
@@ -29,6 +31,7 @@ luxemburg3 = {
 	dynasty = 82
 	religion = catholic
 	culture = moselle_franconian
+	father = luxemburg5
 	1003.1.1 = { #est
 		birth = yes
 	}
@@ -42,10 +45,170 @@ luxemburg4 = {
 	dynasty = 82
 	religion = catholic
 	culture = moselle_franconian
+	father = luxemburg5
 	1007.1.1 = {
 		birth = yes
 	}
 	1059.8.14 = {
+		death = yes
+	}
+}
+
+luxemburg5 = {
+	name = "Friedrich" #Friedrich I of Luxemburg
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg6
+	965.1.1 = { #est
+		birth = yes
+	}
+	1019.10.6 = {
+		death = yes
+	}
+}
+
+luxemburg6 = {
+	name = "Siegfried" #Siegfried I of Luxemburg
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	919.1.1 = { #est
+		birth = yes
+	}
+	98.10.28 = {
+		death = yes
+	}
+}
+
+luxemburg7 = {
+	name = "Dietrich" #
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg5
+	1012.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+
+luxemburg8 = {
+	name = "Hermann" # Hermann I of Gleibert
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg5
+	1015.1.1 = {
+		birth = yes
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}
+
+luxemburg9 = {
+	name = "Otgiva" # wife of Balduin IV of Flanders
+	female = yes
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg5
+	995.1.1 = {
+		birth = yes
+	}
+	1030.2.21 = {
+		death = yes
+	}
+}
+
+luxemburg10 = {
+	name = "Gisela" # wife of Rudolf of Aalst
+	female = yes
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg5
+	1007.1.1 = {
+		birth = yes
+	}
+	1058.1.1 = {
+		death = yes
+	}
+}
+
+luxemburg11 = {
+	name = "Imiza" # wife of Welf II
+	female = yes
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg5
+	1000.1.1 = {
+		birth = yes
+	}
+	1055.8.2 = {
+		death = yes
+	}
+}
+
+luxemburg12 = {
+	name = "Uda" #
+	female = yes
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	trait = devoted
+	father = luxemburg5
+	1016.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = { #est
+		death = yes
+	}
+}
+
+luxemburg13 = {
+	name = "Konrad" #Konrad I of Luxemburg
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg4
+	1040.1.1 = {
+		birth = yes
+	}
+	1086.8.8 = {
+		death = yes
+	}
+}
+
+luxemburg14 = {
+	name = "Hermann" #Hermann I of Salm
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg4
+	1042.1.1 = {
+		birth = yes
+	}
+	1088.9.28 = {
+		death = yes
+	}
+}
+
+luxemburg15 = {
+	name = "Jutta" #wife of Waleran II of Arlon
+	female = yes
+	dynasty = 82
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg3
+	1040.1.1 = { #fic
+		birth = yes
+	}
+	1090.1.1 = { #fic
 		death = yes
 	}
 }

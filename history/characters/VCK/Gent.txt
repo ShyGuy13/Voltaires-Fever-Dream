@@ -1,0 +1,57 @@
+﻿gent1 = {
+	name = "Rudolf" #Rudolf I of Aalst
+	dynasty = 207
+	religion = catholic
+	culture = flemish
+	father = gent2 # fictional relation
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1052.1.1 = {
+		add_spouse = luxemburg10 # Gisela of Luxemburg
+	}
+	1060.1.1 = { #fic
+		death = yes
+	}
+}
+
+gent2 = {
+	name = "Lambert" #Lambert I of Gent
+	dynasty = 207
+	religion = catholic
+	culture = flemish
+	987.1.1 = { #fic
+		birth = yes
+	}
+	1034.1.1 = {
+		death = yes
+	}
+}
+
+gent3 = {
+	name = "Folkard" #Folkard I of Gent
+	dynasty = 207
+	religion = catholic
+	culture = flemish
+	father = gent2
+	1007.1.1 = { #fic
+		birth = yes
+	}
+	1071.1.1 = {
+		death = yes
+	}
+}
+
+gent4 = {
+	name = "Lambert" #Lambert II of Gent
+	dynasty = 207
+	religion = catholic
+	culture = flemish
+	father = gent3
+	1039.1.1 = { #fic
+		birth = yes
+	}
+	1118.1.1 = {
+		death = yes
+	}
+}

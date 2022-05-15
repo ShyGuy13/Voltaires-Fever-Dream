@@ -1,0 +1,14 @@
+﻿wigeriching1 = {
+	name = "Sophie" # Sophie I of Bar
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	1018.1.1 = {
+		birth = yes
+	}
+	1093.6.21 = {
+		death = yes
+	}
+}
+

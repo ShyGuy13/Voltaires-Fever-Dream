@@ -10,3 +10,18 @@
 		death = yes
 	}
 }
+
+northeim2 = {
+	name = "Heinrich" # Heinrich I of Gleichenstein
+	dynasty = 184
+	religion = catholic
+	culture = thuringian
+	father = northeim1
+	1054.1.1 = {
+		birth = yes
+		give_nickname = nick_the_fat
+	}
+	1101.4.10 = {
+		death = yes
+	}
+}

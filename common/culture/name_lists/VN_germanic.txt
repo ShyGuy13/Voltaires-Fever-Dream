@@ -10,12 +10,12 @@ name_list_german = {
 			Dietrich Dieter
 			Edmund Eduard Eberhard Erhard Engelbert Ernst Erich
 			Ferdinand Friedrich Franz
-			Georg Gebhard Gerhard Gottfried Gotthard Gottlieb Gottschalk Günther 
+			Georg Gebhard Gerhard Gottfried Gotthard Gottlieb Gottschalk Gunther 
 			Hermann Hans Heinrich Heribert Hugo Humbert Hartwig Hildebrand
 			Johann Johannes Jakob Josef Joachim
 			Konrad Kuno Karl Konstantin
 			Leonhard Ludwig Lothar Ludolf Lambert Liutgard
-			Matthias Matthäus Maximilian Moritz Marcus Melchior Markus Marquard Martin Michael
+			Matthias Matthaus Maximilian Moritz Marcus Melchior Markus Marquard Martin Michael
 			Nikolaus
 			Oswald Otto
 			Peter Philipp
@@ -28,7 +28,7 @@ name_list_german = {
 		}
 		3 = {
 			Altmann Anselm Achilles Alois Adam
-			Bertram Bernd Berthold Beringer Benedikt Bartholomäus Benjamin 
+			Bertram Bernd Berthold Beringer Benedikt Bartholomaus Benjamin 
 			Detlev Daniel Diepold 
 			Erasmus Erich Egon Einhard Elias Egbert Ekkehard
 			Felix Folmar
@@ -60,7 +60,7 @@ name_list_german = {
 			Metfried Mauritz Megingoz Modestinus 
 			Nickel
 			Pilgrim Pankraz
-			Rhaban Reimar Richald Rutger Rüdiger Reinboto Richolf Ripert
+			Rhaban Reimar Richald Rutger Rudiger Reinboto Richolf Ripert
 			Salentin Sigewin Siger Statius Sebastian
 			Thietmar 
 			Uriel
@@ -750,7 +750,7 @@ name_list_german = {
 		{ dynnp_von dynn_Peulwitz }
 		{ dynnp_von dynn_Plankenberg }
 		{ dynnp_von dynn_Plassenberg }
-		{ dynnp_von dynn_Pötzing }
+		{ dynnp_von dynn_Potzing }
 		{ dynnp_von dynn_Rabenstein }
 		{ dynnp_von dynn_Raittenbach }
 		{ dynnp_von dynn_Redwitz }
@@ -924,26 +924,6 @@ name_list_german = {
 		{ dynnp_von dynn_Mohrenfels }
 		{ dynnp_von dynn_Kornburg }
 		{ dynnp_zu dynn_Burgfarrnbach }
-
-
-
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-		{ dynnp_von dynn_Geuder }
-
 
 
 		{ dynnp_von dynn_Tannberg }

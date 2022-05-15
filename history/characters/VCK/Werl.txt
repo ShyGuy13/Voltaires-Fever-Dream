@@ -10,3 +10,18 @@
 		death = yes
 	}
 }
+
+werl2 = {
+	name = "Oda" # wife of Udo of Stade & Otto von Northeim
+	female = yes
+	dynasty = 156
+	religion = catholic
+	culture = hannoverian
+	father = werl1
+	1050.1.1 = {
+		birth = yes
+	}
+	1110.1.13 = {
+		death = yes
+	}
+}

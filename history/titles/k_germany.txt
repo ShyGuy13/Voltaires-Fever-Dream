@@ -1076,6 +1076,11 @@ c_bruchsal = {
 		holder = falkenberg1
 	}
 }
+c_lauterburg = {
+	1051.1.1 = {
+		holder = falkenberg1
+	}
+}
 
 #Schwarzburg
 c_schwarzburg = {
@@ -1194,6 +1199,11 @@ c_aschaffenburg = {
 		holder = babenberg11 # Luitpold I
 	}
 }
+c_erfurt = {
+	1051.6.11 = {
+		holder = babenberg11 # Luitpold I
+	}
+}
 
 #Worms Diocese
 c_heidelberg = {
@@ -1218,6 +1228,11 @@ c_speyer = {
 		holder = salier3 # Heinrich III
 	}
 }
+c_gravenstein = {
+	1039.6.4 = {
+		holder = salier3 # Heinrich III
+	}
+}
 
 #Trier
 c_trier = {
@@ -1235,5 +1250,45 @@ c_bonn = {
 c_virneburg = {
 	1047.9.7 = {
 		holder = ezzoning2 # Heinrich I
+	}
+}
+
+#Thuringia
+d_thuringia = {
+	1030.1.1 = {
+		holder = ludowing1 # Ludwig I
+	}
+}
+c_herbsleben = {
+	1030.1.1 = {
+		holder = ludowing1 # Ludwig I
+	}
+}
+c_gotha = {
+	1030.1.1 = {
+		holder = ludowing1 # Ludwig I
+	}
+}
+c_salza = {
+	1030.1.1 = {
+		holder = ludowing1 # Ludwig I
+	}
+}
+c_kevernburg = {
+	1030.1.1 = {
+		holder = ludowing1 # Ludwig I
+	}
+}
+c_freyburg = {
+	1030.1.1 = {
+		holder = ludowing1 # Ludwig I
+	}
+}
+
+#Hersfeld
+c_hersfeld = {
+	1000.1.1 = { government = theocracy_government }
+	1036.1.1 = {
+		holder = hersfeld_meginher # Meginher I
 	}
 }

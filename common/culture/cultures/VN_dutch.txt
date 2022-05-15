@@ -30,8 +30,7 @@ dutch = {
 }
 
 
-frisian = {	#Consider this to be "old frisian", in the times of "Frankish" culture, so 760s and before.
-	# Effectively, this culture isn't playable in game
+frisian = {
 	color = { 0.7 0.3 0.0 }
 	
 	ethos = ethos_stoic
@@ -59,7 +58,7 @@ frisian = {	#Consider this to be "old frisian", in the times of "Frankish" cultu
 	}
 }
 
-flemish = {
+flamish = {
 	color = dutch
 	created = 750.1.1 # Frankish settlements in Frisia from the 6th to 8th century
 	parents = { frankish frisian }

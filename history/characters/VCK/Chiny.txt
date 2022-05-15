@@ -1,0 +1,98 @@
+﻿chiny1 = {
+	name = "Louis" # Louis II of Chiny
+	dynasty_house = house_chiny
+	religion = catholic
+	culture = wallonian
+	father = chiny2
+	1005.1.1 = { #fic
+		birth = yes
+	}
+	1065.12.1 = {
+		death = yes
+	}
+}
+
+chiny2 = {
+	name = "Louis" # Louis I of Chiny
+	dynasty_house = house_chiny
+	religion = catholic
+	culture = wallonian
+	father = chiny6
+	970.1.1 = { #fic
+		birth = yes
+	}
+	1025.9.29 = {
+		death = { death_reason = death_murder }
+	}
+}
+
+chiny3 = {
+	name = "Luitgarde" # wife of
+	female = yes
+	dynasty_house = house_chiny
+	religion = catholic
+	culture = wallonian
+	father = chiny2
+	1002.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = { #fic
+		death = yes
+	}
+}
+
+chiny4 = {
+	name = "Arnold" # Arnold II of Chiny
+	dynasty_house = house_chiny
+	religion = catholic
+	culture = wallonian
+	father = chiny1
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	1106.4.16 = {
+		death = yes
+	}
+}
+
+chiny5 = {
+	name = "Manasses" #
+	dynasty_house = house_chiny
+	religion = catholic
+	culture = wallonian
+	trait = devoted
+	father = chiny1
+	1034.1.1 = { #fic
+		birth = yes
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}
+
+chiny6 = {
+	name = "Eudes" # Eudes I of Chiny
+	dynasty_house = house_chiny
+	religion = catholic
+	culture = wallonian
+	father = chiny7
+	950.1.1 = { #est
+		birth = yes
+	}
+	995.1.1 = { #fic
+		death = yes
+	}
+}
+
+chiny7 = {
+	name = "Adalbert" # Adalbert I of Chiny
+	dynasty_house = house_chiny
+	religion = catholic
+	culture = wallonian
+	915.1.1 = { #est
+		birth = yes
+	}
+	987.9.8 = {
+		death = yes
+	}
+}

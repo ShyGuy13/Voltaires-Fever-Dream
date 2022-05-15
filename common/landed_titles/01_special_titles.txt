@@ -202,6 +202,9 @@ d_bm_speyer = {
 }
 
 d_bm_toul = {
+	color = { 95 122 185 }
+	color2 = { 255 255 255 }
+
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -217,6 +220,9 @@ d_bm_toul = {
 }
 
 d_bm_verdun = {
+	color = { 203  168  168 }
+	color2 = { 255 255 255 }
+
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -437,7 +443,7 @@ d_bm_cologne = {
 }
 
 d_bm_liege = {
-	color = { 149  186  37 }
+	color = { 149 186 37 }
 	color2 = { 255 255 255 }
 
 	definite_form = yes
@@ -679,6 +685,9 @@ d_bm_strassburg = {
 }
 
 d_bm_sitten = {
+	color = { 151  80  66 }
+	color2 = { 255 255 255 }
+
 	capital = c_sitten
 
 	definite_form = yes
@@ -733,7 +742,9 @@ d_bm_worms = {
 }
 
 d_bm_trier = {
-
+	color = { 208  104  44 }
+	color2 = { 255 255 255 }
+	
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes

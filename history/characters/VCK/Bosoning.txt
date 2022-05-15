@@ -1,0 +1,55 @@
+﻿bosoning1 = {
+	name = "Geoffroi" #Geoffroi I of Forcalquier
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning3
+	1018.1.1 = { #fic
+		birth = yes
+	}
+	1067.2.13 = {
+		death = yes
+	}
+}
+
+bosoning2 = {
+	name = "Foulques Bertrand" #Foulques Bertrand I of Forcalquier
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning3
+	1014.1.1 = { #est
+		birth = yes
+	}
+	1051.4.27 = {
+		death = yes
+	}
+}
+
+bosoning3 = {
+	name = "Guillaume" #Guillaume II of Forcalquier
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	988.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_pious
+	}
+	1019.3.4 = {
+		death = yes
+	}
+}
+
+bosoning4 = {
+	name = "Guillaume" #Guillaume IV of Forcalquier
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning3
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1030.1.1 = {
+		death = yes
+	}
+}

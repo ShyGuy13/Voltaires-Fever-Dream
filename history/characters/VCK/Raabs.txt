@@ -3,7 +3,6 @@
 	dynasty = 10
 	culture = austrian
 	religion = catholic
-	trait = bastard_founder
 	father = diepolding1 #debated
 	1034.1.1 = { #fic
 		birth = yes

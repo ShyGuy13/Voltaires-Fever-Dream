@@ -42,3 +42,91 @@ c_vaudemont = {
 		holder = gerharding1 # Gérard I
 	}
 }
+
+#Franche Comte
+c_morteau = {
+	1026.9.21 = {
+		holder = anskaring1 # Reginald I
+	}
+}
+c_arlay = {
+	1026.9.21 = {
+		holder = anskaring1 # Reginald I
+	}
+}
+c_dole = {
+	1026.9.21 = {
+		holder = anskaring1 # Reginald I
+	}
+}
+c_pontarlier = {
+	1026.9.21 = {
+		holder = anskaring1 # Reginald I
+	}
+}
+
+#Toul
+c_toul = {
+	1052.1.1 = {
+		holder = toul_odon # Odon I
+	}
+}
+
+#Verdun
+c_verdun = {
+	1046.1.1 = {
+		holder = verdun_thierry # Thierry
+	}
+}
+
+#Apremont
+c_apremont = {
+	1040.1.1 = {
+		holder = aspremont1 # Gobert I
+	}
+}
+
+#Chiny
+c_chiny = {
+	1025.9.29 = {
+		holder = chiny1 # Louis II
+	}
+}
+
+#Orange
+c_orange = {
+	1032.1.1 = {
+		holder = orange1 # Raimbaud I
+	}
+}
+
+#Forcalquier
+c_forcalquier = {
+	1051.4.27 = {
+		holder = bosoning1 # Geoffroi I
+	}
+}
+c_gapencais = {
+	1051.4.27 = {
+		holder = bosoning1 # Geoffroi I
+	}
+}
+
+#Bar
+c_bar = {
+	1033.1.1 = {
+		holder = wigeriching1 # Sophie I
+	}
+}
+c_bourmont = {
+	1033.1.1 = {
+		holder = wigeriching1 # Sophie I
+	}
+}
+
+#Commercy
+c_commercy = {
+	1054.1.1 = {
+		holder = commercy1 # Ricuin I
+	}
+}

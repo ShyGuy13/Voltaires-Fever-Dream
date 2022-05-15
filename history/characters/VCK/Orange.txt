@@ -1,0 +1,12 @@
+﻿orange1 = {
+	name = "Raimbaud" # Raimbaud I of Orange
+	dynasty = 153
+	religion = catholic
+	culture = provencal
+	1010.1.1 = {
+		birth = yes
+	}
+	1073.1.1  = {
+		death = yes
+	}
+}

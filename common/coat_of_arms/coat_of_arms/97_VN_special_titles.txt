@@ -117,6 +117,30 @@ d_bm_regensburg = {
 	}
 }
 
+d_bm_trier = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_ordinary_cross_5.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
+d_bm_mainz = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_wheel.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 }  }
+	}
+}
+
 d_bm_augsburg = {
 	pattern = "pattern_solid.dds"
 	color1 = "red"
@@ -138,5 +162,69 @@ d_bm_wurzburg = {
 		color1 = "red"
 		color2 = "white"
 		instance = { position = { 0.5 0.5 } scale = { 1.3 1.0 }  }
+	}
+}
+
+d_bm_sitten = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_sword_simple.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.45 } scale = { 0.9 1.1 } rotation = 140 }
+	}
+	colored_emblem = {
+		texture = "ce_crozier.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.45 } scale = { -0.9 0.9 } rotation = 40 }
+	}
+}
+
+d_bm_verdun = {
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_ordinary_cross_thin.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
+d_bm_liege = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_pillar_liege.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.48 } scale = { 0.8 0.8 }  }
+	}
+	colored_emblem={
+		texture = "ce_letter_l.dds"
+		color1 = "yellow"
+		instance = { position = { 0.25 0.5 } scale = { 0.5 0.5 } }
+	}
+	colored_emblem={
+		texture = "ce_letter_g.dds"
+		color1 = "yellow"
+		instance = { position = { 0.75 0.5 } scale = { 0.5 0.5 } }
+	}
+}
+
+d_bm_utrecht = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_ordinary_cross_5.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
 	}
 }

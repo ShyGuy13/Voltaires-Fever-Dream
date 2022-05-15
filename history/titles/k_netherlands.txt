@@ -1,30 +1,40 @@
 #Flanders
 d_flanders = {
-	1035.5.30 = {
-		holder = vlaanderen1 # Badouin V
+	987.3.30 = {
+		holder = vlaanderen2 # Badouin IV
 	}
-}
-c_gent = {
 	1035.5.30 = {
 		holder = vlaanderen1 # Badouin V
 	}
 }
 c_brugge = {
+	987.3.30 = {
+		holder = vlaanderen2 # Badouin IV
+	}
 	1035.5.30 = {
 		holder = vlaanderen1 # Badouin V
 	}
 }
 c_yperen = {
+	987.3.30 = {
+		holder = vlaanderen2 # Badouin IV
+	}
 	1035.5.30 = {
 		holder = vlaanderen1 # Badouin V
 	}
 }
 c_zeeland = {
+	987.3.30 = {
+		holder = vlaanderen2 # Badouin IV
+	}
 	1035.5.30 = {
 		holder = vlaanderen1 # Badouin V
 	}
 }
 c_artois = {
+	987.3.30 = {
+		holder = vlaanderen2 # Badouin IV
+	}
 	1035.5.30 = {
 		holder = vlaanderen1 # Badouin V
 	}
@@ -38,8 +48,19 @@ c_lille = {
 	}
 }
 
+#Gent
+c_gent = {
+	1007.1.1 = {
+		liege = d_flanders
+		holder = gent2 # Lambert I
+	}
+	1034.1.1 = {
+		holder = gent3 # Folkard I
+	}
+}
+
 #Cambrai
-c_cambrai = {
+c_cambray = {
 	580.1.1 = {	government = theocracy_government }
 	1051.3.14 = {
 		holder = opbrakel1 # Liébert I
@@ -76,7 +97,7 @@ c_loon = {
 }
 
 #Enghien
-c_enghien = {
+c_enghein = {
 	1054.1.1 = {
 		holder = enghien1 # Engelbert I
 	}
@@ -100,6 +121,11 @@ c_leiden = {
 }
 
 #Antwerp
+d_lower_lorraine = {
+	1046.1.1 = {
+		holder = luxemburg3 # Friedrich I
+	}
+}
 c_antwerpen = {
 	1046.1.1 = {
 		holder = luxemburg3 # Friedrich I
@@ -144,7 +170,7 @@ c_ostergo = {
 		holder = brunoning1 # Bruno II
 	}
 }
-c_alkmaar = {
+c_westfriesland = {
 	1038.4.23 = {
 		holder = brunoning1 # Bruno II
 	}
@@ -152,16 +178,43 @@ c_alkmaar = {
 
 #Luxembourg
 d_luxembourg = {
+	982.1.1 = {
+		holder = luxemburg6 # Siegfried I
+	}
+	998.10.28 = {
+		holder = luxemburg5 # Friedrich I
+	}
+	1019.10.6 = {
+		holder = luxemburg1 # Heinrich I
+	}
 	1047.10.16 = {
 		holder = luxemburg4 # Giselbert I
 	}
 }
 c_luxembourg = {
+	982.1.1 = {
+		holder = luxemburg6 # Siegfried I
+	}
+	998.10.28 = {
+		holder = luxemburg5 # Friedrich I
+	}
+	1019.10.6 = {
+		holder = luxemburg1 # Heinrich I
+	}
 	1047.10.16 = {
 		holder = luxemburg4 # Giselbert I
 	}
 }
 c_bitburg = {
+	982.1.1 = {
+		holder = luxemburg6 # Siegfried I
+	}
+	998.10.28 = {
+		holder = luxemburg5 # Friedrich I
+	}
+	1019.10.6 = {
+		holder = luxemburg1 # Heinrich I
+	}
 	1047.10.16 = {
 		holder = luxemburg4 # Giselbert I
 	}
@@ -222,5 +275,19 @@ c_mechelen = {
 c_dinant = {
 	1048.7.8 = {
 		holder = liege_theoduin # Théoduin I
+	}
+}
+
+#Briey
+c_briey = {
+	1054.1.1 = {
+		holder = briey1 # Hermann I
+	}
+}
+
+#Limburg
+c_limburg = {
+	1054.1.1 = {
+		holder = limburg1 # Waleran
 	}
 }

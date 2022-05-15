@@ -38,3 +38,16 @@ fulda_egbert = {
 		death = yes
 	}
 }
+
+#Hersfeld
+hersfeld_meginher = {
+	name = "Meginher" # Meginher
+	religion = catholic
+	culture = hessian
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1059.9.26 = {
+		death = yes
+	}
+}

@@ -29,7 +29,7 @@ augsburg_heinrich_2 = {
 salzburg_balduin = {
 	name = "Balduin"
 	religion = catholic
-	culture = flamish
+	culture = flemish
 	1000.1.1 = { #est
 		birth = yes
 	}
@@ -202,6 +202,32 @@ liege_theoduin = {
 		birth = yes
 	}
 	1075.6.23 = {
+		death = yes
+	}
+}
+
+#Toul
+toul_odon = {
+	name = "Odon" # Odon I
+	religion = catholic
+	culture = lorrainian
+	999.1.1 = { #fic
+		birth = yes
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+
+#Verdun
+verdun_thierry = {
+	name = "Thierry" # Thierry I
+	religion = catholic
+	culture = lorrainian
+	1021.1.1 = { #fic
+		birth = yes
+	}
+	1089.1.1 = {
 		death = yes
 	}
 }

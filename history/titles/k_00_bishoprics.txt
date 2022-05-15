@@ -177,3 +177,17 @@ d_bm_liege = {
 		holder = liege_theoduin # Théoduin I
 	}
 }
+
+d_bm_toul = {
+	1000.1.1 = { government = theocracy_government }
+	1052.1.1 = {
+		holder = toul_odon # Odon I
+	}
+}
+
+d_bm_verdun = {
+	1000.1.1 = { government = theocracy_government }
+	1046.1.1 = {
+		holder = verdun_thierry # Thierry
+	}
+}

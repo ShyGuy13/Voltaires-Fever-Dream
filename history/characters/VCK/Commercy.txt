@@ -1,0 +1,12 @@
+﻿commercy1 = {
+	name = "Ricuin" # Ricuin I of Commercy
+	dynasty = 213
+	religion = catholic
+	culture = lorrainian
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
