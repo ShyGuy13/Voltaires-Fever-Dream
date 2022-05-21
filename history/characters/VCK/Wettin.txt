@@ -1,0 +1,12 @@
+﻿wettin1 = {
+	name = "Gero" # Gero I of Brehna
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	1020.1.1 = {
+		birth = yes
+	}
+	1071.1.1 = {
+		death = yes
+	}
+}

@@ -2,97 +2,64 @@ name_list_german = {
 	mercenary_names = {
 	}
 
-	male_names = {
-		5 = {
-			Albrecht Adolf Alfred Alfons Anno Arnold Andreas Arndt Anton August Alexander
-			Bruno Bernhard Balduin Burkhard Balthasar
-			Christian Christoph Caspar Clemens
-			Dietrich Dieter
-			Edmund Eduard Eberhard Erhard Engelbert Ernst Erich
-			Ferdinand Friedrich Franz
-			Georg Gebhard Gerhard Gottfried Gotthard Gottlieb Gottschalk Gunther 
-			Hermann Hans Heinrich Heribert Hugo Humbert Hartwig Hildebrand
-			Johann Johannes Jakob Josef Joachim
-			Konrad Kuno Karl Konstantin
-			Leonhard Ludwig Lothar Ludolf Lambert Liutgard
-			Matthias Matthaus Maximilian Moritz Marcus Melchior Markus Marquard Martin Michael
-			Nikolaus
-			Oswald Otto
-			Peter Philipp
-			Roland Robert Rudolf Raimund Rainer Rainald Ruprecht Reinhold Reinhard
-			Stefan Siegfried Sigismund Siegmund
-			Theodor Thomas
-			Ulrich Udo
-			Viktorin Viktor
-			Wilhelm Wigbold Walram Walter Wolfgang Werner Wenzel
-		}
-		3 = {
-			Altmann Anselm Achilles Alois Adam
-			Bertram Bernd Berthold Beringer Benedikt Bartholomaus Benjamin 
-			Detlev Daniel Diepold 
-			Erasmus Erich Egon Einhard Elias Egbert Ekkehard
-			Felix Folmar
-			Gustav Gabriel Gero
-			Henning Hieronymus Hector Heinz Herbert Hensel Hugo
-			Jens Jobst Jost Jan
-			Kornelius Kurt
-			Lukas Lorenz Lamprecht Leo
-			Manfred Magnus
-			Pawel Paul
-			Roman Reginbald
-			Simon Salomon
-			Tilmann Theoderich Thiemo
-			Volker Valentin
-			Winrich Wolfram Wiegand Winter Wolf 
-		}
-		1 = {
-			Albuin Amandus Aribo
-			Bawin Bertrand Boppo Batok Bastian Bardo Boemund
-			Carste 
-			Detward David
-			Elger Emich Esico Elert Eberwin Egidius Everger Egilmar Engilbert Ezzelin Egno Egelolf
-			Florenz Franco Frederik
-			Giselbert Gerold Gundekar Gobel Goswin 
-			Hildorf Hildebold Hilger Hatto Hillin
-			Isaac
-			Jodokus
-			Liemar Ludger Liborius Lienhardt 
-			Metfried Mauritz Megingoz Modestinus 
-			Nickel
-			Pilgrim Pankraz
-			Rhaban Reimar Richald Rutger Rudiger Reinboto Richolf Ripert
-			Salentin Sigewin Siger Statius Sebastian
-			Thietmar 
-			Uriel
-			Vincenz Vizelin Volkwin Volrad Volkhard Veit 
-			Warin Wicker Wiprecht Woffo Winland Wezelo Wittekind Wulf Widelo Wedekind Wilbrand
-		}
+	male_names = {        
+		Andreas Alfred August Alexander Albrecht Anton Alwin Adolf Arnold Alfons Anno Arndt Altmann Anselm Achilles Alois Adam Albuin Amandus Aribo Adalhard Ägidius
+		Bruno Burkhard Balthasar Benedikt Bernhard Bertold Bertram Bertrand Burchard Balduin Bernd Berthold Beringer Bartholomäus Benjamin Bawin Boppo Batok Bastian Bardo Boemund Billung Bertolf
+		Christian Clemens Caspar Claus Cobbo Cord Christoph Christopher Caspar Clemens Carsten
+		Dietmar Diederik Dietrich Dieter Detlev Daniel Diepold Detward David
+		Edwin Ernst Ekkehard Ekbert Engelbert Engelhard Ewald Edmund Eduard Eberhard Erhard Erich Erasmus Egon Einhard Elias Egbert Elger Emich Esico Elert Eberwin Egidius Everger Egilmar Engilbert Ezzelin Egno Egelolf Emil Eberold Ensfried Enolf Emmerich Emercho
+		Friedrich Franz	Ferdinand Felix Folmar Florenz Franco Frederik Fritz Feist Filmann Frank Fuchs
+		Günther Gunther Georg Gerard Gebhard Giselmar Gottschalk Gerhard Gottfried Gotthard Gottlieb Gustav Gabriel Gero Giselbert Gerold Gundekar Gobel Goswin Gallus Gerlach
+		Hermann Heinrich Hektor Hans Heideke Herbert Hinrik Heribert Hugo Humbert Hartwig Hildebrand Henning Hieronymus Heinz Hensel Hildorf Hildebold Hilger Hatto Hillin Heilmann Heidenreich Hartrad Hartmut Helfrich Hilging
+		Johann Joachim Joseph Jacob Jaspar Johannes Jakob Josef Jens Jobst Jost Jan Jodokus
+		Isaak Ingebrand Isenbard
+		Karl Konrad Kuno Konstantin Kornelius Kurt Kraft
+		Lukas Ludolf Ludwig Laurentz Lambert Liawizo Liemar Liudger Leonhard Lothar Lorenz Lamprecht Leo Ludger Liborius Lienhardt Lipmann
+		Micharl Markus Moritz Magnus Maximilian Mathias Meinwerk Merten Martin Michael Matthias Matthäus Melchior Marquard Manfred Metfried Mauritz Megingoz Modestinus Marsilius Meiger Minnemann Meusewin
+		Norbert Nicholas Nikolaus Nickel
+		Osmund Otto Ordulf Oswald
+		Peter Philipp Pawel Paul Pilgrim Pankraz
+		Reimund Ralph Rudolf Reginald Renard Reinmar Rüdiger Roland Robert Raimund Rainer Rainald Ruprecht Reinhold Reinhard Roman Reginbald Rhaban Reimar Richald Rutger Reinboto Richolf Ripert Richard Richwin Ruckelin Rudwin Ruther
+		Severinus Sigehelm Siegbert Sigisbert Siegfried Sigward Sigurd Simon Steffen Stefan Sigismund Siegmund Salomon Salentin Sigewin Siger Statius Sebastian Salman Schelm Sibert Siegeboto Schavart Stelin
+		Thomas Theodor Tilmann Theoderich Thiemo Thietmar Tragebodo Truschel
+		Ulrich Ulf Udo Uriel Ulbert
+		Viktor Viktorin Volker Valentin Vivelin Volmar
+		Wilfried Wolfram Wulfhelm Wulfhere Wenzel Wolfgang Waldemar Werner Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Wilhelm Wigbold Walram Winrich Wiegand Winter Wolf Warin Wicker Wiprecht Woffo Winland Wezelo Wittekind Widelo Wedekind Wilbrand Wikenand Wilderich Winand
+		Xaver
 	}
 	
 	female_names = {
-		Anna Adelheid Agnes Amalie Antonia Apollonia Ada Adela Auguste
-		Barbara Beatrix
-		Christina Charlotte 
-		Dorothea 
-		Euphemia Elisabeth Eleonore Ernestine Else Eva Emma Eberhardine 
-		Franziska Florentina 
-		Guda Gertrude
-		Hildegard Hedwig Henriette
-		Isabelle Ida
-		Jutta Juliane Judith Jacoba Johanna
-		Katharina Kunigunde Karoline
-		Luise Liutgard
-		Margarete Marie Maria Magdalena Mechthild Michaela
-		Reinhilde Rosemarie
-		Susanna Sabine Sibylle Sophie 
-		Therese Theresa
-		Ursula 
-		Verena
-		Walpurgis Willibirg
-		Yolande 
+		Adele Adelgunde Adelheid Adolfine Agatha Agnes Alexandra Alice Alina Aline Alma Alwina Alwine Amalia Amalie Amanda Amelie Andrea Angela Angelika Angelina Anika Anita Anja Anke Ann-Katrin Anna Anne Annegret Anneli Annelie Anneliese Annemarie Anni Annika Annina Anny Antje Antonia Astrid Augusta Auguste Ada Adela Arnolda
+		Barbara Bärbel Beate Beatrice Beatrix Bernadette Berta Bertha Bettina Bianca Bianka Birgit Brigitte Britta Brunhild Brünhild Brunhilde Brünhilde Begina
+		Cäcilia Cäcilie Caren Carina Carla Carmen Carolin Caroline Catarina Catharina Cathrin Catrin Cecilia Cecilie Celina Celine Charlotte Chiara Christa Christel Christiane Christina Christine Clara Claudia Constanze Cordula Corina Corinna Cornelia Camilla
+		Dagmar Daniela Denise Desirée Désirée Diana Dietlind Dietlinde Dora Doris Dorothea
+		Edda Edith Elena Eleonora Eleonore Elfriede Elisa Elisabeth Elise Elke Ella Ellen Elli Elly Elma Elsa Elsbeth Else Elvira Emelie Emely Emilia Emilie Emily Emma Emmeline Emmi Emmy Erdmute Erica Erika Erna Ester Esther Eugenie Eva Evelyn Euphemia Ernestine Eberhardine
+		Fabienne Fanny Felicia Felicitas Felizia Felizitas Finja Finnja Fiona Flora Florentina Florentine Franziska Frauke Freya Frida Fridegunde Frieda Friedegund Friedegunde Friederike
+		Gabriela Gabriele Genoveva Gerda Gerlind Gerlinde Gertraud Gertrud Gertrudis Gesine Gina Gisela Grete Gretel Grethe Gudrun Gunda Gundula Guda Gertrude
+		Hanna Hannah Hanne Hannelore Hedwig Heide Heidemarie Heidi Heike Helena Helene Helga Helge Hella Helmina Helmine Henny Hermina Hermine Herta Hertha Hilda Hilde Hildegard Hulda Henriette Herburgis
+		Ida Ilse Ines Inga Inge Ingeborg Ingeburg Ingrid Irene Irina Iris Irma Irmela Irmelin Irmgard Isabel Isabell Isabella Isabelle Isolde Ivonne Imagina
+		Jacqueline Jana Janina Janine Jaqueline Jasmin Jennifer Jessica Johanna Johanne Josefine Josephine Judith Jule Julia Juliane Jutta Jacoba
+		Kai Karen Karin Karina Karla Karolin Karoline Katarina Käte Katharina Käthe Kathrin Katja Katrin Kerstin Kim Kirsten Klara Konstanze Kristin Kristina Kunigunde
+		Lara Larissa Laura Lea Lena Leni Leoni Leonie Leonore Liane Liesel Lieselotte Lili Lilli Lilly Lina Linda Lisa Liselotte Lore Lotte Louisa Louise Lucia Lucie Luisa Luise Lulu Luna Luzia Luzie Lydia Luitgard Loretta Lukarde
+		Madeleine Madleen Madlen Madlene Magda Magdalena Magdalene Maike Maja Manuela Mareike Marga Margareta Margarete Margaretha Margarethe Margit Margot Margret Margrit Maria Marianne Marie Marie-Theres Marie-Therese Marina Marion Marleen Marlen Marlene Marlies Marlis Marta Martha Martina Mathilde Maya Mechthild Meike Melanie M cont. Melina Melissa Merle Meta Mia Michaela Michelle Minna Miriam Mirjam Mona Monica Monika Maren
+		Nadia Nadin Nadine Nadja Natali Natalie Natascha Nathalie Neele Nele Nicola Nicole Nina Noemi Nora
+		Oda Olga Olivia Ottilie
+		Patricia Patrizia Paula Paulina Pauline Petra Pia Petrissa
+		Rachel Rafaela Raffaela Rahel Ramona Raphaela Rebecca Rebekka Regina Renate Ricarda Rita Rolanda Ronja Rosa Rose Rosemarie Roswitha Ruth Reinhilde
+		Sabina Sabine Sabrina Samantha Sandra Sara Sarah Saskia Selina Seraphina Seraphine Sibylle Sieglind Sieglinde Siglind Siglinde Sigrid Silke Silvia Simone Sina Sissi Sofia Sofie Sonja Sophia Sophie Stefanie Stella Stephanie Susanna Svenja Swenja Sybille Sylvia Susanne
+		Tabea Tamara Tanja Tatjana Teresa Thekla Theres Theresa Therese Theresia Thirza Tina Tirza Traute Trude
+		Ulrike Ursel Ursula Uta Ute
+		Valentina Valerie Vanessa Vera Verena Verona Veronika Victoria Viktoria
+		Walburg Walburga Waldtraud Waldtraut Walpurga Walpurgis Waltraud Waltraut Wanja Wibke Wiebke Wilhelmina Wilhelmine Wilma Willibirg
+		Xenia
+		Yasmin Yvonne Yolande
+		Zäzilia Zäzilie Zoe
 	}
 
 	dynasty_names = {
+
+
+
 		#Lordships
 		{ dynnp_von dynn_Adelmannsfelden }
 		{ dynnp_von dynn_Alfingen }
@@ -924,6 +891,7 @@ name_list_german = {
 		{ dynnp_von dynn_Mohrenfels }
 		{ dynnp_von dynn_Kornburg }
 		{ dynnp_zu dynn_Burgfarrnbach }
+
 
 
 		{ dynnp_von dynn_Tannberg }

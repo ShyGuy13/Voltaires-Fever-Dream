@@ -231,3 +231,30 @@ verdun_thierry = {
 		death = yes
 	}
 }
+
+#Magdeburg
+magdeburg_engelhard = {
+	name = "Engelhard" # Engelhard I
+	religion = catholic
+	culture = eastphalian
+	999.1.1 = { #fic
+		birth = yes
+	}
+	1063.9.1 = {
+		death = yes
+	}
+}
+
+#Passau
+passau_egilbert = {
+	name = "Egilbert" #bishop of Passau
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1065.5.17 = {
+		death = yes
+	}
+}

@@ -1,0 +1,55 @@
+﻿askanier1 = {
+	name = "Esico" # Esico I of Ballenstedt
+	dynasty = 218
+	religion = catholic
+	culture = saxon
+	1000.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+
+askanier2 = {
+	name = "Otto" # 
+	dynasty = 218
+	religion = catholic
+	culture = saxon
+	father = askanier1
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1050.1.1 = { #fic
+		death = yes
+	}
+}
+
+askanier3 = {
+	name = "Adalbert" # Adalbert II of Ballenstedt
+	dynasty = 218
+	religion = catholic
+	culture = saxon
+	father = askanier1
+	1030.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+askanier4 = {
+	name = "Adelheid" #
+	female = yes
+	dynasty = 218
+	religion = catholic
+	culture = saxon
+	father = askanier1
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1090.1.1 = { #fic
+		death = yes
+	}
+}

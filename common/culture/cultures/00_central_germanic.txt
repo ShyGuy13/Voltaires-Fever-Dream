@@ -141,6 +141,38 @@ german = {	#obsolete
 	}
 }
 
+pommeranian = {
+	color = { 0.3 0.6 0.4 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_lechitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_hussar
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_pommeranian
+	
+	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		45 = slavic_blond
+		5 = slavic_ginger
+		35 = slavic_brown_hair
+		15 = slavic_dark_hair
+	}
+}
+
 #mod
 austrian = {
 	color = { 0.5 0.5 0.5 }

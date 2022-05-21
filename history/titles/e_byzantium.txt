@@ -1,0 +1,21 @@
+#Byzantium
+e_byzantium = {
+	1042.6.11 = {
+		holder = monomachos1 # Konstantinos IX
+	}
+}
+c_nicastro = {
+	1050.1.1 = {
+		holder = monomachos1 # Konstantinos IX
+	}
+}
+c_reggio_calabria = {
+	1050.1.1 = {
+		holder = monomachos1 # Konstantinos IX
+	}
+}
+c_rossano  = {
+	1050.1.1 = {
+		holder = monomachos1 # Konstantinos IX
+	}
+}

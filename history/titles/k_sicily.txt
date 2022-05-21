@@ -1,7 +1,13 @@
 #Catepanate of Italy
-d_taranto = {
+# d_taranto = {
+# 	1050.1.1 = {
+# 		liege = e_byzantium
+# 		holder = bari1 # Argyrus
+# 	}
+# }
+d_catapanate = {
 	1050.1.1 = {
-		#liege = e_byzantium
+		liege = e_byzantium
 		holder = bari1 # Argyrus
 	}
 }
@@ -20,21 +26,21 @@ c_taranto = {
 		holder = bari1 # Argyrus
 	}
 }
-c_nicastro = {
-	1050.1.1 = {
-		holder = bari1 # Argyrus
-	}
-}
-c_reggio_calabria = {
-	1050.1.1 = {
-		holder = bari1 # Argyrus
-	}
-}
-c_rossano  = {
-	1050.1.1 = {
-		holder = bari1 # Argyrus
-	}
-}
+# c_nicastro = {
+# 	1050.1.1 = {
+# 		holder = bari1 # Argyrus
+# 	}
+# }
+# c_reggio_calabria = {
+# 	1050.1.1 = {
+# 		holder = bari1 # Argyrus
+# 	}
+# }
+# c_rossano  = {
+# 	1050.1.1 = {
+# 		holder = bari1 # Argyrus
+# 	}
+# }
 
 #Foggia
 c_foggia = {
@@ -191,4 +197,69 @@ c_siracusa = {
 	#1086.1.1 = {
 		#Normans
 	#}
+}
+
+#Cagliari
+c_cagliari = {
+	1050.1.1 = {
+		holder = lacon1 # Salusio I
+	}
+}
+c_dolianova = {
+	1050.1.1 = {
+		holder = lacon1 # Salusio I
+	}
+}
+
+#Arborea
+c_arborea = {
+	1038.1.1 = {
+		holder = lacon3 # Barisone I
+	}
+}
+
+#Gallura
+c_gallura = {
+	1020.1.1 = {
+		holder = lacon9 # Manfredi I
+	}
+	1040.1.1 = {
+		holder = lacon5 # Ubaldo I
+	}
+}
+
+#Logudoro
+c_sassari = {
+	1038.1.1 = {
+		holder = lacon7 # Comita I
+	}
+}
+c_bosa = {
+	1038.1.1 = {
+		holder = lacon7 # Comita I
+	}
+}
+
+#Corsica
+d_corsica = {
+	1040.1.1 = {
+		holder = cinarca1 # Antonio I
+	}
+}
+c_ajaccio = {
+	1040.1.1 = {
+		holder = cinarca1 # Antonio I
+	}
+}
+c_bastia = {
+	1040.1.1 = {
+		holder = cinarca1 # Antonio I
+	}
+}
+
+#Malta
+c_malta = {
+	1054.1.1 = {
+		holder = abdallah1 # Yûsuf
+	}
 }

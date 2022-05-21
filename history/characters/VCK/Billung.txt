@@ -1,0 +1,86 @@
+billung1 = {
+	name = "Bernhard" # Bernhard II of Altsachsen
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	995.1.1 = {
+		birth = yes
+	}
+	1059.6.29 = {
+		death = yes
+	}
+}
+
+billung2 = {
+	name = "Ordulf" # Ordulf I of Altsachsen
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung1
+	1022.1.1 = {
+		birth = yes
+	}
+	1072.3.28 = {
+		death = yes
+	}
+}
+
+billung3 = {
+	name = "Hermann" # 
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung1
+	1025.1.1 = {
+		birth = yes
+	}
+	1086.5.31 = {
+		death = yes
+	}
+}
+
+billung4 = {
+	name = "Gertrude" # wife of Floris I of Holland
+	female = yes
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung1
+	1030.1.1 = { #est
+		birth = yes
+	}
+	1113.8.4 = {
+		death = yes
+	}
+}
+
+billung5 = {
+	name = "Ida" # wife of Friedrich I of Antwerp
+	female = yes
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung1
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	1101.7.31 = {
+		death = yes
+	}
+}
+
+billung6 = {
+	name = "Hedwig" # wife of Engelbert I of Spanheim
+	female = yes
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung1
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1112.7.17 = {
+		death = yes
+	}
+}
+

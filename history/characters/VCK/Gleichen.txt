@@ -1,0 +1,12 @@
+﻿gleichen1 = {
+	name = "Erwin" # Erwin I of Gleichen
+	dynasty = 101
+	religion = catholic
+	culture = thuringian
+	1034.1.1 = { #fic
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}

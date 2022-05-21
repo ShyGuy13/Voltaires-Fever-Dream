@@ -1,0 +1,40 @@
+﻿embrichoning1 = {
+	name = "Ludwig" # Ludwig I of Rheingraviate
+	dynasty = 146
+	culture = pfalzish
+	religion = catholic
+	father = embrichoning2
+	1014.1.1 = {
+		birth = yes
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}
+
+embrichoning2 = {
+	name = "Embricho" # Embricho I of Rheingraviate
+	dynasty = 146
+	culture = pfalzish
+	religion = catholic
+	985.1.1 = { #fic
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+
+embrichoning3 = {
+	name = "Ludwig" # Ludwig II of Rheingraviate
+	dynasty = 146
+	culture = pfalzish
+	religion = catholic
+	father = embrichoning1
+	1039.1.1 = { #fic
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,12 @@
+﻿cinarca1 = {
+	name = "Antonio" # Antonio I of Corsica
+	dynasty = 221
+	religion = catholic
+	culture = corsican
+	990.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}

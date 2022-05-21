@@ -1,7 +1,7 @@
 timnah1 = {
 	name = "Muhammad" # Muhammad I of Siracusa
 	dynasty = 202
-	religion = maliki
+	religion = ashari
 	culture = tunisian
 	993.1.1 = { #fic
 		birth = yes
@@ -14,7 +14,7 @@ timnah1 = {
 timnah2 = {
 	name = "Ibn ‘Abbâd" # Ibn ‘Abbâd I of Siracusa
 	dynasty = 202
-	religion = maliki
+	religion = ashari
 	culture = tunisian
 	father = timnah1
 	1035.1.1 = { #fic

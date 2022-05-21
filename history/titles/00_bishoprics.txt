@@ -84,7 +84,7 @@ d_bm_regensburg = {
 d_bm_passau = {
 	1000.1.1 = { government = theocracy_government }
 	1045.7.14 = {
-		holder = reginbodoning1
+		holder = passau_egilbert
 	}
 }
 
@@ -189,5 +189,12 @@ d_bm_verdun = {
 	1000.1.1 = { government = theocracy_government }
 	1046.1.1 = {
 		holder = verdun_thierry # Thierry
+	}
+}
+
+d_bm_magdeburg = {
+	1000.1.1 = { government = theocracy_government }
+	1051.2.28 = {
+		holder = magdeburg_engelhard # Engelhard I
 	}
 }

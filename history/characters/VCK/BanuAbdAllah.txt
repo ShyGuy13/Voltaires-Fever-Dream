@@ -1,0 +1,12 @@
+﻿abdallah1 = {
+	name = "Yusuf" # Yusuf of Malta
+	dynasty = 220
+	religion = ashari
+	culture = maltese
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1091.1.1 = { #Normans capture Malta
+		death = yes
+	}
+}

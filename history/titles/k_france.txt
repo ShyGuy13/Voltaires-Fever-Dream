@@ -44,6 +44,11 @@ c_vaudemont = {
 }
 
 #Franche Comte
+d_franche_comte = {
+	1026.9.21 = {
+		holder = anskaring1 # Reginald I
+	}
+}
 c_morteau = {
 	1026.9.21 = {
 		holder = anskaring1 # Reginald I
@@ -128,5 +133,13 @@ c_bourmont = {
 c_commercy = {
 	1054.1.1 = {
 		holder = commercy1 # Ricuin I
+	}
+}
+
+#Montbeliard
+c_montbeliard = {
+	1042.1.1 = {
+		liege = d_franche_comte
+		holder = scarpone1 # Louis I
 	}
 }

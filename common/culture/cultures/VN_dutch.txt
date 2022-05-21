@@ -1,4 +1,4 @@
-dutch = {
+﻿dutch = {
 	color = dutch
 	created = 750.1.1 # Frankish settlements in Frisia from the 6th to 8th century
 	parents = { frankish frisian }
@@ -29,7 +29,6 @@ dutch = {
 	}
 }
 
-
 frisian = {
 	color = { 0.7 0.3 0.0 }
 	
@@ -58,7 +57,7 @@ frisian = {
 	}
 }
 
-flamish = {
+flemish = {
 	color = dutch
 	created = 750.1.1 # Frankish settlements in Frisia from the 6th to 8th century
 	parents = { frankish frisian }

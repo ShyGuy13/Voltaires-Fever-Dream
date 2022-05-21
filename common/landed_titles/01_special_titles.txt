@@ -857,3 +857,20 @@ d_bm_wurzburg = {
 	always_follows_primary_heir = yes
 	de_jure_drift_disabled = yes
 }
+
+#BYZANTINE TITULAR PROVINCES
+d_catapanate = {
+	capital = c_bari
+
+	definite_form = yes
+	landless = yes
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}

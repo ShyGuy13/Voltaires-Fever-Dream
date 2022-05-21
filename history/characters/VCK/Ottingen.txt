@@ -1,0 +1,12 @@
+﻿ottingen1 = {
+	name = "Sieghard" # Sieghard I of Öttingen
+	dynasty = 184
+	religion = catholic
+	culture = thuringian
+	1034.1.1 = { #fic
+		birth = yes
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}

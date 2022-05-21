@@ -13,3 +13,4 @@ ce_vn_mercury_symbol = { colors = 1 category = abstract }
 ce_vn_griffin_rampant.dds = { colors = 2 category = animals }
 ce_vn_griffins_leg.dds = { colors = 3 category = animals }
 ce_vn_wall_anchor.dds = { colors = 1 category = manmade }
+ce_vn_wyvern_head.dds = { colors = 3 category = animals }

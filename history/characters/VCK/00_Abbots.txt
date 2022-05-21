@@ -51,3 +51,29 @@ hersfeld_meginher = {
 		death = yes
 	}
 }
+
+#Ellwangen
+ellwangen_arn = {
+	name = "Arn" # Arn
+	religion = catholic
+	culture = swabian
+	1007.1.1 = { #fic
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+
+#Murbach
+murbach_wolfrad = {
+	name = "Wolfrad" # Wolfrad
+	religion = catholic
+	culture = boden_alemannic
+	1013.1.1 = { #fic
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}

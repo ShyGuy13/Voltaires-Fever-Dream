@@ -1,0 +1,26 @@
+﻿dagsburg1 = {
+	name = "Heinrich" # Heinrich I of Dagsburg
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	990.1.1 = { #fic
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+
+dagsburg2 = {
+	name = "Hildegard" # Hildegard of Egisheim
+	female = yes
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	1025.1.1 = {
+		birth = yes
+	}
+	1095.2.4 = {
+		death = yes
+	}
+}

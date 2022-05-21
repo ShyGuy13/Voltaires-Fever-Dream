@@ -67,9 +67,11 @@
 
 19 = d_bavaria # Wittelsbach
 
+21 = c_lechsgemund # Lechsgemünd
+
 22 = c_leuchtenburg # Leuchtenberg
 
-25 = b_pappenheim # Pappenheim
+25 = c_pappenheim # Pappenheim
 
 27 = c_andechs # Andechs
 
@@ -164,6 +166,8 @@
 
 47 = c_sigmaringen # Sigmaringen
 
+53 = c_ottingen # Öttingen
+
 54 = c_bregenz # Udalriching
 
 55 = c_sulz # Sulz
@@ -205,6 +209,8 @@
 		instance = { position = { 0.50 0.67 } scale = { 1.0 1.34 }  }		
 	}			
 }
+
+69 = c_lupfen # Lupfen
 
 70 = c_laufenburg # Habsburg
 
@@ -317,7 +323,47 @@
 
 109 = d_thuringia # Ludowing
 
+120 = { # Wigeriching
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_ordinary_fess_5.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.45 } scale = { 1.0 1.4 }  }		
+	}
+}
+
 123 = c_rappoltstein # Rappoltstein
+
+124 = { # Hüneburg
+	pattern="pattern_horizontal_split_01.dds"
+	color1=red
+	color2=yellow
+	color3=white
+	colored_emblem={
+		color1=white
+		texture="ce_chevron_in_chief.dds"
+		mask = { 1 }
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_cross_09.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.200000 0.200000 }
+		}
+		instance={
+			position={ 0.200000 0.150000 }
+			scale={ 0.200000 0.200000 }
+		}
+		instance={
+			position={ 0.80000 0.150000 }
+			scale={ 0.200000 0.200000 }
+		}
+	}
+}
 
 125 = c_eberstein # Eberstein
 
@@ -517,6 +563,8 @@
 
 167 = c_leiningen # Leiningen
 
+187 = c_montbeliard # Scarpone
+
 190 = c_uzes # Uzès
 
 192 = d_flanders # Vlsanderen
@@ -549,6 +597,30 @@
 
 200 = c_enghein # Enghien
 
+201 = { # Banû Zîrî
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	color2 = "green"
+}
+
+202 = { # Banû Timnah
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	color2 = "green"
+}
+
+203 = { # Banû Mankut
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	color2 = "green"
+}
+
+204 = { # Banû ‘Awwâs
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	color2 = "green"
+}
+
 205 = c_cuijk # Cuijk
 
 206 = d_gelders # Gelre
@@ -562,6 +634,20 @@
 212 = c_limburg # Limburg
 
 213 = c_commercy # Commercy
+
+215 = c_bederkesa # Bederkesa
+
+219 = { # Flachslanden
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_ordinary_bend_dexter_5.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+} 
 
 # 2 = { #Heeckeren
 # 	pattern = "pattern_cross_01.dds"

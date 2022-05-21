@@ -1,0 +1,26 @@
+﻿rappoltstein1 = {
+	name = "Reinbold" # Reinbold I of Rappoltstein
+	dynasty = 10
+	culture = boden_alemannic
+	religion = catholic
+	1011.1.1 = { #fic
+		birth = yes
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}
+
+rappoltstein2 = {
+	name = "Adalbert" # Adalbert I of Rappoltstein
+	dynasty = 10
+	culture = boden_alemannic
+	religion = catholic
+	father = rappoltstein1
+	1039.1.1 = { #fic
+		birth = yes
+	}
+	1108.1.1 = {
+		death = yes
+	}
+}

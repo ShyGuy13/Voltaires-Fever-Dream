@@ -1,0 +1,26 @@
+﻿huneburg1 = {
+	name = "Dietrich" # Dietrich I of Alsace
+	dynasty = 124
+	religion = catholic
+	culture = boden_alemannic
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+
+huneburg2 = {
+	name = "Folmar" # Folmar I of Alsace
+	dynasty = 124
+	religion = catholic
+	culture = boden_alemannic
+	father = huneburg1
+	1050.1.1 = { #fic
+		birth = yes
+	}
+	1125.1.1 = {
+		death = yes
+	}
+}

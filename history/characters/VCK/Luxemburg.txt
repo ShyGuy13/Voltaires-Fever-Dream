@@ -35,6 +35,9 @@ luxemburg3 = {
 	1003.1.1 = { #est
 		birth = yes
 	}
+	1050.1.1 = { #fic
+		add_spouse = billung5 # Ida Billung
+	}
 	1065.5.18 = {
 		death = yes
 	}
@@ -76,7 +79,7 @@ luxemburg6 = {
 	919.1.1 = { #est
 		birth = yes
 	}
-	98.10.28 = {
+	998.10.28 = {
 		death = yes
 	}
 }

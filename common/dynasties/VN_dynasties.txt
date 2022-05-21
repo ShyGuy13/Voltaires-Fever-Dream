@@ -185,8 +185,9 @@
 	culture = swabian
 }
 40 = {
-	name = "dynn_Ezzoning"
-	culture = pfalzish
+	prefix = "dynnp_von"
+	name = "dynn_Oldenburg"
+	culture = low_elbish
 }
 41 = {
 	prefix = "dynnp_von"
@@ -620,9 +621,7 @@
 	culture = swabian
 }
 131 = {
-	prefix = "dynnp_von"
-	name = "dynn_Beckenbach" # Reginbodoning?
-	culture = hessian
+	#free
 }
 132 = {
 	prefix = "dynnp_von"
@@ -1019,28 +1018,43 @@
 	culture = lorrainian
 }
 214 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Haldensleben"
+	culture = central_margravian
 }
 215 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Bederkesa"
+	culture = low_elbish
 }
 216 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Bentheim"
+	culture = low_elbish
 }
 217 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Diepholz"
+	culture = low_elbish
 }
 218 = {
-	
+	name = "dynn_Askanier"
+	culture = saxon
 }
 219 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Flachslanden"
+	culture = boden_alemannic
 }
 220 = {
-	
+	prefix = "dynnp_Banu"
+	name = "dynn_Abd_Allah"
+	culture = maltese
 }
 221 = {
-	
+	prefix = "dynnp_di"
+	name = "dynn_Cinarca"
+	culture = corsican
 }
 222 = {
 	

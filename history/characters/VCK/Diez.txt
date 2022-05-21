@@ -1,0 +1,40 @@
+﻿diez1 = {
+	name = "Embricho" #Embricho I of Niederlahngau
+	dynasty = 141
+	religion = catholic
+	culture = hessian
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+
+diez2 = {
+	name = "Heinrich" # Heinrich I  of Niederlahngau
+	dynasty = 141
+	religion = catholic
+	culture = hessian
+	father = diez1
+	1045.1.1 = { #fic
+		birth = yes
+	}
+	1101.1.1 = { #fic
+		death = yes
+	}
+}
+
+diez3 = {
+	name = "Gerhard" # Gerhard I  of Niederlahngau
+	dynasty = 141
+	religion = catholic
+	culture = hessian
+	father = diez1
+	1049.1.1 = { #fic
+		birth = yes
+	}
+	1120.1.1 = { #fic
+		death = yes
+	}
+}

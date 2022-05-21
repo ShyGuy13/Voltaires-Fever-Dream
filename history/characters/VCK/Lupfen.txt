@@ -1,0 +1,12 @@
+﻿lupfen1 = {
+	name = "Heinrich" # Heinrich I of Lupfen
+	dynasty = 69
+	religion = catholic
+	culture = swiss
+	1003.1.1 = { #fic
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}

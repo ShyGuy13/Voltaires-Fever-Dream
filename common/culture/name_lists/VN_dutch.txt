@@ -1,0 +1,9 @@
+name_list_dutch = {
+	mercenary_names = {
+	}
+
+	dynasty_names = {
+		{ dynnp_van dynn_Holset }
+		{ dynnp_van dynn_Boet }
+	}
+}

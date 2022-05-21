@@ -1,12 +1,12 @@
 ﻿reginbodoning1 = {
-	name = "Egilbert" #bishop of Passau
+	name = "Reginbodo" #Reginbodo II of Klingenberg
 	dynasty = 24
 	religion = catholic
 	culture = hessian
-	1000.1.1 = { #fic
+	1028.1.1 = { #fic
 		birth = yes
 	}
-	1065.5.17 = {
+	1100.1.1 = {
 		death = yes
 	}
 }

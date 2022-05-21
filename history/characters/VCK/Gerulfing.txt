@@ -6,6 +6,9 @@
 	1017.1.1 = {
 		birth = yes
 	}
+	1050.1.1 = {
+		add_spouse = billung4 # Gertrude Billung
+	}
 	1061.6.28 = {
 		death = yes
 	}
@@ -17,6 +20,7 @@ gerulfing2 = {
 	religion = catholic
 	culture = dutch
 	father = gerulfing1
+	mother = billung4
 	1051.1.1 = {
 		birth = yes
 	}

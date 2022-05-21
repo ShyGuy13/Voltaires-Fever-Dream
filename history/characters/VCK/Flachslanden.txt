@@ -1,0 +1,26 @@
+﻿flachslanden1 = {
+	name = "Kuno" # Kuno I of Sundgau
+	dynasty = 219
+	culture = boden_alemannic
+	religion = catholic
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1063.1.1 = {
+		death = yes
+	}
+}
+
+flachslanden2 = {
+	name = "Rudolf" # Rudolf I of Sundgau
+	dynasty = 219
+	culture = boden_alemannic
+	religion = catholic
+	father = flachslanden1
+	1025.1.1 = { #fic
+		birth = yes
+	}
+	1084.1.1 = {
+		death = yes
+	}
+}
