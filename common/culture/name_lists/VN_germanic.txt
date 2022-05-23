@@ -7,10 +7,10 @@ name_list_german = {
 		Bruno Burkhard Balthasar Benedikt Bernhard Bertold Bertram Bertrand Burchard Balduin Bernd Berthold Beringer Bartholomäus Benjamin Bawin Boppo Batok Bastian Bardo Boemund Billung Bertolf
 		Christian Clemens Caspar Claus Cobbo Cord Christoph Christopher Caspar Clemens Carsten
 		Dietmar Diederik Dietrich Dieter Detlev Daniel Diepold Detward David
-		Edwin Ernst Ekkehard Ekbert Engelbert Engelhard Ewald Edmund Eduard Eberhard Erhard Erich Erasmus Egon Einhard Elias Egbert Elger Emich Esico Elert Eberwin Egidius Everger Egilmar Engilbert Ezzelin Egno Egelolf Emil Eberold Ensfried Enolf Emmerich Emercho
+		Edwin Ernst Ekkehard Ekbert Engelbert Engelhard Ewald Edmund Eduard Eberhard Erhard Erich Erasmus Egon Einhard Elias Egbert Elger Emich Esico Elert Eberwin Egidius Everger Egilmar Engilbert Ezzelin Egno Egelolf Emil Eberold Ensfried Enolf Emmerich Emercho Emmehard Eugen
 		Friedrich Franz	Ferdinand Felix Folmar Florenz Franco Frederik Fritz Feist Filmann Frank Fuchs
 		Günther Gunther Georg Gerard Gebhard Giselmar Gottschalk Gerhard Gottfried Gotthard Gottlieb Gustav Gabriel Gero Giselbert Gerold Gundekar Gobel Goswin Gallus Gerlach
-		Hermann Heinrich Hektor Hans Heideke Herbert Hinrik Heribert Hugo Humbert Hartwig Hildebrand Henning Hieronymus Heinz Hensel Hildorf Hildebold Hilger Hatto Hillin Heilmann Heidenreich Hartrad Hartmut Helfrich Hilging
+		Hermann Heinrich Hektor Hans Heideke Herbert Hinrik Heribert Hugo Humbert Hartwig Hildebrand Henning Hieronymus Heinz Hensel Hildorf Hildebold Hilger Hatto Hillin Heilmann Heidenreich Hartrad Hartmut Helfrich Hilging Helperich Hagen
 		Johann Joachim Joseph Jacob Jaspar Johannes Jakob Josef Jens Jobst Jost Jan Jodokus
 		Isaak Ingebrand Isenbard
 		Karl Konrad Kuno Konstantin Kornelius Kurt Kraft
@@ -40,7 +40,7 @@ name_list_german = {
 		Ida Ilse Ines Inga Inge Ingeborg Ingeburg Ingrid Irene Irina Iris Irma Irmela Irmelin Irmgard Isabel Isabell Isabella Isabelle Isolde Ivonne Imagina
 		Jacqueline Jana Janina Janine Jaqueline Jasmin Jennifer Jessica Johanna Johanne Josefine Josephine Judith Jule Julia Juliane Jutta Jacoba
 		Kai Karen Karin Karina Karla Karolin Karoline Katarina Käte Katharina Käthe Kathrin Katja Katrin Kerstin Kim Kirsten Klara Konstanze Kristin Kristina Kunigunde
-		Lara Larissa Laura Lea Lena Leni Leoni Leonie Leonore Liane Liesel Lieselotte Lili Lilli Lilly Lina Linda Lisa Liselotte Lore Lotte Louisa Louise Lucia Lucie Luisa Luise Lulu Luna Luzia Luzie Lydia Luitgard Loretta Lukarde
+		Lara Larissa Laura Lea Lena Leni Leoni Leonie Leonore Liane Liesel Lieselotte Lili Lilli Lilly Lina Linda Lisa Liselotte Lore Lotte Louisa Louise Lucia Lucie Luisa Luise Lulu Luna Luzia Luzie Lydia Luitgard Loretta Lukarde Lukardis
 		Madeleine Madleen Madlen Madlene Magda Magdalena Magdalene Maike Maja Manuela Mareike Marga Margareta Margarete Margaretha Margarethe Margit Margot Margret Margrit Maria Marianne Marie Marie-Theres Marie-Therese Marina Marion Marleen Marlen Marlene Marlies Marlis Marta Martha Martina Mathilde Maya Mechthild Meike Melanie M cont. Melina Melissa Merle Meta Mia Michaela Michelle Minna Miriam Mirjam Mona Monica Monika Maren
 		Nadia Nadin Nadine Nadja Natali Natalie Natascha Nathalie Neele Nele Nicola Nicole Nina Noemi Nora
 		Oda Olga Olivia Ottilie
@@ -57,299 +57,249 @@ name_list_german = {
 	}
 
 	dynasty_names = {
-
-
-
-		#Lordships
-		{ dynnp_von dynn_Adelmannsfelden }
-		{ dynnp_von dynn_Alfingen }
-		{ dynnp_von dynn_Badenweiler }
-		{ dynnp_von dynn_Baldern }
-		{ dynnp_von dynn_Ballmertshofen }
-		{ dynnp_von dynn_Bobingen }
-		{ dynnp_von dynn_Bohlingen }
-		{ dynnp_von dynn_Burgberg }
-		{ dynnp_von dynn_Bussen }
-		{ dynnp_von dynn_Durmentingen }
-		{ dynnp_von dynn_Duttenstein }
-		{ dynnp_von dynn_Eglingen }
-		{ dynnp_von dynn_Goffingen }
-		{ dynnp_von dynn_Grundsheim }
-		{ dynnp_von dynn_Haigerloch }
-		{ dynnp_von dynn_Hausen }
-		{ dynnp_von dynn_Heidenheim }
-		{ dynnp_von dynn_Heinriet }
-		{ dynnp_von dynn_Heudorf }
-		{ dynnp_von dynn_Justingen }
-		{ dynnp_von dynn_Scheer }
-		{ dynnp_von dynn_Schelklingen }
-		{ dynnp_von dynn_Scheuerberg }
-		{ dynnp_von dynn_Trugenhofen }
-		{ dynnp_von dynn_Wolfsolden }
-
-		{ dynnp_von dynn_Aislingen }
-		{ dynnp_von dynn_Baumgarten }
-		{ dynnp_von dynn_Boos }
-		{ dynnp_von dynn_Burgrain }
-		{ dynnp_von dynn_Diemantstein }
-		{ dynnp_von dynn_Eberstall }
-		{ dynnp_von dynn_Eisenburg }
-		{ dynnp_von dynn_Glott }
-		{ dynnp_von dynn_Hochhaus }
-		{ dynnp_von dynn_Hohenschwangau }
-		{ dynnp_von dynn_Kemnat }
-		{ dynnp_von dynn_Mitwitz }
-		{ dynnp_von dynn_Osterberg }
-		{ dynnp_von dynn_Ottilienberg }
-		{ dynnp_von dynn_Rettenberg }
-		{ dynnp_von dynn_Riedenburg }
-		{ dynnp_von dynn_Schwabegg }
-		{ dynnp_von dynn_Staufen }
-		{ dynnp_von dynn_Sugenheim }
-		{ dynnp_von dynn_Wilhermsdorf }
-
-		{ dynnp_von dynn_Badingen }
-		{ dynnp_von dynn_Baruth }
-		{ dynnp_von dynn_Beeskow }
-		{ dynnp_von dynn_Cottbus }
-		{ dynnp_von dynn_Drehna }
-		{ dynnp_von dynn_Finsterwalde }
-		{ dynnp_von dynn_Forst }
-		{ dynnp_von dynn_Freyenstein }
-		{ dynnp_von dynn_Golssen }
-		{ dynnp_von dynn_Neu-Hardenberg }
-		{ dynnp_von dynn_Leuthen }
-		{ dynnp_von dynn_Lieberose }
-		{ dynnp_von dynn_Lubbenau }
-		{ dynnp_von dynn_Muhlberg }
-		{ dynnp_von dynn_Reichwalde }
-		{ dynnp_von dynn_Ruhland }
-		{ dynnp_von dynn_Ruppin }
-		{ dynnp_von dynn_Sonnewalde }
-		{ dynnp_von dynn_Spremberg }
-		{ dynnp_von dynn_Straupitz }
-		{ dynnp_von dynn_Storkow }
-		{ dynnp_von dynn_Teupitz }
-		{ dynnp_von dynn_Zauche }
-		{ dynnp_von dynn_Zossen }
-
-		{ dynnp_von dynn_Babenhausen }
-		{ dynnp_von dynn_Bilstein }
-		{ dynnp_von dynn_Breuberg }
-		{ dynnp_von dynn_Franckenstein }
-		{ dynnp_von dynn_Gedern }
-		{ dynnp_von dynn_Habitzheim }
-		{ dynnp_von dynn_Schaumburg }
-
-		{ dynnp_von dynn_Gnoien }
-		{ dynnp_von dynn_Mecklenburg }
-		{ dynnp_von dynn_Richenberg }
-		{ dynnp_von dynn_Rostock }
-		{ dynnp_von dynn_Schwaan }
-		{ dynnp_von dynn_Stargard }
-		{ dynnp_von dynn_Werle }
-
-		{ dynnp_von dynn_Dassel }
-		{ dynnp_von dynn_Dinklage }
-		{ dynnp_von dynn_Einbeck }
-		{ dynnp_von dynn_Godens }
-		{ dynnp_von dynn_Jever }
-		{ dynnp_von dynn_Kniphausen }
-
-		{ dynnp_von dynn_Anholt }
-		{ dynnp_von dynn_Broich }
-		{ dynnp_von dynn_Buren }
-		{ dynnp_von dynn_Canstein }
-		{ dynnp_von dynn_Dyck }
-		{ dynnp_von dynn_Gemen }
-		{ dynnp_von dynn_Gronau }
-		{ dynnp_von dynn_Hinderking }
-		{ dynnp_von dynn_Hoerstgen }
-		{ dynnp_von dynn_Homburg }
-		{ dynnp_von dynn_Junkerath }
-		{ dynnp_von dynn_Linnep }
-		{ dynnp_von dynn_Lohn }
-		{ dynnp_von dynn_Merode }
-		{ dynnp_von dynn_Ottenstein }
-		{ dynnp_von dynn_Padberg }
-		{ dynnp_von dynn_Rheda }
-		{ dynnp_von dynn_Styrum }
-		{ dynnp_von dynn_Wickrath }
-
-		{ dynnp_von dynn_Bettingen }
-		{ dynnp_von dynn_Bretzenheim }
-		{ dynnp_von dynn_Bruch }
-		{ dynnp_von dynn_Konigsfeld }
-		{ dynnp_von dynn_Lahr }
-		{ dynnp_von dynn_Lissingen }
-		{ dynnp_von dynn_Neuerburg }
-		{ dynnp_von dynn_Olbruck }
-		{ dynnp_von dynn_Reichenstein }
-		{ dynnp_von dynn_Reipoltskirchen }
-		{ dynnp_von dynn_Scharfeneck }
-		{ dynnp_von dynn_Schonstein }
-		{ dynnp_von dynn_Vallendar }
-		{ dynnp_von dynn_Wildenburg }
-
-		{ dynnp_von dynn_Blieskastel }
-		{ dynnp_von dynn_Dagstuhl }
-		{ dynnp_von dynn_Hattweiler }
-		{ dynnp_von dynn_Ottweiler }
-		{ dynnp_von dynn_Puttlingen }
-
-		{ dynnp_von dynn_Blankenau }
-		{ dynnp_von dynn_Konigsbruck }
-		{ dynnp_von dynn_Muskau }
-		{ dynnp_von dynn_Purschenstein }
-		{ dynnp_von dynn_Rabenstein }
-		{ dynnp_von dynn_Schonburg }
-		{ dynnp_von dynn_Schwarzenberg }
-		{ dynnp_von dynn_Wildenfels }
-		{ dynnp_von dynn_Mylau }
-
-		{ dynnp_von dynn_Barby }
+		#Bavarian
+		{ dynnp_von dynn_Ebersberg }
+		#Hessian
+		{ dynnp_von dynn_Baumbach }
+		{ dynnp_von dynn_Biedenfeld }
+		{ dynnp_von dynn_Brink }
+		{ dynnp_von dynn_Breidenbach }
+		{ dynnp_von dynn_Buseck }
+		{ dynnp_von dynn_Buttlar }
+		{ dynnp_von dynn_Capella }
+		{ dynnp_von dynn_Cornberg }
+		{ dynnp_von dynn_Dalwig }
+		{ dynnp_zum dynn_Diede } # Diede zum Fürstenstein
+		{ dynnp_von dynn_Dornbach }
+		{ dynnp_von dynn_Döring }
+		{ dynnp_von dynn_Dörnberg }
+		{ dynnp_von dynn_Drach }
+		{ dynnp_von dynn_Eschwege }
+		{ dynnp_von dynn_Falkenberg }
+		{ dynnp_von dynn_Fleckenbühl }
+		{ dynnp_von dynn_Gall }
+		{ dynnp_von dynn_Gilsa }
+		{ dynnp_von dynn_Grifte }
+		{ dynnp_von dynn_Habell }
+		{ dynnp_von dynn_Hebel }
+		{ dynnp_von dynn_Hertingshausen }
+		{ dynnp_von dynn_Heydwolff }
+		{ dynnp_von dynn_Holzadel }
+		{ dynnp_von dynn_Hottenbach }
+		{ dynnp_von dynn_Hundelshausen }
+		{ dynnp_von dynn_Keudell }
+		{ dynnp_von dynn_Knoblauch }
+		{ dynnp_von dynn_Leimbach }
+		{ dynnp_von dynn_Leonhardi }
 		{ dynnp_von dynn_Lindau }
-		{ dynnp_von dynn_Rosenburg }
-		{ dynnp_von dynn_Walternienburg }
-
-		{ dynnp_von dynn_Hessenstein }
-
-		{ dynnp_von dynn_Berka }
-		{ dynnp_von dynn_Bilstein }
-		{ dynnp_von dynn_Farnroda }
-		{ dynnp_von dynn_Lengsfeld }
-		{ dynnp_von dynn_Lohra }
-		{ dynnp_von dynn_Schmalkalden }
-
-		{ dynnp_von dynn_Schellenberg }
-
-		{ dynnp_von dynn_Mannenberg }
-		{ dynnp_von dynn_Klingen }
-		{ dynnp_von dynn_Sax }
-		{ dynnp_von dynn_Tannegg }
-		{ dynnp_von dynn_Greifenberg }
-		{ dynnp_von dynn_Greifensee }
-		{ dynnp_von dynn_Gruningen }
-		{ dynnp_von dynn_Knonau }
-		{ dynnp_von dynn_Regensberg }
-
-		# Zürich Roll of Arms Page 1-120
-		{ dynnp_von dynn_Homberg }
-		{ dynnp_von dynn_Bucheck }
-		{ dynnp_von dynn_Schelkingen }
-		{ dynnp_von dynn_Rosenau }
-		{ dynnp_von dynn_Arbon }
-		{ dynnp_von dynn_Wagenberg }
-		{ dynnp_von dynn_Mandach }
-		{ dynnp_von dynn_End }
-		{ dynnp_von dynn_Lochen }
-		{ dynnp_von dynn_Scharffenberg }
-		{ dynnp_von dynn_Langenstein }
-		{ dynnp_von dynn_Spiegelberg }
-		{ dynnp_von dynn_Schonenstein }
-		{ dynnp_von dynn_Hurling }
-		{ dynnp_von dynn_Helmsdorff }
-		{ dynnp_von dynn_Landenberg }
-		{ dynnp_von dynn_Sulzberg }
-		{ dynnp_von dynn_Wildenstein }
-		{ dynnp_von dynn_Schellenberg }
-		{ dynnp_von dynn_Winterstetten }
-		{ dynnp_von dynn_Gosgen }
-		{ dynnp_von dynn_Schwandegg }
-		{ dynnp_zu dynn_Hohenems }
-		{ dynnp_von dynn_Strass }
-		{ dynnp_von dynn_Bludenz }
-		{ dynnp_von dynn_Thumb }
-		{ dynnp_von dynn_Ringenberg }
-		{ dynnp_von dynn_Ramsberg }
-		{ dynnp_von dynn_Om }
-		{ dynnp_von dynn_Greifenstein }
-		{ dynnp_von dynn_Kirneck }
-		{ dynnp_von dynn_Schonenberg }
-		{ dynnp_von dynn_Wellenberg }
+		{ dynnp_von dynn_Linsingen }
+		{ dynnp_von dynn_Löwenfeld }
+		{ dynnp_von dynn_Löwenstein }
+		{ dynnp_von dynn_Lütter }
+		{ dynnp_von dynn_Meysenburg }
+		{ dynnp_von dynn_Milching } # Schutzbar genannt Milchling
+		{ dynnp_von dynn_Radenhausen }
+		{ dynnp_von dynn_Rau } # Rau von Holzhausen
+		{ dynnp_von dynn_Riedesel }
+		{ dynnp_von dynn_Roding }
+		{ dynnp_von dynn_Röhrenfurth }
+		{ dynnp_von dynn_Romrod }
+		{ dynnp_von dynn_Rotsmann }
+		{ dynnp_von dynn_Scheffer }
+		{ dynnp_von dynn_Schachten }
+		{ dynnp_von dynn_Scholetz }
+		{ dynnp_von dynn_Schönstadt } # Milching von Schönstadt
+		{ dynnp_von dynn_Schrendeisen }
+		{ dynnp_zu dynn_Schweinsberg } # Schenk zu Schweinsberg
+		{ dynnp_von dynn_Schwertzell }
+		{ dynnp_von dynn_Sayboltsdorf }
+		{ dynnp_von dynn_Trohe }
+		{ dynnp_von dynn_Trott } # Trott zu Solz
+		{ dynnp_von dynn_Urff }
+		{ dynnp_von dynn_Verschuer }
+		{ dynnp_von dynn_Vultejus }
+		{ dynnp_von dynn_Vrede }
+		{ dynnp_von dynn_Waitz } # Waitz von Eschen
+		{ dynnp_von dynn_Wambolt } # Wambolt von Umstadt
+		{ dynnp_von dynn_Wallenstein }
+		{ dynnp_von dynn_Weitershausen }
+		{ dynnp_von dynn_Wolff }
+		{ dynnp_von dynn_Worm }
+		#Hannoverian
+		{ dynnp_von dynn_Amelunxen }
+		{ dynnp_von dynn_Berlepsch }
+		{ dynnp_von dynn_Bischoffshausen }
+		{ dynnp_von dynn_Bodenhausen }
+		{ dynnp_von dynn_Desingerode }
+		{ dynnp_von dynn_Esplingerode }
+		{ dynnp_von dynn_Gieboldehausen }
 		{ dynnp_von dynn_Lutterberg }
-		{ dynnp_von dynn_Buzer }
-		{ dynnp_von dynn_Schinen }
-		{ dynnp_von dynn_Neuffen }
-		#{ dynn_Beuren }
-		{ dynnp_von dynn_Landau }
-		{ dynnp_von dynn_Schonegg }
-		{ dynnp_von dynn_Aichhaim }
-		{ dynnp_von dynn_Gutenburg }
-		{ dynnp_zum dynn_Turm }
-		{ dynnp_von dynn_Bienburg }
-		{ dynnp_von dynn_Laubgassen }
-		{ dynnp_von dynn_Montalt }
-		#{ dynn_Schildt }
-		#{ dynn_Scheiling }
-		{ dynnp_von dynn_Bergheim }
-		{ dynnp_von dynn_Schlettstatt }
-		{ dynnp_von dynn_Reussegg }
-		{ dynnp_von dynn_Grabner }
+		{ dynnp_von dynn_Minnigerode }
+		{ dynnp_von dynn_Nagel }
+		{ dynnp_von dynn_Spiegel }
+		{ dynnp_von dynn_Seulingen }
+		{ dynnp_von dynn_Tastungen }
+		{ dynnp_von dynn_Wintzingerode }
+		#Low Elbish
+		{ dynnp_von dynn_Calenberg }
+		{ dynnp_von dynn_Donop }
+		{ dynnp_von dynn_Stockhausen }
+		#Thuringian
+		{ dynnp_von dynn_Bodenstein }
+		{ dynnp_von dynn_Bodungen }
+		{ dynnp_von dynn_Bültzingslöwen }
+		{ dynnp_von dynn_Gleichenstein }
+		{ dynnp_von dynn_Hagen }
+		{ dynnp_von dynn_Hanstein }
+		{ dynnp_von dynn_Harstall }
+		{ dynnp_von dynn_Heßberg }
+		{ dynnp_von dynn_Kirchberg }
+		{ dynnp_von dynn_Knorring }
+		{ dynnp_von dynn_Leuthorst }
+		{ dynnp_von dynn_Marchia }
+		{ dynnp_von dynn_Münch }
+		{ dynnp_von dynn_Osterhausen }
+		{ dynnp_von dynn_Proyse }
+		{ dynnp_von dynn_Rieme }
+		{ dynnp_von dynn_Rusteberg }
+		{ dynnp_von dynn_Seebach }
+		{ dynnp_von dynn_Stein }
+		{ dynnp_von dynn_Westernhagen }
+		{ dynnp_von dynn_Wolf }
+		{ dynnp_von dynn_Worbis }
+		{ dynnp_von dynn_Zwehl }
+		#Pomeranian
+		{ dynnp_von dynn_Horn }
+		#Prussian
+		{ dynnp_von dynn_Pretlack }
+		#Pfalzish
+		{ dynnp_von dynn_Winter }
+		#Westphalian
+		{ dynnp_von dynn_Rabe }
+		#Franconian
+		{ dynnp_von dynn_Rosenau }
+		#Ripuarian
+		#Moselle Frankish
+		#Swabian
+		{ dynnp_von dynn_Dettingen }
+		{ dynnp_von dynn_Ellerbach }
+		{ dynnp_von dynn_Freyberg }
+		{ dynnp_von dynn_Goldbach }
 		{ dynnp_von dynn_Helmishofen }
-		#{ dynn_Chienstein }
-		{ dynnp_von dynn_Grenzer }
-		{ dynnp_von dynn_Gosholz }
-		{ dynnp_von dynn_Liebenberg }
-		{ dynnp_von dynn_Zwirkenberg }
-		{ dynnp_von dynn_Aufenstein }
+		{ dynnp_von dynn_Kallenberg }
+		{ dynnp_von dynn_Laubenberg }
+		{ dynnp_von dynn_Neuffen }
+		{ dynnp_von dynn_Rettenberg }
+		{ dynnp_von dynn_Schönenberg }
+		{ dynnp_von dynn_Schelklingen }
+		{ dynnp_von dynn_Schienen }
+		{ dynnp_von dynn_Schönenberg }
+		{ dynnp_von dynn_Steinegg }
+		{ dynnp_von dynn_Waldburg }
+		{ dynnp_von dynn_Walsee }
 		{ dynnp_von dynn_Weiler }
-		#{ dynn_Obaerloh }
-		{ dynnp_von dynn_Schonen }
+		#Alemannic
+		{ dynnp_von dynn_Bienburg }
+		{ dynnp_von dynn_Bludenz }
+		{ dynnp_von dynn_Büzer }
+		{ dynnp_von dynn_Ems } # Ems zu Hohenems
+		{ dynnp_von dynn_Hohentann } # Hohentann von Hoheneck
+		{ dynnp_von dynn_Friedingen } # von Friedingen zu Hohenkrähen
+		{ dynnp_von dynn_Gosholz }
+		{ dynnp_von dynn_Gundelfingen }
+		{ dynnp_von dynn_Kirneck }
+		{ dynnp_von dynn_Königsegg }
+		{ dynnp_von dynn_Krenkingen }
+		{ dynnp_von dynn_Lindenberg }
+		{ dynnp_von dynn_Marbach }
+		{ dynnp_von dynn_Markdorf }
+		{ dynnp_von dynn_Montfort }
+		{ dynnp_von dynn_Reischach  } # Reischach von Reichenstein
+		{ dynnp_von dynn_Ringgenberg }
+		{ dynnp_von dynn_Rohrdorf }
+		{ dynn_Schnewli } # Patrician
+		{ dynnp_von dynn_Sonnenberg }
+		{ dynnp_von dynn_Sulzberg }
+		{ dynnp_von dynn_Tengen }
+		{ dynnp_von dynn_Thumb } # Thumb von Neuenburg
+		{ dynnp_von dynn_Tierberg }
+		{ dynnp_von dynn_Winterstetten }
+		{ dynnp_von dynn_Zwirkenberg }
+		#Swiss
+		{ dynnp_von dynn_Aichhaim }
+		{ dynnp_von dynn_Anweil }
+		{ dynnp_von dynn_Arbon }
+		{ dynnp_von dynn_Altenklingen }
+		{ dynnp_von dynn_Aspermont }
+		{ dynnp_von dynn_Bechburg }
+		{ dynnp_von dynn_Belmont }
+		{ dynnp_von dynn_Bichelsee }
+		{ dynnp_von dynn_Blumegg }
+		{ dynnp_von dynn_Buchegg }
+		{ dynnp_von dynn_Bürglen }
+		{ dynn_Chienstein } # Patrician?
+		{ dynnp_von dynn_Diessenhofen }
+		{ dynnp_von dynn_End }
+		{ dynnp_von dynn_Gösgen }
+		{ dynnp_von dynn_Greifenstein }
+		{ dynnp_von dynn_Grenzer }
+		{ dynnp_von dynn_Griesenberg }
+		{ dynnp_von dynn_Gutenburg }
+		{ dynnp_von dynn_Güttingen }
+		{ dynn_Hasenbein } # Patrician?
+		{ dynnp_von dynn_Heidelberg }
+		{ dynnp_von dynn_Helmsdorf }
+		{ dynnp_von dynn_Hettlingen }
+		{ dynnp_von dynn_Hohenklingen }
+		{ dynnp_von dynn_Hohensax }
+		{ dynnp_von dynn_Homberg }
+		{ dynnp_von dynn_Hürling }
+		{ dynnp_von dynn_Kirchberg }
+		{ dynnp_von dynn_Klingenberg }
+		{ dynnp_von dynn_Kriech }
+		{ dynnp_von dynn_Landegg } # Schenk von Landegg
+		{ dynnp_von dynn_Landenberg }
+		{ dynnp_von dynn_Langenstein }
+		{ dynnp_von dynn_Laubgassen }
+		{ dynnp_von dynn_Liebenberg }
+		{ dynnp_von dynn_Mandach }
+		{ dynnp_von dynn_Montalt }
+		{ dynnp_von dynn_Müris }
+		{ dynnp_von dynn_Om }
+		{ dynnp_von dynn_Ramsberg }
+		{ dynnp_von dynn_Ramschwag }
+		{ dynnp_von dynn_Regensberg }
+		{ dynnp_von dynn_Reussegg }
+		{ dynnp_von dynn_Richenstein }
+		{ dynnp_von dynn_Rorschach }
+		{ dynnp_von dynn_Rötteln }
+		{ dynnp_von dynn_Rüti }
+		{ dynn_Schildt } # Patrician?
+		{ dynnp_von dynn_Schönegg }
+		{ dynnp_von dynn_Schönen }
+		{ dynnp_von dynn_Schönenstein }
+		{ dynnp_von dynn_Schwandegg }
+		{ dynnp_von dynn_Spiegelberg }
+		{ dynnp_von dynn_Strass }
+		{ dynnp_von dynn_Thierstein }
+		{ dynnp_zum dynn_Turm }
+		{ dynnp_von dynn_Vaz }
+		{ dynnp_von dynn_Wagenberg }
+		{ dynnp_von dynn_Wellenberg }
+		{ dynnp_von dynn_Wiesendangen }
+		{ dynnp_von dynn_Wildenberg }
+		#Austrian
+		{ dynnp_von dynn_Aufenstein }
+		{ dynnp_von dynn_Bergheim }
+		{ dynnp_von dynn_Lochen }
+		{ dynnp_von dynn_Schärffenberg }
+		{ dynnp_von dynn_Schellenberg }
+		{ dynnp_von dynn_Wildenstein }
+		#Silesian German
+		{ dynnp_von dynn_Elsner } # Elsner von Gronow
+
 
 		# Zürich Roll of Arms Page 121-240
-		{ dynnp_von dynn_Wildenberg }
-		{ dynnp_von dynn_Kirchberg }
-		{ dynnp_von dynn_Walsee }
-		{ dynnp_von dynn_Vaz }
-		{ dynnp_von dynn_Hohenklingen }
-		#{ dynn_Belmont }
-		{ dynnp_von dynn_Guttingen }
-		{ dynnp_von dynn_Rotteln }
-		{ dynnp_von dynn_Griessenberg }
-		{ dynnp_von dynn_Burglen }
-		{ dynnp_von dynn_Regensberg }
-		{ dynnp_von dynn_Krenkingen }
-		{ dynnp_von dynn_Tengen }
-		{ dynnp_von dynn_Gundelfingen }
-		{ dynnp_von dynn_Rettenberg }
-		{ dynnp_von dynn_Friberg }
-		{ dynnp_von dynn_Goldbach }
-		{ dynnp_von dynn_Hettlingen }
-		{ dynnp_von dynn_Bichelsee }
-		{ dynnp_von dynn_Friberg }
-		{ dynnp_von dynn_Ellerbach }
-		{ dynnp_von dynn_Richenstein }
-		{ dynnp_von dynn_Reute }
-		{ dynnp_von dynn_Muris }
-		{ dynnp_von dynn_Bechburg }
-		{ dynnp_von dynn_Ebersberg }
-		{ dynn_Hasenbein }
-		{ dynnp_von dynn_Tierberg }
-		{ dynnp_von dynn_Rohrdorf }
-		{ dynnp_von dynn_Marbach }
-		{ dynnp_von dynn_Montfort }
-		{ dynnp_von dynn_Anweil }
-		#{ dynn_Aspermont }
-		{ dynnp_von dynn_Kallenberg }
-		{ dynnp_von dynn_Klingenberg }
-		{ dynnp_von dynn_Blumeneck }
-		{ dynnp_von dynn_Friedingen }
-		{ dynnp_von dynn_Waldburg }
-		{ dynnp_von dynn_Sonnenberg }
-		{ dynnp_von dynn_Landeck }
-		{ dynnp_von dynn_Ramschwag }
-		{ dynnp_von dynn_Konigsegg }
-		{ dynnp_von dynn_Reischach  }
-		{ dynnp_von dynn_Steinegg }
-		{ dynnp_von dynn_Wiesendangen }
-		{ dynnp_von dynn_Dettingen }
-		{ dynnp_von dynn_Kriech }
-		{ dynnp_von dynn_Markdorf }
-		{ dynnp_von dynn_Lindenberg }
-		{ dynnp_von dynn_Diessenhofen }
-		{ dynnp_von dynn_Heidelberg }
-		{ dynnp_von dynn_Rorschach }
 		{ dynnp_von dynn_Wartenberg }
 		{ dynnp_von dynn_Wartensee }
 		{ dynnp_von dynn_Matsch }
@@ -921,6 +871,152 @@ name_list_german = {
 		{ dynnp_von dynn_Schweissing }
 		{ dynnp_von dynn_Zschock }
 		{ dynnp_von dynn_Zwickel }
+
+		{ dynnp_von dynn_Aislingen }
+		{ dynnp_von dynn_Baumgarten }
+		{ dynnp_von dynn_Boos }
+		{ dynnp_von dynn_Burgrain }
+		{ dynnp_von dynn_Diemantstein }
+		{ dynnp_von dynn_Eberstall }
+		{ dynnp_von dynn_Eisenburg }
+		{ dynnp_von dynn_Glott }
+		{ dynnp_von dynn_Hochhaus }
+		{ dynnp_von dynn_Hohenschwangau }
+		{ dynnp_von dynn_Kemnat }
+		{ dynnp_von dynn_Mitwitz }
+		{ dynnp_von dynn_Osterberg }
+		{ dynnp_von dynn_Ottilienberg }
+		{ dynnp_von dynn_Rettenberg }
+		{ dynnp_von dynn_Riedenburg }
+		{ dynnp_von dynn_Schwabegg }
+		{ dynnp_von dynn_Staufen }
+		{ dynnp_von dynn_Sugenheim }
+		{ dynnp_von dynn_Wilhermsdorf }
+
+		{ dynnp_von dynn_Badingen }
+		{ dynnp_von dynn_Baruth }
+		{ dynnp_von dynn_Beeskow }
+		{ dynnp_von dynn_Cottbus }
+		{ dynnp_von dynn_Drehna }
+		{ dynnp_von dynn_Finsterwalde }
+		{ dynnp_von dynn_Forst }
+		{ dynnp_von dynn_Freyenstein }
+		{ dynnp_von dynn_Golssen }
+		{ dynnp_von dynn_Neu-Hardenberg }
+		{ dynnp_von dynn_Leuthen }
+		{ dynnp_von dynn_Lieberose }
+		{ dynnp_von dynn_Lubbenau }
+		{ dynnp_von dynn_Muhlberg }
+		{ dynnp_von dynn_Reichwalde }
+		{ dynnp_von dynn_Ruhland }
+		{ dynnp_von dynn_Ruppin }
+		{ dynnp_von dynn_Sonnewalde }
+		{ dynnp_von dynn_Spremberg }
+		{ dynnp_von dynn_Straupitz }
+		{ dynnp_von dynn_Storkow }
+		{ dynnp_von dynn_Teupitz }
+		{ dynnp_von dynn_Zauche }
+		{ dynnp_von dynn_Zossen }
+
+		{ dynnp_von dynn_Babenhausen }
+		{ dynnp_von dynn_Bilstein }
+		{ dynnp_von dynn_Breuberg }
+		{ dynnp_von dynn_Franckenstein }
+		{ dynnp_von dynn_Gedern }
+		{ dynnp_von dynn_Habitzheim }
+		{ dynnp_von dynn_Schaumburg }
+
+		{ dynnp_von dynn_Gnoien }
+		{ dynnp_von dynn_Mecklenburg }
+		{ dynnp_von dynn_Richenberg }
+		{ dynnp_von dynn_Rostock }
+		{ dynnp_von dynn_Schwaan }
+		{ dynnp_von dynn_Stargard }
+		{ dynnp_von dynn_Werle }
+
+		{ dynnp_von dynn_Dassel }
+		{ dynnp_von dynn_Dinklage }
+		{ dynnp_von dynn_Einbeck }
+		{ dynnp_von dynn_Godens }
+		{ dynnp_von dynn_Jever }
+		{ dynnp_von dynn_Kniphausen }
+
+		{ dynnp_von dynn_Anholt }
+		{ dynnp_von dynn_Broich }
+		{ dynnp_von dynn_Buren }
+		{ dynnp_von dynn_Canstein }
+		{ dynnp_von dynn_Dyck }
+		{ dynnp_von dynn_Gemen }
+		{ dynnp_von dynn_Gronau }
+		{ dynnp_von dynn_Hinderking }
+		{ dynnp_von dynn_Hoerstgen }
+		{ dynnp_von dynn_Homburg }
+		{ dynnp_von dynn_Junkerath }
+		{ dynnp_von dynn_Linnep }
+		{ dynnp_von dynn_Lohn }
+		{ dynnp_von dynn_Merode }
+		{ dynnp_von dynn_Ottenstein }
+		{ dynnp_von dynn_Padberg }
+		{ dynnp_von dynn_Rheda }
+		{ dynnp_von dynn_Styrum }
+		{ dynnp_von dynn_Wickrath }
+
+		{ dynnp_von dynn_Bettingen }
+		{ dynnp_von dynn_Bretzenheim }
+		{ dynnp_von dynn_Bruch }
+		{ dynnp_von dynn_Konigsfeld }
+		{ dynnp_von dynn_Lahr }
+		{ dynnp_von dynn_Lissingen }
+		{ dynnp_von dynn_Neuerburg }
+		{ dynnp_von dynn_Olbruck }
+		{ dynnp_von dynn_Reichenstein }
+		{ dynnp_von dynn_Reipoltskirchen }
+		{ dynnp_von dynn_Scharfeneck }
+		{ dynnp_von dynn_Schonstein }
+		{ dynnp_von dynn_Vallendar }
+		{ dynnp_von dynn_Wildenburg }
+
+		{ dynnp_von dynn_Blieskastel }
+		{ dynnp_von dynn_Dagstuhl }
+		{ dynnp_von dynn_Hattweiler }
+		{ dynnp_von dynn_Ottweiler }
+		{ dynnp_von dynn_Puttlingen }
+
+		{ dynnp_von dynn_Blankenau }
+		{ dynnp_von dynn_Konigsbruck }
+		{ dynnp_von dynn_Muskau }
+		{ dynnp_von dynn_Purschenstein }
+		{ dynnp_von dynn_Rabenstein }
+		{ dynnp_von dynn_Schonburg }
+		{ dynnp_von dynn_Schwarzenberg }
+		{ dynnp_von dynn_Wildenfels }
+		{ dynnp_von dynn_Mylau }
+
+		{ dynnp_von dynn_Barby }
+		{ dynnp_von dynn_Lindau }
+		{ dynnp_von dynn_Rosenburg }
+		{ dynnp_von dynn_Walternienburg }
+
+		{ dynnp_von dynn_Hessenstein }
+
+		{ dynnp_von dynn_Berka }
+		{ dynnp_von dynn_Bilstein }
+		{ dynnp_von dynn_Farnroda }
+		{ dynnp_von dynn_Lengsfeld }
+		{ dynnp_von dynn_Lohra }
+		{ dynnp_von dynn_Schmalkalden }
+
+		{ dynnp_von dynn_Schellenberg }
+
+		{ dynnp_von dynn_Mannenberg }
+		{ dynnp_von dynn_Klingen }
+		{ dynnp_von dynn_Sax }
+		{ dynnp_von dynn_Tannegg }
+		{ dynnp_von dynn_Greifenberg }
+		{ dynnp_von dynn_Greifensee }
+		{ dynnp_von dynn_Gruningen }
+		{ dynnp_von dynn_Knonau }
+		{ dynnp_von dynn_Regensberg }
 	}
 	dynasty_of_location_prefix = "dynnp_von"
 

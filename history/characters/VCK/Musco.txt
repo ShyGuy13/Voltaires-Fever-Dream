@@ -1,0 +1,26 @@
+﻿musco1 = {
+	name = "Giovanni" # Giovanni II of Amalfi
+	dynasty = 222
+	religion = catholic
+	culture = neapolitan
+	father = musco2
+	1002.1.1 = { #fic
+		birth = yes
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+
+musco2 = {
+	name = "Sergio" # Sergio II of Amalfi
+	dynasty = 222
+	religion = catholic
+	culture = neapolitan
+	980.1.1 = { #fic
+		birth = yes
+	}
+	1028.4.1 = {
+		death = yes
+	}
+}

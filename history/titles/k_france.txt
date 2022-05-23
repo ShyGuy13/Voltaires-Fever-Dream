@@ -143,3 +143,15 @@ c_montbeliard = {
 		holder = scarpone1 # Louis I
 	}
 }
+
+#Nîmes
+c_nimes = {
+	1054.1.1 = {
+		holder = trencavel1 # Raimond Bernard I
+	}
+}
+c_uzes = {
+	1054.1.1 = {
+		holder = trencavel1 # Raimond Bernard I
+	}
+}

@@ -17,10 +17,66 @@ nakoning2 = {
 	dynasty = 185
 	religion = catholic
 	culture = polabian
+	father = nakoning3
 	972.1.1 = { #fic
 		birth = yes
 	}
 	1028.1.1 = {
+		death = yes
+	}
+}
+
+nakoning3 = {
+	name = "Mstislav"
+	dynasty = 185
+	religion = catholic
+	culture = polabian
+	father = nakoning4
+	950.1.1 = { #fic
+		birth = yes
+	}
+	1018.1.1 = {
+		death = yes
+	}
+}
+
+nakoning4 = {
+	name = "Mstivoj"
+	dynasty = 185
+	religion = catholic
+	culture = polabian
+	father = nakoning5
+	925.1.1 = { #est
+		birth = yes
+	}
+	995.1.1 = {
+		death = yes
+	}
+}
+
+nakoning5 = {
+	name = "Nakon"
+	dynasty = 185
+	religion = catholic
+	culture = polabian
+	900.1.1 = { #fic
+		birth = yes
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+
+nakoning6 = {
+	name = "Mstidrag"
+	dynasty = 185
+	religion = catholic
+	culture = polabian
+	father = nakoning5
+	928.1.1 = { #est
+		birth = yes
+	}
+	988.1.1 = { #fic
 		death = yes
 	}
 }

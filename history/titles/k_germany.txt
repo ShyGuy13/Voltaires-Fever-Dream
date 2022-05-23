@@ -1581,3 +1581,30 @@ c_bederkesa = {
 		holder = bederkesa1 # Bederich I
 	}
 }
+
+#Lauenburg
+c_lauenburg = {
+	#Polabi
+	954.1.1 = {
+		holder = nakoning5 # Nakon
+	}
+	966.1.1 = {
+		holder = nakoning4 # Mstivoj
+	}
+	995.1.1 = {
+		holder = nakoning3 # Mstislav
+	}
+	1018.1.1 = {
+		holder = nakoning2 # Udo
+	}
+	1028.1.1 = {
+		holder = nakoning1 # Gotszalk
+	}
+}
+
+#Isenburg
+c_isenburg = {
+	1054.1.1 = {
+		holder = c_isenburg # Reinbold I
+	}
+}

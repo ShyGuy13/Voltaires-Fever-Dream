@@ -1,0 +1,184 @@
+﻿attoning1 = {
+	name = "Matilde" # Matilde I of Tuscany
+	female = yes
+	dynasty = 119
+	religion = catholic
+	culture = tuscan
+	father = attoning4
+	1046.3.1 = {
+		birth = yes
+	}
+	1115.7.24 = {
+		death = yes
+	}
+}
+
+attoning2 = {
+	name = "Federico" # Federico I of Tuscany
+	dynasty = 119
+	religion = catholic
+	culture = tuscan
+	father = attoning4
+	1039.7.1 = {
+		birth = yes
+	}
+	1055.7.1 = {
+		death = yes
+	}
+}
+
+attoning3 = {
+	name = "Beatrice" # 
+	female = yes
+	dynasty = 119
+	religion = catholic
+	culture = tuscan
+	father = attoning4
+	1042.1.1 = { #fic
+		birth = yes
+	}
+	1053.12.17 = {
+		death = yes
+	}
+}
+
+attoning4 = {
+	name = "Bonifacio" # Bonifacio I of Tuscany
+	dynasty = 119
+	religion = catholic
+	culture = tuscan
+	father = attoning5
+	985.1.1 = {
+		birth = yes
+	}
+	1052.5.6 = {
+		death = yes
+	}
+}
+
+attoning5 = {
+	name = "Tedaldo" # Tedaldo I of Tuscany
+	dynasty = 119
+	religion = catholic
+	culture = tuscan
+	father = attoning7
+	960.1.1 = { #fic
+		birth = yes
+	}
+	1012.1.1 = {
+		death = yes
+	}
+}
+
+attoning6 = {
+	name = "Tedaldo" # bishop of Arezzo
+	dynasty = 119
+	religion = catholic
+	culture = tuscan
+	father = attoning5
+	990.1.1 = {
+		birth = yes
+	}
+	1036.6.12 = {
+		death = yes
+	}
+}
+
+attoning7 = {
+	name = "Adalberto Atto" # Adalberto Atto of Tuscany
+	dynasty = 119
+	religion = catholic
+	culture = tuscan
+	father = attoning11
+	939.1.1 = {
+		birth = yes
+	}
+	988.2.13 = {
+		death = yes
+	}
+}
+
+attoning8 = {
+	name = "Gottifredo" # bishop of Luni
+	dynasty = 119
+	religion = catholic
+	culture = tuscan
+	trait = devoted
+	father = attoning7
+	963.1.1 = { #fic
+		birth = yes
+	}
+	998.1.1 = {
+		death = yes
+	}
+}
+
+attoning9 = {
+	name = "Prangarda" # 
+	female = yes
+	dynasty = 119
+	religion = catholic
+	culture = tuscan
+	father = attoning7
+	961.1.1 = {
+		birth = yes
+	}
+	991.1.1 = {
+		death = yes
+	}
+}
+
+attoning10 = {
+	name = "Rodolfo" # 
+	dynasty = 119
+	religion = catholic
+	culture = tuscan
+	father = attoning7
+	965.1.1 = { #fic
+		birth = yes
+	}
+	980.1.1 = { #fic
+		death = yes
+	}
+}
+
+attoning11 = {
+	name = "Sigifredo" # Sigifredo I of Tuscany
+	dynasty = 119
+	religion = catholic
+	culture = tuscan
+	890.1.1 = { #fic
+		birth = yes
+	}
+	940.1.1 = {
+		death = yes
+	}
+}
+
+attoning12 = {
+	name = "Sigifredo" # 
+	dynasty = 119
+	religion = catholic
+	culture = tuscan
+	father = attoning11
+	935.1.1 = { #fic
+		birth = yes
+	}
+	972.1.1 = {
+		death = yes
+	}
+}
+
+attoning13 = {
+	name = "Gerardo" # 
+	dynasty = 119
+	religion = catholic
+	culture = tuscan
+	father = attoning11
+	930.1.1 = { #fic
+		birth = yes
+	}
+	998.1.1 = {
+		death = yes
+	}
+}

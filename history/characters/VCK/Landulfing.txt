@@ -3,6 +3,7 @@
 	dynasty = 148
 	religion = catholic
 	culture = langobard
+	father = landulfing5
 	1030.1.1 = {
 		birth = yes
 	}
@@ -16,10 +17,51 @@ landulfing2 = {
 	dynasty = 148
 	religion = catholic
 	culture = langobard
+	father = landulfing3
 	1012.1.1 = {
 		birth = yes
 	}
 	1057.1.1 = {
+		death = yes
+	}
+}
+
+landulfing3 = {
+	name = "Pandolfo" # Pandolfo IV of Capua
+	dynasty = 148
+	religion = catholic
+	culture = langobard
+	986.1.1 = { #est
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+
+landulfing4 = {
+	name = "Landolfo" # Landulf VIII of Capua
+	dynasty = 148
+	religion = catholic
+	culture = langobard
+	father = landulfing3
+	1016.1.1 = { #fic
+		birth = yes
+	}
+	1062.1.1 = {
+		death = yes
+	}
+}
+
+landulfing5 = {
+	name = "Guaimario" # Guaimario IV of Salerno
+	dynasty = 148
+	religion = catholic
+	culture = langobard
+	1013.1.1 = {
+		birth = yes
+	}
+	1052.6.4 = {
 		death = yes
 	}
 }
