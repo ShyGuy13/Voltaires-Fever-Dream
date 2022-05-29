@@ -1,0 +1,12 @@
+﻿oldenburg1 = {
+	name = "Egilmar" # Egilmar I of Oldenburg
+	dynasty = 40
+	religion = catholic
+	culture = low_elbish
+	1040.1.1 = {
+		birth = yes
+	}
+	1112.1.1 = {
+		death = yes
+	}
+}

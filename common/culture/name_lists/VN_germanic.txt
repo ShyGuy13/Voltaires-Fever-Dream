@@ -36,7 +36,7 @@ name_list_german = {
 		Edda Edith Elena Eleonora Eleonore Elfriede Elisa Elisabeth Elise Elke Ella Ellen Elli Elly Elma Elsa Elsbeth Else Elvira Emelie Emely Emilia Emilie Emily Emma Emmeline Emmi Emmy Erdmute Erica Erika Erna Ester Esther Eugenie Eva Evelyn Euphemia Ernestine Eberhardine
 		Fabienne Fanny Felicia Felicitas Felizia Felizitas Finja Finnja Fiona Flora Florentina Florentine Franziska Frauke Freya Frida Fridegunde Frieda Friedegund Friedegunde Friederike
 		Gabriela Gabriele Genoveva Gerda Gerlind Gerlinde Gertraud Gertrud Gertrudis Gesine Gina Gisela Grete Gretel Grethe Gudrun Gunda Gundula Guda Gertrude
-		Hanna Hannah Hanne Hannelore Hedwig Heide Heidemarie Heidi Heike Helena Helene Helga Helge Hella Helmina Helmine Henny Hermina Hermine Herta Hertha Hilda Hilde Hildegard Hulda Henriette Herburgis
+		Hanna Hannah Hanne Hannelore Hedwig Heide Heidemarie Heidi Heike Helena Helene Helga Helge Hella Helmina Helmine Henny Hermina Hermine Herta Hertha Hilda Hilde Hildegard Hulda Henriette Herburgis Hildeswinde
 		Ida Ilse Ines Inga Inge Ingeborg Ingeburg Ingrid Irene Irina Iris Irma Irmela Irmelin Irmgard Isabel Isabell Isabella Isabelle Isolde Ivonne Imagina
 		Jacqueline Jana Janina Janine Jaqueline Jasmin Jennifer Jessica Johanna Johanne Josefine Josephine Judith Jule Julia Juliane Jutta Jacoba
 		Kai Karen Karin Karina Karla Karolin Karoline Katarina Käte Katharina Käthe Kathrin Katja Katrin Kerstin Kim Kirsten Klara Konstanze Kristin Kristina Kunigunde
@@ -45,8 +45,8 @@ name_list_german = {
 		Nadia Nadin Nadine Nadja Natali Natalie Natascha Nathalie Neele Nele Nicola Nicole Nina Noemi Nora
 		Oda Olga Olivia Ottilie
 		Patricia Patrizia Paula Paulina Pauline Petra Pia Petrissa
-		Rachel Rafaela Raffaela Rahel Ramona Raphaela Rebecca Rebekka Regina Renate Ricarda Rita Rolanda Ronja Rosa Rose Rosemarie Roswitha Ruth Reinhilde
-		Sabina Sabine Sabrina Samantha Sandra Sara Sarah Saskia Selina Seraphina Seraphine Sibylle Sieglind Sieglinde Siglind Siglinde Sigrid Silke Silvia Simone Sina Sissi Sofia Sofie Sonja Sophia Sophie Stefanie Stella Stephanie Susanna Svenja Swenja Sybille Sylvia Susanne
+		Rachel Rafaela Raffaela Rahel Ramona Raphaela Rebecca Rebekka Regina Renate Ricarda Rita Rolanda Ronja Rosa Rose Rosemarie Roswitha Ruth Reinhilde Richenza
+		Sabina Sabine Sabrina Samantha Sandra Sara Sarah Saskia Selina Seraphina Seraphine Sibylle Sieglind Sieglinde Siglind Siglinde Sigrid Silke Silvia Simone Sina Sissi Sofia Sofie Sonja Sophia Sophie Stefanie Stella Stephanie Susanna Svenja Swenja Sybille Sylvia Susanne Schwanhild
 		Tabea Tamara Tanja Tatjana Teresa Thekla Theres Theresa Therese Theresia Thirza Tina Tirza Traute Trude
 		Ulrike Ursel Ursula Uta Ute
 		Valentina Valerie Vanessa Vera Verena Verona Veronika Victoria Viktoria
@@ -62,6 +62,7 @@ name_list_german = {
 		#Hessian
 		{ dynnp_von dynn_Baumbach }
 		{ dynnp_von dynn_Biedenfeld }
+		{ dynnp_von dynn_Boyneburg }
 		{ dynnp_von dynn_Brink }
 		{ dynnp_von dynn_Breidenbach }
 		{ dynnp_von dynn_Buseck }
@@ -173,31 +174,58 @@ name_list_german = {
 		#Prussian
 		{ dynnp_von dynn_Pretlack }
 		#Pfalzish
+		{ dynnp_von dynn_Steinach }
 		{ dynnp_von dynn_Winter }
 		#Westphalian
 		{ dynnp_von dynn_Rabe }
 		#Franconian
+		{ dynnp_von dynn_Imhof }
 		{ dynnp_von dynn_Rosenau }
 		#Ripuarian
 		#Moselle Frankish
 		#Swabian
+		{ dynnp_von dynn_Bernhausen }
 		{ dynnp_von dynn_Dettingen }
 		{ dynnp_von dynn_Ellerbach }
+		{ dynnp_von dynn_Ellhofen }
 		{ dynnp_von dynn_Freyberg }
+		{ dynnp_von dynn_Gemmingen }
 		{ dynnp_von dynn_Goldbach }
 		{ dynnp_von dynn_Helmishofen }
+		{ dynnp_von dynn_Heimenhofen }
+		{ dynnp_von dynn_Hornstein }
 		{ dynnp_von dynn_Kallenberg }
+		{ dynnp_von dynn_Knöringen }
 		{ dynnp_von dynn_Laubenberg }
+		{ dynnp_von dynn_Liebenstein }
+		{ dynnp_von dynn_Möllenbronn }
 		{ dynnp_von dynn_Neuffen }
+		{ dynnp_von dynn_Palm }
+		{ dynnp_von dynn_Rechberg }
+		{ dynnp_von dynn_Rehlingen } # Rehlingen zu Horgau
 		{ dynnp_von dynn_Rettenberg }
+		{ dynnp_von dynn_Riedheim } 
+		{ dynnp_von dynn_Rotenstein }
+		{ dynnp_von dynn_Roth } # Roth von Bußmannshausen, Roth von Schreckenstein
+		{ dynnp_von dynn_Schad } # Schad von Mittelbiberach
 		{ dynnp_von dynn_Schönenberg }
 		{ dynnp_von dynn_Schelklingen }
+		{ dynnp_von dynn_Schertlin } # Schertlin von Burtenbach
 		{ dynnp_von dynn_Schienen }
 		{ dynnp_von dynn_Schönenberg }
+		{ dynnp_von dynn_Schwendi }
+		{ dynnp_von dynn_Speth }
+		{ dynnp_vom dynn_Stain }
+		{ dynnp_von dynn_Stauffenberg } # Schenk von Stauffenberg
 		{ dynnp_von dynn_Steinegg }
+		{ dynnp_von dynn_Stotzingen }
+		{ dynnp_von dynn_Ulm } # Ulm zu Erbach
+		{ dynnp_von dynn_Vöhlin } # Vöhlin von Frickenhausen
 		{ dynnp_von dynn_Waldburg }
 		{ dynnp_von dynn_Walsee }
+		{ dynnp_von dynn_Welden }
 		{ dynnp_von dynn_Weiler }
+		{ dynnp_von dynn_Zech } # Zech von Deubach
 		#Alemannic
 		{ dynnp_von dynn_Bienburg }
 		{ dynnp_von dynn_Bludenz }
@@ -214,6 +242,8 @@ name_list_german = {
 		{ dynnp_von dynn_Marbach }
 		{ dynnp_von dynn_Markdorf }
 		{ dynnp_von dynn_Montfort }
+		{ dynnp_von dynn_Müllheim }
+		{ dynnp_von dynn_Reichlin } # Reichlin von Meldegg
 		{ dynnp_von dynn_Reischach  } # Reischach von Reichenstein
 		{ dynnp_von dynn_Ringgenberg }
 		{ dynnp_von dynn_Rohrdorf }
@@ -223,6 +253,8 @@ name_list_german = {
 		{ dynnp_von dynn_Tengen }
 		{ dynnp_von dynn_Thumb } # Thumb von Neuenburg
 		{ dynnp_von dynn_Tierberg }
+		{ dynnp_von dynn_Tosters }
+		{ dynnp_von dynn_Werdenstein }
 		{ dynnp_von dynn_Winterstetten }
 		{ dynnp_von dynn_Zwirkenberg }
 		#Swiss
@@ -235,6 +267,7 @@ name_list_german = {
 		{ dynnp_von dynn_Belmont }
 		{ dynnp_von dynn_Bichelsee }
 		{ dynnp_von dynn_Blumegg }
+		{ dynnp_von dynn_Brunnenfeld }
 		{ dynnp_von dynn_Buchegg }
 		{ dynnp_von dynn_Bürglen }
 		{ dynn_Chienstein } # Patrician?
@@ -244,6 +277,7 @@ name_list_german = {
 		{ dynnp_von dynn_Greifenstein }
 		{ dynnp_von dynn_Grenzer }
 		{ dynnp_von dynn_Griesenberg }
+		{ dynnp_von dynn_Grünenstein }
 		{ dynnp_von dynn_Gutenburg }
 		{ dynnp_von dynn_Güttingen }
 		{ dynn_Hasenbein } # Patrician?
@@ -254,6 +288,7 @@ name_list_german = {
 		{ dynnp_von dynn_Hohensax }
 		{ dynnp_von dynn_Homberg }
 		{ dynnp_von dynn_Hürling }
+		{ dynnp_von dynn_Kellershals }
 		{ dynnp_von dynn_Kirchberg }
 		{ dynnp_von dynn_Klingenberg }
 		{ dynnp_von dynn_Kriech }
@@ -263,6 +298,7 @@ name_list_german = {
 		{ dynnp_von dynn_Laubgassen }
 		{ dynnp_von dynn_Liebenberg }
 		{ dynnp_von dynn_Mandach }
+		{ dynnp_von dynn_Matsch }
 		{ dynnp_von dynn_Montalt }
 		{ dynnp_von dynn_Müris }
 		{ dynnp_von dynn_Om }
@@ -285,40 +321,29 @@ name_list_german = {
 		{ dynnp_zum dynn_Turm }
 		{ dynnp_von dynn_Vaz }
 		{ dynnp_von dynn_Wagenberg }
+		{ dynnp_von dynn_Wartenberg }
+		{ dynnp_von dynn_Wartensee }
 		{ dynnp_von dynn_Wellenberg }
+		{ dynnp_von dynn_Werstein }
 		{ dynnp_von dynn_Wiesendangen }
 		{ dynnp_von dynn_Wildenberg }
+		{ dynnp_von dynn_Windegg }
+		{ dynnp_von dynn_Wunnenberg }
+		{ dynnp_von dynn_Zürnler }
 		#Austrian
 		{ dynnp_von dynn_Aufenstein }
 		{ dynnp_von dynn_Bergheim }
 		{ dynnp_von dynn_Lochen }
 		{ dynnp_von dynn_Schärffenberg }
 		{ dynnp_von dynn_Schellenberg }
+		{ dynnp_von dynn_Tänzl } # Tänzl von Tratzberg
 		{ dynnp_von dynn_Wildenstein }
 		#Silesian German
 		{ dynnp_von dynn_Elsner } # Elsner von Gronow
 
 
 		# Zürich Roll of Arms Page 121-240
-		{ dynnp_von dynn_Wartenberg }
-		{ dynnp_von dynn_Wartensee }
-		{ dynnp_von dynn_Matsch }
-		{ dynnp_von dynn_Rotenstein }
-		{ dynnp_von dynn_Steinach }
-		{ dynnp_von dynn_Mollenbronn }
-		{ dynnp_von dynn_Homberg }
-		{ dynnp_von dynn_Mullheim }
-		{ dynnp_von dynn_Kellershals }
-		{ dynnp_von dynn_Zurnler }
-		{ dynnp_von dynn_Tengen }
-		{ dynnp_von dynn_Windegg }
-		{ dynnp_von dynn_Brunnenfeld }
-		{ dynnp_von dynn_Ellhofen }
-		{ dynnp_von dynn_Haimenhofen }
-		{ dynnp_von dynn_Tosters }
-		{ dynnp_von dynn_Werstein }
-		{ dynnp_von dynn_Grunenstein }
-		{ dynnp_von dynn_Wunnenberg }
+		
 		{ dynnp_von dynn_Hirscheck }
 		{ dynnp_von dynn_Wieladingen }
 		{ dynnp_von dynn_Guttingen }
@@ -610,30 +635,7 @@ name_list_german = {
 		{ dynnp_von dynn_Grunenberg }
 
 		#Reichsritter
-		#Donau
-		{ dynnp_von dynn_Bernhausen }
-		{ dynnp_von dynn_Boyneburg }
-		{ dynnp_von dynn_Freyberg }
-		{ dynnp_von dynn_Gemmingen }
-		{ dynnp_von dynn_Hornstein }
-		{ dynnp_von dynn_Imhof }
-		{ dynnp_von dynn_Knoringen }
-		{ dynnp_von dynn_Rechberg }
-		{ dynnp_zu dynn_Horgau }
-		{ dynnp_von dynn_Meldegg }
-		{ dynnp_von dynn_Riedheim }
-		{ dynnp_von dynn_Bussmannshausen }
-		{ dynnp_von dynn_Mittelbiberach }
-		{ dynnp_von dynn_Burtenbach }
-		{ dynnp_von dynn_Speth }
-		{ dynnp_vom dynn_Stain }
-		{ dynnp_von dynn_Stauffenberg }
-		{ dynnp_von dynn_Stotzingen }
-		{ dynnp_von dynn_Tratzberg }
-		{ dynnp_von dynn_Frickenhausen }
-		{ dynnp_von dynn_Welden }
-		{ dynnp_von dynn_Werdenstein }
-		{ dynnp_von dynn_Deubach }
+
 		#Gebürg
 		{ dynnp_von dynn_Aufsess }
 		{ dynnp_zu dynn_Seubitz }

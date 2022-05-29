@@ -1,0 +1,82 @@
+﻿# Accepted categories are: governments, name_lists, heritages, faiths, religions
+# A Flavorization will apply if ALL specified categories have ANY of their entries
+# represented in the character/title
+# So for example:
+# governments = { feudal_government }
+# heritages = { mongolic_group central_germanic_group }
+# religions = { christianity_religion }
+# name_lists = { name_list_norse }
+# faiths = { catholicism }
+# For this to apply a character MUST BE feudal, AND must also be EITHER altaic OR germanic
+# priority is used to determine priority, if they are the same then the LAST will be selected,
+# and honorifics will be prefered over landed titles. Default priority is 1
+# If a flavorization does not have a tier it can apply to all tiers of characters, too many non-tiered
+# flavorizations is bad for performance though, YOU HAVE BEEN WARNED!
+# 'top_liege = no' means that its the holder of the title causing the honorific that is tested for
+# the various categories, so for a prince it is the king that is tested, for a queen mother it is her son
+# if this is not specified ( or 'top_liege = yes' the default ) then it is the top liege of that character
+# that is tested, this means that most title flavor comes from the top liege of the title not the holder
+
+#sultan = { #Example
+#	gender = male
+#	special = holder
+#	tier = kingdom
+	#	governments = { feudal_government clan_government }
+#	religions = { islam_religion }
+#}
+
+#############################################
+
+#Margraviates instead of Duchies
+title_margrave = {
+	type = character
+	gender = male
+	special = holder
+	priority = 60
+	titles = { d_osterreich d_steyermark d_nordgau }
+	top_liege = no
+}
+title_margravine = {
+	type = character
+	gender = female
+	special = holder
+	priority = 60
+	titles = { d_osterreich d_steyermark d_nordgau }
+	top_liege = no
+}
+title_margraviate = {
+	type = title
+	titles = { d_osterreich d_steyermark d_nordgau }
+	priority = 60
+	top_liege = no
+}
+#Margraviates instead of Counties
+#Aquileia Patriarchate
+title_patriarch = {
+	type = character
+	gender = male
+	special = holder
+	priority = 60
+	titles = { d_bm_aquileia }
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+	top_liege = no
+}
+title_matriarch = {
+	type = character
+	gender = female
+	special = holder
+	priority = 60
+	titles = { d_bm_aquileia }
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+	top_liege = no
+}
+title_patriarchate = {
+	type = title
+	titles = { d_bm_aquileia }
+	holding = church_holding
+	religions = { christianity_religion }
+	priority = 60
+	top_liege = no
+}

@@ -374,10 +374,29 @@ d_bm_halberstadt = {
 	de_jure_drift_disabled = yes
 }
 
+d_bm_freising = {
+
+	capital = c_freising
+
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}
+
 
 d_bm_hildesheim = {
-
-
+	color = { 196  172  19 }
+	color2 = { 255 255 255 }
+	
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -843,6 +862,42 @@ d_bm_wurzburg = {
 	color2 = { 255 255 255 }
 
 	capital = c_wurzburg
+
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}
+
+d_bm_ravenna = {
+
+	capital = c_ravenna
+
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}
+
+d_bm_ancona = {
+
+	capital = c_ancona
 
 	definite_form = yes
 	ruler_uses_title_name = no

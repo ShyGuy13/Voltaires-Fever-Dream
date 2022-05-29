@@ -217,6 +217,43 @@ d_bm_liege = {
 	}
 }
 
+d_bm_bamberg = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_bendlet.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
+d_bm_magdeburg = {
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = "red"
+	color2 = "white"
+	color3 = "blue"
+}
+
+d_bm_freising = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_moors_head_02.dds"
+		color1 = "black"
+		color2 = "red"
+		instance = { position = { 0.5 0.48 } scale = { 1.0 1.0 }  }
+	}
+}
+
 d_bm_utrecht = {
 	pattern = "pattern_solid.dds"
 	color1 = "red"

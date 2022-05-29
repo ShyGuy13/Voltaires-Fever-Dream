@@ -17,10 +17,94 @@ musco2 = {
 	dynasty = 222
 	religion = catholic
 	culture = neapolitan
+	father = musco3
 	980.1.1 = { #fic
 		birth = yes
 	}
 	1028.4.1 = {
+		death = yes
+	}
+}
+
+musco3 = {
+	name = "Giovanni" # Giovanni I of Amalfi
+	dynasty = 222
+	religion = catholic
+	culture = neapolitan
+	father = musco4
+	950.1.1 = { #fic
+		birth = yes
+	}
+	1007.1.1 = {
+		death = yes
+	}
+}
+
+musco4 = {
+	name = "Manso" # Manso I of Amalfi
+	dynasty = 222
+	religion = catholic
+	culture = neapolitan
+	father = musco5
+	930.1.1 = { #fic
+		birth = yes
+	}
+	1004.1.1 = {
+		death = yes
+	}
+}
+
+musco5 = {
+	name = "Sergio" # Sergio I of Amalfi
+	dynasty = 222
+	religion = catholic
+	culture = neapolitan
+	900.1.1 = { #fic
+		birth = yes
+	}
+	966.1.1 = {
+		death = yes
+	}
+}
+
+musco6 = {
+	name = "Giovanni" #
+	dynasty = 222
+	religion = catholic
+	culture = neapolitan
+	father = musco5
+	936.1.1 = { #fic
+		birth = yes
+	}
+	980.1.1 = { #fic
+		death = yes
+	}
+}
+
+musco7 = {
+	name = "Leone" #
+	dynasty = 222
+	religion = catholic
+	culture = neapolitan
+	father = musco5
+	941.1.1 = { #fic
+		birth = yes
+	}
+	1007.1.1 = { #fic
+		death = yes
+	}
+}
+
+musco8 = {
+	name = "Adelferio" # Adelferio I of Amalfi
+	dynasty = 222
+	religion = catholic
+	culture = neapolitan
+	father = musco5
+	933.1.1 = { #fic
+		birth = yes
+	}
+	1010.1.1 = { #fic
 		death = yes
 	}
 }

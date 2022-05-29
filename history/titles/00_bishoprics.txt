@@ -198,3 +198,62 @@ d_bm_magdeburg = {
 		holder = magdeburg_engelhard # Engelhard I
 	}
 }
+
+d_bm_freising = {
+	1000.1.1 = { government = theocracy_government }
+	1052.4.6 = {
+		holder = siegharding2
+	}
+}
+
+d_bm_ravenna = {
+	1000.1.1 = { government = theocracy_government }
+	1052.4.6 = {
+		holder = ravenna_enrico # Enrico I
+	}
+}
+
+d_bm_hildesheim = {
+	1000.1.1 = { government = theocracy_government }
+	1044.11.14 = {
+		holder = hildesheim_azelin # Azeilin
+	}
+	1054.3.8 = {
+		holder = hildesheim_hezilo # Hezilo I
+	}
+}
+
+d_bm_paderborn = {
+	1000.1.1 = { government = theocracy_government }
+	1051.11.7 = {
+		holder = billung11 # Imad
+	}
+}
+
+d_bn_verden = {
+	1000.1.1 = { government = theocracy_government }
+	1049.8.21 = {
+		holder = verden_siegbert
+	}
+}
+
+d_bm_bremen = {
+	1000.1.1 = { government = theocracy_government }
+	1043.4.15 = {
+		holder = wettin2 # Albrecht I
+	}
+}
+
+d_bm_minden = {
+	1000.1.1 = { government = theocracy_government }
+	1036.10.10 = {
+		holder = goseck1 # Bruno I
+	}
+}
+
+d_bm_munster = {
+	1000.1.1 = { government = theocracy_government }
+	1042.7.22 = {
+		holder = munster_rudbert # Rudbert I
+	}
+}

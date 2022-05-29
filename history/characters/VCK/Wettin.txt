@@ -10,3 +10,22 @@
 		death = yes
 	}
 }
+
+wettin2 = {
+	name = "Albrecht" # bishop of Bremen
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	martial = 5
+	diplomacy = 4
+	intrigue = 8
+	stewardship = 5
+	trait = temperate
+	trait = education_learning_3
+	1000.1.1 = {
+		birth = yes
+	}
+	1072.3.16 = {
+		death = yes
+	}
+}

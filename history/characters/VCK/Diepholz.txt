@@ -1,0 +1,12 @@
+﻿diepholz1 = {
+	name = "Gottschalk" # Gottschalk I of Diepholz
+	dynasty = 217
+	religion = catholic
+	culture = low_elbish
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1090.1.1 = { #fic
+		death = yes
+	}
+}

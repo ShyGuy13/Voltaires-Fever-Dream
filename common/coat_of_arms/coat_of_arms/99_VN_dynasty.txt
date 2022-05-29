@@ -323,6 +323,18 @@
 
 109 = d_thuringia # Ludowing
 
+110 = { # Billung
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_gonfanon.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+
 120 = { # Wigeriching
 	pattern = "pattern_solid.dds"
 	color1 = "white"
@@ -648,6 +660,20 @@
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
 	}
 } 
+
+223 = { # Udoning
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_eagle.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.52 } scale = { 1.1 1.1 }  }		
+	}
+}
+
+224 = c_wolpe # Wölpe
 
 # 2 = { #Heeckeren
 # 	pattern = "pattern_cross_01.dds"

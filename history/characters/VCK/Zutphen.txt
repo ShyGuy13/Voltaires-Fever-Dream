@@ -1,0 +1,87 @@
+﻿zutphen1 = {
+	name = "Godschalk" # Godschalk I of Zutphen
+	dynasty = 228
+	religion = catholic
+	culture = dutch
+	1020.1.1 = {
+		birth  = yes
+	}
+	1063.1.1 = {
+		death = yes
+	}
+}
+
+zutphen2 = {
+	name = "Gevehard" # 
+	dynasty = 228
+	religion = catholic
+	culture = dutch
+	father = zutphen1
+	1040.1.1 = {
+		birth  = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+
+zutphen3 = {
+	name = "Otto" # Otto II of Zutphen
+	dynasty = 228
+	religion = catholic
+	culture = dutch
+	trait = twin
+	father = zutphen1
+	1048.1.1 = {
+		birth  = yes
+		give_nickname = nick_the_rich
+	}
+	1113.1.1 = {
+		death = yes
+	}
+}
+
+zutphen4 = {
+	name = "Humbert" # debated
+	dynasty = 228
+	religion = catholic
+	culture = dutch
+	trait = devoted
+	trait = twin
+	father = zutphen1
+	1048.1.1 = {
+		birth  = yes
+	}
+	1100.1.1 = { #fic
+		death = yes
+	}
+}
+
+zutphen5 = {
+	name = "Godschalk" # 
+	dynasty = 228
+	religion = catholic
+	culture = dutch
+	father = zutphen1
+	1050.1.1 = { #fic
+		birth  = yes
+	}
+	1110.1.1 = { #fic
+		death = yes
+	}
+}
+
+zutphen5 = {
+	name = "Heribert" # debated
+	dynasty = 228
+	religion = catholic
+	culture = dutch
+	father = zutphen1
+	1054.1.1 = { #fic
+		birth  = yes
+	}
+	1120.1.1 = { #fic
+		death = yes
+	}
+}
+

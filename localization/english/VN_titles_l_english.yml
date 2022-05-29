@@ -5,8 +5,14 @@
  SAVINJA_adj: "Savinjan"
  ROTT: "Rott"
  ROTT_adj: "Rotter"
-#Empire
-#Kingdom
-#Duchy
-#County
-#Barony
+#Titles
+ title_margrave: "Margrave"
+ title_margravine: "Margravine"
+ title_margraviate: "Margraviate"
+ title_patriarch: "Patriarch"
+ title_matriarch: "Matriarch"
+ title_patriarchate: "Patriarchate"
+#Vanilla Replacement
+ baron_theocracy_male_christianity_religion: "Abbot"
+ baron_theocracy_female_christianity_religion: "Abbess"
+ barony_theocracy_christianity_religion: "Abbey"

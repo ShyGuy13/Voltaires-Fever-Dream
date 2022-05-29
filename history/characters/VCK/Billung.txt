@@ -3,6 +3,7 @@ billung1 = {
 	dynasty = 110
 	religion = catholic
 	culture = low_elbish
+	father = billung7
 	995.1.1 = {
 		birth = yes
 	}
@@ -84,3 +85,71 @@ billung6 = {
 	}
 }
 
+billung7 = {
+	name = "Bernhard" # Bernhard I of Altsachsen
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung8
+	950.1.1 = {
+		birth = yes
+	}
+	1011.2.9 = {
+		death = yes
+	}
+}
+
+billung8 = {
+	name = "Hermann" # Hermann I of Altsachsen
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung9
+	912.1.1 = {
+		birth = yes
+	}
+	973.3.27 = {
+		death = yes
+	}
+}
+
+billung9 = {
+	name = "Billung" # 
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	880.1.1 = {
+		birth = yes
+	}
+	967.5.26 = {
+		death = yes
+	}
+}
+
+billung10 = {
+	name = "Liutger" # 
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung8
+	952.1.1 = {
+		birth = yes
+	}
+	1011.2.26 = {
+		death = yes
+	}
+}
+
+billung11 = {
+	name = "Imad" # bishop of Paderborn
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung10
+	1000.1.1 = {
+		birth = yes
+	}
+	1076.2.3 = {
+		death = yes
+	}
+}

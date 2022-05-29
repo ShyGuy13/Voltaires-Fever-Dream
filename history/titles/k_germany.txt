@@ -446,7 +446,6 @@ c_moosburg = {
 
 #Freising
 c_freising = {
-	1000.1.1 = { government = theocracy_government }
 	1052.4.6 = {
 		holder = siegharding2
 	}
@@ -1107,13 +1106,6 @@ c_sigmaringen = {
 	}
 }
 
-#Lupfen
-c_lupfen = {
-	1054.1.1 = {
-		holder = c_lupfen # Heinrich I
-	}
-}
-
 #Baden
 c_baden = {
 	1054.1.1 = {
@@ -1578,6 +1570,7 @@ c_solms = {
 #Bederkesa
 c_bederkesa = {
 	1054.1.1 = {
+		liege = d_bm_bremen
 		holder = bederkesa1 # Bederich I
 	}
 }
@@ -1585,6 +1578,7 @@ c_bederkesa = {
 #Lauenburg
 c_lauenburg = {
 	#Polabi
+	800.1.1 = { government = tribal_government }
 	954.1.1 = {
 		holder = nakoning5 # Nakon
 	}
@@ -1605,6 +1599,185 @@ c_lauenburg = {
 #Isenburg
 c_isenburg = {
 	1054.1.1 = {
-		holder = c_isenburg # Reinbold I
+		holder = isenburg1 # Reinbold I
+	}
+}
+
+#Oldenburg
+c_oldenburg = {
+	1054.1.1 = {
+		holder = oldenburg1 # Egilmar I
+	}
+}
+
+#Brunswick
+c_wolfenbuttel = {
+	990.1.1 = {
+		holder = brunoning7 # Bruno I
+	}
+	1014.1.1 = {
+		holder = brunoning3 # Liudolf I
+	}
+	1038.4.23 = {
+		holder = brunoning2 # Ekbert I
+	}
+	1051.1.1 = {
+		liege = d_bm_hildesheim
+	}
+}
+
+#Hildesheim
+c_hildesheim = {
+	1000.1.1 = { government = theocracy_government }
+	1044.11.14 = {
+		holder = hildesheim_azelin # Azeilin
+	}
+	1054.3.8 = {
+		holder = hildesheim_hezilo # Hezilo I
+	}
+}
+
+#Altsachsen
+d_saxony = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_luneburg = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_celle = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_dannenberg = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_schauenburg = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_hannover = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_luchow = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+
+#Paderborn
+c_paderborn = {
+	1051.11.7 = {
+		holder = billung11 # Imad
+	}
+}
+
+#Stade
+c_stade = {
+	976.5.11 = {
+		holder = udoning4 # Heinrich II
+	}
+	1016.10.2 = {
+		holder = udoning2 # Siefried I
+	}
+	1037.1.6 = {
+		holder = udoning1 # Udo II
+	}
+}
+
+#Holstein
+c_hamburg = {
+	1054.1.1 = { # actually 1059
+		liege = d_saxony
+		holder = hamburg1 # Heinrich I
+	}
+}
+c_rendsburg = {
+	1054.1.1 = { # actually 1059
+		liege = d_saxony
+		holder = hamburg1 # Heinrich I
+	}
+}
+c_ditmarschen = {
+	1054.1.1 = { # actually 1059
+		liege = d_saxony
+		holder = hamburg1 # Heinrich I
+	}
+}
+
+#Bremen
+c_bremen = {
+	1043.4.15 = {
+		holder = wettin2 # Albrecht I
+	}
+}
+c_ottersberg = {
+	1043.4.15 = {
+		holder = wettin2 # Albrecht I
+	}
+}
+
+#Verden
+c_verden = {
+	1049.8.21 = {
+		holder = verden_siegbert # Siegbert I
+	}
+}
+
+#Minden
+c_minden = {
+	1036.10.10 = {
+		holder = goseck1 # Bruno I
+	}
+}
+
+#Emsigerland
+c_emsigerland = {
+	1044.7.12 = {
+		holder = werl1 # Hermann III
+	}
+}
+
+#Münster
+c_munster = {
+	1042.7.22 = {
+		holder = munster_rudbert # Rudbert I
+	}
+}
+
+#Diepholz
+c_diepholz = {
+	1054.1.1 = {
+		holder = diepholz1 # Gottschalk I
 	}
 }

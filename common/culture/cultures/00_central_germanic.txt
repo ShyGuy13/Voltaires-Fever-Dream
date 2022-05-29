@@ -332,7 +332,7 @@ hessian = {
 low_elbish = {
 	color = { 0.5 0.5 0.5 }
 	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
-	parents = { frankish }
+	parents = { old_saxon }
 	
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic
@@ -362,7 +362,7 @@ low_elbish = {
 central_margravian = {
 	color = { 0.5 0.5 0.5 }
 	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
-	parents = { frankish }
+	parents = { old_saxon }
 	
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic

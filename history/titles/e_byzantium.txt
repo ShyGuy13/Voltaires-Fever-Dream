@@ -14,7 +14,7 @@ c_reggio_calabria = {
 		holder = monomachos1 # Konstantinos IX
 	}
 }
-c_rossano  = {
+c_rossano = {
 	1050.1.1 = {
 		holder = monomachos1 # Konstantinos IX
 	}

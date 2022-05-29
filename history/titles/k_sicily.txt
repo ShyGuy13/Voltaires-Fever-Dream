@@ -263,3 +263,28 @@ c_malta = {
 		holder = abdallah1 # Yûsuf
 	}
 }
+
+#Amalfi
+c_amalfi = {
+	958.1.1 = {
+		holder = musco5 # Sergio I
+	}
+	966.1.1 = {
+		holder = musco4 # Manso I
+	}
+	984.1.1 = {
+		holder = musco8 # Adelferio I
+	}
+	986.1.1 = {
+		holder = musco4 # Manso I again
+	}
+	1004.1.1 = {
+		holder = musco3 # Giovanni I
+	}
+	1007.1.1 = {
+		holder = musco2 # Sergio II
+	}
+	1028.4.1 = {
+		holder = musco1 # Giovanni II
+	}
+}

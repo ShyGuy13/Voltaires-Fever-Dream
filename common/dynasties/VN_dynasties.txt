@@ -621,7 +621,8 @@
 	culture = swabian
 }
 131 = {
-	#free
+	name = "dynn_Premyslovci"
+	culture = czech
 }
 132 = {
 	prefix = "dynnp_von"
@@ -641,7 +642,7 @@
 135 = {
 	prefix = "dynnp_von"
 	name = "dynn_Arnsberg"
-	culture = hessian
+	culture = hannoverian
 }
 136 = {
 	prefix = "dynnp_von"
@@ -1061,22 +1062,32 @@
 	culture = neapolitan
 }
 223 = {
-	
+	name = "dynn_Udoning"
+	culture = low_elbish
 }
 224 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Wolpe"
+	culture = eastphalian
 }
 225 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Goseck"
+	culture = saxon
 }
 226 = {
-	
+	prefix = "dynnp_zur"
+	name = "dynn_Lippe"
+	culture = hannoverian
 }
 227 = {
-	
+	name = "dynn_Raimonding"
+	culture = occitain
 }
 228 = {
-	
+	prefix = "dynnp_van"
+	name = "dynn_Zutphen"
+	culture = dutch
 }
 229 = {
 	

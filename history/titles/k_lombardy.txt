@@ -106,3 +106,20 @@ c_savona = {
 		holder = vasto1 # Ottone I
 	}
 }
+
+#Ravenna
+c_ravenna = {
+	1051.8.23 = {
+		holder = ravenna_enrico # Enrico I
+	}
+}
+c_forli = {
+	1051.8.23 = {
+		holder = ravenna_enrico # Enrico I
+	}
+}
+c_carpegna = {
+	1051.8.23 = {
+		holder = ravenna_enrico # Enrico I
+	}
+}

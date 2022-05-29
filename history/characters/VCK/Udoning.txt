@@ -1,0 +1,84 @@
+﻿udoning1 = {
+	name = "Udo" #Udo II of Stade & Nordmark
+	dynasty = 223
+	religion = catholic
+	culture = low_elbish
+	father = udoning2
+	997.1.1 = {
+		birth = yes
+	}
+	1057.11.7 = {
+		death = yes
+	}
+}
+
+udoning2 = {
+	name = "Siegfried" #Siegfried I of Stade
+	dynasty = 223
+	religion = catholic
+	culture = low_elbish
+	father = udoning3
+	956.1.1 = {
+		birth = yes
+	}
+	1037.1.6 = {
+		death = yes
+	}
+}
+
+udoning3 = {
+	name = "Heinrich" #Heinrich I of Stade
+	dynasty = 223
+	religion = catholic
+	culture = thuringian
+	910.1.1 = { #fic
+		give_nickname = nick_the_bald
+		birth = yes
+	}
+	976.5.11 = {
+		death = yes
+	}
+}
+
+udoning4 = {
+	name = "Heinrich" #Heinrich II of Stade
+	dynasty = 223
+	religion = catholic
+	culture = low_elbish
+	father = udoning3
+	945.1.1 = { #fic
+		give_nickname = nick_the_good
+		birth = yes
+	}
+	1016.10.2 = {
+		death = yes
+	}
+}
+
+udoning5 = {
+	name = "Udo" #Udo I of Stade
+	dynasty = 223
+	religion = catholic
+	culture = low_elbish
+	father = udoning3
+	950.1.1 = {
+		birth = yes
+	}
+	994.6.23 = {
+		death = yes
+	}
+}
+
+udoning6 = {
+	name = "Udo" #Udo III of Stade
+	dynasty = 223
+	religion = catholic
+	culture = low_elbish
+	father = udoning1
+	1020.1.1 = {
+		birth = yes
+	}
+	1082.5.4 = {
+		death = yes
+	}
+}

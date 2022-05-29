@@ -1,0 +1,12 @@
+goseck1 = {
+	name = "Bruno" # bishop of Minden
+	dynasty = 225
+	religion = catholic
+	culture = saxon
+	1000.1.1 = {
+		birth = yes
+	}
+	1055.2.10 = {
+		death = yes
+	}
+}

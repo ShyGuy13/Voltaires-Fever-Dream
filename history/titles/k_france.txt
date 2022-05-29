@@ -105,6 +105,33 @@ c_orange = {
 	}
 }
 
+#Provence
+c_aix = {
+	1051.4.27 = {
+		holder = bosoning5
+	}
+}
+c_digne = {
+	1051.4.27 = {
+		holder = bosoning5
+	}
+}
+c_marseille = {
+	1051.4.27 = {
+		holder = bosoning5
+	}
+}
+c_nissa = {
+	1051.4.27 = {
+		holder = bosoning5
+	}
+}
+c_cannes = {
+	1051.4.27 = {
+		holder = bosoning5
+	}
+}
+
 #Forcalquier
 c_forcalquier = {
 	1051.4.27 = {
@@ -114,6 +141,18 @@ c_forcalquier = {
 c_gapencais = {
 	1051.4.27 = {
 		holder = bosoning1 # Geoffroi I
+	}
+}
+
+#Venaissin
+c_venaissin = {
+	1037.1.1 = {
+		holder = bosoning6 # Emma I
+	}
+}
+c_nyons = {
+	1037.1.1 = {
+		holder = bosoning6 # Emma I
 	}
 }
 

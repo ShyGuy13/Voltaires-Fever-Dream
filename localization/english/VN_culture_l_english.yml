@@ -1,1 +1,31 @@
-﻿
+﻿l_english:
+#Cultures
+ low_elbish: "Lower Saxon"
+ low_elbish_prefix: "Lower Saxo"
+ low_elbish_collective_noun: "Lower Saxons"
+ sorbian: "Sorbian"
+ sorbian_prefix: "Sorbo"
+ sorbian_collective_noun: "Sorbians"
+ moravian: "Moravian"
+ moravian_prefix: "Moraviano"
+ moravian_collective_noun: "Moravians"
+ romansch: "Romansch"
+ romansch_prefix: "Romanscho"
+ romansch_collective_noun: "Romansch"
+ ladin: "Ladin"
+ ladin_prefix: "Ladino"
+ ladin_collective_noun: "Ladins"
+ friulan: "Friulan"
+ friulan_prefix: "Friulano"
+ friulan_collective_noun: "Friulans"
+#Heritages
+ heritage_dutch_name: "Dutch"
+ heritage_dutch_collective_noun: "Dutch"
+ heritage_rhaetic_name: "Rhaetic"
+ heritage_rhaetic_collective_noun: "Rhaetians"
+#Languages
+ language_saxon_name: "Low German"
+ language_sorbian_name: "Sorbian"
+ language_arpitan_name: "Arpitan"
+ language_rhaetian_name: "Rhaetian"
+ language_darja_name: "Darja"

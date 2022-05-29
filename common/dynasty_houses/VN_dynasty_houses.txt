@@ -15,3 +15,9 @@ house_chiny = {
 	name = "dynn_Chiny"
 	dynasty = 211 # Karling
 }
+
+house_hamburg = {
+	prefix = "dynnp_von"
+	name = "dynn_Hamburg"
+	dynasty = 223 # Udoning
+}

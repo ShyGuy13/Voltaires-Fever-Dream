@@ -13,7 +13,7 @@
 }
 
 bosoning2 = {
-	name = "Foulques Bertrand" #Foulques Bertrand I of Forcalquier
+	name = "Foulques" #Foulques I of Forcalquier
 	dynasty = 154
 	religion = catholic
 	culture = vivaro_alpine
@@ -50,6 +50,34 @@ bosoning4 = {
 		birth = yes
 	}
 	1030.1.1 = {
+		death = yes
+	}
+}
+
+bosoning5 = {
+	name = "Guillaume" #Guillaume V of Provence
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning2
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1094.7.28 = {
+		death = yes
+	}
+}
+
+bosoning6 = {
+	name = "Emma" #Emma of Venaissin
+	female = yes
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	980.1.1 = {
+		birth = yes
+	}
+	1062.1.1 = {
 		death = yes
 	}
 }

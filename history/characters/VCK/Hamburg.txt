@@ -1,0 +1,30 @@
+﻿hamburg1 = {
+	name = "Heinrich" # Heinrich of Hamburg
+	dynasty_house = house_hamburg
+	religion = catholic
+	culture = low_elbish
+	trait = bastard
+	father = udoning1 #debated
+	mother = hamburg2
+	1035.1.1 = {
+		birth = yes
+	}
+	1093.10.31 = {
+		death = yes
+	}
+}
+
+hamburg2 = {
+	name = "Rikquur" # nun
+	female = yes
+	#dynasty = 224
+	religion = catholic
+	culture = low_elbish
+	trait = devoted
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1070.1.1 = { #fic
+		death = yes
+	}
+}

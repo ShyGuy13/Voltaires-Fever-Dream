@@ -151,26 +151,41 @@ c_cuijk = {
 
 #Frisia
 d_frisia = {
+	1014.1.1 = {
+		holder = brunoning3 # Liudolf I
+	}
 	1038.4.23 = {
 		holder = brunoning1 # Bruno II
 	}
 }
 c_westergo = {
+	1014.1.1 = {
+		holder = brunoning3 # Liudolf I
+	}
 	1038.4.23 = {
 		holder = brunoning1 # Bruno II
 	}
 }
 c_fivelgo = {
+	1014.1.1 = {
+		holder = brunoning3 # Liudolf I
+	}
 	1038.4.23 = {
 		holder = brunoning1 # Bruno II
 	}
 }
 c_ostergo = {
+	1014.1.1 = {
+		holder = brunoning3 # Liudolf I
+	}
 	1038.4.23 = {
 		holder = brunoning1 # Bruno II
 	}
 }
 c_westfriesland = {
+	1014.1.1 = {
+		holder = brunoning3 # Liudolf I
+	}
 	1038.4.23 = {
 		holder = brunoning1 # Bruno II
 	}
@@ -289,5 +304,13 @@ c_briey = {
 c_limburg = {
 	1054.1.1 = {
 		holder = limburg1 # Waleran
+	}
+}
+
+#Zutphen
+c_zutphen = {
+	1046.1.1 = {
+		liege = d_bm_utrecht
+		holder = zutphen1 # Godschalk I
 	}
 }

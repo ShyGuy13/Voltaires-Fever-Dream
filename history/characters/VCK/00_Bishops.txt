@@ -247,7 +247,7 @@ magdeburg_engelhard = {
 
 #Passau
 passau_egilbert = {
-	name = "Egilbert" #bishop of Passau
+	name = "Egilbert" #Egilbert I
 	dynasty = 24
 	religion = catholic
 	culture = hessian
@@ -255,6 +255,70 @@ passau_egilbert = {
 		birth = yes
 	}
 	1065.5.17 = {
+		death = yes
+	}
+}
+
+#Ravenna
+ravenna_enrico = {
+	name = "Enrico" #Enrico I
+	religion = catholic
+	culture = romagnan
+	1008.1.1 = { #fic
+		birth = yes
+	}
+	1072.1.1 = {
+		death = yes
+	}
+}
+
+#Hildesheim
+hildesheim_azelin = {
+	name = "Azelin" #Azelin I
+	religion = catholic
+	culture = eastphalian
+	985.1.1 = {
+		birth = yes
+	}
+	1054.3.8 = {
+		death = yes
+	}
+}
+
+hildesheim_hezilo = {
+	name = "Hezilo" #Hezilo I
+	religion = catholic
+	culture = franconian
+	1020.1.1 = {
+		birth = yes
+	}
+	1079.8.5 = {
+		death = yes
+	}
+}
+
+#Verden
+verden_siegbert = {
+	name = "Siegbert" #Siegbert I
+	religion = catholic
+	culture = low_elbish
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1060.10.10 = {
+		death = yes
+	}
+}
+
+#Münster
+munster_rudbert = {
+	name = "Rudbert" #Rudbert I
+	religion = catholic
+	culture = low_elbish
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1063.1.1 = {
 		death = yes
 	}
 }
