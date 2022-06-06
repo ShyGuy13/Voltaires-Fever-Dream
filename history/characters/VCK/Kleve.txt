@@ -1,0 +1,40 @@
+﻿kleve1 = {
+	name = "Rutger" #Rutger I of Kleve
+	dynasty = 173
+	religion = catholic
+	culture = ripuarian
+	970.1.1 = { #est
+		birth = yes
+	}
+	1050.1.1 = { #est
+		death = yes
+	}
+}
+
+kleve2 = {
+	name = "Rutger" #Rutger II of Kleve
+	dynasty = 173
+	religion = catholic
+	culture = ripuarian
+	father = kleve1
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+
+kleve3 = {
+	name = "Dietrich" #Dietrich I of Kleve
+	dynasty = 173
+	religion = catholic
+	culture = ripuarian
+	father = kleve2
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1091.1.1 = {
+		death = yes
+	}
+}

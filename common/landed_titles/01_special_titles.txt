@@ -238,6 +238,9 @@ d_bm_verdun = {
 }
 
 d_bm_bremen = {
+	color = { 33  101  137 }
+	color2 = { 255 255 255 }
+
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes
@@ -268,6 +271,8 @@ d_bm_schwerin = {
 }
 
 d_bm_brixen = {
+	color = { 255 99 71 }
+	color2 = { 255 255 255 }
 
 	capital = c_brixen
 
@@ -918,6 +923,24 @@ d_catapanate = {
 	capital = c_bari
 
 	definite_form = yes
+	landless = yes
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}
+
+d_bm_paderborn = {
+	
+	capital = c_paderborn
+
+	definite_form = yes
+	ruler_uses_title_name = no
 	landless = yes
 	
 	ai_primary_priority = {

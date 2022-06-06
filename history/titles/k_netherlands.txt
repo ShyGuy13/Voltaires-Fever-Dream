@@ -314,3 +314,15 @@ c_zutphen = {
 		holder = zutphen1 # Godschalk I
 	}
 }
+c_tecklenburg = {
+	1046.1.1 = {
+		liege = d_bm_utrecht
+		holder = zutphen1 # Godschalk I
+	}
+}
+c_kloppenburg = {
+	1046.1.1 = {
+		liege = d_bm_utrecht
+		holder = zutphen1 # Godschalk I
+	}
+}

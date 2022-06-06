@@ -1,4 +1,4 @@
-billung1 = {
+﻿billung1 = {
 	name = "Bernhard" # Bernhard II of Altsachsen
 	dynasty = 110
 	religion = catholic
@@ -150,6 +150,52 @@ billung11 = {
 		birth = yes
 	}
 	1076.2.3 = {
+		death = yes
+	}
+}
+
+billung12 = {
+	name = "Rikquur" # nun
+	female = yes
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	trait = devoted
+	father = billung10 # debated
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1070.1.1 = { #fic
+		death = yes
+	}
+}
+
+billung13 = {
+	name = "Schwanhild" # wife of Thietmar of Meissen
+	female = yes
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung8
+	945.1.1 = {
+		birth = yes
+	}
+	1014.11.26 = {
+		death = yes
+	}
+}
+
+billung14 = {
+	name = "Mathilde" # wife of Balduin III of Flanders
+	female = yes
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung8
+	935.1.1 = {
+		birth = yes
+	}
+	1008.5.25 = {
 		death = yes
 	}
 }

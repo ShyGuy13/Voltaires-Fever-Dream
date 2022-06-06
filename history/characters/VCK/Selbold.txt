@@ -1,0 +1,12 @@
+﻿selbold1 = {
+	name = "Dietmar" # Dietmar I of Gelnhausen
+	dynasty = 137
+	religion = catholic
+	culture = hessian
+	1045.1.1 = {
+		birth = yes
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}

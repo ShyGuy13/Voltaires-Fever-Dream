@@ -1,0 +1,6 @@
+﻿#Moravia
+c_brno = {
+	1050.1.1 = {
+		holder = premyslovci4 # Konrád I
+	}
+}

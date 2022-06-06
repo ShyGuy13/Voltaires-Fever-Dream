@@ -1713,6 +1713,7 @@ c_stade = {
 	1037.1.6 = {
 		holder = udoning1 # Udo II
 	}
+	#fief of Bremen
 }
 
 #Holstein
@@ -1779,5 +1780,109 @@ c_munster = {
 c_diepholz = {
 	1054.1.1 = {
 		holder = diepholz1 # Gottschalk I
+	}
+}
+
+#Hesse
+c_kassel = {
+	1008.1.1 = {
+		holder = gisoning2 # Giso I
+	}
+	1054.1.1 = {
+		holder = gisoning1 # Giso II
+	}
+}
+c_marburg = {
+	1008.1.1 = {
+		holder = gisoning2 # Giso I
+	}
+	1054.1.1 = {
+		holder = gisoning1 # Giso II
+	}
+}
+
+#Ziegenhain
+c_ziegenhain = {
+	1054.1.1 = {
+		holder = reichenbach2 # Gozmar I
+	}
+}
+
+#Hanau
+c_hanau = {
+	1054.1.1 = {
+		holder = dorfelden1 # Reinhold I
+	}
+}
+
+#Gelnhausen
+c_gelhausen = {
+	1054.1.1 = {
+		holder = selbold1 # Dietmar I
+	}
+}
+
+#Wittgenstein
+c_wittgenstein = {
+	1054.1.1 = {
+		holder = grafschaft1 # Hermann I
+	}
+}
+
+#Katzenelnbogen
+c_katzenelnbogen = {
+	1054.1.1 = {
+		liege = d_bm_cologne # ???
+		holder = katzenelnbogen1 # Diether I
+	}
+}
+
+#Wied
+c_wied = {
+	1034.1.1 = {
+		#Vassals of Pfalzgraviate
+		holder = wied1 # Wittekind I
+	}
+}
+
+#Osnbrück
+c_osnabruck = {
+	1052.4.19 = {
+		holder = osnabruck_benno_1 # Benno I
+	}
+}
+
+#Arenberg
+c_arenberg = {
+	1032.1.1 = {
+		liege = d_bm_cologne
+		holder = arenberg1 # Ulrich I
+	}
+}
+
+#Jülich
+c_julich = {
+	1003.1.1 = {
+		holder = julich1 # Gerhard I
+	}
+	1040.1.1 = {
+		holder = julich2 # Gerhard II
+	}
+}
+
+#Kleve
+c_kleve = {
+	1021.1.1 = {
+		holder = kleve1 # Rutger I
+	}
+	1050.1.1 = {
+		holder = kleve2 # Rutger II
+	}
+}
+
+#Berg
+c_bergh = {
+	1054.1.1 = {
+		holder = berg1 # Adolf I
 	}
 }

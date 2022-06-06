@@ -1,0 +1,12 @@
+﻿wied1 = {
+	name = "Wittekind" # Wittekind I of Wied
+	dynasty = 181
+	religion = catholic
+	culture = moselle_franconian
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1084.1.1 = {
+		death = yes
+	}
+}

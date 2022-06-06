@@ -138,7 +138,7 @@ c_forcalquier = {
 		holder = bosoning1 # Geoffroi I
 	}
 }
-c_gapencais = {
+c_digne = {
 	1051.4.27 = {
 		holder = bosoning1 # Geoffroi I
 	}

@@ -257,3 +257,10 @@ d_bm_munster = {
 		holder = munster_rudbert # Rudbert I
 	}
 }
+
+d_bm_osnabruck = {
+	1000.1.1 = { government = theocracy_government }
+	1052.4.19 = {
+		holder = osnabruck_benno_1 # Benno I
+	}
+}

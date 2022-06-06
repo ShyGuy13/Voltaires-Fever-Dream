@@ -1,0 +1,40 @@
+﻿julich1 = {
+	name = "Gerhard" # Gerhard I of Jülich
+	dynasty = 172
+	religion = catholic
+	culture = ripuarian
+	980.1.1 = { #fic
+		birth = yes
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+
+julich2 = {
+	name = "Gerhard" # Gerhard II of Jülich
+	dynasty = 172
+	religion = catholic
+	culture = ripuarian
+	father = julich1
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1081.1.1 = {
+		death = yes
+	}
+}
+
+julich3 = {
+	name = "Gerhard" # Gerhard III of Jülich
+	dynasty = 172
+	religion = catholic
+	culture = ripuarian
+	father = julich2
+	1040.1.1 = {
+		birth = yes
+	}
+	1128.1.1 = {
+		death = yes
+	}
+}

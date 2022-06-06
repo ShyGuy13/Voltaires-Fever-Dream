@@ -1,0 +1,12 @@
+﻿katzenelnbogen1 = {
+	name = "Diether" #Diether I of Katzenelnbogen
+	dynasty = 144
+	religion = catholic
+	culture = hessian
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1095.1.1 = {
+		death = yes
+	}
+}

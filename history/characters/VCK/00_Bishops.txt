@@ -322,3 +322,16 @@ munster_rudbert = {
 		death = yes
 	}
 }
+
+#Osnabrück
+osnabruck_benno_1 = {
+	name = "Benno" #Benno I
+	religion = catholic
+	culture = hannoverian
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1067.12.3 = {
+		death = yes
+	}
+}

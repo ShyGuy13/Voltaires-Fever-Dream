@@ -1,0 +1,26 @@
+﻿berg1 = {
+	name = "Adolf" # Adolf I of Berg
+	dynasty = 170
+	religion = catholic
+	culture = ripuarian
+	1012.1.1 = { #fic
+		birth = yes
+	}
+	1082.1.1 = {
+		death = yes
+	}
+}
+
+berg2 = {
+	name = "Adolf" # Adolf II of Berg
+	dynasty = 170
+	religion = catholic
+	culture = ripuarian
+	father = berg1
+	1035.1.1 = {
+		birth = yes
+	}
+	1093.1.1 = {
+		death = yes
+	}
+}
