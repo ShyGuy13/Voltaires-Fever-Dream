@@ -1,0 +1,98 @@
+﻿namur1 = {
+	name = "Albert" # Albert II of Namur
+	dynasty = 198
+	religion = catholic
+	culture = wallonian
+	father = namur5
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1067.1.1 = {
+		death = yes
+	}
+}
+
+namur2 = {
+	name = "Albert" # Albert III of Namur
+	dynasty = 198
+	religion = catholic
+	culture = wallonian
+	father = namur1
+	1027.1.1 = {
+		birth = yes
+	}
+	1102.7.29 = {
+		death = yes
+	}
+}
+
+namur3 = {
+	name = "Henri" # Henri I of Durbuy
+	dynasty = 198
+	religion = catholic
+	culture = wallonian
+	father = namur1
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}
+
+namur4 = {
+	name = "Hedwige" # wife of Gerard of Lorraine
+	female = yes
+	dynasty = 198
+	religion = catholic
+	culture = wallonian
+	father = namur1
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1090.1.1 = { #fic
+		death = yes
+	}
+}
+
+namur5 = {
+	name = "Albert" # Albert I of Namur
+	dynasty = 198
+	religion = catholic
+	culture = wallonian
+	father = namur6
+	950.1.1 = { #fic
+		birth = yes
+	}
+	1011.1.1 = {
+		death = yes
+	}
+}
+
+
+namur6 = {
+	name = "Robert" # Robert I of Namur
+	dynasty = 198
+	religion = catholic
+	culture = wallonian
+	920.1.1 = { #fic
+		birth = yes
+	}
+	981.1.1 = {
+		death = yes
+	}
+}
+
+namur7 = {
+	name = "Robert" # Robert II of Namur
+	dynasty = 198
+	religion = catholic
+	culture = wallonian
+	father = namur5
+	995.1.1 = { #fic
+		birth = yes
+	}
+	1031.1.1 = {
+		death = yes
+	}
+}

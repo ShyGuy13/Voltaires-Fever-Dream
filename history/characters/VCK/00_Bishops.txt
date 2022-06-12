@@ -335,3 +335,16 @@ osnabruck_benno_1 = {
 		death = yes
 	}
 }
+
+#Basel
+basel_theoderich = {
+	name = "Theoderich" #Theoderich 
+	religion = catholic
+	culture = swiss
+	991.1.1 = { #fic
+		birth = yes
+	}
+	1056.12.29 = {
+		death = yes
+	}
+}

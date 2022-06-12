@@ -83,11 +83,67 @@ ezzoning6 = {
 	religion = catholic
 	culture = pfalzish
 	trait = delicate
-	940.1.1 = { #fic
+	935.1.1 = { #fic
 		birth = yes
-		give_nickname = the_delicate
+		give_nickname = the_slender
 	}
 	996.7.16 = {
+		death = yes
+	}
+}
+
+ezzoning7 = {
+	name = "Hermann" #bishop of Cologne
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning8
+	995.1.1 = {
+		birth = yes
+	}
+	1056.2.11 = {
+		death = yes
+	}
+}
+
+ezzoning8 = {
+	name = "Ezzo" #Ezzo of Pfalz
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning6
+	955.1.1 = {
+		birth = yes
+	}
+	1034.5.21 = {
+		death = yes
+	}
+}
+
+ezzoning9 = {
+	name = "Otto" #Otto I of Pfalz & Swabia
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning8
+	993.1.1 = {
+		birth = yes
+	}
+	1047.9.7 = {
+		death = yes
+	}
+}
+
+ezzoning10 = {
+	name = "Adolf" #
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning6
+	960.1.1 = { #fic
+		birth = yes
+	}
+	1018.1.1 = {
 		death = yes
 	}
 }

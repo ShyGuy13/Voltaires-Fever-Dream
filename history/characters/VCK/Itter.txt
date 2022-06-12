@@ -1,0 +1,12 @@
+﻿itter1 = {
+	name = "Rember" # Rember I of Ittergau
+	dynasty = 232
+	religion = catholic
+	culture = hannoverian
+	1028.1.1 = { #fic
+		birth = yes
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}

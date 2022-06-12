@@ -1,0 +1,12 @@
+﻿forez1 = {
+	name = "Artaud" # Artaud III of Forez
+	dynasty = 236
+	culture = arpitan
+	religion = catholic
+	1015.1.1 = { #fic
+		birth = yes
+	}
+	1078.1.1 = {
+		death = yes
+	}
+}

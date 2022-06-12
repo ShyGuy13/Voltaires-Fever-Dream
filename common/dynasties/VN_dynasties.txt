@@ -608,7 +608,7 @@
 128 = {
 	prefix = "dynnp_de"
 	name = "dynn_Challant"
-	culture = piedmontese
+	culture = arpitan
 }
 129 = {
 	prefix = "dynnp_von"
@@ -1090,31 +1090,48 @@
 	culture = dutch
 }
 229 = {
-	
+	prefix = "dynnp_d_"
+	name = "dynn_Albon"
+	culture = arpitan
 }
 230 = {
-	
+	prefix = "dynnp_di"
+	name = "dynn_Savoia"
+	culture = arpitan
 }
 231 = {
-	
+	prefix = "dynnp_de"
+	name = "dynn_Baugé"
+	culture = arpitan
 }
 232 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Itter"
+	culture = hannoverian
 }
 233 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Grone"
+	culture = eastphalian
 }
 234 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Dassel"
+	culture = eastphalian
 }
 235 = {
-	
+	prefix = "dynnp_de"
+	name = "dynn_Beaujeu"
+	culture = arpitan
 }
 236 = {
-	
+	prefix = "dynnp_de"
+	name = "dynn_Forez"
+	culture = arpitan
 }
 237 = {
-	
+	name = "dynn_Arduining"
+	culture = piedmontese
 }
 238 = {
 	

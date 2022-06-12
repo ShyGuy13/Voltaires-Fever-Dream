@@ -288,3 +288,10 @@ c_amalfi = {
 		holder = musco1 # Giovanni II
 	}
 }
+
+#Kirkent
+c_kirkent = {
+	1053.1.1 = {
+		holder = awwas1 # Ali
+	}
+}

@@ -1231,6 +1231,11 @@ c_northeim = {
 		holder = northeim1 # Otto I
 	}
 }
+c_eschwege = {
+	1040.1.1 = {
+		holder = northeim1 # Otto I
+	}
+}
 
 #Lobdeburg
 c_lobdaburg = {
@@ -1414,6 +1419,11 @@ c_trier = {
 		holder = ezzoning4 # Eberhard I
 	}
 }
+c_koblenz = {
+	1047.6.16 = {
+		holder = ezzoning4 # Eberhard I
+	}
+}
 
 #Pfalz
 c_bonn = {
@@ -1502,7 +1512,7 @@ c_barr = {
 		holder = huneburg1 # Dietrich I
 	}
 }
-c_maursmunster = {
+c_zabern = {
 	1054.1.1 = {
 		holder = huneburg1 # Dietrich I
 	}
@@ -1777,14 +1787,14 @@ c_munster = {
 }
 
 #Diepholz
-c_diepholz = {
+c_diepolz = {
 	1054.1.1 = {
 		holder = diepholz1 # Gottschalk I
 	}
 }
 
 #Hesse
-c_kassel = {
+c_marburg = {
 	1008.1.1 = {
 		holder = gisoning2 # Giso I
 	}
@@ -1792,7 +1802,7 @@ c_kassel = {
 		holder = gisoning1 # Giso II
 	}
 }
-c_marburg = {
+c_kassel = {
 	1008.1.1 = {
 		holder = gisoning2 # Giso I
 	}
@@ -1816,7 +1826,7 @@ c_hanau = {
 }
 
 #Gelnhausen
-c_gelhausen = {
+c_gelnhausen = {
 	1054.1.1 = {
 		holder = selbold1 # Dietmar I
 	}
@@ -1869,6 +1879,14 @@ c_julich = {
 		holder = julich2 # Gerhard II
 	}
 }
+c_stolberg = {
+	1003.1.1 = {
+		holder = julich1 # Gerhard I
+	}
+	1040.1.1 = {
+		holder = julich2 # Gerhard II
+	}
+}
 
 #Kleve
 c_kleve = {
@@ -1884,5 +1902,47 @@ c_kleve = {
 c_bergh = {
 	1054.1.1 = {
 		holder = berg1 # Adolf I
+	}
+}
+
+#Köln
+c_cologne = {
+	1036.8.25 = {
+		holder = ezzoning7
+	}
+}
+
+#Waldeck
+c_waldeck = {
+	1054.1.1 = {
+		holder = itter1 # Rember
+	}
+}
+
+#Mansfeld
+c_mansfeld = {
+	1051.1.1 = {
+		holder = mansfeld1 # Hoyer I
+	}
+}
+
+#Klettenberg
+c_klettenberg = {
+	1054.1.1  = {
+		holder = klettenberg1 # Heselin I
+	}
+}
+
+#Göttingen
+c_gottingen = {
+	1054.1.1 = {
+		holder = grone1 # Bevo I
+	}
+}
+
+#Dassel
+c_dassel = {
+	1054.1.1 = {
+		holder = dassel1 # Dietrich I
 	}
 }

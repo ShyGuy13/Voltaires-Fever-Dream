@@ -123,3 +123,50 @@ c_carpegna = {
 		holder = ravenna_enrico # Enrico I
 	}
 }
+
+#Aosta
+c_aosta = {
+	1054.1.1 = {
+		liege = d_savoie
+		holder = challant1 # Bavo I
+	}
+}
+
+#Turin
+d_turin = {
+	1034.10.2 = {
+		holder = arduining1 # Adelaide
+	}
+}
+c_turin = {
+	1034.10.2 = {
+		holder = arduining1 # Adelaide
+	}
+}
+c_saluzzo = {
+	1034.10.2 = {
+		holder = arduining1 # Adelaide
+	}
+}
+c_alba = {
+	1034.10.2 = {
+		holder = arduining1 # Adelaide
+	}
+}
+c_cuneo = {
+	1034.10.2 = {
+		holder = arduining1 # Adelaide
+	}
+}
+c_ceva = {
+	1034.10.2 = {
+		holder = arduining1 # Adelaide
+	}
+}
+
+#Ivrea
+c_ivrea = {
+	1041.1.1 = {
+		holder = ivrea1 # Guido I
+	}
+}

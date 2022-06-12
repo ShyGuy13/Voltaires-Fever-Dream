@@ -1,6 +1,6 @@
 ﻿enghien1 = {
 	name = "Engelbert" # Engelbert I of Enghien
-	dynasty = 20
+	dynasty = 200
 	religion = catholic
 	culture = picard
 	1025.1.1 = { # fic

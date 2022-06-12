@@ -1,0 +1,92 @@
+﻿savoia1 = {
+	name = "Ottone" #Ottone I of Savoy
+	dynasty = 230
+	culture = arpitan
+	religion = catholic
+	1020.1.1 = {
+		birth = yes
+	}
+	1046.1.1 = {
+		add_spouse = arduining1 # Adelaide of Turin
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+
+savoia2 = {
+	name = "Pietro" #Pietro I of Savoy
+	dynasty = 230
+	culture = arpitan
+	religion = catholic
+	father = savoia1
+	mother = arduining1
+	1048.1.1 = {
+		birth = yes
+	}
+	1078.7.9 = {
+		death = yes
+	}
+}
+
+savoia3 = {
+	name = "Amedeo" #Amedeo II of Savoy
+	dynasty = 230
+	culture = arpitan
+	religion = catholic
+	father = savoia1
+	mother = arduining1
+	1050.1.1 = {
+		birth = yes
+	}
+	1080.1.26 = {
+		death = yes
+	}
+}
+
+savoia4 = {
+	name = "Berta" #wife of Emperor Heinrich IV
+	female = yes
+	dynasty = 230
+	culture = arpitan
+	religion = catholic
+	father = savoia1
+	mother = arduining1
+	1051.9.21 = {
+		birth = yes
+	}
+	1087.12.27 = {
+		death = yes
+	}
+}
+
+savoia5 = {
+	name = "Adelaide" #wife of Rudolf of Rheinfelden
+	female = yes
+	dynasty = 230
+	culture = arpitan
+	religion = catholic
+	father = savoia1
+	mother = arduining1
+	1053.1.1 = {
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+
+savoia6 = {
+	name = "Ottone" #bishop of Asti
+	dynasty = 230
+	culture = arpitan
+	religion = catholic
+	father = savoia1
+	mother = arduining1
+	1054.1.1 = { #fic
+		birth = yes
+	}
+	1088.1.1 = {
+		death = yes
+	}
+}

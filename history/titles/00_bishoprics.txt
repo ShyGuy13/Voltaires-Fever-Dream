@@ -264,3 +264,17 @@ d_bm_osnabruck = {
 		holder = osnabruck_benno_1 # Benno I
 	}
 }
+
+d_bm_cologne = {
+	1000.1.1 = { government = theocracy_government }
+	1036.8.25 = {
+		holder = ezzoning7
+	}
+}
+
+d_bm_basel = {
+	1000.1.1 = { government = theocracy_government }
+	1041.1.1 = {
+		holder = basel_theoderich # Theoderich
+	}
+}

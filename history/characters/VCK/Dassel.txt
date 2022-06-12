@@ -1,0 +1,12 @@
+﻿dassel1 = {
+	name = "Dietrich" # Dietrich I of Dassel
+	dynasty = 234
+	religion = catholic
+	culture = eastphalian
+	1029.1.1 = { #fic
+		birth = yes
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}

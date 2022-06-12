@@ -6,6 +6,9 @@
 	1030.1.1 = {
 		birth = yes
 	}
+	1050.1.1 = { # fic
+		add_spouse = namur4
+	}
 	1070.4.14 = {
 		death = yes
 	}

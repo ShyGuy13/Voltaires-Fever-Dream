@@ -1,0 +1,13 @@
+﻿arduining1 = {
+	name = "Adelaide" # Adelaide I of Turin
+	female = yes
+	dynasty = 237
+	religion = catholic
+	culture = piedmontese
+	1020.1.1 = {
+		birth = yes
+	}
+	1091.12.19 = {
+		death = yes
+	}
+}

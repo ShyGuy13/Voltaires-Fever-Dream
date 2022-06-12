@@ -71,7 +71,7 @@ zutphen5 = {
 	}
 }
 
-zutphen5 = {
+zutphen6 = {
 	name = "Heribert" # debated
 	dynasty = 228
 	religion = catholic

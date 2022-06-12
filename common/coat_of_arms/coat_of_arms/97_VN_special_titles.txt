@@ -199,8 +199,8 @@ d_bm_toul = {
 	colored_emblem = {
 		texture = "ce_circle.dds"
 		color1 = "white"
-		instance = { position = { 0.25 0.3 } scale = { 0.3 0.3 }  }
-		instance = { position = { 0.75 0.3 } scale = { 0.3 0.3 }  }
+		instance = { position = { 0.3 0.3 } scale = { 0.3 0.3 }  }
+		instance = { position = { 0.7 0.3 } scale = { 0.3 0.3 }  }
 		instance = { position = { 0.5 0.6 } scale = { 0.3 0.3 }  }
 	}
 }
@@ -337,5 +337,17 @@ d_bm_metz={
 			depth=2.010000
 			rotation=360
 		}
+	}
+}
+
+d_bm_basel = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_crozier.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { -0.9 0.9 }  }
 	}
 }

@@ -1,0 +1,41 @@
+﻿albon1 = {
+	name = "Guigues" # Guigues I of Dauphine
+	dynasty = 229
+	religion = catholic
+	culture = arpitan
+	1000.1.1 = { #est
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+albon2 = {
+	name = "Guigues" # Guigues II of Dauphine
+	dynasty = 229
+	religion = catholic
+	culture = arpitan
+	father = albon1
+	1025.1.1 = { #est
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+
+albon3 = {
+	name = "Humbert" # bishop of Grenoble
+	dynasty = 229
+	religion = catholic
+	culture = arpitan
+	trait = devoted
+	father = albon1
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1068.1.1 = { #fic
+		death = yes
+	}
+}

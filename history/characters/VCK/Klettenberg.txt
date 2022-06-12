@@ -1,0 +1,12 @@
+﻿klettenberg1 = {
+	name = "Heselin" #Heselin I of Klettenberg
+	dynasty = 111
+	religion = catholic
+	culture = thuringian
+	1040.1.1 = { #fic
+		birth = yes
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}

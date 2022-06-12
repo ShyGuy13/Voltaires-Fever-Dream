@@ -1,0 +1,12 @@
+﻿vianden1 = {
+	name = "Berthold" #Berthold I of Vianden
+	dynasty = 180
+	religion = catholic
+	culture = moselle_franconian
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}

@@ -1,4 +1,5 @@
-c_valence = {
+#Valentinois
+c_valentinois = {
 	1040.1.1 = {
 		holder = valence1 # Aymar I
 	}
@@ -15,6 +16,11 @@ c_tenquin = {
 		holder = luxemburg2 # Adalbéron III
 	}
 }
+c_sarrebourg = {
+	1047.1.1 = {
+		holder = luxemburg2 # Adalbéron III
+	}
+}
 
 #Lorraine
 d_upper_lorraine = {
@@ -27,7 +33,7 @@ c_nancy = {
 		holder = gerharding1 # Gérard I
 	}
 }
-c_remiremont = {
+c_epinal = {
 	1048.11.11 = {
 		holder = gerharding1 # Gérard I
 	}
@@ -38,6 +44,11 @@ c_blamont = {
 	}
 }
 c_vaudemont = {
+	1048.11.11 = {
+		holder = gerharding1 # Gérard I
+	}
+}
+c_bitsch = {
 	1048.11.11 = {
 		holder = gerharding1 # Gérard I
 	}
@@ -85,7 +96,7 @@ c_verdun = {
 }
 
 #Apremont
-c_apremont = {
+c_aspremont = {
 	1040.1.1 = {
 		holder = aspremont1 # Gobert I
 	}
@@ -171,6 +182,7 @@ c_bourmont = {
 #Commercy
 c_commercy = {
 	1054.1.1 = {
+		liege = d_bm_metz
 		holder = commercy1 # Ricuin I
 	}
 }
@@ -192,5 +204,58 @@ c_nimes = {
 c_uzes = {
 	1054.1.1 = {
 		holder = trencavel1 # Raimond Bernard I
+	}
+}
+
+#Vianden
+c_vianden = {
+	1054.1.1 = {
+		holder = vianden1 # Berthold I
+	}
+}
+
+#Dauphine
+c_dauphine_viennois = {
+	1054.1.1  = {
+		holder = albon1 # Guigues I
+	}
+}
+c_grenoble = {
+	1054.1.1  = {
+		holder = albon1 # Guigues I
+	}
+}
+
+#Savoy
+d_savoie = {
+	1052.1.1  = {
+		holder = savoia1 # Ottone I
+	}
+}
+c_savoie = {
+	1052.1.1  = {
+		holder = savoia1 # Ottone I
+	}
+}
+
+#Bresse
+c_bresse = {
+	1054.1.1 = {
+		holder = bauge1 # Raimond I
+	}
+}
+
+
+#Beaujolais
+c_beaujeu = {
+	1030.1.1 = {
+		holder = beaujeu1 # Guichard II
+	}
+}
+
+#Forez
+c_forez = {
+	1050.1.1 = {
+		holder = forez1 # Artaud III
 	}
 }

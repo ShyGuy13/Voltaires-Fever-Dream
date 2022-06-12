@@ -73,12 +73,12 @@ d_brabant = {
 		holder = reginaring1 # Hendrik Leuven I
 	}
 }
-c_brussels = {
+c_brabant = {
 	1054.1.1 = {
 		holder = reginaring1 # Hendrik Leuven I
 	}
 }
-c_turnhout = {
+c_herentals = {
 	1054.1.1 = {
 		holder = reginaring1 # Hendrik Leuven I
 	}
@@ -109,7 +109,7 @@ d_holland = {
 		holder = gerulfing1 # Floris I
 	}
 }
-c_amsterdam = {
+c_amsterda = {
 	1049.1.13 = {
 		holder = gerulfing1 # Floris I
 	}
@@ -324,5 +324,28 @@ c_kloppenburg = {
 	1046.1.1 = {
 		liege = d_bm_utrecht
 		holder = zutphen1 # Godschalk I
+	}
+}
+
+#Namur
+c_namur = {
+	946.1.1 = {
+		holder = namur6 # Robert I
+	}
+	981.1.1 = {
+		holder = namur5 # Albert I
+	}
+	1011.1.1 = {
+		holder = namur7 # Robert II
+	}
+	1031.1.1 = {
+		holder = namur1 # Albert II
+	}
+}
+
+#Prüm
+b_prum = {
+	1026.1.1 = {
+		holder = arberg1 # Ruprecht
 	}
 }

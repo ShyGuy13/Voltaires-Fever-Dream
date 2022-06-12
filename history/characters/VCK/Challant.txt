@@ -1,0 +1,12 @@
+﻿challant1 = {
+	name = "Bavo" #Bavo I of Aosta
+	dynasty = 128
+	culture = arpitan
+	religion = catholic
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	1091.12.19 = {
+		death = yes
+	}
+}

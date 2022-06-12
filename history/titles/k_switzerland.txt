@@ -91,3 +91,15 @@ c_winterthur = {
 		holder = winterthur1 # Adelheid I
 	}
 }
+
+#Basel
+c_basel = {
+	1041.1.1 = {
+		holder = basel_theoderich # Theoderich
+	}
+}
+c_porrentruy = {
+	1041.1.1 = {
+		holder = basel_theoderich # Theoderich
+	}
+}

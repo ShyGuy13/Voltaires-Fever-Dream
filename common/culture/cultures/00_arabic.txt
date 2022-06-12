@@ -1,1 +1,27 @@
-﻿#dummy
+﻿#mod cultures
+tunisian = {
+	color = bedouin
+	
+	ethos = ethos_stoic
+	heritage = heritage_arabic
+	language = language_darja
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_xenophilic
+		tradition_african_tolerance
+		tradition_mubarizuns
+		tradition_dryland_dwellers
+		tradition_fishermen
+	}
+	
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+
+	ethnicities = {
+		10 = arab
+	}
+}

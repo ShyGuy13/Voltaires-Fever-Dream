@@ -1,0 +1,12 @@
+﻿grone1 = {
+	name = "Bevo" #Bevo I of Göttingen
+	dynasty = 233
+	religion = catholic
+	culture = arpitan
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}

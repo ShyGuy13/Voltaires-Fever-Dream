@@ -14,7 +14,8 @@ ce_vn_fish_sideways_right3.dds = { colors = 3 category = animals }
 ce_vn_griffin_rampant.dds = { colors = 2 category = animals }
 ce_vn_griffins_leg.dds = { colors = 3 category = animals }
 ce_vn_wyvern_head.dds = { colors = 3 category = animals }
-ce_vn_pigeon.dds = { colors = 3 category = animals}
+ce_vn_pigeon.dds = { colors = 3 category = animals }
+ce_vn_barbels_inverted.dds = { colors = 2 category = animals }
 #Abstract
 ce_vn_mercury_symbol.dds = { colors = 1 category = abstract }
 #Nature

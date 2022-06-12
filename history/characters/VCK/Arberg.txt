@@ -1,0 +1,12 @@
+﻿arberg1 = {
+	name = "Ruprecht" # abbot of Prüm
+	dynasty = 179
+	religion = catholic
+	culture = franconian
+	1002.1.1 = { #fic
+		birth = yes
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}

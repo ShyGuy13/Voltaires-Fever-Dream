@@ -1,0 +1,12 @@
+﻿beaujeu1 = {
+	name = "Guichard" # Guichard II of Beaujeu
+	dynasty = 235
+	religion = catholic
+	culture = arpitan
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1078.1.1 = {
+		death = yes
+	}
+}

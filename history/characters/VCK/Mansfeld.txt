@@ -1,0 +1,12 @@
+mansfeld1 = {
+	name = "Hoyer" # Hoyer I of Mansfeld
+	dynasty = 106
+	religion = catholic
+	culture = thuringian
+	1015.1.1 = { #fic
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
