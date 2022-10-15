@@ -133,12 +133,17 @@ c_aosta = {
 }
 
 #Turin
-d_turin = {
+d_piedmonte = {
 	1034.10.2 = {
 		holder = arduining1 # Adelaide
 	}
 }
 c_turin = {
+	1034.10.2 = {
+		holder = arduining1 # Adelaide
+	}
+}
+c_asti = {
 	1034.10.2 = {
 		holder = arduining1 # Adelaide
 	}
@@ -168,5 +173,66 @@ c_ceva = {
 c_ivrea = {
 	1041.1.1 = {
 		holder = ivrea1 # Guido I
+	}
+}
+
+#Tuscany
+d_tuscany = {
+	1052.5.6 = {
+		holder = attoning2 # Frederico I
+	}
+}
+c_firenze = {
+	1052.5.6 = {
+		holder = attoning2 # Frederico I
+	}
+}
+c_lucca = {
+	1052.5.6 = {
+		holder = attoning2 # Frederico I
+	}
+}
+c_arezzo = {
+	1052.5.6 = {
+		holder = attoning2 # Frederico I
+	}
+}
+c_chiusi = {
+	1052.5.6 = {
+		holder = attoning2 # Frederico I
+	}
+}
+c_san_miniato = {
+	1052.5.6 = {
+		holder = attoning2 # Frederico I
+	}
+}
+
+#Vernio
+c_vernio = {
+	1045.1.1 = {
+		holder = alberti1 # Ildebrando III
+	}
+}
+
+#Pistoia
+c_pistoia = {
+	1054.1.1 = {
+		holder = cadoling1 # Lotario I
+	}
+}
+
+#Massa
+c_massa = {
+	1050.1.1 = {
+		holder = oberting1 # Adalberto VI
+	}
+}
+
+#Siena
+c_siena = {
+	1000.1.1 = { government = theocracy_government }
+	1037.1.1 = {
+		holder = siena_giovanni_2 # Giovanni II
 	}
 }

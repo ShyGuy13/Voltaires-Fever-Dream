@@ -348,3 +348,16 @@ basel_theoderich = {
 		death = yes
 	}
 }
+
+#Siena
+siena_giovanni_2 = {
+	name = "Giovanni" #Giovanni I
+	religion = catholic
+	culture = tuscan
+	999.1.1 = { #fic
+		birth = yes
+	}
+	1063.1.1 = {
+		death = yes
+	}
+}

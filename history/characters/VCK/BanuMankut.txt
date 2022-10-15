@@ -1,0 +1,12 @@
+﻿mankut1 = {
+	name = "‘Abd Allâh" # ‘Abd Allâh of Trapani
+	dynasty = 203
+	religion = ashari
+	culture = maghrebi
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1080.1.1 = { #fic
+		death = yes
+	}
+}

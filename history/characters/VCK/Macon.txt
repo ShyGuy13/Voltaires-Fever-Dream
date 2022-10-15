@@ -1,0 +1,12 @@
+macon1 = {
+	name = "Aubry" # Aubry II of Macon
+	dynasty = 245
+	religion = catholic
+	culture = burgundian
+	935.1.1 = {
+		birth = yes
+	}
+	982.1.1 = {
+		death = yes
+	}
+}

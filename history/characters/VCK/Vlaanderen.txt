@@ -6,6 +6,7 @@
 	father = vlaanderen2
 	1012.8.19 = {
 		birth = yes
+		give_nickname = nick_the_pious
 	}
 	1067.9.1 = {
 		death = yes
@@ -21,6 +22,40 @@ vlaanderen2 = {
 		birth = yes
 	}
 	1035.5.30 = {
+		death = yes
+	}
+}
+
+vlaanderen3 = {
+	name = "Baudouin" # Baudouin VI of Flanders
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen1
+	1030.1.1 = {
+		birth = yes
+		give_nickname = nick_the_good
+	}
+	1051.1.1 = {
+		add_spouse = reginaring2 # Richilde of Hainaut
+	}
+	1070.7.17 = {
+		death = yes
+	}
+}
+
+vlaanderen4 = {
+	name = "Arnulf" # Arnulf III of Flanders
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen3
+	mother = reginaring2
+	1054.1.1 = {
+		birth = yes
+		give_nickname = nick_the_unhappy
+	}
+	1071.2.22 = {
 		death = yes
 	}
 }

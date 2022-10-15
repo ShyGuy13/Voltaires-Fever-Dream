@@ -103,3 +103,22 @@ c_porrentruy = {
 		holder = basel_theoderich # Theoderich
 	}
 }
+
+#Nidwalden
+c_nidwalden = {
+	1044.1.1 = {
+		holder = affoltern1 # Luitold I
+	}
+}
+
+#Zürich
+c_zurich = {
+	1048.1.1 = {
+		holder = lenzburg1 # Arnold I
+	}
+}
+c_uri = {
+	1048.1.1 = {
+		holder = lenzburg1 # Arnold I
+	}
+}

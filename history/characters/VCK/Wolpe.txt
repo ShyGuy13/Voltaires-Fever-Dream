@@ -1,0 +1,12 @@
+﻿wolpe1 = {
+	name = "Gerbert" # Gerbert I of Wolpe
+	dynasty = 224
+	religion = catholic
+	culture = eastphalian
+	1031.1.1 = { #fic
+		birth = yes
+	}
+	1102.1.1 = {
+		death = yes
+	}
+}

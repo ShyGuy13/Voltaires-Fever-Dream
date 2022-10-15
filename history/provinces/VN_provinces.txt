@@ -14,7 +14,7 @@
 	holding = none
 }
 4 = { # c_volkmarsen
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -54,18 +54,18 @@
 	holding = none
 }
 12 = { # c_warin 
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
 }
 13 = { # c_lübeck
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
 }
 14 = { # c_ratzeburg
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
 }
 15 = { # c_oldambt
@@ -81,7 +81,7 @@
 17 = { # c_tholey
 	culture = moselle_franconian
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 18 = { # c_nohfelden
 	culture = saxon
@@ -141,7 +141,7 @@
 29 = { # c_toul
 	culture = lorrainian
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 30 = { # c_vaudémont
 	culture = lorrainian
@@ -151,7 +151,7 @@
 31 = { # c_commercy
 	culture = lorrainian
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 32 = { # c_épinal
 	culture = lorrainian
@@ -169,7 +169,7 @@
 	holding = castle_holding
 }
 35 = { # c_fénétrange
-	culture = saxon
+	culture = pfalzish
 	religion = catholic
 	holding = castle_holding
 }
@@ -209,18 +209,18 @@
 	holding = none
 }
 43 = { # c_chojnice
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 44 = { # c_harbach
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 45 = { # c_eutin
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
 }
 46 = { # c_horb
@@ -234,19 +234,22 @@
 	holding = none
 }
 48 = { # c_pasewalk
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 49 = { # c_dramburg
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 50 = { # c_wriezen
-	culture = saxon
-	religion = catholic
-	holding = none
+	culture = polabian
+	religion = slavic_pagan
+	holding = tribal_holding
+	1248.1.1 = {
+		culture = central_margravian
+	}
 }
 51 = { # c_bonndorf
 	culture = saxon
@@ -289,7 +292,7 @@
 	holding = none
 }
 59 = { # c_wittenberg
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -299,7 +302,7 @@
 	holding = none
 }
 61 = { # c_lobenstein
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -319,7 +322,7 @@
 	holding = none
 }
 65 = { # c_wittelsbach
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -341,7 +344,7 @@
 69 = { # c_neukonstanz
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 70 = { # c_göppingen
 	culture = saxon
@@ -359,7 +362,7 @@
 	holding = none
 }
 73 = { # c_seefeld
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -374,7 +377,7 @@
 	holding = none
 }
 76 = { # c_salzburggau
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -404,7 +407,7 @@
 	holding = none
 }
 82 = { # c_arnsberg
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -429,17 +432,17 @@
 	holding = none
 }
 87 = { # c_eichstätt
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 88 = { # c_heideck
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 89 = { # c_weißenburg
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -451,7 +454,7 @@
 91 = { # c_mons
 	culture = picard
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 92 = { # c_aalst
 	culture = flemish
@@ -524,7 +527,7 @@
 	holding = none
 }
 106 = { # c_bergamo
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -549,17 +552,17 @@
 	holding = none
 }
 111 = { # c_venezia
-	culture = saxon
+	culture = friulan
 	religion = catholic
 	holding = none
 }
 112 = { # c_ferrara
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
 113 = { # c_veldenz
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -581,7 +584,10 @@
 117 = { # c_plymouth
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = church_holding
+	1125.1.1 = {
+		holder = city_holding
+	}
 }
 118 = { # c_donauwörth
 	culture = saxon
@@ -634,12 +640,12 @@
 	holding = none
 }
 128 = { # c_idrija
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 129 = { # c_porec
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
@@ -664,12 +670,12 @@
 	holding = none
 }
 134 = { # c_detmold
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 135 = { # c_jersey
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -696,10 +702,10 @@
 140 = { # c_steinfurt
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 141 = { # c_calais
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -724,12 +730,12 @@
 	holding = none
 }
 146 = { # c_rheda
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
 147 = { # c_hadeln
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -829,12 +835,12 @@
 	holding = none
 }
 167 = { # c_enzersdorf
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 168 = { # c_pazin
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -854,7 +860,7 @@
 	holding = none
 }
 172 = { # c_chur
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -879,22 +885,22 @@
 	holding = none
 }
 177 = { # c_kufstein
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 178 = { # c_briey
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 179 = { # c_gasteinertal
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 180 = { # c_champagne
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -904,7 +910,7 @@
 	holding = castle_holding
 }
 182 = { # c_wolfsberg
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -914,12 +920,12 @@
 	holding = none
 }
 184 = { # c_merzig
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 185 = { # c_remiremont
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -936,7 +942,7 @@
 188 = { # c_innichen
 	culture = moselle_franconian
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 189 = { # c_charlieu
 	culture = lorrainian
@@ -944,7 +950,7 @@
 	holding = none
 }
 190 = { # c_freising
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -954,22 +960,22 @@
 	holding = none
 }
 192 = { # c_prättigau
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 193 = { # c_grafenau
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
 194 = { # c_passau
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 195 = { # c_attnang
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -979,42 +985,42 @@
 	holding = none
 }
 197 = { # c_manosque
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 198 = { # c_venaissin
-	culture = saxon
+	culture = bavarian
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 199 = { # c_škofja loka
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 200 = { # c_bled
-	culture = saxon
+	culture = provencal
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 201 = { # c_wettin
-	culture = saxon
+	culture = provencal
 	religion = catholic
 	holding = none
 }
 202 = { # c_tonna
-	culture = saxon
+	culture = provencal
 	religion = catholic
 	holding = none
 }
 203 = { # c_dillstädt
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
 204 = { # c_sulz
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
@@ -1024,12 +1030,12 @@
 	holding = none
 }
 206 = { # c_ilanz
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 207 = { # c_westmorland
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -1099,22 +1105,22 @@
 	holding = none
 }
 221 = { # c_hohnstein
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 222 = { # c_schweinfurt
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 223 = { # c_cannes
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 224 = { # c_beichlingen
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -1124,7 +1130,7 @@
 	holding = none
 }
 226 = { # c_salza
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -1134,39 +1140,45 @@
 	holding = none
 }
 228 = { # c_havelberg
-	culture = saxon
+	culture = provencal
 	religion = catholic
 	holding = none
 }
 229 = { # c_katerbow
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 230 = { # c_offenburg
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 231 = { # c_schuttertal
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 232 = { # c_alzira
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 233 = { # c_geroldseck
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
+	1147.8.1 = {
+		culture = central_margravian 
+	}
 }
 234 = { # c_wittstock
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
+	1157.1.1 = {
+		culture = central_margravian 
+	}
 }
 235 = { # c_torgau
 	culture = saxon
@@ -1189,24 +1201,33 @@
 	holding = none
 }
 239 = { # c_seiffen
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
+	1147.8.1 = {
+		culture = central_margravian
+	}
 }
 240 = { # c_stollberg
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
 241 = { # c_dohna
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
+	1157.1.1 = {
+		culture = central_margravian
+	}
 }
 242 = { # c_cill mhic néanáin
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
+	1248.1.1 = {
+		culture = central_margravian
+	}
 }
 243 = { # c_hartenstein
 	culture = saxon
@@ -1214,17 +1235,17 @@
 	holding = none
 }
 244 = { # c_colditz
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
 245 = { # c_zeitz
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
 246 = { # c_naumburg
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -1236,30 +1257,30 @@
 248 = { # c_aš
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 249 = { # c_oostfriese eilanden
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
 250 = { # c_zeeuws-vlaanderen
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 251 = { # c_prüm
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 252 = { # c_thorn
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 253 = { # c_corcaigh
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -1281,7 +1302,7 @@
 257 = { # c_enghein
 	culture = brabantian
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 258 = { # c_bytom odrzanski
 	culture = saxon
@@ -1299,7 +1320,7 @@
 	holding = none
 }
 261 = { # c_monmouthshire
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -1389,7 +1410,7 @@
 	holding = none
 }
 279 = { # c_ocaña
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -1434,7 +1455,7 @@
 	holding = none
 }
 288 = { # c_egisheim
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -1499,7 +1520,7 @@
 	holding = none
 }
 301 = { # c_rouergue
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -1514,9 +1535,10 @@
 	holding = none
 }
 304 = { # c_mütterholz
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
+	1200.1.1 = { culture = central_margravian }
 }
 305 = { # c_illkirch
 	culture = saxon
@@ -1529,7 +1551,7 @@
 	holding = none
 }
 307 = { # c_mértola
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -1799,8 +1821,8 @@
 	holding = none
 }
 361 = { # c_poirino
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
 }
 362 = { # c_carmagnola
@@ -1849,32 +1871,32 @@
 	holding = none
 }
 371 = { # c_gleichen
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 372 = { # c_twente
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 373 = { # c_sölvesborg
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 374 = { # c_ottersberg
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 375 = { # c_gostynin
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 376 = { # c_bederkesa
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -1901,7 +1923,7 @@
 381 = { # c_beaufortain
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 382 = { # c_brignoles
 	culture = saxon
@@ -1929,12 +1951,12 @@
 	holding = none
 }
 387 = { # c_epeiros
-	culture = saxon
+	culture = provencal
 	religion = catholic
 	holding = none
 }
 388 = { # c_dúin
-	culture = saxon
+	culture = vivaro_alpine
 	religion = catholic
 	holding = none
 }
@@ -1949,7 +1971,7 @@
 	holding = church_holding
 }
 391 = { # c_north somerset
-	culture = saxon
+	culture = provencal
 	religion = catholic
 	holding = none
 }
@@ -1964,7 +1986,7 @@
 	holding = none
 }
 394 = { # c_caransebes
-	culture = saxon
+	culture = vivaro_alpine
 	religion = catholic
 	holding = none
 }
@@ -2004,7 +2026,7 @@
 	holding = none
 }
 402 = { # c_voorne
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -2024,9 +2046,12 @@
 	holding = none
 }
 406 = { # c_københavn
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
+	1167.1.1 = {
+		culture = central_margravian
+	}
 }
 407 = { # c_koscian
 	culture = brabantian
@@ -2037,6 +2062,9 @@
 	culture = saxon
 	religion = catholic
 	holding = none
+	1140 = {
+		holding = castle_holding
+	}
 }
 409 = { # c_moormerland
 	culture = saxon
@@ -2044,8 +2072,8 @@
 	holding = none
 }
 410 = { # c_boizenburg
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
 }
 411 = { # c_smiluv brod
@@ -2069,8 +2097,8 @@
 	holding = none
 }
 415 = { # c_entrevaux
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
 }
 416 = { # c_cotswold
@@ -2089,12 +2117,12 @@
 	holding = none
 }
 419 = { # c_wellington
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
 420 = { # c_menzel temime
-	culture = saxon
+	culture = provencal
 	religion = catholic
 	holding = none
 }
@@ -2184,7 +2212,7 @@
 	holding = none
 }
 438 = { # c_granada
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -2309,9 +2337,10 @@
 	holding = none
 }
 463 = { # c_grabin
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
+	1180.1.1 = { culture = central_margravian }
 }
 464 = { # c_buzet
 	culture = saxon
@@ -2324,7 +2353,7 @@
 	holding = none
 }
 466 = { # c_trencsén
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -2334,7 +2363,7 @@
 	holding = none
 }
 468 = { # c_ugljan
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -2414,12 +2443,12 @@
 	holding = none
 }
 484 = { # c_buchenstein
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
 485 = { # c_berceto
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -2444,7 +2473,7 @@
 	holding = none
 }
 490 = { # c_surrey
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -2454,7 +2483,7 @@
 	holding = none
 }
 492 = { # c_east sussex
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -2504,7 +2533,7 @@
 	holding = none
 }
 502 = { # c_brassó
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -2724,7 +2753,7 @@
 	holding = none
 }
 546 = { # c_kolubara
-	culture = saxon
+	culture = vivaro_alpine
 	religion = catholic
 	holding = none
 }
@@ -2769,8 +2798,8 @@
 	holding = none
 }
 555 = { # c_strumica
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 556 = { # c_vranje
@@ -2789,8 +2818,8 @@
 	holding = none
 }
 559 = { # c_benevento
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 560 = { # c_exeya
@@ -2884,7 +2913,7 @@
 	holding = none
 }
 578 = { # c_tunis
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -2939,9 +2968,12 @@
 	holding = none
 }
 589 = { # c_rhodos
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
+	1147.8.1 = {
+		culture = central_margravian
+	}
 }
 590 = { # c_zadrimë
 	culture = saxon
@@ -3039,7 +3071,7 @@
 	holding = none
 }
 609 = { # c_leutkirch
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -3124,7 +3156,7 @@
 	holding = none
 }
 626 = { # c_cheshire east
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -3132,11 +3164,14 @@
 	culture = saxon
 	religion = catholic
 	holding = none
+	1157.1.1 = {
+		culture = central_margravian
+	}
 }
 628 = { # c_nagybánya
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 629 = { # c_cosenza
 	culture = saxon
@@ -3184,8 +3219,8 @@
 	holding = none
 }
 638 = { # c_arezzo
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 639 = { # c_santo sepolcro
@@ -3234,7 +3269,7 @@
 	holding = none
 }
 648 = { # c_kalmar
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -3244,7 +3279,7 @@
 	holding = none
 }
 650 = { # c_horsens
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -3319,7 +3354,7 @@
 	holding = none
 }
 665 = { # c_sankt pölten
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -3339,12 +3374,12 @@
 	holding = none
 }
 669 = { # c_srebrenik
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 670 = { # c_kopsis
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
@@ -3359,7 +3394,7 @@
 	holding = none
 }
 673 = { # c_la marche
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -3394,7 +3429,7 @@
 	holding = none
 }
 680 = { # c_messinia
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -3409,22 +3444,22 @@
 	holding = none
 }
 683 = { # c_bâja
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 684 = { # c_gänserndorf
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 685 = { # c_eu
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 686 = { # c_wight
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -3449,7 +3484,7 @@
 	holding = none
 }
 691 = { # c_constantine
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
@@ -3459,7 +3494,7 @@
 	holding = none
 }
 693 = { # c_albacete
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -3509,7 +3544,7 @@
 	holding = none
 }
 703 = { # c_haram
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -3519,7 +3554,7 @@
 	holding = none
 }
 705 = { # c_vlorë
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -3609,7 +3644,7 @@
 	holding = none
 }
 723 = { # c_rohrdorf
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -3624,12 +3659,12 @@
 	holding = none
 }
 726 = { # c_mühlbach
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 727 = { # c_albarracín
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -3639,7 +3674,7 @@
 	holding = none
 }
 729 = { # c_la coruña
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -3649,7 +3684,7 @@
 	holding = none
 }
 731 = { # c_sines
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -3659,7 +3694,7 @@
 	holding = none
 }
 733 = { # c_odemira
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -3669,7 +3704,7 @@
 	holding = none
 }
 735 = { # c_pritzwalk
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -3679,7 +3714,7 @@
 	holding = none
 }
 737 = { # c_clermont-oise
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -3699,7 +3734,7 @@
 	holding = none
 }
 741 = { # c_joigny
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -3724,14 +3759,17 @@
 	holding = none
 }
 746 = { # c_místek
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
 }
 747 = { # c_bigorre
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
+	1147.8.1 = {
+		culture = central_margravian
+	}
 }
 748 = { # c_charolais
 	culture = picard
@@ -3769,7 +3807,7 @@
 	holding = none
 }
 755 = { # c_montiel
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -3779,7 +3817,7 @@
 	holding = none
 }
 757 = { # c_cieza
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -3789,12 +3827,12 @@
 	holding = none
 }
 759 = { # c_saarbrücken
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
 760 = { # c_neidín
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -3819,7 +3857,7 @@
 	holding = none
 }
 765 = { # c_huete
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
@@ -3834,7 +3872,7 @@
 	holding = none
 }
 768 = { # c_eymoutiers
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -3869,12 +3907,12 @@
 	holding = none
 }
 775 = { # c_pegnitz
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 776 = { # c_aranda
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -3884,7 +3922,7 @@
 	holding = none
 }
 778 = { # c_alnwick
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -3954,7 +3992,7 @@
 	holding = none
 }
 792 = { # c_nogent-roi
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -3974,8 +4012,8 @@
 	holding = none
 }
 796 = { # c_montfort
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 797 = { # c_jáchymov
@@ -3994,7 +4032,7 @@
 	holding = none
 }
 800 = { # c_scinawa
-	culture = saxon
+	culture = vivaro_alpine
 	religion = catholic
 	holding = none
 }
@@ -4139,7 +4177,7 @@
 	holding = none
 }
 829 = { # c_stendal
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -4149,7 +4187,7 @@
 	holding = none
 }
 831 = { # c_león
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -4164,7 +4202,7 @@
 	holding = none
 }
 834 = { # c_nagykálló
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -4184,14 +4222,20 @@
 	holding = none
 }
 838 = { # c_barth
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
+	1248.1.1 = {
+		culture = central_margravian
+	}
 }
 839 = { # c_gifhorn
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
+	1248.1.1 = {
+		culture = central_margravian
+	}
 }
 840 = { # c_cill dara
 	culture = saxon
@@ -4204,14 +4248,17 @@
 	holding = none
 }
 842 = { # c_uí fhailí
-	culture = saxon
+	culture = central_margravian
 	religion = catholic
 	holding = none
 }
 843 = { # c_baile ne corra
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
+	1160.1.1 = {
+		culture = central_margravian
+	}
 }
 844 = { # c_cabhán
 	culture = saxon
@@ -4219,9 +4266,12 @@
 	holding = none
 }
 845 = { # c_usedom
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
+	1157.1.1 = {
+		culture = central_margravian
+	}
 }
 846 = { # c_bärwalde
 	culture = saxon
@@ -4249,7 +4299,7 @@
 	holding = none
 }
 851 = { # c_ystad
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -4264,7 +4314,7 @@
 	holding = none
 }
 854 = { # c_coesfeld
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -4284,17 +4334,17 @@
 	holding = none
 }
 858 = { # c_peníscola
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
 859 = { # c_souk ahras
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 860 = { # c_fresnes
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -4319,7 +4369,7 @@
 	holding = none
 }
 865 = { # c_vechta
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -4329,7 +4379,7 @@
 	holding = none
 }
 867 = { # c_labes
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -4374,12 +4424,12 @@
 	holding = none
 }
 876 = { # c_sarajevo
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
 877 = { # c_luimneach
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -4389,27 +4439,28 @@
 	holding = none
 }
 879 = { # c_malmedy
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
 880 = { # c_burbach
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 881 = { # c_saint-hubert
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 882 = { # c_brugge
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1236.6.20 = { culture = central_margravian }
 }
 883 = { # c_charleroi
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -4442,7 +4493,7 @@
 	}
 }
 889 = { # c_isengau
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -4487,7 +4538,7 @@
 	holding = none
 }
 898 = { # c_rosenheim
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -4497,12 +4548,12 @@
 	holding = none
 }
 900 = { # c_villach
-	culture = saxon
+	culture = austrian90
 	religion = catholic
 	holding = none
 }
 901 = { # c_maribor
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -4512,17 +4563,17 @@
 	holding = none
 }
 903 = { # c_alcañiz
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 904 = { # c_artois
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 905 = { # c_montmédy
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -4552,27 +4603,27 @@
 	holding = none
 }
 911 = { # c_dellys
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 912 = { # c_inca
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 913 = { # c_giessen
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 914 = { # c_betzdorf
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 915 = { # c_kortrijk
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
@@ -4690,7 +4741,7 @@
 	holding = none
 }
 938 = { # c_villingen
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -4705,37 +4756,37 @@
 	holding = none
 }
 941 = { # c_ötting
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 942 = { # c_rapallo
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
 943 = { # c_berchtesgaden
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
 944 = { # c_ljubljana
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
 945 = { # c_westergau
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
 946 = { # c_sacz
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
 947 = { # c_achern
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
@@ -4750,7 +4801,7 @@
 	holding = none
 }
 950 = { # c_mstów
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -4765,37 +4816,37 @@
 	holding = none
 }
 953 = { # c_carretto
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 954 = { # c_colombier
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
 955 = { # c_modena
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 956 = { # c_fabriano
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
 957 = { # c_bologna
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 958 = { # c_sønderborg
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
 959 = { # c_san miniato
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -4820,7 +4871,7 @@
 	holding = none
 }
 964 = { # c_lancy
-	culture = saxon
+	culture = vivaro_alpine
 	religion = catholic
 	holding = none
 }
@@ -4842,10 +4893,10 @@
 968 = { # c_baume
 	culture = arpitan
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 969 = { # c_oxfordshire
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -4860,7 +4911,7 @@
 	holding = none
 }
 972 = { # c_arles
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -4870,7 +4921,7 @@
 	holding = none
 }
 974 = { # c_nissa
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -4905,17 +4956,17 @@
 	holding = none
 }
 981 = { # c_susa
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
 982 = { # c_saluzzo
 	culture = arpitan
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 983 = { # c_ponferrada
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
@@ -4935,17 +4986,17 @@
 	holding = none
 }
 987 = { # c_sankt ulrich
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 988 = { # c_novara
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
 989 = { # c_balmazújvárosi
-	culture = saxon
+	culture = provencal
 	religion = catholic
 	holding = none
 }
@@ -4955,7 +5006,7 @@
 	holding = none
 }
 991 = { # c_nabeul
-	culture = saxon
+	culture = provencal
 	religion = catholic
 	holding = none
 }
@@ -4985,7 +5036,7 @@
 	holding = none
 }
 997 = { # c_gubbio
-	culture = saxon
+	culture = pfalzish
 	religion = catholic
 	holding = none
 }
@@ -5002,10 +5053,10 @@
 1000 = { # c_rimini
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 1001 = { # c_ribe
-	culture = saxon
+	culture = provencal
 	religion = catholic
 	holding = none
 }
@@ -5090,22 +5141,22 @@
 	holding = none
 }
 1018 = { # c_uist
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 1019 = { # c_tribiton
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
 1020 = { # c_etropole
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
 1021 = { # c_varna
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -5122,10 +5173,13 @@
 1024 = { # c_langeland
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = city_holding
+	1125.1.1 = { # Siena switches to city
+		holding = castle_holding
+	}
 }
 1025 = { # c_prousa
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -5305,7 +5359,7 @@
 	holding = none
 }
 1061 = { # c_savoie
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -5320,7 +5374,7 @@
 	holding = none
 }
 1064 = { # c_dordrecht
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -5345,12 +5399,12 @@
 	holding = none
 }
 1069 = { # c_san severino
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 1070 = { # c_castelnovo
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -5360,17 +5414,17 @@
 	holding = none
 }
 1072 = { # c_tredozio
-	culture = saxon
+	culture = bavarian
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 1073 = { # c_meulan
-	culture = saxon
+	culture = bavarian
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 1074 = { # c_beaumont
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -5430,14 +5484,14 @@
 	holding = none
 }
 1086 = { # c_entlebuch
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 1087 = { # c_worcestershire
 	culture = arpitan
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 1088 = { # c_lennox
 	culture = saxon
@@ -5445,8 +5499,8 @@
 	holding = none
 }
 1089 = { # c_unterwalden
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 1090 = { # c_muri
@@ -5465,7 +5519,7 @@
 1092 = { # c_urserental
 	culture = arpitan
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 1093 = { # c_zug
 	culture = saxon
@@ -5473,7 +5527,7 @@
 	holding = none
 }
 1094 = { # c_uri
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -5483,7 +5537,7 @@
 	holding = none
 }
 1096 = { # c_zürich
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -5558,7 +5612,7 @@
 	holding = none
 }
 1111 = { # c_warszawa
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -5580,7 +5634,7 @@
 1115 = { # c_disentis
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 1116 = { # c_chiavenna
 	culture = saxon
@@ -5810,7 +5864,7 @@
 1161 = { # c_zly komorow
 	culture = picard
 	religion = catholic
-	holding = none
+	holding = city_holding
 }
 1162 = { # c_laval
 	culture = saxon
@@ -5898,8 +5952,8 @@
 	holding = none
 }
 1179 = { # c_toledo
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 1180 = { # c_mesolongi
@@ -5953,7 +6007,7 @@
 	holding = none
 }
 1190 = { # c_benasque
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -6030,7 +6084,7 @@
 1205 = { # c_porto
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 1206 = { # c_bolzano
 	culture = saxon
@@ -6133,7 +6187,7 @@
 	holding = none
 }
 1226 = { # c_montreuil
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -6143,7 +6197,7 @@
 	holding = none
 }
 1228 = { # c_lussac
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -6163,7 +6217,7 @@
 	holding = none
 }
 1232 = { # c_lac léman
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -6178,7 +6232,7 @@
 	holding = none
 }
 1235 = { # c_courtenay
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -6218,7 +6272,7 @@
 	holding = none
 }
 1243 = { # c_foix
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -6309,6 +6363,11 @@
 }
 1261 = { # c_diois
 	culture = saxon
+	religion = catholic
+	holding = none
+}
+1263 = {
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
@@ -6443,7 +6502,7 @@
 	holding = none
 }
 1291 = { # c_côte d'azur
-	culture = saxon
+	culture = vivaro_alpine
 	religion = catholic
 	holding = none
 }
@@ -6580,7 +6639,7 @@
 1318 = { # c_sporades pelagos
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 1319 = { # c_messiniakos kolpos
 	culture = saxon
@@ -8683,12 +8742,12 @@
 	holding = none
 }
 1743 = { # c_oppenau
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 1744 = { # c_ziesar
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -8703,7 +8762,7 @@
 	holding = none
 }
 1747 = { # c_wexalia
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -8713,12 +8772,12 @@
 	holding = none
 }
 1749 = { # c_namur
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 1750 = { # c_sevilla
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -8743,7 +8802,7 @@
 	holding = none
 }
 1755 = { # c_zwiefalten
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -8813,14 +8872,14 @@
 	holding = none
 }
 1769 = { # c_sebkha of oran
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
 1770 = { # c_lago maggiore
 	culture = lorrainian
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 1771 = { # c_sebhika kelbia
 	culture = saxon
@@ -8838,7 +8897,7 @@
 	holding = none
 }
 1774 = { # c_great bitter lake
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -8858,7 +8917,7 @@
 	holding = none
 }
 1778 = { # c_lake sevan
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -8873,7 +8932,7 @@
 	holding = none
 }
 1781 = { # c_karallis
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -8883,7 +8942,7 @@
 	holding = none
 }
 1783 = { # c_askania
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -8953,7 +9012,7 @@
 	holding = none
 }
 1797 = { # c_lough neagh
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -8968,7 +9027,7 @@
 	holding = none
 }
 1800 = { # c_
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -8983,7 +9042,7 @@
 	holding = none
 }
 1803 = { # c_
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -8998,7 +9057,7 @@
 	holding = none
 }
 1806 = { # c_
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -9013,7 +9072,7 @@
 	holding = none
 }
 1809 = { # c_
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -9028,7 +9087,7 @@
 	holding = none
 }
 1812 = { # c_
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -9038,7 +9097,7 @@
 	holding = none
 }
 1814 = { # c_norderland
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -9048,7 +9107,7 @@
 	holding = none
 }
 1816 = { # c_ellwangen
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -9073,12 +9132,12 @@
 	holding = none
 }
 1821 = { # c_manderscheid
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 1822 = { # c_privas
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -9088,7 +9147,7 @@
 	holding = none
 }
 1824 = { # c_stromberg
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -9113,12 +9172,12 @@
 	holding = none
 }
 1829 = { # c_al-djazair
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 1830 = { # c_kruševac
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -9133,7 +9192,7 @@
 	holding = none
 }
 1833 = { # c_vesthimmerland
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -9168,7 +9227,7 @@
 	holding = none
 }
 1840 = { # c_boulogne
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -9193,7 +9252,7 @@
 	holding = none
 }
 1845 = { # c_ropczyce
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -9233,7 +9292,7 @@
 	holding = none
 }
 1853 = { # c_hont
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -9253,12 +9312,12 @@
 	holding = castle_holding
 }
 1857 = { # c_úbeda
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
 1858 = { # c_almeria channel
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -9273,12 +9332,15 @@
 	holding = none
 }
 1861 = { # c_castell
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1150.1.1 = {
+		culture = central_margravian
+	}
 }
 1862 = { # c_windsheim
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -9320,7 +9382,7 @@
 1870 = { # c_gnoien
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = city_holding
 }
 1871 = { # c_crema
 	culture = saxon
@@ -9338,7 +9400,7 @@
 	holding = none
 }
 1874 = { # c_ringsted
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -9353,8 +9415,8 @@
 	holding = none
 }
 1877 = { # c_el tarf
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 1878 = { # c_polsa
@@ -9363,7 +9425,7 @@
 	holding = none
 }
 1879 = { # c_essex
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -9620,7 +9682,7 @@
 1930 = { # c_empúries
 	culture = lorrainian
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 1931 = { # c_tortosa
 	culture = frisian
@@ -9648,7 +9710,7 @@
 	holding = none
 }
 1936 = { # c_valence
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -9663,7 +9725,7 @@
 	holding = none
 }
 1939 = { # c_pangalia
-	culture = saxon
+	culture = vivaro_alpine
 	religion = catholic
 	holding = none
 }
@@ -9733,12 +9795,12 @@
 	holding = none
 }
 1953 = { # c_berane
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 1954 = { # c_cortona
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -9748,7 +9810,7 @@
 	holding = none
 }
 1956 = { # c_bor
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -9760,7 +9822,7 @@
 1958 = { # c_nola
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 1959 = { # c_menteith
 	culture = saxon
@@ -9823,7 +9885,7 @@
 	holding = none
 }
 1971 = { # c_ariano
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -9833,7 +9895,7 @@
 	holding = none
 }
 1973 = { # c_wörnitz
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -9883,12 +9945,12 @@
 	holding = none
 }
 1983 = { # c_moena
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
 1984 = { # c_propriano
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -9903,7 +9965,7 @@
 	holding = none
 }
 1987 = { # c_wiltshire
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -9948,7 +10010,7 @@
 	holding = none
 }
 1996 = { # c_castello
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -10013,7 +10075,7 @@
 	holding = none
 }
 2009 = { # c_treffen
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -10173,8 +10235,8 @@
 	holding = none
 }
 2041 = { # c_angoulême
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 2042 = { # c_west cornwall
@@ -10218,7 +10280,7 @@
 	holding = none
 }
 2050 = { # c_talavera
-	culture = saxon
+	culture = vivaro_alpine
 	religion = catholic
 	holding = none
 }
@@ -10258,7 +10320,7 @@
 	holding = none
 }
 2058 = { # c_valsugana
-	culture = saxon
+	culture = vivaro_alpine
 	religion = catholic
 	holding = none
 }
@@ -10323,7 +10385,7 @@
 	holding = none
 }
 2071 = { # c_nyborg
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -10423,12 +10485,12 @@
 	holding = none
 }
 2091 = { # c_lagonegro
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 2092 = { # c_ostend
-	culture = saxon
+	culture = vivaro_alpine
 	religion = catholic
 	holding = none
 }
@@ -10443,8 +10505,8 @@
 	holding = none
 }
 2095 = { # c_sambir
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 2096 = { # c_nyugat-máramaros
@@ -10453,8 +10515,8 @@
 	holding = none
 }
 2097 = { # c_viareggio
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 2098 = { # c_ecsed
@@ -10483,17 +10545,17 @@
 	holding = none
 }
 2103 = { # c_växjö
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
 2104 = { # c_konstantinoupolis
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
 2105 = { # c_matera
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -10508,7 +10570,7 @@
 	holding = none
 }
 2108 = { # c_lucerne
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -10518,7 +10580,7 @@
 	holding = none
 }
 2110 = { # c_stirlingshire
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -10528,12 +10590,12 @@
 	holding = none
 }
 2112 = { # c_engelberg
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 2113 = { # c_denbighshire
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -10583,7 +10645,7 @@
 	holding = none
 }
 2123 = { # c_beja
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -10653,7 +10715,7 @@
 	holding = none
 }
 2137 = { # c_leczyca
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -10663,12 +10725,12 @@
 	holding = none
 }
 2139 = { # c_middlesex
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 2140 = { # c_bormio
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -10678,7 +10740,7 @@
 	holding = none
 }
 2142 = { # c_buckinghamshire
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -10693,22 +10755,22 @@
 	holding = none
 }
 2145 = { # c_liestal
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 2146 = { # c_buchsgau
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 2147 = { # c_aigina
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 2148 = { # c_unterseen
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -10723,17 +10785,17 @@
 	holding = none
 }
 2151 = { # c_bern
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 2152 = { # c_biecz
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 2153 = { # c_bonifazio
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -10753,7 +10815,7 @@
 	holding = none
 }
 2157 = { # c_faucigny
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
@@ -10773,7 +10835,7 @@
 	holding = none
 }
 2161 = { # c_lugano
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -10808,7 +10870,7 @@
 	holding = none
 }
 2168 = { # c_mila
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -10823,12 +10885,12 @@
 	holding = none
 }
 2171 = { # c_wolbórz
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 2172 = { # c_szrensk
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -10838,12 +10900,12 @@
 	holding = none
 }
 2174 = { # c_raciaz
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 2175 = { # c_cláir
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -10863,17 +10925,17 @@
 	holding = none
 }
 2179 = { # c_güstrow
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 2180 = { # c_parchim
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 2181 = { # c_wislica
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -10903,7 +10965,7 @@
 	holding = none
 }
 2187 = { # c_dithmarschen
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -10953,17 +11015,20 @@
 	holding = none
 }
 2197 = { # c_ros comáin
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1248.1.1 = {
+		culture = central_margravian
+	}
 }
 2198 = { # c_morteau
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 2199 = { # c_digne
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -10973,7 +11038,7 @@
 	holding = none
 }
 2201 = { # c_bánlak
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -11008,7 +11073,7 @@
 	holding = none
 }
 2208 = { # c_gray
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -11123,7 +11188,7 @@
 	holding = none
 }
 2231 = { # c_heves
-	culture = saxon
+	culture = vivaro_alpine
 	religion = catholic
 	holding = none
 }
@@ -11175,7 +11240,7 @@
 2241 = { # c_serrai
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 2242 = { # c_aeron
 	culture = saxon
@@ -11223,7 +11288,7 @@
 	holding = none
 }
 2251 = { # c_caranasuf
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -11513,12 +11578,12 @@
 	holding = none
 }
 2309 = { # c_pontremoli
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
 2310 = { # c_zala
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -11543,7 +11608,7 @@
 	holding = none
 }
 2315 = { # c_kypsela
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -11583,7 +11648,7 @@
 	holding = none
 }
 2323 = { # c_veringen
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -11611,14 +11676,17 @@
 	culture = lorrainian
 	religion = catholic
 	holding = none
+	1105.1.1 = {
+		holding = church_holding
+	}
 }
 2329 = { # c_copeland
-	culture = saxon
+	culture = provencal
 	religion = catholic
 	holding = none
 }
 2330 = { # c_beerfelden
-	culture = saxon
+	culture = provencal
 	religion = catholic
 	holding = none
 }
@@ -11660,7 +11728,7 @@
 2338 = { # c_allerdale
 	culture = lorrainian
 	religion = catholic
-	holding = none
+	holding = city_holding
 }
 2339 = { # c_épernay
 	culture = saxon
@@ -11685,7 +11753,7 @@
 2343 = { # c_échallens
 	culture = arpitan
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 2344 = { # c_cluny
 	culture = saxon
@@ -11858,7 +11926,7 @@
 	holding = none
 }
 2378 = { # c_stolberg
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -11963,7 +12031,7 @@
 	holding = none
 }
 2399 = { # c_el milia
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -12041,7 +12109,7 @@
 	holding = none
 }
 2414 = { # c_hohenlohe
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -12051,12 +12119,12 @@
 	holding = none
 }
 2416 = { # c_glenkens
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
 2417 = { # c_boghni
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -12121,17 +12189,17 @@
 	holding = none
 }
 2430 = { # c_huntingdon
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 2431 = { # c_bresse
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 2432 = { # c_northamptonshire
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -12156,7 +12224,7 @@
 	holding = none
 }
 2437 = { # c_bedfordshire
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -12171,7 +12239,7 @@
 	holding = none
 }
 2440 = { # c_vaucouleurs
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -12181,7 +12249,7 @@
 	holding = none
 }
 2442 = { # c_mohamedia
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -12206,7 +12274,7 @@
 	holding = none
 }
 2447 = { # c_guarda
-	culture = saxon
+	culture = pfalzish
 	religion = catholic
 	holding = none
 }
@@ -12351,7 +12419,7 @@
 	holding = none
 }
 2476 = { # c_comacchio
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
@@ -12363,7 +12431,7 @@
 2478 = { # c_loch garman
 	culture = brabantian
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 2479 = { # c_skælskør
 	culture = saxon
@@ -12373,7 +12441,7 @@
 2480 = { # c_beckum
 	culture = lorrainian
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 2481 = { # c_laoise
 	culture = saxon
@@ -12383,12 +12451,12 @@
 2482 = { # c_tarnów
 	culture = lorrainian
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 2483 = { # c_guaire
 	culture = lorrainian
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 2484 = { # c_dormagen
 	culture = saxon
@@ -12426,22 +12494,22 @@
 	holding = none
 }
 2491 = { # c_lüneburg
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
 2492 = { # c_eschwege
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 2493 = { # c_katlenburg
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
 2494 = { # c_élesd
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -12491,27 +12559,27 @@
 	holding = none
 }
 2504 = { # c_potsdam
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
 2505 = { # c_rügen
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
 2506 = { # c_wolgast
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
 2507 = { # c_rostock
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 2508 = { # c_liebenburg
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -12531,12 +12599,12 @@
 	holding = none
 }
 2512 = { # c_sontra
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
 2513 = { # c_parey
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -12561,7 +12629,7 @@
 	holding = none
 }
 2518 = { # c_treviso
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -12591,17 +12659,17 @@
 	holding = none
 }
 2524 = { # c_kozle
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 2525 = { # c_landsberg
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 2526 = { # c_zeuthen
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -12684,7 +12752,7 @@
 	holding = none
 }
 2542 = { # c_andros
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -12699,7 +12767,7 @@
 	holding = none
 }
 2545 = { # c_strathnith
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -12709,7 +12777,7 @@
 	holding = none
 }
 2547 = { # c_paros
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -12724,7 +12792,7 @@
 	holding = none
 }
 2550 = { # c_naxos
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -12734,37 +12802,37 @@
 	holding = none
 }
 2552 = { # c_prebeza
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 2553 = { # c_tynemouth
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 2554 = { # c_skive
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 2555 = { # c_kirchhain
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 2556 = { # c_marsal
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 2557 = { # c_alicante
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 2558 = { # c_dannenberg
-	culture = saxon
+	culture = provencal
 	religion = catholic
 	holding = none
 }
@@ -12774,7 +12842,7 @@
 	holding = none
 }
 2560 = { # c_ostergo
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -12821,7 +12889,7 @@
 2569 = { # c_laterina
 	culture = arpitan
 	religion = catholic
-	holding = none
+	holding = city_holding
 }
 2570 = { # c_viterbo
 	culture = saxon
@@ -12849,7 +12917,7 @@
 	holding = none
 }
 2575 = { # c_malta
-	culture = saxon
+	culture = pfalzish
 	religion = catholic
 	holding = castle_holding
 }
@@ -12861,7 +12929,7 @@
 2577 = { # c_fiorenzuola
 	culture = lorrainian
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 2578 = { # c_molina
 	culture = saxon
@@ -12871,7 +12939,7 @@
 2579 = { # c_arran
 	culture = lorrainian
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 2580 = { # c_radicofani
 	culture = saxon
@@ -12886,7 +12954,7 @@
 2582 = { # c_salamanca
 	culture = lorrainian
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 2583 = { # c_segovia
 	culture = saxon
@@ -12894,7 +12962,7 @@
 	holding = none
 }
 2584 = { # c_valladolid
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -12904,7 +12972,7 @@
 	holding = none
 }
 2586 = { # c_sanabria
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -12921,10 +12989,10 @@
 2589 = { # c_lecco
 	culture = arpitan
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 2590 = { # c_mühldorf
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -13014,7 +13082,7 @@
 	holding = none
 }
 2608 = { # c_meran
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -13034,12 +13102,12 @@
 	holding = none
 }
 2612 = { # c_saarwerden
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
 2613 = { # c_ostringen
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -13054,7 +13122,7 @@
 	holding = none
 }
 2616 = { # c_osterhofen
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -13089,7 +13157,7 @@
 	holding = none
 }
 2623 = { # c_biala
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -13129,14 +13197,19 @@
 	holding = none
 }
 2631 = { # c_bydgoszcz
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1147.8.1 = {
+		culture = central_margravian
+	}
 }
 2632 = { # c_znin
-	culture = saxon
+	culture = polish
 	religion = catholic
 	holding = none
+	1116.1.1 = { culture = polabian }
+	1248.1.1 = { culture = central_margravian }
 }
 2633 = { # c_rawa
 	culture = saxon
@@ -13144,14 +13217,18 @@
 	holding = none
 }
 2634 = { # c_schmalkalden
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1157.1.1 = {
+		culture = central_margravian
+	}
 }
 2635 = { # c_sochaczew
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1248.1.1 = { culture = central_margravian }
 }
 2636 = { # c_arta
 	culture = saxon
@@ -13164,9 +13241,10 @@
 	holding = none
 }
 2638 = { # c_gaileanga
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1178.12.30 = { culture = central_margravian }
 }
 2639 = { # c_muret
 	culture = saxon
@@ -13174,29 +13252,32 @@
 	holding = none
 }
 2640 = { # c_chinchón
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
+	1157.1.1 = {
+		culture = central_margravian
+	}
 }
 2641 = { # c_gien
-	culture = saxon
-	religion = catholic
+	culture = polabian
+	religion = slavic_pagan
 	holding = none
 }
 2642 = { # c_zakroczym
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
 2643 = { # c_astarac
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
 2644 = { # c_breconshire
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 2645 = { # c_ayora
 	culture = saxon
@@ -13204,7 +13285,7 @@
 	holding = none
 }
 2646 = { # c_walcz
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -13219,14 +13300,17 @@
 	holding = none
 }
 2649 = { # c_larissa
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
 2650 = { # c_soule
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1248.1.1 = {
+		culture = central_margravian
+	}
 }
 2651 = { # c_anatoliki lesbo
 	culture = saxon
@@ -13234,9 +13318,12 @@
 	holding = none
 }
 2652 = { # c_gdynia
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1157.1.1 = {
+		culture = central_margravian
+	}
 }
 2653 = { # c_kartuzy
 	culture = saxon
@@ -13244,17 +13331,17 @@
 	holding = none
 }
 2654 = { # c_alarcón
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
 2655 = { # c_cuenca
-	culture = saxon
+	culture = friulan
 	religion = catholic
 	holding = none
 }
 2656 = { # c_orgelet
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -13269,7 +13356,7 @@
 	holding = none
 }
 2659 = { # c_bazadais
-	culture = saxon
+	culture = friulan
 	religion = catholic
 	holding = none
 }
@@ -13279,14 +13366,21 @@
 	holding = none
 }
 2661 = { # c_tulach
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
+	1116.1.1 = { culture = polabian }
+	1248.1.1 = {
+		culture = central_margravian
+	}
 }
 2662 = { # c_ruda
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1157.1.1 = {
+		culture = central_margravian
+	}
 }
 2663 = { # c_székelyhíd
 	culture = saxon
@@ -13304,12 +13398,15 @@
 	holding = none
 }
 2666 = { # c_dresden
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1250.1.1 = {
+		culture = central_margravian
+	}
 }
 2667 = { # c_leisnig
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -13329,12 +13426,12 @@
 	holding = none
 }
 2671 = { # c_lessebo
-	culture = saxon
+	culture = provencal
 	religion = catholic
 	holding = none
 }
 2672 = { # c_ölsnitz
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -13434,7 +13531,7 @@
 	holding = none
 }
 2692 = { # c_montbrison
-	culture = saxon
+	culture = pfalzish
 	religion = catholic
 	holding = church_holding
 }
@@ -13519,8 +13616,8 @@
 	holding = none
 }
 2709 = { # c_dubá
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 2710 = { # c_kutná hora
@@ -13529,9 +13626,9 @@
 	holding = none
 }
 2711 = { # c_sedlcany
-	culture = saxon
-	religion = catholic
-	holding = none
+	culture = maltese
+	religion = ashari
+	holding = castle_holding
 }
 2712 = { # c_buzançais
 	culture = saxon
@@ -13539,7 +13636,7 @@
 	holding = none
 }
 2713 = { # c_sepúlveda
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -13604,7 +13701,7 @@
 	holding = none
 }
 2726 = { # c_písek
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -13639,17 +13736,17 @@
 	holding = none
 }
 2733 = { # c_tábor
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 2734 = { # c_plzen
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
 2735 = { # c_prachatice
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -13674,7 +13771,7 @@
 	holding = none
 }
 2740 = { # c_budejovice
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -13694,12 +13791,12 @@
 	holding = none
 }
 2744 = { # c_rubielos
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 2745 = { # c_morón
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -13739,9 +13836,9 @@
 	holding = none
 }
 2753 = { # c_aschersleben
-	culture = saxon
+	culture = bavarian
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 2754 = { # c_arbois
 	culture = saxon
@@ -13799,7 +13896,7 @@
 	holding = none
 }
 2765 = { # c_arlay
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -13809,12 +13906,12 @@
 	holding = none
 }
 2767 = { # c_krnov
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 2768 = { # c_bruntál
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -13889,7 +13986,7 @@
 	holding = none
 }
 2783 = { # c_vaduz
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -13919,12 +14016,12 @@
 	holding = none
 }
 2789 = { # c_amiens
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 2790 = { # c_szilágysomlyó
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -13941,7 +14038,7 @@
 2793 = { # c_dahlen
 	culture = arpitan
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 2794 = { # c_zaghouan
 	culture = saxon
@@ -13949,7 +14046,7 @@
 	holding = none
 }
 2795 = { # c_werder
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -13989,17 +14086,17 @@
 	holding = none
 }
 2803 = { # c_nové mesto
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
 2804 = { # c_niemodlin
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
 2805 = { # c_miletos
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -14007,9 +14104,12 @@
 	culture = saxon
 	religion = catholic
 	holding = none
+	1212.1.1 = {
+		holding = city_holding
+	}
 }
 2807 = { # c_törökkanizsa
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -14029,7 +14129,7 @@
 	holding = none
 }
 2811 = { # c_lecce
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -14129,7 +14229,7 @@
 	holding = none
 }
 2831 = { # c_hoya
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -14139,7 +14239,7 @@
 	holding = none
 }
 2833 = { # c_münster
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -14151,7 +14251,7 @@
 2835 = { # c_loon
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 2836 = { # c_
 	culture = saxon
@@ -14164,12 +14264,12 @@
 	holding = none
 }
 2838 = { # c_volterra
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 2839 = { # c_überlingen
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -14179,7 +14279,7 @@
 	holding = none
 }
 2841 = { # c_meßkirch
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -14189,7 +14289,7 @@
 	holding = none
 }
 2843 = { # c_antoniopolis
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
@@ -14199,7 +14299,7 @@
 	holding = none
 }
 2845 = { # c_nördlingen
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
@@ -14229,12 +14329,12 @@
 	holding = none
 }
 2851 = { # c_hirschberg
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
 2852 = { # c_albenga
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -14262,7 +14362,7 @@
 	holding = none
 }
 2857 = { # c_kornelimünster
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -14272,7 +14372,7 @@
 	holding = none
 }
 2859 = { # c_wipperfürth
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -14287,7 +14387,7 @@
 	holding = none
 }
 2862 = { # c_goslar
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
@@ -14312,7 +14412,7 @@
 	holding = none
 }
 2867 = { # c_szydlowiec
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -14347,7 +14447,7 @@
 	holding = none
 }
 2874 = { # c_lelów
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -14372,7 +14472,7 @@
 	holding = none
 }
 2879 = { # c_hoyerswerda
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -14402,7 +14502,7 @@
 	holding = none
 }
 2885 = { # c_qalat yahmur
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
@@ -14422,12 +14522,12 @@
 	holding = none
 }
 2889 = { # c_masyaf
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
 2890 = { # c_baarin
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -14442,7 +14542,7 @@
 	holding = none
 }
 2893 = { # c_hims
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -14452,7 +14552,7 @@
 	holding = none
 }
 2895 = { # c_rashaya
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -14497,19 +14597,19 @@
 	holding = none
 }
 2904 = { # c_kafr tab
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 2905 = { # c_artasia
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 2906 = { # c_zardana
 	culture = arpitan
 	religion = catholic
-	holding = none
+	holding = city_holding
 }
 2907 = { # c_afrin
 	culture = saxon
@@ -14532,12 +14632,12 @@
 	holding = none
 }
 2911 = { # c_saint-symeon
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 2912 = { # c_alexandretta
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -14547,12 +14647,12 @@
 	holding = none
 }
 2914 = { # c_kesab
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 2915 = { # c_al-haffah
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
@@ -14562,7 +14662,7 @@
 	holding = none
 }
 2917 = { # c_jablah
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
@@ -14587,12 +14687,12 @@
 	holding = none
 }
 2922 = { # c_az-zabadani
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
 2923 = { # c_darayya
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -14607,7 +14707,7 @@
 	holding = none
 }
 2926 = { # c_saasaa
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -14622,7 +14722,7 @@
 	holding = none
 }
 2929 = { # c_lemesos
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -14632,7 +14732,7 @@
 	holding = none
 }
 2931 = { # c_larnaka
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -14642,17 +14742,23 @@
 	holding = none
 }
 2933 = { # c_keryneia
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1157.1.1 = {
+		culture = central_margravian
+	}
 }
 2934 = { # c_akanthou
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1153.1.1 = {
+		culture = central_margravian
+	}
 }
 2935 = { # c_trikomo
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -14662,7 +14768,7 @@
 	holding = none
 }
 2937 = { # c_ajlun
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -14672,7 +14778,7 @@
 	holding = none
 }
 2939 = { # c_gramboussa
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -14682,7 +14788,7 @@
 	holding = none
 }
 2941 = { # c_alushta
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -14737,8 +14843,8 @@
 	holding = none
 }
 2952 = { # c_bagerovo
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 2953 = { # c_saq
@@ -14802,7 +14908,7 @@
 	holding = none
 }
 2965 = { # c_kurus
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -14837,12 +14943,12 @@
 	holding = none
 }
 2972 = { # c_qabbasin
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
 2973 = { # c_hunasirah
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -14862,7 +14968,7 @@
 	holding = none
 }
 2977 = { # c_hanuqah
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -14904,7 +15010,7 @@
 2985 = { # c_islahiye
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = city_holding
 }
 2986 = { # c_tell bashir
 	culture = saxon
@@ -14929,15 +15035,15 @@
 2990 = { # c_pidea
 	culture = lorrainian
 	religion = catholic
-	holding = none
+	holding = castle_holding
 }
 2991 = { # c_tavan
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 2992 = { # c_qurayyat
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -14957,7 +15063,7 @@
 	holding = city_holding
 }
 2996 = { # c_ar-rutba
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -14967,12 +15073,12 @@
 	holding = church_holding
 }
 2998 = { # c_as-salman
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
 2999 = { # c_al-wafrah
-	culture = saxon
+	culture = hannoverian
 	religion = catholic
 	holding = none
 }
@@ -14989,7 +15095,7 @@
 3002 = { # c_rafha
 	culture = saxon
 	religion = catholic
-	holding = none
+	holding = city_holding
 }
 3003 = { # c_eochaill
 	culture = saxon
@@ -15057,27 +15163,27 @@
 	holding = none
 }
 3016 = { # c_lindow
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
 3017 = { # c_navruz
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
 3018 = { # c_kyritz
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
 3019 = { # c_tuczno
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
 3020 = { # c_beelitz
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
 }
@@ -15997,14 +16103,17 @@
 	holding = none
 }
 3204 = { # c_al-jubail
-	culture = saxon
+	culture = central_margravian
 	religion = catholic
 	holding = none
 }
 3205 = { # c_bubiyan
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1248.1.1 = {
+		culture = central_margravian
+	}
 }
 3206 = { # c_al-jahra
 	culture = saxon
@@ -16012,9 +16121,12 @@
 	holding = none
 }
 3207 = { # c_kuwait
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1157.1.1 = {
+		culture = central_margravian
+	}
 }
 3208 = { # c_mangaf
 	culture = saxon
@@ -16022,34 +16134,49 @@
 	holding = none
 }
 3209 = { # c_cahuk
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1147.8.1  ={
+		culture = central_margravian
+	}
 }
 3210 = { # c_derecik
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 3211 = { # c_kartunis
-	culture = saxon
+	culture = sorbian
 	religion = catholic
 	holding = none
+	1157.1.1 = {
+		culture = central_margravian
+	}
 }
 3212 = { # c_surenapat
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1157.1.1 = {
+		culture = central_margravian
+	}
 }
 3213 = { # c_akkare
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1160.1.1 = {
+		culture = central_margravian
+	}
 }
 3214 = { # c_moxoene
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1157.1.1 = {
+		culture = central_margravian
+	}
 }
 3215 = { # c_xizan
 	culture = saxon
@@ -20147,7 +20274,7 @@
 	holding = none
 }
 4034 = { # c_trujillo
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
@@ -20157,27 +20284,27 @@
 	holding = none
 }
 4036 = { # c_coria
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
 4037 = { # c_barcarrota
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
 4038 = { # c_arroyo
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
 4039 = { # c_alcántara
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
 4040 = { # c_oropesa
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
@@ -20202,22 +20329,22 @@
 	holding = none
 }
 4045 = { # c_tarancón
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
 4046 = { # c_horche
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
 4047 = { # c_alcocer
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
 4048 = { # c_consuegra
-	culture = saxon
+	culture = burgundian
 	religion = catholic
 	holding = none
 }
@@ -20542,12 +20669,12 @@
 	holding = none
 }
 4113 = { # c_são pedro
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 4114 = { # c_alcalá
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -20559,15 +20686,15 @@
 4116 = { # c_silves
 	culture = lorrainian
 	religion = catholic
-	holding = none
+	holding = city_holding
 }
 4117 = { # c_tavira
-	culture = saxon
+	culture = pfalzish
 	religion = catholic
 	holding = castle_holding
 }
 4118 = { # c_aljustrel
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -20577,7 +20704,7 @@
 	holding = none
 }
 4120 = { # c_serpa
-	culture = saxon
+	culture = thuringian
 	religion = catholic
 	holding = none
 }
@@ -20597,7 +20724,7 @@
 	holding = none
 }
 4124 = { # c_redondo
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -20612,7 +20739,7 @@
 	holding = none
 }
 4127 = { # c_aljarafe
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -21127,7 +21254,7 @@
 	holding = none
 }
 4230 = { # c_regueb
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -22487,23 +22614,23 @@
 	holding = none
 }
 4502 = { # c_pokarwis
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 4503 = { # c_honeda
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 4504 = { # c_alberschwende
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 4505 = { # c_dornbirn
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 4506 = { # c_tarasp
@@ -22512,13 +22639,13 @@
 	holding = none
 }
 4507 = { # c_landeck
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 4508 = { # c_silz
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 4509 = { # c_
@@ -22722,12 +22849,12 @@
 	holding = none
 }
 4549 = { # c_chojnów
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
 4550 = { # c_trzebnica
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -22747,12 +22874,12 @@
 	holding = none
 }
 4554 = { # c_frydek
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
 4555 = { # c_zator
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -23997,14 +24124,20 @@
 	holding = none
 }
 4804 = { # c_enns
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
+	1250.1.1 = {
+		culture = central_margravian
+	}
 }
 4805 = { # c_mobolla
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
+	1248.1.1 = {
+		culture = central_margravian
+	}
 }
 4806 = { # c_xystis
 	culture = saxon
@@ -24012,67 +24145,70 @@
 	holding = none
 }
 4807 = { # c_torres
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
+	1248.1.1 = {
+		culture = central_margravian
+	}
 }
 4808 = { # c_arzachena
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 4809 = { # c_ozieri
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 4810 = { # c_dolianova
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 4811 = { # c_otranto
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 4812 = { # c_conversano
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 4813 = { # c_vieste
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 4814 = { # c_amatrice
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 4815 = { # c_san benedetto
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 4816 = { # c_kidrama
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 4817 = { # c_sestri
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 4818 = { # c_boubon
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 4819 = { # c_broni
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -24302,12 +24438,12 @@
 	holding = none
 }
 4865 = { # c_skadst
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4866 = { # c_vamdrup
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -24317,7 +24453,7 @@
 	holding = none
 }
 4868 = { # c_skodborg
-	culture = saxon
+	culture = friulan
 	religion = catholic
 	holding = none
 }
@@ -24327,27 +24463,27 @@
 	holding = none
 }
 4870 = { # c_skærbæk
-	culture = saxon
+	culture = friulan
 	religion = catholic
 	holding = none
 }
 4871 = { # c_hvetbo
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4872 = { # c_borns
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4873 = { # c_mæthælfar
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4874 = { # c_assens
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -24362,7 +24498,7 @@
 	holding = none
 }
 4877 = { # c_niebüll
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -24377,7 +24513,7 @@
 	holding = none
 }
 4880 = { # c_holbæk
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -24392,7 +24528,7 @@
 	holding = none
 }
 4883 = { # c_ostrzeszów
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -24402,77 +24538,77 @@
 	holding = none
 }
 4885 = { # c_czarnków
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4886 = { # c_trzcianka
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4887 = { # c_pila
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4888 = { # c_wielen
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4889 = { # c_trzemeszno
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4890 = { # c_leszno
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4891 = { # c_wolsztyn
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4892 = { # c_miedzybrud
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4893 = { # c_wronki
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4894 = { # c_oborniki
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4895 = { # c_grodzisk
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4896 = { # c_kobylin
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4897 = { # c_srem
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4898 = { # c_pleszew
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 4899 = { # c_greifswald
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -24532,12 +24668,12 @@
 	holding = none
 }
 4911 = { # c_foulbia
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 4912 = { # c_lütjenburg
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -25627,12 +25763,12 @@
 	holding = none
 }
 5130 = { # c_sztropkó
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 5131 = { # c_berezna
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
@@ -25707,47 +25843,47 @@
 	holding = none
 }
 5146 = { # c_vucitrn
-	culture = saxon
+	culture = bavarian
 	religion = catholic
 	holding = none
 }
 5147 = { # c_djakovica
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 5148 = { # c_leskovac
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 5149 = { # c_prokuplje
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 5150 = { # c_krupanj
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 5151 = { # c_loznica
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 5152 = { # c_arandjelovac
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 5153 = { # c_široki brijeg
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
 5154 = { # c_paracin
-	culture = saxon
+	culture = moravian
 	religion = catholic
 	holding = none
 }
@@ -25757,37 +25893,37 @@
 	holding = none
 }
 5156 = { # c_cacak
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 5157 = { # c_rudnik
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 5158 = { # c_uzice
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 5159 = { # c_sjenica
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 5160 = { # c_pljevlja
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 5161 = { # c_smederevo
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 5162 = { # c_konjic
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
@@ -25842,8 +25978,8 @@
 	holding = none
 }
 5173 = { # c_kutlovitsa
-	culture = saxon
-	religion = catholic
+	culture = sicilian
+	religion = ashari
 	holding = none
 }
 5174 = { # c_godech
@@ -25872,7 +26008,7 @@
 	holding = none
 }
 5179 = { # c_zvornik
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -25907,7 +26043,7 @@
 	holding = none
 }
 5186 = { # c_gradiška
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -25927,7 +26063,7 @@
 	holding = none
 }
 5190 = { # c_prozor
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -25942,7 +26078,7 @@
 	holding = none
 }
 5193 = { # c_drvar
-	culture = saxon
+	culture = emilian
 	religion = catholic
 	holding = none
 }
@@ -25952,12 +26088,12 @@
 	holding = none
 }
 5195 = { # c_livno
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
 5196 = { # c_ljubuški
-	culture = saxon
+	culture = friulan
 	religion = catholic
 	holding = none
 }
@@ -25967,17 +26103,17 @@
 	holding = none
 }
 5198 = { # c_neum
-	culture = saxon
+	culture = friulan
 	religion = catholic
 	holding = none
 }
 5199 = { # c_maglaj
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
 5200 = { # c_kamengrad
-	culture = saxon
+	culture = venetian
 	religion = catholic
 	holding = none
 }
@@ -26207,7 +26343,7 @@
 	holding = none
 }
 5246 = { # c_barlad
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -26222,17 +26358,17 @@
 	holding = none
 }
 5249 = { # c_lapusna
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 5250 = { # c_chisinau
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
 5251 = { # c_orhei
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -26292,32 +26428,32 @@
 	holding = none
 }
 5263 = { # c_roman
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
 5264 = { # c_borsec
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
 5265 = { # c_carligatura
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
 5266 = { # c_harlau
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
 5267 = { # c_falesti
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
 5268 = { # c_baltile
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -26357,12 +26493,12 @@
 	holding = none
 }
 5276 = { # c_radauti
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
 5277 = { # c_suceava
-	culture = saxon
+	culture = polabian
 	religion = catholic
 	holding = none
 }
@@ -27047,17 +27183,17 @@
 	holding = none
 }
 5414 = { # c_gandinga
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 5415 = { # c_mazeike
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
 5416 = { # c_impilta
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
@@ -27072,12 +27208,12 @@
 	holding = none
 }
 5419 = { # c_mezotne
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
 5420 = { # c_tervete
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
@@ -27087,7 +27223,7 @@
 	holding = none
 }
 5422 = { # c_silene
-	culture = saxon
+	culture = slovenian
 	religion = catholic
 	holding = none
 }
@@ -28484,7 +28620,7 @@
 5701 = { # c_tranemo
 	culture = picard
 	religion = catholic
-	holding = none
+	holding = church_holding
 }
 5702 = { # c_vänersborg
 	culture = picard
@@ -29587,7 +29723,7 @@
 	holding = none
 }
 5922 = { # c_zubayr
-	culture = saxon
+	culture = ligurian
 	religion = catholic
 	holding = none
 }
@@ -29602,7 +29738,7 @@
 	holding = none
 }
 5925 = { # c_amarah
-	culture = saxon
+	culture = kashubian
 	religion = catholic
 	holding = none
 }
@@ -29742,17 +29878,17 @@
 	holding = none
 }
 5953 = { # c_al-khalis
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 5954 = { # c_baqubah
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }
 5955 = { # c_miqdadiyya
-	culture = saxon
+	culture = austrian
 	religion = catholic
 	holding = none
 }

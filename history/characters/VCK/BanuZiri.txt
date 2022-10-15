@@ -1,0 +1,12 @@
+﻿ziri1 = {
+	name = "Ayyûb" # Ayyûb I of PAlermo
+	dynasty = 201
+	religion = ashari
+	culture = maghrebi
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1100.1.1 = { #fic
+		death = yes
+	}
+}

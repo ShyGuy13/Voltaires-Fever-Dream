@@ -1245,7 +1245,7 @@ c_lobdaburg = {
 }
 
 #Vogtland
-c_zwickau = {
+c_plauen = {
 	1054.1.1 = {
 		holder = reuss1 # Erkenbert I
 	}
@@ -1426,6 +1426,11 @@ c_koblenz = {
 }
 
 #Pfalz
+d_palatinate = {
+	1047.9.7 = {
+		holder = ezzoning2 # Heinrich I
+	}
+}
 c_bonn = {
 	1047.9.7 = {
 		holder = ezzoning2 # Heinrich I
@@ -1569,6 +1574,11 @@ c_nassau = {
 		holder = diez1 # Embricho I
 	}
 }
+c_sayn = {
+	1053.1.1 = {
+		holder = diez1 # Embricho I
+	}
+}
 
 #Solms
 c_solms = {
@@ -1619,6 +1629,11 @@ c_oldenburg = {
 		holder = oldenburg1 # Egilmar I
 	}
 }
+c_bruchhausen = {
+	1054.1.1 = {
+		holder = oldenburg1 # Egilmar I
+	}
+}
 
 #Brunswick
 c_wolfenbuttel = {
@@ -1638,7 +1653,14 @@ c_wolfenbuttel = {
 
 #Hildesheim
 c_hildesheim = {
-	1000.1.1 = { government = theocracy_government }
+	1044.11.14 = {
+		holder = hildesheim_azelin # Azeilin
+	}
+	1054.3.8 = {
+		holder = hildesheim_hezilo # Hezilo I
+	}
+}
+c_liebenburg = {
 	1044.11.14 = {
 		holder = hildesheim_azelin # Azeilin
 	}
@@ -1785,6 +1807,16 @@ c_munster = {
 		holder = munster_rudbert # Rudbert I
 	}
 }
+c_coesfeld = {
+	1042.7.22 = {
+		holder = munster_rudbert # Rudbert I
+	}
+}
+c_ahaus = {
+	1042.7.22 = {
+		holder = munster_rudbert # Rudbert I
+	}
+}
 
 #Diepholz
 c_diepolz = {
@@ -1850,7 +1882,7 @@ c_katzenelnbogen = {
 #Wied
 c_wied = {
 	1034.1.1 = {
-		#Vassals of Pfalzgraviate
+		liege = d_palatinate
 		holder = wied1 # Wittekind I
 	}
 }
@@ -1944,5 +1976,102 @@ c_gottingen = {
 c_dassel = {
 	1054.1.1 = {
 		holder = dassel1 # Dietrich I
+	}
+}
+
+#Lippe
+c_lippe = {
+	1054.1.1 = {
+		holder = lippe1 # Hermann I
+	}
+}
+
+#Saarbrücken
+c_saarbrucken = {
+	1054.1.1 = {
+		holder = saarbrucken1 # Siegbert I
+	}
+}
+
+#Württemberg
+c_wurttemberg = {
+	1054.1.1 = {
+		holder = wurttemberg1 # Konrad I
+	}
+}
+
+#Kriechingen
+c_puttlingen = {
+	1054.1.1 = {
+		liege = d_bm_metz
+		holder = sirck1 # Sigebert I
+	}
+}
+
+#Wölpe
+c_wolpe = {
+	1054.1.1 = {
+		holder = wolpe1 # Gerbert I
+	}
+}
+c_hoya = {
+	1054.1.1 = {
+		holder = wolpe1 # Gerbert I
+	}
+}
+
+#Steinfurt
+c_steinfurt = {
+	1054.1.1 = {
+		holder = steinfurt1 # Steinfurt
+	}
+}
+
+#Arnstein
+c_arnstein = {
+	1054.1.1 = {
+		holder = steusslingen1 # Walter I
+	}
+}
+
+#Abenberg
+c_abenberg = {
+	1040.1.1 = {
+		holder = abenberg1 # Wolfram I
+	}
+}
+
+#Falkenstein
+c_falkenstein = {
+	1054.1.1 = {
+		holder = falkenstein1 # Werner I
+	}
+}
+
+#Nidda
+c_nidda = {
+	1054.1.1 = {
+		holder = malsburg1 # Volkold I
+	}
+}
+
+#Finstingen
+c_fenetrange = {
+	1030.1.1 = {
+		holder = finstingen1 # Adalbert I
+	}
+}
+
+#Lützelstein
+c_lutzelstein = {
+	1054.1.1 = {
+		holder = blieskastel1 # Gottfried II
+	}
+}
+
+#Wertheim
+c_wertheim = {
+	1050.1.1 = {
+		holder = wertheim1 # Bruno I
 	}
 }

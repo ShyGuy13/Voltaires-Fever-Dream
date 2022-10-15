@@ -16,6 +16,10 @@ ce_vn_griffins_leg.dds = { colors = 3 category = animals }
 ce_vn_wyvern_head.dds = { colors = 3 category = animals }
 ce_vn_pigeon.dds = { colors = 3 category = animals }
 ce_vn_barbels_inverted.dds = { colors = 2 category = animals }
+ce_vn_peacock.dds = { colors = 3 category = animals }
+ce_vn_peacock2.dds = { colors = 3 category = animals }
+ce_vn_goat_rooster.dds = { colors = 2 category = animals }
+ce_vn_goat_rooster2.dds = { colors = 3 category = animals }
 #Abstract
 ce_vn_mercury_symbol.dds = { colors = 1 category = abstract }
 #Nature
@@ -26,3 +30,5 @@ ce_vn_cloud.dds = { colors = 1 category = nature }
 ce_vn_acorn.dds = { colors = 2 category = nature }
 #Figures
 ce_vn_sword_arm.dds = { colors = 3 category = figures }
+#Pattern
+ce_vn_lozenge_checkers.dds = { colors = 2 category = patterns }

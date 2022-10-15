@@ -958,22 +958,22 @@
 201 = {
 	prefix = "dynnp_Banu"
 	name = "dynn_Ziri"
-	culture = tunisian
+	culture = maghrebi
 }
 202 = {
 	prefix = "dynnp_Banu"
 	name = "dynn_Timnah"
-	culture = tunisian
+	culture = maghrebi
 }
 203 = {
 	prefix = "dynnp_Banu"
 	name = "dynn_Mankut"
-	culture = tunisian
+	culture = maghrebi
 }
 204 = {
 	prefix = "dynnp_Banu"
 	name = "dynn_Awwas"
-	culture = tunisian
+	culture = maghrebi
 }
 205 = {
 	prefix = "dynnp_van"
@@ -1134,40 +1134,61 @@
 	culture = piedmontese
 }
 238 = {
-	
+	name = "dynn_Rodoalding"
+	culture = langobardic
 }
 239 = {
-	
+	prefix = "dynnp_degli"
+	name = "dynn_Alberti"
+	culture = tuscan
 }
 240 = {
-	
+	name = "dynn_Cadoling"
+	culture = tuscan
 }
 241 = {
-	
+	name = "dynn_Oberting"
+	culture = tuscan
 }
 242 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Eschenbach"
+	culture = swiss
 }
 243 = {
-	
+	prefix = "dynnp_de"
+	name = "dynn_Chalon"
+	culture = burgundian
 }
 244 = {
-	
+	prefix = "dynnp_d_"
+	name = "dynn_Auvergne"
+	culture = auvergnat
 }
 245 = {
-	
+	prefix = "dynnp_de"
+	name = "dynn_Mâcon"
+	culture = burgundian
 }
 246 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Steinfurt"
+	culture = hannoverian
 }
 247 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Steußlingen"
+	culture = thuringian
 }
 248 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Abenberg"
+	culture = franconian
 }
 249 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Wertheim"
+	culture = franconian
 }
 250 = {
 	

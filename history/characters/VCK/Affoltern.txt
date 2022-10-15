@@ -1,0 +1,26 @@
+﻿affoltern1 = {
+	name = "Luitold" # Luitold I of Regensburg
+	dynasty = 71
+	religion = catholic
+	culture = swiss
+	1005.1.1 = { #fic
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+
+affoltern2 = {
+	name = "Luitold" # Luitold II of Regensburg
+	dynasty = 71
+	religion = catholic
+	culture = swiss
+	father = affoltern1
+	1040.1.1 = { #fic
+		birth = yes
+	}
+	1088.1.1 = {
+		death = yes
+	}
+}

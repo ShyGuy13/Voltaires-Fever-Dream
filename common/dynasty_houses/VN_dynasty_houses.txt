@@ -27,3 +27,9 @@ house_ivrea = {
 	name = "dynn_Ivrea"
 	dynasty = 209 # Anskaring
 }
+
+house_thiers = {
+	prefix = "dynnp_de"
+	name = "dynn_Thiers"
+	dynasty = 244 # Auvergne
+}

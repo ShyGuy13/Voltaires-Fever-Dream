@@ -1,0 +1,26 @@
+﻿finstingen1 = {
+	name = "Adalbert" # Adalbert I of Finstingen
+	dynasty = 159
+	religion = catholic
+	culture = pfalzish
+	1014.1.1 = {
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+
+finstingen2 = {
+	name = "Kuno" # Kuno I of Finstingen
+	dynasty = 159
+	religion = catholic
+	culture = pfalzish
+	father = finstingen1
+	1045.1.1 = {
+		birth = yes
+	}
+	1107.1.1 = {
+		death = yes
+	}
+}

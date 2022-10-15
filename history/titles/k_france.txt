@@ -53,29 +53,49 @@ c_bitsch = {
 		holder = gerharding1 # Gérard I
 	}
 }
+c_merzig = {
+	1048.11.11 = {
+		holder = gerharding1 # Gérard I
+	}
+}
 
 #Franche Comte
 d_franche_comte = {
-	1026.9.21 = {
-		holder = anskaring1 # Reginald I
+	982.1.1 = {
+		holder = anskaring11 # Otton I
 	}
-}
-c_morteau = {
-	1026.9.21 = {
-		holder = anskaring1 # Reginald I
-	}
-}
-c_arlay = {
 	1026.9.21 = {
 		holder = anskaring1 # Reginald I
 	}
 }
 c_dole = {
+	982.1.1 = {
+		holder = anskaring11 # Otton I
+	}
+	1026.9.21 = {
+		holder = anskaring1 # Reginald I
+	}
+}
+c_besancon = {
+	982.1.1 = {
+		holder = anskaring11 # Otton I
+	}
+	1026.9.21 = {
+		holder = anskaring1 # Reginald I
+	}
+}
+c_orgelet = {
+	982.1.1 = {
+		holder = anskaring11 # Otton I
+	}
 	1026.9.21 = {
 		holder = anskaring1 # Reginald I
 	}
 }
 c_pontarlier = {
+	982.1.1 = {
+		holder = anskaring11 # Otton I
+	}
 	1026.9.21 = {
 		holder = anskaring1 # Reginald I
 	}
@@ -257,5 +277,48 @@ c_beaujeu = {
 c_forez = {
 	1050.1.1 = {
 		holder = forez1 # Artaud III
+	}
+}
+
+#Bouillon
+c_bouillon = {
+	1044.4.19 = {
+		holder = wigeriching2 # Godefroid III
+	}
+}
+
+#Chalon
+c_chalon = {
+	1039.1.1 = {
+		liege = d_franche_comte
+		holder = chalon1 # Thibaud I
+	}
+}
+
+#Macon
+c_macon = {
+	966.1.1 = {
+		holder = macon1 # Aubry II
+	}
+	982.1.1 = {
+		liege = d_franche_comte
+		holder = anskaring11 # Otton I
+	}
+	1002.1.1 = {
+		holder = anskaring10 # Guy I
+	}
+	1005.1.1 = {
+		holder = anskaring9 # Otton II
+	}
+	1049.1.1 = {
+		holder = anskaring7 # Geoffroi I
+	}
+}
+
+#Viviers
+c_viviers = {
+	1000.1.1 = { government = theocracy_government }
+	1042.1.1 = {
+		holder = viviers_gerard # Gérard
 	}
 }

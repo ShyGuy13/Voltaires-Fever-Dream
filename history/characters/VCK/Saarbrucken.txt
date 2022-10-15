@@ -1,0 +1,12 @@
+﻿saarbrucken1 = {
+	name = "Reginhard" # Reginhard I of Ronsberg
+	dynasty = 163
+	culture = pfalzish
+	religion = catholic
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}

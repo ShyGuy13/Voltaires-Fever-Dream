@@ -1,0 +1,12 @@
+blieskastel1 = {
+	name = "Gottfried" # Gottfried II of Lützelstein
+	dynasty = 160
+	religion = catholic
+	culture = pfalzish
+	1014.1.1 = { #fic
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}

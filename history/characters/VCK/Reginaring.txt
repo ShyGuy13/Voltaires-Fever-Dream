@@ -1,12 +1,219 @@
-reginaring1 = {
-	name = "Hendrik Leuven" # Hendrik Leuven of Brabant
+﻿reginaring1 = {
+	name = "Hendrik" # Hendrik of Brabant
 	dynasty = 195
 	religion = catholic
 	culture = brabantian
+	father = reginaring9
 	1025.1.1 = {
 		birth = yes
 	}
 	1085.1.1 = {
+		death = yes
+	}
+}
+
+reginaring2 = {
+	name = "Richilde" # Richilde of Hainaut
+	female = yes
+	dynasty = 195
+	religion = catholic
+	culture = picard
+	father = reginaring8
+	1018.1.1 = {
+		birth = yes
+	}
+	1086.3.15 = {
+		death = yes
+	}
+}
+
+reginaring3 = {
+	name = "Herman" # Herman I of Hainaut
+	dynasty = 195
+	religion = catholic
+	culture = picard
+	father = reginaring6
+	1018.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = {
+		add_spouse = reginaring2 # Richilde
+	}
+	1049.7.3 = {
+		death = yes
+	}
+}
+
+reginaring4 = {
+	name = "Roger" # bishop of Châlons
+	dynasty = 195
+	religion = catholic
+	culture = brabantian
+	trait = disinherited
+	father = reginaring3
+	mother = reginaring2
+	1042.1.1 = { #fic
+		birth = yes
+	}
+	1093.1.1 = {
+		death = yes
+	}
+}
+
+reginaring5 = {
+	name = "Gertrude" # 
+	female = yes
+	dynasty = 195
+	religion = catholic
+	culture = brabantian
+	trait = disinherited
+	father = reginaring3
+	mother = reginaring2
+	1045.1.1 = { #fic
+		birth = yes
+	}
+	1085.1.1 = { #fic
+		death = yes
+	}
+}
+
+reginaring6 = {
+	name = "Reginar" # Reginar V of Hennegau
+	dynasty = 195
+	religion = catholic
+	culture = picard
+	father = reginaring11
+	995.1.1 = {
+		birth = yes
+	}
+	1039.1.1 = {
+		death = yes
+	}
+}
+
+reginaring7 = {
+	name = "Lambert" # Lambert I of Brabant
+	dynasty = 195
+	religion = catholic
+	culture = brabantian
+	father = reginaring12
+	950.1.1 = {
+		birth = yes
+		give_nickname = nick_the_bearded
+	}
+	1015.9.12 = {
+		death = yes
+	}
+}
+
+reginaring8 = {
+	name = "Reginar" # 
+	dynasty = 195
+	religion = catholic
+	culture = picard
+	father = reginaring7
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1025.1.1 = { #fic
+		death = yes
+	}
+}
+
+reginaring9 = {
+	name = "Lambert" # Lambert II of Brabant
+	dynasty = 195
+	religion = catholic
+	culture = brabantian
+	father = reginaring7
+	992.1.1 = { #est
+		birth = yes
+	}
+	1054.6.19 = {
+		death = yes
+	}
+}
+
+reginaring10 = {
+	name = "Hendrik" # Hendrik I of Brabant
+	dynasty = 195
+	religion = catholic
+	culture = brabantian
+	father = reginaring7
+	990.1.1 = { #fic
+		birth = yes
+	}
+	1038.8.5 = {
+		death = yes
+	}
+}
+
+reginaring11 = {
+	name = "Reginar" # Reginar IV of Hennegau
+	dynasty = 195
+	religion = catholic
+	culture = picard
+	father = reginaring12
+	947.1.1 = {
+		birth = yes
+	}
+	1013.1.1 = {
+		death = yes
+	}
+}
+
+reginaring12 = {
+	name = "Reginar" # Reginar III of Hennegau
+	dynasty = 195
+	religion = catholic
+	culture = picard
+	father = reginaring13
+	920.1.1 = {
+		birth = yes
+	}
+	973.1.1 = {
+		death = yes
+	}
+}
+
+reginaring13 = {
+	name = "Reginar" # Reginar II of Hennegau
+	dynasty = 195
+	religion = catholic
+	culture = picard
+	father = reginaring14
+	890.1.1 = {
+		birth = yes
+	}
+	932.1.1 = {
+		death = yes
+	}
+}
+
+reginaring14 = {
+	name = "Reginar" # Reginar I of Hennegau
+	dynasty = 195
+	religion = catholic
+	culture = picard
+	850.1.1 = {
+		birth = yes
+		give_nickname = nick_longneck
+	}
+	915.1.1 = {
+		death = yes
+	}
+}
+
+reginaring15 = {
+	name = "Gilbert" # Gilbert II of Lorraine
+	dynasty = 195
+	religion = catholic
+	culture = picard
+	father = reginaring14
+	885.1.1 = {
+		birth = yes
+	}
+	939.10.2 = {
 		death = yes
 	}
 }

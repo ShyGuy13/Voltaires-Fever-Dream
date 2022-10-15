@@ -1,0 +1,12 @@
+﻿malsburg1 = {
+	name = "Volkold" # Volkold I of Nidda
+	dynasty = 140
+	religion = catholic
+	culture = hessian
+	1040.1.1 = {
+		birth = yes
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}

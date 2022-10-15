@@ -2,7 +2,7 @@
 	name = "Muhammad" # ‘Alî of Kirkent
 	dynasty = 204
 	religion = ashari
-	culture = tunisian
+	culture = maghrebi
 	1002.1.1 = { #fic
 		birth = yes
 	}
@@ -15,7 +15,7 @@ awwas2 = {
 	name = "Hammûd" # Hammûd of Kirkent
 	dynasty = 204
 	religion = ashari
-	culture = tunisian
+	culture = maghrebi
 	1037.1.1 = { #fic
 		birth = yes
 	}

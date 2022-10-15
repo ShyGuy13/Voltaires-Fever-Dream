@@ -230,7 +230,7 @@ d_bm_paderborn = {
 	}
 }
 
-d_bn_verden = {
+d_bm_verden = {
 	1000.1.1 = { government = theocracy_government }
 	1049.8.21 = {
 		holder = verden_siegbert

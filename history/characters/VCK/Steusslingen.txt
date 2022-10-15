@@ -1,0 +1,12 @@
+﻿steusslingen1 = {
+	name = "Walter" # Walter I of Arnstein
+	dynasty = 247
+	religion = catholic
+	culture = thuringian
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}

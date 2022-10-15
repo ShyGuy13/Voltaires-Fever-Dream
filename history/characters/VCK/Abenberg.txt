@@ -1,0 +1,13 @@
+﻿abenberg1 = {
+	name = "Wolfram" #Wolfram I of Abenberg
+	female = yes
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	994.1.1 = { #fic
+		birth = yes
+	}
+	1059.1.1 = {
+		death = yes
+	}
+}

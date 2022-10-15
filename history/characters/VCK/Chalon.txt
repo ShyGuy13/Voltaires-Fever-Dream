@@ -1,0 +1,56 @@
+chalon1 = {
+	name = "Thibaud" #Thibaud I of Chalon
+	dynasty = 243
+	culture = burgundian
+	religion = catholic
+	990.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+
+chalon2 = {
+	name = "Hugues" #Hugues II of Chalon
+	dynasty = 243
+	culture = burgundian
+	religion = catholic
+	father = chalon1
+	1022.1.1 = {
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+
+chalon3 = {
+	name = "Adélaïde" #wife of Guillaume II de Thiers
+	female = yes
+	dynasty = 243
+	culture = burgundian
+	religion = catholic
+	father = chalon1
+	1025.1.1 = {
+		birth = yes
+	}
+	1088.1.1 = {
+		death = yes
+	}
+}
+
+chalon4 = {
+	name = "Mathilde" #wife of Hervé de Donzy
+	female = yes
+	dynasty = 243
+	culture = burgundian
+	religion = catholic
+	father = chalon1
+	1025.1.1 = {
+		birth = yes
+	}
+	1051.1.1 = { #fic
+		death = yes
+	}
+}

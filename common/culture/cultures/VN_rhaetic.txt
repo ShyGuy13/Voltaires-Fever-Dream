@@ -1,4 +1,4 @@
-friulian = {
+friulan = {
 	color = italian
 
 	parents = { venetian }

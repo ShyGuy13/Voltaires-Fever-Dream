@@ -1,0 +1,12 @@
+﻿steinfurt1 = {
+	name = "Ludolf" #
+	dynasty = 246
+	religion = catholic
+	culture = hannoverian
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}

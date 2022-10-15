@@ -1,0 +1,12 @@
+﻿lenzburg1 = {
+	name = "Arnold" #Arnold I of Zürich
+	dynasty = 80
+	religion = catholic
+	culture = swiss
+	999.1.1 = { #fic
+		birth = yes
+	}
+	1064.1.1 = {
+		death = yes
+	}
+}

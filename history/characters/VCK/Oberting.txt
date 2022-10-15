@@ -1,0 +1,12 @@
+﻿oberting1 = {
+	name = "Adalberto" # Adalberto VI of Massa
+	dynasty = 241
+	religion = catholic
+	culture = tuscan
+	1015.1.1 = { #fic
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}

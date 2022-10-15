@@ -1,8 +1,9 @@
 ﻿anskaring1 = {
-	name = "Reginald" # Reginald I of Franche Comte
+	name = "Renaud" # Renaud I of Franche Comte
 	dynasty = 209
 	religion = catholic
 	culture = lorrainian
+	father = anskaring11
 	986.1.1 = {
 		birth = yes
 	}
@@ -12,7 +13,7 @@
 }
 
 anskaring2 = {
-	name = "Wilhelm" # Wilhelm I of Franche Comte
+	name = "Guillaume" # Guillaume I of Franche Comte
 	dynasty = 209
 	religion = catholic
 	culture = lorrainian
@@ -78,6 +79,127 @@ anskaring6 = {
 		birth = yes
 	}
 	1095.1.1 = { #fic
+		death = yes
+	}
+}
+
+anskaring7 = {
+	name = "Geoffroi" # Geoffroi I of Macon
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring9
+	1013.1.1 = { #fic
+		birth = yes
+	}
+	1065.1.1 = {
+		death = yes
+	}
+}
+
+anskaring8 = {
+	name = "Guy" # Guy II of Macon
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring7
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	1078.1.1 = {
+		add_trait = devoted
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+
+anskaring9 = {
+	name = "Otton" # Otton II of Macon
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring10
+	995.1.1 = { #fic
+		birth = yes
+	}
+	1049.1.1 = {
+		death = yes
+	}
+}
+
+anskaring10 = {
+	name = "Guy" # Guy I of Macon
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring11
+	975.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+
+anskaring11 = {
+	name = "Otton" # Otton I of Macon
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	958.1.1 = {
+		birth = yes
+	}
+	#1002 inherits Franche Comte
+	1026.9.21 = {
+		death = yes
+	}
+}
+
+anskaring12 = {
+	name = "Gerberga" # wife of Guillaume of Provence
+	female = yes
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring11
+	984.1.1 = {
+		birth = yes
+	}
+	1023.1.1 = {
+		death = yes
+	}
+}
+
+anskaring13 = {
+	name = "Mathilde" # wife of Landry of Nevers
+	female = yes
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring11
+	977.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+
+anskaring14 = {
+	name = "Agnès" # wife of Guillaume III of Aquitaine
+	female = yes
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring11
+	995.1.1 = {
+		birth = yes
+	}
+	1059.1.1 = {
+		add_trait = devoted
+	}
+	1068.11.10 = {
 		death = yes
 	}
 }

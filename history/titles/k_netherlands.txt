@@ -68,24 +68,46 @@ c_cambray = {
 }
 
 #Brabant
-d_brabant = {
-	1054.1.1 = {
-		holder = reginaring1 # Hendrik Leuven I
-	}
-}
 c_brabant = {
-	1054.1.1 = {
-		holder = reginaring1 # Hendrik Leuven I
+	1003.1.1 = {
+		holder = reginaring7 # Lambert I
+	}
+	1015.9.12 = {
+		holder = reginaring10 # Hendrik I
+	}
+	1038.8.5 = {
+		holder = reginaring9 # Lambert II
+	}
+	1054.6.19 = {
+		holder = reginaring1 # Hendrik I
 	}
 }
 c_herentals = {
-	1054.1.1 = {
-		holder = reginaring1 # Hendrik Leuven I
+	1003.1.1 = {
+		holder = reginaring7 # Lambert I
+	}
+	1015.9.12 = {
+		holder = reginaring10 # Hendrik I
+	}
+	1038.8.5 = {
+		holder = reginaring9 # Lambert II
+	}
+	1054.6.19 = {
+		holder = reginaring1 # Hendrik I
 	}
 }
 c_tilburg = {
-	1054.1.1 = {
-		holder = reginaring1 # Hendrik Leuven I
+	1003.1.1 = {
+		holder = reginaring7 # Lambert I
+	}
+	1015.9.12 = {
+		holder = reginaring10 # Hendrik I
+	}
+	1038.8.5 = {
+		holder = reginaring9 # Lambert II
+	}
+	1054.6.19 = {
+		holder = reginaring1 # Hendrik I
 	}
 }
 
@@ -347,5 +369,18 @@ c_namur = {
 b_prum = {
 	1026.1.1 = {
 		holder = arberg1 # Ruprecht
+	}
+}
+
+#Hainaut
+c_hainaut = {
+	1013.1.1 = {
+		holder = reginaring6 # Reginar V
+	}
+	1039.1.1 = {
+		holder = reginaring3 # Herman I
+	}
+	1049.7.3 = {
+		holder = reginaring2 # Richilde
 	}
 }

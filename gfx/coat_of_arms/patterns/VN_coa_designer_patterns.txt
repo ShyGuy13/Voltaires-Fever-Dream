@@ -1,2 +1,3 @@
 ﻿pattern_vair.dds = { colors = 2 visible = yes }
-pattern_waves.dds = { colors = 2 visible = yes }
+pattern_waves.dds = { colors = 3 visible = yes }
+pattern_ermine.dds = { colors = 2 visible = yes }

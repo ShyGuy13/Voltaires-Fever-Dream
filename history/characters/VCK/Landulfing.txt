@@ -78,3 +78,16 @@ landulfing6 = {
 		death = yes
 	}
 }
+
+landulfing7 = {
+	name = "Landolfo" # Landolfo VI of Benevento
+	dynasty = 148
+	religion = catholic
+	culture = langobard
+	1019.1.1 = { #fic
+		birth = yes
+	}
+	1077.11.27 = {
+		death = yes
+	}
+}

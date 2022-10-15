@@ -295,3 +295,32 @@ c_kirkent = {
 		holder = awwas1 # Ali
 	}
 }
+
+#Gaeta
+c_gaeta = {
+	1045.1.1 = {
+		holder = rodoalding1 # Atenolfo I
+	}
+}
+
+#Benevento
+c_benevento = {
+	1054.1.1 = {
+		liege = k_papal_state
+		holder = landulfing7 # Landolfo VI
+	}
+}
+
+#Palermo
+c_palermo = {
+	1053.1.1 = {
+		holder = ziri1 # Ayyûb I
+	}
+}
+
+#Trapani
+c_trapani = {
+	1053.1.1 = {
+		holder = mankut1 # ‘Abd Allâh I
+	}
+}

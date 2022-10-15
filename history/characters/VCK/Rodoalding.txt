@@ -1,0 +1,12 @@
+﻿rodoalding1 = {
+	name = "Atenolfo" #Atenolfo of Gaeta
+	dynasty = 238
+	religion = catholic
+	culture = langobardic
+	1001.1.1 = { #fic
+		birth = yes
+	}
+	1062.2.2 = {
+		death = yes
+	}
+}

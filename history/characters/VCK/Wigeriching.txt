@@ -12,3 +12,165 @@
 	}
 }
 
+wigeriching2 = {
+	name = "Godefroid" # Godefroid III of Bouillon
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching3
+	997.1.1 = {
+		birth = yes
+		give_nickname = nick_the_bearded
+	}
+	1069.12.24 = {
+		death = yes
+	}
+}
+
+wigeriching3 = {
+	name = "Gothelon" # Gothelon I of Bouillon
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	967.1.1 = {
+		birth = yes
+		give_nickname = nick_the_great
+	}
+	1044.4.19 = {
+		death = yes
+	}
+}
+
+wigeriching4 = {
+	name = "Gothelon" # Gothelon II of Bouillon
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching3
+	1008.1.1 = {
+		birth = yes
+		give_nickname = nick_the_coward
+	}
+	1046.5.22 = {
+		death = yes
+	}
+}
+
+wigeriching5 = {
+	name = "Frédéric" # Pope Stephen IX
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching3
+	1020.1.1 = {
+		birth = yes
+	}
+	1058.3.29 = {
+		death = yes
+	}
+}
+
+wigeriching6 = {
+	name = "Régelinde" # wife of Albert II of Namur
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching3
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1067.1.1 = {
+		death = yes
+	}
+}
+
+wigeriching7 = {
+	name = "Oda" # wife of Lambert II of Brabant
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching3
+	1005.1.1 = { #fic
+		birth = yes
+	}
+	1070.1.1 = { #fic
+		death = yes
+	}
+}
+
+wigeriching8 = {
+	name = "Mathilde" # wife of Heinrich I of Pfalz
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching3
+	1025.1.1 = {
+		birth = yes
+	}
+	1060.6.27 = {
+		death = yes
+	}
+}
+
+wigeriching9 = {
+	name = "Godefroid" # Godefroid IV of Bouillon
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching2
+	1040.1.1 = {
+		birth = yes
+		give_nickname = nick_the_hunchback
+	}
+	1076.2.27 = {
+		death = yes
+	}
+}
+
+wigeriching10 = {
+	name = "Ida" # wife of Eustace II of Boulogne
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching2
+	1042.1.1 = {
+		birth = yes
+	}
+	1113.4.13 = {
+		death = yes
+	}
+}
+
+wigeriching11 = {
+	name = "Wiltrude" # wife of Adalbert of Calw
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching2
+	1045.1.1 = { #fic
+		birth = yes
+	}
+	1120.1.1 = { #fic
+		death = yes
+	}
+}
+
+wigeriching12 = {
+	name = "Judith" # wife of Manasses III of Rethel
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching2
+	1035.1.1 = {
+		birth = yes
+	}
+	1110.1.1 = { #fic
+		death = yes
+	}
+}

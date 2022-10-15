@@ -69,7 +69,6 @@ namur5 = {
 	}
 }
 
-
 namur6 = {
 	name = "Robert" # Robert I of Namur
 	dynasty = 198
@@ -93,6 +92,34 @@ namur7 = {
 		birth = yes
 	}
 	1031.1.1 = {
+		death = yes
+	}
+}
+
+namur8 = {
+	name = "Gilbert"
+	dynasty = 198
+	religion = catholic
+	culture = wallonian
+	father = namur6
+	955.1.1 = { #fic
+		birth = yes
+	}
+	1025.1.1 = { #fic
+		death = yes
+	}
+}
+
+namur9 = {
+	name = "Ratbod"
+	dynasty = 198
+	religion = catholic
+	culture = wallonian
+	father = namur6
+	960.1.1 = { #fic
+		birth = yes
+	}
+	1020.1.1 = { #fic
 		death = yes
 	}
 }

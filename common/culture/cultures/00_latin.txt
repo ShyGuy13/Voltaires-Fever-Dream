@@ -322,3 +322,94 @@ corsican = {
 		10 = mediterranean
 	}
 }
+
+tuscan = {
+	color = italian
+
+	parents = { roman }
+
+	created = 476.11.4
+	
+	ethos = ethos_spiritual
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_formation_fighting
+		tradition_republican_legacy
+		tradition_poetry
+	}
+	
+	name_list = name_list_italian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+emilian = {
+	color = { 0.65 0.65 0.2 }
+
+	parents = { lombard greek }
+
+	created = 950.1.1
+	
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_xenophilic
+		tradition_swords_for_hire
+		tradition_ruling_caste
+		tradition_poetry
+		tradition_republican_legacy
+	}
+	
+	name_list = name_list_sicilian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}	
+}
+
+ligurian = {
+	color = { 0.65 0.65 0.2 }
+
+	parents = { lombard greek }
+
+	created = 950.1.1
+	
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_xenophilic
+		tradition_swords_for_hire
+		tradition_ruling_caste
+		tradition_poetry
+		tradition_republican_legacy
+	}
+	
+	name_list = name_list_sicilian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}	
+}

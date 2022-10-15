@@ -32,6 +32,7 @@ title_margrave = {
 	type = character
 	gender = male
 	special = holder
+	tier = duchy
 	priority = 60
 	titles = { d_osterreich d_steyermark d_nordgau }
 	top_liege = no
@@ -40,12 +41,14 @@ title_margravine = {
 	type = character
 	gender = female
 	special = holder
+	tier = duchy
 	priority = 60
 	titles = { d_osterreich d_steyermark d_nordgau }
 	top_liege = no
 }
 title_margraviate = {
 	type = title
+	tier = duchy
 	titles = { d_osterreich d_steyermark d_nordgau }
 	priority = 60
 	top_liege = no
@@ -56,6 +59,7 @@ title_patriarch = {
 	type = character
 	gender = male
 	special = holder
+	tier = duchy
 	priority = 60
 	titles = { d_bm_aquileia }
 	governments = { theocracy_government }
@@ -66,6 +70,7 @@ title_matriarch = {
 	type = character
 	gender = female
 	special = holder
+	tier = duchy
 	priority = 60
 	titles = { d_bm_aquileia }
 	governments = { theocracy_government }
@@ -74,9 +79,190 @@ title_matriarch = {
 }
 title_patriarchate = {
 	type = title
+	tier = duchy
 	titles = { d_bm_aquileia }
 	holding = church_holding
 	religions = { christianity_religion }
+	priority = 60
+	top_liege = no
+}
+
+#Pfalzgraviate
+title_pfalzgrave = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 60
+	titles = { d_palatinate }
+	governments = { feudal_government }
+	top_liege = no
+}
+title_pfalzgravine = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 60
+	titles = { d_palatinate }
+	governments = { feudal_government }
+	top_liege = no
+}
+title_pfalzgraviate = {
+	type = title
+	tier = duchy
+	titles = { d_palatinate }
+	holding = castle_holding
+	priority = 60
+	top_liege = no
+}
+
+#Wilgraviate
+title_wildgrave = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 60
+	titles = { c_wildgraviate }
+	governments = { feudal_government }
+	top_liege = no
+}
+title_wildgravine = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 60
+	titles = { c_wildgraviate }
+	governments = { feudal_government }
+	top_liege = no
+}
+title_wildgraviate = {
+	type = title
+	tier = county
+	titles = { c_wildgraviate }
+	holding = castle_holding
+	priority = 60
+	top_liege = no
+}
+
+#Rheingraviate
+title_rheingrave = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 60
+	titles = { c_rheingraviate }
+	governments = { feudal_government }
+	top_liege = no
+}
+title_rheingravine = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 60
+	titles = { c_rheingraviate }
+	governments = { feudal_government }
+	top_liege = no
+}
+title_rheingraviate = {
+	type = title
+	tier = county
+	titles = { c_rheingraviate }
+	holding = castle_holding
+	priority = 60
+	top_liege = no
+}
+
+#Burgraviates
+title_burgrave = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 40
+	titles = { c_nurnberg }
+	governments = { feudal_government }
+	top_liege = no
+}
+title_burgravine = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 40
+	titles = { c_nurnberg }
+	governments = { feudal_government }
+	top_liege = no
+}
+title_burgraviate = {
+	type = title
+	tier = county
+	titles = { c_nurnberg }
+	holding = castle_holding
+	priority = 40
+	top_liege = no
+}
+
+#Landgraviates
+title_landgrave = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 40
+	titles = { d_thuringia d_alsace }
+	governments = { feudal_government }
+	top_liege = no
+}
+title_landgravine = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 40
+	titles = { d_thuringia d_alsace }
+	governments = { feudal_government }
+	top_liege = no
+}
+title_landgraviate = {
+	type = title
+	tier = duchy
+	titles = { d_thuringia d_alsace }
+	holding = castle_holding
+	priority = 40
+	top_liege = no
+}
+
+#Freigrafschaft
+title_freegrave = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 60
+	titles = { d_franche_comte }
+	governments = { feudal_government }
+	top_liege = no
+}
+title_freegravine = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 60
+	titles = { d_franche_comte }
+	governments = { feudal_government }
+	top_liege = no
+}
+title_freegraviate = {
+	type = title
+	tier = duchy
+	titles = { d_franche_comte }
+	holding = castle_holding
 	priority = 60
 	top_liege = no
 }

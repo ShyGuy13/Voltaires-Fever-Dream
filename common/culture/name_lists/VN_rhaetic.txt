@@ -1,0 +1,76 @@
+name_list_romansch = {
+	#mercenary_names = {
+	#	
+	#}
+
+	male_names = {
+		Alexandru Andrin Aden Andreia
+		Balser Baltran Bandet
+		Cosmin Clario Chasprot Chrest Corsin Curo
+		Flurin Franceschi Fadri
+		Gisep
+		Ionut Iso
+		Jacum Jachiam
+		Lissandri Liviu Liun Lücha Ludivic
+		Michelagnul Mihal Mattia Maurus
+		Pieri Petrica
+		Rapoto
+		Tuone
+		Uorsin
+		Valentin Victorin Viturin
+		Zirolamo
+	}
+	
+	female_names = {
+		Agnabella Adelca Anute Aita Alva Andrina Annafila
+		Biatris Baria Bertilla
+		Crestina Chartrina Cilgia
+		Duscha
+		Ioana
+		Marila Mira Miria Mirvana Madlaina Mevina
+		Neva 
+		Oderica Ottavia Onna
+		Teigra
+	}
+
+	dynasty_names = {
+		{ dynn_Accola }
+		{ dynn_Battaglia }
+		{ dynn_Bazzell }
+		{ dynn_Bossi }
+		{ dynn_Cadruvi }
+		{ dynn_Caduff }
+		{ dynn_Camenisch }
+		{ dynn_Caminada }
+		{ dynn_Capeder }
+		{ dynn_Corsin }
+		{ dynn_Decurtins }
+		{ dynn_Derungs }
+		{ dynnp_dil dynn_Monte-Villa }
+		{ dynn_Menduri }
+		{ dynn_Marca }
+		{ dynn_Mont }
+		{ dynn_Naso }
+		{ dynn_Planta }
+		{ dynn_Porta }
+		{ dynn_Rampa }
+		{ dynn_Razén }
+		{ dynn_Salis }
+		{ dynn_Scanvetg }
+		{ dynn_Zaccon }
+	}
+	dynasty_of_location_prefix = "dynnp_di"
+
+	patronym_prefix_male = "dynnpat_pre_di"
+	patronym_prefix_female = "dynnpat_pre_di"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 25
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+}

@@ -1,0 +1,30 @@
+﻿thiers1 = {
+	name = "Guy" # Guy I of Chalon
+	dynasty_house = house_thiers
+	religion = catholic
+	culture = burgundian
+	father = thiers2
+	mother = chalon3
+	1050.1.1 = {
+		birth = yes
+	}
+	1113.1.1 = {
+		death = yes
+	}
+}
+
+thiers2 = {
+	name = "Guillaume" # 
+	dynasty_house = house_thiers
+	religion = catholic
+	culture = burgundian
+	1015.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = { #fic
+		add_spouse = chalon3 # Adélaïde of Chalon
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}

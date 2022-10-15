@@ -1,0 +1,12 @@
+﻿cadoling1 = {
+	name = "Gero" # Lotario I of Pistoia
+	dynasty = 240
+	religion = catholic
+	culture = tuscan
+	1022.1.1 = { #fic
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}

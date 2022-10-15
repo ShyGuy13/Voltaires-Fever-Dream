@@ -1,0 +1,14 @@
+﻿wurttemberg1 = {
+	name = "Konrad" # Konrad I of Württemberg
+	dynasty = 62
+	religion = catholic
+	culture = swabian
+	1044.1.1 = {
+		birth = yes
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+
+

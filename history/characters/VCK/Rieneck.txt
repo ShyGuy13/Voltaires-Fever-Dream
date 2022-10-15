@@ -1,4 +1,4 @@
-rieneck1 = {
+﻿rieneck1 = {
 	name = "Gerhard" #Gerhard I of Rieneck
 	dynasty = 37
 	religion = catholic
