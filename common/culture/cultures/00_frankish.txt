@@ -57,7 +57,7 @@ french = {
 }
 
 norman = {
-	color = { 0.1 0.2 0.4 }
+	color = norman
 	created = 911.7.20 # Treaty of Saint-Clair-sur-Epte
 	parents = { french norse }
 	
@@ -117,19 +117,17 @@ occitan = {
 
 #mod
 arpitan = {
-	color = occitan
+	color = arpitan
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_frankish
 	language = language_arpitan
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_chivalry
-		tradition_chanson_de_geste
-		tradition_parochialism
+		
 	}
 	
-	name_list = name_list_occitan
+	name_list = name_list_arpitan
 
 	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
@@ -145,19 +143,17 @@ arpitan = {
 }
 
 vivaro_alpine = {
-	color = occitan
+	color = vivaro_alpine
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_frankish
 	language = language_occitano_romance
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_chivalry
-		tradition_chanson_de_geste
-		tradition_parochialism
+		
 	}
 	
-	name_list = name_list_occitan
+	name_list = name_list_vivaro_alpine
 
 	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
@@ -173,19 +169,17 @@ vivaro_alpine = {
 }
 
 burgundian = {
-	color = occitan
+	color = burgundian
 	
-	ethos = ethos_egalitarian
+	ethos = ethos_bellicose
 	heritage = heritage_frankish
-	language = language_occitano_romance
+	language = language_french
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_chivalry
-		tradition_chanson_de_geste
-		tradition_parochialism
 	}
 	
-	name_list = name_list_occitan
+	name_list = name_list_burgundian
 
 	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
@@ -201,19 +195,17 @@ burgundian = {
 }
 
 lorrainian = {
-	color = occitan
+	color = lorrainian
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_frankish
-	language = language_occitano_romance
+	language = language_french
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_chivalry
-		tradition_chanson_de_geste
-		tradition_parochialism
+		
 	}
 	
-	name_list = name_list_occitan
+	name_list = name_list_lorrainian
 
 	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
@@ -229,16 +221,14 @@ lorrainian = {
 }
 
 picard = {
-	color = occitan
+	color = picard
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_frankish
-	language = language_occitano_romance
+	language = language_french
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_chivalry
-		tradition_chanson_de_geste
-		tradition_parochialism
+		
 	}
 	
 	name_list = name_list_occitan
@@ -257,16 +247,14 @@ picard = {
 }
 
 wallonian = {
-	color = occitan
+	color = wallonian
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_frankish
-	language = language_occitano_romance
+	language = language_french
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_chivalry
-		tradition_chanson_de_geste
-		tradition_parochialism
+		
 	}
 	
 	name_list = name_list_occitan
@@ -285,16 +273,14 @@ wallonian = {
 }
 
 provencal = {
-	color = occitan
+	color = provencal
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_frankish
 	language = language_occitano_romance
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_chivalry
-		tradition_chanson_de_geste
-		tradition_parochialism
+		tradition_equal_inheritance
 	}
 	
 	name_list = name_list_occitan
@@ -311,4 +297,3 @@ provencal = {
 		35 = caucasian_dark_hair
 	}	
 }
-

@@ -1,0 +1,53 @@
+language_arpitan = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_arpitan
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_arpitan }
+			multiply = 10
+		}
+	}
+	
+	color = arpitan
+}
+
+language_rhaetian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_rhaetian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_rhaetian }
+			multiply = 10
+		}
+	}
+	
+	color = romansch
+}
+
+language_darja = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_darja
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_darja }
+			multiply = 10
+		}
+	}
+	
+	color = maghrebi
+}

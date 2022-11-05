@@ -266,3 +266,30 @@ title_freegraviate = {
 	priority = 60
 	top_liege = no
 }
+
+#Sardinian Giudicato
+title_judge = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 28
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian }
+}
+title_judge_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 28
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian }
+}
+title_giudicato = {
+	type = title
+	tier = county
+	priority = 28
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian }
+}

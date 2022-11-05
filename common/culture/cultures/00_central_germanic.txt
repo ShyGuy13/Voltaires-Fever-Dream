@@ -29,7 +29,7 @@
 }
 
 franconian = {
-	color = { 0.5 0.5 0.5 }
+	color = franconian
 	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
 	parents = { frankish }
 	
@@ -86,7 +86,7 @@ swabian = {
 }
 
 bavarian = {
-	color = { 0.3 0.30 0.35 }
+	color = bavarian
 	
 	ethos = ethos_spiritual
 	heritage = heritage_central_germanic
@@ -131,7 +131,7 @@ german = {	#obsolete
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 		
+	unit_gfx = { western_unit_gfx }
 
 	ethnicities = {
 		25 = caucasian_blond
@@ -142,7 +142,7 @@ german = {	#obsolete
 }
 
 pommeranian = {
-	color = { 0.3 0.6 0.4 }
+	color = pommeranian
 	
 	ethos = ethos_stoic
 	heritage = heritage_central_germanic
@@ -175,7 +175,7 @@ pommeranian = {
 
 #mod
 austrian = {
-	color = { 0.5 0.5 0.5 }
+	color = austrian
 	created = 972.1.1 #establishment of the Ostmarch
 	parents = { bavarian }
 	
@@ -185,6 +185,7 @@ austrian = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		#tradition_welcoming
+		tradition_marital_ceremonies 
 		tradition_astute_diplomats
 		tradition_mountaineers
 	}
@@ -205,7 +206,7 @@ austrian = {
 }
 
 swiss = {
-	color = { 0.5 0.5 0.5 }
+	color = swiss
 	created = 888.1.1
 	parents = { boden_alemannic }
 	
@@ -242,7 +243,7 @@ swiss = {
 }
 
 boden_alemannic = {
-	color = { 0.5 0.5 0.5 }
+	color = boden_alemannic
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_central_germanic
@@ -270,7 +271,7 @@ boden_alemannic = {
 }
 
 thuringian = {
-	color = saxon
+	color = thuringian
 	created = 843.1.1
 	parents = { old_saxon }
 	
@@ -279,9 +280,7 @@ thuringian = {
 	language = language_saxon
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_stand_and_fight
-		tradition_ruling_caste
-		tradition_religious_patronage
+		tradition_metalworkers
 	}
 	
 	name_list = name_list_german
@@ -300,18 +299,16 @@ thuringian = {
 }
 
 hessian = {
-	color = saxon
+	color = hessian
 	created = 843.1.1
 	parents = { old_saxon }
 	
 	ethos = ethos_stoic
 	heritage = heritage_central_germanic
-	language = language_saxon
+	language = language_high_german
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_stand_and_fight
-		tradition_ruling_caste
-		tradition_religious_patronage
+		
 	}
 	
 	name_list = name_list_german
@@ -330,18 +327,16 @@ hessian = {
 }
 
 low_elbish = {
-	color = { 0.5 0.5 0.5 }
+	color = low_elbish
 	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
 	parents = { old_saxon }
 	
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic
-	language = language_high_german
+	language = language_saxon
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hereditary_hierarchy
-		tradition_astute_diplomats
-		tradition_castle_keepers
+		
 	}
 	
 	name_list = name_list_german
@@ -360,18 +355,19 @@ low_elbish = {
 }
 
 central_margravian = {
-	color = { 0.5 0.5 0.5 }
+	color = central_margravian
 	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
 	parents = { old_saxon }
 	
-	ethos = ethos_courtly
+	ethos = ethos_bellicose
 	heritage = heritage_central_germanic
-	language = language_high_german
+	language = language_saxon
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hereditary_hierarchy
-		tradition_astute_diplomats
 		tradition_castle_keepers
+		tradition_strong_believers
+		tradition_only_the_strong
+		tradition_by_the_sword
 	}
 	
 	name_list = name_list_german
@@ -390,18 +386,16 @@ central_margravian = {
 }
 
 eastphalian = {
-	color = { 0.5 0.5 0.5 }
+	color = eastphalian
 	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
 	parents = { frankish }
 	
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic
-	language = language_high_german
+	language = language_saxon
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hereditary_hierarchy
-		tradition_astute_diplomats
-		tradition_castle_keepers
+		
 	}
 	
 	name_list = name_list_german
@@ -420,7 +414,7 @@ eastphalian = {
 }
 
 ripuarian = {
-	color = { 0.5 0.5 0.5 }
+	color = ripuarian
 	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
 	parents = { frankish }
 	
@@ -429,9 +423,9 @@ ripuarian = {
 	language = language_high_german
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hereditary_hierarchy
-		tradition_astute_diplomats
-		tradition_castle_keepers
+		tradition_industrious
+		tradition_eye_for_an_eye
+		tradition_parochialism
 	}
 	
 	name_list = name_list_german
@@ -450,7 +444,7 @@ ripuarian = {
 }
 
 moselle_franconian = {
-	color = { 0.5 0.5 0.5 }
+	color = moselle_franconian
 	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
 	parents = { frankish }
 	
@@ -459,9 +453,9 @@ moselle_franconian = {
 	language = language_high_german
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hereditary_hierarchy
-		tradition_astute_diplomats
-		tradition_castle_keepers
+		tradition_legalistic
+		tradition_family_business
+		tradition_welcoming
 	}
 	
 	name_list = name_list_german
@@ -480,18 +474,45 @@ moselle_franconian = {
 }
 
 pfalzish = {
-	color = { 0.5 0.5 0.5 }
+	color = pfalzish
+	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
+	parents = { frankish }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_equitable
+		tradition_ruling_caste
+	}
+	
+	name_list = name_list_german
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+}
+
+hannoverian = {
+	color = hannoverian
 	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
 	parents = { frankish }
 	
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic
-	language = language_high_german
+	language = language_saxon
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hereditary_hierarchy
-		tradition_astute_diplomats
-		tradition_castle_keepers
+	
 	}
 	
 	name_list = name_list_german

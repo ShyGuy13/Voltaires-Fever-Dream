@@ -91,6 +91,16 @@ c_winterthur = {
 		holder = winterthur1 # Adelheid I
 	}
 }
+c_frauenfeld = {
+	1053.6.18 = {
+		holder = winterthur1 # Adelheid I
+	}
+}
+c_kyburg = {
+	1053.6.18 = {
+		holder = winterthur1 # Adelheid I
+	}
+}
 
 #Basel
 c_basel = {
@@ -120,5 +130,38 @@ c_zurich = {
 c_uri = {
 	1048.1.1 = {
 		holder = lenzburg1 # Arnold I
+	}
+}
+c_schwyz = {
+	1048.1.1 = {
+		holder = lenzburg1 # Arnold I
+	}
+}
+
+#Lausanne
+c_lausanne = {
+	1000.1.1 = { government = theocracy_government }
+	1037.8.31 = {
+		holder = lenzburg2 # Henri II
+	}
+}
+
+#Geneva
+c_geneva = {
+	1000.1.1 = { government = theocracy_government }
+	1030.1.1 = {
+		holder = lausanne_frederic # Frédéric
+	}
+}
+
+#Zähringers
+c_monthey = {
+	1024.1.1 = {
+		holder = zahringen1 # Berthold I
+	}
+}
+c_vaud = {
+	1024.1.1 = {
+		holder = zahringen1 # Berthold I
 	}
 }

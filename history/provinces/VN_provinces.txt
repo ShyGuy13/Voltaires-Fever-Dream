@@ -1621,7 +1621,7 @@
 	holding = none
 }
 321 = { # c_haarlem
-	culture = saxon
+	culture = corsican
 	religion = catholic
 	holding = none
 }
@@ -2162,7 +2162,7 @@
 	holding = none
 }
 428 = { # c_catanzaro
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
@@ -2608,7 +2608,7 @@
 	holding = none
 }
 517 = { # c_campobasso
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
@@ -2668,12 +2668,12 @@
 	holding = none
 }
 529 = { # c_schirmeck
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
 530 = { # c_maursmünster
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
@@ -2863,7 +2863,7 @@
 	holding = none
 }
 568 = { # c_solt
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
@@ -3284,12 +3284,12 @@
 	holding = none
 }
 651 = { # c_methoni
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
 652 = { # c_csákova
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
@@ -3304,7 +3304,7 @@
 	holding = none
 }
 655 = { # c_didymoteikhon
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
@@ -4946,7 +4946,7 @@
 	holding = none
 }
 979 = { # c_canavese
-	culture = saxon
+	culture = corsican
 	religion = catholic
 	holding = none
 }
@@ -5987,12 +5987,12 @@
 	holding = none
 }
 1186 = { # c_monembasia
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
 1187 = { # c_rambouillet
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
@@ -6017,7 +6017,7 @@
 	holding = none
 }
 1192 = { # c_jadraque
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
@@ -6292,7 +6292,7 @@
 	holding = none
 }
 1247 = { # c_gabardan
-	culture = saxon
+	culture = corsican
 	religion = catholic
 	holding = none
 }
@@ -10475,7 +10475,7 @@
 	holding = none
 }
 2089 = { # c_larino
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
@@ -10585,7 +10585,7 @@
 	holding = none
 }
 2111 = { # c_herefordshire
-	culture = saxon
+	culture = corsican
 	religion = catholic
 	holding = none
 }
@@ -11448,7 +11448,7 @@
 	holding = none
 }
 2283 = { # c_fryvaldov
-	culture = saxon
+	culture = corsican
 	religion = catholic
 	holding = none
 }
@@ -11513,7 +11513,7 @@
 	holding = none
 }
 2296 = { # c_sremska mitrovica
-	culture = saxon
+	culture = corsican
 	religion = catholic
 	holding = none
 }
@@ -13621,7 +13621,7 @@
 	holding = none
 }
 2710 = { # c_kutná hora
-	culture = saxon
+	culture = maltese
 	religion = catholic
 	holding = none
 }
@@ -22779,32 +22779,32 @@
 	holding = none
 }
 4535 = { # c_laa
-	culture = saxon
+	culture = corsican
 	religion = catholic
 	holding = none
 }
 4536 = { # c_triebensee
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
 4537 = { # c_grein
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
 4538 = { # c_ybbs
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
 4539 = { # c_raabs
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
 4540 = { # c_rohrbach
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
@@ -23019,7 +23019,7 @@
 	holding = none
 }
 4583 = { # c_at-timimi
-	culture = saxon
+	culture = maltese
 	religion = catholic
 	holding = none
 }
@@ -25958,22 +25958,22 @@
 	holding = none
 }
 5169 = { # c_grocka
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
 5170 = { # c_brvenik
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
 5171 = { # c_hormuz
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }
 5172 = { # c_bijelo polje
-	culture = saxon
+	culture = sardinian
 	religion = catholic
 	holding = none
 }

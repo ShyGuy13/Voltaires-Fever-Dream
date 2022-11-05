@@ -30,7 +30,7 @@
 }
 
 frisian = {
-	color = { 0.7 0.3 0.0 }
+	color = frisian
 	
 	ethos = ethos_stoic
 	heritage = heritage_dutch
@@ -58,7 +58,7 @@ frisian = {
 }
 
 flemish = {
-	color = dutch
+	color = flemish
 	created = 750.1.1 # Frankish settlements in Frisia from the 6th to 8th century
 	parents = { frankish frisian }
 	
@@ -67,10 +67,10 @@ flemish = {
 	language = language_dutch
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_agrarian
-		tradition_parochialism
-		tradition_maritime_mercantilism
+		tradition_astute_diplomats
 		tradition_polders
+		tradition_maritime_mercantilism
+		tradition_stalwart_defenders
 	}
 	
 	name_list = name_list_dutch
@@ -89,7 +89,7 @@ flemish = {
 }
 
 brabantian = {
-	color = dutch
+	color = brabantian
 	created = 750.1.1 # Frankish settlements in Frisia from the 6th to 8th century
 	parents = { frankish frisian }
 	
@@ -98,10 +98,10 @@ brabantian = {
 	language = language_dutch
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_agrarian
-		tradition_parochialism
-		tradition_maritime_mercantilism
+		tradition_swords_for_hire
 		tradition_polders
+		tradition_philosopher_culture
+		tradition_esteemed_hospitality
 	}
 	
 	name_list = name_list_dutch

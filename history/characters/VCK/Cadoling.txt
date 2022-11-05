@@ -2,7 +2,7 @@
 	name = "Gero" # Lotario I of Pistoia
 	dynasty = 240
 	religion = catholic
-	culture = tuscan
+	culture = italian
 	1022.1.1 = { #fic
 		birth = yes
 	}

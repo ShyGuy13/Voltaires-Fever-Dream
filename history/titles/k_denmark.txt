@@ -1,0 +1,21 @@
+#Denmark
+
+#Slesvig
+c_slesvig = {
+	1054.1.1 = {
+		liege = k_denmark
+		holder = astridsunr1 # Oluf I
+	}
+}
+c_amrum = {
+	1054.1.1 = {
+		liege = k_denmark
+		holder = astridsunr1 # Oluf I
+	}
+}
+c_flensburg = {
+	1054.1.1 = {
+		liege = k_denmark
+		holder = astridsunr1 # Oluf I
+	}
+}

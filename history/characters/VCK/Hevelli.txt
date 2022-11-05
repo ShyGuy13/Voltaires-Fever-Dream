@@ -1,0 +1,12 @@
+hevelli1 = {
+	name = "Tadeusz" #fic for 1054
+	dynasty = 256
+	religion = slavic_pagan
+	culture = polabian
+	1005.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = {
+		death = yes
+	}
+}

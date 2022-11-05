@@ -177,7 +177,7 @@ c_ivrea = {
 }
 
 #Tuscany
-d_tuscany = {
+d_toscana = {
 	1052.5.6 = {
 		holder = attoning2 # Frederico I
 	}
@@ -212,6 +212,13 @@ c_san_miniato = {
 c_vernio = {
 	1045.1.1 = {
 		holder = alberti1 # Ildebrando III
+	}
+}
+
+#Bergamo
+c_bergamo = {
+	1054.1.1 = {
+		holder = gisalberting1 # Arduino III
 	}
 }
 

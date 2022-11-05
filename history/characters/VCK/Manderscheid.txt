@@ -1,0 +1,12 @@
+manderscheid1 = {
+	name = "Richard" # Richard I of Manderscheid
+	dynasty = 178
+	religion = catholic
+	culture = moselle_franconian
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	1100.1.1 = { #fic
+		death = yes
+	}
+}

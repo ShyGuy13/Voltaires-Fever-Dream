@@ -1,6 +1,4 @@
-﻿
-
-czech = {
+﻿czech = {
 	color = czech
 	
 	ethos = ethos_bureaucratic
@@ -62,7 +60,7 @@ polish = {
 }
 
 polabian = {
-	color = { 0.4 0.7 0.8 }
+	color = polabian
 	
 	ethos = ethos_stoic
 	heritage = heritage_west_slavic
@@ -90,7 +88,7 @@ polabian = {
 }
 
 slovien = {
-	color = { 0.3 0.6 0.5 }
+	color = slovien
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_west_slavic
@@ -117,7 +115,7 @@ slovien = {
 }
 
 carantanian = {
-	color = { 0.4 0.65 0.4 }
+	color = carantanian
 	
 	ethos = ethos_communal
 	heritage = heritage_west_slavic
@@ -145,12 +143,11 @@ carantanian = {
 
 #mod
 sorbian = {
-	color = { 0.4 0.65 0.4 }
+	color = sorbian
 	
 	ethos = ethos_communal
 	heritage = heritage_west_slavic
-	language = language_south_slavic	#More or less a west slavic group who ended up adopting south slavic languages after the Avars cut off the slavs in the Pannonian basin
-	martial_custom = martial_custom_male_only
+	language = language_south_slavic
 	traditions = {
 		tradition_mountaineer_ruralism
 		tradition_martial_admiration
@@ -172,11 +169,11 @@ sorbian = {
 }
 
 kashubian = {
-	color = { 0.4 0.65 0.4 }
+	color = kashubian
 	
 	ethos = ethos_communal
 	heritage = heritage_west_slavic
-	language = language_south_slavic	#More or less a west slavic group who ended up adopting south slavic languages after the Avars cut off the slavs in the Pannonian basin
+	language = language_south_slavic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_mountaineer_ruralism
@@ -199,11 +196,11 @@ kashubian = {
 }
 
 moravian = {
-	color = { 0.4 0.65 0.4 }
+	color = moravian
 	
 	ethos = ethos_communal
 	heritage = heritage_west_slavic
-	language = language_south_slavic	#More or less a west slavic group who ended up adopting south slavic languages after the Avars cut off the slavs in the Pannonian basin
+	language = language_south_slavic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_mountaineer_ruralism

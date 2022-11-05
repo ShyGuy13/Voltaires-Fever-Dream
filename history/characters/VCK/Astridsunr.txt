@@ -1,0 +1,27 @@
+astridsunr1 = {
+	name = "Oluf" #Oluf I of Schleswig
+	dynasty = 264
+	religion = catholic
+	culture = danish
+	father = astridsunr2
+	trait = legitimized_bastard
+	1050.1.1 = {
+		birth = yes
+	}
+	1095.8.18 = {
+		death = yes
+	}
+}
+
+astridsunr2 = {
+	name = "Svend" #Svend II of Denmark
+	dynasty = 264
+	religion = catholic
+	culture = danish
+	1019.1.1 = {
+		birth = yes
+	}
+	1076.4.28 = {
+		death = yes
+	}
+}

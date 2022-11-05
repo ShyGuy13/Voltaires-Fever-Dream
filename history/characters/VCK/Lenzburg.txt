@@ -10,3 +10,31 @@
 		death = yes
 	}
 }
+
+lenzburg2 = {
+	name = "Henri" #Henri II of Lausanne
+	dynasty = 80
+	religion = catholic
+	culture = arpitan
+	father = lenzburg3
+	994.1.1 = { #fic
+		birth = yes
+	}
+	1056.1.16 = {
+		death = yes
+	}
+}
+
+lenzburg3 = {
+	name = "Ulrich" #Ulrich I of Lausanne
+	dynasty = 80
+	religion = catholic
+	culture = arpitan
+	970.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_rich
+	}
+	1053.8.23 = {
+		death = yes
+	}
+}

@@ -1,0 +1,12 @@
+warnabi1 = {
+	name = "Wiczan" #fic for 1054
+	dynasty = 258
+	religion = slavic_pagan
+	culture = polabian
+	1018.1.1 = {
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}

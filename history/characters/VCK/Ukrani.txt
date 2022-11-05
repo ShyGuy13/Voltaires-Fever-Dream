@@ -1,0 +1,12 @@
+ukrani1 = {
+	name = "Marek" #fic for 1054
+	dynasty = 262
+	religion = slavic_pagan
+	culture = polabian
+	1011.1.1 = {
+		birth = yes
+	}
+	1088.1.1 = {
+		death = yes
+	}
+}

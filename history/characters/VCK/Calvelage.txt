@@ -1,0 +1,12 @@
+calvelage1 = {
+	name = "Hermann" # Hermann I of Calvelage
+	dynasty = 277
+	religion = catholic
+	culture = hannoverian
+	1031.1.1 = { #fic
+		birth = yes
+	}
+	1082.1.1 = {
+		death = yes
+	}
+}

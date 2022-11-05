@@ -353,11 +353,50 @@ basel_theoderich = {
 siena_giovanni_2 = {
 	name = "Giovanni" #Giovanni I
 	religion = catholic
-	culture = tuscan
+	culture = italian
 	999.1.1 = { #fic
 		birth = yes
 	}
 	1063.1.1 = {
+		death = yes
+	}
+}
+
+#Lausanne
+lausanne_frederic = {
+	name = "Frédéric" #Frédéric I
+	religion = catholic
+	culture = arpitan
+	1004.1.1 = { #fic
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+
+#Lyon
+lyon_humbert = {
+	name = "Humbert" #Humbert I
+	religion = catholic
+	culture = arpitan
+	994.1.1 = { #fic
+		birth = yes
+	}
+	1056.1.1 = {
+		death = yes
+	}
+}
+
+#Kornelimünster
+kornelimunster_libertus = {
+	name = "Libertus" # Libertus I
+	religion = catholic
+	culture = arpitan
+	991.1.1 = { #fic
+		birth = yes
+	}
+	1064.1.1 = { #fic
 		death = yes
 	}
 }

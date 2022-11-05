@@ -1,0 +1,12 @@
+everstein1 = {
+	name = "Gumbert" # Gumbert I of Everstein
+	dynasty = 270
+	religion = catholic
+	culture = eastphalian
+	1029.1.1 = { #fic
+		birth = yes
+	}
+	1095.1.1 = { f#ic
+		death = yes
+	}
+}

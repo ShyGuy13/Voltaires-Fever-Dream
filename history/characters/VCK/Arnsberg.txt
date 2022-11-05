@@ -1,0 +1,82 @@
+arnsberg1 = {
+	name = "Bernhard" # Bernhard II of Arnsberg
+	dynasty = 135
+	religion = catholic
+	culture = hannoverian
+	father = arnsberg5
+	1010.1.1 = { #est
+		birth = yes
+	}
+	1070.1.1 = { #est
+		death = yes
+	}
+}
+
+arnsberg2 = {
+	name = "Heinrich" # bishop of Paderborn
+	dynasty = 135
+	religion = catholic
+	culture = hannoverian
+	father = arnsberg1
+	1050.1.1 = { #est
+		birth = yes
+	}
+	1127.10.14 = {
+		death = yes
+	}
+}
+
+arnsberg3 = {
+	name = "Konrad" # Konrad II of Arnsberg
+	dynasty = 135
+	religion = catholic
+	culture = hannoverian
+	father = arnsberg1
+	1047.1.1 = { #est
+		birth = yes
+	}
+	1092.1.1 = {
+		death = yes
+	}
+}
+
+arnsberg4 = {
+	name = "Ludolf" # Ludolf of Werl
+	dynasty = 135
+	religion = catholic
+	culture = hannoverian
+	father = arnsberg1
+	1053.1.1 = { #fic
+		birth = yes
+	}
+	1102.1.1 = { #retires
+		death = yes
+	}
+}
+
+arnsberg5 = {
+	name = "Hermann" # Hermann II of Arnsberg
+	dynasty = 135
+	religion = catholic
+	culture = hannoverian
+	father = arnsberg6
+	980.1.1 = { #est
+		birth = yes
+	}
+	1025.1.1 = { #est
+		death = yes
+	}
+}
+
+arnsberg6 = {
+	name = "Hermann" # Hermann I of Arnsberg
+	dynasty = 135
+	religion = catholic
+	culture = hannoverian
+	945.1.1 = { #est
+		birth = yes
+	}
+	985.1.1 = { #est
+		death = yes
+	}
+}

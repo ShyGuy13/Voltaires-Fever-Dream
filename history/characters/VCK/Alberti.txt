@@ -2,7 +2,7 @@
 	name = "Ildebrando" # Ildebrando III of Vernio
 	dynasty = 239
 	religion = catholic
-	culture = tuscan
+	culture = italian
 	1008.1.1 = { #fic
 		birth = yes
 	}

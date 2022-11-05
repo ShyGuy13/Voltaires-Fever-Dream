@@ -1,0 +1,12 @@
+rujani1 = {
+	name = "Gryn"
+	dynasty = 261
+	religion = slavic_pagan
+	culture = polabian
+	1019.1.1 = { #fic
+		birth = yes
+	}
+	1093.1.1 = { #fic
+		death = yes
+	}
+}

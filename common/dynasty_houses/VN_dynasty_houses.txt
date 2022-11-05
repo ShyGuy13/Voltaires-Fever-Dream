@@ -33,3 +33,15 @@ house_thiers = {
 	name = "dynn_Thiers"
 	dynasty = 244 # Auvergne
 }
+
+house_orlamunde = {
+	prefix = "dynnp_von"
+	name = "dynn_Orlamunde"
+	dynasty = 4 # Weimar
+}
+
+house_salm = {
+	prefix = "dynnp_von"
+	name = "dynn_Salm"
+	dynasty = 82 # Luxemburg
+}

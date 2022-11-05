@@ -1,0 +1,26 @@
+groitzsch1 = {
+	name = "Wiprecht" #Wiprecht I of Leisnig
+	dynasty = 269
+	religion = catholic
+	culture = saxon
+	1016.1.1 = { #fic
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+
+groitzsch2 = {
+	name = "Wiprecht" #Wiprecht II of Leisnig
+	dynasty = 269
+	religion = catholic
+	culture = saxon
+	father = groitzsch1
+	1050.1.1 = { #est
+		birth = yes
+	}
+	1124.5.22 = {
+		death = yes
+	}
+}

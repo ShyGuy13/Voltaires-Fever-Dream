@@ -1,6 +1,6 @@
 ﻿#mod
 slovenian = {
-	color = { 0.7 0.5 0.5 }
+	color = slovenian
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_south_slavic

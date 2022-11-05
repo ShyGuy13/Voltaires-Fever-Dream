@@ -322,3 +322,18 @@ c_viviers = {
 		holder = viviers_gerard # Gérard
 	}
 }
+
+#Lyon
+c_lyon = {
+	1000.1.1 = { government = theocracy_government }
+	1052.7.29 = {
+		holder = lyon_humbert # Humbert I
+	}
+}
+
+#Salm
+c_salm = {
+	1047.10.16 = {
+		holder = salm1 # Hermann I
+	}
+}

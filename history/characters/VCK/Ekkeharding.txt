@@ -1,0 +1,43 @@
+ekkeharding1 = {
+	name = "Ekkehard" # Ekkehard II of Meissen
+	dynasty = 275
+	religion = catholic
+	culture = thuringian
+	father = ekkeharding2
+	985.1.1 = {
+		birth = yes
+	}
+	1046.1.24 = {
+		death = yes
+	}
+}
+
+ekkeharding2 = {
+	name = "Ekkehard" # Ekkehard I of Meissen
+	dynasty = 275
+	religion = catholic
+	culture = thuringian
+	960.1.1 = { #est
+		birth = yes
+	}
+	1002.4.30 = {
+		death = {
+			death_reason = death_raid_killer
+			#killer = Siegfried von Northeim
+		}
+	}
+}
+
+ekkeharding3 = {
+	name = "Hermann" # Hermann I of Meissen
+	dynasty = 275
+	religion = catholic
+	culture = thuringian
+	father = ekkeharding2
+	980.1.1 = {
+		birth = yes
+	}
+	1038.11.1 = {
+		death = yes
+	}
+}

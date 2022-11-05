@@ -2,7 +2,7 @@
 	name = "Adalberto" # Adalberto VI of Massa
 	dynasty = 241
 	religion = catholic
-	culture = tuscan
+	culture = italian
 	1015.1.1 = { #fic
 		birth = yes
 	}

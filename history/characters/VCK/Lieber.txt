@@ -1,0 +1,12 @@
+lieber1 = {
+	name = "Dietrich" #fic for Ulm in 1054
+	dynasty = 274
+	religion = catholic
+	culture = swabian
+	1010.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}

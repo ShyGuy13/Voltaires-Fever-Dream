@@ -1,0 +1,12 @@
+rossberg1 = {
+	name = "Saracho" # Saracho I of Corvey
+	dynasty = 276
+	culture = eastphalian
+	religion = catholic
+	1010.1.1 = { #est
+		birth = yes
+	}
+	1071.1.9 = {
+		death = yes
+	}
+}

@@ -71,6 +71,19 @@
 
 22 = c_leuchtenburg # Leuchtenberg
 
+24 = { # Reginoboding (fictional - based on Königssondergau/Wiesbaden)
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_fleur.dds"
+		color1 = "yellow"
+		instance = { position = { 0.315 0.29 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.685 0.29 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.5 0.68 } scale = { 0.45 0.45 }  }
+	}
+}
+
 25 = c_pappenheim # Pappenheim
 
 26 = d_nordgau
@@ -673,12 +686,23 @@
 	}
 }
 
-
 180 = c_vianden # Vianden
 
 181 = c_wied # Wied
 
 182 = c_arenberg # Arenberg
+
+185 = { # Nakoning
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_griffin_rampant.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}	
+}
 
 186 = d_upper_lorraine # Gerharding
 
@@ -734,29 +758,29 @@
 
 200 = c_enghein # Enghien
 
-201 = { # Banû Zîrî
-	pattern = "pattern_solid.dds"
-	color1 = "green"
-	color2 = "green"
-}
+# 201 = { # Banû Zîrî
+# 	pattern = "pattern_solid.dds"
+# 	color1 = "green"
+# 	color2 = "green"
+# }
 
-202 = { # Banû Timnah
-	pattern = "pattern_solid.dds"
-	color1 = "green"
-	color2 = "green"
-}
+# 202 = { # Banû Timnah
+# 	pattern = "pattern_solid.dds"
+# 	color1 = "green"
+# 	color2 = "green"
+# }
 
-203 = { # Banû Mankut
-	pattern = "pattern_solid.dds"
-	color1 = "green"
-	color2 = "green"
-}
+# 203 = { # Banû Mankut
+# 	pattern = "pattern_solid.dds"
+# 	color1 = "green"
+# 	color2 = "green"
+# }
 
-204 = { # Banû ‘Awwâs
-	pattern = "pattern_solid.dds"
-	color1 = "green"
-	color2 = "green"
-}
+# 204 = { # Banû ‘Awwâs
+# 	pattern = "pattern_solid.dds"
+# 	color1 = "green"
+# 	color2 = "green"
+# }
 
 205 = c_cuijk # Cuijk
 
@@ -853,6 +877,8 @@
 	}
 }
 
+# 220 # Banû ‘Abd Allâh
+
 221 = { #Cinarca
 	pattern = "pattern_solid.dds"
 	color1 = "red"
@@ -944,6 +970,8 @@
 243 = c_chalon # Chalon
 
 245 = c_macon # Mâcon
+
+246 = c_steinfurt # Steinfurt
 
 247 = { # Steußlingen
 	pattern = "pattern_solid.dds"
@@ -1711,3 +1739,5 @@ house_eppan = { # needs a banner
 }
 
 house_ivrea = c_ivrea # Ivrea
+
+house_mecklenburg = d_mecklenburg

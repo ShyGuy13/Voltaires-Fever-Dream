@@ -1,0 +1,6 @@
+#HRE
+e_hre = {
+	1039.6.4 = {
+		holder = salier3 # Heinrich III
+	}
+}

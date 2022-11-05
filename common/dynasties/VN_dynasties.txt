@@ -566,7 +566,7 @@
 }
 119 = {
 	name = "dynn_Attoning"
-	culture = tuscan
+	culture = italian
 }
 120 = {
 	name = "dynn_Wigeriching"
@@ -598,7 +598,7 @@
 }
 126 = {
 	name = "dynn_Aleraming"
-	culture = piedmontese
+	culture = cisalpine
 }
 127 = {
 	prefix = "dynnp_von"
@@ -1101,7 +1101,7 @@
 }
 231 = {
 	prefix = "dynnp_de"
-	name = "dynn_Baugé"
+	name = "dynn_Bauge"
 	culture = arpitan
 }
 232 = {
@@ -1131,7 +1131,7 @@
 }
 237 = {
 	name = "dynn_Arduining"
-	culture = piedmontese
+	culture = cisalpine
 }
 238 = {
 	name = "dynn_Rodoalding"
@@ -1140,15 +1140,15 @@
 239 = {
 	prefix = "dynnp_degli"
 	name = "dynn_Alberti"
-	culture = tuscan
+	culture = italian
 }
 240 = {
 	name = "dynn_Cadoling"
-	culture = tuscan
+	culture = italian
 }
 241 = {
 	name = "dynn_Oberting"
-	culture = tuscan
+	culture = italian
 }
 242 = {
 	prefix = "dynnp_von"
@@ -1167,7 +1167,7 @@
 }
 245 = {
 	prefix = "dynnp_de"
-	name = "dynn_Mâcon"
+	name = "dynn_Macon"
 	culture = burgundian
 }
 246 = {
@@ -1177,7 +1177,7 @@
 }
 247 = {
 	prefix = "dynnp_von"
-	name = "dynn_Steußlingen"
+	name = "dynn_Steusslingen"
 	culture = thuringian
 }
 248 = {
@@ -1191,88 +1191,124 @@
 	culture = franconian
 }
 250 = {
-	
+	name = "dynn_Chyzani"
+	culture = polabian
 }
 251 = {
-	
+	name = "dynn_Wagiri"
+	culture = polabian
 }
 252 = {
-	
+	name = "dynn_Linoni"
+	culture = polabian
 }
 253 = {
-	
+	name = "dynn_Tolenzi"
+	culture = polabian
 }
 254 = {
-	
+	name = "dynn_Liezizi"
+	culture = polabian
 }
 255 = {
-	
+	name = "dynn_Chyzani"
+	culture = polabian
 }
 256 = {
-	
+	name = "dynn_Hevelli"
+	culture = polabian
 }
 257 = {
-	
+	name = "dynn_Murizzi"
+	culture = polabian
 }
 258 = {
-	
+	name = "dynn_Warnabi"
+	culture = polabian
 }
 259 = {
-	
+	name = "dynn_Riaciani"
+	culture = polabian
 }
 260 = {
-	
+	name = "dynn_Sprevani"
+	culture = polabian
 }
 261 = {
-	
+	name = "dynn_Rujani"
+	culture = polabian
 }
 262 = {
-	
+	name = "dynn_Ukrani"
+	culture = polabian
 }
 263 = {
-	
+	name = "dynn_Circipani"
+	culture = polabian
 }
 264 = {
-	
+	name = "dynn_Astridsunr"
+	culture = danish
 }
 265 = {
-	
+	name = "dynn_Hardradeatta"
+	culture = norwegian
 }
 266 = {
-	
+	name = "dynn_Velunzani"
+	culture = kashubian
 }
 267 = {
-	
+	name = "dynn_Polabi"
+	culture = polabian
 }
 268 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Spiegelberg"
+	culture = eastphalian
 }
 269 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Groitzsch"
+	culture = saxon
 }
 270 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Everstein"
+	culture = eastphalian
 }
 271 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Schwalenberg"
+	culture = eastphalian
 }
 272 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Woldenburg"
+	culture = eastphalian
 }
 273 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Supplingenburg"
+	culture = eastphalian
 }
 274 = {
-	
+	name = "dynn_Lieber"
+	culture = swabian
 }
 275 = {
-	
+	name = "dynn_Ekkeharding"
+	culture = thuringian
 }
 276 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Rossdorf"
+	culture = eastphalian
 }
 277 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Calvelage"
+	culture = hannoverian
 }
 278 = {
 	

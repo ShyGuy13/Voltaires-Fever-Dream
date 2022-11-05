@@ -217,3 +217,17 @@ reginaring15 = {
 		death = yes
 	}
 }
+
+reginaring16 = {
+	name = "Adela" # wife of Otto I of Orlamünde
+	dynasty = 195
+	religion = catholic
+	culture = brabantian
+	father = reginaring9
+	1028.1.1 = { #fic
+		birth = yes
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}

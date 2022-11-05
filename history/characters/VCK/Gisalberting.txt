@@ -1,0 +1,12 @@
+gisalberting1 = {
+	name = "Arduino" #Arduino III of Bergamo
+	dynasty = 112
+	religion = catholic
+	culture = lombard
+	1002.1.1 = { #fic
+		birth = yes
+	}
+	1064.1.1 = {
+		death = yes
+	}
+}

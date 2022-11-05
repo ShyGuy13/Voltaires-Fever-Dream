@@ -1,0 +1,12 @@
+wagiri1 = {
+	name = "Krut" #fic for 1054
+	dynasty = 251
+	religion = slavic_pagan
+	culture = polabian
+	1012.1.1 = {
+		birth = yes
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}

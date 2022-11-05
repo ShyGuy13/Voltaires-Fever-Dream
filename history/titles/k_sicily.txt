@@ -295,6 +295,11 @@ c_kirkent = {
 		holder = awwas1 # Ali
 	}
 }
+c_castrogiovanni = {
+	1053.1.1 = {
+		holder = awwas1 # Ali
+	}
+}
 
 #Gaeta
 c_gaeta = {
@@ -313,6 +318,16 @@ c_benevento = {
 
 #Palermo
 c_palermo = {
+	1053.1.1 = {
+		holder = ziri1 # Ayyûb I
+	}
+}
+c_messina = {
+	1053.1.1 = {
+		holder = ziri1 # Ayyûb I
+	}
+}
+c_catania = {
 	1053.1.1 = {
 		holder = ziri1 # Ayyûb I
 	}

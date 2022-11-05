@@ -23,3 +23,33 @@
 		10 = mediterranean_byzantine
 	}
 }
+
+#mod
+griko = {
+	color = griko
+	created = 800.1.1
+	parents = { greek lombard }
+
+	ethos = ethos_communal
+	heritage = heritage_byzantine
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_legalistic
+		tradition_maritime_mercantilism
+		tradition_formation_fighting
+		tradition_court_eunuchs
+	}
+	
+	name_list = name_list_greek
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		6 = mediterranean
+	}
+}

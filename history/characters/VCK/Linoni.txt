@@ -1,0 +1,12 @@
+linoni1 = {
+	name = "FrantiS_ek" #fic for 1054
+	dynasty = 252
+	religion = slavic_pagan
+	culture = polabian
+	1008.1.1 = {
+		birth = yes
+	}
+	1062.1.1 = {
+		death = yes
+	}
+}

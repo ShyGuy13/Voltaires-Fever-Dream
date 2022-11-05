@@ -4,3 +4,15 @@ c_brno = {
 		holder = premyslovci4 # Konrád I
 	}
 }
+
+#Bohemia
+c_praha = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_boleslav = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}

@@ -1,0 +1,20 @@
+k_papal_state = {
+	100.1.1 = { government = theocracy_government }
+	1054.4.19 = {
+		holder = pope_victor_2
+	}
+}
+
+c_vaticano = {
+	100.1.1 = { government = theocracy_government }
+	1054.4.19 = {
+		holder = pope_victor_2
+	}
+}
+
+c_roma = {
+	100.1.1 = { government = theocracy_government }
+	1054.4.19 = {
+		holder = pope_victor_2
+	}
+}

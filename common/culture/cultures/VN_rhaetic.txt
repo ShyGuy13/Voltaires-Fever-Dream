@@ -1,5 +1,5 @@
 friulan = {
-	color = italian
+	color = friulan
 
 	parents = { venetian }
 
@@ -28,7 +28,7 @@ friulan = {
 }
 
 romansch = {
-	color = italian
+	color = romansch
 
 	parents = { roman }
 
@@ -42,6 +42,7 @@ romansch = {
 		tradition_isolationist
 		tradition_mountain_homes
 		tradition_agrarian
+		tradition_stalwart_defenders 
 	}
 	dlc_tradition = {
 		trait = tradition_staunch_traditionalists
@@ -64,7 +65,7 @@ romansch = {
 }
 
 ladin = {
-	color = italian
+	color = ladin
 
 	parents = { roman }
 
@@ -78,6 +79,7 @@ ladin = {
 		tradition_isolationist
 		tradition_esteemed_hospitality
 		tradition_industrious
+		tradition_mountain_homes
 	}
 	
 	name_list = name_list_ladin

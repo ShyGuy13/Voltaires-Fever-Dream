@@ -1,12 +1,11 @@
-﻿#mod cultures
-maghrebi = {
-	color = { 0.1 0.6 0.1 }
+﻿maghrebi = {
+	color = maghrebi
 	created = 600.1.1
-	parents = { bedouin baranis }
+	#parents = { bedouin baranis }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_arabic
-	language = language_arabic
+	language = language_darja
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_xenophilic

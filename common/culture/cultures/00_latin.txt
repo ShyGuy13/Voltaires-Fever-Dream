@@ -1,4 +1,4 @@
-﻿italian = {
+﻿italian = { # tuscan
 	color = italian
 
 	parents = { roman }
@@ -28,7 +28,7 @@
 }
 
 roman = {
-	color = { 0.8 0.1 0.1 }
+	color = roman
 	
 	ethos = ethos_bellicose
 	heritage = heritage_latin
@@ -55,8 +55,8 @@ roman = {
 	}
 }
 
-cisalpine = {
-	color = { 0.95 0.95 0.55 }
+cisalpine = { #piedmontese
+	color = cisalpine
 
 	created = 800.1.1
 
@@ -113,7 +113,7 @@ sardinian = {
 }
 
 sicilian = {
-	color = { 0.65 0.65 0.2 }
+	color = sicilian
 
 	parents = { lombard greek }
 
@@ -144,7 +144,7 @@ sicilian = {
 }
 
 lombard = { #Italo-Lombards
-	color = { 0.8 0.8 0.5 }
+	color = lombard
 
 	created = 650.1.1
 
@@ -205,37 +205,7 @@ langobard = { #Germanic Ancestor culture
 
 #mod
 venetian = {
-	color = langobard
-	
-	ethos = ethos_stoic
-	heritage = heritage_central_germanic
-	language = language_central_germanic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_isolationist
-		tradition_martial_admiration
-		tradition_stand_and_fight
-	}
-	
-	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_lombard
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-	ethnicities = {
-		10 = mediterranean
-	}
-}
-
-piedmontese = {
-	color = langobard
+	color = venetian
 	
 	ethos = ethos_stoic
 	heritage = heritage_central_germanic
@@ -265,7 +235,7 @@ piedmontese = {
 }
 
 maltese = {
-	color = langobard
+	color = maltese
 	
 	ethos = ethos_stoic
 	heritage = heritage_central_germanic
@@ -295,36 +265,7 @@ maltese = {
 }
 
 corsican = {
-	color = italian
-
-	parents = { roman }
-
-	created = 476.11.4
-	
-	ethos = ethos_spiritual
-	heritage = heritage_latin
-	language = language_italian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_formation_fighting
-		tradition_republican_legacy
-		tradition_poetry
-	}
-	
-	name_list = name_list_italian
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-	ethnicities = {
-		10 = mediterranean
-	}
-}
-
-tuscan = {
-	color = italian
+	color = corsican
 
 	parents = { roman }
 
@@ -353,7 +294,7 @@ tuscan = {
 }
 
 emilian = {
-	color = { 0.65 0.65 0.2 }
+	color = emilian
 
 	parents = { lombard greek }
 
@@ -384,7 +325,7 @@ emilian = {
 }
 
 ligurian = {
-	color = { 0.65 0.65 0.2 }
+	color = ligurian
 
 	parents = { lombard greek }
 
@@ -400,6 +341,64 @@ ligurian = {
 		tradition_ruling_caste
 		tradition_poetry
 		tradition_republican_legacy
+	}
+	
+	name_list = name_list_sicilian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}	
+}
+
+neapolitan = {
+	color = neapolitan
+
+	parents = { lombard greek }
+
+	created = 950.1.1
+	
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_xenophilic
+		tradition_swords_for_hire
+		tradition_ruling_caste
+		tradition_poetry
+		tradition_republican_legacy
+	}
+	
+	name_list = name_list_sicilian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}	
+}
+
+romagnan = {
+	color = romagnan
+
+	parents = { lombard greek }
+
+	created = 950.1.1
+	
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		
 	}
 	
 	name_list = name_list_sicilian

@@ -2,7 +2,7 @@ ivrea1 = {
 	name = "Guido" # Guido I of Ivrea
 	dynasty_house = house_ivrea
 	religion = catholic
-	culture = piedmontese
+	culture = cisalpine
 	1030.1.1 = { #est
 		birth = yes
 	}
