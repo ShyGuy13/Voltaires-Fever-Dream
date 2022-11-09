@@ -1,3 +1,13 @@
+#Lombardy / Imperial Italy
+k_italy = {
+	950.11.22 = {
+		holder = anskaring24 # Arduin of Ivrea
+	}
+	965.1.1 = {
+		holder = 0
+	}
+}
+
 #Trent
 c_trent = {
 	1006.1.1 = {
@@ -106,6 +116,11 @@ c_savona = {
 		holder = vasto1 # Ottone I
 	}
 }
+c_finale = {
+	1050.1.1 = {
+		holder = vasto1 # Ottone I
+	}
+}
 
 #Ravenna
 c_ravenna = {
@@ -172,7 +187,7 @@ c_ceva = {
 #Ivrea
 c_ivrea = {
 	1041.1.1 = {
-		holder = ivrea1 # Guido I
+		holder = anskaring23 # Guido I
 	}
 }
 
@@ -208,6 +223,39 @@ c_san_miniato = {
 	}
 }
 
+#Mantua
+c_mantua = {
+	1052.5.6 = {
+		holder = attoning2 # Frederico I
+	}
+}
+
+#Modena
+c_modena = {
+	1052.5.6 = {
+		holder = attoning2 # Frederico I
+	}
+}
+
+#Reggio
+c_reggio = {
+	1052.5.6 = {
+		holder = attoning2 # Frederico I
+	}
+}
+c_frignano = {
+	1052.5.6 = {
+		holder = attoning2 # Frederico I
+	}
+}
+
+#Ferrara
+c_ferrara = {
+	1052.5.6 = {
+		holder = attoning2 # Frederico I
+	}
+}
+
 #Vernio
 c_vernio = {
 	1045.1.1 = {
@@ -217,6 +265,16 @@ c_vernio = {
 
 #Bergamo
 c_bergamo = {
+	1054.1.1 = {
+		holder = gisalberting1 # Arduino III
+	}
+}
+c_edolo = {
+	1054.1.1 = {
+		holder = gisalberting1 # Arduino III
+	}
+}
+c_sondrio = {
 	1054.1.1 = {
 		holder = gisalberting1 # Arduino III
 	}
@@ -236,10 +294,126 @@ c_massa = {
 	}
 }
 
-#Siena
-c_siena = {
-	1000.1.1 = { government = theocracy_government }
-	1037.1.1 = {
-		holder = siena_giovanni_2 # Giovanni II
+#Seprio
+c_como = {
+	1043.1.1 = {
+		holder = supponing1 # Vifredo II
+	}
+}
+c_ticino = {
+	1043.1.1 = {
+		holder = supponing1 # Vifredo II
+	}
+}
+
+#Sovana
+c_sovana = {
+	1034.1.1 = {
+		holder = aldobrandeschi1 # Ildebrando V
+	}
+}
+c_suvereto = {
+	1034.1.1 = {
+		holder = aldobrandeschi1 # Ildebrando V
+	}
+}
+
+#Novara
+c_novara = {
+	1025.1.1 = {
+		holder = confalonieri1 # Guido I
+	}
+}
+c_verbania = {
+	1025.1.1 = {
+		holder = confalonieri1 # Guido I
+	}
+}
+
+#Spoleto
+d_spoleto = {
+	1037.5.29 = {
+		holder = hucpolding1 # Ugo III
+	}
+}
+c_spoleto = {
+	1037.5.29 = {
+		holder = hucpolding1 # Ugo III
+	}
+}
+c_assisi = {
+	1037.5.29 = {
+		holder = hucpolding1 # Ugo III
+	}
+}
+c_aquila = {
+	1037.5.29 = {
+		holder = hucpolding1 # Ugo III
+	}
+}
+
+#Tusculum
+c_orbetello = {
+	1044.1.1 = {
+		holder = tuscolo1 # Gregorio II
+	}
+}
+
+#Cremona
+c_cremona = {
+	1054.1.1 = {
+		holder = ugoning1 # Ugo II
+	}
+}
+
+#Genoa
+k_genoa = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = spinola1 # Andrea I
+	}
+}
+d_genoa = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = spinola1 # Andrea I
+	}
+}
+c_genoa = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = spinola1 # Andrea I
+	}
+}
+c_spezia = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = spinola1 # Andrea I
+	}
+}
+
+#Pisa
+k_pisa = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = orlandi1 # Giovanni
+	}
+}
+d_pisa = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = orlandi1 # Giovanni
+	}
+}
+c_pisa = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = orlandi1 # Giovanni
+	}
+}
+c_livorno = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = orlandi1 # Giovanni
 	}
 }

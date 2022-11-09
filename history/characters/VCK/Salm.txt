@@ -4,7 +4,7 @@ salm1 = {
 	culture = lorrainian
 	religion = catholic
 	father = luxemburg4
-	1035.1.1 = { #est
+	1039.1.1 = { #est
 		birth = yes
 	}
 	1088.9.28 = {

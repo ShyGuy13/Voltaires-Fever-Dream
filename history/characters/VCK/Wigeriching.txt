@@ -4,6 +4,7 @@
 	dynasty = 120
 	religion = catholic
 	culture = lorrainian
+	father = wigeriching14
 	1018.1.1 = {
 		birth = yes
 	}
@@ -171,6 +172,62 @@ wigeriching12 = {
 		birth = yes
 	}
 	1110.1.1 = { #fic
+		death = yes
+	}
+}
+
+wigeriching13 = {
+	name = "Béatrice" # wife of Bonifatius of Tuscany
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching14
+	1020.1.1 = { #est
+		birth = yes
+	}
+	1076.4.18 = {
+		death = yes
+	}
+}
+
+wigeriching14 = {
+	name = "Frédéric" # Frédéric II of Upper Lorraine
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching16
+	994.1.1 = { #est
+		birth = yes
+	}
+	1026.1.1 = {
+		death = yes
+	}
+}
+
+wigeriching15 = {
+	name = "Frédéric" # Frédéric III of Upper Lorraine
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching14
+	1022.1.1 = { #est
+		birth = yes
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+
+wigeriching16 = {
+	name = "Thierry" # Thierry I of Upper Lorraine
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	965.1.1 = { #est
+		birth = yes
+	}
+	1026.4.11 = {
 		death = yes
 	}
 }

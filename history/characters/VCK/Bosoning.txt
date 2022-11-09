@@ -63,6 +63,8 @@ bosoning5 = {
 	1030.1.1 = { #fic
 		birth = yes
 	}
+	#first wife Theresa of Aragon
+	#second wife Adelaide of Ivrea anskaring27
 	1094.7.28 = {
 		death = yes
 	}

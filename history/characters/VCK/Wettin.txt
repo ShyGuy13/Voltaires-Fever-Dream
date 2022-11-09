@@ -3,6 +3,7 @@
 	dynasty = 102
 	religion = catholic
 	culture = saxon
+	father = wettin7
 	1020.1.1 = {
 		birth = yes
 	}
@@ -26,6 +27,108 @@ wettin2 = {
 		birth = yes
 	}
 	1072.3.16 = {
+		death = yes
+	}
+}
+
+wettin3 = {
+	name = "Dedo" # Dedo I of Lausitz
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	father = wettin7
+	1004.1.1 = {
+		birth = yes
+	}
+	1075.10.1 = {
+		death = yes
+	}
+}
+
+wettin4 = {
+	name = "Dedo" # Dedo II of Lausitz
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	father = wettin3
+	1026.1.1 = {
+		birth = yes
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+
+wettin5 = {
+	name = "Adelaide" # wife of Ernst of Austria
+	female = yes
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	father = wettin3
+	1030.1.1 = {
+		birth = yes
+	}
+	1071.1.26 = {
+		death = yes
+	}
+}
+
+wettin6 = {
+	name = "Agnes" # 
+	female = yes
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	father = wettin3
+	1034.1.1 = { #fic
+		birth = yes
+	}
+	1082.1.1 = {  #fic
+		death = yes
+	}
+}
+
+wettin7 = {
+	name = "Dietrich" # Dietrich I of Lausitz
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	987.1.1 = {
+		birth = yes
+	}
+	1034.11.19 = {
+		death = yes
+	}
+}
+
+wettin8 = {
+	name = "Friedrich" # bishop of Münster
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	trait = devoted
+	father = wettin7
+	1017.1.1 = { #est
+		birth = yes
+		employer = magdeburg_engelhard
+	}
+	1084.4.18 = {
+		death = yes
+	}
+}
+
+wettin9 = {
+	name = "Thimo" # Thimo I of Wettin
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	father = wettin7
+	1016.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_brave
+	}
+	1091.3.9 = {
 		death = yes
 	}
 }

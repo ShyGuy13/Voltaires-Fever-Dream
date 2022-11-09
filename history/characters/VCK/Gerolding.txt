@@ -1,0 +1,26 @@
+gerolding1 = {
+	name = "Gérold" # Gérold I of Genf
+	dynasty = 282
+	culture = arpitan
+	religion = catholic
+	1014.1.1 = { #est
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+
+gerolding2 = {
+	name = "Conon" # Conon I of Genf
+	dynasty = 282
+	culture = arpitan
+	religion = catholic
+	father = gerolding1
+	1039.1.1 = { #fic
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}

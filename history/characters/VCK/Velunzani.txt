@@ -1,0 +1,12 @@
+velunzani1 = {
+	name = "Wawrzyniec " #fic for 1054
+	dynasty= 266
+	culture = kashubian
+	religion = slavic_pagan
+	1009.1.1 = { #fic
+		birth = yes
+	}
+	1072.1.1 = { #fic
+		death = yes
+	}
+}

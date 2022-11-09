@@ -3,10 +3,11 @@
 	dynasty = 158
 	religion = catholic
 	culture = pfalzish
-	990.1.1 = { #fic
+	father = dagsburg3
+	1016.1.1 = { #fic
 		birth = yes
 	}
-	1065.1.1 = {
+	1065.6.28 = {
 		death = yes
 	}
 }
@@ -17,10 +18,66 @@ dagsburg2 = {
 	dynasty = 158
 	religion = catholic
 	culture = pfalzish
+	father = dagsburg5
 	1025.1.1 = {
 		birth = yes
 	}
 	1095.2.4 = {
+		death = yes
+	}
+}
+
+dagsburg3 = {
+	name = "Hugo" # Hugo VII of Dagsburg
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg4
+	992.1.1 = { #fic
+		birth = yes
+	}
+	1049.1.1 = {
+		death = yes
+	}
+}
+
+dagsburg4 = {
+	name = "Hugo" # Hugo VI of Dagsburg & Egisheim
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	945.1.1 = { #fic
+		birth = yes
+	}
+	1012.1.1 = { #fic
+		death = yes
+	}
+}
+
+dagsburg5 = {
+	name = "Gerhard" # Gerhard I of Egisheim
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg4
+	988.1.1 = { #fic
+		birth = yes
+	}
+	1038.1.1 = {
+		death = yes
+	}
+}
+
+dagsburg6 = {
+	name = "Leo" # pope Leo IX - Bruno
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg4
+	1002.6.21 = { #fic
+		birth = yes
+	}
+	1054.4.16 = {
 		death = yes
 	}
 }

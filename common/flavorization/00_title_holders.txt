@@ -1,5 +1,2389 @@
-﻿ #Default Clan tiers
- baron_clan_male = {
+﻿# Special Titles
+ecumenical_patriarch = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 301
+	titles = { k_orthodox }
+	top_liege = no
+}
+
+ecumenical_matriarch = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 301
+	titles = { k_orthodox }
+	top_liege = no
+}
+
+caliph = {
+	type = character
+	gender = male
+	special = holder
+	priority = 301
+	titles = { d_sunni d_shiite }
+	top_liege = no
+}
+
+# Religious Titles
+head_of_faith_male = {
+	type = character
+	gender = male
+	special = head_of_faith
+	priority = 300
+	top_liege = no
+}
+
+head_of_faith_female = {
+	type = character
+	gender = female
+	special = head_of_faith
+	priority = 300
+	top_liege = no
+}
+
+realm_priest_male = {
+	type = character
+	gender = male
+	special = councillor
+	priority = 299
+	council_position = councillor_court_chaplain
+}
+
+realm_priest_female = {
+	type = character
+	gender = female
+	special = councillor
+	priority = 299
+	council_position = councillor_court_chaplain
+}
+
+title_prince = {
+	type = character
+	gender = male
+	special = holder
+	priority = 60
+	titles = { k_switzerland k_saxony }
+	top_liege = no
+}
+title_princess = {
+	type = character
+	gender = female
+	special = holder
+	priority = 60
+	titles = { k_switzerland k_saxony }
+	top_liege = no
+}
+title_principality = {
+	type = title
+	titles = { k_saxony }
+	priority = 60
+	top_liege = no
+}
+
+swiss_confederation = {
+	type = title
+	titles = { k_switzerland }
+	priority = 60
+	top_liege = no
+}
+
+archduke = {
+	type = character
+	gender = male
+	special = holder
+	priority = 47
+	titles = { k_austria }
+	top_liege = no
+}
+archduchess = {
+	type = character
+	gender = female
+	special = holder
+	priority = 47
+	titles = { k_austria }
+	top_liege = no
+}
+archduchy = {
+	type = title
+	tier = kingdom
+	titles = { k_austria }
+	priority = 47
+	top_liege = no
+}
+
+dauphin_male_french = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 40
+	heritages = { heritage_frankish }
+	titles = { d_dauphine }
+	governments = { feudal_government }
+	top_liege = no
+}
+dauphin_female_french = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 40
+	heritages = { heritage_frankish }
+	titles = { d_dauphine }
+	governments = { feudal_government }
+	top_liege = no
+}
+dauphinate_french = {
+	type = title
+	tier = duchy
+	priority = 40
+	heritages = { heritage_frankish }
+	titles = { d_dauphine }
+	governments = { feudal_government }
+	top_liege = no
+}
+
+##############################################
+#Theocracy titles, religious (group) localization.
+
+# Christianity
+baron_theocracy_male_christianity_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+baron_theocracy_female_christianity_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+barony_theocracy_christianity_religion = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 7
+	holding = church_holding
+	religions = { christianity_religion }
+}
+count_theocracy_male_christianity_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+count_theocracy_female_christianity_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+county_theocracy_christianity_religion = {
+	type = title
+	tier = county
+	top_liege = no
+	priority = 18
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+duke_theocracy_male_christianity_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+duke_theocracy_female_christianity_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+duchy_theocracy_christianity_religion = {
+	type = title
+	tier = duchy
+	top_liege = no
+	priority = 27
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+king_theocracy_male_christianity_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+king_theocracy_female_christianity_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+kingdom_theocracy_christianity_religion = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = 47
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+emperor_theocracy_male_christianity_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+emperor_theocracy_female_christianity_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+empire_theocracy_christianity_religion = {
+	type = title
+	tier = empire
+	priority = 102
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { christianity_religion }
+}
+
+# Islam
+baron_theocracy_male_islam_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+baron_theocracy_female_islam_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+barony_theocracy_islam_religion = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 7
+	holding = church_holding
+	religions = { islam_religion }
+}
+count_theocracy_male_islam_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+count_theocracy_female_islam_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+county_theocracy_islam_religion = {
+	type = title
+	tier = county
+	top_liege = no
+	priority = 18
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+duke_theocracy_male_islam_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+duke_theocracy_female_islam_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+duchy_theocracy_islam_religion = {
+	type = title
+	tier = duchy
+	top_liege = no
+	priority = 27
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+king_theocracy_male_islam_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+king_theocracy_female_islam_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+kingdom_theocracy_islam_religion = {
+	type = title
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+emperor_theocracy_male_islam_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+emperor_theocracy_female_islam_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+empire_theocracy_islam_religion = {
+	type = title
+	tier = empire
+	top_liege = no
+	priority = 102
+	governments = { theocracy_government }
+	religions = { islam_religion }
+}
+
+# Judaism
+baron_theocracy_male_judaism_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { judaism_religion }
+}
+baron_theocracy_female_judaism_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { judaism_religion }
+}
+barony_theocracy_judaism_religion = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 7
+	holding = church_holding
+	religions = { judaism_religion }
+}
+count_theocracy_male_judaism_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { judaism_religion }
+}
+count_theocracy_female_judaism_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { judaism_religion }
+}
+county_theocracy_judaism_religion = {
+	type = title
+	tier = county
+	top_liege = no
+	priority = 18
+	governments = { theocracy_government }
+	religions = { judaism_religion }
+}
+duke_theocracy_male_judaism_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { judaism_religion }
+}
+duke_theocracy_female_judaism_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { judaism_religion }
+}
+king_theocracy_male_judaism_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { judaism_religion }
+}
+king_theocracy_female_judaism_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { judaism_religion }
+}
+emperor_theocracy_male_judaism_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { judaism_religion }
+}
+emperor_theocracy_female_judaism_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { judaism_religion }
+}
+
+# Paganism
+baron_theocracy_male_paganism_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { paganism_religion slavic_religion }
+}
+baron_theocracy_female_paganism_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { paganism_religion slavic_religion }
+}
+barony_theocracy_paganism_religion = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 7
+	holding = church_holding
+	religions = { paganism_religion slavic_religion }
+}
+count_theocracy_male_paganism_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { paganism_religion }
+}
+count_theocracy_female_paganism_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { paganism_religion }
+}
+county_theocracy_paganism_religion = {
+	type = title
+	tier = county
+	top_liege = no
+	priority = 18
+	governments = { theocracy_government }
+	religions = { paganism_religion slavic_religion }
+}
+duke_theocracy_male_paganism_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { paganism_religion }
+}
+duke_theocracy_female_paganism_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { paganism_religion }
+}
+duchy_theocracy_paganism_religion = {
+	type = title
+	tier = duchy
+	top_liege = no
+	priority = 27
+	governments = { theocracy_government }
+	religions = { paganism_religion slavic_religion judaism_religion }
+}
+king_theocracy_male_paganism_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { paganism_religion }
+}
+king_theocracy_female_paganism_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { paganism_religion }
+}
+kingdom_theocracy_paganism_religion = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = 47
+	governments = { theocracy_government }
+	religions = { paganism_religion slavic_religion judaism_religion }
+}
+emperor_theocracy_male_paganism_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { paganism_religion slavic_religion }
+}
+emperor_theocracy_female_paganism_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { paganism_religion slavic_religion }
+}
+empire_theocracy_paganism_religion = {
+	type = title
+	tier = empire
+	top_liege = no
+	priority = 102
+	governments = { theocracy_government }
+	religions = { paganism_religion slavic_religion judaism_religion }
+}
+
+# Slavic
+count_theocracy_male_slavic_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { slavic_religion }
+}
+count_theocracy_female_slavic_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { slavic_religion }
+}
+duke_theocracy_male_slavic_religion = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { slavic_religion }
+}
+duke_theocracy_female_slavic_religion = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { theocracy_government }
+	religions = { slavic_religion }
+}
+
+##############################################
+# Theocracy titles, faith localization (for special cases).
+
+# Shia
+baron_theocracy_male_ismaili = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { theocracy_government }
+	faiths = { ismaili }
+}
+baron_theocracy_female_ismaili = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { theocracy_government }
+	faiths = { ismaili }
+}
+count_theocracy_male_ismaili = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	faiths = { ismaili }
+}
+count_theocracy_female_ismaili = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	faiths = { ismaili }
+}
+duke_theocracy_male_ismaili = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { theocracy_government }
+	faiths = { ismaili }
+}
+duke_theocracy_female_ismaili = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { theocracy_government }
+	faiths = { ismaili }
+}
+
+# Orthodox
+count_theocracy_male_orthodox = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	faiths = { ismaili }
+}
+count_theocracy_female_orthodox = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { theocracy_government }
+	faiths = { ismaili }
+}
+
+##############################################
+# Special cultural titles (sorted by culture, then government special).
+
+### Latin ###
+# Republic
+count_republic_latin_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_latin }
+}
+count_republic_latin_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_latin }
+}
+duke_republic_male_latin_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_latin }
+}
+duke_republic_female_latin_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_latin }
+}
+king_republic_male_latin_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_latin }
+}
+king_republic_female_latin_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_latin }
+}
+
+### Roman ###
+# Feudal
+baron_feudal_male_roman = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	name_lists = { name_list_roman }
+}
+baron_feudal_female_roman = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	name_lists = { name_list_roman }
+}
+barony_feudal_roman = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	name_lists = { name_list_roman }
+}
+count_feudal_male_roman = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government }
+	name_lists = { name_list_roman }
+}
+count_feudal_female_roman = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government }
+	name_lists = { name_list_roman }
+}
+duke_feudal_male_roman = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government }
+	name_lists = { name_list_roman }
+}
+duke_feudal_female_roman = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government }
+	name_lists = { name_list_roman }
+}
+king_feudal_male_roman = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	name_lists = { name_list_roman }
+}
+king_feudal_female_roman = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	name_lists = { name_list_roman }
+}
+kingdom_feudal_roman = {
+	type = title
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	name_lists = { name_list_roman }
+}
+emperor_feudal_male_roman = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government }
+	name_lists = { name_list_roman }
+}
+emperor_feudal_female_roman = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government }
+	name_lists = { name_list_roman }
+}
+
+# Republic
+baron_republic_male_roman = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { republic_government }
+	name_lists = { name_list_roman }
+}
+baron_republic_female_roman = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { republic_government }
+	name_lists = { name_list_roman }
+}
+count_republic_male_roman = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { republic_government }
+	name_lists = { name_list_roman }
+}
+count_republic_female_roman = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { republic_government }
+	name_lists = { name_list_roman }
+}
+duke_republic_male_roman = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { republic_government }
+	name_lists = { name_list_roman }
+}
+duke_republic_female_roman = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { republic_government }
+	name_lists = { name_list_roman }
+}
+duchy_republic_roman = {
+	type = title
+	tier = duchy
+	top_liege = no
+	priority = 27
+	governments = { republic_government }
+	name_lists = { name_list_roman }
+}
+king_republic_male_roman = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { republic_government }
+	name_lists = { name_list_roman }
+}
+king_republic_female_roman = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { republic_government }
+	name_lists = { name_list_roman }
+}
+kingdom_republic_roman = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = 47
+	governments = { republic_government }
+	name_lists = { name_list_roman }
+}
+emperor_republic_male_roman = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	top_liege = no
+	governments = { republic_government }
+	name_lists = { name_list_roman }
+}
+emperor_republic_female_roman = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	top_liege = no
+	governments = { republic_government }
+	name_lists = { name_list_roman }
+}
+empire_republic_roman = {
+	type = title
+	tier = empire
+	top_liege = no
+	priority = 102
+	governments = { republic_government }
+	name_lists = { name_list_roman }
+}
+
+### Greek ###
+# Feudal / Imperial
+duke_feudal_male_greek = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government }
+	name_lists = { name_list_greek }
+}
+king_feudal_male_greek = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	name_lists = { name_list_greek }
+}
+king_feudal_female_greek = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	name_lists = { name_list_greek }
+}
+kingdom_feudal_greek = {
+	type = title
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government }
+	name_lists = { name_list_greek }
+}
+emperor_feudal_male_greek = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 107
+	governments = { feudal_government }
+	name_lists = { name_list_greek }
+}
+emperor_feudal_female_greek = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 107
+	governments = { feudal_government }
+	name_lists = { name_list_greek }
+}
+
+### Byzantine ###
+# Republic
+duke_republic_male_byzantine_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_byzantine }
+}
+duke_republic_female_byzantine_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_byzantine }
+}
+king_republic_male_byzantine_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_byzantine }
+}
+king_republic_female_byzantine_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_byzantine }
+}
+
+### German ###
+# Feudal / Tribal
+emperor_feudal_male_german = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government tribal_government }
+	heritages = { heritage_central_germanic }
+}
+emperor_feudal_female_german = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government tribal_government }
+	heritages = { heritage_central_germanic }
+}
+
+### Norse ###
+# Feudal / Tribal
+baron_feudal_male_norse = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_norse }
+	top_liege = no
+}
+baron_feudal_female_norse = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_norse }
+	top_liege = no
+	only_holder = yes
+}
+count_feudal_male_norse = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 30
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_norse }
+	top_liege = no
+}
+count_feudal_female_norse = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 30
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_norse }
+	top_liege = no
+	only_holder = yes
+}
+county_feudal_norse = {
+	type = title
+	tier = duchy
+	priority = 30
+	governments = { feudal_government tribal_government }
+	name_lists = { name_list_norse }
+}
+
+### Principalities ###
+duke_feudal_male_prince_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	only_independent = yes
+	governments = { tribal_government feudal_government }
+	name_lists = { name_list_lombard }
+}
+duke_feudal_female_prince_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	only_independent = yes
+	governments = { tribal_government feudal_government }
+	name_lists = { name_list_lombard }
+}
+duchy_feudal_prince_independent = {
+	type = title
+	tier = duchy
+	priority = 28
+	governments = { tribal_government feudal_government }
+	only_independent = yes
+	name_lists = { name_list_lombard }
+}
+
+### Sardinian
+## Feudal
+# Barony
+barony_feudal_sardinian = { # Curadoria
+	type = title
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian }
+}
+baron_feudal_male_sardinian = { # Curadore
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian }
+}
+baron_feudal_female_sardinian = { # Curadora
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian }
+}
+# County
+county_feudal_sardinian = { # Judicadu
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian }
+}
+count_feudal_male_sardinian = { # Judike
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian }
+}
+count_feudal_female_sardinian = { # Judesa
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian }
+}
+# Duchy
+duchy_feudal_sardinian = { # Archonate
+	type = title
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian }
+}
+duke_feudal_male_sardinian = { # Archon
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian }
+}
+duke_feudal_female_sardinian = { # Archonesa
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	name_lists = { name_list_sardinian }
+}
+
+### Arabic ###
+# Feudal / Clan
+baron_feudal_male_arabic_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+baron_feudal_female_arabic_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+barony_feudal_arabic_group = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+count_feudal_male_arabic_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+count_feudal_female_arabic_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+county_feudal_arabic_group = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+duke_feudal_male_arabic_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+duke_feudal_female_arabic_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+duchy_feudal_arabic_group = {
+	type = title
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government }
+	heritages = { heritage_arabic }
+}
+king_feudal_male_arabic_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+}
+king_feudal_female_arabic_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+}
+kingdom_feudal_arabic_group = {
+	type = title
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+}
+king_feudal_muslim_male_arabic_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+	religions = { islam_religion }
+}
+king_feudal_muslim_female_arabic_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+	religions = { islam_religion }
+}
+kingdom_feudal_muslim_arabic_group = {
+	type = title
+	tier = kingdom
+	priority = 48
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+	religions = { islam_religion }
+}
+emperor_feudal_male_arabic_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+}
+emperor_feudal_female_arabic_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+}
+empire_feudal_arabic_group = {
+	type = title
+	tier = empire
+	priority = 102
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_arabic }
+}
+
+### Berber ###
+# Feudal / Clan / sometimes Tribal
+baron_tribal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { tribal_government }
+	heritages = { heritage_berber }
+}
+baron_tribal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { tribal_government }
+	heritages = { heritage_berber }
+}
+baron_feudal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+baron_feudal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+barony_feudal_berber_group = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+count_feudal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+count_feudal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+county_feudal_berber_group = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+count_feudal_male_berber_group_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	only_independent = yes
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+count_feudal_female_berber_group_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 18
+	only_independent = yes
+	governments = { feudal_government clan_government }
+	heritages = { heritage_berber }
+}
+county_feudal_berber_group_independent = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { feudal_government clan_government }
+	only_independent = yes
+	heritages = { heritage_berber }
+}
+count_tribal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { tribal_government }
+	heritages = { heritage_berber }
+}
+count_tribal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 18
+	governments = { tribal_government }
+	heritages = { heritage_berber }
+}
+county_tribal_berber_group = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { tribal_government }
+	only_independent = yes
+	heritages = { heritage_berber }
+}
+duke_feudal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+duke_feudal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+duchy_feudal_berber_group = {
+	type = title
+	tier = duchy
+	priority = 27
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+king_feudal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+king_feudal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+kingdom_feudal_berber_group = {
+	type = title
+	tier = kingdom
+	priority = 47
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+emperor_feudal_male_berber_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+emperor_feudal_female_berber_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+empire_feudal_berber_group = {
+	type = title
+	tier = empire
+	priority = 102
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_berber }
+}
+
+ #############################################
+ # Default titles by Government. This list should always be below any custom localization that is tied to specific name_list/religion.
+ #Default Feudal tiers
+ #Default Republic tiers
+ #Default Theocracy tiers
+ #Default Clan tiers
+ #Default Tribal tiers
+ #Default Imperial tiers
+ #Default Nomadic Clan tiers
+ #Default Mercenary tiers
+ #Default Holy Order tiers
+ #Default Viceroyalty tiers
+
+
+ #Default Feudal tiers
+baron_feudal_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 5
+	governments = { feudal_government }
+}
+baron_feudal_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 5
+	governments = { feudal_government }
+}
+barony_feudal = {
+	type = title
+	tier = barony
+	priority = 5
+	governments = { feudal_government }
+}
+count_feudal_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 16
+	governments = { feudal_government }
+}
+count_feudal_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 16
+	governments = { feudal_government }
+}
+county_feudal = {
+	type = title
+	tier = county
+	priority = 16
+	governments = { feudal_government }
+}
+duke_feudal_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 26
+	governments = { feudal_government }
+}
+duke_feudal_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 26
+	governments = { feudal_government }
+}
+duchy_feudal = {
+	type = title
+	tier = duchy
+	governments = { feudal_government }
+	priority = 27
+}
+# Independent dukes of certain culture groups are known as Petty Kings instead of Dukes
+duke_feudal_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	only_independent = yes
+	governments = { feudal_government }
+	heritages = { heritage_north_germanic heritage_west_germanic heritage_goidelic heritage_brythonic heritage_east_african heritage_tibetan }
+}
+duke_feudal_independent_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	only_independent = yes
+	governments = { feudal_government }
+	heritages = { heritage_north_germanic heritage_west_germanic heritage_goidelic heritage_brythonic heritage_east_african heritage_tibetan }
+}
+duchy_feudal_independent = {
+	type = title
+	tier = duchy
+	governments = { feudal_government }
+	heritages = { heritage_north_germanic heritage_west_germanic heritage_goidelic heritage_brythonic heritage_east_african heritage_tibetan }
+	only_independent = yes
+	priority = 28
+}
+# The Dukes of Brittany are an exception to this, they're only known as Dukes even if independent.
+duke_feudal_brittany = { 
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	titles = { d_brittany }
+}
+duke_feudal_brittany_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 28
+	governments = { feudal_government }
+	titles = { d_brittany }
+}
+duchy_feudal_brittany = {
+	type = title
+	tier = duchy
+	governments = { feudal_government }
+	titles = { d_brittany }
+	priority = 29
+}
+king_feudal_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 46
+	governments = { feudal_government }
+}
+king_feudal_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 46
+	governments = { feudal_government }
+}
+kingdom_feudal = {
+	type = title
+	tier = kingdom
+	priority = 46
+	governments = { feudal_government }
+}
+emperor_feudal_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 101
+	governments = { feudal_government }
+}
+emperor_feudal_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 101
+	governments = { feudal_government }
+}
+empire_feudal = {
+	type = title
+	tier = empire
+	priority = 101
+	governments = { feudal_government }
+}
+
+# Republic
+count_republic_male_arabic_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_arabic }
+}
+count_republic_female_arabic_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_arabic }
+}
+duke_republic_male_arabic_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_arabic }
+}
+duke_republic_female_arabic_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_arabic }
+}
+king_republic_male_arabic_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_arabic }
+}
+king_republic_female_arabic_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	top_liege = no
+	governments = { republic_government }
+	heritages = { heritage_arabic }
+}
+
+ #Default Republic tiers
+baron_republic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { republic_government }
+}
+baron_republic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	top_liege = no
+	governments = { republic_government }
+}
+barony_republic = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 7
+	governments = { republic_government }
+}
+count_republic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 17
+	top_liege = no
+	governments = { republic_government }
+}
+count_republic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 17
+	top_liege = no
+	governments = { republic_government }
+}
+county_republic = {
+	type = title
+	tier = county
+	priority = 17
+	top_liege = no
+	governments = { republic_government }
+}
+duke_republic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { republic_government }
+}
+duke_republic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	top_liege = no
+	governments = { republic_government }
+}
+duchy_republic = {
+	type = title
+	tier = duchy
+	priority = 28
+	top_liege = no
+	governments = { republic_government }
+}
+king_republic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { republic_government }
+}
+king_republic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { republic_government }
+}
+kingdom_republic = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = 47
+	governments = { republic_government }
+}
+emperor_republic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	top_liege = no
+	governments = { republic_government }
+}
+emperor_republic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	top_liege = no
+	governments = { republic_government }
+}
+empire_republic = {
+	type = title
+	tier = empire
+	top_liege = no
+	priority = 102
+	governments = { republic_government }
+}
+
+ #Default Theocracy tiers
+baron_theocracy_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 6
+	top_liege = no
+	governments = { theocracy_government }
+}
+baron_theocracy_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 6
+	top_liege = no
+	governments = { theocracy_government }
+}
+barony_theocracy = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 6
+	holding = church_holding
+}
+count_theocracy_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 16
+	top_liege = no
+	governments = { theocracy_government }
+}
+count_theocracy_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 16
+	top_liege = no
+	governments = { theocracy_government }
+}
+county_theocracy = {
+	type = title
+	tier = county
+	top_liege = no
+	priority = 16
+	governments = { theocracy_government }
+}
+duke_theocracy_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 26
+	top_liege = no
+	governments = { theocracy_government }
+}
+duke_theocracy_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 26
+	top_liege = no
+	governments = { theocracy_government }
+}
+duchy_theocracy = {
+	type = title
+	tier = duchy
+	top_liege = no
+	priority = 26
+	governments = { theocracy_government }
+}
+king_theocracy_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 46
+	top_liege = no
+	governments = { theocracy_government }
+}
+king_theocracy_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 46
+	top_liege = no
+	governments = { theocracy_government }
+}
+kingdom_theocracy = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = 46
+	governments = { theocracy_government }
+}
+emperor_theocracy_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 101
+	top_liege = no
+	governments = { theocracy_government }
+}
+emperor_theocracy_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 101
+	top_liege = no
+	governments = { theocracy_government }
+}
+empire_theocracy = {
+	type = title
+	tier = empire
+	priority = 101
+	top_liege = no
+	governments = { theocracy_government }
+}
+
+ #Default Islamic Clan tiers
+baron_islamic_clan_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+baron_islamic_clan_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+barony_islamic_clan = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+count_islamic_clan_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 17
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+count_islamic_clan_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 17
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+county_islamic_clan = {
+	type = title
+	tier = county
+	priority = 17
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+duke_islamic_clan_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+duke_islamic_clan_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+duchy_islamic_clan = {
+	type = title
+	tier = duchy
+	priority = 27
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+king_islamic_clan_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+king_islamic_clan_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+kingdom_islamic_clan = {
+	type = title
+	tier = kingdom
+	priority = 47
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+emperor_islamic_clan_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+emperor_islamic_clan_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+empire_islamic_clan = {
+	type = title
+	tier = empire
+	priority = 102
+	governments = { clan_government }
+	religions = { islam_religion }
+}
+
+ #Default Clan tiers
+baron_clan_male = {
 	type = character
 	gender = male
 	special = holder

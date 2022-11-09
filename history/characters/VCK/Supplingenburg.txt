@@ -1,0 +1,54 @@
+supplingenburg1 = {
+	name = "Bernhard" #Bernhard I of Wernigerode
+	dynasty = 273
+	religion = catholic
+	culture = eastphalian
+	father = supplingenburg3
+	1003.1.1 = { #est
+		birth = yes
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+
+supplingenburg2 = {
+	name = "Gebhard" #Gebhard I of Wernigerode
+	dynasty = 273
+	religion = catholic
+	culture = eastphalian
+	father = supplingenburg1
+	1035.1.1 = { #est
+		birth = yes
+	}
+	1075.6.9 = {
+		death = yes
+	}
+}
+
+supplingenburg3 = {
+	name = "Liutger" #Liutger I of Wernigerode
+	dynasty = 273
+	religion = catholic
+	culture = eastphalian
+	971.1.1 = { #est
+		birth = yes
+	}
+	1031.1.1 = {
+		death = yes
+	}
+}
+
+supplingenburg4 = {
+	name = "Luther" #
+	dynasty = 273
+	religion = catholic
+	culture = eastphalian
+	father = supplingenburg3
+	997.1.1 = { #est
+		birth = yes
+	}
+	1063.1.1 = {
+		death = yes
+	}
+}

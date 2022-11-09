@@ -768,8 +768,7 @@
 	culture = pfalzish
 }
 162 = {
-	name = "dynn_Embrichoning"
-	culture = pfalzish
+	#free
 }
 163 = {
 	prefix = "dynnp_von"
@@ -1211,8 +1210,8 @@
 	culture = polabian
 }
 255 = {
-	name = "dynn_Chyzani"
-	culture = polabian
+	name = "dynn_Prissani"
+	culture = kashubian
 }
 256 = {
 	name = "dynn_Hevelli"
@@ -1311,53 +1310,65 @@
 	culture = hannoverian
 }
 278 = {
-	
+	name = "dynn_Spinola"
+	culture = ligurian
 }
 279 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Friemersheim"
+	culture = hannoverian
 }
 280 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Dewin"
+	culture = saxon
 }
 281 = {
+	name = "dynn_Piast"
+	culture = polish
+}
+282 = {
+	name = "dynn_Gerolding"
+	culture = arpitan
+}
+283 = {
+	name = "dynn_Orlandi"
+	culture = italian
+}
+284 = {
+	name = "dynn_Aldobrandeschi"
+	culture = italian
+}
+285 = {
+	prefix = "dynnp_di"
+	name = "dynn_Tuscolo"
+	culture = italian
+}
+286 = {
+	name = "dynn_Farolfing"
+	culture = umbrian
+}
+287 = {
 	
 }
-# 282 = {
+288 = {
 	
-# }
-# 283 = {
+}
+289 = {
 	
-# }
-# 284 = {
+}
+290 = {
 	
-# }
-# 285 = {
+}
+291 = {
 	
-# }
-# 286 = {
+}
+292 = {
 	
-# }
-# 287 = {
+}
+293 = {
 	
-# }
-# 288 = {
-	
-# }
-# 289 = {
-	
-# }
-# 290 = {
-	
-# }
-# 291 = {
-	
-# }
-# 292 = {
-	
-# }
-# 293 = {
-	
-# }
+}
 # 294 = {
 	
 # }

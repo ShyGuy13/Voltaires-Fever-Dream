@@ -1,0 +1,12 @@
+polabi1 = {
+	name = "Dobromil" # fic for 1054
+	dynasty = 267
+	culture = polabian
+	religion = slavic_pagan
+	1029.1.1 = { #fic
+		birth = yes
+	}
+	1084.1.1 = { #fic
+		death = yes
+	}
+}

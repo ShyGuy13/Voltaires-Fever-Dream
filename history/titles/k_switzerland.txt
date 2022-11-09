@@ -165,3 +165,10 @@ c_vaud = {
 		holder = zahringen1 # Berthold I
 	}
 }
+
+#Genf
+c_annecy = {
+	1023.1.1 = {
+		holder = gerolding1 # Gérold I
+	}
+}

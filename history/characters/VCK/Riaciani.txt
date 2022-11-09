@@ -1,0 +1,12 @@
+riaciani1 = {
+	name = "SzczE_sny" # fic for 1054
+	dynasty = 259
+	religion = slavic_pagan
+	culture = polabian
+	1025.1.1 = { #fic
+		birth = yes
+	}
+	1169.1.1 = { #fic
+		death = yes
+	}
+}

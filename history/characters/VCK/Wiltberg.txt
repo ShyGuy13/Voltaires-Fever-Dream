@@ -1,6 +1,6 @@
 wiltberg1 = {
 	name = "Gerwig" # Gerwig I of Wiltberg
-	dynasty = 33
+	dynasty = 83
 	religion = catholic
 	culture = franconian
 	1039.1.1 = {

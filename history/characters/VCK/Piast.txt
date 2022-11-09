@@ -1,0 +1,12 @@
+piast1 = {
+	name = "Kazimierz"
+	dynasty = 281
+	culture = polish
+	religion = catholic
+	1016.6.25 = {
+		birth = yes
+	}
+	1058.11.28 = {
+		death = yes
+	}
+}

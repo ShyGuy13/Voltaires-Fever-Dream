@@ -1,0 +1,12 @@
+aldobrandeschi1 = {
+	name = "Ildebrando" # Ildebrando V of Dauphine
+	dynasty = 284
+	religion = catholic
+	culture = italian
+	1006.1.1 = { #fic
+		birth = yes
+	}
+	1077.1.1 = {
+		death = yes
+	}
+}

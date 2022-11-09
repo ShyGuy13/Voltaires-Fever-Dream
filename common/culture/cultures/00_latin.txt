@@ -69,7 +69,7 @@ cisalpine = { #piedmontese
 	traditions = {
 		tradition_republican_legacy
 		tradition_mountain_homes
-		tradition_maritime_mercantilism
+		
 	}
 	
 	name_list = name_list_cisalpine
@@ -155,7 +155,6 @@ lombard = { #Italo-Lombards
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_isolationist
 		tradition_martial_admiration
 		tradition_stand_and_fight
 		tradition_republican_legacy
@@ -177,8 +176,8 @@ langobard = { #Germanic Ancestor culture
 	color = langobard
 	
 	ethos = ethos_stoic
-	heritage = heritage_central_germanic
-	language = language_central_germanic
+	heritage = heritage_latin
+	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_isolationist
@@ -208,13 +207,11 @@ venetian = {
 	color = venetian
 	
 	ethos = ethos_stoic
-	heritage = heritage_central_germanic
-	language = language_central_germanic
+	heritage = heritage_latin
+	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_isolationist
-		tradition_martial_admiration
-		tradition_stand_and_fight
+		tradition_maritime_mercantilism
 	}
 	
 	dlc_tradition = {
@@ -237,14 +234,12 @@ venetian = {
 maltese = {
 	color = maltese
 	
-	ethos = ethos_stoic
-	heritage = heritage_central_germanic
+	ethos = ethos_spiritual
+	heritage = heritage_latin
 	language = language_darja
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_isolationist
-		tradition_martial_admiration
-		tradition_stand_and_fight
+		tradition_linguists
 	}
 	
 	dlc_tradition = {
@@ -266,19 +261,13 @@ maltese = {
 
 corsican = {
 	color = corsican
-
-	parents = { roman }
-
-	created = 476.11.4
 	
 	ethos = ethos_spiritual
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_formation_fighting
-		tradition_republican_legacy
-		tradition_poetry
+		
 	}
 	
 	name_list = name_list_italian
@@ -295,21 +284,12 @@ corsican = {
 
 emilian = {
 	color = emilian
-
-	parents = { lombard greek }
-
-	created = 950.1.1
 	
 	ethos = ethos_courtly
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_xenophilic
-		tradition_swords_for_hire
-		tradition_ruling_caste
-		tradition_poetry
-		tradition_republican_legacy
 	}
 	
 	name_list = name_list_sicilian
@@ -326,20 +306,13 @@ emilian = {
 
 ligurian = {
 	color = ligurian
-
-	parents = { lombard greek }
-
-	created = 950.1.1
 	
 	ethos = ethos_courtly
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_xenophilic
-		tradition_swords_for_hire
-		tradition_ruling_caste
-		tradition_poetry
+		tradition_maritime_mercantilism
 		tradition_republican_legacy
 	}
 	
@@ -357,21 +330,15 @@ ligurian = {
 
 neapolitan = {
 	color = neapolitan
-
-	parents = { lombard greek }
-
-	created = 950.1.1
 	
 	ethos = ethos_courtly
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_xenophilic
-		tradition_swords_for_hire
-		tradition_ruling_caste
-		tradition_poetry
-		tradition_republican_legacy
+		tradition_seafarers
+		tradition_spartan
+		tradition_martial_admiration 
 	}
 	
 	name_list = name_list_sicilian
@@ -388,17 +355,38 @@ neapolitan = {
 
 romagnan = {
 	color = romagnan
-
-	parents = { lombard greek }
-
-	created = 950.1.1
 	
 	ethos = ethos_courtly
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
+		tradition_republican_legacy
+		tradition_monastic_communities
+	}
+	
+	name_list = name_list_sicilian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}	
+}
+
+umbrian = {
+	color = romagnan
+	
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_republican_legacy
+		tradition_religious_patronage
 	}
 	
 	name_list = name_list_sicilian

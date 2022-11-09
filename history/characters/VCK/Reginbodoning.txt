@@ -10,3 +10,29 @@
 		death = yes
 	}
 }
+
+reginbodoning2 = {
+	name = "Egilbert" # bishop Egilbert I of Passau
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	1000.1.1 = { #fic
+		birth = yes
+	}
+	1065.5.17 = {
+		death = yes
+	}
+}
+
+reginbodoning3 = {
+	name = "Gundekar" #bishop Gundekar II of Eichstätt
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	1019.8.10 = {
+		birth = yes
+	}
+	1075.8.2 = {
+		death = yes
+	}
+}

@@ -1,10 +1,11 @@
 ﻿attoning1 = {
-	name = "Matilde" # Matilde I of italiany
+	name = "Matilde" # Matilde I of tuscany
 	female = yes
 	dynasty = 119
 	religion = catholic
 	culture = italian
 	father = attoning4
+	mother = wigeriching13
 	1046.3.1 = {
 		birth = yes
 	}
@@ -14,11 +15,12 @@
 }
 
 attoning2 = {
-	name = "Federico" # Federico I of italiany
+	name = "Federico" # Federico I of tuscany
 	dynasty = 119
 	religion = catholic
 	culture = italian
 	father = attoning4
+	mother = wigeriching13
 	1039.7.1 = {
 		birth = yes
 	}
@@ -34,6 +36,7 @@ attoning3 = {
 	religion = catholic
 	culture = italian
 	father = attoning4
+	mother = wigeriching13
 	1042.1.1 = { #fic
 		birth = yes
 	}
@@ -43,7 +46,7 @@ attoning3 = {
 }
 
 attoning4 = {
-	name = "Bonifacio" # Bonifacio I of italiany
+	name = "Bonifacio" # Bonifacio I of tuscany
 	dynasty = 119
 	religion = catholic
 	culture = italian
@@ -57,7 +60,7 @@ attoning4 = {
 }
 
 attoning5 = {
-	name = "Tedaldo" # Tedaldo I of italiany
+	name = "Tedaldo" # Tedaldo I of tuscany
 	dynasty = 119
 	religion = catholic
 	culture = italian
@@ -85,7 +88,7 @@ attoning6 = {
 }
 
 attoning7 = {
-	name = "Adalberto Atto" # Adalberto Atto of italiany
+	name = "Adalberto Atto" # Adalberto Atto of tuscany
 	dynasty = 119
 	religion = catholic
 	culture = italian
@@ -143,7 +146,7 @@ attoning10 = {
 }
 
 attoning11 = {
-	name = "Sigifredo" # Sigifredo I of italiany
+	name = "Sigifredo" # Sigifredo I of tuscany
 	dynasty = 119
 	religion = catholic
 	culture = italian

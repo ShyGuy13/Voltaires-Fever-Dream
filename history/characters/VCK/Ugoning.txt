@@ -1,0 +1,12 @@
+ugoning1 = {
+	name = "Ugo" # Ugo II of Sabbioneta
+	dynasty = 113
+	religion = catholic
+	culture = lombard
+	1004.1.1 = { #fic
+		birth = yes
+	}
+	1069.1.1 = { #fic
+		death = yes
+	}
+}

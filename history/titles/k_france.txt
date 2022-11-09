@@ -174,6 +174,11 @@ c_digne = {
 		holder = bosoning1 # Geoffroi I
 	}
 }
+c_gapencais = {
+	1051.4.27 = {
+		holder = bosoning1 # Geoffroi I
+	}
+}
 
 #Venaissin
 c_venaissin = {

@@ -55,9 +55,13 @@
 
 11 = c_scheyern # Scheyern
 
+# 12 Ariboning
+
 13 = c_chiemgau # Siegharding
 
 14 = c_bozen
+
+# 15 Pilgriming
 
 16 = c_moosburg # Moosburg
 
@@ -67,9 +71,13 @@
 
 19 = d_bavaria # Wittelsbach
 
+# 20 Dilching
+
 21 = c_lechsgemund # Lechsgemünd
 
 22 = c_leuchtenburg # Leuchtenberg
+
+# 23 Rottenburg
 
 24 = { # Reginoboding (fictional - based on Königssondergau/Wiesbaden)
 	pattern = "pattern_solid.dds"
@@ -103,11 +111,15 @@
 	}
 }
 
+# 29 Lobenhausen
+
 30 = c_hohenlohe # Hohenlohe
 
 31 = c_castell # Castell
 
 32 = c_lauffen # Lauffen
+
+# 33 Willsbach
 
 34 = { # Popponing
 	pattern = "pattern_solid.dds"
@@ -152,6 +164,8 @@
 	}
 }
 
+39 = b_aalen # Aalen
+
 40 = c_oldenburg # Oldenburg
 
 41 = { # Ronsberg
@@ -168,11 +182,25 @@
 
 42 = c_calw # Calw
 
+43 = c_dillingen # Dillingen
+
 44 = c_staufen # Hohenstaufen
+
+# 45 Marstetten
 
 46 = c_helfenstein # Helfenstein
 
 47 = c_sigmaringen # Sigmaringen
+
+# 48 Tannenfels
+
+# 49 Beuren
+
+# 50 Kirchberg
+
+# 51 Kimpurg
+
+# 52 Wolfertshausen
 
 53 = c_ottingen # Öttingen
 
@@ -182,13 +210,19 @@
 
 56 = c_tubingen # Tübingen
 
+# 57 Maden
+
 58 = c_urach # Urach
 
 59 = c_vaihingen # Vaihingen
 
 60 = c_veringen # Veringen
 
+# 61 Breitenstein
+
 62 = c_wurttemberg # Württemberg
+
+# 63 Luitpolding
 
 64 = c_zollern # Hohenzollern
 
@@ -224,6 +258,10 @@
 
 70 = c_laufenburg # Habsburg
 
+# 71 Affoltern
+
+# 72 Werdenberg
+
 73 = { #Frohburg
 	pattern = "pattern_vair.dds"
 	color1 = "blue"
@@ -252,6 +290,28 @@
 
 74 = c_toggenburg # Toggenburg
 
+# 75 Ringgenberg
+
+# 76 Kaltenbach
+
+# 77 Turn
+
+# 78 Vaz
+
+# 79 Belmont
+
+80 = { # Lenzburg
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_circle_mask.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { position = { 0.50 0.48 } scale = { 0.45 0.45 }  }					
+	}		
+}
+
 81 = { # Ezzoning
 	pattern = "pattern_solid.dds"	
 	color1 = "white"		
@@ -274,6 +334,12 @@
 
 86 = c_rotz # Schwarzenburg
 
+87 = c_howen # Höwen
+
+88 = c_stuhlingen # Stühlingen
+
+89 = c_daucigny # Faucigny
+
 90 = c_sulzbach # Sulzbach
 
 91 = { # Hugoning
@@ -290,6 +356,8 @@
 		}
 	}
 }
+
+92 = c_gruyere # Gruyerè
 
 93 = { # Welf
 	pattern = "pattern_solid.dds"
@@ -343,9 +411,17 @@
 
 100 = c_schwarzburg # Schwarzburg
 
+101 = c_gleichen # Gleichen
+
 102 = c_wettin # Wettin
 
+103 = c_arnstein # Arnstein
+
+104 = c_hohnstein # Hohnstein
+
 105 = c_lobdaburg # Lobdeburg
+
+106 = c_mansfeld # Mansfeld
 
 107 = { # Wippra
 	pattern = "pattern_solid.dds"
@@ -367,6 +443,8 @@
 	}
 }
 
+108 = c_querfurt # Querfurt
+
 109 = d_thuringia # Ludowing
 
 110 = { # Billung
@@ -381,6 +459,49 @@
 	}
 }
 
+111 = c_klettenberg # Klettenberg
+
+# 112 Gisalberting
+
+113 = { # Ugoning
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
+114 = { # Supponing
+	pattern = "pattern_solid.dds"	
+	color1 = "red"	
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_checkers_08.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 2.0 1.0 }  }		
+	}
+	colored_emblem = {
+		texture = "ce_border_shield.dds"
+		color1 = "blue"
+		instance = { position = { 0.5 0.5 } scale = { 1.11 1.11 }  }		
+	}	
+}
+
+# 115 Oberting
+
+# 116 Widoning
+
+# 117 Confalonieri
+
+# 118 Hucpolding
+
+# 119 Attoning
+
 120 = { # Wigeriching
 	pattern = "pattern_solid.dds"
 	color1 = "white"
@@ -392,6 +513,8 @@
 		instance = { position = { 0.5 0.45 } scale = { 1.0 1.4 }  }		
 	}
 }
+
+# 121 Gandolfing
 
 122 = c_fleckenstein # Fleckenstiein
 
@@ -456,7 +579,9 @@
 
 132 = c_breisgau # Zähringen
 
-134={ # Achalm
+133 = c_munzenberg # Münzenberg
+
+134 = { # Achalm
 	pattern="pattern__solid_designer.dds"
 	color1=green
 	color2=yellow
@@ -504,7 +629,19 @@
 	}
 }
 
+135 = c_arnsberg # Arnsberg
+
+136 = c_falkenstein # Falkenstein
+
+# 137 Selbold
+
 138 = c_marburg # Gisoning
+
+# 139 Dorfelden
+
+# 140 Malsburg
+
+141 = c_diez # Diez
 
 142 = { # Merenberg
 	pattern="pattern_solid.dds"
@@ -535,7 +672,68 @@
 	}
 }
 
+143 = { # Grafschaft
+	pattern = "pattern_solid.dds"
+	color1 = "yellow_light"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_pales_02.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
 144 = c_katzenelnbogen # Katzenelnbogen
+
+# 145 Reichenbach
+
+146 = c_rheingraviate # Embrichoning
+
+147 = { # Monomachos
+	pattern = "pattern_solid.dds" 
+	color1 = "blue"	   
+	color2 = "white"  
+	colored_emblem = {
+		texture = "ce_heart.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.72 } scale = { 0.25 0.25 }  }   
+		instance = { position = { 0.5 0.18 } rotation = 180 scale = { 0.25 0.25 }  }
+		instance = { position = { 0.77 0.45 } rotation = -90 scale = { 0.25 0.25 }  }
+		instance = { position = { 0.23 0.45 }rotation = 90 scale = { 0.25 0.25 }  }			 
+	}	   
+	colored_emblem = {
+		texture = "ce_circle_mask.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.75 0.45 } scale = { 0.1 0.27 }  }   
+		instance = { position = { 0.25 0.45 } scale = { 0.1 0.27 }  }   
+		instance = { position = { 0.50 0.70 } scale = { 0.27 0.1 }  }   
+		instance = { position = { 0.50 0.20 } scale = { 0.27 0.1 }  }
+	}   
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { position = { 0.5 0.45 } scale = { 0.52 0.52 }  }
+	}   
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.45 } scale = { 0.75 0.75 }  }   
+	}   
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.19 } scale = { 0.24 0.02 }  }   
+		instance = { position = { 0.5 0.71 } scale = { 0.24 0.02 }  }
+		instance = { position = { 0.24 0.45 } scale = { 0.02 0.24 }  }
+		instance = { position = { 0.76 0.45 } scale = { 0.02 0.24 }  }			  
+	}	   
+}
 
 147 = { # Monomachos
 	pattern = "pattern_solid.dds" 
@@ -600,6 +798,10 @@
 	}			
 }
 
+# 152 Sergii
+
+153 = c_orange # Orange
+
 154 = { # Bosoning
 	pattern = "pattern_solid.dds"
 	color1 = "red"
@@ -624,6 +826,8 @@
 		instance = { position = { 0.500 0.508 } scale = { 0.08 0.32 }  }
 	}	
 }
+
+# 155 Valence
 
 156 = { # Werl
 	pattern = "pattern_solid.dds"
@@ -652,7 +856,27 @@
 
 159 = c_fenetrange # Finstingen
 
+160 = { # Blieskastel
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_shrub.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+
+# 161 Bliesgau
+
 163 = c_saarbrucken # Saarbrücken
+
+164 = c_sponheim # Sponheim
+
+165 = c_saarwerden # Saarwerden
+
+# 166 Dhaun
 
 167 = c_leiningen # Leiningen
 
@@ -692,6 +916,10 @@
 
 182 = c_arenberg # Arenberg
 
+# 183 Wipra
+
+# 184 Northeim
+
 185 = { # Nakoning
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
@@ -707,6 +935,10 @@
 186 = d_upper_lorraine # Gerharding
 
 187 = c_montbeliard # Scarpone
+
+# 188 Hucpolding
+
+# 189 Lacon
 
 190 = c_uzes # Uzès
 
@@ -758,29 +990,13 @@
 
 200 = c_enghein # Enghien
 
-# 201 = { # Banû Zîrî
-# 	pattern = "pattern_solid.dds"
-# 	color1 = "green"
-# 	color2 = "green"
-# }
+# 201 Banû Zîrî
 
-# 202 = { # Banû Timnah
-# 	pattern = "pattern_solid.dds"
-# 	color1 = "green"
-# 	color2 = "green"
-# }
+# 202 Banû Timnah
 
-# 203 = { # Banû Mankut
-# 	pattern = "pattern_solid.dds"
-# 	color1 = "green"
-# 	color2 = "green"
-# }
+# 203 Banû Mankut
 
-# 204 = { # Banû ‘Awwâs
-# 	pattern = "pattern_solid.dds"
-# 	color1 = "green"
-# 	color2 = "green"
-# }
+# 204 Banû ‘Awwâs
 
 205 = c_cuijk # Cuijk
 
@@ -863,7 +1079,25 @@
 
 213 = c_commercy # Commercy
 
+214 = c_haldensleben # Haldensleben
+
 215 = c_bederkesa # Bederkesa
+
+216 = c_bentheim # Bentheim
+
+217 = c_diepholz # Diepholz
+
+218 = { # Askanier
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_checkers_06.dds"
+		color1 = "white"
+		color2 = "black"		
+		instance = { position = { 0.632 0.500 } scale = { 1.550 1.480 }  }
+	}	
+}
 
 219 = { # Flachslanden
 	pattern = "pattern_solid.dds"
@@ -892,6 +1126,8 @@
 	}
 }
 
+# 222 Musco
+
 223 = { # Udoning
 	pattern = "pattern_solid.dds"
 	color1 = "white"
@@ -905,6 +1141,8 @@
 }
 
 224 = c_wolpe # Wölpe
+
+226 = c_lippe # Lipp
 
 228 = c_zutphen # Zutphen
 
@@ -989,6 +1227,45 @@
 		texture = "ce_bend_thin.dds"
 		color1 = "white"
 		instance = { position = { 0.5 0.5 } scale = { 1.25 1.25 }  }
+	}
+}
+
+274 = { # Lieber
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_cross_fleury.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.48 } scale = { 1.0 1.0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.725 0.275 } scale = { 0.2 0.2 }  }
+		instance = { position = { 0.725 0.725 } scale = { 0.2 0.2 }  }
+		instance = { position = { 0.275 0.725 } scale = { 0.2 0.2 }  }
+		instance = { position = { 0.275 0.275 } scale = { 0.2 0.2 }  }
+	}
+}
+
+283 = { # Orlandi 
+	pattern = "pattern_checkers_08.dds"
+	color1 = "yellow"
+	color2 = "blue"
+}
+
+285 = { # Tuscolo
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_eagle_crown.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.5 0.52 } scale = { 1.1 1.1 }  }
 	}
 }
 
@@ -1738,6 +2015,6 @@ house_eppan = { # needs a banner
 	}
 }
 
-house_ivrea = c_ivrea # Ivrea
+house_mecklenburg = d_mecklenburg # Mecklenburg
 
-house_mecklenburg = d_mecklenburg
+house_salm = c_salm # Salm

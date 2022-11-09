@@ -2,7 +2,7 @@
 	name = "Atenolfo" #Atenolfo of Gaeta
 	dynasty = 238
 	religion = catholic
-	culture = langobardic
+	culture = langobard
 	1001.1.1 = { #fic
 		birth = yes
 	}

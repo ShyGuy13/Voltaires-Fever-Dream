@@ -147,6 +147,7 @@ anskaring11 = {
 	dynasty = 209
 	religion = catholic
 	culture = burgundian
+	father = anskaring15
 	958.1.1 = {
 		birth = yes
 	}
@@ -200,6 +201,216 @@ anskaring14 = {
 		add_trait = devoted
 	}
 	1068.11.10 = {
+		death = yes
+	}
+}
+
+anskaring15 = {
+	name = "Adalberto" # Adalberto II
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring16
+	932.1.1 = {
+		birth = yes
+	}
+	972.4.20 = {
+		death = yes
+	}
+}
+
+anskaring16 = {
+	name = "Berengario" # Berengario II
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring17
+	900.1.1 = { #est
+		birth = yes
+	}
+	966.8.4 = {
+		death = yes
+	}
+}
+
+anskaring17 = {
+	name = "Adalberto" # Adalberto I
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring18
+	870.1.1 = { #est
+		birth = yes
+	}
+	929.2.28 = {
+		death = yes
+	}
+}
+
+anskaring18 = {
+	name = "Anscario" # Anscario I
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring19
+	850.1.1 = { #est
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+
+anskaring19 = {
+	name = "Amadeo" # 
+	dynasty = 209
+	religion = catholic
+	culture = bavarian
+	825.1.1 = { #fic
+		birth = yes
+	}
+	880.1.1 = { #fic
+		death = yes
+	}
+}
+
+anskaring20 = {
+	name = "Fulk" # bishop of Reims
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring19
+	853.1.1 = { #fic
+		birth = yes
+	}
+	900.6.17 = {
+		death = yes
+	}
+}
+
+anskaring21 = {
+	name = "Guy" # Guy I of Ivrea
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring16
+	936.1.1 = {
+		birth = yes
+	}
+	965.6.25 = {
+		death = yes
+	}
+}
+
+anskaring22 = {
+	name = "Corrado" # Corrado I of Ivrea
+	dynasty = 209
+	religion = catholic
+	culture = burgundian
+	father = anskaring16
+	938.1.1 = {
+		birth = yes
+	}
+	997.6.25 = {
+		death = yes
+	}
+}
+
+anskaring23 = {
+	name = "Guido" # Guido I of Ivrea
+	dynasty = 209
+	religion = catholic
+	culture = cisalpine
+	father = anskaring25
+	1030.1.1 = { #est
+		birth = yes
+	}
+	1069.2.16 = {
+		death = yes
+	}
+}
+
+anskaring24 = {
+	name = "Arduin" # Arduin I of Italy
+	dynasty = 209
+	religion = catholic
+	culture = cisalpine
+	father = anskaring28
+	955.1.1 = { #est
+		birth = yes
+	}
+	1015.12.14 = {
+		death = yes
+	}
+}
+
+anskaring25 = {
+	name = "Reghino" # Reghino I of Ivrea
+	dynasty = 209
+	religion = catholic
+	culture = cisalpine
+	father = anskaring24
+	1000.1.1 = { #est
+		birth = yes
+	}
+	1041.1.1 = { #est
+		death = yes
+	}
+}
+
+anskaring26 = {
+	name = "Guy" # 
+	dynasty = 209
+	religion = catholic
+	culture = cisalpine
+	father = anskaring25
+	1040.1.1 = { #fic
+		birth = yes
+	}
+	1100.1.1 = { #fic
+		death = yes
+	}
+}
+
+anskaring27 = {
+	name = "Adelaide" # wife of Guillaume V of Provence
+	female = yes
+	dynasty = 209
+	religion = catholic
+	culture = cisalpine
+	father = anskaring25
+	1038.1.1 = { #fic
+		birth = yes
+	}
+	1113.10.12 = {
+		death = yes
+	}
+}
+
+anskaring28 = {
+	name = "Dado" # Dado I of Pombia
+	dynasty = 209
+	religion = catholic
+	culture = cisalpine
+	father = anskaring29
+	929.1.1 = { #fic
+		birth = yes
+	}
+	998.1.1 = { #est
+		death = yes
+	}
+}
+
+anskaring29 = {
+	name = "Anscario" # Anscario II of Pombia
+	dynasty = 209
+	religion = catholic
+	culture = cisalpine
+	father = anskaring17
+	889.1.1 = { #fic
+		birth = yes
+	}
+	940.1.1 = {
 		death = yes
 	}
 }

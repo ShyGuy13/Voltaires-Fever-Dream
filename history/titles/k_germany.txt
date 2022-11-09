@@ -476,7 +476,10 @@ c_waidhofen-ybbs = {
 #Eichstätt
 c_eichstadt = {
 	1042.1.1 = {
-		holder = calw1
+		holder = calw1 # Gebhard
+	}
+	1054.4.19 = { # calw1 becomes Pope
+		holder = reginbodoning3 # Gundekar II
 	}
 }
 
@@ -557,12 +560,12 @@ c_innsbruck = {
 #Passau 
 c_passau = {
 	1045.7.14 = {
-		holder = passau_egilbert
+		holder = reginbodoning2
 	}
 }
 c_sankt_polten = {
 	1045.7.14 = {
-		holder = passau_egilbert
+		holder = reginbodoning2
 	}
 }
 
@@ -1204,7 +1207,13 @@ c_schirmeck = {
 
 #Egisheim
 c_egisheim = {
-	1054.1.1 = {
+	985.1.1 = {
+		holder = dagsburg4 # Hugo VI
+	}
+	1012.1.1 = {
+		holder = dagsburg5 # Gerhard I
+	}
+	1038.1.1 = {
 		holder = dagsburg2 # Hildegard I
 	}
 }
@@ -1249,16 +1258,45 @@ c_naumburg = {
 
 #Gleichenstein
 c_northeim = {
+	983.1.1 = {
+		holder = northeim6 # Siegfried I
+	}
+	1004.11.1 = {
+		holder = northeim4 # Bernhard I
+	}
 	1040.1.1 = {
 		holder = northeim1 # Otto I
 	}
 }
 c_eschwege = {
+	983.1.1 = {
+		holder = northeim6 # Siegfried I
+	}
+	1004.11.1 = {
+		holder = northeim4 # Bernhard I
+	}
 	1040.1.1 = {
 		holder = northeim1 # Otto I
 	}
 }
 c_bentheim = {
+	983.1.1 = {
+		holder = northeim6 # Siegfried I
+	}
+	1004.11.1 = {
+		holder = northeim4 # Bernhard I
+	}
+	1040.1.1 = {
+		holder = northeim1 # Otto I
+	}
+}
+c_holenberg = {
+	983.1.1 = {
+		holder = northeim6 # Siegfried I
+	}
+	1004.11.1 = {
+		holder = northeim4 # Bernhard I
+	}
 	1040.1.1 = {
 		holder = northeim1 # Otto I
 	}
@@ -1302,7 +1340,8 @@ c_halle = {
 
 #Brehna
 c_brehna = {
-	1034.1.1 = {
+	1034.11.19 = {
+		liege = d_lausitz
 		holder = wettin1 # Gero I
 	}
 }
@@ -1320,34 +1359,77 @@ c_aschersleben = {
 }
 
 #Meissen
+d_meissen = {
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
+	}
+	1046.1.24 = {
+		holder = weimar5 # Wilhelm I
+	}
+}
 c_meissen = {
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
+	}
 	1046.1.24 = {
 		holder = weimar5 # Wilhelm I
 	}
 }
 c_dohna = {
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
+	}
+	1046.1.24 = {
+		holder = weimar5 # Wilhelm I
+	}
+}
+c_zitawa = {
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
+	}
 	1046.1.24 = {
 		holder = weimar5 # Wilhelm I
 	}
 }
 c_luban = {
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
+	}
 	1046.1.24 = {
 		holder = weimar5 # Wilhelm I
 	}
 }
 c_bautzen = {
-	1046.1.24 = {
-		holder = weimar5 # Wilhelm I
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
 	}
-}
-c_wettin = {
 	1046.1.24 = {
 		holder = weimar5 # Wilhelm I
 	}
 }
 
+#Wettin
+c_wettin = {
+	1034.11.19 = {
+		liege = d_lausitz
+		holder = wettin9 # Thimo I
+	}
+}
+
+#Merseburg
+c_merseburg = {
+	1053.1.1 = {
+		holder = merseburg_ezzelin_1 # Ezzelin
+	}
+}
+
 #Dresden
 c_dresden = {
+	1046.1.1 = {
+		holder = dresden_bruno # Bruno I
+	}
+}
+c_dahlen = {
 	1046.1.1 = {
 		holder = dresden_bruno # Bruno I
 	}
@@ -1498,8 +1580,31 @@ c_hersfeld = {
 	}
 }
 
+#Schwalenberg
+c_schwalenberg = {
+	1054.1.1 = {
+		holder = schwalenberg1 # Heinrich I
+	}
+}
+
+#Leisnig
+c_leisnig = {
+	1054.1.1 = {
+		holder = groitzsch1 # Wiprecht I
+	}
+}
+
 #Stendal
 c_haldensleben = {
+	965.1.1 = {
+		holder = haldensleben5 # Dietrich I
+	}
+	985.8.25 = {
+		holder = haldensleben4 # Bernhard I
+	}
+	1018.1.1 = {
+		holder = haldensleben3 # Bernhard II
+	}
 	1051.1.1 = {
 		holder = haldensleben1 # Wilhelm
 	}
@@ -1574,6 +1679,12 @@ c_murbach = {
 
 #Dagsburg
 c_dagsburg = {
+	985.1.1 = {
+		holder = dagsburg4 # Hugo VI
+	}
+	1012.1.1 = {
+		holder = dagsburg3 # Hugo VII
+	}
 	1049.1.1 = {
 		holder = dagsburg1 # Heinrich I
 	}
@@ -1613,7 +1724,7 @@ c_bederkesa = {
 
 #Mecklenburg
 d_mecklenburg = {
-	#Polabi
+	#Obodriti
 	800.1.1 = { government = tribal_government }
 	954.1.1 = {
 		holder = nakoning5 # Nakon
@@ -1633,7 +1744,7 @@ d_mecklenburg = {
 }
 
 c_mecklenburg = {
-	#Polabi
+	#Obodriti
 	800.1.1 = { government = tribal_government }
 	954.1.1 = {
 		holder = nakoning5 # Nakon
@@ -1654,29 +1765,7 @@ c_mecklenburg = {
 
 #Schwerin
 c_schwerin = {
-	#Polabi
-	800.1.1 = { government = tribal_government }
-	954.1.1 = {
-		holder = nakoning5 # Nakon
-	}
-	966.1.1 = {
-		holder = nakoning4 # Mstivoj
-	}
-	995.1.1 = {
-		holder = nakoning3 # Mstislav
-	}
-	1018.1.1 = {
-		holder = nakoning2 # Udo
-	}
-	1028.1.1 = {
-		holder = nakoning1 # Gotszalk
-	}
-}
-
-
-#Lauenburg
-c_lauenburg = {
-	#Polabi
+	#Obodriti
 	800.1.1 = { government = tribal_government }
 	954.1.1 = {
 		holder = nakoning5 # Nakon
@@ -1697,7 +1786,7 @@ c_lauenburg = {
 
 #Ratzeburg
 c_ratzeburg = {
-	#Polabi
+	#Obodriti
 	800.1.1 = { government = tribal_government }
 	954.1.1 = {
 		holder = nakoning5 # Nakon
@@ -1713,6 +1802,30 @@ c_ratzeburg = {
 	}
 	1028.1.1 = {
 		holder = nakoning1 # Gotszalk
+	}
+}
+
+#Lauenburg
+c_lauenburg = {
+	#Polabi
+	800.1.1 = {
+		government = tribal_government
+		liege = d_mecklenburg
+	}
+	1054.1.1 = {
+		holder = polabi1 # Dobromil 
+	}
+}
+
+#Boizenburg
+c_boizenburg = {
+	#Polabi
+	800.1.1 = {
+		government = tribal_government
+		liege = d_mecklenburg
+	}
+	1054.1.1 = {
+		holder = polabi1 # Dobromil 
 	}
 }
 
@@ -1750,6 +1863,18 @@ c_lubeck = {
 	}
 }
 
+#Rostock
+c_rostock = {
+	#Circipani
+	800.1.1 = {
+		government = tribal_government
+		liege = d_mecklenburg
+	}
+	1054.1.1 = {
+		holder = circipani1
+	}
+}
+
 #Waren
 c_waren = {
 	#Warnabi
@@ -1759,6 +1884,49 @@ c_waren = {
 	}
 	1054.1.1 = {
 		holder = warnabi1
+	}
+}
+
+#Jerichow
+c_jerichow = {
+	#Liezizi
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = liezizi1
+	}
+}
+
+#Lindau-Zerbst
+c_lindau-zerbst = {
+	#Liezizi
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = liezizi1
+	}
+}
+
+#Brandenburg
+c_brandenburg = {
+	#Liezizi
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = liezizi1
+	}
+}
+
+#Berlin
+c_berlin = {
+	#Sprevani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = sprevani1
+	}
+}
+c_potsdam = {
+	#Sprevani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = sprevani1
 	}
 }
 
@@ -1780,12 +1948,21 @@ c_pritzwalk = {
 	}
 }
 
-#Ruppin
-c_ruppin = {
-	#Hevelli
+#Köpenick
+c_kopenick = {
+	#Riaciani
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
-		holder = hevelli1
+		holder = riaciani1
+	}
+}
+
+#Ruppin
+c_ruppin = {
+	#Murizzi
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = murizzi1
 	}
 }
 
@@ -1820,6 +1997,49 @@ c_prenzlau = {
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
 		holder = ukrani1
+	}
+}
+
+#Wolgast
+c_wolgast = {
+	#chyzani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = chyzani1
+	}
+}
+
+#Barth
+c_barth = {
+	#chyzani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = chyzani1
+	}
+}
+
+#Pyritz
+c_pyritz = {
+	#Prissani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = prissani1
+	}
+}
+c_storgard = {
+	#Prissani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = prissani1
+	}
+}
+
+#Cammin
+c_cammin = {
+	#Velunzani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = velunzani1
 	}
 }
 
@@ -2004,6 +2224,11 @@ c_verden = {
 
 #Minden
 c_minden = {
+	1036.10.10 = {
+		holder = goseck1 # Bruno I
+	}
+}
+c_hausberge = {
 	1036.10.10 = {
 		holder = goseck1 # Bruno I
 	}
@@ -2196,6 +2421,11 @@ c_bilstein = {
 		holder = arnsberg1 # Bernhard II
 	}
 }
+c_rietberg = {
+	1025.1.1 = {
+		holder = arnsberg1 # Bernhard II
+	}
+}
 
 #Köln
 c_cologne = {
@@ -2204,6 +2434,11 @@ c_cologne = {
 	}
 }
 c_brilon = {
+	1036.8.25 = {
+		holder = ezzoning7
+	}
+}
+c_wipperfurth = {
 	1036.8.25 = {
 		holder = ezzoning7
 	}
@@ -2383,7 +2618,7 @@ c_wiltberg = {
 #Orlamünde
 c_orlamunde = {
 	1054.1.1 = { #technically 1060
-		holder = orlamunde1 # Otto I
+		holder = weimar6 # Otto I
 	}
 }
 
@@ -2414,5 +2649,27 @@ c_corvey = {
 c_ravensberg = {
 	1054.1.1 = {
 		holder = calvelage1 # Hermann I
+	}
+}
+
+# Werden
+c_werden = {
+	1000.1.1 = { government = theocracy_government }
+	1052.1.1 = {
+		holder = friemersheim1
+	}
+}
+
+#Leiningen
+c_leiningen = {
+	1054.1.1 = {
+		holder = leiningen1 # Emicho I
+	}
+}
+
+#Grimma
+c_grimma = {
+	1054.1.1 = {
+		holder = dewin1 # Tammo I
 	}
 }

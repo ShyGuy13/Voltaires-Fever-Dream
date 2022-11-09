@@ -1,0 +1,12 @@
+spinola1 = {
+	name = "Andrea" # fic for Genoa in 1054
+	dynasty = 278
+	religion = catholic
+	culture = ligurian
+	1012.1.1 = {
+		birth = yes
+	}
+	1092.1.1 = {
+		death = yes
+	}
+}

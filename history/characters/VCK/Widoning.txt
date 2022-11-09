@@ -10,3 +10,29 @@
 		death = yes
 	}
 }
+
+widoning2 = {
+	name = "Ottone" # Ottone I of Lomello
+	dynasty = 116
+	religion = catholic
+	culture = lombard
+	1034.1.1 = { #fic
+		birth = yes
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}
+
+widoning3 = {
+	name = "Manfredo" # Manfredo of Parma
+	dynasty = 116
+	religion = catholic
+	culture = emilian
+	1034.1.1 = { #fic
+		birth = yes
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}

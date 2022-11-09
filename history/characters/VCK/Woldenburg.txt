@@ -1,0 +1,12 @@
+woldenburg1 = {
+	name = "Burkhard" #Burkhard I of Woldenburg
+	dynasty= 272
+	culture = eastphalian
+	religion = catholic
+	1023.1.1 = { #fic
+		birth = yes
+	}
+	1090.1.1 = { #fic
+		death = yes
+	}
+}

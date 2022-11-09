@@ -22,23 +22,12 @@ house_hamburg = {
 	dynasty = 223 # Udoning
 }
 
-house_ivrea = {
-	prefix = "dynnp_di"
-	name = "dynn_Ivrea"
-	dynasty = 209 # Anskaring
-}
-
 house_thiers = {
 	prefix = "dynnp_de"
 	name = "dynn_Thiers"
 	dynasty = 244 # Auvergne
 }
 
-house_orlamunde = {
-	prefix = "dynnp_von"
-	name = "dynn_Orlamunde"
-	dynasty = 4 # Weimar
-}
 
 house_salm = {
 	prefix = "dynnp_von"

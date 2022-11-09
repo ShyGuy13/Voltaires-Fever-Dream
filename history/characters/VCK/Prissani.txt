@@ -1,0 +1,12 @@
+prissani1 = {
+	name = "Gniewomir" #fic for 1054
+	dynasty = 255
+	culture = kashubian
+	religion = slavic_pagan
+	1027.1.1 = { #fic
+		birth = yes
+	}
+	1105.1.1 = {
+		death = yes
+	}
+}

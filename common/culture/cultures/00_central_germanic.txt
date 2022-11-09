@@ -68,6 +68,7 @@ swabian = {
 	traditions = {
 		tradition_parochialism
 		tradition_hard_working
+		tradition_recognition_of_talent 
 	}
 	
 	name_list = name_list_german
@@ -149,27 +150,23 @@ pommeranian = {
 	language = language_lechitic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_maritime_mercantilism
-		tradition_hussar
-	}
-	
-	dlc_tradition = {
-		trait = tradition_staunch_traditionalists
-		requires_dlc_flag = hybridize_culture
+		tradition_fishermen
+		tradition_agrarian
+		tradition_forest_fighters
 	}
 	
 	name_list = name_list_pommeranian
 	
-	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx }
 	
 	ethnicities = {
-		45 = slavic_blond
-		5 = slavic_ginger
-		35 = slavic_brown_hair
-		15 = slavic_dark_hair
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
 	}
 }
 
@@ -184,9 +181,8 @@ austrian = {
 	language = language_high_german
 	martial_custom = martial_custom_male_only
 	traditions = {
-		#tradition_welcoming
-		tradition_marital_ceremonies 
-		tradition_astute_diplomats
+		tradition_welcoming
+		tradition_wedding_ceremonies
 		tradition_mountaineers
 	}
 	
@@ -216,14 +212,10 @@ swiss = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_mountain_homes
-		tradition_highland_warriors
+		tradition_swords_for_hire
 	}
 	dlc_tradition = {
 		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
-	}
-	dlc_tradition = {
-		trait = tradition_artisans
 		requires_dlc_flag = hybridize_culture
 	}
 	
@@ -251,8 +243,7 @@ boden_alemannic = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_parochialism
-		tradition_swords_for_hire
-		tradition_industrious
+		tradition_ruling_caste
 	}
 	
 	name_list = name_list_german
@@ -272,15 +263,15 @@ boden_alemannic = {
 
 thuringian = {
 	color = thuringian
-	created = 843.1.1
-	parents = { old_saxon }
 	
 	ethos = ethos_stoic
 	heritage = heritage_central_germanic
 	language = language_saxon
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_metalworkers
+		tradition_metal_craftsmanship
+		tradition_hereditary_hierarchy
+		tradition_strength_in_numbers
 	}
 	
 	name_list = name_list_german
@@ -300,15 +291,14 @@ thuringian = {
 
 hessian = {
 	color = hessian
-	created = 843.1.1
-	parents = { old_saxon }
 	
-	ethos = ethos_stoic
+	ethos = ethos_egalitarian
 	heritage = heritage_central_germanic
 	language = language_high_german
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
+		tradition_family_business
+		tradition_ruling_caste
 	}
 	
 	name_list = name_list_german
@@ -328,15 +318,14 @@ hessian = {
 
 low_elbish = {
 	color = low_elbish
-	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
-	parents = { old_saxon }
 	
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic
 	language = language_saxon
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
+		tradition_maritime_mercantilism
+		tradition_agrarian
 	}
 	
 	name_list = name_list_german
@@ -356,8 +345,6 @@ low_elbish = {
 
 central_margravian = {
 	color = central_margravian
-	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
-	parents = { old_saxon }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_central_germanic
@@ -365,8 +352,7 @@ central_margravian = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_castle_keepers
-		tradition_strong_believers
-		tradition_only_the_strong
+		tradition_zealous_people
 		tradition_by_the_sword
 	}
 	
@@ -387,15 +373,14 @@ central_margravian = {
 
 eastphalian = {
 	color = eastphalian
-	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
-	parents = { frankish }
 	
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic
 	language = language_saxon
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
+		tradition_adaptive_skirmishers 
+		tradition_modest
 	}
 	
 	name_list = name_list_german
@@ -415,15 +400,13 @@ eastphalian = {
 
 ripuarian = {
 	color = ripuarian
-	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
-	parents = { frankish }
 	
-	ethos = ethos_courtly
+	ethos = ethos_communal
 	heritage = heritage_central_germanic
 	language = language_high_german
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_industrious
+		tradition_hard_working
 		tradition_eye_for_an_eye
 		tradition_parochialism
 	}
@@ -445,8 +428,6 @@ ripuarian = {
 
 moselle_franconian = {
 	color = moselle_franconian
-	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
-	parents = { frankish }
 	
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic
@@ -454,7 +435,7 @@ moselle_franconian = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_legalistic
-		tradition_family_business
+		tradition_family_entrepreneurship
 		tradition_welcoming
 	}
 	
@@ -475,8 +456,6 @@ moselle_franconian = {
 
 pfalzish = {
 	color = pfalzish
-	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
-	parents = { frankish }
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_central_germanic
@@ -504,15 +483,15 @@ pfalzish = {
 
 hannoverian = {
 	color = hannoverian
-	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
-	parents = { frankish }
 	
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic
 	language = language_saxon
 	martial_custom = martial_custom_male_only
 	traditions = {
-	
+		tradition_strong_believers 
+		tradition_forbearing
+		tradition_formation_fighting_experts 
 	}
 	
 	name_list = name_list_german

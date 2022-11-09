@@ -10,9 +10,10 @@ friulan = {
 	language = language_rhaetoromance
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_modest
+		tradition_forbearing
 		tradition_zealous_people
 		tradition_xenophilic
+		tradition_loyal_soldiers
 	}
 	
 	name_list = name_list_friulian
@@ -78,7 +79,7 @@ ladin = {
 	traditions = {
 		tradition_isolationist
 		tradition_esteemed_hospitality
-		tradition_industrious
+		tradition_pacifists
 		tradition_mountain_homes
 	}
 	

@@ -1,4 +1,54 @@
 #Denmark
+k_denmark = {
+	1047.10.25 = {
+		holder = astridsunr2 # Svend II
+	}
+}
+d_jutland = {
+	1047.10.25 = {
+		holder = astridsunr2 # Svend II
+	}
+}
+c_varde = {
+	1047.10.25 = {
+		holder = astridsunr2 # Svend II
+	}
+}
+c_holstebro = {
+	1047.10.25 = {
+		holder = astridsunr2 # Svend II
+	}
+}
+c_hjorring = {
+	1047.10.25 = {
+		holder = astridsunr2 # Svend II
+	}
+}
+c_vemdsyssel = {
+	1047.10.25 = {
+		holder = astridsunr2 # Svend II
+	}
+}
+c_randers  = {
+	1047.10.25 = {
+		holder = astridsunr2 # Svend II
+	}
+}
+c_viborg = {
+	1047.10.25 = {
+		holder = astridsunr2 # Svend II
+	}
+}
+c_kolding = {
+	1047.10.25 = {
+		holder = astridsunr2 # Svend II
+	}
+}
+c_arhus = {
+	1047.10.25 = {
+		holder = astridsunr2 # Svend II
+	}
+}
 
 #Slesvig
 c_slesvig = {

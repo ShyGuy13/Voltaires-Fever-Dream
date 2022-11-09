@@ -245,20 +245,6 @@ magdeburg_engelhard = {
 	}
 }
 
-#Passau
-passau_egilbert = {
-	name = "Egilbert" #Egilbert I
-	dynasty = 24
-	religion = catholic
-	culture = hessian
-	1000.1.1 = { #fic
-		birth = yes
-	}
-	1065.5.17 = {
-		death = yes
-	}
-}
-
 #Ravenna
 ravenna_enrico = {
 	name = "Enrico" #Enrico I
@@ -349,19 +335,6 @@ basel_theoderich = {
 	}
 }
 
-#Siena
-siena_giovanni_2 = {
-	name = "Giovanni" #Giovanni I
-	religion = catholic
-	culture = italian
-	999.1.1 = { #fic
-		birth = yes
-	}
-	1063.1.1 = {
-		death = yes
-	}
-}
-
 #Lausanne
 lausanne_frederic = {
 	name = "Frédéric" #Frédéric I
@@ -400,3 +373,17 @@ kornelimunster_libertus = {
 		death = yes
 	}
 }
+
+#Merseburg
+merseburg_ezzelin_1 = {
+	name = "Ezzelin" # Ezzelin I
+	religion = catholic
+	culture = thuringian
+	989.1.1 = { #fic
+		birth = yes
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+

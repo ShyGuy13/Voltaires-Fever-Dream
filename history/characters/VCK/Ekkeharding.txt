@@ -23,7 +23,7 @@ ekkeharding2 = {
 	1002.4.30 = {
 		death = {
 			death_reason = death_raid_killer
-			#killer = Siegfried von Northeim
+			killer = northeim5 # Siegfried II von Northeim
 		}
 	}
 }

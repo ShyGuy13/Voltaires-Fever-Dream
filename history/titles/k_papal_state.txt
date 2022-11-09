@@ -1,20 +1,36 @@
 k_papal_state = {
 	100.1.1 = { government = theocracy_government }
+	1048.8.9 = {
+		holder = dagsburg6 # Leo IX
+	}
 	1054.4.19 = {
-		holder = pope_victor_2
+		holder = calw1 # Victor II
 	}
 }
-
 c_vaticano = {
 	100.1.1 = { government = theocracy_government }
+	1048.8.9 = {
+		holder = dagsburg6 # Leo IX
+	}
 	1054.4.19 = {
-		holder = pope_victor_2
+		holder = calw1 # Victor II
 	}
 }
-
 c_roma = {
 	100.1.1 = { government = theocracy_government }
+	1048.8.9 = {
+		holder = dagsburg6 # Leo IX
+	}
 	1054.4.19 = {
-		holder = pope_victor_2
+		holder = calw1 # Victor II
+	}
+}
+c_viterbo = {
+	100.1.1 = { government = theocracy_government }
+	1048.8.9 = {
+		holder = dagsburg6 # Leo IX
+	}
+	1054.4.19 = {
+		holder = calw1 # Victor II
 	}
 }

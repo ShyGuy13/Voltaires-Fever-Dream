@@ -45,6 +45,7 @@ aleraming4 = {
 	dynasty = 126
 	culture = cisalpine
 	religion = catholic
+	father = aleraming5
 	940.1.1 = { #fic
 		birth = yes
 	}
@@ -58,10 +59,38 @@ aleraming5 = {
 	dynasty = 126
 	culture = cisalpine
 	religion = catholic
+	father = aleraming7
 	920.1.1 = { #fic
 		birth = yes
 	}
 	991.1.1 = {
+		death = yes
+	}
+}
+
+aleraming6 = {
+	name = "Guglielmo" # Guglielmo II of Monferrat
+	dynasty = 126
+	culture = cisalpine
+	religion = catholic
+	father = aleraming5
+	937.1.1 = { #fic
+		birth = yes
+	}
+	961.1.1 = {
+		death = yes
+	}
+}
+
+aleraming7 = {
+	name = "Guglielmo" # Guglielmo I of Monferrat
+	dynasty = 126
+	culture = cisalpine
+	religion = catholic
+	860.1.1 = { #fic
+		birth = yes
+	}
+	933.1.1 = {
 		death = yes
 	}
 }

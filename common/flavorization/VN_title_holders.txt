@@ -34,7 +34,7 @@ title_margrave = {
 	special = holder
 	tier = duchy
 	priority = 60
-	titles = { d_osterreich d_steyermark d_nordgau }
+	titles = { d_osterreich d_steyermark d_nordgau d_lausitz d_meissen }
 	top_liege = no
 }
 title_margravine = {
@@ -43,13 +43,13 @@ title_margravine = {
 	special = holder
 	tier = duchy
 	priority = 60
-	titles = { d_osterreich d_steyermark d_nordgau }
+	titles = { d_osterreich d_steyermark d_nordgau d_lausitz d_meissen }
 	top_liege = no
 }
 title_margraviate = {
 	type = title
 	tier = duchy
-	titles = { d_osterreich d_steyermark d_nordgau }
+	titles = { d_osterreich d_steyermark d_nordgau d_lausitz d_meissen }
 	priority = 60
 	top_liege = no
 }
@@ -184,7 +184,7 @@ title_burgrave = {
 	special = holder
 	tier = county
 	priority = 40
-	titles = { c_nurnberg }
+	titles = { c_nurnberg c_leisnig }
 	governments = { feudal_government }
 	top_liege = no
 }
@@ -194,14 +194,14 @@ title_burgravine = {
 	special = holder
 	tier = county
 	priority = 40
-	titles = { c_nurnberg }
+	titles = { c_nurnberg c_leisnig }
 	governments = { feudal_government }
 	top_liege = no
 }
 title_burgraviate = {
 	type = title
 	tier = county
-	titles = { c_nurnberg }
+	titles = { c_nurnberg c_leisnig }
 	holding = castle_holding
 	priority = 40
 	top_liege = no
@@ -265,31 +265,4 @@ title_freegraviate = {
 	holding = castle_holding
 	priority = 60
 	top_liege = no
-}
-
-#Sardinian Giudicato
-title_judge = {
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 28
-	governments = { feudal_government }
-	name_lists = { name_list_sardinian }
-}
-title_judge_female = {
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 28
-	governments = { feudal_government }
-	name_lists = { name_list_sardinian }
-}
-title_giudicato = {
-	type = title
-	tier = county
-	priority = 28
-	governments = { feudal_government }
-	name_lists = { name_list_sardinian }
 }

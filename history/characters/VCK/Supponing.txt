@@ -1,0 +1,68 @@
+supponing1 = {
+	name = "Vifredo" #Vifredo II of Seprio
+	dynasty = 114
+	religion = catholic
+	culture = lombard
+	father = supponing3
+	1008.1.1 = { #fic
+		birth = yes
+	}
+	1069.1.1 = {
+		death = yes
+	}
+}
+
+supponing2 = {
+	name = "Rodolfo" #Rodolfo III of Seprio
+	dynasty = 114
+	religion = catholic
+	culture = lombard
+	father = supponing1
+	1031.1.1 = { #fic
+		birth = yes
+	}
+	1089.1.1 = { #fic
+		death = yes
+	}
+}
+
+supponing3 = {
+	name = "Rodolfo" #Rodolfo II of Seprio
+	dynasty = 114
+	religion = catholic
+	culture = lombard
+	father = supponing4
+	964.1.1 = { #fic
+		birth = yes
+	}
+	1023.1.1 = {
+		death = yes
+	}
+}
+
+supponing4 = {
+	name = "Vifredo" #Vifredo I of Seprio
+	dynasty = 114
+	religion = catholic
+	culture = lombard
+	father = supponing5
+	937.1.1 = { #fic
+		birth = yes
+	}
+	1013.1.1 = {
+		death = yes
+	}
+}
+
+supponing5 = {
+	name = "Nantelmo" #Nantelmo I of Seprio
+	dynasty = 114
+	religion = catholic
+	culture = lombard
+	911.1.1 = { #fic
+		birth = yes
+	}
+	963.1.1 = {
+		death = yes
+	}
+}

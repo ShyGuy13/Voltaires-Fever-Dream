@@ -70,7 +70,10 @@ d_bm_salzburg = {
 d_bm_eichstadt = {
 	1000.1.1 = { government = theocracy_government }
 	1042.1.1 = {
-		holder = calw1
+		holder = calw1 # Gebhard
+	}
+	1054.4.19 = { # calw1 becomes Pope
+		holder = reginbodoning3 # Gundekar II
 	}
 }
 
@@ -84,7 +87,7 @@ d_bm_regensburg = {
 d_bm_passau = {
 	1000.1.1 = { government = theocracy_government }
 	1045.7.14 = {
-		holder = passau_egilbert
+		holder = reginbodoning2
 	}
 }
 
@@ -276,5 +279,12 @@ d_bm_basel = {
 	1000.1.1 = { government = theocracy_government }
 	1041.1.1 = {
 		holder = basel_theoderich # Theoderich
+	}
+}
+
+d_bm_merseburg = {
+	1000.1.1 = { government = theocracy_government }
+	1053.1.1 = {
+		holder = merseburg_ezzelin_1 # Ezzelin
 	}
 }

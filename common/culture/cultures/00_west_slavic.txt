@@ -149,8 +149,7 @@ sorbian = {
 	heritage = heritage_west_slavic
 	language = language_south_slavic
 	traditions = {
-		tradition_mountaineer_ruralism
-		tradition_martial_admiration
+		
 	}
 	
 	name_list = name_list_carantanian
@@ -176,8 +175,13 @@ kashubian = {
 	language = language_south_slavic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_mountaineer_ruralism
-		tradition_martial_admiration
+		tradition_fishermen
+		tradition_hussar
+	}
+
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
 	}
 	
 	name_list = name_list_carantanian
@@ -203,8 +207,7 @@ moravian = {
 	language = language_south_slavic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_mountaineer_ruralism
-		tradition_martial_admiration
+		
 	}
 	
 	name_list = name_list_carantanian

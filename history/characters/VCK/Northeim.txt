@@ -1,8 +1,9 @@
 ﻿northeim1 = {
-	name = "Otto" # Otto I of Gleichenstein
+	name = "Otto" # Otto I of Northeim
 	dynasty = 184
 	religion = catholic
 	culture = thuringian
+	father = northeim4
 	1020.1.1 = {
 		birth = yes
 	}
@@ -12,16 +13,74 @@
 }
 
 northeim2 = {
-	name = "Heinrich" # Heinrich I of Gleichenstein
+	name = "Heinrich" # Heinrich I of Northeim
 	dynasty = 184
 	religion = catholic
 	culture = thuringian
 	father = northeim1
-	1054.1.1 = {
+	1050.1.1 = { #est
 		birth = yes
 		give_nickname = nick_the_fat
 	}
 	1101.4.10 = {
+		death = yes
+	}
+}
+
+northeim3 = {
+	name = "Kuno" # 
+	dynasty = 184
+	religion = catholic
+	culture = thuringian
+	father = northeim1
+	1053.1.1 = { #est
+		birth = yes
+	}
+	1103.1.1 = {
+		death = {
+			death_reason = death_murder
+			#killer =  Elger von Ilfeld und Christian von Rothenburg
+		}
+	}
+}
+
+northeim4 = {
+	name = "Bernhard" # Bernhard I of Northeim
+	dynasty = 184
+	religion = catholic
+	culture = thuringian
+	father = northeim6
+	978.1.1 = { #fic
+		birth = yes
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+
+northeim5 = {
+	name = "Siegfried" # Siegfried II of Northeim
+	dynasty = 184
+	religion = catholic
+	culture = thuringian
+	father = northeim6
+	983.1.1 = { #est
+		birth = yes
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+
+northeim6 = {
+	name = "Siegfried" # Siegfried I of Northeim
+	dynasty = 184
+	religion = catholic
+	culture = thuringian
+	958.1.1 = { #est
+		birth = yes
+	}
+	1004.11.1 = {
 		death = yes
 	}
 }

@@ -16,3 +16,60 @@ c_boleslav = {
 		holder = premyslovci1 # Bretislav
 	}
 }
+
+#Lausitz
+d_lausitz = {
+	1032.1.1 = {
+		holder = wettin7 # Dietrich I
+	}
+	1034.1.1 = {
+		holder = ekkeharding1 # Ekkehard I
+	}
+	1046.1.24 = {
+		holder = wettin3 # Dedo I
+	}
+}
+c_chotebuz = {
+	1032.1.1 = {
+		holder = wettin7 # Dietrich I
+	}
+	1034.1.1 = {
+		holder = ekkeharding1 # Ekkehard I
+	}
+	1046.1.24 = {
+		holder = wettin3 # Dedo I
+	}
+}
+c_grabin = {
+	1032.1.1 = {
+		holder = wettin7 # Dietrich I
+	}
+	1034.1.1 = {
+		holder = ekkeharding1 # Ekkehard I
+	}
+	1046.1.24 = {
+		holder = wettin3 # Dedo I
+	}
+}
+c_bautzen = {
+	1032.1.1 = {
+		holder = wettin7 # Dietrich I
+	}
+	1034.1.1 = {
+		holder = ekkeharding1 # Ekkehard I
+	}
+	1046.1.24 = {
+		holder = wettin3 # Dedo I
+	}
+}
+c_luban = {
+	1032.1.1 = {
+		holder = wettin7 # Dietrich I
+	}
+	1034.1.1 = {
+		holder = ekkeharding1 # Ekkehard I
+	}
+	1046.1.24 = {
+		holder = wettin3 # Dedo I
+	}
+}

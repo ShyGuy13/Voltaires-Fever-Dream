@@ -1,0 +1,15 @@
+k_poland = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_lebus = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_kozstryn = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
