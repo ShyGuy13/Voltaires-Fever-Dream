@@ -6,6 +6,9 @@ cuijk1 = {
 	1030.1.1 = {
 		birth = yes
 	}
+	1054.1.1 = {
+		add_spouse = namur10 # Irmgard of Namur
+	}
 	1080.1.1 = {
 		death = yes
 	}

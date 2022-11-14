@@ -16,22 +16,40 @@ language_arpitan = {
 	color = arpitan
 }
 
-language_rhaetian = {
+language_rhaetoromance = {
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_rhaetian
+			LANGUAGE = language_rhaetoromance
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_rhaetian }
+			limit = { has_cultural_pillar = language_rhaetoromance }
 			multiply = 10
 		}
 	}
 	
 	color = romansch
+}
+
+language_sorbian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_sorbian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_sorbian }
+			multiply = 10
+		}
+	}
+	
+	color = sorbian
 }
 
 language_darja = {

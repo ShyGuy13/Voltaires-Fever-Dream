@@ -3,8 +3,8 @@
 	dynasty = 154
 	religion = catholic
 	culture = vivaro_alpine
-	father = bosoning3
-	1018.1.1 = { #fic
+	father = bosoning2
+	1032.1.1 = { #fic
 		birth = yes
 	}
 	1067.2.13 = {
@@ -31,6 +31,7 @@ bosoning3 = {
 	dynasty = 154
 	religion = catholic
 	culture = vivaro_alpine
+	father = bosoning12
 	988.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_pious
@@ -76,10 +77,229 @@ bosoning6 = {
 	dynasty = 154
 	religion = catholic
 	culture = vivaro_alpine
+	father = bosoning7
 	980.1.1 = {
 		birth = yes
 	}
 	1062.1.1 = {
+		death = yes
+	}
+}
+
+bosoning7 = {
+	name = "Roubaud" #Roubaud II of Venaissin
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning10
+	945.1.1 = { #fic
+		birth = yes
+	}
+	1014.1.1 = {
+		death = yes
+	}
+}
+
+bosoning8 = {
+	name = "Guillaume" #Guillaume III of Venaissin
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning7
+	971.1.1 = { #fic
+		birth = yes
+	}
+	1037.1.1 = {
+		death = yes
+	}
+}
+
+bosoning9 = {
+	name = "Hugues" #
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning7
+	976.1.1 = { #fic
+		birth = yes
+	}
+	985.1.1 = { #fic
+		death = yes
+	}
+}
+
+bosoning10 = {
+	name = "Roubaud" #Roubaud I of Venaissin
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning11
+	928.1.1 = { #fic
+		birth = yes
+	}
+	1008.1.1 = {
+		death = yes
+	}
+}
+
+bosoning11 = {
+	name = "Boson" #Boson II of Venaissin
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	910.1.1 = { 
+		birth = yes
+	}
+	968.1.1 = {
+		death = yes
+	}
+}
+
+bosoning12 = {
+	name = "Guillaume" #Guillaume I of Provence
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning11
+	950.1.1 = { 
+		birth = yes
+		give_nickname = nick_the_liberator
+	}
+	993.8.23 = {
+		death = yes
+	}
+}
+
+bosoning13 = {
+	name = "Constance" #wife of Robert II of France
+	female = yes
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning12
+	986.1.1 = {
+		birth = yes
+	}
+	1032.7.28 = {
+		death = yes
+	}
+}
+
+bosoning14 = {
+	name = "Ermengarde" #wife of Robert I of Auvergne
+	female = yes
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning12
+	971.1.1 = {
+		birth = yes
+	}
+	1032.1.1 = {
+		death = yes
+	}
+}
+
+bosoning15 = {
+	name = "Adélaïde" #wife of Bernard I of Besalú 
+	female = yes
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning12
+	978.1.1 = { #fic
+		birth = yes
+	}
+	1024.1.1 = { #fic
+		death = yes
+	}
+}
+
+bosoning16 = {
+	name = "Geoffroi" #Geoffroi I of Forcalquier
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning3
+	1015.1.1 = {
+		birth = yes
+	}
+	1062.1.1 = {
+		death = yes
+	}
+}
+
+bosoning17 = {
+	name = "Bertrand" #Bertrand II of Provence
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning16
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	1093.1.1 = {
+		death = yes
+	}
+}
+
+bosoning18 = {
+	name = "Stéphanie" #wife of William II of Besalu
+	female = yes
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning16
+	1037.1.1 = { #fic
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+
+bosoning19 = {
+	name = "Gerberge" #Gerberge I of Provence
+	female = yes
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning16
+	1060.1.1 = {
+		birth = yes
+	}
+	1115.1.1 = {
+		death = yes
+	}
+}
+
+bosoning20 = {
+	name = "Emilde" #nun
+	female = yes
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	trait = devoted
+	father = bosoning11
+	935.1.1 = { #fic
+		birth = yes
+	}
+	991.1.1 = { #fic
+		death = yes
+	}
+}
+
+bosoning21 = {
+	name = "Theutberge" #wife of Armengol I of Urgell
+	female = yes
+	dynasty = 154
+	religion = catholic
+	culture = vivaro_alpine
+	father = bosoning11
+	942.1.1 = { #fic
+		birth = yes
+	}
+	1005.1.1 = { #fic
 		death = yes
 	}
 }

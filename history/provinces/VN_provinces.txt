@@ -4915,12 +4915,12 @@
 	religion = catholic
 	holding = none
 }
-973 = { # c_aix
+973 = { # c_arles
 	culture = saxon
 	religion = catholic
 	holding = none
 }
-974 = { # c_nissa
+974 = { # c_nice
 	culture = emilian
 	religion = catholic
 	holding = none

@@ -1905,15 +1905,6 @@ c_lindau-zerbst = {
 	}
 }
 
-#Brandenburg
-c_brandenburg = {
-	#Liezizi
-	800.1.1 = { government = tribal_government }
-	1054.1.1 = {
-		holder = liezizi1
-	}
-}
-
 #Berlin
 c_berlin = {
 	#Sprevani
@@ -1954,6 +1945,29 @@ c_kopenick = {
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
 		holder = riaciani1
+	}
+}
+c_templin = {
+	#Riaciani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = riaciani1
+	}
+}
+
+#Brandenburg
+c_brandenburg = {
+	#Riaciani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = hevelli1
+	}
+}
+c_rathenow = {
+	#Riaciani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = hevelli1
 	}
 }
 
@@ -2347,6 +2361,14 @@ c_arenberg = {
 	}
 }
 
+#Wildenberg
+c_wildenberg = {
+	1032.1.1 = {
+		liege = d_bm_cologne
+		holder = arenberg1 # Ulrich I
+	}
+}
+
 #Jülich
 c_julich = {
 	1003.1.1 = {
@@ -2671,5 +2693,12 @@ c_leiningen = {
 c_grimma = {
 	1054.1.1 = {
 		holder = dewin1 # Tammo I
+	}
+}
+
+#Sausenberg
+c_sausenberg = {
+	1054.1.1 = {
+		holder = kaltenbach1 # Berchtold I
 	}
 }

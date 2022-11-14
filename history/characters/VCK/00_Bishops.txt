@@ -194,6 +194,78 @@ utrecht_bernold = {
 }
 
 #Liege
+liege_notker = {
+	name = "Notker" # Notker I
+	religion = catholic
+	culture = boden_alemannic
+	941.1.1 = { #est
+		birth = yes
+	}
+	1008.4.10 = {
+		death = yes
+	}
+}
+
+liege_wolbodo = {
+	name = "Wolbodo" # Wolbodo I
+	religion = catholic
+	culture = flemish
+	973.1.1 = { #fic
+		birth = yes
+	}
+	1021.4.20 = {
+		death = yes
+	}
+}
+
+liege_durand = {
+	name = "Durand" # Durand I
+	religion = catholic
+	culture = brabantian
+	973.1.1 = { #fic
+		birth = yes
+	}
+	1025.4.21 = {
+		death = yes
+	}
+}
+
+liege_reginard = {
+	name = "Reginard" # Reginard I
+	religion = catholic
+	culture = brabantian
+	973.1.1 = { #fic
+		birth = yes
+	}
+	1037.12.5 = {
+		death = yes
+	}
+}
+
+liege_nithard = {
+	name = "Nithard" # Nithard I - nephew of Reginhard
+	religion = catholic
+	culture = brabantian
+	996.1.1 = { #fic
+		birth = yes
+	}
+	1042.1.1 = {
+		death = yes
+	}
+}
+
+liege_wazon = {
+	name = "Wazon" # Wazon I
+	religion = catholic
+	culture = brabantian
+	980.1.1 = { #est
+		birth = yes
+	}
+	1048.7.8 = {
+		death = yes
+	}
+}
+
 liege_theoduin = {
 	name = "Theoduin" # Théoduin I
 	religion = catholic

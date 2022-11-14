@@ -7,6 +7,24 @@
 
 #Duchy
 
+d_gelders = {
+	pattern = "pattern_vertical_split_01.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_lion_rampant_per_pale.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { position = { 0.290 0.45 } scale = { -0.7 0.75 }  }			
+	}
+	colored_emblem = {
+		texture = "ce_lion_rampant_per_pale.dds"
+		color1 = "black"
+		color2 = "red"
+		instance = { position = { 0.710 0.45 } scale = { 0.7 0.75 }  }			
+	}
+}
+
 d_vogtland = {
 	pattern = "pattern_solid.dds"
 	color1 = "black"
@@ -203,6 +221,34 @@ d_ancona = {
 }
 
 #County
+
+c_cammin = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	colored_emblem = {
+		color1 = "yellow"
+		texture = "ce_block_02.dds"
+		instance = { scale = { 0.075 0.70 } position = { 0.5 0.5 } }
+		instance = { scale = { 0.075 0.25 } position = { 0.79 0.3 } }
+		instance = { scale = { 0.65 0.075 } position = { 0.5 0.15 } }
+		instance = { scale = { 0.2 0.075 } position = { 0.38 0.5 } }
+		instance = { scale = { 0.075 0.25 } position = { 0.25 0.5 } }
+	}
+}
+
+c_wolfenbuttel = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_lion_passant_small.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.32 } scale = { 0.9 0.9 }  }
+		instance = { position = { 0.5 0.62 } scale = { 0.9 0.9 }  }
+	}
+}
 
 c_beaujeu = {
 	pattern = "pattern_solid.dds"
@@ -3212,7 +3258,7 @@ c_tenquin = {
 	}
 }
 
-c_aix = {
+c_arles = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	color2 = "red"
@@ -4258,6 +4304,18 @@ c_castell = {
 		color1 = "white"
 		color2 = "red"
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
+c_haldensleben = { # fictional; inspired by modern Haldensleben
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_key_st_peter.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.5 0.48 } scale = { 1.0 1.0 }  }
 	}
 }
 
@@ -7302,5 +7360,24 @@ b_luxeuil = {
 		color1 = "yellow"
 		color2 = "yellow"
 		instance = { position = { 0.5 0.75 } scale = { 0.45 0.45 }  }
+	}
+}
+
+b_badenweiler = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_chevronny.dds"
+		color1 = "yellow"
+		color2 = "black"
+		instance = { position = { 0.5 0.5 } scale = { -1.0 1.0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.1 0.5 } scale = { 0.5 1.0 }  }
+		instance = { position = { 0.9 0.5 } scale = { 0.5 1.0 }  }
 	}
 }

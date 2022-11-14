@@ -637,7 +637,17 @@
 
 138 = c_marburg # Gisoning
 
-# 139 Dorfelden
+139 = { # Dorfelden; inspired by Niederdorfelden
+	pattern = "pattern_solid.dds"	
+	color1 = "yellow"		
+	color2 = "blue"	
+	colored_emblem = {
+		texture = "ce_checkers_08.dds"
+		color1 = "yellow"
+		color2 = "blue"
+		instance = { position = { 0.5 0.75 } scale = { 1.0 1.0 }  }		
+	}	
+}
 
 # 140 Malsburg
 
@@ -884,9 +894,9 @@
 
 172 = c_julich # Jülich
 
-173 = c_kleve # Kleve
-
 174 = c_mors # Mörs
+
+177 = c_isenburg # Isenburg
 
 179 = { # Arberg
 	pattern = "pattern_solid.dds"
@@ -1000,7 +1010,7 @@
 
 205 = c_cuijk # Cuijk
 
-206 = d_gelders # Gelre
+206 = c_guelders # Gelre
 
 207 = c_gent # Gent
 
@@ -1229,6 +1239,10 @@
 		instance = { position = { 0.5 0.5 } scale = { 1.25 1.25 }  }
 	}
 }
+
+248 = c_abenberg # Abenberg
+
+249 = c_wertheim # Wertheim
 
 274 = { # Lieber
 	pattern = "pattern_solid.dds"
@@ -2018,3 +2032,9 @@ house_eppan = { # needs a banner
 house_mecklenburg = d_mecklenburg # Mecklenburg
 
 house_salm = c_salm # Salm
+
+house_chiny = c_chiny # Chiny
+
+house_heinsberg = c_heinsberg # Heinsberg
+
+house_kleve = c_kleve # Kleve

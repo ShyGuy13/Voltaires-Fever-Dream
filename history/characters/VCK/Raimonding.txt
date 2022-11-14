@@ -1,7 +1,7 @@
 ﻿raimonding1 = {
 	name = "Pons" # Pons I of Toulouse
 	dynasty = 227
-	culture = occitain
+	culture = occitan
 	religion = catholic
 	father = raimonding3
 	mother = bosoning6
@@ -16,7 +16,7 @@
 raimonding2 = {
 	name = "Guillaume" # Guillaume IV of Toulouse
 	dynasty = 227
-	culture = occitain
+	culture = occitan
 	religion = catholic
 	father = raimonding1
 	1040.1.1 = {
@@ -30,7 +30,7 @@ raimonding2 = {
 raimonding3 = {
 	name = "Guillaume" # Guillaume III of Toulouse
 	dynasty = 227
-	culture = occitain
+	culture = occitan
 	religion = catholic
 	970.1.1 = {
 		birth = yes

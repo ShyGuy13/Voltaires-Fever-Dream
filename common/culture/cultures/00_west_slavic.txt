@@ -147,7 +147,7 @@ sorbian = {
 	
 	ethos = ethos_communal
 	heritage = heritage_west_slavic
-	language = language_south_slavic
+	language = language_sorbian
 	traditions = {
 		
 	}
@@ -172,7 +172,7 @@ kashubian = {
 	
 	ethos = ethos_communal
 	heritage = heritage_west_slavic
-	language = language_south_slavic
+	language = language_lechitic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_fishermen
@@ -204,7 +204,7 @@ moravian = {
 	
 	ethos = ethos_communal
 	heritage = heritage_west_slavic
-	language = language_south_slavic
+	language = language_czech_slovak
 	martial_custom = martial_custom_male_only
 	traditions = {
 		

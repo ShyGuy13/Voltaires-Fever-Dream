@@ -2,11 +2,139 @@
 	name = "Emmon" #Emmon I of Loon
 	dynasty = 196
 	religion = catholic
-	culture = franconian
+	culture = brabantian
+	father = loon2
 	1030.1.1 = {
 		birth = yes
 	}
-	1078.1.17 = { #fic
+	1078.1.17 = {
+		death = yes
+	}
+}
+
+loon2 = {
+	name = "Giselbert" #Giselbert I of Loon
+	dynasty = 196
+	religion = catholic
+	culture = brabantian
+	father = loon3
+	980.1.1 = {
+		birth = yes
+	}
+	1045.1.1 = {
+		death = yes
+	}
+}
+
+loon3 = {
+	name = "Ottone" #Ottone I of Loon
+	dynasty = 196
+	religion = catholic
+	culture = brabantian
+	father = loon4
+	940.1.1 = { #fic
+		birth = yes
+	}
+	1000.1.1 = { #fic
+		death = yes
+	}
+}
+
+loon4 = {
+	name = "Rodolphe" #Rodolphe I of Loon
+	dynasty = 196
+	religion = catholic
+	culture = brabantian
+	922.1.1 = { #fic
+		birth = yes
+	}
+	943.1.1 = {
+		death = yes
+	}
+}
+
+loon5 = {
+	name = "Baldéric" #bishop of Liege
+	dynasty = 196
+	religion = catholic
+	culture = brabantian
+	father = loon3
+	984.1.1 = { #fic
+		birth = yes
+	}
+	1018.7.29 = {
+		death = yes
+	}
+}
+
+loon6 = {
+	name = "Ottone" # Ottone I of Duras
+	dynasty = 196
+	religion = catholic
+	culture = brabantian
+	father = loon2
+	1034.1.1 = { #fic
+		birth = yes
+	}
+	1087.1.1 = {
+		death = yes
+	}
+}
+
+loon7 = {
+	name = "Sophia" # wife of Geza I of Hungary
+	female = yes
+	dynasty = 196
+	religion = catholic
+	culture = brabantian
+	father = loon1
+	1044.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+
+loon8 = {
+	name = "Arnold" # Arnold I of Loon
+	dynasty = 196
+	religion = catholic
+	culture = brabantian
+	father = loon1
+	1045.1.1 = {
+		birth = yes
+	}
+	1125.1.1 = {
+		death = yes
+	}
+}
+
+loon9 = {
+	name = "Dirk" # 
+	dynasty = 196
+	religion = catholic
+	culture = brabantian
+	father = loon1
+	1049.1.1 = { #fic
+		birth = yes
+	}
+	1128.1.1 = { #fic
+		death = yes
+	}
+}
+
+loon10 = {
+	name = "Mechthilde" # nun
+	female = yes
+	dynasty = 196
+	religion = catholic
+	culture = brabantian
+	father = loon1
+	1052.1.1 = { #fic
+		birth = yes
+	}
+	1090.1.1 = { #fic
 		death = yes
 	}
 }

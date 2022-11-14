@@ -28,9 +28,20 @@ house_thiers = {
 	dynasty = 244 # Auvergne
 }
 
-
 house_salm = {
 	prefix = "dynnp_von"
 	name = "dynn_Salm"
 	dynasty = 82 # Luxemburg
+}
+
+house_kleve = {
+	prefix = "dynnp_von"
+	name = "dynn_Kleve"
+	dynasty = 206 # Gelre
+}
+
+house_heinsberg = {
+	prefix = "dynnp_van"
+	name = "dynn_Heinsberg"
+	dynasty = 206 # Gelre
 }

@@ -16,7 +16,8 @@ reginbodoning2 = {
 	dynasty = 24
 	religion = catholic
 	culture = hessian
-	1000.1.1 = { #fic
+	father = reginbodoning14 # ???
+	1028.1.1 = { #fic
 		birth = yes
 	}
 	1065.5.17 = {
@@ -29,10 +30,222 @@ reginbodoning3 = {
 	dynasty = 24
 	religion = catholic
 	culture = hessian
+	father = reginbodoning10 # ???
 	1019.8.10 = {
 		birth = yes
 	}
 	1075.8.2 = {
+		death = yes
+	}
+}
+
+reginbodoning4 = {
+	name = "Reginhard" # Reginhard of Königssondergau
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	968.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+
+reginbodoning5 = {
+	name = "Siegfried" # Reginhard of Königssondergau
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	father = reginbodoning4
+	991.1.1 = { #fic
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+
+reginbodoning6 = {
+	name = "Reginhard" # 
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	father = reginbodoning5
+	1016.1.1 = { #fic
+		birth = yes
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}
+
+reginbodoning7 = {
+	name = "Siegfried" # bishop of Mainz
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	trait = devoted
+	father = reginbodoning5
+	1023.1.1 = { #fic
+		birth = yes
+	}
+	1084.2.16 = {
+		death = yes
+	}
+}
+
+reginbodoning8 = {
+	name = "Ulrich" # Ulrich of Königssondergau
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	father = reginbodoning5
+	1026.1.1 = { #fic
+		birth = yes
+	}
+	1074.1.1 = {
+		death = yes
+	}
+}
+
+reginbodoning9 = {
+	name = "Gerhard" # 
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	father = reginbodoning4
+	994.1.1 = { #fic
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+reginbodoning10 = {
+	name = "Radebodo" # 
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	father = reginbodoning4
+	997.1.1 = { #fic
+		birth = yes
+	}
+	1052.1.1 = {
+		death = yes
+	}
+}
+
+reginbodoning11 = {
+	name = "Gebeno" # 
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	father = reginbodoning10
+	1019.1.1 = { #fic
+		birth = yes
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+
+reginbodoning12 = {
+	name = "Gerhard" # 
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	father = reginbodoning10
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	1106.1.1 = {
+		death = yes
+	}
+}
+
+reginbodoning13 = {
+	name = "Beatrix" # wife fof Berthold of Bergtheim
+	female = yes
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	father = reginbodoning12
+	1076.1.1 = { #fic
+		birth = yes
+	}
+	1144.1.1 = {
+		death = yes
+	}
+}
+
+reginbodoning14 = {
+	name = "Sigebodo" # 
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	father = reginbodoning4
+	1001.1.1 = { #fic
+		birth = yes
+	}
+	1063.1.1 = {
+		death = yes
+	}
+}
+
+reginbodoning15 = {
+	name = "Sigebodo" # 
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	father = reginbodoning14
+	1026.1.1 = { #fic
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+
+reginbodoning16 = {
+	name = "Reginbodo" # 
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	father = reginbodoning4
+	1004.1.1 = { #fic
+		birth = yes
+	}
+	1063.1.1 = {
+		death = yes
+	}
+}
+
+reginbodoning17 = {
+	name = "Reginbodo" # 
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	father = reginbodoning16
+	1025.1.1 = { #fic
+		birth = yes
+	}
+	1082.1.1 = { #fic
+		death = yes
+	}
+}
+
+reginbodoning18 = {
+	name = "Dietmar" # 
+	dynasty = 24
+	religion = catholic
+	culture = hessian
+	father = reginbodoning16
+	1036.1.1 = { #fic
+		birth = yes
+	}
+	1080.1.1 = {
 		death = yes
 	}
 }

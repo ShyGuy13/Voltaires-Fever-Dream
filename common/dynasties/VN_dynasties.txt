@@ -821,9 +821,7 @@
 	culture = ripuarian
 }
 173 = {
-	prefix = "dynnp_von"
-	name = "dynn_Kleve"
-	culture = ripuarian
+	#free
 }
 174 = {
 	prefix = "dynnp_von"
@@ -981,7 +979,7 @@
 }
 206 = {
 	prefix = "dynnp_van"
-	name = "dynn_Gelre"
+	name = "dynn_Gelre" # Wassenberg
 	culture = dutch
 }
 207 = {
@@ -1081,7 +1079,7 @@
 }
 227 = {
 	name = "dynn_Raimonding"
-	culture = occitain
+	culture = occitan
 }
 228 = {
 	prefix = "dynnp_van"

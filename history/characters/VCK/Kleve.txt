@@ -1,9 +1,10 @@
 ﻿kleve1 = {
 	name = "Rutger" #Rutger I of Kleve
-	dynasty = 173
+	dynasty_house = house_kleve
 	religion = catholic
 	culture = ripuarian
-	970.1.1 = { #est
+	father = gelre4
+	972.1.1 = { #est
 		birth = yes
 	}
 	1050.1.1 = { #est
@@ -13,7 +14,7 @@
 
 kleve2 = {
 	name = "Rutger" #Rutger II of Kleve
-	dynasty = 173
+	dynasty_house = house_kleve
 	religion = catholic
 	culture = ripuarian
 	father = kleve1
@@ -27,7 +28,7 @@ kleve2 = {
 
 kleve3 = {
 	name = "Dietrich" #Dietrich I of Kleve
-	dynasty = 173
+	dynasty_house = house_kleve
 	religion = catholic
 	culture = ripuarian
 	father = kleve2

@@ -2,7 +2,7 @@
 	name = "Raimond Bernard" # Raimond Bernard of Nîmes
 	dynasty = 191
 	religion = catholic
-	culture = occitain
+	culture = occitan
 	1004.1.1 = { #fic
 		birth = yes
 	}

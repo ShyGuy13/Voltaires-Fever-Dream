@@ -220,6 +220,7 @@ reginaring15 = {
 
 reginaring16 = {
 	name = "Adela" # wife of Otto I of Orlamünde
+	female = yes
 	dynasty = 195
 	religion = catholic
 	culture = brabantian

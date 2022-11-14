@@ -231,3 +231,48 @@ wigeriching16 = {
 		death = yes
 	}
 }
+
+wigeriching17 = {
+	name = "Godefroid" # Godefroid II of Upper Lorraine
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching18
+	966.1.1 = { #est
+		birth = yes
+	}
+	1023.9.26 = {
+		death = yes
+		give_nickname = nick_the_childless
+	}
+}
+
+wigeriching18 = {
+	name = "Godefroid" # Godefroid I of Upper Lorraine
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	935.1.1 = { #est
+		birth = yes
+	}
+	985.1.1 = {
+		give_nickname = nick_the_captive
+	}
+	998.9.3 = {
+		death = yes
+	}
+}
+
+wigeriching19 = {
+	name = "Gothelon" # Gothelon I of Upper Lorraine
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching18
+	970.1.1 = { #est
+		birth = yes
+	}
+	1044.4.19 = {
+		death = yes
+	}
+}

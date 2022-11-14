@@ -27,7 +27,7 @@ luxemburg2 = {
 }
 
 luxemburg3 = {
-	name = "Friedrich" #Friedrich I of Antwerp / Lower Lorraine
+	name = "Friedrich" #Friedrich II of Lower Lorraine
 	dynasty = 82
 	religion = catholic
 	culture = moselle_franconian

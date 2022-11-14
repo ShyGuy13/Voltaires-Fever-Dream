@@ -58,6 +58,7 @@ landulfing5 = {
 	dynasty = 148
 	religion = catholic
 	culture = langobard
+	father = landulfing9
 	1013.1.1 = {
 		birth = yes
 	}
@@ -88,6 +89,33 @@ landulfing7 = {
 		birth = yes
 	}
 	1077.11.27 = {
+		death = yes
+	}
+}
+
+landulfing8 = {
+	name = "Guido" # Guido I of Sorrento
+	dynasty = 148
+	religion = catholic
+	culture = langobard
+	father = landulfing9
+	1012.1.1 = {
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+
+landulfing9 = {
+	name = "Guaimario" # Guaimario III of Salerno
+	dynasty = 148
+	religion = catholic
+	culture = langobard
+	983.1.1 = {
+		birth = yes
+	}
+	1027.1.1 = {
 		death = yes
 	}
 }

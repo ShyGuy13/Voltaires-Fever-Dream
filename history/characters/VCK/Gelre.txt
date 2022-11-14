@@ -1,8 +1,9 @@
 ﻿gelre1 = {
-	name = "Gerard Flamens" # Gerard Flamens III of Solothurn
+	name = "Gerard" # Gerard Flamens III of Solothurn
 	dynasty = 206
 	religion = catholic
 	culture = dutch
+	father = gelre2
 	1022.1.1 = {
 		birth = yes
 	}
@@ -11,3 +12,43 @@
 	}
 }
 
+gelre2 = {
+	name = "Gerard" # Gerard Flamens II 
+	dynasty = 206
+	religion = catholic
+	culture = dutch
+	father = gelre3
+	1000.1.1 = {
+		birth = yes
+	}
+	1052.1.1 = {
+		death = yes
+	}
+}
+
+gelre3 = {
+	name = "Gerard" # Gerard Flamens I 
+	dynasty = 206
+	religion = catholic
+	culture = dutch
+	father = gelre4
+	968.1.1 = {
+		birth = yes
+	}
+	1042.1.1 = {
+		death = yes
+	}
+}
+
+gelre4 = {
+	name = "Dirk" # fictional to connect Gelre and Kleve
+	dynasty = 206
+	religion = catholic
+	culture = dutch
+	930.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}

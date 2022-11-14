@@ -70,6 +70,7 @@ c_cambray = {
 #Brabant
 c_brabant = {
 	1003.1.1 = {
+		liege = d_lower_lorraine
 		holder = reginaring7 # Lambert I
 	}
 	1015.9.12 = {
@@ -84,6 +85,7 @@ c_brabant = {
 }
 c_herentals = {
 	1003.1.1 = {
+		liege = d_lower_lorraine
 		holder = reginaring7 # Lambert I
 	}
 	1015.9.12 = {
@@ -98,6 +100,7 @@ c_herentals = {
 }
 c_tilburg = {
 	1003.1.1 = {
+		liege = d_lower_lorraine
 		holder = reginaring7 # Lambert I
 	}
 	1015.9.12 = {
@@ -113,6 +116,13 @@ c_tilburg = {
 
 #Loon
 c_loon = {
+	980.1.1 = {
+		liege = d_bm_liege
+		holder = loon3 # Ottone I
+	}
+	1000.1.1 = {
+		holder = loon2 # Giselbert I
+	}
 	1036.1.1 = {
 		holder = loon1 # Emmon I
 	}
@@ -121,6 +131,7 @@ c_loon = {
 #Enghien
 c_enghein = {
 	1054.1.1 = {
+		liege = d_lower_lorraine
 		holder = enghien1 # Engelbert I
 	}
 }
@@ -144,12 +155,30 @@ c_leiden = {
 
 #Antwerp
 d_lower_lorraine = {
-	1046.1.1 = {
+	991.6.12 = {
+		holder = karling1 # Otto I
+	}
+	1012.6.12 = {
+		holder = wigeriching17 # Godefroid II
+	}
+	1023.9.26 = {
+		holder = wigeriching19 # Gothelon I
+	}
+	1044.4.19 = {
 		holder = luxemburg3 # Friedrich I
 	}
 }
 c_antwerpen = {
-	1046.1.1 = {
+	991.6.12 = {
+		holder = karling1 # Otto I
+	}
+	1012.6.12 = {
+		holder = wigeriching17 # Godefroid II
+	}
+	1023.9.26 = {
+		holder = wigeriching19 # Gothelon I
+	}
+	1044.4.19 = {
 		holder = luxemburg3 # Friedrich I
 	}
 }
@@ -157,6 +186,7 @@ c_antwerpen = {
 #Hoorn
 c_hoorne = {
 	1054.1.1 = {
+		liege = d_bm_liege
 		holder = hoorn1 # Engelbert I
 	}
 	1094.1.1 = {
@@ -282,34 +312,109 @@ c_groningen = {
 }
 
 #Gelre
-c_gelderen = {
-	1054.1.1 = {
+c_guelders = {
+	1033.1.1 = {
+		liege = d_lower_lorraine
+		holder = gelre3 # Gerard Flamens I
+	}
+	1042.1.1 = {
+		holder = gelre2 # Gerard Flamens II
+	}
+	1052.1.1 = {
 		holder = gelre1 # Gerard Flamens III
 	}
 }
 c_arnhem = {
-	1054.1.1 = {
+	1033.1.1 = {
+		liege = d_lower_lorraine
+		holder = gelre3 # Gerard Flamens I
+	}
+	1042.1.1 = {
+		holder = gelre2 # Gerard Flamens II
+	}
+	1052.1.1 = {
 		holder = gelre1 # Gerard Flamens III
 	}
 }
 c_veluwe = {
-	1054.1.1 = {
+	1033.1.1 = {
+		liege = d_lower_lorraine
+		holder = gelre3 # Gerard Flamens I
+	}
+	1042.1.1 = {
+		holder = gelre2 # Gerard Flamens II
+	}
+	1052.1.1 = {
 		holder = gelre1 # Gerard Flamens III
 	}
 }
 
 #Liege
 c_liege = {
+	972.1.1 = {
+		holder = liege_notker # Notker I
+	}
+	1008.4.10 = {
+		holder = liege_wolbodo # Wolbodo I
+	}
+	1021.4.20 = {
+		holder = liege_durand # Durand I
+	}
+	1025.4.21 = {
+		holder = liege_reginard # Reginhard I
+	}
+	1037.12.5 = {
+		holder = liege_nithard # Nithard I
+	}
+	1042.1.1 = {
+		holder = liege_wazon # Wazon I
+	}
 	1048.7.8 = {
 		holder = liege_theoduin # Théoduin I
 	}
 }
 c_mechelen = {
+	972.1.1 = {
+		holder = liege_notker # Notker I
+	}
+	1008.4.10 = {
+		holder = liege_wolbodo # Wolbodo I
+	}
+	1021.4.20 = {
+		holder = liege_durand # Durand I
+	}
+	1025.4.21 = {
+		holder = liege_reginard # Reginhard I
+	}
+	1037.12.5 = {
+		holder = liege_nithard # Nithard I
+	}
+	1042.1.1 = {
+		holder = liege_wazon # Wazon I
+	}
 	1048.7.8 = {
 		holder = liege_theoduin # Théoduin I
 	}
 }
 c_dinant = {
+	972.1.1 = {
+		holder = liege_notker # Notker I
+	}
+	1008.4.10 = {
+		holder = liege_wolbodo # Wolbodo I
+	}
+	1021.4.20 = {
+		holder = liege_durand # Durand I
+	}
+	1025.4.21 = {
+		holder = liege_reginard # Reginhard I
+	}
+	1037.12.5 = {
+		holder = liege_nithard # Nithard I
+	}
+	1042.1.1 = {
+		holder = liege_wazon # Wazon I
+	}
 	1048.7.8 = {
 		holder = liege_theoduin # Théoduin I
 	}
@@ -382,5 +487,12 @@ c_hainaut = {
 	}
 	1049.7.3 = {
 		holder = reginaring2 # Richilde
+	}
+}
+
+c_heinsberg = {
+	1054.1.1 = {
+		liege = d_lower_lorraine
+		holder = heinsberg2 # Diederik I
 	}
 }

@@ -4,7 +4,7 @@
 	religion = catholic
 	culture = wallonian
 	father = namur5
-	1000.1.1 = { #fic
+	997.1.1 = { #fic
 		birth = yes
 	}
 	1067.1.1 = {
@@ -120,6 +120,21 @@ namur9 = {
 		birth = yes
 	}
 	1020.1.1 = { #fic
+		death = yes
+	}
+}
+
+namur10 = {
+	name = "Irmgard" # wife of Herman I of Cuijk
+	female = yes
+	dynasty = 198
+	religion = catholic
+	culture = wallonian
+	father = namur1
+	1040.1.1 = { #fic
+		birth = yes
+	}
+	1064.1.1 = { #fic
 		death = yes
 	}
 }

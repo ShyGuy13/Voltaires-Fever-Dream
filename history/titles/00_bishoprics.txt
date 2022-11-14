@@ -176,6 +176,24 @@ d_bm_utrecht = {
 
 d_bm_liege = {
 	1000.1.1 = { government = theocracy_government }
+	972.1.1 = {
+		holder = liege_notker # Notker I
+	}
+	1008.4.10 = {
+		holder = liege_wolbodo # Wolbodo I
+	}
+	1021.4.20 = {
+		holder = liege_durand # Durand I
+	}
+	1025.4.21 = {
+		holder = liege_reginard # Reginhard I
+	}
+	1037.12.5 = {
+		holder = liege_nithard # Nithard I
+	}
+	1042.1.1 = {
+		holder = liege_wazon # Wazon I
+	}
 	1048.7.8 = {
 		holder = liege_theoduin # Théoduin I
 	}

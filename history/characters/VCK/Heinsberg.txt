@@ -1,0 +1,41 @@
+heinsberg1 = {
+	name = "Gosewijn" # Gosewijn I of Heinsberg
+	dynasty_house = house_heinsberg
+	religion = catholic
+	culture = brabantian
+	father = heinsberg2
+	1054.1.1 = { #fic
+		birth = yes
+	}
+	1128.4.1 = {
+		death = yes
+	}
+}
+
+heinsberg2 = {
+	name = "Diederik" # Diederik I
+	dynasty_house = house_heinsberg
+	religion = catholic
+	culture = dutch
+	father = gelre2
+	1033.1.1 = {
+		birth = yes
+	}
+	1082.1.1 = {
+		death = yes
+	}
+}
+
+heinsberg3 = {
+	name = "Gerard" # 
+	dynasty_house = house_heinsberg
+	religion = catholic
+	culture = brabantian
+	father = heinsberg2
+	1052.1.1 = { #fic
+		birth = yes
+	}
+	1060.1.1 = { #fic
+		death = yes
+	}
+}
