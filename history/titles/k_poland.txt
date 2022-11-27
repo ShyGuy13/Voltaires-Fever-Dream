@@ -13,3 +13,88 @@ c_kozstryn = {
 		holder = piast1 # Kazimierz I
 	}
 }
+c_zielenzig = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_krosno_odrzanskie = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_legnica = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_jawor = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_wroclaw = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_milicz = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_swidnica = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_opava = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_opole = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_brzeg = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_namyslow = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_nysa = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_oswiecim = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_raciborz = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_cieszyn = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_bytom = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_glogow = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}

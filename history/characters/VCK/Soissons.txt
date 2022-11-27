@@ -1,0 +1,71 @@
+soissons1 = {
+	name = "Guy" # Guy II of Soissons
+	dynasty_house = house_soissons
+	religion = catholic
+	culture = champenois
+	father = soissons2
+	1008.1.1 = { #fic
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+
+soissons2 = {
+	name = "Renaud" # Renaud I of Soissons
+	dynasty_house = house_soissons
+	religion = catholic
+	culture = champenois
+	mother = soissons5
+	985.1.1 = {
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+
+soissons3 = {
+	name = "Adelaide" # Adelaide I of Soissons
+	female = yes
+	dynasty_house = house_soissons
+	religion = catholic
+	culture = champenois
+	father = soissons2
+	1031.1.1 = { #fic
+		birth = yes
+	}
+	1105.1.1 = {
+		death = yes
+	}
+}
+
+soissons4 = {
+	name = "Guy" # Guy I of Soissons
+	dynasty_house = house_soissons
+	religion = catholic
+	culture = champenois
+	father = vermandois10
+	942.1.1 = { #fic
+		birth = yes
+	}
+	988.1.1 = {
+		death = yes
+	}
+}
+
+soissons5 = {
+	name = "Adelise" # Adelise I of Soissons
+	female = yes
+	dynasty_house = house_soissons
+	religion = catholic
+	culture = champenois
+	father = soissons4
+	965.1.1 = {
+		birth = yes
+	}
+	1047.1.1 = {
+		death = yes
+	}
+}

@@ -107,7 +107,7 @@ anskaring8 = {
 		birth = yes
 	}
 	1078.1.1 = {
-		add_trait = devoted
+		trait = devoted
 	}
 	1109.1.1 = {
 		death = yes
@@ -198,7 +198,7 @@ anskaring14 = {
 		birth = yes
 	}
 	1059.1.1 = {
-		add_trait = devoted
+		trait = devoted
 	}
 	1068.11.10 = {
 		death = yes

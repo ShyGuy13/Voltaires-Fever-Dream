@@ -19,7 +19,7 @@ ezzoning2 = {
 	dynasty = 81
 	religion = catholic
 	culture = pfalzish
-	trait = lunatic
+	trait = lunatic_genetic
 	father = ezzoning5
 	1015.1.1 = { #fic
 		birth = yes
@@ -27,8 +27,8 @@ ezzoning2 = {
 	}
 	1058.1.1 = { #goes insane, kills wifes, is put into a monastery
 		give_nickname = nick_the_monk
-		add_trait = murderer
-		add_trait = devoted
+		trait = murderer
+		trait = devoted
 	}
 	1060.7.27 = {
 		death = yes

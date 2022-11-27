@@ -1,0 +1,13 @@
+baboning1 = {
+	name = "Sieglinde" # fictional name, wife of Wolfram I of Abenberg
+	female = yes
+	dynasty = 287
+	religion = catholic
+	culture = bavarian
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1070.1.1 = { #fic
+		death = yes
+	}
+}

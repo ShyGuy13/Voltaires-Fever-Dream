@@ -393,8 +393,8 @@
 }
 82 = {
 	prefix = "dynnp_von"
-	name = "dynn_Luxemburg"
-	culture = moselle_franconian
+	name = "dynn_Regenstein"
+	culture = eastphalian
 }
 83 = {
 	prefix = "dynnp_von"
@@ -768,7 +768,9 @@
 	culture = pfalzish
 }
 162 = {
-	#free
+	prefix = "dynnp_von"
+	name = "dynn_Bickenbach"
+	culture = hessian
 }
 163 = {
 	prefix = "dynnp_von"
@@ -821,7 +823,9 @@
 	culture = ripuarian
 }
 173 = {
-	#free
+	prefix = "dynnp_de"
+	name = "dynn_Marseille"
+	culture = provencal
 }
 174 = {
 	prefix = "dynnp_von"
@@ -1281,7 +1285,7 @@
 }
 272 = {
 	prefix = "dynnp_von"
-	name = "dynn_Woldenburg"
+	name = "dynn_Woldenberg"
 	culture = eastphalian
 }
 273 = {
@@ -1347,13 +1351,18 @@
 	culture = umbrian
 }
 287 = {
-	
+	name = "dynn_Baboning"
+	culture = bavarian
 }
 288 = {
-	
+	prefix = "dynnp_di"
+	name = "dynn_Lantosca"
+	culture = nissard
 }
 289 = {
-	
+	prefix = "dynnp_de"
+	name = "dynn_Fos"
+	culture = provencal
 }
 290 = {
 	

@@ -1,0 +1,196 @@
+vermandois1 = {
+	name = "Herbert" # Herbert IV of Vermandois
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = picard
+	father = vermandois2
+	1028.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+vermandois2 = {
+	name = "Eudes" # Eudes of Vermandois
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = picard
+	father = vermandois6
+	979.8.29 = {
+		birth = yes
+	}
+	1045.5.25 = {
+		death = yes
+	}
+}
+
+vermandois3 = {
+	name = "Eudes" # Eudes of Furneaux
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = picard
+	father = vermandois2
+	1040.1.1 = {
+		birth = yes
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+
+vermandois4 = {
+	name = "Simon " # 
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = picard
+	father = vermandois2
+	1045.1.1 = { #fic
+		birth = yes
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}
+
+vermandois5 = {
+	name = "Pierre" # 
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = picard
+	father = vermandois2
+	1049.1.1 = { #fic
+		birth = yes
+	}
+	1074.1.1 = { #fic
+		death = yes
+	}
+}
+
+vermandois6 = {
+	name = "Herbert " # Herbert III of Vermandois
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = picard
+	father = vermandois8
+	953.1.1 = {
+		birth = yes
+	}
+	1002.8.29 = {
+		death = yes
+	}
+}
+
+vermandois7 = {
+	name = "Albert" # Albert II of Vermandois
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = picard
+	father = vermandois6
+	977.1.1 = { #est
+		birth = yes
+	}
+	1016.1.1 = {
+		death = yes
+	}
+}
+
+vermandois8 = {
+	name = "Albert" # Adalbert I of Vermandois
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = picard
+	father = vermandois10
+	915.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_pious
+	}
+	987.9.8 = {
+		death = yes
+	}
+}
+
+vermandois9 = {
+	name = "Luidolfe" # bishop of Noyon
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = picard
+	father = vermandois8
+	957.1.1 = {
+		birth = yes
+	}
+	986.11.9 = {
+		death = yes
+	}
+}
+
+vermandois10 = {
+	name = "Herbert" # Herbert II of Vermandois
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = picard
+	father = vermandois11
+	891.1.1 = { #fic
+		birth = yes
+	}
+	943.2.23 = {
+		death = yes
+	}
+}
+
+vermandois11 = {
+	name = "Herbert" # Herbert I of Vermandois
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = frankish
+	father = vermandois12
+	848.1.1 = {
+		birth = yes
+	}
+	907.1.1 = {
+		death = yes
+	}
+}
+
+vermandois12 = {
+	name = "Pepin" # Pepin II of Vermandois
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = frankish
+	father = karling9
+	817.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		death = yes
+	}
+}
+
+vermandois13 = {
+	name = "Pepin" # Pepin III of Vermandois
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = frankish
+	father = vermandois12
+	846.1.1 = {
+		birth = yes
+	}
+	893.1.1 = {
+		death = yes
+	}
+}
+
+vermandois14 = {
+	name = "Bernard" # Bernard II of Laon
+	dynasty_house = house_vermandois
+	religion = catholic
+	culture = frankish
+	father = vermandois12
+	844.1.1 = {
+		birth = yes
+	}
+	893.1.1 = {
+		death = yes
+	}
+}

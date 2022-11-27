@@ -224,6 +224,7 @@ wigeriching16 = {
 	dynasty = 120
 	religion = catholic
 	culture = wallonian
+	father = wigeriching24
 	965.1.1 = { #est
 		birth = yes
 	}
@@ -252,6 +253,7 @@ wigeriching18 = {
 	dynasty = 120
 	religion = catholic
 	culture = lorrainian
+	father = wigeriching20
 	935.1.1 = { #est
 		birth = yes
 	}
@@ -271,8 +273,121 @@ wigeriching19 = {
 	father = wigeriching18
 	970.1.1 = { #est
 		birth = yes
+		give_nickname = nick_the_great
 	}
 	1044.4.19 = {
+		death = yes
+	}
+}
+
+wigeriching20 = {
+	name = "Gotzelo" # 
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching21
+	911.1.1 = { #est
+		birth = yes
+	}
+	942.10.19 = {
+		death = yes
+	}
+}
+
+wigeriching21 = {
+	name = "Wigerich" # 
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	870.1.1 = { #est
+		birth = yes
+	}
+	922.1.1 = {
+		death = yes
+	}
+}
+
+wigeriching22 = {
+	name = "Adalbero" # bishop of Metz
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching21
+	905.1.1 = { #est
+		birth = yes
+	}
+	962.4.26 = {
+		death = yes
+	}
+}
+
+wigeriching23 = {
+	name = "Liutgarde" # wife of Adalbert of Metz & Eberhard IV of Nordgau
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching21
+	914.1.1 = { #fic
+		birth = yes
+	}
+	970.1.1 = { #fic
+		death = yes
+	}
+}
+
+wigeriching24 = {
+	name = "Frédéric" # Frédéric of Upper Lorraine & Bar
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching21
+	912.1.1 = {
+		birth = yes
+	}
+	978.5.18 = {
+		death = yes
+	}
+}
+
+wigeriching25 = {
+	name = "Adalbéron" # bishop of Verdun & Metz
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching24
+	958.1.1 = { #est
+		birth = yes
+	}
+	1005.12.14 = {
+		death = yes
+	}
+}
+
+wigeriching26 = {
+	name = "Adalbéron" # bishop of Verdun
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching18
+	964.1.1 = {
+		birth = yes
+	}
+	988.4.18 = {
+		death = yes
+	}
+}
+
+wigeriching27 = {
+	name = "Frédéric" # Frédéric of Verdun
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching18
+	976.1.1 = {
+		birth = yes
+	}
+	1022.1.6 = {
 		death = yes
 	}
 }

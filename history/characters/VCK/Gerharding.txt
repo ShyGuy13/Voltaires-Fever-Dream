@@ -5,8 +5,9 @@
 	culture = lorrainian
 	1030.1.1 = {
 		birth = yes
+		give_nickname = nick_the_wonderful
 	}
-	1050.1.1 = { # fic
+	1050.1.1 = {
 		add_spouse = namur4
 	}
 	1070.4.14 = {

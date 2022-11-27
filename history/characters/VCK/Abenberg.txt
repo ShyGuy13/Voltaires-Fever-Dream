@@ -1,13 +1,208 @@
 ﻿abenberg1 = {
 	name = "Wolfram" #Wolfram I of Abenberg
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	father = abenberg2
+	1011.1.1 = { #fic
+		birth = yes
+	}
+	1030.1.1 = {
+		add_spouse = baboning1
+	}
+	1079.1.1 = { #1059 ?
+		death = yes
+	}
+}
+
+abenberg2 = {
+	name = "Otto" #Otto I of Abenberg
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	father = abenberg3
+	mother = abenberg3_wife
+	991.1.1 = { #fic
+		birth = yes
+	}
+	1037.1.1 = { #est
+		death = yes
+	}
+}
+
+abenberg3 = {
+	name = "Konrad" #Konrad I of Abenberg
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	father = abenberg5
+	969.1.1 = { #fic
+		birth = yes
+	}
+	985.1.1 = {
+		add_spouse = abenberg3_wife
+	}
+	1021.1.1 = {
+		death = yes
+	}
+}
+
+abenberg4 = {
+	name = "Adalbert" #Adalbert I of Abenberg
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	father = abenberg3
+	mother = abenberg3_wife
+	988.1.1 = { #fic
+		birth = yes
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+
+abenberg5 = {
+	name = "Burkhard" #fictional
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	923.1.1 = {
+		birth = yes
+	}
+	979.1.1 = {
+		death = yes
+	}
+}
+
+abenberg6 = {
+	name = "Eberhard" #bishop of Bamberg
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	father = abenberg5
+	973.1.1 = { #est
+		birth = yes
+	}
+	1040.8.13 = {
+		death = yes
+	}
+}
+
+abenberg7 = {
+	name = "Wolfram" #Wolfram II of Abenberg
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	father = abenberg1
+	mother = baboning1
+	1049.1.1 = { #est
+		birth = yes
+	}
+	1116.1.1 = {
+		death = yes
+	}
+}
+
+abenberg8 = {
+	name = "Otto" #Otto II of Abenberg
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	father = abenberg1
+	mother = baboning1
+	1052.1.1 = { #fic
+		birth = yes
+	}
+	1108.1.1 = {
+		death = yes
+	}
+}
+
+abenberg9 = {
+	name = "Kraft" #
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	father = abenberg1
+	mother = baboning1
+	1062.1.1 = { #fic
+		birth = yes
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+
+abenberg10 = {
+	name = "Konrad" # bishop of Salzburg
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	father = abenberg1
+	mother = baboning1
+	1075.1.1 = { #est
+		birth = yes
+	}
+	1147.4.9 = {
+		death = yes
+	}
+}
+
+abenberg11 = {
+	name = "Edith" # fictional name, wife of Wilhelm of Stetebach
 	female = yes
 	dynasty = 248
 	religion = catholic
 	culture = franconian
-	994.1.1 = { #fic
+	father = abenberg1
+	mother = baboning1
+	1078.1.1 = { #fic
 		birth = yes
 	}
-	1059.1.1 = {
+	1120.1.1 = { #fic
+		death = yes
+	}
+}
+
+abenberg12 = {
+	name = "Adalbert" #Adalbert II of Abenberg
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	father = abenberg4
+	1009.1.1 = { #fic
+		birth = yes
+	}
+	1064.1.1 = {
+		death = yes
+	}
+}
+
+abenberg13 = {
+	name = "Adalbert" #Adalbert III of Abenberg
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	father = abenberg12
+	1042.1.1 = { #fic
+		birth = yes
+	}
+	1093.1.1 = {
+		death = yes
+	}
+}
+
+#wifes
+abenberg3_wife = {
+	name = "Irmengard"
+	female = yes
+	religion = catholic
+	culture = franconian
+	970.1.1 = {
+		birth = yes
+	}
+	1023.1.1 = {
 		death = yes
 	}
 }

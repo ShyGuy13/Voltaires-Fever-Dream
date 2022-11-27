@@ -34,7 +34,7 @@ title_margrave = {
 	special = holder
 	tier = duchy
 	priority = 60
-	titles = { d_osterreich d_steyermark d_nordgau d_lausitz d_meissen }
+	titles = { d_osterreich d_steyermark d_nordgau d_lausitz d_meissen d_provence }
 	top_liege = no
 }
 title_margravine = {
@@ -43,13 +43,13 @@ title_margravine = {
 	special = holder
 	tier = duchy
 	priority = 60
-	titles = { d_osterreich d_steyermark d_nordgau d_lausitz d_meissen }
+	titles = { d_osterreich d_steyermark d_nordgau d_lausitz d_meissen d_provence }
 	top_liege = no
 }
 title_margraviate = {
 	type = title
 	tier = duchy
-	titles = { d_osterreich d_steyermark d_nordgau d_lausitz d_meissen }
+	titles = { d_osterreich d_steyermark d_nordgau d_lausitz d_meissen d_provence }
 	priority = 60
 	top_liege = no
 }
@@ -214,7 +214,7 @@ title_landgrave = {
 	special = holder
 	tier = duchy
 	priority = 40
-	titles = { d_thuringia d_alsace }
+	titles = { d_thuringia d_alsace d_hesse }
 	governments = { feudal_government }
 	top_liege = no
 }
@@ -224,14 +224,14 @@ title_landgravine = {
 	special = holder
 	tier = duchy
 	priority = 40
-	titles = { d_thuringia d_alsace }
+	titles = { d_thuringia d_alsace d_hesse }
 	governments = { feudal_government }
 	top_liege = no
 }
 title_landgraviate = {
 	type = title
 	tier = duchy
-	titles = { d_thuringia d_alsace }
+	titles = { d_thuringia d_alsace d_hesse }
 	holding = castle_holding
 	priority = 40
 	top_liege = no

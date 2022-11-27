@@ -1,0 +1,12 @@
+regenstein1 = {
+	name = "Bodo" # Bodo I of Blankenburg
+	dynasty = 82
+	culture = eastphalian
+	religion = catholic
+	1029.1.1 = {
+		birth = yes
+	}
+	1082.1.1 = {
+		death = yes
+	}
+}

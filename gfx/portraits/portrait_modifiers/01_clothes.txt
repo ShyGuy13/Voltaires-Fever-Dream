@@ -48,7 +48,7 @@ clothes = {
 			}
 
 		}
-		outfit_tags = { no_clothes }
+		outfit_tags = { no_clothes nightgown }
 		weight = {
 			base = 0
 			modifier = {
@@ -85,7 +85,7 @@ clothes = {
 			}
 
 		}	
-		outfit_tags = { no_clothes }
+		outfit_tags = { no_clothes nightgown }
 		weight = {
 			base = 0
 			modifier = {
@@ -617,6 +617,12 @@ clothes = {
 					portrait_western_clothing_trigger = yes
 				}
 			}
+			modifier = {
+                add = 200
+                exists = this
+                exists = character:easteregg_stina_arvidsson_radestig
+                this = character:easteregg_stina_arvidsson_radestig
+            }
 		}
 	}
 
@@ -865,7 +871,7 @@ clothes = {
 			}
 
 		}
-		outfit_tags = { military_outfit }
+		#outfit_tags = { military_outfit }
 		weight = {
 			base = 0
 			modifier = {
@@ -1266,223 +1272,223 @@ clothes = {
 
 ## INDIAN ##
 
-	indian_commoners = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = indian_commoner_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-				template = bust_clothes
-			}
+	# indian_commoners = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = indian_commoner_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+	# 			template = bust_clothes
+	# 		}
 
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 20
-				scope:highest_held_title_tier < tier_county
-				trigger_if = {
-					limit = { exists = this }
-					NOR = {
-						AND = {
-							exists = primary_spouse
-							primary_spouse = {
-								highest_held_title_tier > tier_county
-							}
-						}
-						AND = {
-							has_government = republic_government
-							primary_title.tier > 1
-						}
-						AND = { is_ruler = yes has_government = theocracy_government }
-					}
-				}
-				portrait_indian_clothing_trigger = yes
-			}
-		}
-	}
+	# 	}	
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 20
+	# 			scope:highest_held_title_tier < tier_county
+	# 			trigger_if = {
+	# 				limit = { exists = this }
+	# 				NOR = {
+	# 					AND = {
+	# 						exists = primary_spouse
+	# 						primary_spouse = {
+	# 							highest_held_title_tier > tier_county
+	# 						}
+	# 					}
+	# 					AND = {
+	# 						has_government = republic_government
+	# 						primary_title.tier > 1
+	# 					}
+	# 					AND = { is_ruler = yes has_government = theocracy_government }
+	# 				}
+	# 			}
+	# 			portrait_indian_clothing_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	indian_low_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = indian_low_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-				template = bust_clothes
-			}
+	# indian_low_nobles = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = indian_low_nobility_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+	# 			template = bust_clothes
+	# 		}
 
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				exists = court_owner
-				court_owner = {
-					has_royal_court = yes
-					amenity_level = { type = court_fashion value >= 4 }
-				}
-				portrait_indian_clothing_trigger = yes
-			}
-			modifier = {
-				add = 50
-				trigger_if = {
-					limit = { exists = this }
-					OR = {
-						AND = {
-							highest_held_title_tier = tier_county
-							NOR = {
-								# has_dynasty = no
-								AND = {
-									has_government = republic_government
-									primary_title.tier > 1
-								}
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							portrait_indian_clothing_trigger = yes
-						}
-						AND = {
-							exists = primary_spouse
-							OR = {
-								is_ruler = no
-								highest_held_title_tier = tier_barony
-							}
-							primary_spouse = {
-								highest_held_title_tier = tier_county
-								NOR = {
-									# has_dynasty = no
-									AND = {
-										has_government = republic_government
-										primary_title.tier > 1
-									}
-									AND = { is_ruler = yes has_government = theocracy_government }
-								}
-								portrait_indian_clothing_spouse_trigger = yes
-							}
-						}
-					}
-				}
-				trigger_else = {
-					scope:highest_held_title_tier = tier_county
-					portrait_indian_clothing_trigger = yes
-				}
-			}
-		}
-	}
+	# 	}	
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 50
+	# 			exists = court_owner
+	# 			court_owner = {
+	# 				has_royal_court = yes
+	# 				amenity_level = { type = court_fashion value >= 4 }
+	# 			}
+	# 			portrait_indian_clothing_trigger = yes
+	# 		}
+	# 		modifier = {
+	# 			add = 50
+	# 			trigger_if = {
+	# 				limit = { exists = this }
+	# 				OR = {
+	# 					AND = {
+	# 						highest_held_title_tier = tier_county
+	# 						NOR = {
+	# 							# has_dynasty = no
+	# 							AND = {
+	# 								has_government = republic_government
+	# 								primary_title.tier > 1
+	# 							}
+	# 							AND = { is_ruler = yes has_government = theocracy_government }
+	# 						}
+	# 						portrait_indian_clothing_trigger = yes
+	# 					}
+	# 					AND = {
+	# 						exists = primary_spouse
+	# 						OR = {
+	# 							is_ruler = no
+	# 							highest_held_title_tier = tier_barony
+	# 						}
+	# 						primary_spouse = {
+	# 							highest_held_title_tier = tier_county
+	# 							NOR = {
+	# 								# has_dynasty = no
+	# 								AND = {
+	# 									has_government = republic_government
+	# 									primary_title.tier > 1
+	# 								}
+	# 								AND = { is_ruler = yes has_government = theocracy_government }
+	# 							}
+	# 							portrait_indian_clothing_spouse_trigger = yes
+	# 						}
+	# 					}
+	# 				}
+	# 			}
+	# 			trigger_else = {
+	# 				scope:highest_held_title_tier = tier_county
+	# 				portrait_indian_clothing_trigger = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
 
-	indian_high_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = indian_high_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-				template = bust_clothes
-			}
+	# indian_high_nobles = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = indian_high_nobility_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+	# 			template = bust_clothes
+	# 		}
 
-		}		
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				exists = court_owner
-				court_owner = {
-					has_royal_court = yes
-					amenity_level = { type = court_fashion value = 5 }
-				}
-				portrait_indian_clothing_trigger = yes
-			}
-			modifier = {
-				add = 50
-				trigger_if = {
-					limit = { exists = this }
-					OR = {
-						AND = {
-							OR = {
-								highest_held_title_tier > tier_county
-								AND = {
-									has_government = republic_government
-									primary_title.tier > 1
-								}
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							portrait_indian_clothing_trigger = yes
-						}
-						AND = {
-							exists = primary_spouse
-							OR = {
-								is_ruler = no
-								highest_held_title_tier = tier_barony
-							}
-							primary_spouse = {
-								OR = {
-									highest_held_title_tier > tier_county
-									AND = {
-									has_government = republic_government
-										primary_title.tier > 1
-									}
-									AND = { is_ruler = yes has_government = theocracy_government }
-								}
-								portrait_indian_clothing_spouse_trigger = yes
-							}
-						}
-					}	
-				}
-				trigger_else = {
-					scope:highest_held_title_tier > tier_county
-					portrait_indian_clothing_trigger = yes
-				}
-			}
-		}
-	}
+	# 	}		
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 50
+	# 			exists = court_owner
+	# 			court_owner = {
+	# 				has_royal_court = yes
+	# 				amenity_level = { type = court_fashion value = 5 }
+	# 			}
+	# 			portrait_indian_clothing_trigger = yes
+	# 		}
+	# 		modifier = {
+	# 			add = 50
+	# 			trigger_if = {
+	# 				limit = { exists = this }
+	# 				OR = {
+	# 					AND = {
+	# 						OR = {
+	# 							highest_held_title_tier > tier_county
+	# 							AND = {
+	# 								has_government = republic_government
+	# 								primary_title.tier > 1
+	# 							}
+	# 							AND = { is_ruler = yes has_government = theocracy_government }
+	# 						}
+	# 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+	# 						portrait_indian_clothing_trigger = yes
+	# 					}
+	# 					AND = {
+	# 						exists = primary_spouse
+	# 						OR = {
+	# 							is_ruler = no
+	# 							highest_held_title_tier = tier_barony
+	# 						}
+	# 						primary_spouse = {
+	# 							OR = {
+	# 								highest_held_title_tier > tier_county
+	# 								AND = {
+	# 								has_government = republic_government
+	# 									primary_title.tier > 1
+	# 								}
+	# 								AND = { is_ruler = yes has_government = theocracy_government }
+	# 							}
+	# 							portrait_indian_clothing_spouse_trigger = yes
+	# 						}
+	# 					}
+	# 				}	
+	# 			}
+	# 			trigger_else = {
+	# 				scope:highest_held_title_tier > tier_county
+	# 				portrait_indian_clothing_trigger = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
 
-	indian_war = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = indian_war_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-				template = bust_clothes
-			}
+	# indian_war = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = indian_war_nobility_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+	# 			template = bust_clothes
+	# 		}
 
-		}	
-		outfit_tags = { military_outfit }
-		weight = {
-			base = 0
-			modifier = {
-				add = 101
-				portrait_wear_armor_trigger = yes
-				portrait_indian_clothing_trigger = yes
-			}
-			modifier = {
-				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
-				portrait_wear_armor_currently_in_army_trigger = yes
-			}
-		}
-	}
+	# 	}	
+	# 	outfit_tags = { military_outfit }
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 101
+	# 			portrait_wear_armor_trigger = yes
+	# 			portrait_indian_clothing_trigger = yes
+	# 		}
+	# 		modifier = {
+	# 			add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+	# 			portrait_wear_armor_currently_in_army_trigger = yes
+	# 		}
+	# 	}
+	# }
 
 ## DDE ABBASID ##
 
@@ -2077,223 +2083,223 @@ clothes = {
 
 ## Steppe ##
 
-	steppe_commoners = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = steppe_commoner_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-				template = bust_clothes
-			}
+	# steppe_commoners = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = steppe_commoner_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+	# 			template = bust_clothes
+	# 		}
 
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 20
-				scope:highest_held_title_tier < tier_county
-				trigger_if = {
-					limit = { exists = this }
-					NOR = {
-						AND = {
-							exists = primary_spouse
-							primary_spouse = {
-								highest_held_title_tier > tier_county
-							}
-						}
-						AND = {
-							has_government = republic_government
-							primary_title.tier > 1
-						}
-						AND = { is_ruler = yes has_government = theocracy_government }
-					}
-				}
-				portrait_steppe_clothing_trigger = yes
-			}
-		}
-	}
+	# 	}	
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 20
+	# 			scope:highest_held_title_tier < tier_county
+	# 			trigger_if = {
+	# 				limit = { exists = this }
+	# 				NOR = {
+	# 					AND = {
+	# 						exists = primary_spouse
+	# 						primary_spouse = {
+	# 							highest_held_title_tier > tier_county
+	# 						}
+	# 					}
+	# 					AND = {
+	# 						has_government = republic_government
+	# 						primary_title.tier > 1
+	# 					}
+	# 					AND = { is_ruler = yes has_government = theocracy_government }
+	# 				}
+	# 			}
+	# 			portrait_steppe_clothing_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	steppe_low_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = steppe_low_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-				template = bust_clothes
-			}
+	# steppe_low_nobles = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = steppe_low_nobility_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+	# 			template = bust_clothes
+	# 		}
 
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				exists = court_owner
-				court_owner = {
-					has_royal_court = yes
-					amenity_level = { type = court_fashion value >= 4 }
-				}
-				portrait_steppe_clothing_trigger = yes
-			}
-			modifier = {
-				add = 50
-				trigger_if = {
-					limit = { exists = this }
-					OR = {
-						AND = {
-							highest_held_title_tier = tier_county
-							NOR = {
-								# has_dynasty = no
-								AND = {
-									has_government = republic_government
-									primary_title.tier > 1
-								}
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							portrait_steppe_clothing_trigger = yes
-						}
-						AND = {
-							exists = primary_spouse
-							OR = {
-								is_ruler = no
-								highest_held_title_tier = tier_barony
-							}
-							primary_spouse = {
-								highest_held_title_tier = tier_county
-								NOR = {
-									# has_dynasty = no
-									AND = {
-									has_government = republic_government
-										primary_title.tier > 1
-									}
-									AND = { is_ruler = yes has_government = theocracy_government }
-								}
-								portrait_steppe_clothing_spouse_trigger = yes
-							}
-						}
-					}
-				}
-				trigger_else = {
-					scope:highest_held_title_tier = tier_county
-					portrait_steppe_clothing_trigger = yes
-				}
-			}
-		}
-	}
+	# 	}	
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 50
+	# 			exists = court_owner
+	# 			court_owner = {
+	# 				has_royal_court = yes
+	# 				amenity_level = { type = court_fashion value >= 4 }
+	# 			}
+	# 			portrait_steppe_clothing_trigger = yes
+	# 		}
+	# 		modifier = {
+	# 			add = 50
+	# 			trigger_if = {
+	# 				limit = { exists = this }
+	# 				OR = {
+	# 					AND = {
+	# 						highest_held_title_tier = tier_county
+	# 						NOR = {
+	# 							# has_dynasty = no
+	# 							AND = {
+	# 								has_government = republic_government
+	# 								primary_title.tier > 1
+	# 							}
+	# 							AND = { is_ruler = yes has_government = theocracy_government }
+	# 						}
+	# 						portrait_steppe_clothing_trigger = yes
+	# 					}
+	# 					AND = {
+	# 						exists = primary_spouse
+	# 						OR = {
+	# 							is_ruler = no
+	# 							highest_held_title_tier = tier_barony
+	# 						}
+	# 						primary_spouse = {
+	# 							highest_held_title_tier = tier_county
+	# 							NOR = {
+	# 								# has_dynasty = no
+	# 								AND = {
+	# 								has_government = republic_government
+	# 									primary_title.tier > 1
+	# 								}
+	# 								AND = { is_ruler = yes has_government = theocracy_government }
+	# 							}
+	# 							portrait_steppe_clothing_spouse_trigger = yes
+	# 						}
+	# 					}
+	# 				}
+	# 			}
+	# 			trigger_else = {
+	# 				scope:highest_held_title_tier = tier_county
+	# 				portrait_steppe_clothing_trigger = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
 
-	steppe_high_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = steppe_high_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-				template = bust_clothes
-			}
+	# steppe_high_nobles = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = steppe_high_nobility_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+	# 			template = bust_clothes
+	# 		}
 
-		}		
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				exists = court_owner
-				court_owner = {
-					has_royal_court = yes
-					amenity_level = { type = court_fashion value = 5 }
-				}
-				portrait_steppe_clothing_trigger = yes
-			}
-			modifier = {
-				add = 50
-				trigger_if = {
-					limit = { exists = this }
-					OR = {
-						AND = {
-							OR = {
-								highest_held_title_tier > tier_county
-								AND = {
-									has_government = republic_government
-									primary_title.tier > 1
-								}
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							portrait_steppe_clothing_trigger = yes
-						}
-						AND = {
-							exists = primary_spouse
-							OR = {
-								is_ruler = no
-								highest_held_title_tier = tier_barony
-							}
-							primary_spouse = {
-								OR = {
-									highest_held_title_tier > tier_county
-									AND = {
-										has_government = republic_government
-										primary_title.tier > 1
-									}
-									AND = { is_ruler = yes has_government = theocracy_government }
-								}
-								portrait_steppe_clothing_spouse_trigger = yes
-							}
-						}
-					}
-				}
-				trigger_else = {
-					scope:highest_held_title_tier > tier_county
-					portrait_steppe_clothing_trigger = yes
-				}
-			}
-		}
-	}
+	# 	}		
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 50
+	# 			exists = court_owner
+	# 			court_owner = {
+	# 				has_royal_court = yes
+	# 				amenity_level = { type = court_fashion value = 5 }
+	# 			}
+	# 			portrait_steppe_clothing_trigger = yes
+	# 		}
+	# 		modifier = {
+	# 			add = 50
+	# 			trigger_if = {
+	# 				limit = { exists = this }
+	# 				OR = {
+	# 					AND = {
+	# 						OR = {
+	# 							highest_held_title_tier > tier_county
+	# 							AND = {
+	# 								has_government = republic_government
+	# 								primary_title.tier > 1
+	# 							}
+	# 							AND = { is_ruler = yes has_government = theocracy_government }
+	# 						}
+	# 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+	# 						portrait_steppe_clothing_trigger = yes
+	# 					}
+	# 					AND = {
+	# 						exists = primary_spouse
+	# 						OR = {
+	# 							is_ruler = no
+	# 							highest_held_title_tier = tier_barony
+	# 						}
+	# 						primary_spouse = {
+	# 							OR = {
+	# 								highest_held_title_tier > tier_county
+	# 								AND = {
+	# 									has_government = republic_government
+	# 									primary_title.tier > 1
+	# 								}
+	# 								AND = { is_ruler = yes has_government = theocracy_government }
+	# 							}
+	# 							portrait_steppe_clothing_spouse_trigger = yes
+	# 						}
+	# 					}
+	# 				}
+	# 			}
+	# 			trigger_else = {
+	# 				scope:highest_held_title_tier > tier_county
+	# 				portrait_steppe_clothing_trigger = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
 
-	steppe_war = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = steppe_war_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-				template = bust_clothes
-			}
+	# steppe_war = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = steppe_war_nobility_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+	# 			template = bust_clothes
+	# 		}
 
-		}
-		outfit_tags = { military_outfit }
-		weight = {
-			base = 0
-			modifier = {
-				add = 101
-				portrait_wear_armor_trigger = yes
-				portrait_steppe_clothing_trigger = yes
-			}
-			modifier = {
-				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
-				portrait_wear_armor_currently_in_army_trigger = yes
-			}
-		}
-	}
+	# 	}
+	# 	outfit_tags = { military_outfit }
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 101
+	# 			portrait_wear_armor_trigger = yes
+	# 			portrait_steppe_clothing_trigger = yes
+	# 		}
+	# 		modifier = {
+	# 			add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+	# 			portrait_wear_armor_currently_in_army_trigger = yes
+	# 		}
+	# 	}
+	# }
 
 ## Northern Pagans ##
 
@@ -3171,225 +3177,225 @@ clothes = {
 
 ## Sub-Saharan Africans ##
 
-	sub_saharan_commoners = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = sub_saharan_commoner_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-				template = bust_clothes
-			}
+	# sub_saharan_commoners = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = sub_saharan_commoner_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+	# 			template = bust_clothes
+	# 		}
 
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				scope:highest_held_title_tier < tier_county
-				trigger_if = {
-					limit = { exists = this }
-					NOR = {
-						AND = {
-							exists = primary_spouse
-							primary_spouse = {
-								highest_held_title_tier > tier_county
-							}
-						}
-						AND = {
-							has_government = republic_government
-							primary_title.tier > 1
-						}
-						AND = { is_ruler = yes has_government = theocracy_government }
-					}
-				}
-				portrait_african_clothing_trigger = yes
-			}
-		}
-	}
+	# 	}	
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 50
+	# 			scope:highest_held_title_tier < tier_county
+	# 			trigger_if = {
+	# 				limit = { exists = this }
+	# 				NOR = {
+	# 					AND = {
+	# 						exists = primary_spouse
+	# 						primary_spouse = {
+	# 							highest_held_title_tier > tier_county
+	# 						}
+	# 					}
+	# 					AND = {
+	# 						has_government = republic_government
+	# 						primary_title.tier > 1
+	# 					}
+	# 					AND = { is_ruler = yes has_government = theocracy_government }
+	# 				}
+	# 			}
+	# 			portrait_african_clothing_trigger = yes
+	# 		}
+	# 	}
+	# }
 
-	sub_saharan_low_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = sub_saharan_low_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-				template = bust_clothes
-			}
+	# sub_saharan_low_nobles = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = sub_saharan_low_nobility_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+	# 			template = bust_clothes
+	# 		}
 
-		}	
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				exists = court_owner
-				court_owner = {
-					has_royal_court = yes
-					amenity_level = { type = court_fashion value >= 4 }
-				}
-				portrait_african_clothing_trigger = yes
-			}
-			modifier = {
-				add = 50
-				trigger_if = {
-					limit = { exists = this }
-					OR = {
-						AND = {
-							highest_held_title_tier = tier_county
-							NOR = {
-								has_dynasty = no
-								AND = {
-									has_government = republic_government
-									primary_title.tier > 1
-								}
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							portrait_african_clothing_trigger = yes
-						}
-						AND = {
-							exists = primary_spouse
-							OR = {
-								is_ruler = no
-								highest_held_title_tier = tier_barony
-							}
-							primary_spouse = {
-								highest_held_title_tier = tier_county
-								NOR = {
-									has_dynasty = no
-									AND = {
-										has_government = republic_government
-										primary_title.tier > 1
-									}
-									AND = { is_ruler = yes has_government = theocracy_government }
-								}
-								portrait_african_clothing_spouse_trigger = yes
-							}
-						}
-					}
-				}
-				trigger_else = {
-					scope:highest_held_title_tier = tier_county
-					portrait_african_clothing_trigger = yes
-				}
-			}
-		}
-	}
+	# 	}	
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 50
+	# 			exists = court_owner
+	# 			court_owner = {
+	# 				has_royal_court = yes
+	# 				amenity_level = { type = court_fashion value >= 4 }
+	# 			}
+	# 			portrait_african_clothing_trigger = yes
+	# 		}
+	# 		modifier = {
+	# 			add = 50
+	# 			trigger_if = {
+	# 				limit = { exists = this }
+	# 				OR = {
+	# 					AND = {
+	# 						highest_held_title_tier = tier_county
+	# 						NOR = {
+	# 							has_dynasty = no
+	# 							AND = {
+	# 								has_government = republic_government
+	# 								primary_title.tier > 1
+	# 							}
+	# 							AND = { is_ruler = yes has_government = theocracy_government }
+	# 						}
+	# 						portrait_african_clothing_trigger = yes
+	# 					}
+	# 					AND = {
+	# 						exists = primary_spouse
+	# 						OR = {
+	# 							is_ruler = no
+	# 							highest_held_title_tier = tier_barony
+	# 						}
+	# 						primary_spouse = {
+	# 							highest_held_title_tier = tier_county
+	# 							NOR = {
+	# 								has_dynasty = no
+	# 								AND = {
+	# 									has_government = republic_government
+	# 									primary_title.tier > 1
+	# 								}
+	# 								AND = { is_ruler = yes has_government = theocracy_government }
+	# 							}
+	# 							portrait_african_clothing_spouse_trigger = yes
+	# 						}
+	# 					}
+	# 				}
+	# 			}
+	# 			trigger_else = {
+	# 				scope:highest_held_title_tier = tier_county
+	# 				portrait_african_clothing_trigger = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
 
-	sub_saharan_high_nobles = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = sub_saharan_high_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-				template = bust_clothes
-			}
+	# sub_saharan_high_nobles = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = sub_saharan_high_nobility_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+	# 			template = bust_clothes
+	# 		}
 
-		}
-		outfit_tags = { sub_saharan_high_nobility_clothes }		
-		weight = {
-			base = 0
-			modifier = {
-				add = 50
-				exists = court_owner
-				court_owner = {
-					has_royal_court = yes
-					amenity_level = { type = court_fashion value = 5 }
-				}
-				portrait_african_clothing_trigger = yes
-			}
-			modifier = {
-				add = 50
-				trigger_if = {
-					limit = { exists = this }
-					OR = {
-						AND = {
-							OR = {
+	# 	}
+	# 	outfit_tags = { sub_saharan_high_nobility_clothes }		
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 50
+	# 			exists = court_owner
+	# 			court_owner = {
+	# 				has_royal_court = yes
+	# 				amenity_level = { type = court_fashion value = 5 }
+	# 			}
+	# 			portrait_african_clothing_trigger = yes
+	# 		}
+	# 		modifier = {
+	# 			add = 50
+	# 			trigger_if = {
+	# 				limit = { exists = this }
+	# 				OR = {
+	# 					AND = {
+	# 						OR = {
 
-								highest_held_title_tier > tier_county
-								AND = {
-									has_government = republic_government
-									primary_title.tier > 1
-								}
-								AND = { is_ruler = yes has_government = theocracy_government }
-							}
-							NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
-							portrait_african_clothing_trigger = yes
-						}
-						AND = {
-							exists = primary_spouse
-							OR = {
-								is_ruler = no
-								highest_held_title_tier = tier_barony
-							}
-							primary_spouse = {
-								OR = {
-									highest_held_title_tier > tier_county
-									AND = {
-										has_government = republic_government
-										primary_title.tier > 1
-									}
-									AND = { is_ruler = yes has_government = theocracy_government }
-								}
-								portrait_african_clothing_spouse_trigger = yes
-							}
-						}
-					}
-				}
-				trigger_else = {
-					scope:highest_held_title_tier > tier_county
-					portrait_african_clothing_trigger = yes
-				}
-			}
-		}
-	}
+	# 							highest_held_title_tier > tier_county
+	# 							AND = {
+	# 								has_government = republic_government
+	# 								primary_title.tier > 1
+	# 							}
+	# 							AND = { is_ruler = yes has_government = theocracy_government }
+	# 						}
+	# 						NOT = { AND = { is_ruler = yes has_government = mercenary_government  } } # Blocked for mercenaries
+	# 						portrait_african_clothing_trigger = yes
+	# 					}
+	# 					AND = {
+	# 						exists = primary_spouse
+	# 						OR = {
+	# 							is_ruler = no
+	# 							highest_held_title_tier = tier_barony
+	# 						}
+	# 						primary_spouse = {
+	# 							OR = {
+	# 								highest_held_title_tier > tier_county
+	# 								AND = {
+	# 									has_government = republic_government
+	# 									primary_title.tier > 1
+	# 								}
+	# 								AND = { is_ruler = yes has_government = theocracy_government }
+	# 							}
+	# 							portrait_african_clothing_spouse_trigger = yes
+	# 						}
+	# 					}
+	# 				}
+	# 			}
+	# 			trigger_else = {
+	# 				scope:highest_held_title_tier > tier_county
+	# 				portrait_african_clothing_trigger = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
 
-	sub_saharan_war = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = sub_saharan_war_nobility_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-				template = bust_clothes
-			}
+	# sub_saharan_war = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = sub_saharan_war_nobility_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+	# 			template = bust_clothes
+	# 		}
 
-		}
-		outfit_tags = { military_outfit }
-		weight = {
-			base = 0
-			modifier = {
-				add = 101
-				portrait_wear_armor_trigger = yes
-				portrait_african_clothing_trigger = yes
-			}
-			modifier = {
-				add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
-				portrait_wear_armor_currently_in_army_trigger = yes
-			}
-		}
-	}
+	# 	}
+	# 	outfit_tags = { military_outfit }
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 101
+	# 			portrait_wear_armor_trigger = yes
+	# 			portrait_african_clothing_trigger = yes
+	# 		}
+	# 		modifier = {
+	# 			add = 21		# So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+	# 			portrait_wear_armor_currently_in_army_trigger = yes
+	# 		}
+	# 	}
+	# }
 
 
 ## Orthodox ##
@@ -3423,12 +3429,12 @@ clothes = {
 				}
 				OR = {
 					faith = faith:orthodox
-					faith = faith:armenian_apostolic
-					faith = faith:coptic
-					faith = faith:messalian
-					faith = faith:bogomilist
-					faith = faith:paulician
-					faith = faith:nestorian
+					#faith = faith:armenian_apostolic
+					#faith = faith:coptic
+					#faith = faith:messalian
+					#faith = faith:bogomilist
+					#faith = faith:paulician
+					#faith = faith:nestorian
 				}
 				NOT = {
 					faith.religious_head = this
@@ -3465,12 +3471,12 @@ clothes = {
 				exists = this
 				OR = {
 					faith = faith:orthodox
-					faith = faith:armenian_apostolic
-					faith = faith:coptic
-					faith = faith:messalian
-					faith = faith:bogomilist
-					faith = faith:paulician
-					faith = faith:nestorian
+					#faith = faith:armenian_apostolic
+					#faith = faith:coptic
+					#faith = faith:messalian
+					#faith = faith:bogomilist
+					#faith = faith:paulician
+					#faith = faith:nestorian
 				}
 				exists = primary_title
 				primary_title = {
@@ -3650,7 +3656,7 @@ clothes = {
 				}
 				OR = {
 					religion = religion:judaism_religion
-					#religion = religion:hellenism_religion
+					religion = religion:hellenism_religion
 				}
 			}
 	    }
@@ -3783,45 +3789,45 @@ clothes = {
 
 ## Northern ##
 
-	religious_northern_high_clothes = {
-	    dna_modifiers = {
-	        accessory = {
-	            mode = add
-	            gene = clothes
-	            template = religious_northern_high_clothes
-	            range = { 0 1 }
-	        }
-	        morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 1.0
-				template = bust_clothes
-			}
+	# religious_northern_high_clothes = {
+	#     dna_modifiers = {
+	#         accessory = {
+	#             mode = add
+	#             gene = clothes
+	#             template = religious_northern_high_clothes
+	#             range = { 0 1 }
+	#         }
+	#         morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 1.0
+	# 			template = bust_clothes
+	# 		}
 
-	    }
-	    outfit_tags = { priest_outfit }
-	    weight = {
-	        base = 0
-	        modifier = {
-				add = 100
-				exists = this
-				OR = {
-					has_character_flag = need_priest_outfit
-					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
-					has_council_position = councillor_court_chaplain
-				}
-				OR = {
-					#religion = religion:germanic_religion
-					#religion = religion:baltic_religion
-					#religion = religion:finno_ugric_religion
-					#religion = religion:paganism_religion
-					religion = religion:slavic_religion
-				}
+	#     }
+	#     outfit_tags = { priest_outfit }
+	#     weight = {
+	#         base = 0
+	#         modifier = {
+	# 			add = 100
+	# 			exists = this
+	# 			OR = {
+	# 				has_character_flag = need_priest_outfit
+	# 				is_theocratic_lessee = yes
+	# 				AND = { is_ruler = yes has_government = theocracy_government }
+	# 				has_council_position = councillor_court_chaplain
+	# 			}
+	# 			OR = {
+	# 				religion = religion:germanic_religion
+	# 				religion = religion:baltic_religion
+	# 				religion = religion:finno_ugric_religion
+	# 				religion = religion:paganism_religion
+	# 				religion = religion:slavic_religion
+	# 			}
 				
-			}
-	    }
-	}
+	# 		}
+	#     }
+	# }
 
 
 ## Steppe ##
@@ -4005,114 +4011,114 @@ clothes = {
 
 ## Zoroastrian ##
 
-	# religious_zoroastrian_high_clothes = {
-	#     dna_modifiers = {
-	#         accessory = {
-	#             mode = add
-	#             gene = clothes
-	#             template = religious_zoroastrian_high_clothes
-	#             range = { 0 1 }
-	#         }
-	#         morph = {
-	# 			mode = modify_multiply
-	# 			gene = gene_bs_bust
-	# 			value = 1.0
-	# 			template = bust_clothes
-	# 		}
+	religious_zoroastrian_high_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = religious_zoroastrian_high_clothes
+	            range = { 0 1 }
+	        }
+	        morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes
+			}
 
-	#     }
-	#     outfit_tags = { 
-	# 		priest_outfit
-	# 		religious_zoroastrian_high_clothes
-	# 	}
-	#     weight = {
-	#         base = 0
-	#         modifier = {
-	# 			add = 100
-	# 			exists = this
-	# 			OR = {
-	# 				has_character_flag = need_priest_outfit
-	# 				is_theocratic_lessee = yes
-	# 				AND = { is_ruler = yes has_government = theocracy_government }
-	# 				has_council_position = councillor_court_chaplain
-	# 			}
-	# 			OR = {
-	# 				religion = religion:zoroastrianism_religion
-	# 				religion = religion:yazidi_religion
-	# 				religion = religion:zunism_religion
-	# 				faith = faith:mandeaism
-	# 				religion = religion:dualism_religion
-	# 				religion = religion:basque_religion
-	# 			}
-	# 		}
-	#     }
-	# }
+	    }
+	    outfit_tags = { 
+			priest_outfit
+			religious_zoroastrian_high_clothes
+		}
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 100
+				exists = this
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
+				}
+				OR = {
+					religion = religion:zoroastrianism_religion
+					religion = religion:yazidi_religion
+					religion = religion:zunism_religion
+					faith = faith:mandeaism
+					religion = religion:dualism_religion
+					religion = religion:basque_religion
+				}
+			}
+	    }
+	}
 
 ## Jain ##
 
-	# religious_jain_devoted_clothes = {
-	# 	dna_modifiers = {
-	# 		accessory = {
-	# 			mode = add
-	# 			gene = clothes
-	# 			template = religious_jain_high_clothes
-	# 			range = { 0 1 } # For the randomness to work correctly
-	# 		}
-	# 		morph = {
-	# 			mode = modify_multiply
-	# 			gene = gene_bs_bust
-	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-	# 			template = bust_clothes_light
-	# 		}
+	religious_jain_devoted_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = religious_jain_high_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes_light
+			}
 
-	# 	}
-	# 	outfit_tags = { monk_outfit }
-	# 	weight = {
-	# 		base = 0
-	# 		modifier = {
-	# 			add = 100
-	# 			portrait_has_trait_trigger = { TRAIT = devoted }
-	# 			OR = {
-	# 				religion = religion:jainism_religion
-	# 			}
-	# 		}
-	# 	}
-	# }
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = devoted }
+				OR = {
+					religion = religion:jainism_religion
+				}
+			}
+		}
+	}
 
-	# religious_jain_high_clothes = {
-	#     dna_modifiers = {
-	#         accessory = {
-	#             mode = add
-	#             gene = clothes
-	#             template = religious_jain_high_clothes
-	#             range = { 0 1 }
-	#         }
-	#         morph = {
-	# 			mode = modify_multiply
-	# 			gene = gene_bs_bust
-	# 			value = 1.0
-	# 			template = bust_clothes_light
-	# 		}
+	religious_jain_high_clothes = {
+	    dna_modifiers = {
+	        accessory = {
+	            mode = add
+	            gene = clothes
+	            template = religious_jain_high_clothes
+	            range = { 0 1 }
+	        }
+	        morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 1.0
+				template = bust_clothes_light
+			}
 
-	#     }
-	#     outfit_tags = { priest_outfit }
-	#     weight = {
-	#         base = 0
-	#         modifier = {
-	# 			add = 110
-	# 			exists = this
-	# 			OR = {
-	# 				has_character_flag = need_priest_outfit
-	# 				is_theocratic_lessee = yes
-	# 				AND = { is_ruler = yes has_government = theocracy_government }
-	# 				has_council_position = councillor_court_chaplain
-	# 			}
-	# 			OR = {
-	# 				religion = religion:jainism_religion
-	# 			}
-	# 		}
-	#     }
-	# }
+	    }
+	    outfit_tags = { priest_outfit }
+	    weight = {
+	        base = 0
+	        modifier = {
+				add = 110
+				exists = this
+				OR = {
+					has_character_flag = need_priest_outfit
+					is_theocratic_lessee = yes
+					AND = { is_ruler = yes has_government = theocracy_government }
+					has_council_position = councillor_court_chaplain
+				}
+				OR = {
+					religion = religion:jainism_religion
+				}
+			}
+	    }
+	}
 
 ## African Pagan ##
 
@@ -4304,7 +4310,34 @@ clothes = {
 				this = character:easteregg_isabella_welch
 			}
 		}
-	}	
+	}
+	
+	stella_carrick = { # To make sure Stella gets the nicer looking clothes!
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = western_high_nobility_clothes
+				value = 1.0
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+				template = bust_clothes
+			}
+
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				exists = this
+				exists = character:easteregg_stella_carrick
+				this = character:easteregg_stella_carrick
+			}
+		}
+	}
 
 	easteregg_elisabeth_gangenes = {
 		dna_modifiers = {
@@ -4335,6 +4368,32 @@ clothes = {
                 exists = character:easteregg_elisabeth_gangenes
                 this = character:easteregg_elisabeth_gangenes
             }
+		}
+	}
+
+	easteregg_hugo_cortell = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = fp2_muslim_war_nobility_clothes
+				value = 1.0 
+			}
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_bust
+				value = 0.8
+				template = bust_clothes
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				exists = this
+				exists = character:easteregg_hugo_cortell
+				this = character:easteregg_hugo_cortell
+			}
 		}
 	}
 

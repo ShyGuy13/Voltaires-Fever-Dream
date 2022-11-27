@@ -18,7 +18,7 @@ chiny2 = {
 	religion = catholic
 	culture = wallonian
 	father = chiny6
-	970.1.1 = { #fic
+	973.1.1 = { #fic
 		birth = yes
 	}
 	1025.9.29 = {
@@ -27,7 +27,7 @@ chiny2 = {
 }
 
 chiny3 = {
-	name = "Luitgarde" # wife of
+	name = "Luitgarde" # wife of Richer de Sancy
 	female = yes
 	dynasty_house = house_chiny
 	religion = catholic
@@ -75,24 +75,12 @@ chiny6 = {
 	dynasty_house = house_chiny
 	religion = catholic
 	culture = wallonian
-	father = chiny7
-	950.1.1 = { #est
+	father = vermandois8
+	956.1.1 = { #est
 		birth = yes
 	}
-	995.1.1 = { #fic
+	987.1.1 = {
 		death = yes
 	}
 }
 
-chiny7 = {
-	name = "Adalbert" # Adalbert I of Chiny
-	dynasty_house = house_chiny
-	religion = catholic
-	culture = wallonian
-	915.1.1 = { #est
-		birth = yes
-	}
-	987.9.8 = {
-		death = yes
-	}
-}

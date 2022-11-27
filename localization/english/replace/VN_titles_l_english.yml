@@ -1,10 +1,4 @@
 ﻿l_english:
- EPPAN: "Eppan"
- EPPAN_adj: "Eppanian"
- SAVINJA: "Savinja"
- SAVINJA_adj: "Savinjan"
- ROTT: "Rott"
- ROTT_adj: "Rotter"
 #Landed Titles
 #Empires
  e_byzantium: "Byzantium"
@@ -104,7 +98,7 @@
  c_abensberg: "Abensberg"
  c_admont: "Admont"
  c_ahaus: "Ahaus"
- c_arles: "Aix"
+ c_arles: "Arles"
  c_ajaccio: "Ajaccio"
  c_alba: "Alba"
  c_albenga: "Albenga"
@@ -725,7 +719,7 @@
  c_wittenberg: "Wittenberg"
  c_wittgenstein: "Wittgenstein"
  c_wittstock: "Wittstock"
- c_woldenburg: "Woldenburg"
+ c_woldenberg: "Woldenberg"
  c_wolfach: "Wolfach"
  c_wolfenbuttel: "Wolfenbuttel"
  c_wolfsberg: "Wolfsberg"
@@ -2225,7 +2219,7 @@
  b_wittgenstein: "Wittgenstein"
  b_wittingen: "Wittingen"
  b_wittstock: "Wittstock"
- b_woldenburg: "Woldenburg"
+ b_woldenberg: "Woldenberg"
  b_wolfach: "Wolfach"
  b_wolfenbuttel: "Wolfenbuttel"
  b_wolfsberg: "Wolfsberg"

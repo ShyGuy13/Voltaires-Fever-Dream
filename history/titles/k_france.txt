@@ -24,6 +24,12 @@ c_sarrebourg = {
 
 #Lorraine
 d_upper_lorraine = {
+	1044.4.19 = {
+		holder = wigeriching2
+	}
+	1046.1.1 = {
+		#Adalbert Gerharding
+	}
 	1048.11.11 = {
 		holder = gerharding1 # Gérard I
 	}
@@ -175,93 +181,6 @@ c_arles = {
 	993.8.23 = {
 		holder = bosoning3 # Guillaume II the Pious
 	}
-	1008.1.1 = {
-		holder = bosoning7 # Roubaud II
-	}
-	1014.1.1 = {
-		holder = bosoning8 # Guillaume III
-	}
-	1019.3.4 = {
-		holder = bosoning4 # Guillaume IV
-	}
-	1030.1.1 = {
-		holder = bosoning2 # Foulques I
-	}
-	1051.4.27 = {
-		holder = bosoning16 # Geoffroi I
-	}
-}
-c_marseille = {
-	935.1.1 = {
-		holder = bosoning11 # Boson II
-	}
-	#After Boson II, his descendants jointly ruled Provence; Arles branch of younger son
-	968.1.1 = {
-		holder = bosoning12 # Guillaume I the Liberator
-	}
-	993.8.23 = {
-		holder = bosoning3 # Guillaume II the Pious
-	}
-	1008.1.1 = {
-		holder = bosoning7 # Roubaud II
-	}
-	1014.1.1 = {
-		holder = bosoning8 # Guillaume III
-	}
-	1019.3.4 = {
-		holder = bosoning4 # Guillaume IV
-	}
-	1030.1.1 = {
-		holder = bosoning2 # Foulques I
-	}
-	1051.4.27 = {
-		holder = bosoning16 # Geoffroi I
-	}
-}
-c_nice = {
-	935.1.1 = {
-		holder = bosoning11 # Boson II
-	}
-	#After Boson II, his descendants jointly ruled Provence; Arles branch of younger son
-	968.1.1 = {
-		holder = bosoning12 # Guillaume I the Liberator
-	}
-	993.8.23 = {
-		holder = bosoning3 # Guillaume II the Pious
-	}
-	1008.1.1 = {
-		holder = bosoning7 # Roubaud II
-	}
-	1014.1.1 = {
-		holder = bosoning8 # Guillaume III
-	}
-	1019.3.4 = {
-		holder = bosoning4 # Guillaume IV
-	}
-	1030.1.1 = {
-		holder = bosoning2 # Foulques I
-	}
-	1051.4.27 = {
-		holder = bosoning16 # Geoffroi I
-	}
-}
-c_cannes = {
-	935.1.1 = {
-		holder = bosoning11 # Boson II
-	}
-	#After Boson II, his descendants jointly ruled Provence; Arles branch of younger son
-	968.1.1 = {
-		holder = bosoning12 # Guillaume I the Liberator
-	}
-	993.8.23 = {
-		holder = bosoning3 # Guillaume II the Pious
-	}
-	1008.1.1 = {
-		holder = bosoning7 # Roubaud II
-	}
-	1014.1.1 = {
-		holder = bosoning8 # Guillaume III
-	}
 	1019.3.4 = {
 		holder = bosoning4 # Guillaume IV
 	}
@@ -284,12 +203,6 @@ c_forcalquier = {
 	}
 	993.8.23 = {
 		holder = bosoning3 # Guillaume II the Pious
-	}
-	1008.1.1 = {
-		holder = bosoning7 # Roubaud II
-	}
-	1014.1.1 = {
-		holder = bosoning8 # Guillaume III
 	}
 	1019.3.4 = {
 		holder = bosoning4 # Guillaume IV
@@ -314,6 +227,30 @@ c_gapencais = {
 	993.8.23 = {
 		holder = bosoning3 # Guillaume II the Pious
 	}
+	1019.3.4 = {
+		holder = bosoning4 # Guillaume IV
+	}
+	1030.1.1 = {
+		holder = bosoning2 # Foulques I
+	}
+	#Godefroid jointly ruled Provence with his nephews
+	1051.4.27 = {
+		liege = d_provence
+		holder = bosoning5 # Guillaume V
+	}
+}
+#Digne
+c_digne = {
+	935.1.1 = {
+		holder = bosoning11 # Boson II
+	}
+	#After Boson II, his descendants jointly ruled Provence; Arles branch of younger son
+	968.1.1 = {
+		holder = bosoning12 # Guillaume I the Liberator
+	}
+	993.8.23 = {
+		holder = bosoning3 # Guillaume II the Pious
+	}
 	1008.1.1 = {
 		holder = bosoning7 # Roubaud II
 	}
@@ -329,11 +266,10 @@ c_gapencais = {
 	#Godefroid jointly ruled Provence with his nephews
 	1051.4.27 = {
 		liege = d_provence
-		holder = bosoning5 # Guillaume V
+		holder = bosoning1 # Geoffroi I
 	}
 }
-#Digne
-c_digne = {
+c_cannes = {
 	935.1.1 = {
 		holder = bosoning11 # Boson II
 	}
@@ -401,6 +337,29 @@ c_nyons = {
 		holder = bosoning6 # Emma I
 	}
 	#Toulouse
+}
+
+#Marseille
+c_marseille = {
+	977.1.1 = {
+		liege = d_provence
+		holder = marseille1 # Guillaume I
+	}
+	1004.10.21 = {
+		holder = marseille2 # Guillaume II
+	}
+	1031.1.1 = {
+		holder = marseille10 # Guillaume III
+	}
+}
+
+#Nice
+c_nice = {
+	1054.1.1 = {
+		government = republic_government
+		liege = d_provence
+		holder = lantosca1
+	}
 }
 
 #Bar
@@ -549,6 +508,11 @@ c_lyon = {
 
 #Salm
 c_salm = {
+	1047.10.16 = {
+		holder = salm1 # Hermann I
+	}
+}
+c_vielsalm = {
 	1047.10.16 = {
 		holder = salm1 # Hermann I
 	}

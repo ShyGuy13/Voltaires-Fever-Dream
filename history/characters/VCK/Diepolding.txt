@@ -106,7 +106,7 @@ diepolding8 = {
 		birth = yes
 	}
 	1092.1.1 = {
-		add_trait = devoted
+		trait = devoted
 	}
 	1100.9.30 = { #fic year
 		death = yes

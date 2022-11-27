@@ -69,3 +69,15 @@ c_flensburg = {
 		holder = astridsunr1 # Oluf I
 	}
 }
+c_abenra = {
+	1054.1.1 = {
+		liege = k_denmark
+		holder = astridsunr1 # Oluf I
+	}
+}
+c_vamdrup = {
+	1054.1.1 = {
+		liege = k_denmark
+		holder = astridsunr1 # Oluf I
+	}
+}

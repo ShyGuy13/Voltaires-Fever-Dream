@@ -123,7 +123,7 @@ c_loon = {
 	1000.1.1 = {
 		holder = loon2 # Giselbert I
 	}
-	1036.1.1 = {
+	1045.1.1 = {
 		holder = loon1 # Emmon I
 	}
 }
@@ -491,8 +491,14 @@ c_hainaut = {
 }
 
 c_heinsberg = {
-	1054.1.1 = {
+	1033.1.1 = {
 		liege = d_lower_lorraine
+		holder = gelre3 # Gerard Flamens I
+	}
+	1042.1.1 = {
+		holder = gelre2 # Gerard Flamens II
+	}
+	1052.1.1 = {
 		holder = heinsberg2 # Diederik I
 	}
 }

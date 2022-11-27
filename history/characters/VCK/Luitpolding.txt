@@ -3,6 +3,7 @@
 	dynasty = 63
 	religion = catholic
 	culture = swabian
+	father = luitpolding7
 	994.1.1 = {
 		birth = yes
 		give_nickname = nick_the_white
@@ -58,7 +59,7 @@ luitpolding4 = {
 }
 
 luitpolding5 = {
-	name = "Elikia"
+	name = "Eilika"
 	female = yes
 	dynasty = 63
 	religion = catholic
@@ -83,6 +84,77 @@ luitpolding6 = {
 		birth = yes
 	}
 	1104.1.1 = {
+		death = yes
+	}
+}
+
+luitpolding7 = {
+	name = "Heinrich" #Heinrich of Schweinfurt
+	dynasty = 63
+	religion = catholic
+	culture = swabian
+	969.1.1 = { #est
+		birth = yes
+	}
+	1017.9.18 = {
+		death = yes
+	}
+}
+
+luitpolding8 = {
+	name = "Eilika" #wife of Bernhard II of Saxony
+	female = yes
+	dynasty = 63
+	religion = catholic
+	culture = swabian
+	father = luitpolding7
+	1004.1.1 = { #est
+		birth = yes
+	}
+	1059.12.10 = {
+		death = yes
+	}
+}
+
+luitpolding8 = {
+	name = "Judith" #wife of Bretislaus I of Bohemia
+	female = yes
+	dynasty = 63
+	religion = catholic
+	culture = swabian
+	father = luitpolding7
+	999.1.1 = { #est
+		birth = yes
+	}
+	1058.8.2 = {
+		death = yes
+	}
+}
+
+luitpolding9 = {
+	name = "Burkhard" #bishop of Halberstadt
+	dynasty = 63
+	religion = catholic
+	culture = swabian
+	father = luitpolding7
+	1001.1.1 = { #est
+		birth = yes
+	}
+	1059.10.18 = {
+		death = yes
+	}
+}
+
+luitpolding10 = {
+	name = "Heinrich" #could be progenitor of the counts of Lechsgemünd
+	dynasty = 63
+	religion = catholic
+	culture = swabian
+	father = luitpolding7 #debated
+	1007.1.1 = { #fic
+		birth = yes
+	}
+	1045.1.1 = { #fic
 		death = yes
 	}
 }

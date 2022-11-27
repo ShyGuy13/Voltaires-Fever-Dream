@@ -10,9 +10,21 @@ house_vasto = {
 	dynasty = 126 # Aleraming
 }
 
+house_vermandois = {
+	prefix = "dynnp_de"
+	name = "dynn_Vermandois"
+	dynasty = 211 # Karling
+}
+
 house_chiny = {
 	prefix = "dynnp_de"
 	name = "dynn_Chiny"
+	dynasty = 211 # Karling
+}
+
+house_soissons = {
+	prefix = "dynnp_de"
+	name = "dynn_Soissons"
 	dynasty = 211 # Karling
 }
 
@@ -31,7 +43,7 @@ house_thiers = {
 house_salm = {
 	prefix = "dynnp_von"
 	name = "dynn_Salm"
-	dynasty = 82 # Luxemburg
+	dynasty = 120 # Wigeriching
 }
 
 house_kleve = {
@@ -44,4 +56,10 @@ house_heinsberg = {
 	prefix = "dynnp_van"
 	name = "dynn_Heinsberg"
 	dynasty = 206 # Gelre
+}
+
+house_luxemburg = {
+	prefix = "dynnp_von"
+	name = "dynn_Luxemburg"
+	dynasty = 120 # Wigeriching
 }

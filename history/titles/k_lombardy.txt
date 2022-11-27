@@ -352,6 +352,18 @@ c_aquila = {
 	}
 }
 
+#Bologna
+c_bologna = {
+	1054.1.1 = {
+		holder = hucpolding2 # Pietro
+	}
+}
+c_imola = {
+	1054.1.1 = {
+		holder = hucpolding2 # Pietro
+	}
+}
+
 #Tusculum
 c_orbetello = {
 	1044.1.1 = {

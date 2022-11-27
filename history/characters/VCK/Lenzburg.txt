@@ -38,3 +38,16 @@ lenzburg3 = {
 		death = yes
 	}
 }
+
+lenzburg4 = {
+	name = "Ulrich" #Ulrich II of Zürich
+	dynasty = 80
+	religion = catholic
+	culture = swiss
+	1004.1.1 = { #fic
+		birth = yes
+	}
+	1077.1.1 = {
+		death = yes
+	}
+}

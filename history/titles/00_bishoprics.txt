@@ -84,6 +84,13 @@ d_bm_regensburg = {
 	}
 }
 
+d_bm_halberstadt = {
+	1000.1.1 = { government = theocracy_government }
+	1035.8.23 = {
+		holder = luitpolding9 # Burkhard I
+	}
+}
+
 d_bm_passau = {
 	1000.1.1 = { government = theocracy_government }
 	1045.7.14 = {
@@ -92,7 +99,10 @@ d_bm_passau = {
 }
 
 d_bm_bamberg = {
-	1000.1.1 = { government = theocracy_government }
+	1007.11.1 = {
+		government = theocracy_government
+		holder = abenberg6 # Eberhard
+	}
 	1053.1.2 = {
 		holder = eppenstein5
 	}
@@ -175,7 +185,7 @@ d_bm_utrecht = {
 }
 
 d_bm_liege = {
-	1000.1.1 = { government = theocracy_government }
+	800.1.1 = { government = theocracy_government }
 	972.1.1 = {
 		holder = liege_notker # Notker I
 	}

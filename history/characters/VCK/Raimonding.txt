@@ -35,10 +35,84 @@ raimonding3 = {
 	970.1.1 = {
 		birth = yes
 	}
-	1019.1.1 = {
+	990.1.1 = {
 		add_spouse = bosoning6 # Emma of Provence
 	}
 	1037.9.1 = {
+		death = yes
+	}
+}
+
+raimonding4 = {
+	name = "Bertrand" # 
+	dynasty = 227
+	culture = occitan
+	religion = catholic
+	father = raimonding3
+	mother = bosoning6
+	999.1.1 = {
+		birth = yes
+	}
+	1081.1.1 = {
+		death = yes
+	}
+}
+
+raimonding5 = {
+	name = "Raimond" # Raimond IV of Toulouse
+	dynasty = 227
+	culture = occitan
+	religion = catholic
+	father = raimonding1
+	1042.1.1 = { #est
+		birth = yes
+	}
+	1105.2.28 = {
+		death = yes
+	}
+}
+
+raimonding6 = {
+	name = "Hugues" # abbot
+	dynasty = 227
+	culture = occitan
+	religion = catholic
+	trait = devoted
+	father = raimonding1
+	1045.1.1 = { #fic
+		birth = yes
+	}
+	1063.1.1 = { #fic
+		death = yes
+	}
+}
+
+raimonding7 = {
+	name = "Almodis" # wife of Pierre I of Melgueil
+	female = yes
+	dynasty = 227
+	culture = occitan
+	religion = catholic
+	father = raimonding1
+	1049.1.1 = { #fic
+		birth = yes
+	}
+	1093.1.1 = { #fic
+		death = yes
+	}
+}
+
+raimonding8 = {
+	name = "Étiennette" # wife of Guillaume II de Marseille
+	female = yes
+	dynasty = 227
+	culture = occitan
+	religion = catholic
+	father = raimonding3 #debated
+	1015.1.1 = { #fic
+		birth = yes
+	}
+	1081.1.1 = {
 		death = yes
 	}
 }

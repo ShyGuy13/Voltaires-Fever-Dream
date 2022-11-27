@@ -138,7 +138,7 @@ haldensleben10 = {
 		birth = yes
 	}
 	997.1.1 = {
-		add_trait = devoted
+		trait = devoted
 	}
 	1013.1.1 = { #fic
 		death = yes

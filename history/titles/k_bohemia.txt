@@ -1,17 +1,48 @@
 ﻿#Moravia
 c_brno = {
 	1050.1.1 = {
+		liege = d_bohemia
+		holder = premyslovci4 # Konrád I
+	}
+}
+c_jihlava = {
+	1050.1.1 = {
+		liege = d_bohemia
+		holder = premyslovci4 # Konrád I
+	}
+}
+c_mistek = {
+	1050.1.1 = {
+		liege = d_bohemia
+		holder = premyslovci4 # Konrád I
+	}
+}
+c_veligrad = {
+	1050.1.1 = {
+		liege = d_bohemia
+		holder = premyslovci4 # Konrád I
+	}
+}
+c_olomouc = {
+	1050.1.1 = {
+		liege = d_bohemia
+		holder = premyslovci4 # Konrád I
+	}
+}
+c_prostejov = {
+	1050.1.1 = {
+		liege = d_bohemia
 		holder = premyslovci4 # Konrád I
 	}
 }
 
 #Bohemia
-c_praha = {
+d_bohemia = {
 	1034.1.1 = {
 		holder = premyslovci1 # Bretislav
 	}
 }
-c_boleslav = {
+c_praha = {
 	1034.1.1 = {
 		holder = premyslovci1 # Bretislav
 	}

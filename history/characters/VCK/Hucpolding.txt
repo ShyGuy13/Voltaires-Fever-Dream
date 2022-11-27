@@ -1,5 +1,18 @@
 hucpolding1 = {
-	name = "Ugo" #Ugo III of Spleto
+	name = "Ugo" #Ugo III of Spoleto
+	dynasty = 118
+	religion = catholic
+	culture = umbrian
+	994.1.1 = { #fic
+		birth = yes
+	}
+	1056.1.1 = {
+		death = yes
+	}
+}
+
+hucpolding2 = {
+	name = "Pietro" #Pietro I of Bologna
 	dynasty = 118
 	religion = catholic
 	culture = umbrian

@@ -1,5 +1,5 @@
-woldenburg1 = {
-	name = "Burkhard" #Burkhard I of Woldenburg
+woldenberg1 = {
+	name = "Burkhard" #Burkhard I of Woldenberg
 	dynasty= 272
 	culture = eastphalian
 	religion = catholic

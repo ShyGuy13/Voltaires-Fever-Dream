@@ -546,6 +546,11 @@ c_andechs = {
 		holder = andechs1
 	}
 }
+c_munchen = {
+	1054.1.1 = {
+		holder = andechs1
+	}
+}
 c_seefeld = {
 	1054.1.1 = {
 		holder = andechs1
@@ -753,7 +758,7 @@ c_rieneck = {
 #Klingenberg
 c_klingenberg = {
 	1054.1.1 = {
-		holder = reginbodoning1 # Reginbodo II
+		holder = bickenbach1
 	}
 }
 
@@ -1399,6 +1404,14 @@ c_luban = {
 		holder = weimar5 # Wilhelm I
 	}
 }
+c_colditz = {
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
+	}
+	1046.1.24 = {
+		holder = weimar5 # Wilhelm I
+	}
+}
 c_bautzen = {
 	1002.4.30 = {
 		holder = ekkeharding1 # Ekkehard II
@@ -1457,6 +1470,13 @@ c_henneberg = {
 c_schmalkalden = {
 	1049.1.1 = {
 		holder = popponing2 # Poppo I
+	}
+}
+
+#Halberstadt
+c_halberstadt = {
+	1035.8.23 = {
+		holder = luitpolding9 # Burkhard I
 	}
 }
 
@@ -2110,6 +2130,13 @@ c_liebenburg = {
 	}
 }
 
+#Woldenberg
+c_woldenberg = {
+	1054.1.1 = {
+		holder = woldenberg1 # Burkhard I
+	}
+}
+
 #Altsachsen
 d_saxony = {
 	973.3.27 = {
@@ -2558,7 +2585,13 @@ c_arnstein = {
 
 #Abenberg
 c_abenberg = {
-	1040.1.1 = {
+	995.1.1 = {
+		holder = abenberg3 # Konrad I
+	}
+	1021.1.1 = {
+		holder = abenberg2 # Otto I
+	}
+	1037.1.1 = {
 		holder = abenberg1 # Wolfram I
 	}
 }
@@ -2700,5 +2733,12 @@ c_grimma = {
 c_sausenberg = {
 	1054.1.1 = {
 		holder = kaltenbach1 # Berchtold I
+	}
+}
+
+#Blankenburg
+c_blankenburg = {
+	1054.1.1 = {
+		holder = regenstein1 # Bodo I
 	}
 }

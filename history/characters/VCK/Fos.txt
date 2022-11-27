@@ -1,0 +1,13 @@
+fos1 = {
+	name = "Accélena" # Guillaume II of Marseille
+	female = yes
+	dynasty = 289
+	culture = provencal
+	religion = catholic
+	980.1.1 = { #fic
+		birth = yes
+	}
+	1018.1.1 = { #fic
+		death = yes
+	}
+}
