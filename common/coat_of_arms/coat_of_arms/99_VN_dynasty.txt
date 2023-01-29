@@ -61,7 +61,29 @@
 
 14 = c_bozen
 
-# 15 Pilgriming
+15 = { # Pilgriming
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_key_st_peter.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.425 0.40 } rotation = -20 scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_key_st_peter.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.575 0.40 } rotation = 20 scale = { -0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_crescent_bone.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.685 } scale = { 0.8 0.8 }  }
+
+	}
+}
 
 16 = c_moosburg # Moosburg
 
@@ -324,7 +346,17 @@
 	}		
 }
 
-
+82 = { # Regenstein
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_antler_pale.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.48 } scale = { 1.0 1.0 }  }
+	}
+}
 
 83 = c_wiltberg # Wiltberg
 
@@ -948,7 +980,17 @@
 
 # 183 Wipra
 
-# 184 Northeim
+184 = { # Northeim
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_ordinary_bars_2.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
+	}			
+}
 
 185 = { # Nakoning
 	pattern = "pattern_solid.dds"
@@ -1206,6 +1248,18 @@
 	}
 }
 
+232 = { # Itter
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_lion_rampant_crown.dds"
+		color1 = "white"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+
 234 = c_dassel # Dassel
 
 235 = c_beaujeu # Beaujeu
@@ -1264,6 +1318,10 @@
 
 249 = c_wertheim # Wertheim
 
+271 = c_schwalenberg # Schwalenberg
+
+273 = c_wernigerode # Süppingenburg; no known CoA
+
 274 = { # Lieber
 	pattern = "pattern_solid.dds"
 	color1 = "black"
@@ -1285,6 +1343,8 @@
 	}
 }
 
+277 = c_ravensberg # unknown CoA
+
 283 = { # Orlandi 
 	pattern = "pattern_checkers_08.dds"
 	color1 = "yellow"
@@ -1300,6 +1360,25 @@
 		color1 = "black"
 		color2 = "black"
 		instance = { position = { 0.5 0.52 } scale = { 1.1 1.1 }  }
+	}
+}
+
+287 = { # Baboning
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_ordinary_bend_dexter_5.dds"
+		color1 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_flower.dds"
+		color1 = "white"
+		color2 = "red"
+		color3 = "red"
+		instance = { position = { 0.303 0.304 } rotation = 315 scale = { 0.27 0.27 }  }
+		instance = { position = { 0.504 0.505 } rotation = 315 scale = { 0.27 0.27 }  }
+		instance = { position = { 0.705 0.706 } rotation = 315 scale = { 0.27 0.27 }  }
 	}
 }
 

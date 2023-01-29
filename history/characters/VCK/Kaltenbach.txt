@@ -1,4 +1,4 @@
-kaltenbach1 = {
+﻿kaltenbach1 = {
 	name = "Berchtold"
 	dynasty = 76
 	religion = catholic

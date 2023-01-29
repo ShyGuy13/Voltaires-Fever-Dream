@@ -74,6 +74,7 @@ formbach6 = {
 	dynasty = 5
 	culture = austrian
 	religion = catholic
+	father = formbach8
 	1010.1.1 = { #fic
 		birth = yes
 	}

@@ -4011,114 +4011,114 @@ clothes = {
 
 ## Zoroastrian ##
 
-	religious_zoroastrian_high_clothes = {
-	    dna_modifiers = {
-	        accessory = {
-	            mode = add
-	            gene = clothes
-	            template = religious_zoroastrian_high_clothes
-	            range = { 0 1 }
-	        }
-	        morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 1.0
-				template = bust_clothes
-			}
+	# religious_zoroastrian_high_clothes = {
+	#     dna_modifiers = {
+	#         accessory = {
+	#             mode = add
+	#             gene = clothes
+	#             template = religious_zoroastrian_high_clothes
+	#             range = { 0 1 }
+	#         }
+	#         morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 1.0
+	# 			template = bust_clothes
+	# 		}
 
-	    }
-	    outfit_tags = { 
-			priest_outfit
-			religious_zoroastrian_high_clothes
-		}
-	    weight = {
-	        base = 0
-	        modifier = {
-				add = 100
-				exists = this
-				OR = {
-					has_character_flag = need_priest_outfit
-					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
-					has_council_position = councillor_court_chaplain
-				}
-				OR = {
-					religion = religion:zoroastrianism_religion
-					religion = religion:yazidi_religion
-					religion = religion:zunism_religion
-					faith = faith:mandeaism
-					religion = religion:dualism_religion
-					religion = religion:basque_religion
-				}
-			}
-	    }
-	}
+	#     }
+	#     outfit_tags = { 
+	# 		priest_outfit
+	# 		religious_zoroastrian_high_clothes
+	# 	}
+	#     weight = {
+	#         base = 0
+	#         modifier = {
+	# 			add = 100
+	# 			exists = this
+	# 			OR = {
+	# 				has_character_flag = need_priest_outfit
+	# 				is_theocratic_lessee = yes
+	# 				AND = { is_ruler = yes has_government = theocracy_government }
+	# 				has_council_position = councillor_court_chaplain
+	# 			}
+	# 			OR = {
+	# 				religion = religion:zoroastrianism_religion
+	# 				religion = religion:yazidi_religion
+	# 				religion = religion:zunism_religion
+	# 				faith = faith:mandeaism
+	# 				religion = religion:dualism_religion
+	# 				religion = religion:basque_religion
+	# 			}
+	# 		}
+	#     }
+	# }
 
 ## Jain ##
 
-	religious_jain_devoted_clothes = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = clothes
-				template = religious_jain_high_clothes
-				range = { 0 1 } # For the randomness to work correctly
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
-				template = bust_clothes_light
-			}
+	# religious_jain_devoted_clothes = {
+	# 	dna_modifiers = {
+	# 		accessory = {
+	# 			mode = add
+	# 			gene = clothes
+	# 			template = religious_jain_high_clothes
+	# 			range = { 0 1 } # For the randomness to work correctly
+	# 		}
+	# 		morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 0.8 # Setting this lower to reduce the exaggerated effect of large bust size when wearing clothes
+	# 			template = bust_clothes_light
+	# 		}
 
-		}
-		outfit_tags = { monk_outfit }
-		weight = {
-			base = 0
-			modifier = {
-				add = 100
-				portrait_has_trait_trigger = { TRAIT = devoted }
-				OR = {
-					religion = religion:jainism_religion
-				}
-			}
-		}
-	}
+	# 	}
+	# 	outfit_tags = { monk_outfit }
+	# 	weight = {
+	# 		base = 0
+	# 		modifier = {
+	# 			add = 100
+	# 			portrait_has_trait_trigger = { TRAIT = devoted }
+	# 			OR = {
+	# 				religion = religion:jainism_religion
+	# 			}
+	# 		}
+	# 	}
+	# }
 
-	religious_jain_high_clothes = {
-	    dna_modifiers = {
-	        accessory = {
-	            mode = add
-	            gene = clothes
-	            template = religious_jain_high_clothes
-	            range = { 0 1 }
-	        }
-	        morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = 1.0
-				template = bust_clothes_light
-			}
+	# religious_jain_high_clothes = {
+	#     dna_modifiers = {
+	#         accessory = {
+	#             mode = add
+	#             gene = clothes
+	#             template = religious_jain_high_clothes
+	#             range = { 0 1 }
+	#         }
+	#         morph = {
+	# 			mode = modify_multiply
+	# 			gene = gene_bs_bust
+	# 			value = 1.0
+	# 			template = bust_clothes_light
+	# 		}
 
-	    }
-	    outfit_tags = { priest_outfit }
-	    weight = {
-	        base = 0
-	        modifier = {
-				add = 110
-				exists = this
-				OR = {
-					has_character_flag = need_priest_outfit
-					is_theocratic_lessee = yes
-					AND = { is_ruler = yes has_government = theocracy_government }
-					has_council_position = councillor_court_chaplain
-				}
-				OR = {
-					religion = religion:jainism_religion
-				}
-			}
-	    }
-	}
+	#     }
+	#     outfit_tags = { priest_outfit }
+	#     weight = {
+	#         base = 0
+	#         modifier = {
+	# 			add = 110
+	# 			exists = this
+	# 			OR = {
+	# 				has_character_flag = need_priest_outfit
+	# 				is_theocratic_lessee = yes
+	# 				AND = { is_ruler = yes has_government = theocracy_government }
+	# 				has_council_position = councillor_court_chaplain
+	# 			}
+	# 			OR = {
+	# 				religion = religion:jainism_religion
+	# 			}
+	# 		}
+	#     }
+	# }
 
 ## African Pagan ##
 

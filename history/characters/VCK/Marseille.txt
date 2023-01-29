@@ -55,7 +55,7 @@ marseille4 = {
 	religion = catholic
 	father = marseille2
 	mother = raimonding8
-	1032.1.1 = { #fic
+	1027.1.1 = { #fic
 		birth = yes
 	}
 	1068.1.1 = { #fic
@@ -130,7 +130,7 @@ marseille9 = {
 	trait = devoted
 	father = marseille2
 	mother = fos1
-	988.1.1 = { #fic
+	992.1.1 = { #fic
 		birth = yes
 	}
 	1073.2.18 = {
@@ -145,7 +145,7 @@ marseille10 = {
 	religion = catholic
 	father = marseille2
 	mother = fos1
-	992.1.1 = { #fic
+	988.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_younger
 	}
@@ -187,7 +187,6 @@ marseille12 = {
 
 marseille13 = {
 	name = "Godefroi" # 
-	female = yes
 	dynasty = 173
 	culture = provencal
 	religion = catholic

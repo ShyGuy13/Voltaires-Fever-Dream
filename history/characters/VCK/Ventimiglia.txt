@@ -1,0 +1,69 @@
+ventimiglia1 = {
+	name = "Ottone" # Ottone I of Ventimiglia
+	dynasty= 290
+	culture = ligurian
+	religion = catholic
+	father = ventimiglia4
+	1025.1.1 = { #est
+		birth = yes
+	}
+	1078.1.1 = { #est
+		death = yes
+	}
+}
+
+ventimiglia2 = {
+	name = "Oberto" # Oberto I of Ventimiglia
+	dynasty= 290
+	culture = ligurian
+	religion = catholic
+	father = ventimiglia1
+	1052.1.1 = { #est
+		birth = yes
+	}
+	1113.1.1 = { #est
+		death = yes
+	}
+}
+
+ventimiglia3 = {
+	name = "Elena" # wife of Oddone of Savona
+	female = yes
+	dynasty= 290
+	culture = ligurian
+	religion = catholic
+	father = ventimiglia4
+	1033.1.1 = { #est
+		birth = yes
+	}
+	1089.1.1 = { #fic
+		death = yes
+	}
+}
+
+ventimiglia4 = {
+	name = "Corrado" # Corrado I of Ventimiglia
+	dynasty= 290
+	culture = ligurian
+	religion = catholic
+	995.1.1 = { #est
+		birth = yes
+	}
+	1038.1.1 = { #est
+		death = yes
+	}
+}
+
+ventimiglia5 = {
+	name = "Corrado" # Corrado II of Ventimiglia
+	dynasty= 290
+	culture = ligurian
+	religion = catholic
+	father = ventimiglia4
+	1030.1.1 = { #est
+		birth = yes
+	}
+	1080.1.1 = { #fic
+		death = yes
+	}
+}

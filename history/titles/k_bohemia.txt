@@ -47,6 +47,51 @@ c_praha = {
 		holder = premyslovci1 # Bretislav
 	}
 }
+c_plzen = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_pisek = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_loket = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_zatec = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_litomerice = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_kladsko = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_hradec_kralove = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_mlada_boleslav = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_tabor = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
 
 #Lausitz
 d_lausitz = {

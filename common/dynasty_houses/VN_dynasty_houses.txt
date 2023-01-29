@@ -63,3 +63,10 @@ house_luxemburg = {
 	name = "dynn_Luxemburg"
 	dynasty = 120 # Wigeriching
 }
+
+house_berg = {
+	prefix = "dynnp_von"
+	name = "dynn_Berg"
+	dynasty = 81 # Ezzoning
+}
+

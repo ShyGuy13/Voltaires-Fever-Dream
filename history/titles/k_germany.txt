@@ -1,3 +1,16 @@
+#East Francia
+k_east_francia = {
+	876.8.28 = {
+		holder = karling45 #Charles the Fat
+	}
+	887.11.30 = {
+		holder = karling52 #Arnulf
+	}
+	899.12.8 = {
+		holder = karling58 #Ludwig the Child
+	}
+}
+
 #Worms
 c_worms = {
 	1039.6.4 = {
@@ -636,7 +649,7 @@ d_nordgau = {
 		holder = diepolding1
 	}
 }
-c_neumarkt = {
+c_velden = {
 	956.1.1 = {
 		holder = diepolding6
 	}
@@ -650,18 +663,18 @@ c_neumarkt = {
 		holder = diepolding1
 	}
 }
-c_velden = {
-	956.1.1 = {
-		holder = diepolding6
+
+#Neumark
+c_neumarkt = {
+	983.1.1 = {
+		liege = d_nordgau
+		holder = baboning3 # Babo I
 	}
-	984.1.1. = {
-		holder = diepolding5
+	1001.3.6 = {
+		holder = baboning2 # Ruprecht I
 	}
-	1025.1.1 = {
-		holder = diepolding3
-	}
-	1050.6.19 = {
-		holder = diepolding1
+	1035.12.13 = {
+		holder = baboning4 # Babo II
 	}
 }
 
@@ -809,6 +822,7 @@ c_hall = {
 #Leuchtenberg
 c_leuchtenburg = {
 	1054.1.1 = {
+		liege = d_nordgau # ?
 		holder = leuchtenberg1
 	}
 }
@@ -2140,6 +2154,7 @@ c_woldenberg = {
 #Altsachsen
 d_saxony = {
 	973.3.27 = {
+		name = ALTSACHSEN
 		holder = billung7 # Bernhard I
 	}
 	1011.2.9 = {
@@ -2541,6 +2556,11 @@ c_saarbrucken = {
 		holder = saarbrucken1 # Siegbert I
 	}
 }
+c_zweibrucken = {
+	1054.1.1 = {
+		holder = saarbrucken1 # Siegbert I
+	}
+}
 
 #Württemberg
 c_wurttemberg = {
@@ -2740,5 +2760,12 @@ c_sausenberg = {
 c_blankenburg = {
 	1054.1.1 = {
 		holder = regenstein1 # Bodo I
+	}
+}
+
+#Suppligenburg
+c_wernigerode = {
+	1031.1.1 = {
+		holder = supplingenburg1 # Bernhard I
 	}
 }

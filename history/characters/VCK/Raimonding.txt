@@ -109,6 +109,7 @@ raimonding8 = {
 	culture = occitan
 	religion = catholic
 	father = raimonding3 #debated
+	mother = bosoning6
 	1015.1.1 = { #fic
 		birth = yes
 	}

@@ -1,26 +1,27 @@
 ﻿berg1 = {
 	name = "Adolf" # Adolf I of Berg
-	dynasty = 170
+	dynasty_house = house_berg
 	religion = catholic
 	culture = ripuarian
-	1012.1.1 = { #fic
+	father = ezzoning12
+	1014.1.1 = { #fic
 		birth = yes
 	}
-	1082.1.1 = {
+	1086.1.1 = {
 		death = yes
 	}
 }
 
 berg2 = {
 	name = "Adolf" # Adolf II of Berg
-	dynasty = 170
+	dynasty_house = house_berg
 	religion = catholic
 	culture = ripuarian
 	father = berg1
-	1035.1.1 = {
+	1045.1.1 = {
 		birth = yes
 	}
-	1093.1.1 = {
+	1106.7.31 = {
 		death = yes
 	}
 }

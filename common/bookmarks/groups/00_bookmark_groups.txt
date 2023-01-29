@@ -1,0 +1,3 @@
+﻿bm_group_1054 = {
+	default_start_date = 1054.7.16
+}

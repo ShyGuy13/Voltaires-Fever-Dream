@@ -111,7 +111,7 @@ wettin8 = {
 	father = wettin7
 	1017.1.1 = { #est
 		birth = yes
-		employer = magdeburg_engelhard
+		set_employer = magdeburg_engelhard
 	}
 	1084.4.18 = {
 		death = yes

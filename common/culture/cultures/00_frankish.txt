@@ -328,3 +328,30 @@ provencal = {
 		35 = caucasian_dark_hair
 	}	
 }
+
+champenois = {
+	color = champenois
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_frankish
+	language = language_french
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_equal_inheritance
+		tradition_chanson_de_geste
+	}
+	
+	name_list = name_list_occitan
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		45 = caucasian_brown_hair
+		35 = caucasian_dark_hair
+	}	
+}

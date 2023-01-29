@@ -3,7 +3,7 @@
 	dynasty = 131
 	religion = catholic
 	culture = czech
-	trait = legitimazed_bastard
+	trait = legitimized_bastard
 	1005.1.1 = {
 		birth = yes
 		give_nickname = nick_achilles

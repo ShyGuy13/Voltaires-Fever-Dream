@@ -25,7 +25,7 @@ ezzoning2 = {
 		birth = yes
 		give_nickname = nick_the_insane
 	}
-	1058.1.1 = { #goes insane, kills wifes, is put into a monastery
+	1058.1.1 = { #goes insane, kills wife, is sent into monastery
 		give_nickname = nick_the_monk
 		trait = murderer
 		trait = devoted
@@ -85,7 +85,7 @@ ezzoning6 = {
 	trait = delicate
 	935.1.1 = { #fic
 		birth = yes
-		give_nickname = the_slender
+		give_nickname = nick_the_slender
 	}
 	996.7.16 = {
 		death = yes
@@ -135,7 +135,7 @@ ezzoning9 = {
 }
 
 ezzoning10 = {
-	name = "Adolf" #
+	name = "Adolf" # Adolf I of Keldachgau
 	dynasty = 81
 	religion = catholic
 	culture = pfalzish
@@ -144,6 +144,63 @@ ezzoning10 = {
 		birth = yes
 	}
 	1018.1.1 = {
+		death = yes
+	}
+}
+
+ezzoning11 = {
+	name = "Hermann" # 
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning10
+	994.1.1 = { #fic
+		birth = yes
+	}
+	1056.1.1 = {
+		death = yes
+	}
+}
+
+ezzoning12 = {
+	name = "Adolf" # Adolf II of Keldachgau
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning10
+	987.1.1 = {
+		birth = yes
+	}
+	1041.1.1 = {
+		death = yes
+	}
+}
+
+ezzoning13 = {
+	name = "Ehrenfried" # 
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	trait = devoted
+	father = ezzoning10
+	999.1.1 = { #fic
+		birth = yes
+	}
+	1063.1.1 = { #fic
+		death = yes
+	}
+}
+
+ezzoning14 = {
+	name = "Hermann" #
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning12
+	1011.1.1 = { #fic
+		birth = yes
+	}
+	1091.1.1 = {
 		death = yes
 	}
 }

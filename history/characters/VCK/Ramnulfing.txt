@@ -1,0 +1,13 @@
+﻿ramnulfing1 = {
+	name = "Agnes" # wife of Emperor III
+	female = yes
+	dynasty = 291
+	culture = poitevin
+	religion = catholic
+	1025.1.1 = {
+		birth = yes
+	}
+	1077.12.14 = {
+		death = yes
+	}
+}

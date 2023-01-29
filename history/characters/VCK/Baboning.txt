@@ -4,10 +4,109 @@ baboning1 = {
 	dynasty = 287
 	religion = catholic
 	culture = bavarian
+	father = baboning2
 	1020.1.1 = { #fic
 		birth = yes
 	}
 	1070.1.1 = { #fic
+		death = yes
+	}
+}
+
+baboning2 = {
+	name = "Ruprecht" # 
+	dynasty = 287
+	religion = catholic
+	culture = bavarian
+	father = baboning3
+	998.1.1 = { #fic
+		birth = yes
+	}
+	1035.12.13 = {
+		death = yes
+	}
+}
+
+baboning3 = {
+	name = "Babo" # Babo I of Donaugau
+	dynasty = 287
+	religion = catholic
+	culture = bavarian
+	940.1.1 = { #est
+		birth = yes
+	}
+	1001.3.6 = {
+		death = yes
+	}
+}
+
+baboning4 = {
+	name = "Babo" # Babo II of Donaugau
+	dynasty = 287
+	religion = catholic
+	culture = bavarian
+	father = baboning2
+	1017.1.1 = { #fic
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+baboning5 = {
+	name = "Otto" # bishop of Regensburg
+	dynasty = 287
+	religion = catholic
+	culture = bavarian
+	father = baboning2
+	1023.1.1 = { #fic
+		birth = yes
+	}
+	1089.6.6 = {
+		death = yes
+	}
+}
+
+baboning6 = {
+	name = "Heinrich" # 
+	dynasty = 287
+	religion = catholic
+	culture = bavarian
+	father = baboning2
+	1029.1.1 = { #fic
+		birth = yes
+	}
+	1083.9.30 = {
+		death = yes
+	}
+}
+
+baboning7 = {
+	name = "Bertold" # Bertold von Prunn
+	dynasty = 287
+	religion = catholic
+	culture = bavarian
+	father = baboning3
+	994.1.1 = { #fic
+		birth = yes
+	}
+	1071.1.1 = { #fic
+		death = yes
+	}
+}
+
+baboning8 = {
+	name = "Ludolf" # 
+	dynasty = 287
+	religion = catholic
+	culture = bavarian
+	trait = devoted
+	father = baboning3
+	996.1.1 = { #fic
+		birth = yes
+	}
+	1068.1.1 = { #fic
 		death = yes
 	}
 }

@@ -6,7 +6,7 @@ everstein1 = {
 	1029.1.1 = { #fic
 		birth = yes
 	}
-	1095.1.1 = { f#ic
+	1095.1.1 = { #fic
 		death = yes
 	}
 }

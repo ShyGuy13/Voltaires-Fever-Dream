@@ -377,6 +377,11 @@ c_cremona = {
 		holder = ugoning1 # Ugo II
 	}
 }
+c_brescia = {
+	1054.1.1 = {
+		holder = ugoning1 # Ugo II
+	}
+}
 
 #Genoa
 k_genoa = {
@@ -427,5 +432,12 @@ c_livorno = {
 	1000.1.1 = { government = republic_government }
 	1054.1.1 = {
 		holder = orlandi1 # Giovanni
+	}
+}
+
+#Milan
+c_lombardia = {
+	1029.1.1 = {
+		holder = este1 # Alberto Azzo II
 	}
 }

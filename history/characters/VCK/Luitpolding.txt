@@ -93,6 +93,7 @@ luitpolding7 = {
 	dynasty = 63
 	religion = catholic
 	culture = swabian
+	father = luitpolding12
 	969.1.1 = { #est
 		birth = yes
 	}
@@ -112,21 +113,6 @@ luitpolding8 = {
 		birth = yes
 	}
 	1059.12.10 = {
-		death = yes
-	}
-}
-
-luitpolding8 = {
-	name = "Judith" #wife of Bretislaus I of Bohemia
-	female = yes
-	dynasty = 63
-	religion = catholic
-	culture = swabian
-	father = luitpolding7
-	999.1.1 = { #est
-		birth = yes
-	}
-	1058.8.2 = {
 		death = yes
 	}
 }
@@ -155,6 +141,34 @@ luitpolding10 = {
 		birth = yes
 	}
 	1045.1.1 = { #fic
+		death = yes
+	}
+}
+
+luitpolding11 = {
+	name = "Judith" #wife of Bretislaus I of Bohemia
+	female = yes
+	dynasty = 63
+	religion = catholic
+	culture = swabian
+	father = luitpolding7
+	999.1.1 = { #est
+		birth = yes
+	}
+	1058.8.2 = {
+		death = yes
+	}
+}
+
+luitpolding12 = {
+	name = "Berthold" # Berthold I of Schweinfurt
+	dynasty = 63
+	religion = catholic
+	culture = swabian
+	915.1.1 = { #est
+		birth = yes
+	}
+	980.1.15 = {
 		death = yes
 	}
 }

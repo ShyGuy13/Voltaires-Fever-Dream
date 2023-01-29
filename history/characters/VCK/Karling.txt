@@ -1,4 +1,4 @@
-karling1 = {
+﻿karling1 = {
 	name = "Otton" # Otton I of Lower Lorraine
 	dynasty = 211
 	religion = catholic
@@ -207,7 +207,7 @@ karling14 = {
 
 karling15 = {
 	name = "Karl" # Charlemagne
-	dynasty_house = house_vermandois
+	dynasty = 211
 	religion = catholic
 	culture = frankish
 	martial = 11
@@ -454,7 +454,7 @@ karling30 = {
 }
 
 karling31 = {
-	name = " Hildegard" # 
+	name = "Hildegard" # 
 	female = yes
 	dynasty = 211
 	religion = catholic
@@ -469,7 +469,7 @@ karling31 = {
 }
 
 karling32 = {
-	name = " Gisela" # wife of Robert of Troyes
+	name = "Gisela" # wife of Robert of Troyes
 	female = yes
 	dynasty = 211
 	religion = catholic
@@ -518,12 +518,522 @@ karling35 = {
 	dynasty = 211
 	religion = catholic
 	culture = frankish
+	trait = twin
 	father = karling15
 	778.4.16 = {
 		birth = yes	
 		give_nickname = nick_the_pious
 	}
 	840.6.20 = {
+		death = yes
+	}
+}
+
+karling36 = {
+	name = "Lothair" # Lothair I of Lotharingia
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	father = karling35
+	795.1.1 = {
+		birth = yes	
+	}
+	855.9.29 = {
+		death = yes
+	}
+}
+
+karling37 = {
+	name = "Pepin" # Pepin I of Aquitaine
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	father = karling35
+	797.1.1 = {
+		birth = yes	
+	}
+	838.12.13 = {
+		death = yes
+	}
+}
+
+karling38 = {
+	name = "Louis" # Louis II of East Francia
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	father = karling35
+	806.1.1 = {
+		birth = yes
+		give_nickname = nick_the_german
+	}
+	876.8.28 = {
+		death = yes
+	}
+}
+
+karling39 = {
+	name = "Hildegard" # 
+	female = yes
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	trait = devoted
+	father = karling38
+	828.1.1 = {
+		birth = yes
+	}
+	856.12.23 = {
+		death = yes
+	}
+}
+
+karling40 = {
+	name = "Karlomann" # Karlomann I of Bavaria
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	father = karling38
+	830.1.1 = {
+		birth = yes
+	}
+	880.3.22 = {
+		death = yes
+	}
+}
+
+karling41 = {
+	name = "Irmgard" # 
+	female = yes
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	trait = devoted
+	father = karling38
+	831.1.1 = {
+		birth = yes
+	}
+	866.7.16 = {
+		death = yes
+	}
+}
+
+karling42 = {
+	name = "Gisela" # 
+	female = yes
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	father = karling38
+	833.1.1 = { #fic
+		birth = yes
+	}
+	841.1.1 = { #fic
+		death = yes
+	}
+}
+
+karling43 = {
+	name = "Louis" # 
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	father = karling38
+	835.1.1 = {
+		birth = yes
+		give_nickname = nick_the_saxon
+	}
+	882.1.20 = {
+		death = yes
+	}
+}
+
+karling44 = {
+	name = "Bertha" # 
+	female = yes
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	father = karling38
+	841.1.1 = { #fic
+		birth = yes
+	}
+	877.1.1 = {
+		death = yes
+	}
+}
+
+karling45 = {
+	name = "Charles" # Charles of East Francia
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	father = karling38
+	839.1.1 = {
+		birth = yes
+		give_nickname = nick_the_fat
+	}
+	888.1.13 = {
+		death = yes
+	}
+}
+
+karling46 = {
+	name = "Bernhard" # 
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	trait = bastard
+	father = karling45
+	870.1.1 = {
+		birth = yes
+	}
+	892.1.13 = {
+		death = yes
+	}
+}
+
+karling47 = {
+	name = "Louis" # 
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	father = karling43
+	876.1.1 = {
+		birth = yes
+	}
+	879.1.13 = {
+		death = yes
+	}
+}
+
+karling48 = {
+	name = "Hildegard" # 
+	female = yes
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	father = karling43
+	878.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+karling49 = {
+	name = "Bernhard" # 
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	trait = bastard
+	father = karling43
+	852.1.1 = { #fic
+		birth = yes
+	}
+	872.1.1 = { #fic
+		death = yes
+	}
+}
+
+karling50 = {
+	name = "Hugo" # 
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	trait = bastard
+	father = karling43
+	855.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+
+karling51 = {
+	name = "Adelhard" # 
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	trait = bastard
+	father = karling43
+	858.1.1 = { #fic
+		birth = yes
+	}
+	877.1.1 = { #fic
+		death = yes
+	}
+}
+
+karling52 = {
+	name = "Arnulf" # Arnulf of East Francia
+	dynasty = 211
+	religion = catholic
+	culture = franconian
+	trait = legitimized_bastard
+	father = karling40
+	850.1.1 = { 
+		birth = yes
+	}
+	899.12.8 = {
+		death = yes
+	}
+}
+
+karling53 = {
+	name = "Zwentibold" # 
+	dynasty = 211
+	religion = catholic
+	culture = franconian
+	trait = legitimized_bastard
+	father = karling52
+	870.1.1 = { 
+		birth = yes
+	}
+	900.8.13 = {
+		death = yes
+	}
+}
+
+karling54 = {
+	name = "Benedetta" # 
+	female = yes
+	dynasty = 211
+	religion = catholic
+	culture = franconian
+	trait = devoted
+	father = karling53
+	898.1.1 = { 
+		birth = yes
+	}
+	963.1.1 = { #fic
+		death = yes
+	}
+}
+
+karling55 = {
+	name = "Cecilia" # 
+	female = yes
+	dynasty = 211
+	religion = catholic
+	culture = franconian
+	trait = devoted
+	father = karling53
+	899.1.1 = { 
+		birth = yes
+	}
+	968.1.1 = { #fic
+		death = yes
+	}
+}
+
+karling56 = {
+	name = "Relenda" # 
+	female = yes
+	dynasty = 211
+	religion = catholic
+	culture = franconian
+	trait = devoted
+	father = karling53
+	900.1.1 = { 
+		birth = yes
+	}
+	959.1.1 = { #fic
+		death = yes
+	}
+}
+
+karling57 = {
+	name = "Ratold" # 
+	dynasty = 211
+	religion = catholic
+	culture = franconian
+	trait = legitimized_bastard
+	father = karling52
+	872.1.1 = { #fic
+		birth = yes
+	}
+	916.1.1 = { #fic
+		death = yes
+	}
+}
+
+karling58 = {
+	name = "Louis" # 
+	dynasty = 211
+	religion = catholic
+	culture = franconian
+	father = karling52
+	893.1.1 = {
+		birth = yes
+		give_nickname = nick_the_child
+	}
+	911.9.24 = {
+		death = yes
+	}
+}
+
+karling59 = {
+	name = "Pepin"
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	father = karling15
+	768.1.1 = {
+		birth = yes
+		give_nickname = nick_the_hunchback
+	}
+	781.1.1 = {
+		trait = disinherited
+	}
+	792.1.1 = {
+		trait = monk
+	}
+	810.7.8 = {
+		death = yes
+	}
+}
+
+karling60 = {
+	name = "Rotrude"
+	female = yes
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	father = karling15
+	775.1.1 = {
+		birth = yes
+	}
+	810.6.6 = {
+		death = yes
+	}
+}
+
+karling61 = {
+	name = "Lothair" # 
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	trait = twin
+	father = karling15
+	778.4.16 = {
+		birth = yes	
+	}
+	780.1.1 = {
+		death = yes
+	}
+}
+
+karling62 = {
+	name = "Charles" # 
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	father = karling15
+	772.1.1 = {
+		birth = yes
+		give_nickname = nick_the_younger
+	}
+	811.12.4 = {
+		death = yes
+	}
+}
+
+karling63 = {
+	name = "Drogo" # bishop of Metz
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	trait = bastard
+	trait = devoted
+	father = karling15
+	801.6.17 = {
+		birth = yes
+	}
+	855.12.8 = {
+		death = yes
+	}
+}
+
+karling64 = {
+	name = "Hugo" # bishop of Metz
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	trait = bastard
+	trait = devoted
+	father = karling15
+	803.1.1 = {
+		birth = yes
+		give_nickname = nick_the_abbot
+	}
+	844.6.14 = {
+		death = yes
+	}
+}
+
+karling65 = {
+	name = "Richbod" # 
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	trait = bastard
+	trait = devoted
+	father = karling15
+	805.1.1 = {
+		birth = yes
+	}
+	844.1.1 = {
+		death = yes
+	}
+}
+
+karling66 = {
+	name = "Theodoric" # 
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	trait = bastard
+	father = karling15
+	807.1.1 = {
+		birth = yes
+	}
+	858.1.1 = { #fic
+		death = yes
+	}
+}
+
+karling67 = {
+	name = "Ruodhaid" # 
+	female = yes
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	trait = bastard
+	trait = devoted
+	father = karling15
+	775.1.1 = {
+		birth = yes
+	}
+	821.1.1 = { #fic
+		death = yes
+	}
+}
+
+karling68 = {
+	name = "Adaltrude" # 
+	female = yes
+	dynasty = 211
+	religion = catholic
+	culture = frankish
+	trait = bastard
+	father = karling15
+	774.1.1 = {
+		birth = yes
+	}
+	818.1.1 = { #fic
 		death = yes
 	}
 }

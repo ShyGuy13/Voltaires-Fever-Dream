@@ -30,7 +30,7 @@ e_francia = {
 					color = { 146 81 81 }
 					color2 = { 255 255 255 }
 				}
-				b_beaufortain = {
+				b_beaufort = { # Beaufortain
 					province = 386
 					color = { 182 154 64 }
 					color2 = { 255 255 255 }
@@ -41,7 +41,7 @@ e_francia = {
 				color = { 56 186 226 }
 				color2 = { 255 255 255 }
 
-				b_forez = {
+				b_feurs = {
 					province = 526
 					color = { 202 46 255 }
 					color2 = { 255 255 255 }
@@ -67,7 +67,7 @@ e_francia = {
 					color = { 199 134 255 }
 					color2 = { 255 255 255 }
 				}
-				b_dombes = {
+				b_trevoux = { # Dombes
 					province = 427
 					color = { 60 108 128 }
 					color2 = { 255 255 255 }
@@ -78,7 +78,7 @@ e_francia = {
 				color = { 235 196 231 }
 				color2 = { 255 255 255 }
 
-				b_savoie = {
+				b_chambery = {
 					province = 1087
 					color = { 160 102 173 }
 					color2 = { 255 255 255 }
@@ -88,7 +88,7 @@ e_francia = {
 					color = { 193 91 31 }
 					color2 = { 255 255 255 }
 				}
-				b_tarentaise = {
+				b_bourg-saint-maurice = { # Tarentaise
 					province = 968
 					color = { 16 140 126 }
 					color2 = { 255 255 255 }
@@ -110,12 +110,12 @@ e_francia = {
 				color = { 33 164 92 }
 				color2 = { 255 255 255 }
 
-				b_bresse = {
+				b_bourg-en-bresse = {
 					province = 2565
 					color = { 172 201 135 }
 					color2 = { 255 255 255 }
 				}
-				b_bugey = {
+				b_belley = { # Bugey
 					province = 1965
 					color = { 209 154 79 }
 					color2 = { 255 255 255 }
@@ -135,6 +135,9 @@ e_francia = {
 			capital = c_marseille
 
 			c_nyons = {
+				color = { 53 121 121 }
+				color2 = { 255 255 255 }
+
 				b_nyons = {
 					province = 388
 					color = { 182 158 192 }
@@ -159,7 +162,10 @@ e_francia = {
 			}
 
 			c_gapencais = {
-				b_gapencais = {
+				color = { 103 140 143 }
+				color2 = { 255 255 255 }
+
+				b_gap = {
 					province = 964
 					color = { 144 134 173 }
 					color2 = { 255 255 255 }
@@ -172,6 +178,9 @@ e_francia = {
 			}
 
 			c_cannes = {
+				color = { 113 180 183 }
+				color2 = { 255 255 255 }
+
 				b_cannes = {
 					province = 228
 					color = { 159 94 192 }
@@ -193,7 +202,7 @@ e_francia = {
 				color = { 73 141 141 }
 				color2 = { 255 255 255 }
 
-				b_venaissin = {
+				b_avignon = {
 					province = 202
 					color = { 28 44 192 }
 					color2 = { 255 255 255 }
@@ -425,7 +434,7 @@ e_francia = {
 				color = { 93 194 122 }
 				color2 = { 255 255 255 }
 
-				b_dauphine_viennois = {
+				b_vienne = {
 					province = 544
 					color = { 204 82 128 }
 					color2 = { 255 255 255 }
@@ -4101,7 +4110,7 @@ e_hre = {
 				color = { 163 132 118 }
 				color2 = { 255 255 255 }
 
-				b_vaud = {
+				b_rolle = {
 					province = 1157
 					color = { 170 110 173 }
 					color2 = { 255 255 255 }
@@ -4462,7 +4471,7 @@ e_hre = {
 					color = { 65 52 224 }
 					color2 = { 255 255 255 }
 				}
-				b_chablais = {
+				b_thonon-les-bains = { # Chablais
 					province = 2014
 					color = { 11 0 236 }
 					color2 = { 255 255 255 }
@@ -4473,12 +4482,12 @@ e_hre = {
 				color = { 151 80 66 }
 				color2 = { 255 255 255 }
 
-				b_sion = {
+				b_sitten = {
 					province = 213
 					color = { 29 64 192 }
 					color2 = { 255 255 255 }
 				}
-				b_saint-maurice = {
+				b_martinach = { # Saint Maurice
 					province = 214
 					color = { 157 66 255 }
 					color2 = { 255 255 255 }
@@ -6640,7 +6649,7 @@ e_hre = {
 					color2 = { 255 255 255 }
 				}
 			}
-
+			
 			c_munzenberg = {
 				color = { 69 131 62 }
 				color2 = { 255 255 255 }
@@ -38774,8 +38783,20 @@ e_france = {
 
 	landless = yes
 }
+k_lotharingia = {
+	color = { 11 22 170 }
+	color2 = { 255 255 255 }
+
+	landless = yes
+}
 k_poland = {
 	color = { 197  92  106 }
+	color2 = { 255 255 255 }
+
+	landless = yes
+}
+k_east_francia = {
+	color = { 255  255  255 }
 	color2 = { 255 255 255 }
 
 	landless = yes

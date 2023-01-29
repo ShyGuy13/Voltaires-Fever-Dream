@@ -808,9 +808,7 @@
 	culture = pfalzish
 }
 170 = {
-	prefix = "dynnp_von"
-	name = "dynn_Berg"
-	culture = ripuarian
+	#free
 }
 171 = {
 	prefix = "dynnp_von"
@@ -1365,10 +1363,14 @@
 	culture = provencal
 }
 290 = {
-	
+	prefix = "dynnp_di"
+	name = "dynn_Ventimiglia"
+	culture = ligurian
 }
 291 = {
-	
+	prefix = "dynnp_di"
+	name = "dynn_Ramnulfing"
+	culture = poitevin	
 }
 292 = {
 	

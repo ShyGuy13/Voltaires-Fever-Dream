@@ -1,0 +1,175 @@
+﻿bm_1054_hre = {
+	start_date = 1054.7.16
+	is_playable = yes
+	recommended = yes
+	group = bm_group_1054
+
+	# Emperor Heinrich
+	character = {
+		name = "bookmark_hre_emperor_heinrich"
+		history_id = salier3
+		dynasty = 38
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1016.10.28
+		title = e_hre
+		government = feudal_government
+		culture = swabian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 800 110 }
+
+		animation = personality_greedy
+
+		character = {
+			name = "bookmark_hre_agnes_ramnulfing"
+			history_id = ramnulfing1
+			relation = "BOOKMARK_RELATION_SPOUSE_FEMALE"
+			dynasty = 291
+			dynasty_splendor_level = 1
+			type = female
+			birth = 1025.1.1
+			culture = poitevin
+			religion = catholic
+
+			animation = personality_love
+		}
+
+		character = {
+			name = "bookmark_hre_heir_heinrich"
+			history_id = salier1
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = 38
+			dynasty_splendor_level = 1
+			type = female
+			birth = 1025.1.1
+			culture = poitevin
+			religion = catholic
+
+			animation = personality_content
+		}
+	}
+
+	# Bernhard II of Altsachsen
+	character = {
+		name = "bookmark_hre_bernhard_billung"
+		history_id = billung1
+		dynasty = 110
+		dynasty_splendor_level = 1
+		type = male
+		birth = 995.1.1
+		title = d_saxony
+		government = feudal_government
+		culture = low_elbish
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 1225 200 }
+
+		animation = personality_vengeful
+	}
+
+	# Bretislav Premyslovci
+	character = {
+		name = "bookmark_hre_bretislav_premyslovci"
+		history_id = premyslovci1
+		dynasty = 131
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1005.1.1
+		title = d_bohemia
+		government = feudal_government
+		culture = czech
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		position = { 375 200 }
+
+		animation = personality_honorable
+	}
+
+	# Burkhard von Hohenzollern
+	character = {
+		name = "bookmark_hre_burkhard_hohenzollern"
+		history_id = hohenzollern1
+		dynasty = 64
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1010.1.1
+		title = c_zollern
+		government = feudal_government
+		culture = swabian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		position = { 300 600 }
+
+		animation = happiness
+
+		# Friedrich I von Hohenzollern
+		character = {
+			name = "bookmark_hre_friedrich_hohenzollern"
+			history_id = hohenzollern2
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = 64
+			dynasty_splendor_level = 1
+			type = male
+			birth = 1040.1.1
+			culture = swabian
+			religion = catholic
+
+			animation = personality_content
+		}
+	}
+	
+	# Bernhard I of Süpplingenburg
+	character = {
+		name = "bookmark_hre_bernhard_supplingenburg"
+		history_id = supplingenburg1
+		dynasty = 273
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1003.1.1
+		title = c_wernigerode
+		government = feudal_government
+		culture = eastphalian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		position = { 550 800 }
+
+		animation = personality_coward
+	}
+
+	# Werner of Habsburg
+	character = {
+		name = "bookmark_hre_werner_habsburg"
+		history_id = habsburg1
+		dynasty = 70
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1030.1.1
+		title = c_aargau
+		government = feudal_government
+		culture = swiss
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		position = { 1300 600 }
+
+		animation = personality_compassionate
+	}
+
+	# Friedrich of Hohenstaufen
+	character = {
+		name = "bookmark_hre_friedrich_hohenstaufen"
+		history_id = hohenstaufen2
+		dynasty = 44
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1010.1.1
+		title = c_staufen
+		government = feudal_government
+		culture = swabian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		position = { 1050 800 }
+
+		animation = schadenfreude
+	}
+}
