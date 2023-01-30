@@ -1373,10 +1373,12 @@
 	culture = poitevin	
 }
 292 = {
-	
+	name = "dynn_Brizani"
+	culture = polabian
 }
 293 = {
-	
+	name = "dynn_Chizzini"
+	culture = polabian
 }
 # 294 = {
 	

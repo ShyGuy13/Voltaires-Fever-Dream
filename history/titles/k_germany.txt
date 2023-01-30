@@ -1797,50 +1797,20 @@ c_mecklenburg = {
 	}
 }
 
-#Schwerin
-c_schwerin = {
-	#Obodriti
-	800.1.1 = { government = tribal_government }
-	954.1.1 = {
-		holder = nakoning5 # Nakon
+#Lauenburg
+c_lauenburg = {
+	#Polabi
+	800.1.1 = {
+		government = tribal_government
+		liege = d_mecklenburg
 	}
-	966.1.1 = {
-		holder = nakoning4 # Mstivoj
-	}
-	995.1.1 = {
-		holder = nakoning3 # Mstislav
-	}
-	1018.1.1 = {
-		holder = nakoning2 # Udo
-	}
-	1028.1.1 = {
-		holder = nakoning1 # Gotszalk
+	1054.1.1 = {
+		holder = polabi1 # Dobromil 
 	}
 }
 
 #Ratzeburg
 c_ratzeburg = {
-	#Obodriti
-	800.1.1 = { government = tribal_government }
-	954.1.1 = {
-		holder = nakoning5 # Nakon
-	}
-	966.1.1 = {
-		holder = nakoning4 # Mstivoj
-	}
-	995.1.1 = {
-		holder = nakoning3 # Mstislav
-	}
-	1018.1.1 = {
-		holder = nakoning2 # Udo
-	}
-	1028.1.1 = {
-		holder = nakoning1 # Gotszalk
-	}
-}
-
-#Lauenburg
-c_lauenburg = {
 	#Polabi
 	800.1.1 = {
 		government = tribal_government
@@ -1860,6 +1830,20 @@ c_boizenburg = {
 	}
 	1054.1.1 = {
 		holder = polabi1 # Dobromil 
+	}
+}
+
+#Schwerin
+c_schwerin = {
+	#Chizzini
+	800.1.1 = {
+		government = tribal_government
+	}
+	983.1.1 = {
+		liege = d_mecklenburg
+	}
+	1054.1.1 = {
+		holder = chizzini1 # Mstidrag
 	}
 }
 
@@ -1944,26 +1928,28 @@ c_berlin = {
 	#Sprevani
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
-		holder = sprevani1
+		holder = sprevani1 # Wlodzimierz
 	}
 }
 c_potsdam = {
 	#Sprevani
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
-		holder = sprevani1
+		holder = sprevani1 # Wlodzimierz
 	}
 }
 
 #Havelberg
 c_havelberg = {
-	#Linoni
+	#Brizani
 	800.1.1 = { government = tribal_government }
 	839.1.1 = { liege = d_mecklenburg }
 	1054.1.1 = {
-		holder = linoni1
+		holder = brizani1 # Drasco
 	}
 }
+
+#Pritzwalk
 c_pritzwalk = {
 	#Linoni
 	800.1.1 = { government = tribal_government }
@@ -2045,6 +2031,22 @@ c_prenzlau = {
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
 		holder = ukrani1
+	}
+}
+
+#Stargard
+c_stargard = {
+	#Tolenzi
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = tolenzi1 # Mstislav
+	}
+}
+c_anklam = {
+	#Tolenzi
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = tolenzi1 # Mstislav
 	}
 }
 

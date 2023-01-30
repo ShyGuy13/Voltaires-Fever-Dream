@@ -1,0 +1,12 @@
+﻿brizani1 = {
+	name = "Drasco" # fic for 1054
+	dynasty = 292
+	religion = slavic_pagan
+	culture = polabian
+	1019.1.1 = { #fic
+		birth = yes
+	}
+	1073.1.1 = { #fic
+		death = yes
+	}
+}

@@ -1,0 +1,12 @@
+﻿chizzini1 = {
+	name = "Mstidrag" # fic for 1054
+	dynasty = 293
+	religion = slavic_pagan
+	culture = polabian
+	1008.1.1 = { #fic
+		birth = yes
+	}
+	1061.1.1 = { #fic
+		death = yes
+	}
+}

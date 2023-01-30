@@ -1,1 +1,12 @@
-#253
+﻿tolenzi1 = {
+	name = "Mstislav" # fic for 1054
+	dynasty = 253
+	religion = slavic_pagan
+	culture = polabian
+	1003.1.1 = { #fic
+		birth = yes
+	}
+	1069.1.1 = { #fic
+		death = yes
+	}
+}

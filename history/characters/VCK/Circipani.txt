@@ -1,4 +1,4 @@
-circipani1 = {
+﻿circipani1 = {
 	name = "Lucjan" # fic for 1054
 	dynasty = 263
 	religion = slavic_pagan
@@ -6,7 +6,7 @@ circipani1 = {
 	1027.1.1 = { #fic
 		birth = yes
 	}
-	1182.1.1 = { #fic
+	1082.1.1 = { #fic
 		death = yes
 	}
 }
