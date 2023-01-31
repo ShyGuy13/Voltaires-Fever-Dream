@@ -1,0 +1,12 @@
+﻿ploni1 = {
+	name = "Ctibor" # fic for 1054
+	dynasty = 294
+	religion = slavic_pagan
+	culture = polabian
+	1022.1.1 = { #fic
+		birth = yes
+	}
+	1085.1.1 = { #fic
+		death = yes
+	}
+}

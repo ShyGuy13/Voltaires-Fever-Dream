@@ -1931,11 +1931,13 @@ c_berlin = {
 		holder = sprevani1 # Wlodzimierz
 	}
 }
+
+#Potsdam
 c_potsdam = {
-	#Sprevani
+	#Ploni
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
-		holder = sprevani1 # Wlodzimierz
+		holder = ploni1 # Ctibor
 	}
 }
 
