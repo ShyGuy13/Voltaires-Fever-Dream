@@ -1,4 +1,4 @@
-version="1.4"
+version="1.0"
 tags={
 	"Total Conversion"
 }
@@ -11,4 +11,4 @@ replace_path="history/provinces"
 replace_path="history/titles"
 replace_path="map_data"
 picture="thumbnail.png"
-supported_version="1.5.0.2"
+supported_version="1.8.1.0"

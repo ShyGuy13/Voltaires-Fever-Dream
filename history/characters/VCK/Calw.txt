@@ -1,11 +1,23 @@
 ﻿calw1 = {
-	name = "Victor" #bishop of Eichstätt & Pope Victor II - Gebhard
+	name = "Gebhard" #bishop of Eichstätt & Pope Victor II - Gebhard
 	dynasty = 42
 	religion = catholic
 	culture = swabian
+	martial = 6
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 8
+	trait = diligent
+	trait = calm
+	trait = zealous
+	trait = education_diplomacy_3
 	father = calw3
+	mother = calw3_wife
 	1018.1.1 = {
 		birth = yes
+	}
+	1054.4.19 = {
+		name = "Victor"
 	}
 	1057.7.28 = {
 		death = yes
@@ -17,7 +29,9 @@ calw2 = {
 	dynasty = 42
 	religion = catholic
 	culture = swabian
-	1022.1.1 = { #fic
+	father = calw3 #???
+	mother = calw3_wife #???
+	1008.1.1 = { #fic
 		birth = yes
 	}
 	1054.1.1 = { #fic
@@ -29,14 +43,46 @@ calw2 = {
 }
 
 calw3 = {
-	name = "Hartwig" #
+	name = "Hartwig" # Hartwig I
 	dynasty = 42
 	religion = catholic
 	culture = swabian
 	991.1.1 = { #fic
 		birth = yes
 	}
+	1015.1.1 = {
+		add_spouse = calw3_wife # Biliza
+	}
 	1043.1.1 = { #fic
+		death = yes
+	}
+}
+
+calw4 = {
+	name = "Hartwig" # Hartwig II
+	dynasty = 42
+	religion = catholic
+	culture = swabian
+	father = calw3
+	mother = calw3_wife
+	1010.1.1 = { #est
+		birth = yes
+	}
+	1069.9.9 = {
+		death = yes
+	}
+}
+
+#wifes
+calw3_wife = {
+	name = "Biliza"
+	female = yes
+	religion = catholic
+	culture = swabian
+	991.1.1 = { #est
+		birth = yes
+	}
+	1068.4.2 = { #fic
 		death = yes
 	}
 }

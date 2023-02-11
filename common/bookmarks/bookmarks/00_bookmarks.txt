@@ -66,6 +66,34 @@
 		position = { 1225 200 }
 
 		animation = personality_vengeful
+
+		character = {
+			name = "bookmark_hre_heir_ordulf_billung"
+			history_id = billung2
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = 110
+			dynasty_splendor_level = 1
+			type = male
+			birth = 1022.1.1
+			culture = low_elbish
+			religion = catholic
+
+			animation = personality_compassionate
+		}
+
+		character = {
+			name = "bookmark_hre_eilika_luitpolding"
+			history_id = luitpolding8
+			relation = "BOOKMARK_RELATION_SPOUSE_FEMALE"
+			dynasty = 63
+			dynasty_splendor_level = 1
+			type = female
+			birth = 1004.1.1
+			culture = swabian
+			religion = catholic
+
+			animation = personality_love
+		}
 	}
 
 	# Bretislav Premyslovci

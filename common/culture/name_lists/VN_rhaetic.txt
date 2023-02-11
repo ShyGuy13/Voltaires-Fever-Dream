@@ -54,7 +54,7 @@ name_list_romansch = {
 		{ dynn_Planta }
 		{ dynn_Porta }
 		{ dynn_Rampa }
-		{ dynn_Razén }
+		{ dynn_Razen }
 		{ dynn_Salis }
 		{ dynn_Scanvetg }
 		{ dynn_Zaccon }

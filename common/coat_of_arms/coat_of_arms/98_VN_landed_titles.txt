@@ -1816,20 +1816,16 @@ c_toul = {
 	}
 }
 
-c_diepholz={
-	pattern="pattern_solid.dds"
-	color1=yellow
-	color2=yellow
-	color3=red
-	colored_emblem={
-		color1=red
-		color2=yellow
-		color3=yellow
-		texture="ce_lion_passant.dds"
-		instance={
-			scale={ 0.900000 0.900000 }
-			rotation=90
-		}
+c_diepolz = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		color1 = red
+		color2 = yellow
+		color3 = yellow
+		texture = "ce_lion_passant.dds"
+		instance = { scale = { 0.9 0.9 } rotation = 90 }
 	}
 }
 
@@ -2368,6 +2364,24 @@ c_steinfurt = {
 		color1 = "red"
 		color2 = "black"
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
+c_pyritz = { # based on modern Pyrzyce
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = "white"
+	color2 = "blue_light"
+	colored_emblem = {
+		color1 = "red"
+		color2 = "red"
+		texture = "ce_lion_passant_random.dds"
+		instance = { position = { 0.5 0.15 } scale = { 0.8 0.8 } }
+	}
+	colored_emblem = {
+		texture = "ce_ordinary_fess_5.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.45 } scale = { 1.0 1.4 }  }
 	}
 }
 
@@ -3524,6 +3538,43 @@ c_melfi = {
 	}
 }
 
+c_stettin = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_griffin_head.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.48 } scale = { 1.0 1.0 }  }			
+	}		
+}
+
+c_faucigny = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_vertical_stripes_08.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
+c_annecy = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_fish.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.48 } scale = { 0.75 0.75 }  }
+	}
+}
+
+
 c_abenberg={
 	pattern="pattern_solid.dds"
 	color1=blue
@@ -3586,12 +3637,24 @@ c_abenberg={
 	}
 }
 
-c_vaduz={
-	pattern="pattern_horizontal_split_01.dds"
-	color1=yellow
-	color2=red
+c_vaduz = {
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = "yellow"
+	color2 = "red"
 }
 
+c_solothurn = {
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = "red"
+	color2 = "white"
+}
+
+c_stuhlingen = {
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = "white"
+	color2 = "blue"
+	#needs a gnome
+}
 
 # c_hohenwaldeck={
 # 	pattern="pattern_solid.dds"
@@ -3805,24 +3868,6 @@ c_pontarlier = { # CoA of Doubs
 		mask = { 2 }
 	}
 }
-
-coa_title_1589={
-	custom=yes
-	pattern="pattern_solid.dds"
-	color1=red
-	color2=yellow
-	color3=black
-	colored_emblem={
-		color1=yellow
-		texture="ce_paly_08.dds"
-		instance={
-			scale={ 0.700000 0.700000 }
-		}
-
-	}
-
-}
-
 
 c_zwiefalten = {
 	pattern = "pattern_solid.dds"
@@ -4538,23 +4583,6 @@ c_heinsberg = {
 	}
 }
 
-coa_title_1841={
-	custom=yes
-	pattern="pattern_solid.dds"
-	color1=black
-	color2=white
-	color3=red
-	colored_emblem={
-		color1=white
-		texture="ce_star_07.dds"
-		instance={
-			scale={ 0.700000 0.700000 }
-		}
-
-	}
-
-}
-
 c_schwalenberg = {
 	pattern = "pattern_solid.dds"
 	color1 = "red"
@@ -5052,7 +5080,6 @@ b_sankt_wolfgang={
 }
 
 b_taching={
-	custom=yes
 	pattern="pattern_diagonal_split_01.dds"
 	color1=white
 	color2=red
@@ -7380,6 +7407,23 @@ b_tarentaise = {
 		color1 = "white"
 		color2 = "white"
 		instance = { position = { 0.5 0.52 } scale = { 1.1 1.1 }  }
+	}
+}
+
+b_boppard = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "black"
+		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_crown_small.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.534 0.083 } rotation = 12 scale = { 0.161 0.161 }  }
 	}
 }
 

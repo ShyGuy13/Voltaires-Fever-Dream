@@ -1,11 +1,11 @@
 astridsunr1 = {
-	name = "Oluf" #Oluf I of Schleswig
+	name = "Oluf" #Oluf I of Slesvig & Oluf I of Denmark
 	dynasty = 264
 	religion = catholic
 	culture = danish
 	father = astridsunr2
 	trait = legitimized_bastard
-	1050.1.1 = {
+	1050.1.1 = { #est
 		birth = yes
 	}
 	1095.8.18 = {
@@ -22,6 +22,48 @@ astridsunr2 = {
 		birth = yes
 	}
 	1076.4.28 = {
+		death = yes
+	}
+}
+
+astridsunr3 = {
+	name = "Svend"
+	dynasty = 264
+	religion = catholic
+	culture = danish
+	father = astridsunr2
+	1051.1.1 = { #fic
+		birth = yes
+	}
+	1052.1.1 = { #fic
+		death = yes
+	}
+}
+
+astridsunr4 = {
+	name = "Harald" # Harald III of Denmark
+	dynasty = 264
+	religion = catholic
+	culture = danish
+	father = astridsunr2
+	1040.1.1 = { #est
+		birth = yes
+	}
+	1080.4.17 = {
+		death = yes
+	}
+}
+
+astridsunr5 = {
+	name = "Knud" # Knud IV of Denmark
+	dynasty = 264
+	religion = catholic
+	culture = danish
+	father = astridsunr2
+	1042.1.1 = { #est
+		birth = yes
+	}
+	1086.7.10 = {
 		death = yes
 	}
 }

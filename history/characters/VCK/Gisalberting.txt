@@ -3,10 +3,66 @@ gisalberting1 = {
 	dynasty = 112
 	religion = catholic
 	culture = lombard
+	father = gisalberting2
 	1002.1.1 = { #fic
 		birth = yes
 	}
 	1064.1.1 = {
+		death = yes
+	}
+}
+
+gisalberting2 = {
+	name = "Arduino" #Arduino II of Bergamo
+	dynasty = 112
+	religion = catholic
+	culture = lombard
+	father = gisalberting3
+	974.1.1 = { #fic
+		birth = yes
+	}
+	1053.1.1 = {
+		death = yes
+	}
+}
+
+gisalberting3 = {
+	name = "Arduino" #Arduino I of Bergamo
+	dynasty = 112
+	religion = catholic
+	culture = lombard
+	949.1.1 = { #fic
+		birth = yes
+	}
+	1022.1.1 = {
+		death = yes
+	}
+}
+
+gisalberting4 = {
+	name = "Raginerio" #Raginerio I of Bergamo
+	dynasty = 112
+	religion = catholic
+	culture = lombard
+	father = gisalberting1
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+gisalberting5 = {
+	name = "Arialdo" #Arialdo I of Bergamo
+	dynasty = 112
+	religion = catholic
+	culture = lombard
+	father = gisalberting1
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1103.1.1 = {
 		death = yes
 	}
 }

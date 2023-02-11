@@ -28,9 +28,7 @@
 	culture = austrian
 }
 7 = {
-	prefix = "dynnp_von"
-	name = "dynn_Traungau"
-	culture = austrian
+	#free
 }
 8 = {
 	prefix = "dynnp_von"
@@ -1246,7 +1244,7 @@
 	culture = polabian
 }
 264 = {
-	name = "dynn_Astridsunr"
+	name = "dynn_Astridsunr" # Estridsen
 	culture = danish
 }
 265 = {
@@ -1385,7 +1383,8 @@
 	culture = polabian
 }
 295 = {
-	
+	name = "dynn_Skjalmsunr" # Hvide
+	culture = danish
 }
 296 = {
 	

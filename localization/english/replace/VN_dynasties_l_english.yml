@@ -2,6 +2,8 @@
 #Prefixes
  dynnp_von_der: "von der"
  dynnp_Banu: "Banû"
+ dynnp_dil: "dil"
+#Historical
 #Dynasties
  dynn_Eppenstein: "Eppenstein"
  dynn_Meinharding: "Meinharding"
@@ -9,7 +11,6 @@
  dynn_Weimar: "Weimar"
  dynn_Formbach: "Formbach"
  dynn_Julbach: "Julbach"
- dynn_Traungau: "Traungau"
  dynn_Tirol: "Tirol"
  dynn_Askuining: "Askuining"
  dynn_Raabs: "Raabs"
@@ -310,3 +311,35 @@
  dynn_Heinsberg: "Heinsberg"
  dynn_Luxemburg: "Luxemburg"
  dynn_Berg: "Berg"
+ dynn_Traungau: "Traungau"
+#Cultures
+#Central Germanic
+#North Germanic
+#Latin
+#Frankish
+#Jewish
+#Rhaetic
+ dynn_Accola: "Accola"
+ dynn_Battaglia: "Battaglia"
+ dynn_Bazzell: "Bazzell"
+ dynn_Bossi: "Bossi"
+ dynn_Cadruvi: "Cadruvi"
+ dynn_Caduff: "Caduff"
+ dynn_Camenisch: "Camenisch"
+ dynn_Caminada: "Caminada"
+ dynn_Capeder: "Capeder"
+ dynn_Corsin: "Corsin"
+ dynn_Decurtins: "Decurtins"
+ dynn_Derungs: "Derungs"
+ dynn_Monte-Villa: "Monte-Villa"
+ dynn_Menduri: "Menduri"
+ dynn_Marca: "Marca"
+ dynn_Mont: "Mont"
+ dynn_Naso: "Naso"
+ dynn_Planta: "Planta"
+ dynn_Porta: "Porta"
+ dynn_Rampa: "Rampa"
+ dynn_Razen: "Razén"
+ dynn_Salis: "Salis"
+ dynn_Scanvetg: "Scanveth"
+ dynn_Zaccon: "Zaccon"

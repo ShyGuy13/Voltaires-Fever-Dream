@@ -125,7 +125,9 @@ c_raabs = {
 
 #Pitten
 c_pitten = {
+	#part of Hungary
 	1042.1.1 = {
+		liege = d_steyermark
 		holder = formbach2 #Gottfried von Formbach
 	}
 	1050.1.1 = {
@@ -174,28 +176,47 @@ c_sachsenburg = {
 
 #Styria
 d_steyermark = {
+formbach2
+	1035.1.1 = {
+		holder = formbach3 # Arnold I
+	}
+	1041.1.1 = {
+		holder = formbach2 # Gottfried I
+	}
 	1050.1.1 = {
-		holder = traungau1
+		holder = traungau1 # Ottokar I
 	}
 }
 c_steiermark = {
-	1050.1.1 = {
-		holder = traungau1
+	980.1.1 = {
+		holder = traungau4 # Ottokar V
+	}
+	1020.3.5 = {
+		holder = traungau1 # Ottokar VI
 	}
 }
 c_admont = {
-	1050.1.1 = {
-		holder = traungau1
+	980.1.1 = {
+		holder = traungau4 # Ottokar V
+	}
+	1020.3.5 = {
+		holder = traungau1 # Ottokar VI
 	}
 }
 c_kapfenberg = {
-	1050.1.1 = {
-		holder = traungau1
+	980.1.1 = {
+		holder = traungau4 # Ottokar V
+	}
+	1020.3.5 = {
+		holder = traungau1 # Ottokar VI
 	}
 }
 c_gurktal = {
-	1050.1.1 = {
-		holder = traungau1
+	980.1.1 = {
+		holder = traungau4 # Ottokar V
+	}
+	1020.3.5 = {
+		holder = traungau1 # Ottokar VI
 	}
 }
 
@@ -275,21 +296,25 @@ c_bled = {
 #Murmark
 c_graz = {
 	1035.1.1 = {
+		liege = d_steyermark
 		holder = formbach3 #Arnold II
 	}
 }
 c_pingau = {
 	1035.1.1 = {
+		liege = d_steyermark
 		holder = formbach3 #Arnold II
 	}
 }
 c_mahrenberg = {
 	1035.1.1 = {
+		liege = d_steyermark
 		holder = formbach3 #Arnold II
 	}
 }
 c_enns = {
 	1035.1.1 = {
+		liege = d_steyermark
 		holder = formbach3 #Arnold II
 	}
 }
@@ -326,6 +351,10 @@ c_ptuj = {
 
 #Salzburg
 c_salzburg = {
+	923.10.8 = {
+		holder = ariboning11 # Adalbert II
+	}
+	#935.11.14 = {}
 	1041.7.28 = {
 		holder = salzburg_balduin
 	}
@@ -1797,20 +1826,30 @@ c_mecklenburg = {
 	}
 }
 
-#Lauenburg
-c_lauenburg = {
-	#Polabi
-	800.1.1 = {
-		government = tribal_government
-		liege = d_mecklenburg
-	}
-	1054.1.1 = {
-		holder = polabi1 # Dobromil 
-	}
-}
 
 #Ratzeburg
 c_ratzeburg = {
+	#Obodriti
+	800.1.1 = { government = tribal_government }
+	954.1.1 = {
+		holder = nakoning5 # Nakon
+	}
+	966.1.1 = {
+		holder = nakoning4 # Mstivoj
+	}
+	995.1.1 = {
+		holder = nakoning3 # Mstislav
+	}
+	1018.1.1 = {
+		holder = nakoning2 # Udo
+	}
+	1028.1.1 = {
+		holder = nakoning1 # Gotszalk
+	}
+}
+
+#Lauenburg
+c_lauenburg = {
 	#Polabi
 	800.1.1 = {
 		government = tribal_government
@@ -1835,6 +1874,19 @@ c_boizenburg = {
 
 #Schwerin
 c_schwerin = {
+	#Chizzini
+	800.1.1 = {
+		government = tribal_government
+	}
+	983.1.1 = {
+		liege = d_mecklenburg
+	}
+	1054.1.1 = {
+		holder = chizzini1 # Mstidrag
+	}
+}
+
+c_parchim = {
 	#Chizzini
 	800.1.1 = {
 		government = tribal_government

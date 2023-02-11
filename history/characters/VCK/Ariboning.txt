@@ -59,6 +59,7 @@ ariboning5 = {
 	dynasty = 12
 	religion = catholic
 	culture = bavarian
+	father = ariboning8
 	940.1.1 = { #fic
 		birth = yes
 	}
@@ -91,6 +92,146 @@ ariboning7 = {
 		birth = yes
 	}
 	1036.8.25 = {
+		death = yes
+	}
+}
+
+ariboning8 = {
+	name = "Chadalhoch" #Chadalhoch II
+	dynasty = 12
+	religion = catholic
+	culture = bavarian
+	father = ariboning10
+	913.1.1 = { #fic
+		birth = yes
+	}
+	958.1.1 = {
+		death = yes
+	}
+}
+
+ariboning9 = {
+	name = "Ottokar" # 
+	dynasty = 12
+	culture = austrian
+	religion = catholic
+	father = ariboning12
+	872.1.1 = { #fic
+		birth = yes
+	}
+	907.1.1 = { #est
+		death = yes
+	}
+}
+
+ariboning10 = {
+	name = "Aribo" # Aribo of Leoben
+	dynasty = 12
+	culture = austrian
+	religion = catholic
+	father = ariboning9
+	891.1.1 = { #fic
+		birth = yes
+	}
+	941.1.1 = { #fic
+		death = yes
+	}
+}
+
+ariboning11 = {
+	name = "Adalbert" # bishop of Salzburg
+	dynasty = 12
+	culture = austrian
+	religion = catholic
+	father = ariboning9
+	875.1.1 = { #est
+		birth = yes
+	}
+	935.11.14 = {
+		death = yes
+	}
+}
+
+ariboning12 = {
+	name = "Aribo" # Aribo I
+	dynasty = 12
+	culture = austrian
+	religion = catholic
+	849.1.1 = {
+		birth = yes
+	}
+	909.1.1 = {
+		death = yes
+	}
+}
+
+ariboning13 = {
+	name = "Isanrich" # 
+	dynasty = 12
+	culture = austrian
+	religion = catholic
+	father = ariboning12
+	870.1.1 = { #fic
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+
+ariboning14 = {
+	name = "Jakob" # 
+	dynasty = 12
+	culture = austrian
+	religion = catholic
+	father = ariboning12
+	879.1.1 = { #fic
+		birth = yes
+	}
+	958.1.1 = { #fic
+		death = yes
+	}
+}
+
+ariboning15 = {
+	name = "Piligrim" # 
+	dynasty = 12
+	culture = austrian
+	religion = catholic
+	father = ariboning12
+	883.1.1 = { #fic
+		birth = yes
+	}
+	934.1.1 = {
+		death = yes
+	}
+}
+
+ariboning16 = {
+	name = "Chadaloh" # 
+	dynasty = 12
+	culture = austrian
+	religion = catholic
+	father = ariboning12
+	888.1.1 = { #fic
+		birth = yes
+	}
+	941.1.1 = { #fic
+		death = yes
+	}
+}
+
+ariboning17 = {
+	name = "Rihni" # 
+	female = yes
+	dynasty = 12
+	culture = austrian
+	religion = catholic
+	father = ariboning12
+	893.1.1 = { #fic
+		birth = yes
+	}
+	967.1.1 = { #fic
 		death = yes
 	}
 }

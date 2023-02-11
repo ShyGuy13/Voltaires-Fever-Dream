@@ -61,7 +61,11 @@ d_bm_brixen = {
 }
 
 d_bm_salzburg = {
-	1000.1.1 = { government = theocracy_government }
+	800.1.1 = { government = theocracy_government }
+	923.10.8 = {
+		holder = ariboning11 # Adalbert II
+	}
+	#935.11.14 = {}
 	1041.7.28 = {
 		holder = salzburg_balduin
 	}

@@ -135,6 +135,9 @@
  griko: "Griko"
  griko_prefix: "Griko"
  griko_collective_noun: "Grikos"
+ nissard: "Nissard"
+ nissard_prefix: "Nissardo"
+ nissard_collective_noun: "Nissards"
 #Others: Aostan, Jurassien, Limburgish, Drenthian, East Frisian, Nordgauer, Alsatian, Black Alemannic, West Franconian, Oldenburgish, Emslandic, Bergish, Lorraine Franconian, Moselle Franconian, North Markish, South Markish, Dithmarsch, Kleverlandisch, Erzgebirgisch
 #Heritages
  heritage_dutch_name: "Dutch"

@@ -1,6 +1,6 @@
 ﻿traungau1 = {
 	name = "Ottokar" #Ottokar I of Styria
-	dynasty = 7
+	dynasty_house = house_traungau
 	culture = austrian
 	religion = catholic
 	father = traungau4
@@ -17,7 +17,7 @@
 
 traungau2 = {
 	name = "Adalbero" #Adalbero I of Styria
-	dynasty = 7
+	dynasty_house = house_traungau
 	culture = austrian
 	religion = catholic
 	father = traungau1
@@ -33,7 +33,7 @@ traungau2 = {
 
 traungau3 = {
 	name = "Ottokar" #Ottokar II of Styria
-	dynasty = 7
+	dynasty_house = house_traungau
 	culture = austrian
 	religion = catholic
 	father = traungau1
@@ -47,14 +47,57 @@ traungau3 = {
 }
 
 traungau4 = {
-	name = "Ottokar"
-	dynasty = 7
+	name = "Ottokar" # Ottokar V of Traungau
+	dynasty_house = house_traungau
 	culture = austrian
 	religion = catholic
-	990.1.1 = {
+	father = traungau5
+	979.1.1 = {
 		birth = yes
 	}
 	1020.3.5 = {
+		death = yes
+	}
+}
+
+traungau5 = {
+	name = "Arnulf" # 
+	dynasty_house = house_traungau
+	culture = austrian
+	religion = catholic
+	father = traungau6
+	948.1.1 = { #fic
+		birth = yes
+	}
+	985.1.1 = { #fic
+		death = yes
+	}
+}
+
+traungau6 = {
+	name = "Ottokar" # 
+	dynasty_house = house_traungau
+	culture = austrian
+	religion = catholic
+	father = traungau7
+	929.1.1 = { #fic
+		birth = yes
+	}
+	976.5.1 = {
+		death = yes
+	}
+}
+
+traungau7 = {
+	name = "Ottokar" # 
+	dynasty_house = house_traungau
+	culture = austrian
+	religion = catholic
+	father = ariboning9
+	879.1.1 = { #fic
+		birth = yes
+	}
+	935.1.1 = { #est
 		death = yes
 	}
 }

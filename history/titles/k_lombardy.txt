@@ -265,17 +265,17 @@ c_vernio = {
 
 #Bergamo
 c_bergamo = {
-	1054.1.1 = {
+	1053.1.1 = {
 		holder = gisalberting1 # Arduino III
 	}
 }
 c_edolo = {
-	1054.1.1 = {
+	1053.1.1 = {
 		holder = gisalberting1 # Arduino III
 	}
 }
 c_sondrio = {
-	1054.1.1 = {
+	1053.1.1 = {
 		holder = gisalberting1 # Arduino III
 	}
 }
@@ -439,5 +439,13 @@ c_livorno = {
 c_lombardia = {
 	1029.1.1 = {
 		holder = este1 # Alberto Azzo II
+	}
+}
+
+#Bobbio
+c_bobbio = {
+	1000.1.1 = { government = theocracy_government }
+	1054.1.1 = {
+		holder = bobbio_placido # Placido
 	}
 }
