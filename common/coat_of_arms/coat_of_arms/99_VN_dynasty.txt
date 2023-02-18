@@ -232,7 +232,17 @@
 
 56 = c_tubingen # Tübingen
 
-# 57 Maden
+57 = { # Maden; inspired by modern Gudensberg
+	pattern = "pattern_solid.dds"
+	color1 = "blue_light"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_cross_pommee.dds"
+		color1 = "yellow"
+		color2 = "yellow"	
+		instance = { position = { 0.5 0.46 } scale = { 1.0 1.0 }  }			
+	}						
+}
 
 58 = c_urach # Urach
 
@@ -1475,7 +1485,26 @@
 	}	
 }
 
-# 279 # Friemersheim
+279 = { # Friemersheim
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = "yellow"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_lion_passant_small.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.30 } scale = { 1.0 1.0 }  }
+	}
+	colored_emblem = {
+		color1 = "white"
+		color2 = "white"
+		color3 = "yellow"
+		texture = "ce_flower.dds"
+		instance = { position = { 0.50 0.77 } scale = { 0.28 0.28 } }
+		instance = { position = { 0.25 0.67 } scale = { 0.28 0.28 } }
+		instance = { position = { 0.75 0.67 } scale = { 0.28 0.28 } }
+	}
+}
 
 # 280 # Dewin
 

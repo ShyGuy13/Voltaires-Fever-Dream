@@ -70,3 +70,8 @@ house_berg = {
 	dynasty = 81 # Ezzoning
 }
 
+house_traungau = {
+	prefix = "dynnp_von"
+	name = "dynn_Traungau"
+	dynasty = 12 # Ariboning
+}
