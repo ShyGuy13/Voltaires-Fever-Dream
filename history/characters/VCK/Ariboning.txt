@@ -116,10 +116,10 @@ ariboning9 = {
 	culture = austrian
 	religion = catholic
 	father = ariboning12
-	872.1.1 = { #fic
+	849.1.1 = { #fic
 		birth = yes
 	}
-	907.1.1 = { #est
+	907.7.4 = {
 		death = yes
 	}
 }
@@ -130,7 +130,7 @@ ariboning10 = {
 	culture = austrian
 	religion = catholic
 	father = ariboning9
-	891.1.1 = { #fic
+	869.1.1 = { #fic
 		birth = yes
 	}
 	941.1.1 = { #fic
@@ -157,7 +157,7 @@ ariboning12 = {
 	dynasty = 12
 	culture = austrian
 	religion = catholic
-	849.1.1 = {
+	831.1.1 = { #fic
 		birth = yes
 	}
 	909.1.1 = {

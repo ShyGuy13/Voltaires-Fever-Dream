@@ -1,4 +1,4 @@
-supponing1 = {
+﻿supponing1 = {
 	name = "Vifredo" #Vifredo II of Seprio
 	dynasty = 114
 	religion = catholic

@@ -1,4 +1,4 @@
-supplingenburg1 = {
+﻿supplingenburg1 = {
 	name = "Bernhard" #Bernhard I of Wernigerode
 	dynasty = 273
 	religion = catholic

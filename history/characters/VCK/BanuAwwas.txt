@@ -1,5 +1,5 @@
 ﻿awwas1 = {
-	name = "Muhammad" # ‘Alî of Kirkent
+	name = "‘Alî" # ‘Alî of Kirkent
 	dynasty = 204
 	religion = ashari
 	culture = maghrebi

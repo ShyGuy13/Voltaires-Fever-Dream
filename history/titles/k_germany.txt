@@ -168,7 +168,7 @@ c_treffen = {
 		holder = eppenstein1
 	}
 }
-c_sachsenburg = {
+c_sachsenweg = {
 	1039.11.29 = {
 		holder = eppenstein1
 	}
@@ -176,7 +176,6 @@ c_sachsenburg = {
 
 #Styria
 d_steyermark = {
-formbach2
 	1035.1.1 = {
 		holder = formbach3 # Arnold I
 	}
@@ -203,7 +202,7 @@ c_admont = {
 		holder = traungau1 # Ottokar VI
 	}
 }
-c_kapfenberg = {
+c_murzzuschlag = {
 	980.1.1 = {
 		holder = traungau4 # Ottokar V
 	}
@@ -343,7 +342,7 @@ c_cilli = {
 	#	reset_name = yes
 	#}
 }
-c_ptuj = {
+c_pettau = {
 	1045.1.1 = {
 		holder = askuining1
 	}
@@ -359,7 +358,7 @@ c_salzburg = {
 		holder = salzburg_balduin
 	}
 }
-c_goldegg = {
+c_pinzgau = {
 	1041.7.28 = {
 		holder = salzburg_balduin
 	}
@@ -509,7 +508,7 @@ c_freising = {
 		holder = siegharding2
 	}
 }
-c_waidhofen-ybbs = {
+c_waidhofen = {
 	1052.4.6 = {
 		holder = siegharding2
 	}
@@ -1097,7 +1096,7 @@ c_argengau = {
 		holder = udalriching3
 	}
 }
-c_bludenz = {
+c_hohenems = {
 	1054.1.1 = {
 		holder = udalriching3
 	}

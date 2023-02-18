@@ -1,4 +1,4 @@
-sprevani1 = {
+﻿sprevani1 = {
 	name = "WL_odzimierz" #fic for 1054
 	dynasty = 260
 	religion = slavic_pagan
