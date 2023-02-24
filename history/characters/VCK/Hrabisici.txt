@@ -1,0 +1,40 @@
+﻿hrabisici1 = {
+	name = "Všebor" # Všebor I of Osek
+	dynasty = 7
+	religion = catholic
+	culture = czech
+	996.1.1 = { #fic
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+
+hrabisici2 = {
+	name = "Všebor" # Všebor II of Osek
+	dynasty = 7
+	religion = catholic
+	culture = czech
+	father = hrabisici1
+	1021.1.1 = { #fic
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+
+hrabisici3 = {
+	name = "Kojata" # Kojata I of Bílina
+	dynasty = 7
+	religion = catholic
+	culture = czech
+	father = hrabisici2
+	1043.1.1 = { #fic
+		birth = yes
+	}
+	1106.1.1 = { #fic
+		death = yes
+	}
+}

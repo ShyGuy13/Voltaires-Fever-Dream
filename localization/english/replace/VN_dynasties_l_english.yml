@@ -11,6 +11,7 @@
  dynn_Weimar: "Weimar"
  dynn_Formbach: "Formbach"
  dynn_Julbach: "Julbach"
+ dynn_Hrabisici: "Hrabišici"
  dynn_Tirol: "Tirol"
  dynn_Askuining: "Askuining"
  dynn_Raabs: "Raabs"
@@ -298,6 +299,8 @@
  dynn_Brizani: "Brizani"
  dynn_Chizzini: "Chizzini"
  dynn_Ploni: "Ploni"
+ dynn_Skjalmsunr: "Skjalmsunr"
+ dynn_Castellane: "Castellane"
 #Houses
  dynn_Eppan: "Eppan"
  dynn_Vasto: "Vasto"

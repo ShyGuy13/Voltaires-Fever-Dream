@@ -1,0 +1,12 @@
+castellane1 = {
+	name = "Boniface" # Boniface I of Castellane
+	dynasty = 296
+	religion = catholic
+	culture = provencal
+	1019.1.1 = { #fic
+		birth = yes
+	}
+	1083.1.1 = { #fic
+		death = yes
+	}
+}

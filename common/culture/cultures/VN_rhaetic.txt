@@ -1,9 +1,7 @@
 friulan = {
 	color = friulan
-
-	parents = { venetian }
-
-	created = 476.11.4
+	parents = { venetian ladin }
+	created = 1000.1.1 #est
 	
 	ethos = ethos_spiritual
 	heritage = heritage_rhaetic
@@ -30,10 +28,8 @@ friulan = {
 
 romansch = {
 	color = romansch
-
 	parents = { roman }
-
-	created = 476.11.4
+	created = 843.1.1
 	
 	ethos = ethos_courtly
 	heritage = heritage_rhaetic
@@ -67,10 +63,8 @@ romansch = {
 
 ladin = {
 	color = ladin
-
 	parents = { roman }
-
-	created = 476.11.4
+	created = 700.1.1
 	
 	ethos = ethos_communal
 	heritage = heritage_rhaetic

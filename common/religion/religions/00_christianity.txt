@@ -1105,7 +1105,7 @@
 
 		fraticelli = {
 			color = { 178 178 102 }
-			icon = fp2_adoptionist
+			icon = fraticelli
 			graphical_faith = "catholic_gfx"
 			religious_head = k_papal_state
 			
@@ -1126,7 +1126,7 @@
 
 		taborite = {
 			color = { 0.8 0.3 0.5 }
-			icon = christianity_messalian
+			icon = taborite
 			graphical_faith = "catholic_gfx"
 
 			holy_site = jerusalem
@@ -1153,8 +1153,9 @@
 
 		utraquist = {
 			color = { 244 55 9 }
-			icon = christianity_messalian
+			icon = utraquist
 			graphical_faith = "catholic_gfx"
+			religious_head = k_papal_state
 
 			holy_site = jerusalem
 			holy_site = rome

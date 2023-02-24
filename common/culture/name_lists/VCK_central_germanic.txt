@@ -66,6 +66,7 @@ name_list_german = {
 		{ dynnp_von dynn_Herrenkirchen } # Auer von Herrenkirchen
 		{ dynnp_zu dynn_Brennberg } # Auer zu Brennberg
 		{ dynnp_von dynn_Barth } # Barth zu Harmating 
+		{ dynnp_von dynn_Burgrain }
 		{ dynnp_von dynn_Baumgarten }
 		{ dynnp_von dynn_Raitenbuch }
 		{ dynnp_von dynn_Bogen }
@@ -96,11 +97,16 @@ name_list_german = {
 		{ dynnp_von dynn_Kapfing } # Eckher von Kapfing 
 		{ dynnp_von dynn_Kemnath }
 		{ dynnp_von dynn_Kranzegg }
+		{ dynnp_von dynn_Leonrod }
 		{ dynnp_von dynn_Pfaff }
+		{ dynnp_von dynn_Riedenburg }
 		{ dynnp_von dynn_Schwandorf }
 		{ dynnp_von dynn_Schwarzach }
 		{ dynnp_von dynn_Wasserburg }
+		{ dynnp_von dynn_Weichs }
 		{ dynnp_von dynn_Volkershausen }
+		{ dynnp_von dynn_Zenger }
+		{ dynnp_von dynn_Zwerger }
 		#Hessian
 		{ dynnp_von dynn_Babenhausen }
 		{ dynnp_von dynn_Baumbach }
@@ -241,6 +247,7 @@ name_list_german = {
 		{ dynnp_von dynn_Böhn }
 		{ dynnp_von dynn_Damnitz }
 		{ dynnp_von dynn_Gnoien }
+		{ dynnp_von dynn_Hohenhausen }
 		{ dynnp_von dynn_Horn }
 		{ dynnp_von dynn_Schwaan }
 		#Prussian
@@ -257,11 +264,17 @@ name_list_german = {
 		#Eastphalian
 		{ dynnp_von dynn_Canstein } # Rabe von Canstein
 		{ dynnp_von dynn_Einbeck }
+		{ dynnp_von_dem dynn_Felde }
+		{ dynnp_von dynn_Hallermund }
+		{ dynnp_von dynn_Horrich }
+		{ dynnp_von dynn_Leuthorst }
+		{ dynnp_von dynn_Plittersdorf }
 		{ dynnp_von dynn_Schaumburg }
 		{ dynnp_von dynn_Soden }
 		#Westphalian
 		{ dynnp_von dynn_Anholt }
 		{ dynnp_von dynn_Bilstein }
+		{ dynnp_von dynn_Brambach }
 		{ dynnp_von dynn_Bruch }
 		{ dynnp_von dynn_Büren }
 		{ dynnp_von dynn_Dinklage }
@@ -332,6 +345,7 @@ name_list_german = {
 		{ dynnp_von dynn_Hutten }
 		{ dynnp_von dynn_Imhof }
 		{ dynnp_von dynn_Jaxtheim }
+		{ dynnp_von dynn_Kemnath }
 		{ dynnp_von dynn_Kotzau }
 		{ dynnp_von dynn_Künßberg }
 		{ dynnp_von dynn_Königsfeld }
@@ -345,6 +359,7 @@ name_list_german = {
 		{ dynnp_von dynn_Luschwitz }
 		{ dynnp_von dynn_Maßbach }
 		{ dynnp_von dynn_Minkwitz }
+		{ dynnp_von dynn_Mitwitz }
 		{ dynnp_von dynn_Modschiedler }
 		{ dynnp_von dynn_Mengersdorf }
 		{ dynnp_von dynn_Neustetter }
@@ -373,6 +388,7 @@ name_list_german = {
 		{ dynnp_von dynn_Steinau } # Steinau genannt Steinrück
 		{ dynnp_von dynn_Stiebar }
 		{ dynnp_von dynn_Streitberg }
+		{ dynnp_von dynn_Sugenheim }
 		{ dynnp_von_der dynn_Tann }
 		{ dynnp_von dynn_Thienheim }
 		{ dynnp_von dynn_Thun }
@@ -392,6 +408,7 @@ name_list_german = {
 		{ dynnp_von dynn_Weyer }
 		{ dynnp_von dynn_Wichsenstein } #ok coomer
 		{ dynnp_von dynn_Wiesenthau }
+		{ dynnp_von dynn_Wilhermsdorf }
 		{ dynnp_von dynn_Wirßberg }
 		{ dynnp_von dynn_Witzleben }
 		{ dynnp_von dynn_Würtzburg }
@@ -432,14 +449,19 @@ name_list_german = {
 		{ dynnp_von dynn_Ottweiler }
 		{ dynnp_von dynn_Püttlingen }
 		#Swabian
+		{ dynnp_von dynn_Aislingen }
 		{ dynnp_von dynn_Baldeck }
 		{ dynnp_von dynn_Balzhofen }
 		{ dynnp_von dynn_Bernhausen }
 		{ dynnp_von dynn_Berlichingen }
+		{ dynnp_von dynn_Boos }
 		{ dynnp_von dynn_Burladingen }
 		{ dynnp_von dynn_Crailsheim }
 		{ dynnp_von dynn_Dettingen }
+		{ dynnp_von dynn_Diemantstein }
+		{ dynnp_von dynn_Eberstall }
 		{ dynnp_von dynn_Ebingen }
+		{ dynnp_von dynn_Eisenburg }
 		{ dynnp_von dynn_Eltershofen }
 		{ dynnp_von dynn_Ellerbach }
 		{ dynnp_von dynn_Ellhofen }
@@ -447,12 +469,15 @@ name_list_german = {
 		{ dynnp_von dynn_Eschach }
 		{ dynnp_von dynn_Freyberg }
 		{ dynnp_von dynn_Gemmingen }
+		{ dynnp_von dynn_Glött }
 		{ dynnp_von dynn_Goldbach }
 		{ dynnp_von dynn_Gültlingen }
 		{ dynnp_von dynn_Gundelsdorf }
 		{ dynnp_von dynn_Helmishofen }
 		{ dynnp_von dynn_Heimenhofen }
 		{ dynnp_von dynn_Hölnstein }
+		{ dynnp_von dynn_Hohenberg }
+		{ dynnp_von dynn_Hohenschwangau }
 		{ dynnp_von dynn_Hornstein }
 		{ dynnp_von dynn_Jungingen }
 		{ dynnp_von dynn_Kallenberg }
@@ -466,6 +491,8 @@ name_list_german = {
 		{ dynnp_von dynn_Neidegg }
 		{ dynnp_von dynn_Neuffen }
 		{ dynnp_von dynn_Neuhausen }
+		{ dynnp_von dynn_Osterberg }
+		{ dynnp_von dynn_Ottilienberg }
 		{ dynnp_von dynn_Palm }
 		{ dynnp_von dynn_Ramungs }
 		{ dynnp_von dynn_Rechberg }
@@ -563,6 +590,7 @@ name_list_german = {
 		{ dynnp_von dynn_Reich } # Reich von Reichenstein
 		{ dynnp_von dynn_Reichlin } # Reichlin von Meldegg
 		{ dynnp_von dynn_Reischach } # Reischach von Reichenstein
+		{ dynnp_von dynn_Rettenberg }
 		{ dynnp_von dynn_Ringgenberg }
 		{ dynnp_von dynn_Rohrdorf }
 		{ dynnp_von dynn_Rosenharz }
@@ -571,6 +599,7 @@ name_list_german = {
 		{ dynn_Schnewli } # Patrician
 		{ dynnp_von dynn_Sinkingen }
 		{ dynnp_von dynn_Sonnenberg }
+		{ dynnp_von dynn_Staufen }
 		{ dynnp_von dynn_Stegen }
 		{ dynnp_von dynn_Sulzberg }
 		{ dynnp_von dynn_Syrgenstein }
@@ -756,6 +785,7 @@ name_list_german = {
 		{ dynnp_von dynn_Schellenberg }
 		{ dynnp_von dynn_Schöhenbühel } #Schöhenbühel von Allensbach
 		{ dynnp_von dynn_Schweißing } #Zmrzlík von Schweißing
+		{ dynnp_von dynn_Starhemberg }
 		{ dynnp_von dynn_Sternegg }
 		{ dynnp_von dynn_Tannberg }
 		{ dynnp_von dynn_Tänzl } # Tänzl von Tratzberg
@@ -896,16 +926,6 @@ name_list_german = {
 		{ dynnp_von dynn_Hadlaub }
 		{ dynnp_von dynn_Lindenberg }
 
-		# Zürich Roll of Arms Page 481-587
-		
-		{ dynnp_von dynn_Weiler } #swab
-
-
-		
-		{ dynnp_von dynn_Hohenberg } #swab
-		{ dynnp_von dynn_Starhemberg } #austr
-
-
 		#Reichsritter
 
 		#Odenwald
@@ -988,7 +1008,6 @@ name_list_german = {
 		
 		
 		
-		{ dynnp_von dynn_Leonrod } #bav
 		{ dynnp_von dynn_Wollwarth }
 		{ dynnp_von dynn_Gundelsheim }
 		{ dynnp_von dynn_Haltermannstetten }
@@ -1015,25 +1034,9 @@ name_list_german = {
 		
 	
 
-		{ dynnp_von dynn_Aislingen }
-		{ dynnp_von dynn_Boos }
-		{ dynnp_von dynn_Burgrain } #bav
-		{ dynnp_von dynn_Diemantstein } #swab
-		{ dynnp_von dynn_Eberstall } #wsab
-		{ dynnp_von dynn_Eisenburg } #wsab
-		{ dynnp_von dynn_Glött } #swab
-		{ dynnp_von dynn_Hochhaus }
-		{ dynnp_von dynn_Hohenschwangau }
-		{ dynnp_von dynn_Kemnat }
-		{ dynnp_von dynn_Mitwitz }
-		{ dynnp_von dynn_Osterberg }
-		{ dynnp_von dynn_Ottilienberg }
-		{ dynnp_von dynn_Rettenberg }
-		{ dynnp_von dynn_Riedenburg }
-		{ dynnp_von dynn_Schwabegg }
-		{ dynnp_von dynn_Staufen }
-		{ dynnp_von dynn_Sugenheim }
-		{ dynnp_von dynn_Wilhermsdorf }
+
+
+
 
 		{ dynnp_von dynn_Badingen }
 		{ dynnp_von dynn_Baruth }

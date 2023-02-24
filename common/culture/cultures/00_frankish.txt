@@ -115,38 +115,11 @@ occitan = {
 	}	
 }
 
-occitan = {
-	color = occitan
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_frankish
-	language = language_occitano_romance
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_equal_inheritance
-		tradition_chivalry
-		tradition_chanson_de_geste
-		tradition_parochialism
-	}
-	
-	name_list = name_list_occitan
-
-	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
-	building_gfx = { mediterranean_building_gfx } 
-	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 	
-
-	ethnicities = {
-		10 = caucasian_blond
-		5 = caucasian_ginger
-		45 = caucasian_brown_hair
-		35 = caucasian_dark_hair
-	}	
-}
-
 #mod
 arpitan = {
 	color = arpitan
+	created = 900.1.1
+	parents = { french }
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_frankish
@@ -173,7 +146,9 @@ arpitan = {
 
 vivaro_alpine = {
 	color = vivaro_alpine
-	
+	created = 900.1.1
+	parents = { occitan }
+
 	ethos = ethos_egalitarian
 	heritage = heritage_frankish
 	language = language_occitano_romance
@@ -199,7 +174,9 @@ vivaro_alpine = {
 
 burgundian = {
 	color = burgundian
-	
+	created = 534.1.1
+	parents = { frankish } # Burgundians become part of Francia
+
 	ethos = ethos_bellicose
 	heritage = heritage_frankish
 	language = language_french
@@ -225,7 +202,9 @@ burgundian = {
 
 lorrainian = {
 	color = lorrainian
-	
+	created = 843.1.1 # Treaty of Verdun
+	parents = { frankish }
+
 	ethos = ethos_egalitarian
 	heritage = heritage_frankish
 	language = language_french
@@ -252,7 +231,9 @@ lorrainian = {
 
 picard = {
 	color = picard
-	
+	created = 843.1.1 # Treaty of Verdun
+	parents = { frankish }
+
 	ethos = ethos_egalitarian
 	heritage = heritage_frankish
 	language = language_french
@@ -261,7 +242,7 @@ picard = {
 		
 	}
 	
-	name_list = name_list_occitan
+	name_list = name_list_picard
 
 	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
@@ -278,7 +259,9 @@ picard = {
 
 wallonian = {
 	color = wallonian
-	
+	created = 843.1.1 # Treaty of Verdun
+	parents = { frankish }
+
 	ethos = ethos_egalitarian
 	heritage = heritage_frankish
 	language = language_french
@@ -287,7 +270,7 @@ wallonian = {
 		
 	}
 	
-	name_list = name_list_occitan
+	name_list = name_list_wallonian
 
 	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
@@ -304,7 +287,9 @@ wallonian = {
 
 provencal = {
 	color = provencal
-	
+	created = 1032.1.1 # Provence becomes part of the HRE
+	parents = { occitan }
+
 	ethos = ethos_egalitarian
 	heritage = heritage_frankish
 	language = language_occitano_romance
@@ -314,7 +299,7 @@ provencal = {
 		tradition_chanson_de_geste
 	}
 	
-	name_list = name_list_occitan
+	name_list = name_list_provencal
 
 	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
@@ -331,6 +316,8 @@ provencal = {
 
 champenois = {
 	color = champenois
+	created = 843.1.1 # Treaty of Verdun
+	parents = { frankish }
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_frankish
@@ -341,7 +328,7 @@ champenois = {
 		tradition_chanson_de_geste
 	}
 	
-	name_list = name_list_occitan
+	name_list = name_list_champenois
 
 	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 

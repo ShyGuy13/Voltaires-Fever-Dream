@@ -1,7 +1,7 @@
 ﻿saxon = {
 	color = saxon
-	created = 843.1.1
-	parents = { old_saxon }
+	created = 930.1.1 # Glomatians are subjugated by East Francia
+	parents = { thuringian }
 	
 	ethos = ethos_stoic
 	heritage = heritage_central_germanic
@@ -13,7 +13,7 @@
 		tradition_religious_patronage
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_saxon
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -43,7 +43,7 @@ franconian = {
 		tradition_castle_keepers
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_franconian
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -60,6 +60,8 @@ franconian = {
 
 swabian = {
 	color = swabian
+	created = 900.1.1 # East Francia tries establishing a Swabian stem duchy
+	parents = { boden_alemannic }
 	
 	ethos = ethos_communal
 	heritage = heritage_central_germanic
@@ -71,7 +73,7 @@ swabian = {
 		tradition_recognition_of_talent 
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_swabian
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -99,7 +101,7 @@ bavarian = {
 		tradition_hereditary_hierarchy
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_bavarian
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -144,6 +146,8 @@ german = {	#obsolete
 
 pommeranian = {
 	color = pommeranian
+	created = 1120.1.1 #Ostsiedlung
+	parents = { central_margravian kashubian }
 	
 	ethos = ethos_stoic
 	heritage = heritage_central_germanic
@@ -186,7 +190,7 @@ austrian = {
 		tradition_mountaineers
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_austrian
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -213,13 +217,14 @@ swiss = {
 	traditions = {
 		tradition_mountain_homes
 		tradition_swords_for_hire
+		tradition_city_keepers
 	}
 	dlc_tradition = {
 		trait = tradition_culture_blending
 		requires_dlc_flag = hybridize_culture
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_swiss
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -246,7 +251,7 @@ boden_alemannic = {
 		tradition_ruling_caste
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_boden_alemannic
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -274,7 +279,7 @@ thuringian = {
 		tradition_strength_in_numbers
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_thuringian
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -291,6 +296,8 @@ thuringian = {
 
 hessian = {
 	color = hessian
+	created = 600.1.1
+	parents = { frankish }
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_central_germanic
@@ -299,9 +306,10 @@ hessian = {
 	traditions = {
 		tradition_family_business
 		tradition_ruling_caste
+		tradition_swords_to_hire
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_hessian
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -318,6 +326,8 @@ hessian = {
 
 low_elbish = {
 	color = low_elbish
+	created = 785.1.1 # Saxon Wars end
+	parents = { old_saxon }
 	
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic
@@ -326,9 +336,10 @@ low_elbish = {
 	traditions = {
 		tradition_maritime_mercantilism
 		tradition_agrarian
+		tradition_stand_and_fight
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_low_elbish
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -345,6 +356,8 @@ low_elbish = {
 
 central_margravian = {
 	color = central_margravian
+	created = 965.1.1 # Nordmark gets established
+	parents = { low_elbish }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_central_germanic
@@ -356,7 +369,7 @@ central_margravian = {
 		tradition_by_the_sword
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_central_margravian
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -373,7 +386,9 @@ central_margravian = {
 
 eastphalian = {
 	color = eastphalian
-	
+	created = 785.1.1 # Saxon Wars end
+	parents = { old_saxon }
+
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic
 	language = language_saxon
@@ -383,7 +398,7 @@ eastphalian = {
 		tradition_modest
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_eastphalian
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -400,7 +415,9 @@ eastphalian = {
 
 ripuarian = {
 	color = ripuarian
-	
+	created = 600.1.1
+	parents = { frankish }
+
 	ethos = ethos_communal
 	heritage = heritage_central_germanic
 	language = language_high_german
@@ -411,7 +428,7 @@ ripuarian = {
 		tradition_parochialism
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_ripuarian
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -428,7 +445,9 @@ ripuarian = {
 
 moselle_franconian = {
 	color = moselle_franconian
-	
+	created = 925.1.1 # Luxemburg becomes part of East Francia
+	parents = { lorrainian ripuarian }
+
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic
 	language = language_high_german
@@ -439,7 +458,7 @@ moselle_franconian = {
 		tradition_welcoming
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_moselle_franconian
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -456,7 +475,9 @@ moselle_franconian = {
 
 pfalzish = {
 	color = pfalzish
-	
+	created = 600.1.1 # Francia seizes the region
+	parents = { boden_alemannic frankish }
+
 	ethos = ethos_egalitarian
 	heritage = heritage_central_germanic
 	language = language_high_german
@@ -466,7 +487,7 @@ pfalzish = {
 		tradition_ruling_caste
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_pfalzish
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
@@ -483,6 +504,8 @@ pfalzish = {
 
 hannoverian = {
 	color = hannoverian
+	created = 785.1.1 # Saxon Wars end
+	parents = { old_saxon }
 	
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic
@@ -494,7 +517,7 @@ hannoverian = {
 		tradition_formation_fighting_experts 
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_hannoverian
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 

@@ -39,9 +39,9 @@
 jutlandic = {
 	color = jutlandic
 	created = 1000.1.1
-	parents = {  }
+	parents = { }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_stoic
 	heritage = heritage_north_germanic
 	language = language_norse
 	martial_custom = martial_custom_male_only	
