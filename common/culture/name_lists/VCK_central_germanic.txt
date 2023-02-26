@@ -3,28 +3,28 @@ name_list_german = {
 	}
 
 	male_names = {        
-		Ambrosius Andreas Alfred August Alexander Albrecht Anton Alwin Adolf Arnold Alfons Anno Arndt Altmann Anselm Achilles Alois Adam Albuin Amandus Aribo Adalhard Ägidius Adalward
-		Bernger Barthold Berlewin Brunwart Bruno Burkhard Balthasar Benedikt Bernhard Bertold Bertram Bertrand Burchard Balduin Bernd Berthold Beringer Bartholomäus Benjamin Bawin Boppo Batok Bastian Bardo Boemund Billung Bertolf Baderich
+		Adalwin Arnulf Arialdo Ambrosius Andreas Alfred August Alexander Albrecht Anton Alwin Adolf Arnold Alfons Anno Arndt Altmann Anselm Achilles Alois Adam Albuin Amandus Aribo Adalhard Ägidius Adalward
+		Brunger Blasius Brandolf Berengar Bernger Barthold Berlewin Brunwart Bruno Burkhard Balthasar Benedikt Bernhard Bertold Bertram Bertrand Burchard Balduin Bernd Berthold Beringer Bartholomäus Benjamin Bawin Boppo Batok Bastian Bardo Boemund Billung Bertolf Baderich
 		Cornelius Christian Clemens Caspar Claus Cobbo Cord Christoph Christopher Caspar Clemens Carsten
-		Dietmar Diederik Dietrich Dieter Detlev Daniel Diepold Detward David
-		Enderlin Edwin Ernst Ekkehard Ekbert Engelbert Engelhard Ewald Edmund Eduard Eberhard Erhard Erich Erasmus Egon Einhard Elias Egbert Elger Emich Esico Elert Eberwin Egidius Everger Egilmar Engilbert Ezzelin Egno Egelolf Emil Eberold Ensfried Enolf Emmerich Emercho Emmehard Eppo Eugen Erich
-		Friedrich Franz	Ferdinand Felix Folmar Florenz Franco Frederik Fritz Feist Filmann Frank Fuchs Friedmar
-		Gundolf Giselher Günther Gunther Georg Gerard Gebhard Giselmar Gottschalk Gerhard Gottfried Gotthard Gottlieb Gustav Gabriel Gero Giselbert Gerold Gundekar Gobel Goswin Gallus Gerlach
-		Hiltbolt Huwald Herwart Helmeke Hermann Heinrich Hinrich Hektor Hans Heideke Herbert Hinrik Heribert Hugo Humbert Hartwig Hildebrand Henning Hieronymus Heinz Hensel Hildorf Hildebold Hilger Hatto Hillin Heilmann Heidenreich Hartrad Hartmut Helfrich Hilging Helperich Hagen
+		Dankmar Dietmar Diederik Dietrich Dieter Detlev Daniel Diepold Detward David Dagwin 
+		Erminold Erenfried Erwin Erkmar Eckwin Eike Enderlin Edwin Ernst Ekkehard Ekbert Engelbert Engelhard Ewald Edmund Eduard Eberhard Erhard Erich Erasmus Egon Einhard Elias Egbert Elger Emich Esico Elert Eberwin Egidius Everger Egilmar Engilbert Ezzelin Egno Egelolf Emil Eberold Ensfried Enolf Emmerich Emercho Emmehard Eppo Eugen Erich
+		Florentin Florian Frowin Folkward Falko Friedrich Franz Ferdinand Felix Folmar Florenz Franco Frederik Fritz Feist Filmann Frank Fuchs Friedmar
+		Gregor Gudmunt Gundolf Giselher Günther Gunther Georg Gerard Gebhard Giselmar Gottschalk Gerhard Gottfried Gotthard Gottlieb Gustav Gabriel Gero Giselbert Gerold Gundekar Gobel Goswin Gallus Gerlach
+		Herrand Heidolf Hiltger Hadmar Hiltbolt Huwald Herwart Helmeke Hermann Heinrich Hinrich Hektor Hans Heideke Herbert Hinrik Heribert Hugo Humbert Hartwig Hildebrand Henning Hieronymus Heinz Hensel Hildorf Hildebold Hilger Hatto Hillin Heilmann Heidenreich Hartrad Hartmut Helfrich Hilging Helperich Hagen
 		Johann Joachim Joseph Jacob Jaspar Johannes Jakob Josef Jens Jobst Jost Jan Jodokus
-		Isaak Ingebrand Isenbard Imer
+		Immo Isaak Ingebrand Isenbard Imer
 		Karl Konrad Kuno Konstantin Kurt Kunz Karlfried Kunibert Kunz
-		Leuthold Lukas Ludolf Ludwig Laurentz Lambert Liawizo Liemar Liudger Leonhard Lothar Lorenz Lamprecht Leo Ludger Lüthold Liborius Lienhardt Lipmann Liefhard
-		Meinloh Micharl Markus Moritz Magnus Maximilian Mathias Meinwerk Merten Martin Michael Matthias Matthäus Melchior Marquard Manfred Metfried Mauritz Megingoz Modestinus Marsilius Meiger Minnemann Meusewin
+		Lantfried Leuthold Lukas Ludolf Ludwig Laurentz Lambert Liawizo Liemar Liudger Leonhard Lothar Lorenz Lamprecht Leo Ludger Lüthold Liborius Lienhardt Lipmann Liefhard
+		Maurus Meinloh Micharl Markus Moritz Magnus Maximilian Mathias Meinwerk Merten Martin Michael Matthias Matthäus Melchior Marquard Manfred Metfried Mauritz Megingoz Modestinus Marsilius Meiger Minnemann Meusewin
 		Norbert Nicholas Nikolaus Nickel Nandolf Neithard Nantwein
-		Osmund Otto Ordulf Oswald Ottfried
+		Ortolf Osmund Otto Ordulf Oswald Ottfried
 		Peter Philipp Pawel Paul Pilgrim Pankraz Prokop
-		Rembrandt Rembert Rhabanus Reimund Ralph Rudolf Reginald Renard Reinmar Rüdiger Roland Robert Raimund Rainer Rainald Ruprecht Reinhold Reinhard Roman Reginbald Rhaban Reimar Richald Rutger Reinboto Richolf Ripert Richard Richwin Ruckelin Rudwin Ruther Reinprecht
-		Sturm Severinus Sigehelm Siegbert Sigisbert Siegfried Sigward Sigurd Simon Steffen Stefan Sigismund Siegmund Salomon Salentin Sigewin Siger Statius Sebastian Salman Schelm Sibert Siegeboto Schavart Stelin
-		Tolbert Tillfried Tidemann Thilo Thomas Theodor Tilmann Theoderich Thiemo Thietmar Tragebodo Truschel
-		Ulrich Ulf Udo Uriel Ulbert Utz Ubald Ulfried
-		Viktor Viktorin Volker Valentin Vivelin Volmar Vinzenz Veit Volkward
-		Wachsmut Wigbert Winther Wilfried Wolfram Wulfhelm Wulfhere Wenzel Wolfgang Waldemar Werner Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Wilhelm Wigbold Walram Winrich Wiegand Winter Wolf Warin Wicker Wiprecht Woffo Winland Wezelo Wittekind Widelo Wedekind Wilbrand Wikenand Wilderich Winand Wohlrab Wigger
+		Rapotho Raffold Rusten Rembrandt Rembert Rhabanus Reimund Ralph Rudolf Reginald Renard Reinmar Rüdiger Roland Robert Raimund Rainer Rainald Ruprecht Reinhold Reinhard Roman Reginbald Rhaban Reimar Richald Rutger Reinboto Richolf Ripert Richard Richwin Ruckelin Rudwin Ruther Reinprecht
+		Siegenhard Sonnwinn Sturm Severinus Sigehelm Siegbert Sigisbert Siegfried Sigward Sigurd Simon Steffen Stefan Sigismund Siegmund Salomon Salentin Sigewin Siger Statius Sebastian Salman Schelm Sibert Siegeboto Schavart Stelin
+		Tybold Trunto Tolbert Tillfried Tidemann Thilo Thomas Theodor Tilmann Theoderich Thiemo Thietmar Tragebodo Truschel
+		Utto Ulrich Ulf Udo Uriel Ulbert Utz Ubald Ulfried
+		Vitalis Volkward Viktor Viktorin Volker Valentin Vivelin Volmar Vinzenz Veit Volkward
+		Wigmann Waltchun Wisento Werigand Wachsmut Wigbert Winther Wilfried Wolfram Wulfhelm Wulfhere Wenzel Wolfgang Waldemar Werner Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Wilhelm Wigbold Walram Winrich Wiegand Winter Wolf Warin Wicker Wiprecht Woffo Winland Wezelo Wittekind Widelo Wedekind Wilbrand Wikenand Wilderich Winand Wohlrab Wigger
 		Xaver
 	}
 	

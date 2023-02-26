@@ -266,3 +266,33 @@ title_freegraviate = {
 	priority = 60
 	top_liege = no
 }
+
+#Fürstabtei
+title_county_abbot = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 40
+	titles = { c_stavelot-malmedy c_fulda }
+	governments = { theocracy_government }
+	top_liege = no
+}
+title_count_abbess = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 40
+	titles = { c_stavelot-malmedy c_fulda }
+	governments = { theocracy_government }
+	top_liege = no
+}
+title_county_abbacy = {
+	type = title
+	tier = county
+	titles = { c_stavelot-malmedy c_fulda }
+	holding = church_holding
+	priority = 40
+	top_liege = no
+}

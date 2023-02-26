@@ -1,0 +1,78 @@
+# slovak = {
+# 	male_names = {
+# 		Abdon Ábel Abelard Abrahám Absolón Achác Achiles Adalbert Adam Adelard Adolf Adrián Agap Agatón Aladár Alan Albert Albertín Albín Albrecht Aleš Alex Alexander Alexej Alfonz Alfréd 
+# 		Alojz Amadeus Amand Amand Amarant Amát Amátus Ambróz Amos Anastáz Anatol Andreas Andrej Andronik Angel Antal Antim Antip Anton Anzelm Apián Apolinár Apolón Aretas Ariel Aristid Arkád 
+# 		Armand Armín Arne Arnold Arnošt Áron Arpád Artem Artemon Artúr Arzen Asen Aster Astrid Atanáz August Augustín Aurel Axel Barnabáš Bartolomej Bazil Beátus Belín Belo Belomír Beňadik 
+# 		Benedikt Benjamín Benon Bernard Bernardín Bertín Bertold Bertram Bertrand Blahoboj Blahomil Blahomír Blahosej Blahoslav Blažej Bohdan Bohumil Bohuslav Bohuš Bojan Bojimír Bojislav Bolemír 
+# 		Boleslav Bonifác Borimír Boris Borislav Borivoj Božetech Božidar Božislav Branimír Branislav Bratislav Brian Brit Bronislav Bruno Budimír Budislav Bystrík Cecilián Celerín Celestín Cézar 
+# 		Chariton Charnislav Chotimír Chraniboj Chranibor Christián Clayton Ctiboh Ctibor Ctirad Ctislav Cvetan Cyprián Cyril  Cyrus Čestmír Čistomil Čistoslav Dag Dagobert Dalibor Dalimil Dalimír 
+# 		Damián Dan Daniel Dárius Dávid Davorín Dean Dejan Demeter Denis Detrich Dezider Dimitrij Dimitrij Dionýz Ditmar Dobromil Dobromír Dobroslav Dobrotín Dominik Domoľub Domoslav Donald Donát 
+# 		Dorián Dorotej Dragan Dragutín Drahan Drahoľub Drahomil Drahomír Drahoň Drahoslav Drahoš Drahotín Duchoslav Dugo Dušan Džuroe Eberhard Edgar Edmund Eduard Edvin Egid Egídius Egon Elemír 
+# 		Eliáš Elizej Elmar Elo Elvis Eman Emanuel Emerich Emil Engelbert Enrik Enriko Erazim Erazmus Erhard Erhard Erich Erik Ernest Ervín Eugen Eusébius Eustach Evald Evarist Evarist Ezechiel Fabián 
+# 		Fábius Faust Fedor Felicián Félix Ferdinand Filemon Filibert Filip Filomén Flavián Flávius Flór Florencián Florentín Florián Fortunát Fraňo František Frederik Fridolín Fridrich Gábor Gabriel 
+# 		Gál Gašpar Gedeon Genadij Gerald Gerazim Gerhard Gilbert Goran Gorazd Gordan Gordián Gordon Gothard Gracián Gregor Gustáv Harold Hartvig Havel Henrich Henrik Herald Herbert Heribert Herman 
+# 		Hieronym Hilár Hildegard Homér Honór Honorát Horác Horislav Horst Hortenz Hostimil Hostirad Hostislav Hostisvit Hrdoslav Hrdoš Hromislav Hubert Hugo Hugolín Humbert Hvezdoň Hviezdoslav Hyacint 
+# 		Hynek Hypolit Ignác Ignát Igor Ilarion Imrich Ingemar Innocent Irenej Ivan Ivar Ivo Ivor Izák Izidor Izmael Jáchim Jakub Jamie Ján Janis Jarolím Jaromil Jaromír Jaroslav Jaško Jens Jeremiáš 
+# 		Jerguš Joachim Johan Jonáš Jordán Jovan Jozef Judáš Julián Július Juraj Justín Justinián Justus Juventín Kajetán Kalist Kamil Kandid Kariton Karol Kasián Kasius Kastor Kazimír Kevin Kilián 
+# 		Klaudián Klaudín Klaudio Klaudius Klement Klementín Kliment Koloman Kolumbín Konrád Konštantín Koriolán Kornel Kozmas Krasomil Krasoslav Krescenc Kristián Krišpín Krištof Kurt Kvetoň Kvetoslav 
+# 		Kvído Kvintilián Kvintín Kvintus Ladislav Lambert Lars Laurenc Laurus Lazár Leander Leo Leodegar León Leonard Leonid Leonídas Leontín Leopold Leoš Lev Levoslav Libérius Libert Libor Liborius 
+# 		Liboslav Linhart Lino Linus Lívio Lívius Loránt Lorenc Lotar Ľuban Ľuben Ľubomír Ľubor Ľuboš Lucián Lucius Ľudomil Ľudomír Ľudovít Ludvig Lukáš Lukrécius Lumír Magnus Makar Manfréd Manon Mansvét 
+# 		Manuel Marcel Marek Marián Mário Márius Marko Markus Maroš Marrow Martin Martinián Matej Matias Matúš Maurícius Maurus Max Maxim Maximilián Mayjoe Medard Melchior Melichar Menhard Metod Michael 
+# 		Michal Mieroslav Mikuláš MiladaJonatán Miladín Milan Miliduch Milín Milivoj Milomír Miloň Milorad Miloslav Miloš Milovan Milovín Milutín Mirón Miroslav Mladen Mladoň Mladotín Moderát Modest Mojmír 
+# 		Mojtech Mojžiš Móric Mstislav Múdroslav Napoleon Narcis Nátan Natanel Neander Nehoslav Neméz Nestor Niko Nikodém Nikolaj Nikolas Nino Norbert Norman Oktavián Oktávius Olaf Oldrich Oleg Oliver Olívius 
+# 		Omar Omar Ondrej Orest Oskár Osvald Otakar Otakar Otmar Oto Otokar Ovídius Palmíro Pamfil Pankrác Pantaleon Paskal Patrik Patrokles Paulín Pavel Pavol Peregrín Perikles Peter Petrónius Pius Placid Platón 
+# 		Polykarp Porfýr Pravoľub Pravomil Pravoslav Pribislav Pribiš Prímus Priskus Procius Prokop Prosper Prótus Prudencius Ráchel Radan Radek Radim Radimír Radislav Radivoj Radko Radomil Radomír Radoslav 
+# 		Radovan Radovan Radúz Rafael Rainer Rainold Rajmund Ralf Ramón Rastic Rastic Rastimír Rastislav Ratislav Regan Regulus Remig Remus Renát Renáto Renátus René Richard Rinaldo Róbert Robin Rochus Rodan 
+# 		Roderich Roderik Rodimír Roger Roland Rolf Roman Romeo Romuald Romulus Ron Ronald Rosan Rozalín Rozálio Ruben Rudolf Rufínus Rúfus Rupert Ruprecht Ruslan Rút Salvátor Samo Samuel Sandro Saturnín Saul 
+# 		Sean Sebastián Sedrik Serafín Sergej Sergius Servác Servián Severín Shane Sidón Sigfríd Silver Silvester Silvio Silvius Simeon Simon Sírius Sixtus Skender Slaviboj Slavibor Slavislav Slávo Slavoboj 
+# 		Slavoj Slavoľub Slavomil Slavomír Sofron Spiridon Stacho Stanimír Stanislav Stibor Stojan Svätoboj Svätobor Svätomír Svätopluk Svätoslav Svätoš Sven Svetislav Svetoslav Svetozár Svorad Šalamún Šavol 
+# 		Šebastián Šimon Štefan Tadeáš Tankréd Taras Tasilo Teo Teobald Teodor Teodorik Teodot Teodoz Teofan Teofil Terenc Tiber Tibor Tichomil Tichomír Ticián Timon Timotej Títus Tobiáš Tomáš Tomislav Torkvát 
+# 		Trifon Tristan Trofín Trojan Tulius Tvrdomír Udo Ulrich Urban Uriáš Uriel Václav Vadim Valdemar Valentín Valér Valerián Valibals Valter Várun Vasil Vatroslav Vavrinec Vavro Veleslav Velimír Velislav 
+# 		Vendelín Verner Vidor Vieroľub Vieromil Vieroslav Viktor Viktorián Viktorín Vilhelm Viliam Vincent Virgil Virgín Vít Víťazoslav Vitold Vladan Vladen Vladimír Vladislav Vladivoj Vlastibor Vlastimil 
+# 		Vlastimír Vlastislav Vojeslav Vojmír Vojtech Volfgang Volfram Vratislav Vratko Vselovod Vševlad Winfred Xavér Xenofón Záboj Zachariáš Záviš Zbignev Zbyšek Zdenko Zdeno Zdislav Zdravomil Zemfír Zenob 
+# 		Zenon Zian Zlatan Zlatko Zlatomír Zlatoň Zlatoš Zoltán Zoran Zoro Zoroslav Zosim Zvonimír Zvonislav Žarko Želimír Želislav Želmír Žigmund Žitomír Žitoslav Živan Živko 
+# 	}
+# 	female_names = {
+# 		»Ela Ella« Ada Adalberta Adela Adelaida Adelgunda Adelína Adina Adolfína Adolfína Adriána Adriena Afra Afrodita Agapa Agapia Agáta Aglája Agnesa Agneša Aida Alana Alberta 
+# 		Albertína Albína Albrechta Alena' Alexandra Alexia Alfonzia Alfréda Algelína Alica Alida Alina Alma Alojzia Alžbeta Amadea Amália Amanda Amanda Amaranta Amarila Amáta Ambrózia 
+# 		Amína Anabela Anastázia Anatólia Andrea Andronika Aneta Anežka Angela Angelika Anica Anita Anna Annamária Antília Antónia Anunciáta Anzelma Apia Apolena Apoliena Apolinára Apolónia 
+# 		Arabela Aranka Areta Ariadna Ariela Aristída Arkádia Arleta Armanda Armína Arnolda Arnoštka Artemia Artemida Asena Asia Astéria Astrida Atanázia Aténa Atila Augusta Augustína Aurélia 
+# 		Auróra Babeta Balbína Barbara Barbora Barica Bartolomea Bea Beáta Beatrica Bela Belina Belinda Benedikta Benilda Benita Berenika Bernadeta Bernarda Bernardína Berta Bertína Bertolda 
+# 		Betina BiankaBlanka Bibiána Blahomila Blahomíra Blažena Bohdana Bohumila Bohumíra Bohuna Bohuslava Boislava Bojana Bojimíra Bolemíra Boleslava Borislava Božena Božetecha Božica Božidara 
+# 		Božislava Branimíra Branislava Bratislava Brenda Bria Brigita Brita Broňa Bronislava Bruna Brunhilda Budimíra Budislava Cecília Celerína Celerína Celestína Cezária Chotimíra Chranislava 
+# 		Christiána Ctirada Ctislava Cvetana Cyntia Cyrila Čestmíra Čistomila Čistoslava Daga Dagmara Dajana Dália Dalila Dalimila Dalimíra Dalina Dalma Damara Damiána Dana Danica Daniela Danila 
+# 		Danuta Dária Darina Daša Davorína Deana Demetria Demetria Denisa Deodata Desana Desdemona Dezidera Diana Dília Dina Dionýzia Dita Dobrava Dobromila Dobromíra Dobroslava Dobrota Dobrotína 
+# 		Dominika Domoslava Donáta Doriána Dorisa Dorota Drahoľuba Drahomila Drahomíra Drahoslava Drahotína Dražica Dúbravka Duchoslava Dulcia Dulcinela Dulcínia Duňa Dušana Džesika Edina Edita 
+# 		Edmunda Eduarda Elektra Elena Eleonóra Elfrída Eliána Eliška Elizabeta Elma Elvíra Elza Ema Emanuela Emília Emilián Emiliána Erika Ermelinda Erna Ernestína Ervína Estera Eta Etela Eufrozina 
+# 		Eugénia Eulália Eunika Eusébia Eustachia Eva Evamária Evelína Fábia Fabiána Fabiola Fatima Faustína Febrónia Federika Fedora Felícia Ferdinanda Filipa Filipína Filoména Flávia Flóra Florencia 
+# 		Florentína Floriána Florína Fortunáta Františka Frederika Frída Friderika Fridolína Fruzína Gabriela Gaja Gajana Galina Geja Gejza Genovéva Georgia Georgína Geralda Geraldína Gerda Gertrúda 
+# 		Gilberta Ginda Gizela Gordana Grácia Graciána Gregora Gregoria Gregorína Gréta Gustáva Gustína Halina Hana Havla Hedviga Helena Helga Henrieta Henrika Herina Hermína Herta Hilária Hilda 
+# 		Hildegarda Honóra Honoráta Horislava Hortenzia Hostimila Hostislava Hrdoslava Hromislava Hviezdoslava Hyacinta Ida Ifigénia Ignácia Igora Ilia Iliana Iľja Ilma Ilona Ima Imelda Imriška Ina 
+# 		Inéza Inga Ingeborga Ingrida Inocencia Irena Irida Irína Irisa Irma Ita Iva Ivana Iveta Ivica Ivona Izabela Izidora Izolda Jadrana Jadviga JanaJanka Jarmila Jarolíma Jaromíra Jaroslava Jasna 
+# 		Jazmína Jela Jelena Jesika Jitka Johana Jolana Jolana Jordána Jovana Jozefa Jozefína Júda Judita Júlia Juliána Jurina Justa Justína Juventína Kaja Kaja Kajetána Kalina Kalista Kamila Kandida 
+# 		Kara Karina Karitína Karmela Karmen Karmena Karola Karolína Kasandra Katarína Katrina Kazimíra Kinga Kira Klára Klarisa Klaudia Klélia Klementína Kleopatra Klodeta Klotilda Klotilda Koleta 
+# 		Kolumbína Konkordia Konstancia Konštantína Konzuela Kora Kordula Korduľa Korina Kornélia Krasava Krasomila Krasoslava Krescencia Kristiána Kristína Kunigunda Kveta Kvetana Kvetava Kvetoslava 
+# 		Kvinta Kvintiliána Lada Ladislava Lara Larisa Laura Laurencia Lea Leandra Leda Lejla Lena Lenka Leokádia Leóna Leonarda Leónia Leontína Leopolda Leopoldína Lesana Lesia Levoslava Liana Liana 
+# 		Libora Liboslava Libuša Lila Liliana Lina Lina Linda Lineta Lineta Lívia Líza Lizelota Loreta Loriána Lota Ľuba Ľubica Ľubomíra ĽuboslavĽuboslava Ľubuša Lucia Luciána Ľudmila Ľudomila Ľudomíra 
+# 		Ľudovíta Lujza Lukrécia Luneta Lýdia Magda Magdaléna Mahuliena Maja Majda Malvína Manona Manuela Marcela Margaréta Margita Mária Mariana Marianna Marica Mariela Marieta Marika Marila Marina 
+# 		Mariola Marlena Marta Martina Marusia Mateja Matilda Maxima Maximiliána Melánia Melinda Melisa Melita Meluzína Merkéta Metaneta Michaela Michala Mieroslava Mikuláška Milana Milena Mileva Milica 
+# 		Milina Milomíra Miloslava Milota Milovana Miluša Mineta Mira Mirabela Miranda Mirela Miriama Miriana Miroslava Mladena Mladotína Moderáta Modesta Mona Monika Mstislava Naďa Nadežda Naneta Narcisa 
+# 		Nasťa Nastasia Natália Nataša Nausika Nela Neméza Nika Nikita Nikodéma Nikola Nikoleta Nina Noema Nora Norberta Norma Odeta Oktávia Oľga Oliva Olívia Olympia Oriána Ota Otília Oxana Palmíra Palmíra 
+# 		Pamela Pamfília Paskália Patrícia Paula Paulína Pavla Pavoslava Pelagia Penelopa Peregrína Perla Perzida Petra Petrana Petronela Petrónia Petula Pia Piroška Placida Polykarpa Polyxénia Pravoľuba 
+# 		Pravomila Pravoslava Pribina Pribislava Priska Prokopa Prudencia Ráchela Radana Radimíra Radislava Radka Radmila Radomila Radomíra Radoslava Radovana Rafaela Raisa Rajmunda Ramona Rastislava Ratislava 
+# 		Rea Rebeka Regína Renáta Ria Riana Richarda Rita Róberta Robina Rodana Roderika Rolanda Romana Romina Rosana Rowena Roxana Róza Rozália Rozeta Rozína Rozita Rozvita Rudolfa Rudolfína Rufína Rumjana 
+# 		Rusalka Rúta Ružena Ružica Sabína Sabrina Saloma Saloména Samuela Sanda Sandra Sára Saskia Saša Sáva Scholastika Sebastiána Selena Selma Senda Serafa Serafína Serena Severína Sibyla Sidónia Silván 
+# 		Silvána Silvia Silvín Simona Simoneta Sinda Skarleta Sláva Slavena Slavislava Slavomila Slavomíra Snežana Sofia Sofrónia Solomia Solveiga Soňa Stanislava Stela Stojana Svatava Svätomíra Svätoslava 
+# 		Svetislava Svetlana Svetoslava Šárka Šarlota Šejla Šimona Školastika Štefana Štefánia Tabita Tajana Tália Tamara Táňa Tatiana Tea Tekla Teodora Teodózia Teofánia Teofila Tereza Terézia Tibora Tichomíra 
+# 		Ticiána Timea Timotea Tina Titanila Tomáška Tomislava Toska Tulia Ulrika Ulriška Una Uršuľa Václava Valdemara Valentína Valéria Vanda Vanesa Veleslava Velislava Vendelína Venuša Verena Verona Veronika 
+# 		Viera Vieroslava Viktória Vilhelmína Vilma Vincencia Viola Virgínia Víťazoslava Vitolda Viviána Vladana Vladena Vladimíra Vladislava Vlasta Vlastimila Vlastimíra Vlastislava Vojeslava Vojmíra Vojtecha 
+# 		Vojteška Vratislava Xavéria Xénia Zaida Zaira Zdena Zdenka Zdislava Zemfíra Zenóbia Zina Zita Zlata Zlatana Zlatica Zlatomíra Zoa Zoana Zoja Zora Zorana Zoroslava Zosia Zuzana Zvonimíra Zvonislava 
+# 		Žakelína Žaneta Želislava Želmíra Žitoslava Živa Živana Žofia
+# 	}
+# 	dynasty_names = {
+# 		Adamec Babjak Baran Bartoš Belić Benčičová Bielik Blaha Borovský Brazda Bučič Burian Čapkovič Čelko Čepelov Cernak Chovanec Chudý Chvátal Cibulka Čierny Drobný Ďurica Dybala Fiala Gajdoš Haščák Havrilla 
+# 		Hlinka Holúbek Hončová Horanský Hornik Hradecký Hrbatý Hrdý Hrnčár Hrošovský Hrubý Hudak Hudák Husárov Hviezdoslav Jahoda Janič Janitschek Jánošík Jurčo Jurkovič Kapusta Klec Klepač Kližan Kocian Kodeš 
+# 		Kolesar Kopecký Kotes Kováč Kovačevič Kovačič Kováčik Kováčov Kovačovič Kozáčik Kozák Kozuch Krajčík Krajíček Kratky Kratochvíl Kubiš Kučera 
+# 		Kunik Kupec Kužel Kužmová Majerník Malec Masný Matejka Mertiňák Michalík Mikúš Mlynář Moravčík Moravec Morawitz Mraz Mudra Mudry Nagyová Novak Oravec Paluch Pavlík Pavuk Pekar Pelikán Petko Petráš Pivarník 					Pokorný Polák Poliačik Rehák Repše Růžička Rybár Rybárik Sabovčík Šafařík Šafárik Šafáriková Schmiedlov Sedlák Sejna Ševčík Šimun Škamlov Sklenář Slaby Sládkovič Slavik Slezak Sloboda Slovák Smrek Sojka Špilár 				Šrámek Šťastný Štěch Stefanik Štefko Stehlík Stoch Stupka Štúrová Suchy Šulek Svätojánsky Švehla Švehlík Svitek Sýkora Sztraka Takáč Tiso Tkáč Tkáčik Tkačik Tupý Valjent Višňovský Vodička Votruba Vrabel Žáček 				Zápotoka Zaťovič Zawadzki Žemba Zlocha Zvara
+# 	}
+# }

@@ -77,6 +77,9 @@
  title_freegrave: "Freegrave"
  title_freegravine: "Freegravine"
  title_freegraviate: "Freegraviate"
+ title_county_abbot: "Count-Abbot"
+ title_count_abbess: "Countess-Abbess"
+ title_county_abbacy: "Count-Abbacy"
 #Vanilla Replacement
  baron_theocracy_male_christianity_religion: "Abbot"
  baron_theocracy_female_christianity_religion: "Abbess"
