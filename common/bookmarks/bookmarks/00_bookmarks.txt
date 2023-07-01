@@ -155,7 +155,7 @@
 		dynasty_splendor_level = 1
 		type = male
 		birth = 1003.1.1
-		title = c_wernigerode
+		title = c_supplingenburg
 		government = feudal_government
 		culture = eastphalian
 		religion = catholic
@@ -199,5 +199,58 @@
 		position = { 1050 800 }
 
 		animation = schadenfreude
+	}
+}
+
+bm_1054_lotharingia = {
+	start_date = 1054.7.16
+	is_playable = yes
+	recommended = yes
+	group = bm_group_1054
+
+	# Emperor Heinrich
+	character = {
+		name = "bookmark_hre_emperor_heinrich"
+		history_id = salier3
+		dynasty = 38
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1016.10.28
+		title = e_hre
+		government = feudal_government
+		culture = swabian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 800 110 }
+
+		animation = personality_greedy
+
+		character = {
+			name = "bookmark_hre_agnes_ramnulfing"
+			history_id = ramnulfing1
+			relation = "BOOKMARK_RELATION_SPOUSE_FEMALE"
+			dynasty = 291
+			dynasty_splendor_level = 1
+			type = female
+			birth = 1025.1.1
+			culture = poitevin
+			religion = catholic
+
+			animation = personality_love
+		}
+
+		character = {
+			name = "bookmark_hre_heir_heinrich"
+			history_id = salier1
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = 38
+			dynasty_splendor_level = 1
+			type = female
+			birth = 1025.1.1
+			culture = poitevin
+			religion = catholic
+
+			animation = personality_content
+		}
 	}
 }

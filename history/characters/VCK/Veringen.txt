@@ -1,10 +1,10 @@
 ﻿veringen1 = {
 	name = "Wolfrad" #Wolfrad I of Veringen
-	dynasty = 65
+	dynasty = 60
 	religion = catholic
 	culture = swabian
 	father = veringen2
-	990.1.1 = { #fic
+	992.1.1 = { #fic
 		birth = yes
 	}
 	1065.1.1 = {
@@ -14,7 +14,7 @@
 
 veringen2 = {
 	name = "Wolfrad" #
-	dynasty = 65
+	dynasty = 60
 	religion = catholic
 	culture = swabian
 	972.1.1 = {
@@ -27,7 +27,7 @@ veringen2 = {
 
 veringen3 = {
 	name = "Wolfrad" #
-	dynasty = 65
+	dynasty = 60
 	religion = catholic
 	culture = swabian
 	father = veringen1
@@ -41,7 +41,7 @@ veringen3 = {
 
 veringen4 = {
 	name = "Hermann" #
-	dynasty = 65
+	dynasty = 60
 	religion = catholic
 	culture = swabian
 	trait = devoted
@@ -57,7 +57,7 @@ veringen4 = {
 
 veringen5 = {
 	name = "Werner" #
-	dynasty = 65
+	dynasty = 60
 	religion = catholic
 	culture = swabian
 	trait = devoted
@@ -72,7 +72,7 @@ veringen5 = {
 
 veringen6 = {
 	name = "Manegold" #Manegold I of Veringen
-	dynasty = 65
+	dynasty = 60
 	religion = catholic
 	culture = swabian
 	father = veringen1

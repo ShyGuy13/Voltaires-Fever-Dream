@@ -1,0 +1,12 @@
+﻿dhaun1 = {
+	name = "Arnold"
+	dynasty = 166
+	religion = catholic
+	culture = pfalzish
+	1020.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}

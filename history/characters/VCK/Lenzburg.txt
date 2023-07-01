@@ -3,6 +3,7 @@
 	dynasty = 80
 	religion = catholic
 	culture = swiss
+	father = lenzburg3
 	999.1.1 = { #fic
 		birth = yes
 	}
@@ -44,10 +45,25 @@ lenzburg4 = {
 	dynasty = 80
 	religion = catholic
 	culture = swiss
+	father = lenzburg3
 	1004.1.1 = { #fic
 		birth = yes
 	}
 	1077.1.1 = {
+		death = yes
+	}
+}
+
+lenzburg2 = {
+	name = "Henri" #Henri II of Lausanne
+	dynasty = 80
+	religion = catholic
+	culture = arpitan
+	father = lenzburg3
+	994.1.1 = { #fic
+		birth = yes
+	}
+	1056.1.16 = {
 		death = yes
 	}
 }

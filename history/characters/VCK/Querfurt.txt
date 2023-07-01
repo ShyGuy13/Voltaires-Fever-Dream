@@ -3,10 +3,104 @@
 	dynasty = 108
 	religion = catholic
 	culture = thuringian
+	father = querfurt3
 	1015.1.1 = {
 		birth = yes
+		give_nickname = nick_the_pious
 	}
 	1075.1.1 = {
+		death = yes
+	}
+}
+
+querfurt2 = {
+	name = "Ida" #wife of Bernhard of Süpplingenburg
+	female = yes
+	dynasty = 108
+	religion = catholic
+	culture = thuringian
+	father = querfurt3
+	1017.1.1 = { #fic
+		birth = yes
+	}
+	1066.1.1 = { #fic
+		death = yes
+	}
+}
+
+querfurt3 = {
+	name = "Gebhard" #Gebhard I of Querfurt
+	dynasty = 108
+	religion = catholic
+	culture = thuringian
+	trait = twin
+	father = querfurt7
+	975.1.1 = {
+		birth = yes
+	}
+	1017.1.1 = {
+		death = yes
+	}
+}
+
+querfurt4 = {
+	name = "Bruno" #Bruno the Holy
+	dynasty = 108
+	religion = catholic
+	culture = thuringian
+	trait = twin
+	trait = devoted
+	father = querfurt7
+	975.1.1 = {
+		birth = yes
+		give_nickname = nick_the_holy
+	}
+	1009.3.9 = {
+		death = { death_reason = death_decapitated }
+	}
+}
+
+querfurt5 = {
+	name = "Dietrich" #Dietrich II of Querfurt
+	dynasty = 108
+	religion = catholic
+	culture = thuringian
+	father = querfurt7
+	977.1.1 = {
+		birth = yes
+	}
+	1012.1.1 = { #fic
+		death = yes
+	}
+}
+
+querfurt6 = {
+	name = "Wilhelm" #
+	dynasty = 108
+	religion = catholic
+	culture = thuringian
+	father = querfurt7
+	979.1.1 = {
+		birth = yes
+	}
+	1008.1.1 = { #fic
+		death = yes
+	}
+}
+
+querfurt7 = {
+	name = "Bruno" # Bruno II of Querfurt
+	dynasty = 108
+	religion = catholic
+	culture = thuringian
+	940.1.1 = {
+		birth = yes
+		give_nickname = nick_the_old
+	}
+	1009.1.1 = {
+		trait = devoted
+	}
+	1013.10.19 = {
 		death = yes
 	}
 }

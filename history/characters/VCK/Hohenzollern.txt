@@ -20,7 +20,6 @@ hohenzollern2 = {
 	father = hohenzollern1
 	1040.1.1 = { #fic
 		birth = yes
-		give_nickname = nick_maute
 	}
 	1108.1.1 = {
 		death = yes

@@ -1,7 +1,6 @@
 schwalenberg1 = {
 	name = "Heinreich" # Heinrich I of Schwalenberg
 	dynasty = 271
-	religion = catholic
 	culture = eastphalian
 	religion = catholic
 	1035.1.1 = { #fic

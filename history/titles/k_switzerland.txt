@@ -1,31 +1,14 @@
-#Chadé
-c_chur = {
-	1040.1.1 = {
-		holder = chade_thietmar # Thietmar
-	}
-}
-c_savognin = {
-	1040.1.1 = {
-		holder = chade_thietmar # Thietmar
-	}
-}
-
-#Sitten
-c_sitten = {
-	1054.7.13 = {
-		holder = sitten_ermenfroi # Ermenfroi
-	}
-}
-c_valais = {
-	1054.7.13 = {
-		holder = sitten_ermenfroi
-	}
-}
-
 #Faugnicy
 c_faucigny = {
 	1030.1.1 = {
 		holder = faucigny1
+	}
+}
+
+#Genf
+c_annecy = {
+	1023.1.1 = {
+		holder = gerolding1 # Gérold I
 	}
 }
 
@@ -43,26 +26,27 @@ c_neuchatel = {
 	}
 }
 
-#Toggenburg
-c_toggenburg = {
-	1054.1.1 = {
-		holder = toggenburg1 # Diethelm I
+#Basel
+c_basel = {
+	1041.1.1 = {
+		holder = basel_theoderich # Theoderich
+	}
+}
+c_elsgau = {
+	1041.1.1 = {
+		holder = basel_theoderich # Theoderich
+	}
+}
+c_bienne = {
+	1041.1.1 = {
+		holder = basel_theoderich # Theoderich
 	}
 }
 
-#Sankt Gallen
-c_sankt_gallen = {
-	612.1.1 = { government = theocracy_government }
-	1034.1.1 = {
-		holder = stgallen_norpert # Norpert
-	}
-}
-
-#Sankt Blasien
-c_sankt_blasien = {
-	858.1.1 = { government = theocracy_government }
-	1045.1.1 = {
-		holder = stblasien_werner # Werner
+#Laufenburg
+c_laufenburg = {
+	1048.1.1 = {
+		holder = rheinfelden1 # Rudolf I
 	}
 }
 
@@ -79,14 +63,31 @@ c_aargau = {
 		holder = habsburg1 # Werner I
 	}
 }
+c_lenzburg = {
+	1045.1.1 = {
+		holder = habsburg1 # Werner I
+	}
+}
 
 #Winterthur
 c_winterthur = {
+	950.1.1 = {
+		holder = winterthur2 # Luitfried I
+	}
+	972.3.16 = {
+		holder = winterthur3 # Adalbert I
+	}
+	1030.9.8 = {
+		holder = winterthur5 # Werner I
+	}
+	1040.8.22 = {
+		holder = winterthur4 # Adalbert II
+	}
 	1053.6.18 = {
 		holder = winterthur1 # Adelheid I
 	}
 }
-c_frauenfeld = {
+c_thurgau = {
 	1053.6.18 = {
 		holder = winterthur1 # Adelheid I
 	}
@@ -97,22 +98,25 @@ c_kyburg = {
 	}
 }
 
-#Basel
-c_basel = {
-	1041.1.1 = {
-		holder = basel_theoderich # Theoderich
-	}
-}
-c_porrentruy = {
-	1041.1.1 = {
-		holder = basel_theoderich # Theoderich
+#Sankt Gallen
+c_sankt_gallen = {
+	612.1.1 = { government = theocracy_government }
+	1034.1.1 = {
+		holder = stgallen_norpert # Norpert
 	}
 }
 
-#Nidwalden
-c_nidwalden = {
-	1044.1.1 = {
-		holder = affoltern1 # Luitold I
+#Toggenburg
+c_toggenburg = {
+	1054.1.1 = {
+		holder = toggenburg1 # Diethelm I
+	}
+}
+
+#Oberlande
+c_oberlande = {
+	1054.1.1 = {
+		holder = ringgenberg1 # Arnold I
 	}
 }
 
@@ -133,6 +137,14 @@ c_schwyz = {
 	}
 }
 
+#Geneva
+c_geneva = {
+	1000.1.1 = { government = theocracy_government }
+	1030.1.1 = {
+		holder = lausanne_frederic # Frédéric
+	}
+}
+
 #Lausanne
 c_lausanne = {
 	1000.1.1 = { government = theocracy_government }
@@ -141,11 +153,47 @@ c_lausanne = {
 	}
 }
 
-#Geneva
-c_geneva = {
-	1000.1.1 = { government = theocracy_government }
-	1030.1.1 = {
-		holder = lausanne_frederic # Frédéric
+#Sitten
+c_sitten = {
+	1054.7.13 = {
+		holder = sitten_ermenfroi # Ermenfroi
+	}
+}
+c_valais = {
+	1054.7.13 = {
+		holder = sitten_ermenfroi
+	}
+}
+
+#Nidwalden
+c_nidwalden = {
+	1044.1.1 = {
+		holder = affoltern1 # Luitold I
+	}
+}
+
+#Chadé
+c_chur = {
+	1040.1.1 = {
+		holder = chade_thietmar # Thietmar
+	}
+}
+c_disentis = {
+	1040.1.1 = {
+		holder = chade_thietmar # Thietmar
+	}
+}
+c_davos = {
+	1040.1.1 = {
+		holder = chade_thietmar # Thietmar
+	}
+}
+
+#Sankt Blasien
+c_sankt_blasien = {
+	858.1.1 = { government = theocracy_government }
+	1045.1.1 = {
+		holder = stblasien_werner # Werner
 	}
 }
 
@@ -158,19 +206,5 @@ c_monthey = {
 c_vaud = {
 	1024.1.1 = {
 		holder = zahringen1 # Berthold I
-	}
-}
-
-#Genf
-c_annecy = {
-	1023.1.1 = {
-		holder = gerolding1 # Gérold I
-	}
-}
-
-#Laufenburg
-c_laufenburg = {
-	1048.1.1 = {
-		holder = rheinfelden1 # Rudolf I
 	}
 }

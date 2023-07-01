@@ -7,15 +7,6 @@ k_papal_state = {
 		holder = calw1 # Victor II
 	}
 }
-c_vaticano = {
-	100.1.1 = { government = theocracy_government }
-	1048.8.9 = {
-		holder = dagsburg6 # Leo IX
-	}
-	1054.4.19 = {
-		holder = calw1 # Victor II
-	}
-}
 c_roma = {
 	100.1.1 = { government = theocracy_government }
 	1048.8.9 = {
@@ -26,6 +17,69 @@ c_roma = {
 	}
 }
 c_viterbo = {
+	100.1.1 = { government = theocracy_government }
+	1048.8.9 = {
+		holder = dagsburg6 # Leo IX
+	}
+	1054.4.19 = {
+		holder = calw1 # Victor II
+	}
+}
+c_velletri = {
+	100.1.1 = { government = theocracy_government }
+	1048.8.9 = {
+		holder = dagsburg6 # Leo IX
+	}
+	1054.4.19 = {
+		holder = calw1 # Victor II
+	}
+}
+c_albano = {
+	100.1.1 = { government = theocracy_government }
+	1048.8.9 = {
+		holder = dagsburg6 # Leo IX
+	}
+	1054.4.19 = {
+		holder = calw1 # Victor II
+	}
+}
+c_frosinone = {
+	100.1.1 = { government = theocracy_government }
+	1048.8.9 = {
+		holder = dagsburg6 # Leo IX
+	}
+	1054.4.19 = {
+		holder = calw1 # Victor II
+	}
+}
+c_civitavecchia = {
+	100.1.1 = { government = theocracy_government }
+	1048.8.9 = {
+		holder = dagsburg6 # Leo IX
+	}
+	1054.4.19 = {
+		holder = calw1 # Victor II
+	}
+}
+c_castro = {
+	100.1.1 = { government = theocracy_government }
+	1048.8.9 = {
+		holder = dagsburg6 # Leo IX
+	}
+	1054.4.19 = {
+		holder = calw1 # Victor II
+	}
+}
+c_sabina = {
+	100.1.1 = { government = theocracy_government }
+	1048.8.9 = {
+		holder = dagsburg6 # Leo IX
+	}
+	1054.4.19 = {
+		holder = calw1 # Victor II
+	}
+}
+c_orvieto = {
 	100.1.1 = { government = theocracy_government }
 	1048.8.9 = {
 		holder = dagsburg6 # Leo IX

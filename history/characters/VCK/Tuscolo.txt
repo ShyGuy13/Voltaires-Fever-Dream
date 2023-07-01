@@ -3,7 +3,8 @@ tuscolo1 = {
 	dynasty = 285
 	religion = catholic
 	culture = italian
-	1003.1.1 = { #fic
+	father = tuscolo7
+	1015.1.1 = { #fic
 		birth = yes
 	}
 	1058.1.1 = {
@@ -64,6 +65,317 @@ tuscolo5 = {
 		birth = yes
 	}
 	1073.1.1 = { #fic
+		death = yes
+	}
+}
+
+tuscolo6 = {
+	name = "Teofilatto" # Pope Benedict IX
+	dynasty = 285
+	martial = 6
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 8
+	religion = catholic
+	culture = italian
+	trait = diligent
+	trait = calm
+	trait = zealous
+	trait = education_diplomacy_3
+	father = tuscolo7
+	1012.1.1 = { #est
+		birth = yes
+	}
+	1032.10.1 = {
+		name = "Benedictus"
+	}
+	1048.7.17 = { #technically 1056 but he gets deposed here
+		death = yes
+	}
+}
+
+tuscolo7 = {
+	name = "Alberic" # Alberic III of Tusculum
+	dynasty = 285
+	religion = catholic
+	culture = italian
+	father = tuscolo14
+	976.1.1 = { #fic
+		birth = yes
+	}
+	1044.1.1 = {
+		death = yes
+	}
+}
+
+tuscolo8 = {
+	name = "Pietro" # 
+	dynasty = 285
+	religion = catholic
+	culture = italian
+	father = tuscolo7
+	1018.1.1 = { #fic
+		birth = yes
+	}
+	1067.1.1 = { #fic
+		death = yes
+	}
+}
+
+tuscolo9 = {
+	name = "Guido" #
+	dynasty = 285
+	religion = catholic
+	culture = italian
+	father = tuscolo7
+	1021.1.1 = { #fic
+		birth = yes
+	}
+	1091.1.1 = { #fic
+		death = yes
+	}
+}
+
+tuscolo10 = {
+	name = "Ottaviano" #
+	dynasty = 285
+	religion = catholic
+	culture = italian
+	father = tuscolo7
+	1028.1.1 = { #fic
+		birth = yes
+	}
+	1102.1.1 = { #fic
+		death = yes
+	}
+}
+
+
+
+tuscolo14 = {
+	name = "Gregorio" # Gregorio I of Tusculum
+	dynasty = 285
+	religion = catholic
+	culture = italian
+	father = tuscolo18
+	939.1.1 = { #fic
+		birth = yes
+	}
+	1012.1.1 = { #fic
+		death = yes
+	}
+}
+
+tuscolo15 = {
+	name = "Teofilatto" # Pope Benedict VIII
+	dynasty = 285
+	martial = 6
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 8
+	religion = catholic
+	culture = italian
+	trait = diligent
+	trait = calm
+	trait = zealous
+	trait = education_diplomacy_3
+	father = tuscolo14
+	980.1.1 = { #est
+		birth = yes
+	}
+	1012.5.12 = {
+		name = "Benedictus"
+	}
+	1024.4.9 = {
+		death = yes
+	}
+}
+
+tuscolo16 = {
+	name = "Romano" # Pope John XIX
+	dynasty = 285
+	martial = 6
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 8
+	religion = catholic
+	culture = italian
+	trait = diligent
+	trait = calm
+	trait = zealous
+	trait = education_diplomacy_3
+	father = tuscolo14
+	982.1.1 = { #fic
+		birth = yes
+	}
+	1024.4.9 = {
+		name = "Ioannes"
+	}
+	1032.10.9 = {
+		death = yes
+	}
+}
+
+tuscolo17 = {
+	name = "Marozia" # wife of Transamund III of Spoleto
+	female = yes
+	dynasty = 285
+	religion = catholic
+	culture = italian
+	father = tuscolo14
+	966.1.1 = { #fic
+		birth = yes
+	}
+	1032.10.9 = {
+		death = yes
+	}
+}
+
+tuscolo18 = {
+	name = "Alberic" # Alberic II of Tusculum
+	dynasty = 285
+	religion = catholic
+	culture = italian
+	father = tuscolo21
+	912.1.1 = { #fic
+		birth = yes
+	}
+	954.1.1 = {
+		death = yes
+	}
+}
+
+tuscolo19 = {
+	name = "Gregorio" # Gregorio I of Tusculum
+	dynasty = 285
+	religion = catholic
+	culture = italian
+	father = tuscolo18
+	939.1.1 = { #fic
+		birth = yes
+	}
+	1012.1.1 = { #fic
+		death = yes
+	}
+}
+
+tuscolo20 = {
+	name = "Ottaviano" # Pope John XII
+	dynasty = 285
+	martial = 6
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 8
+	religion = catholic
+	culture = italian
+	trait = bastard
+	trait = diligent
+	trait = calm
+	trait = zealous
+	trait = education_diplomacy_3
+	father = tuscolo18
+	937.1.1 = { #fic
+		birth = yes
+	}
+	955.12.16 = {
+		name = "Ioannes"
+	}
+	964.5.14 = {
+		death = yes
+	}
+}
+
+tuscolo21 = {
+	name = "Alberic" # Alberic I of Tusculum
+	dynasty = 285
+	religion = catholic
+	culture = italian
+	864.1.1 = { #fic
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}
+
+tuscolo22 = {
+	name = "Sergio" # Pope John XI
+	dynasty = 285
+	martial = 6
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 8
+	religion = catholic
+	culture = italian
+	trait = bastard
+	trait = calm
+	trait = zealous
+	trait = education_diplomacy_3
+	father = tuscolo21
+	910.1.1 = {
+		birth = yes
+	}
+	931.3.15 = {
+		name = "Ioannes"
+	}
+	954.1.1 = {
+		death = yes
+	}
+}
+
+tuscolo23 = {
+	name = "Constantino" # 
+	dynasty = 285
+	religion = catholic
+	culture = italian
+	father = tuscolo21
+	915.1.1 = { #fic
+		birth = yes
+	}
+	945.1.14 = {
+		death = yes
+	}
+}
+
+tuscolo24 = {
+	name = "Sergio" # 
+	dynasty = 285
+	religion = catholic
+	culture = italian
+	father = tuscolo21
+	918.1.1 = { #fic
+		birth = yes
+	}
+	963.1.1 = {
+		death = yes
+	}
+}
+
+tuscolo25 = {
+	name = "Deodato" # 
+	dynasty = 285
+	religion = catholic
+	culture = italian
+	father = tuscolo21
+	920.1.1 = { #fic
+		birth = yes
+	}
+	979.1.1 = { #fic
+		death = yes
+	}
+}
+
+tuscolo26 = {
+	name = "Verdina" # fictional name
+	female = yes
+	dynasty = 285
+	religion = catholic
+	culture = italian
+	father = tuscolo21
+	924.1.1 = { #fic
+		birth = yes
+	}
+	941.1.1 = { #fic
 		death = yes
 	}
 }

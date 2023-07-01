@@ -1,12 +1,245 @@
 ﻿achalm1 = {
-	name = "Gero" # Gero I of Zwiefalten
+	name = "Egino" # Egino I of Dettingen
 	dynasty = 134
 	religion = catholic
 	culture = swabian
-	1024.1.1 = { #fic
+	father = achalm3
+	1001.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_older
+	}
+	1049.1.1 = { #est
+		death = yes
+	}
+}
+
+achalm2 = {
+	name = "Rudolf" # Rudolf I of Dettingen
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm3
+	1004.1.1 = { #fic
+		birth = yes
+	}
+	1053.9.24 = { #fic
+		death = yes
+	}
+}
+
+achalm3 = {
+	name = "Liutold" # Lütold I of Dettingen
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	952.1.1 = { #est
+		birth = yes
+	}
+	1007.1.1 = { #fic
+		death = yes
+	}
+}
+
+achalm4 = {
+	name = "Kuno" # Kuno I of Dettingen
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm2
+	1025.1.1 = { #est
+		birth = yes
+	}
+	1092.10.16 = {
+		death = yes
+	}
+}
+
+achalm5 = {
+	name = "Mathilde" # Mathilde I of Wülfingen
+	female = yes
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm2
+	1032.1.1 = { #est
+		birth = yes
+	}
+	1095.1.1 = { #fic
+		death = yes
+	}
+}
+
+achalm6 = {
+	name = "Liutold" # Mathilde I of Wülfingen
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm2
+	1030.1.1 = { #est
 		birth = yes
 	}
 	1089.1.1 = {
+		trait = devoted
+	}
+	1098.8.18 = {
+		death = yes
+	}
+}
+
+achalm7 = {
+	name = "Egino" # 
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm2
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1077.11.14 = {
+		death = yes
+	}
+}
+
+achalm8 = {
+	name = "Rudolf" # 
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm2
+	1038.1.1 = { #fic
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+
+achalm9 = {
+	name = "Hunfried" # 
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm2
+	1041.1.1 = { #fic
+		birth = yes
+	}
+	1048.1.1 = { #fic
+		death = yes
+	}
+}
+
+achalm10 = {
+	name = "Berengar" # 
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm2
+	1044.1.1 = { #fic
+		birth = yes
+	}
+	1050.1.1 = { #fic
+		death = yes
+	}
+}
+
+achalm11 = {
+	name = "Werner" # bishop of Straßburg
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm2
+	1048.1.1 = { #est
+		birth = yes
+	}
+	1077.11.14 = {
+		death = yes
+	}
+}
+
+achalm12 = {
+	name = "Willebirg" # wife of Werner III of Grüningen
+	female = yes
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm2
+	1028.1.1 = {
+		birth = yes
+	}
+	1063.1.1 = { #fic
+		death = yes
+	}
+}
+
+achalm13 = {
+	name = "Mechthild" # wife of Kuno I. von Lechsgemünd
+	female = yes
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm2
+	1051.1.1 = { #fic
+		birth = yes
+	}
+	1094.9.30 = {
+		death = yes
+	}
+}
+
+achalm14 = {
+	name = "Beatrix" # nun
+	female = yes
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm2
+	1053.1.1 = { #fic
+		birth = yes
+	}
+	1088.1.1 = { #fic
+		death = yes
+	}
+}
+
+achalm15 = {
+	name = "Mechthild" # wife of Manegold von Sulmetting
+	female = yes
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm1
+	1041.1.1 = { #fic
+		birth = yes
+	}
+	1111.11.20 = { #fic
+		death = yes
+	}
+}
+
+achalm16 = {
+	name = "Gebhard" # bishop of Speyer
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm1
+	1046.1.1 = { #fic
+		birth = yes
+	}
+	1110.3.1 = {
+		death = yes
+	}
+}
+
+achalm17 = {
+	name = "Kuno" # bishop of Palestrina
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm1
+	1048.1.1 = { #fic
+		birth = yes
+	}
+	1122.8.9 = { #fic
 		death = yes
 	}
 }

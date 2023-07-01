@@ -1,20 +1,21 @@
-name_list_romansch = {
+﻿name_list_romansch = {
 	#mercenary_names = {
 	#	
 	#}
 
 	male_names = {
-		Alexandru Andrin Aden Andreia
-		Balser Baltran Bandet
-		Cosmin Clario Chasprot Chrest Corsin Curo
-		Flurin Franceschi Fadri
-		Gisep
+		Alexandru Andrin Aden Andreia Aurél Andrin Alexi
+		Balser Baltran Bandet Bernard Benno Benedegt
+		Cosmin Clario Chasprot Chrest Corsin Curo Chasper Carli
+		Flurin Franceschi Fadri Filip
+		Gisep Gregor
 		Ionut Iso
-		Jacum Jachiam
+		Jacum Jachiam Jüst
 		Lissandri Liviu Liun Lücha Ludivic
 		Michelagnul Mihal Mattia Maurus
 		Pieri Petrica
 		Rapoto
+		Severin
 		Tuone
 		Uorsin
 		Valentin Victorin Viturin
@@ -22,15 +23,21 @@ name_list_romansch = {
 	}
 	
 	female_names = {
-		Agnabella Adelca Anute Aita Alva Andrina Annafila
+		Agnabella Adelca Anute Aita Alva Andrina Annafila Annotta
 		Biatris Baria Bertilla
 		Crestina Chartrina Cilgia
 		Duscha
 		Ioana
-		Marila Mira Miria Mirvana Madlaina Mevina
-		Neva 
+		Juditta Jacobina
+		Luisia Luzia
+		Marila Mira Miria Mirvana Madlaina Mevina Maclaina Maria
+		Neva Neisa Nescha
 		Oderica Ottavia Onna
-		Teigra
+		Rita Romea Ramuna
+		Silvana Susanna Serina
+		Teigra Tonia
+		Ulrica Urschla Ursetta Ursina
+		Varena
 	}
 
 	dynasty_names = {

@@ -1,0 +1,40 @@
+﻿kussenberg1 = {
+	name = "Ulrich"
+	dynasty = 301
+	culture = swiss
+	religion = catholic
+	991.1.1 = { #fic
+		birth = yes
+	}
+	1054.1.1 = { #fic
+		death = yes
+	}
+}
+
+kussenberg2 = {
+	name = "Liutold"
+	dynasty = 301
+	culture = swiss
+	religion = catholic
+	father = kussenberg1
+	1017.1.1 = { #fic
+		birth = yes
+	}
+	1065.1.1 = { #fic
+		death = yes
+	}
+}
+
+kussenberg3 = {
+	name = "Gerung"
+	dynasty = 301
+	culture = swiss
+	religion = catholic
+	father = kussenberg1
+	1041.1.1 = { #fic
+		birth = yes
+	}
+	1067.1.1 = { #fic
+		death = yes
+	}
+}

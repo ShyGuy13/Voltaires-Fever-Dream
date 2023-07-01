@@ -3,57 +3,57 @@ name_list_german = {
 	}
 
 	male_names = {        
-		Adalwin Arnulf Arialdo Ambrosius Andreas Alfred August Alexander Albrecht Anton Alwin Adolf Arnold Alfons Anno Arndt Altmann Anselm Achilles Alois Adam Albuin Amandus Aribo Adalhard Ã„gidius Adalward
-		Brunger Blasius Brandolf Berengar Bernger Barthold Berlewin Brunwart Bruno Burkhard Balthasar Benedikt Bernhard Bertold Bertram Bertrand Burchard Balduin Bernd Berthold Beringer BartholomÃ¤us Benjamin Bawin Boppo Batok Bastian Bardo Boemund Billung Bertolf Baderich
-		Cornelius Christian Clemens Caspar Claus Cobbo Cord Christoph Christopher Caspar Clemens Carsten
-		Dankmar Dietmar Diederik Dietrich Dieter Detlev Daniel Diepold Detward David Dagwin 
-		Erminold Erenfried Erwin Erkmar Eckwin Eike Enderlin Edwin Ernst Ekkehard Ekbert Engelbert Engelhard Ewald Edmund Eduard Eberhard Erhard Erich Erasmus Egon Einhard Elias Egbert Elger Emich Esico Elert Eberwin Egidius Everger Egilmar Engilbert Ezzelin Egno Egelolf Emil Eberold Ensfried Enolf Emmerich Emercho Emmehard Eppo Eugen Erich
-		Florentin Florian Frowin Folkward Falko Friedrich Franz Ferdinand Felix Folmar Florenz Franco Frederik Fritz Feist Filmann Frank Fuchs Friedmar
-		Gregor Gudmunt Gundolf Giselher GÃ¼nther Gunther Georg Gerard Gebhard Giselmar Gottschalk Gerhard Gottfried Gotthard Gottlieb Gustav Gabriel Gero Giselbert Gerold Gundekar Gobel Goswin Gallus Gerlach
-		Herrand Heidolf Hiltger Hadmar Hiltbolt Huwald Herwart Helmeke Hermann Heinrich Hinrich Hektor Hans Heideke Herbert Hinrik Heribert Hugo Humbert Hartwig Hildebrand Henning Hieronymus Heinz Hensel Hildorf Hildebold Hilger Hatto Hillin Heilmann Heidenreich Hartrad Hartmut Helfrich Hilging Helperich Hagen
-		Johann Joachim Joseph Jacob Jaspar Johannes Jakob Josef Jens Jobst Jost Jan Jodokus
-		Immo Isaak Ingebrand Isenbard Imer
+		Adalmund Alwin Adalfried Aaron Alram Albo Amalrich Adalwin Arnulf Arialdo Ambrosius Andreas Alfred August Alexander Albrecht Anton Alwin Adolf Arnold Alfons Anno Arndt Altmann Anselm Achilles Alois Adam Albuin Amandus Aribo Adalhard Ägidius Adalward
+		Burgwalt Benno Brunger Blasius Brandolf Berengar Bernger Barthold Berlewin Brunwart Bruno Burkhard Balthasar Benedikt Bernhard Bertold Bertram Bertrand Burchard Balduin Bernd Berthold Beringer Bartholomäus Benjamin Bawin Boppo Batok Bastian Bardo Boemund Billung Bertolf Baderich
+		Cornelius Christian Clemens Caspar Claus Cobbo Cord Christoph Christopher Caspar Carsten
+		Dietlieb Dietfried Diethelm Damian Dennis Dankmar Dietmar Diederik Dietrich Dieter Detlev Daniel Diepold Detward David Dagwin 
+		Erkenbert Erenbert Erchambert Ellinger Enzio Erminold Erenfried Erwin Erkmar Eckwin Eike Enderlin Edwin Ernst Ekkehard Ekbert Engelbert Engelhard Ewald Edmund Eduard Eberhard Erhard Erich Erasmus Egon Einhard Elias Egbert Eckbert Elger Emich Esico Elert Eberwin Egidius Everger Egilmar Engilbert Ezzelin Egno Egelolf Emil Eberold Ensfried Enolf Emmerich Emercho Emmehard Eppo Eugen Erich
+		Friedolf Filibert Falkmar Finnian Florentin Florian Frowin Folkward Falko Friedrich Franz Ferdinand Felix Folmar Florenz Franco Frederik Fritz Feist Filmann Frank Fuchs Friedmar
+		Gotthelm Gilbert Gernot Greimold Gregor Gudmunt Gundolf Giselher Günther Gunther Georg Gerard Gebhard Giselmar Gottschalk Gerhard Gottfried Gotthard Gottlieb Gustav Gabriel Gero Giselbert Gerold Gundekar Gobel Goswin Gallus Gerlach
+		Horst Hartung Heinfried Herrand Heidolf Hiltger Hadmar Hiltbolt Huwald Herwart Helmeke Hermann Heinrich Hinrich Hektor Hans Heideke Herbert Hinrik Heribert Hugo Humbert Hartwig Hildebrand Henning Hieronymus Heinz Hensel Hildorf Hildebold Hilger Hatto Hillin Heilmann Heidenreich Hartrad Hartmut Helfrich Hilging Helperich Hagen
+		Justus Johann Joachim Joseph Jacob Jaspar Johannes Jakob Josef Jens Jobst Jost Jan Jodokus
+		Ivo Immo Isaak Ingebrand Isenbard Imer
 		Karl Konrad Kuno Konstantin Kurt Kunz Karlfried Kunibert Kunz
-		Lantfried Leuthold Lukas Ludolf Ludwig Laurentz Lambert Liawizo Liemar Liudger Leonhard Lothar Lorenz Lamprecht Leo Ludger LÃ¼thold Liborius Lienhardt Lipmann Liefhard
-		Maurus Meinloh Micharl Markus Moritz Magnus Maximilian Mathias Meinwerk Merten Martin Michael Matthias MatthÃ¤us Melchior Marquard Manfred Metfried Mauritz Megingoz Modestinus Marsilius Meiger Minnemann Meusewin
+		Leopold Lantfried Leuthold Lukas Ludolf Ludwig Laurentz Lambert Liawizo Liemar Liudger Leonhard Lothar Lorenz Lamprecht Leo Ludger Lüthold Liborius Lienhardt Lipmann Liefhard
+		Manegold Maurus Meinloh Micharl Markus Moritz Magnus Maximilian Mathias Meinwerk Merten Martin Michael Matthias Matthäus Melchior Marquard Manfred Metfried Mauritz Megingoz Modestinus Marsilius Meiger Minnemann Meusewin
 		Norbert Nicholas Nikolaus Nickel Nandolf Neithard Nantwein
-		Ortolf Osmund Otto Ordulf Oswald Ottfried
-		Peter Philipp Pawel Paul Pilgrim Pankraz Prokop
-		Rapotho Raffold Rusten Rembrandt Rembert Rhabanus Reimund Ralph Rudolf Reginald Renard Reinmar RÃ¼diger Roland Robert Raimund Rainer Rainald Ruprecht Reinhold Reinhard Roman Reginbald Rhaban Reimar Richald Rutger Reinboto Richolf Ripert Richard Richwin Ruckelin Rudwin Ruther Reinprecht
-		Siegenhard Sonnwinn Sturm Severinus Sigehelm Siegbert Sigisbert Siegfried Sigward Sigurd Simon Steffen Stefan Sigismund Siegmund Salomon Salentin Sigewin Siger Statius Sebastian Salman Schelm Sibert Siegeboto Schavart Stelin
-		Tybold Trunto Tolbert Tillfried Tidemann Thilo Thomas Theodor Tilmann Theoderich Thiemo Thietmar Tragebodo Truschel
-		Utto Ulrich Ulf Udo Uriel Ulbert Utz Ubald Ulfried
-		Vitalis Volkward Viktor Viktorin Volker Valentin Vivelin Volmar Vinzenz Veit Volkward
-		Wigmann Waltchun Wisento Werigand Wachsmut Wigbert Winther Wilfried Wolfram Wulfhelm Wulfhere Wenzel Wolfgang Waldemar Werner Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Wilhelm Wigbold Walram Winrich Wiegand Winter Wolf Warin Wicker Wiprecht Woffo Winland Wezelo Wittekind Widelo Wedekind Wilbrand Wikenand Wilderich Winand Wohlrab Wigger
+		Ortholf Osmund Otto Ordulf Oswald Ottfried
+		Pirmin Poppo Peter Philipp Pawel Paul Pilgrim Pankraz Prokop
+		Reginmar Rambert Reginbert Rapotho Raffold Rusten Rembrandt Rembert Rhabanus Reimund Ralph Rudolf Reginald Renard Reinmar Rüdiger Roland Robert Raimund Rainer Rainald Ruprecht Reinhold Reinhard Roman Reginbald Rhaban Reimar Richald Rutger Reinboto Richolf Ripert Richard Richwin Ruckelin Rudwin Ruther Reinprecht
+		Sindolf Steinmar Siegenhard Sonnwinn Sturm Severinus Sigehelm Siegbert Sigisbert Siegfried Sigward Sigurd Simon Steffen Stefan Sigismund Siegmund Salomon Salentin Sigewin Siger Statius Sebastian Salman Schelm Sibert Siegeboto Schavart Stelin
+		Thorsten Traugott Tybold Trunto Tolbert Tillfried Tidemann Thilo Thomas Theodor Tilmann Theoderich Thiemo Thietmar Tragebodo Truschel
+		Urban Uwe Utto Ulrich Ulf Udo Uriel Ulbert Utz Ubald Ulfried
+		Volkmar Volkwin Vitalis Volkward Viktor Viktorin Volker Valentin Vivelin Volmar Vinzenz Veit Volkward
+		Wolfbert Walthelm Wenzeslaus Wiguläus Wichard Wolfger Wunibald Wunibert Wisgard Wendelin Wernhard Wibert Wigmann Waltchun Wisento Werigand Wachsmut Wigbert Winther Wilfried Wolfram Wulfhelm Wulfhere Wenzel Wolfgang Waldemar Werner Werneke Weybrecht Wichbert Wichmann Wigebert Wolter Walter Wulff Wilhelm Wigbold Walram Winrich Wiegand Winter Wolf Warin Wicker Wiprecht Woffo Winland Wezelo Wittekind Widelo Wedekind Wilbrand Wikenand Wilderich Winand Wohlrab Wigger
 		Xaver
 	}
 	
 	female_names = {
-		Adele Adelgunde Adelheid Adolfine Agatha Agnes Alexandra Alice Alina Aline Alma Alwina Alwine Amalia Amalie Amanda Amelie Andrea Angela Angelika Angelina Anika Anita Anja Anke Ann-Katrin Anna Anne Annegret Anneli Annelie Anneliese Annemarie Anni Annika Annina Anny Antje Antonia Astrid Augusta Auguste Ada Adela Arnolda Adalgard
-		Barbara BÃ¤rbel Beate Beatrice Beatrix Bernadette Berta Bertha Bettina Bianca Bianka Birgit Brigitte Britta Brunhild BrÃ¼nhild Brunhilde BrÃ¼nhilde Begina
-		CÃ¤cilia CÃ¤cilie Caren Carina Carla Carmen Carolin Caroline Catarina Catharina Cathrin Catrin Cecilia Cecilie Celina Celine Charlotte Chiara Christa Christel Christiane Christina Christine Clara Claudia Constanze Cordula Corina Corinna Cornelia Camilla
-		Dagmar Daniela Denise DesirÃ©e DÃ©sirÃ©e Diana Dietlind Dietlinde Dora Doris Dorothea
-		Edda Edith Elena Eleonora Eleonore Elfriede Elisa Elisabeth Elise Elke Ella Ellen Elli Elly Elma Elsa Elsbeth Else Elvira Emelie Emely Emilia Emilie Emily Emma Emmeline Emmi Emmy Erdmute Erica Erika Erna Ester Esther Eugenie Eva Evelyn Euphemia Ernestine Eberhardine
-		Franka Friederun Fabienne Fanny Felicia Felicitas Felizia Felizitas Finja Finnja Fiona Flora Florentina Florentine Franziska Frauke Freya Frida Fridegunde Frieda Friedegund Friedegunde Friederike
-		Gabriela Gabriele Genoveva Gerda Gerlind Gerlinde Gertraud Gertrud Gertrudis Gesine Gina Gisela Grete Gretel Grethe Gudrun Gunda Gundula Guda Gertrude
-		Hubertine Hanna Hannah Hanne Hannelore Hedwig Heide Heidemarie Heidi Heike Helena Helene Helga Helge Hella Helmina Helmine Henny Hermina Hermine Herta Hertha Hilda Hilde Hildegard Hulda Henriette Herburgis Hildeswinde
+		Alexia Adele Adelgunde Adelheid Adolfine Agatha Agnes Alexandra Alice Alina Aline Alma Alwina Alwine Amalia Amalie Amanda Amelie Andrea Angela Angelika Angelina Anika Anita Anja Anke Ann-Katrin Anna Anne Annegret Anneli Annelie Anneliese Annemarie Anni Annika Annina Anny Antje Antonia Astrid Augusta Auguste Ada Adela Arnolda Adalgard
+		Burgunde Burghild Burgfried Barbara Bärbel Beate Beatrice Beatrix Bernadette Berta Bertha Bettina Bianca Bianka Birgit Brigitte Britta Brunhild Brünhild Brunhilde Brünhilde Begina
+		Cäcilia Cäcilie Caren Carina Carla Carmen Carolin Caroline Catarina Catharina Cathrin Catrin Cecilia Cecilie Celina Celine Charlotte Chiara Christa Christel Christiane Christina Christine Clara Claudia Constanze Cordula Corina Corinna Cornelia Camilla
+		Diethild Dagmar Daniela Denise Desirée Désirée Diana Dietlind Dietlinde Dora Doris Dorothea
+		Ernhild Edeltraud Edelgard Edda Edith Elena Eleonora Eleonore Elfriede Elisa Elisabeth Elise Elke Ella Ellen Elli Elly Elma Elsa Elsbeth Else Elvira Emelie Emely Emilia Emilie Emily Emma Emmeline Emmi Emmy Erdmute Erica Erika Erna Ester Esther Eugenie Eva Evelyn Euphemia Ernestine Eberhardine
+		Franka Friederun Fabienne Fanny Felicia Friede Felicitas Felizia Felizitas Finja Finnja Fiona Flora Florentina Florentine Franziska Frauke Freya Frida Fridegunde Frieda Friedegund Friedegunde Friederike
+		Gottfriede Gottholde Gabriela Gabriele Genoveva Gerda Gerlind Gerlinde Gertraud Gertrud Gertrudis Gesine Gina Gisela Grete Gretel Grethe Gudrun Gunda Gundula Guda Gertrude
+		Halina Hubertine Hanna Hannah Hanne Hannelore Hedwig Heide Heidemarie Heidi Heike Helena Helene Helga Helge Hella Helmina Helmine Henny Hermina Hermine Herta Hertha Hilda Hilde Hildegard Hulda Henriette Herburgis Hildeswinde
 		Ida Ilse Ines Inga Inge Ingeborg Ingeburg Ingrid Irene Irina Iris Irma Irmela Irmelin Irmgard Isabel Isabell Isabella Isabelle Isolde Ivonne Imagina
 		Jacqueline Jana Janina Janine Jaqueline Jasmin Jennifer Jessica Johanna Johanne Josefine Josephine Judith Jule Julia Juliane Jutta Jacoba
-		Kai Karen Karin Karina Karla Karolin Karoline Katarina KÃ¤te Katharina KÃ¤the Kathrin Katja Katrin Kerstin Kim Kirsten Klara Konstanze Kristin Kristina Kunigunde
-		Lara Larissa Laura Lea Lena Leni Leoni Leonie Leonore Liane Liesel Lieselotte Lili Lilli Lilly Lina Linda Lisa Liselotte Lore Lotte Louisa Louise Lucia Lucie Luisa Luise Lulu Luna Luzia Luzie Lydia Luitgard Loretta Lukarde Lukardis
-		Madeleine Madleen Madlen Madlene Magda Magdalena Magdalene Maike Maja Manuela Mareike Marga Margareta Margarete Margaretha Margarethe Margit Margot Margret Margrit Maria Marianne Marie Marie-Theres Marie-Therese Marina Marion Marleen Marlen Marlene Marlies Marlis Marta Martha Martina Mathilde Maya Mechthild Meike Melanie M cont. Melina Melissa Merle Meta Mia Michaela Michelle Minna Miriam Mirjam Mona Monica Monika Maren
+		Kai Karen Karin Karina Karla Karolin Karoline Katarina Käte Katharina Käthe Kathrin Katja Katrin Kerstin Kim Kirsten Klara Konstanze Kristin Kristina Kunigunde
+		Ludmilla Lara Larissa Laura Lea Lena Leni Leoni Leonie Leonore Liane Liesel Lieselotte Lili Lilli Lilly Lina Linda Lisa Liselotte Lore Lotte Louisa Louise Lucia Lucie Luisa Luise Lulu Luna Luzia Luzie Lydia Luitgard Loretta Lukarde Lukardis
+		Melisande Madeleine Madleen Madlen Madlene Magda Magdalena Magdalene Maike Maja Manuela Mareike Marga Margareta Margarete Margaretha Margarethe Margit Margot Margret Margrit Maria Marianne Marie Marie-Theres Marie-Therese Marina Marion Marleen Marlen Marlene Marlies Marlis Marta Martha Martina Mathilde Maya Mechthild Meike Melanie M cont. Melina Melissa Merle Meta Mia Michaela Michelle Minna Miriam Mirjam Mona Monica Monika Maren
 		Nadia Nadin Nadine Nadja Natali Natalie Natascha Nathalie Neele Nele Nicola Nicole Nina Noemi Nora
 		Oda Olga Olivia Ottilie
 		Patricia Patrizia Paula Paulina Pauline Petra Pia Petrissa
-		Rosalinde Randolfine Rachel Rafaela Raffaela Rahel Ramona Raphaela Rebecca Rebekka Regina Renate Ricarda Rita Rolanda Ronja Rosa Rose Rosemarie Roswitha Ruth Reinhilde Richenza Richmodis Rosina
-		Schwabhild Sabina Sabine Sabrina Samantha Sandra Sara Sarah Saskia Selina Seraphina Seraphine Sibylle Sieglind Sieglinde Siglind Siglinde Sigrid Silke Silvia Simone Sina Sissi Sofia Sofie Sonja Sophia Sophie Stefanie Stella Stephanie Susanna Svenja Swenja Sybille Sylvia Susanne Schwanhild
-		Tabea Tamara Tanja Tatjana Teresa Thekla Theres Theresa Therese Theresia Thirza Tina Tirza Traute Trude
+		Regilinde Rudolfine Roberta Rosalinde Randolfine Rachel Rafaela Raffaela Rahel Ramona Raphaela Rebecca Rebekka Regina Renate Ricarda Rita Rolanda Ronja Rosa Rose Rosemarie Roswitha Ruth Reinhilde Richenza Richmodis Rosina
+		Schwanhilde Sarhild Sonnhilde Sigrun Schwabhild Sabina Sabine Sabrina Samantha Sandra Sara Sarah Saskia Selina Seraphina Seraphine Sibylle Sieglind Sieglinde Siglind Siglinde Sigrid Silke Silvia Simone Sina Sissi Sofia Sofie Sonja Sophia Sophie Stefanie Stella Stephanie Susanna Svenja Swenja Sybille Sylvia Susanne Schwanhild
+		Traudlinde Trautmund Traudel Tabea Tamara Tanja Tatjana Teresa Thekla Theres Theresa Therese Theresia Thirza Tina Tirza Traute Trude
 		Ulrike Ursel Ursula Uta Ute
 		Valentina Valerie Vanessa Vera Verena Verona Veronika Victoria Viktoria
-		Walburg Walburga Waldtraud Waldtraut Walpurga Walpurgis Waltraud Waltraut Wanja Wibke Wiebke Wilhelmina Wilhelmine Wilma Willibirg
+		Wanda Wichburg Walburg Walburga Waldtraud Waldtraut Walpurga Walpurgis Waltraud Waltraut Wanja Wibke Wiebke Wilhelmina Wilhelmine Wilma Willibirg
 		Xenia
 		Yasmin Yvonne Yolande
-		ZÃ¤zilia ZÃ¤zilie Zoe
+		Zäzilia Zäzilie Zoe
 	}
 
 	dynasty_names = {
@@ -77,7 +77,7 @@ name_list_german = {
 		{ dynnp_von dynn_Degenberg }
 		{ dynn_Dichtl } # Patrician
 		{ dynn_Diener } # Patrician
-		{ dynnp_von dynn_DieÃŸen }
+		{ dynnp_von dynn_Dießen }
 		{ dynnp_von dynn_Ebersberg }
 		{ dynnp_von dynn_Eck } # Eck von Kelheim
 		{ dynnp_von dynn_Ecker }
@@ -98,6 +98,7 @@ name_list_german = {
 		{ dynnp_von dynn_Kemnath }
 		{ dynnp_von dynn_Kranzegg }
 		{ dynnp_von dynn_Leonrod }
+		{ dynnp_von dynn_Leublfing }
 		{ dynnp_von dynn_Pfaff }
 		{ dynnp_von dynn_Riedenburg }
 		{ dynnp_von dynn_Schwandorf }
@@ -110,6 +111,7 @@ name_list_german = {
 		#Hessian
 		{ dynnp_von dynn_Babenhausen }
 		{ dynnp_von dynn_Baumbach }
+		{ dynnp_von dynn_Bellersheim } # Stürzelsheim
 		{ dynnp_von dynn_Biedenfeld }
 		{ dynnp_von dynn_Blankenau }
 		{ dynnp_von dynn_Bleichenbach }
@@ -120,16 +122,17 @@ name_list_german = {
 		{ dynnp_von dynn_Buseck }
 		{ dynnp_von dynn_Buttlar }
 		{ dynnp_von dynn_Capella }
+		{ dynnp_von dynn_Carben } # Dugel von Carben
 		{ dynnp_von dynn_Cornberg }
 		{ dynnp_von dynn_Dalwig }
-		{ dynnp_zum dynn_Diede } # Diede zum FÃ¼rstenstein
+		{ dynnp_zum dynn_Diede } # Diede zum Fürstenstein
 		{ dynnp_von dynn_Dornbach }
-		{ dynnp_von dynn_DÃ¶ring }
-		{ dynnp_von dynn_DÃ¶rnberg }
+		{ dynnp_von dynn_Döring }
+		{ dynnp_von dynn_Dörnberg }
 		{ dynnp_von dynn_Drach }
 		{ dynnp_von dynn_Eschwege }
 		{ dynnp_von dynn_Falkenberg }
-		{ dynnp_von dynn_FleckenbÃ¼hl }
+		{ dynnp_von dynn_Fleckenbühl }
 		{ dynnp_von dynn_Gall }
 		{ dynnp_von dynn_Gedern }
 		{ dynnp_von dynn_Geyso }
@@ -152,26 +155,28 @@ name_list_german = {
 		{ dynnp_von dynn_Lindau }
 		{ dynnp_von dynn_Linsingen }
 		{ dynnp_von dynn_Lohra }
-		{ dynnp_von dynn_LÃ¶wenfeld }
-		{ dynnp_von dynn_LÃ¶wenstein }
-		{ dynnp_von dynn_LÃ¼tter }
+		{ dynnp_von dynn_Löwenfeld }
+		{ dynnp_von dynn_Löwenstein }
+		{ dynnp_von dynn_Lütter }
 		{ dynnp_von dynn_Meysenburg }
 		{ dynnp_von dynn_Milching } # Schutzbar genannt Milchling
+		{ dynnp_von dynn_Nürings }
 		{ dynnp_von dynn_Radenhausen }
 		{ dynnp_von dynn_Rau } # Rau von Holzhausen
 		{ dynnp_von dynn_Reiffenberg }
 		{ dynnp_von dynn_Riedesel }
 		{ dynnp_von dynn_Roding }
-		{ dynnp_von dynn_RÃ¶hrenfurth }
+		{ dynnp_von dynn_Röhrenfurth }
 		{ dynnp_von dynn_Romrod }
 		{ dynnp_von dynn_Rotsmann }
 		{ dynnp_von dynn_Scheffer }
 		{ dynnp_von dynn_Schachten }
 		{ dynnp_von dynn_Schlitz }
 		{ dynnp_von dynn_Scholetz }
-		{ dynnp_von dynn_SchÃ¶nstein }
-		{ dynnp_von dynn_SchÃ¶nstadt } # Milching von SchÃ¶nstadt
+		{ dynnp_von dynn_Schönstein }
+		{ dynnp_von dynn_Schönstadt } # Milching von Schönstadt
 		{ dynnp_von dynn_Schrendeisen }
+		{ dynnp_von dynn_Scheurnschloß } # Rieß von Scheurnschloß
 		{ dynnp_zu dynn_Schweinsberg } # Schenk zu Schweinsberg
 		{ dynnp_von dynn_Schwertzell }
 		{ dynnp_von dynn_Sayboltsdorf }
@@ -197,7 +202,8 @@ name_list_german = {
 		{ dynnp_von dynn_Gieboldehausen }
 		{ dynnp_von dynn_Lutterberg }
 		{ dynnp_von dynn_Minnigerode }
-		{ dynnp_von dynn_Nagel }
+		{ dynnp_von_der dynn_Recke }
+		{ dynnp_von dynn_Spiegel }
 		{ dynnp_von dynn_Spiegel }
 		{ dynnp_von dynn_Seulingen }
 		{ dynnp_von dynn_Tastungen }
@@ -205,31 +211,32 @@ name_list_german = {
 		#Low Elbish
 		{ dynnp_von dynn_Calenberg }
 		{ dynnp_von dynn_Donop }
-		{ dynnp_von dynn_GÃ¶dens }
+		{ dynnp_von dynn_Gödens }
 		{ dynnp_von dynn_Homburg }
 		{ dynnp_von dynn_Jever }
 		{ dynnp_von dynn_Kniphausen }
 		{ dynnp_von dynn_Nordholz }
 		{ dynnp_von dynn_Stockhausen }
 		#Thuringian
+		{ dynnp_von dynn_Berga }
 		{ dynnp_von dynn_Berka }
 		{ dynnp_von dynn_Bodenstein }
 		{ dynnp_von dynn_Bodungen }
 		{ dynnp_von dynn_Boyneburg }
-		{ dynnp_von dynn_BÃ¼ltzingslÃ¶wen }
+		{ dynnp_von dynn_Bültzingslöwen }
 		{ dynnp_von dynn_Farnroda }
 		{ dynnp_von dynn_Fladungen }
 		{ dynnp_von dynn_Gleichenstein }
 		{ dynnp_von dynn_Hagen }
 		{ dynnp_von dynn_Hanstein }
 		{ dynnp_von dynn_Harstall }
-		{ dynnp_von dynn_HeÃŸberg }
+		{ dynnp_von dynn_Heßberg }
 		{ dynnp_von dynn_Kirchberg }
 		{ dynnp_von dynn_Knorring }
 		{ dynnp_von dynn_Lengsfeld }
 		{ dynnp_von dynn_Leuthorst }
 		{ dynnp_von dynn_Marchia }
-		{ dynnp_von dynn_MÃ¼nch }
+		{ dynnp_von dynn_Münch }
 		{ dynnp_von dynn_Osterhausen }
 		{ dynnp_von dynn_Proyse }
 		{ dynnp_von dynn_Rieme }
@@ -244,18 +251,24 @@ name_list_german = {
 		{ dynnp_von dynn_Worbis }
 		{ dynnp_von dynn_Zwehl }
 		#Pomeranian
-		{ dynnp_von dynn_BÃ¶hn }
+		{ dynnp_von dynn_Böhn }
 		{ dynnp_von dynn_Damnitz }
 		{ dynnp_von dynn_Gnoien }
 		{ dynnp_von dynn_Hohenhausen }
 		{ dynnp_von dynn_Horn }
+		{ dynnp_von dynn_Mecklenburg }
+		{ dynnp_von dynn_Richenberg } #mecklen
+		{ dynnp_von dynn_Rostock }
 		{ dynnp_von dynn_Schwaan }
+		{ dynnp_von dynn_Stargard }
+		{ dynnp_von dynn_Werle }
 		#Prussian
 		{ dynnp_von dynn_Pretlack }
 		#Pfalzish
+		{ dynnp_von dynn_Affenstein }
 		{ dynnp_von dynn_Besnard }
 		{ dynnp_von dynn_Bretzenheim }
-		{ dynnp_von dynn_DÃ¼rckheim }
+		{ dynnp_von dynn_Dürckheim }
 		{ dynnp_von dynn_Reipoltskirchen }
 		{ dynnp_von dynn_Ried }
 		{ dynnp_von dynn_Scharfeneck }
@@ -265,18 +278,20 @@ name_list_german = {
 		{ dynnp_von dynn_Canstein } # Rabe von Canstein
 		{ dynnp_von dynn_Einbeck }
 		{ dynnp_von_dem dynn_Felde }
+		{ dynnp_von dynn_Hagendorn }
 		{ dynnp_von dynn_Hallermund }
 		{ dynnp_von dynn_Horrich }
 		{ dynnp_von dynn_Leuthorst }
 		{ dynnp_von dynn_Plittersdorf }
 		{ dynnp_von dynn_Schaumburg }
 		{ dynnp_von dynn_Soden }
+		{ dynnp_von dynn_Wülfingen }
 		#Westphalian
 		{ dynnp_von dynn_Anholt }
 		{ dynnp_von dynn_Bilstein }
 		{ dynnp_von dynn_Brambach }
 		{ dynnp_von dynn_Bruch }
-		{ dynnp_von dynn_BÃ¼ren }
+		{ dynnp_von dynn_Büren }
 		{ dynnp_von dynn_Dinklage }
 		{ dynnp_von dynn_Dyck }
 		{ dynnp_von dynn_Ellar }
@@ -286,7 +301,7 @@ name_list_german = {
 		{ dynnp_von dynn_Hoerstgen }
 		{ dynnp_von dynn_Lahr }
 		{ dynnp_von dynn_Lohn }
-		{ dynnp_von dynn_MÃ¼nster }
+		{ dynnp_von dynn_Münster }
 		{ dynnp_von dynn_Ottenstein }
 		{ dynnp_von dynn_Padberg }
 		{ dynnp_von dynn_Rabe }
@@ -294,14 +309,21 @@ name_list_german = {
 		{ dynnp_von dynn_Winterberg }
 		{ dynnp_von dynn_Wildenburg }
 		#Franconian
+
+		{ dynnp_von dynn_Appold } #franc
+		{ dynnp_von dynn_Falkenhausen } #franc
+		{ dynnp_von dynn_Hallerstein } #franc
+
+
 		{ dynnp_von dynn_Absberg }
 		{ dynnp_von dynn_Adelsheim }
 		{ dynnp_von dynn_Ahorn }
 		{ dynnp_von dynn_Ahrn } # Ahrn zu Seubitz
-		{ dynnp_von dynn_AufseÃŸ }
+		{ dynnp_von dynn_Aufseß }
 		{ dynnp_von dynn_Aschhausen }
 		{ dynnp_von dynn_Balitzheim }
 		{ dynnp_von dynn_Bayersdorff }
+		{ dynnp_von dynn_Bibart }
 		{ dynnp_von dynn_Bibra }
 		{ dynnp_von dynn_Bieberehren }
 		{ dynnp_von dynn_Bobenhausen }
@@ -310,7 +332,7 @@ name_list_german = {
 		{ dynnp_von dynn_Brandt }
 		{ dynnp_von dynn_Buchenau }
 		{ dynnp_zu dynn_Burgfarrnbach }
-		{ dynnp_von_der dynn_Cappel } #Cappel zu HaÃŸlach
+		{ dynnp_von_der dynn_Cappel } #Cappel zu Haßlach
 		{ dynnp_von dynn_Cottenau }
 		{ dynnp_von dynn_Dobeneck } #Dobeneck zu Brandstein
 		{ dynnp_von dynn_Dudelsheim }
@@ -333,42 +355,51 @@ name_list_german = {
 		{ dynnp_von dynn_Giebelstadt }
 		{ dynnp_von dynn_Giech }
 		{ dynnp_von dynn_Gottsmann }
-		{ dynnp_von_der dynn_GrÃ¼n }
+		{ dynnp_von dynn_Grabenhof } # Stettner von Grabenhof 
+		{ dynnp_von_der dynn_Grün }
+		{ dynnp_von dynn_Gundelsheim }
 		{ dynnp_von dynn_Guttenberg }
 		{ dynnp_von dynn_Haidenab }
 		{ dynnp_von dynn_Hasslach }
 		{ dynnp_von dynn_Hainold }
 		{ dynnp_von dynn_Heideck }
+		{ dynnp_von dynn_Herckam }
 		{ dynnp_von dynn_Herdegen }
-		{ dynnp_von dynn_HeÃŸberg }
+		{ dynnp_von dynn_Heßberg }
 		{ dynnp_von dynn_Hirschaid }
 		{ dynnp_von dynn_Hutten }
 		{ dynnp_von dynn_Imhof }
 		{ dynnp_von dynn_Jaxtheim }
 		{ dynnp_von dynn_Kemnath }
+		{ dynnp_von dynn_Kornburg } # Rieter von Kornburg und Kalbensteinberg
 		{ dynnp_von dynn_Kotzau }
-		{ dynnp_von dynn_KÃ¼nÃŸberg }
-		{ dynnp_von dynn_KÃ¶nigsfeld }
-		{ dynnp_von dynn_KÃ¶nitz }
+		{ dynnp_von dynn_Künßberg }
+		{ dynnp_von dynn_Königsfeld }
+		{ dynnp_von dynn_Könitz }
 		{ dynnp_von dynn_Krebs }
-		{ dynnp_von dynn_KÃ¼nÃŸberg }
+		{ dynnp_von dynn_Kressenstein } # Kreß von Kressenstein
+		{ dynnp_von dynn_Kuhdorf }
+		{ dynnp_von dynn_Künßberg }
 		{ dynnp_von dynn_Laineck }
 		{ dynnp_von dynn_Lentersheim }
 		{ dynnp_von dynn_Lindenfels }
-		{ dynnp_von dynn_LÃ¼chau }
+		{ dynnp_von dynn_Lochinger }
+		{ dynnp_von dynn_Lüchau }
 		{ dynnp_von dynn_Luschwitz }
-		{ dynnp_von dynn_MaÃŸbach }
+		{ dynnp_von dynn_Maßbach }
 		{ dynnp_von dynn_Minkwitz }
 		{ dynnp_von dynn_Mitwitz }
 		{ dynnp_von dynn_Modschiedler }
+		{ dynnp_von dynn_Mohrenfels } # Winkler von Mohrenfels
 		{ dynnp_von dynn_Mengersdorf }
 		{ dynnp_von dynn_Neustetter }
+		{ dynnp_von dynn_Ottenberg }
 		{ dynnp_von dynn_Otzberg }
 		{ dynnp_von dynn_Peulwitz }
 		{ dynnp_von dynn_Plankenberg }
 		{ dynnp_von dynn_Plassenberg }
-		{ dynnp_von dynn_PÃ¶lnitz }
-		{ dynnp_von dynn_PÃ¶tzing }
+		{ dynnp_von dynn_Pölnitz }
+		{ dynnp_von dynn_Pötzing }
 		{ dynnp_von dynn_Rabenstein }
 		{ dynnp_von dynn_Raittenbach }
 		{ dynnp_von dynn_Rabenstein }
@@ -377,23 +408,23 @@ name_list_german = {
 		{ dynnp_von dynn_Rotenhan }
 		{ dynnp_von dynn_Rothschutz }
 		{ dynnp_von dynn_Rosenau }
-		{ dynnp_von dynn_RuÃŸwurm }
+		{ dynnp_von dynn_Rußwurm }
 		{ dynnp_von dynn_Schirnding }
 		{ dynnp_von dynn_Schaumberg }
-		{ dynnp_von dynn_SchÃ¶llkrippen }
+		{ dynnp_von dynn_Schöllkrippen }
 		{ dynnp_von dynn_Schwarzenberg }
 		{ dynnp_von dynn_Seckendorff }
 		{ dynnp_von dynn_Sparneck }
-		{ dynnp_von dynn_SpeÃŸhardt }
-		{ dynnp_von dynn_Steinau } # Steinau genannt SteinrÃ¼ck
+		{ dynnp_von dynn_Speßhardt }
+		{ dynnp_von dynn_Steinau } # Steinau genannt Steinrück
 		{ dynnp_von dynn_Stiebar }
 		{ dynnp_von dynn_Streitberg }
 		{ dynnp_von dynn_Sugenheim }
 		{ dynnp_von_der dynn_Tann }
 		{ dynnp_von dynn_Thienheim }
 		{ dynnp_von dynn_Thun }
-		{ dynnp_von dynn_ThÃ¼ngen }
-		{ dynnp_von dynn_Trockau } #GroÃŸ von Trockau
+		{ dynnp_von dynn_Thüngen }
+		{ dynnp_von dynn_Trockau } #Groß von Trockau
 		{ dynnp_von dynn_Truppach }
 		{ dynnp_von dynn_Simmelsdorf } #Tucher von Simmelsdorf
 		{ dynnp_von dynn_Varell }
@@ -402,27 +433,43 @@ name_list_german = {
 		{ dynnp_von dynn_Wampach }
 		{ dynnp_von dynn_Waischenfeld }
 		{ dynnp_von dynn_Wannbach }
-		{ dynnp_von dynn_WeiÃŸ }
+		{ dynnp_von dynn_Weiß }
 		{ dynnp_von dynn_Weiher }
-		{ dynnp_von dynn_Wetzhausen } # TruchseÃŸ von Wetzhausen
+		{ dynnp_von dynn_Wetzhausen } # Truchseß von Wetzhausen
 		{ dynnp_von dynn_Weyer }
 		{ dynnp_von dynn_Wichsenstein } #ok coomer
 		{ dynnp_von dynn_Wiesenthau }
+		{ dynnp_von dynn_Wilhelmsdorf }
 		{ dynnp_von dynn_Wilhermsdorf }
-		{ dynnp_von dynn_WirÃŸberg }
+		{ dynnp_von dynn_Wirßberg }
 		{ dynnp_von dynn_Witzleben }
-		{ dynnp_von dynn_WÃ¼rtzburg }
+		{ dynnp_von dynn_Würtzburg }
 		{ dynnp_von dynn_Zedtwitz }
 		{ dynnp_von dynn_Zeyern }
 		#Saxon
-		{ dynnp_von dynn_KÃ¶nigsbrÃ¼ck }
+		{ dynnp_von dynn_Auritz }
+		{ dynnp_von dynn_Cottbus }
+		{ dynnp_von dynn_Drehna }
+		{ dynnp_von dynn_Finsterwalde }
+		{ dynnp_von dynn_Forst }
+		{ dynnp_von dynn_Golßen }
+		{ dynnp_von dynn_Königsbrück }
+		{ dynnp_von dynn_Lieberose }
+		{ dynnp_von dynn_Lübbenau }
 		{ dynnp_von dynn_Morungen }
+		{ dynnp_von dynn_Mühlberg }
 		{ dynnp_von dynn_Muskau }
 		{ dynnp_von dynn_Mylau }
 		{ dynnp_von dynn_Purschenstein }
-		{ dynnp_von dynn_SchÃ¶nberg }
-		{ dynnp_von dynn_SchÃ¶nburg }
+		{ dynnp_von dynn_Reichwalde }
+		{ dynnp_von dynn_Ruhland }
+		{ dynnp_von dynn_Schönberg }
+		{ dynnp_von dynn_Schönburg }
+		{ dynnp_von dynn_Sonnewalde }
+		{ dynnp_von dynn_Spremberg }
+		{ dynnp_von dynn_Straupitz }
 		{ dynnp_von dynn_Wildenfels }
+		{ dynnp_von dynn_Zossen }
 		#Ripuarian
 		{ dynnp_von dynn_Berchem }
 		{ dynnp_von dynn_Braunsberg }
@@ -433,7 +480,7 @@ name_list_german = {
 		{ dynnp_von dynn_Lissingen }
 		{ dynnp_von dynn_Merode }
 		{ dynnp_von dynn_Neuerburg }
-		{ dynnp_von dynn_OlbrÃ¼ck }
+		{ dynnp_von dynn_Olbrück }
 		{ dynnp_zu dynn_Rhein }
 		{ dynnp_von dynn_Styrum }
 		{ dynnp_von dynn_Wickrath }
@@ -444,10 +491,10 @@ name_list_german = {
 		{ dynnp_von dynn_Blieskastel }
 		{ dynnp_von dynn_Bretzenheim }
 		{ dynnp_von dynn_Dagstuhl }
-		{ dynnp_von dynn_JÃ¼nkerath }
+		{ dynnp_von dynn_Jünkerath }
 		{ dynnp_von dynn_Hattweiler }
 		{ dynnp_von dynn_Ottweiler }
-		{ dynnp_von dynn_PÃ¼ttlingen }
+		{ dynnp_von dynn_Püttlingen }
 		#Swabian
 		{ dynnp_von dynn_Aislingen }
 		{ dynnp_von dynn_Baldeck }
@@ -469,24 +516,25 @@ name_list_german = {
 		{ dynnp_von dynn_Eschach }
 		{ dynnp_von dynn_Freyberg }
 		{ dynnp_von dynn_Gemmingen }
-		{ dynnp_von dynn_GlÃ¶tt }
+		{ dynnp_von dynn_Glött }
 		{ dynnp_von dynn_Goldbach }
-		{ dynnp_von dynn_GÃ¼ltlingen }
+		{ dynnp_von dynn_Gültlingen }
 		{ dynnp_von dynn_Gundelsdorf }
+		{ dynnp_von dynn_Haltermannstetten } # Haldermannstetten
 		{ dynnp_von dynn_Helmishofen }
 		{ dynnp_von dynn_Heimenhofen }
-		{ dynnp_von dynn_HÃ¶lnstein }
+		{ dynnp_von dynn_Hölnstein }
 		{ dynnp_von dynn_Hohenberg }
 		{ dynnp_von dynn_Hohenschwangau }
 		{ dynnp_von dynn_Hornstein }
 		{ dynnp_von dynn_Jungingen }
 		{ dynnp_von dynn_Kallenberg }
-		{ dynnp_von dynn_KnÃ¶ringen }
+		{ dynnp_von dynn_Knöringen }
 		{ dynnp_von dynn_Laubenberg }
 		{ dynnp_von dynn_Liebenstein }
 		{ dynnp_von dynn_Mansberg }
 		{ dynnp_von dynn_Mindelberg }
-		{ dynnp_von dynn_MÃ¶llenbronn }
+		{ dynnp_von dynn_Möllenbronn }
 		{ dynnp_von dynn_Mundeldingen }
 		{ dynnp_von dynn_Neidegg }
 		{ dynnp_von dynn_Neuffen }
@@ -501,13 +549,15 @@ name_list_german = {
 		{ dynnp_von dynn_Rheinau }
 		{ dynnp_von dynn_Riedheim } 
 		{ dynnp_von dynn_Rotenstein }
-		{ dynnp_von dynn_Roth } # Roth von BuÃŸmannshausen, Roth von Schreckenstein
+		{ dynnp_von dynn_Roth } # Roth von Bußmannshausen, Roth von Schreckenstein
 		{ dynnp_von dynn_Schad } # Schad von Mittelbiberach
-		{ dynnp_von dynn_SchÃ¶nenberg }
+		{ dynnp_von dynn_Schönenberg }
 		{ dynnp_von dynn_Schelklingen }
 		{ dynnp_von dynn_Schertlin } # Schertlin von Burtenbach
+		{ dynnp_von dynn_Schenkenstein }
 		{ dynnp_von dynn_Schienen }
-		{ dynnp_von dynn_SchÃ¶nenberg }
+		{ dynnp_von dynn_Schönenberg }
+		{ dynnp_von dynn_Schrozberg }
 		{ dynnp_von dynn_Schwabeck }
 		{ dynnp_von dynn_Schwendi }
 		{ dynnp_von dynn_Sindolsheim }
@@ -520,13 +570,14 @@ name_list_german = {
 		{ dynnp_von dynn_Tieringen }
 		{ dynnp_von dynn_Ulm } # Ulm zu Erbach
 		{ dynnp_von dynn_Urslingen }
-		{ dynnp_von dynn_Ãœsenberg }
-		{ dynnp_von dynn_VÃ¶hlin } # VÃ¶hlin von Frickenhausen
+		{ dynnp_von dynn_Üsenberg }
+		{ dynnp_von dynn_Vöhlin } # Vöhlin von Frickenhausen
 		{ dynnp_von dynn_Wagegg }
 		{ dynnp_von dynn_Waldburg }
 		{ dynnp_von dynn_Walsee }
 		{ dynnp_von dynn_Welden }
 		{ dynnp_von dynn_Weiler }
+		{ dynnp_von dynn_Woellwarth }
 		{ dynnp_ab dynn_Yberg }
 		{ dynnp_von dynn_Zech } # Zech von Deubach
 		#Alemannic
@@ -536,23 +587,27 @@ name_list_german = {
 		{ dynnp_von dynn_Bienburg }
 		{ dynnp_von dynn_Bludenz }
 		{ dynnp_von dynn_Bodman }
-		{ dynnp_von dynn_BÃ¼zer }
+		{ dynnp_von dynn_Bulach } #Zorn von Bulach 
+		{ dynnp_von dynn_Büzer }
 		{ dynnp_von dynn_Dankertsweiler }
+		{ dynnp_von dynn_Dolle } # Dolle von Markdorf
 		{ dynnp_von dynn_Eberz }
+		{ dynnp_von dynn_Eckwersheim } # Marx von Eckwersheim
 		{ dynnp_von dynn_Efrizweiler }
 		{ dynnp_von dynn_Eisenbach }
 		{ dynnp_von dynn_Ernolsheim } # Schott von Ernolsheim
 		{ dynnp_von dynn_Ems } # Ems zu Hohenems
 		{ dynnp_von dynn_Essendorf }
 		{ dynnp_von dynn_Hasenried }
+		{ dynnp_von dynn_Herdern } # Bettler von Herdern
 		{ dynnp_von dynn_Hohenfels }
 		{ dynnp_von dynn_Hohentann } # Hohentann von Hoheneck
-		{ dynnp_von dynn_Friedingen } # Friedingen zu HohenkrÃ¤hen
-		{ dynnp_von dynn_GÃ¤rtringen } #Hiller von Gaertringen
-		{ dynnp_von dynn_GÃ¶nningen }
+		{ dynnp_von dynn_Friedingen } # Friedingen zu Hohenkrähen
+		{ dynnp_von dynn_Gärtringen } #Hiller von Gaertringen
+		{ dynnp_von dynn_Gönningen }
 		{ dynnp_von dynn_Gosholz }
 		{ dynnp_von dynn_Griesingen }
-		{ dynnp_von dynn_GrÃ¼ningen }
+		{ dynnp_von dynn_Grüningen }
 		{ dynnp_von dynn_Gundelfingen }
 		{ dynnp_von dynn_Hefenler }
 		{ dynnp_von dynn_Hertenstein }
@@ -561,12 +616,12 @@ name_list_german = {
 		{ dynnp_von dynn_Horben }
 		{ dynnp_von dynn_Horheim }
 		{ dynnp_von dynn_Hornstein }
-		{ dynnp_von dynn_HÃ¼ttenreute }
-		{ dynnp_von dynn_HÃ¶wdorf }
+		{ dynnp_von dynn_Hüttenreute }
+		{ dynnp_von dynn_Höwdorf }
 		{ dynnp_von dynn_Ittendorf }
 		{ dynnp_von dynn_Ittenhausen }
 		{ dynnp_von dynn_Kirneck }
-		{ dynnp_von dynn_KÃ¶nigsegg }
+		{ dynnp_von dynn_Königsegg }
 		{ dynnp_von dynn_Krachenfels }
 		{ dynnp_von dynn_Krenkingen }
 		{ dynnp_von dynn_Jestetten }
@@ -580,8 +635,8 @@ name_list_german = {
 		{ dynnp_von dynn_Mettenbuch }
 		{ dynnp_von dynn_Meldegg }
 		{ dynnp_von dynn_Montfort }
-		{ dynnp_von dynn_MÃ¼hlhofen } #MÃ¼hlhofen and Hug vom Heiligenberg
-		{ dynnp_von dynn_MÃ¼llheim }
+		{ dynnp_von dynn_Mühlhofen } #Mühlhofen and Hug vom Heiligenberg
+		{ dynnp_von dynn_Müllheim }
 		{ dynnp_von dynn_Neufrach }
 		{ dynnp_von dynn_Oberkirch }
 		{ dynnp_von dynn_Pfaffenheim }
@@ -623,7 +678,7 @@ name_list_german = {
 		{ dynnp_zum dynn_Angen }
 		{ dynnp_von dynn_Anweil }
 		{ dynnp_von dynn_Altenklingen }
-		{ dynnp_von dynn_AltstÃ¤tten }
+		{ dynnp_von dynn_Altstätten }
 		{ dynnp_von dynn_Arbon }
 		{ dynnp_von dynn_Arsent }
 		{ dynnp_von dynn_Aspermont }
@@ -634,31 +689,34 @@ name_list_german = {
 		{ dynnp_von dynn_Bizzenhofen }
 		{ dynnp_von dynn_Blarer } # Blarer von Wartensee
 		{ dynnp_von dynn_Blattenberg }
+		{ dynnp_von dynn_Blidegg } # Welter von Blidegg
 		{ dynnp_von dynn_Blumegg }
 		{ dynnp_von dynn_Brunnenfeld }
-		{ dynnp_von dynn_BrÃ¼msi }
+		{ dynnp_von dynn_Brümsi }
 		{ dynnp_von dynn_Buchegg }
-		{ dynnp_von dynn_BÃ¼hl }
-		{ dynnp_von dynn_BÃ¼rglen }
+		{ dynnp_von dynn_Bühl }
+		{ dynnp_von dynn_Bürglen }
 		{ dynn_Chienstein } # Patrician?
+		{ dynn_Degersheim } #Patrician?
 		{ dynnp_von dynn_Diessenhofen }
 		{ dynnp_von dynn_End }
 		{ dynnp_von dynn_Eppenberg }
 		{ dynnp_von dynn_Eptingen }
+		{ dynnp_von dynn_Fackelstein }
 		{ dynnp_von dynn_Frauenberg }
 		{ dynnp_von dynn_Friedrich }
 		{ dynnp_von dynn_Gloten }
-		{ dynnp_von dynn_GÃ¶sgen }
+		{ dynnp_von dynn_Gösgen }
 		{ dynnp_von dynn_Grassauer }
 		{ dynnp_von dynn_Greifensee }
 		{ dynnp_von dynn_Greifenstein }
 		{ dynnp_von dynn_Grenzer }
 		{ dynnp_von dynn_Griesenberg }
-		{ dynnp_von dynn_GrÃ¼nenberg }
-		{ dynnp_von dynn_GrÃ¼nenstein }
+		{ dynnp_von dynn_Grünenberg }
+		{ dynnp_von dynn_Grünenstein }
 		{ dynnp_von dynn_Gutenburg }
-		{ dynnp_von dynn_GÃ¼ttingen }
-		{ dynnp_von dynn_HÃ¤gendorf }
+		{ dynnp_von dynn_Güttingen }
+		{ dynnp_von dynn_Hägendorf }
 		{ dynnp_ab_der dynn_Haid }
 		{ dynn_Hasenbein } # Patrician?
 		{ dynnp_von dynn_Heidelberg }
@@ -667,14 +725,14 @@ name_list_german = {
 		{ dynnp_von dynn_Helmsdorf }
 		{ dynnp_von dynn_Hettlingen }
 		{ dynnp_von dynn_Helwer }
-		{ dynnp_von dynn_HÃ¶chst }
+		{ dynnp_von dynn_Höchst }
 		{ dynnp_von dynn_Hohenklingen }
 		{ dynnp_von dynn_Hohensax }
 		{ dynnp_von dynn_Homberg }
 		{ dynnp_von dynn_Hottingen }
-		{ dynnp_von dynn_HÃ¼ningen } # Meier von HÃ¼ningen 
-		{ dynnp_von dynn_HÃ¼rling }
-		{ dynnp_von dynn_HÃ¼nerhusen }
+		{ dynnp_von dynn_Hüningen } # Meier von Hüningen 
+		{ dynnp_von dynn_Hürling }
+		{ dynnp_von dynn_Hünerhusen }
 		{ dynnp_von dynn_Kamerer }
 		{ dynnp_von dynn_Kellershals }
 		{ dynnp_von dynn_Kirchberg }
@@ -685,11 +743,12 @@ name_list_german = {
 		{ dynnp_von dynn_Kriech }
 		{ dynnp_von dynn_Knonau }
 		{ dynn_Kuchimester } # Patrician
-		{ dynnp_von dynn_KÃ¼ssenberg }
+		{ dynnp_von dynn_Küssenberg }
 		{ dynnp_von dynn_Landegg } # Schenk von Landegg
 		{ dynnp_von dynn_Landenberg }
 		{ dynnp_von dynn_Langenstein }
 		{ dynnp_von dynn_Laubgassen }
+		{ dynnp_von dynn_Lichtenfeld }
 		{ dynnp_von dynn_Liebenberg }
 		{ dynnp_von dynn_Lommis }
 		{ dynnp_von dynn_Magelshofen }
@@ -699,8 +758,9 @@ name_list_german = {
 		{ dynnp_von dynn_Matsch }
 		{ dynnp_von dynn_Matzingen }
 		{ dynnp_von dynn_Montalt }
-		{ dynn_MÃ¼lner } #Patrician
-		{ dynnp_von dynn_MÃ¼ris }
+		{ dynn_Mülner } #Patrician
+		{ dynnp_von dynn_Münsingen } #Senn von Münsingen 
+		{ dynnp_von dynn_Müris }
 		{ dynnp_von dynn_Om }
 		{ dynnp_von dynn_Radegg }
 		{ dynnp_von dynn_Ramsberg }
@@ -717,12 +777,12 @@ name_list_german = {
 		{ dynnp_von dynn_Rorschach }
 		{ dynnp_von dynn_Rossberg }
 		{ dynnp_von dynn_Rotberg }
-		{ dynnp_von dynn_RÃ¶tteln }
-		{ dynnp_von dynn_RÃ¼dberg }
-		{ dynnp_von dynn_RÃ¼dlingen }
-		{ dynnp_von dynn_RÃ¼mlang }
+		{ dynnp_von dynn_Rötteln }
+		{ dynnp_von dynn_Rüdberg }
+		{ dynnp_von dynn_Rüdlingen }
+		{ dynnp_von dynn_Rümlang }
 		{ dynnp_von dynn_Runslingen }
-		{ dynnp_von dynn_RÃ¼ti }
+		{ dynnp_von dynn_Rüti }
 		{ dynnp_von dynn_Sal } 
 		{ dynnp_von dynn_Sax }
 		{ dynnp_von dynn_Schafli }
@@ -731,11 +791,13 @@ name_list_german = {
 		{ dynnp_von dynn_Schifer }
 		{ dynn_Schildt } # Patrician?
 		{ dynnp_von dynn_Schlatt }
-		{ dynnp_von dynn_SchÃ¶negg }
-		{ dynnp_von dynn_SchÃ¶nen }
-		{ dynnp_von dynn_SchÃ¶nenstein }
+		{ dynnp_von dynn_Schönegg }
+		{ dynnp_von dynn_Schönen }
+		{ dynnp_von dynn_Schönenstein }
+		{ dynn_Schulmeister } # Patrician?
 		{ dynnp_von dynn_Schwandegg }
 		{ dynnp_von dynn_Schwanden }
+		{ dynnp_von dynn_Snel } # Snel von Bürglen
 		{ dynnp_zur dynn_Sonnen }
 		{ dynn_Spender } # Patrician?
 		{ dynnp_von dynn_Spiegelberg }
@@ -749,9 +811,9 @@ name_list_german = {
 		{ dynnp_von dynn_Thierstein }
 		{ dynnp_von dynn_Tierstein }
 		{ dynnp_zum dynn_Tor }
-		{ dynnp_von dynn_TÃ¶ss }
+		{ dynnp_von dynn_Töss }
 		{ dynnp_von dynn_Trutgeselle }
-		{ dynnp_von dynn_TÃ¼fel }
+		{ dynnp_von dynn_Tüfel }
 		{ dynnp_zum dynn_Turm }
 		{ dynnp_von dynn_Vasolt }
 		{ dynnp_von dynn_Vaz }
@@ -765,8 +827,9 @@ name_list_german = {
 		{ dynnp_von dynn_Wiesendangen }
 		{ dynnp_von dynn_Wildenberg }
 		{ dynnp_von dynn_Windegg }
+		{ dynn_Wissingen } # Patrician?
 		{ dynnp_von dynn_Wunnenberg }
-		{ dynnp_von dynn_ZÃ¼rnler }
+		{ dynnp_von dynn_Zürnler }
 		#Austrian
 		{ dynnp_von dynn_Aufenstein }
 		{ dynnp_von dynn_Bartenstein }
@@ -774,28 +837,30 @@ name_list_german = {
 		{ dynnp_von dynn_Boymont } # Boymont zu Payrsberg
 		{ dynnp_von dynn_Deuring }
 		{ dynnp_von dynn_Elsenheim }
-		{ dynnp_von dynn_Gamsendorf } #ZÃ¡sadskÃ½ von Gamsendorf
+		{ dynnp_von dynn_Gamsendorf } #Zásadský von Gamsendorf
+		{ dynnp_von dynn_Laubegg } # Lauber von Laubegg
 		{ dynnp_von dynn_Liebenfels }
 		{ dynnp_von dynn_Lilienberg } # Vetter von Lilienberg 
 		{ dynnp_von dynn_Lochen }
 		{ dynnp_von dynn_Mangoldt }
 		{ dynnp_von dynn_Morgenstern }
 		{ dynnp_von dynn_Salzburg }
-		{ dynnp_von dynn_SchÃ¤rffenberg }
+		{ dynnp_von dynn_Schärffenberg }
 		{ dynnp_von dynn_Schellenberg }
-		{ dynnp_von dynn_SchÃ¶henbÃ¼hel } #SchÃ¶henbÃ¼hel von Allensbach
-		{ dynnp_von dynn_SchweiÃŸing } #ZmrzlÃ­k von SchweiÃŸing
+		{ dynnp_von dynn_Schöhenbühel } #Schöhenbühel von Allensbach
+		{ dynnp_von dynn_Schweißing } #Zmrzlík von Schweißing
 		{ dynnp_von dynn_Starhemberg }
 		{ dynnp_von dynn_Sternegg }
 		{ dynnp_von dynn_Tannberg }
-		{ dynnp_von dynn_TÃ¤nzl } # TÃ¤nzl von Tratzberg
+		{ dynnp_von dynn_Tänzl } # Tänzl von Tratzberg
 		{ dynnp_von dynn_Tschernembl }
 		{ dynnp_von dynn_Tschugguel }
 		{ dynnp_von dynn_Unverzagt }
 		{ dynnp_von dynn_Volkenstorf }
+		{ dynnp_von dynn_Vorst }
 		{ dynnp_von dynn_Webenau } # Weber von Webenau
 		{ dynnp_von dynn_Webern }
-		{ dynnp_von dynn_WeiÃŸpriach }
+		{ dynnp_von dynn_Weißpriach }
 		{ dynnp_von dynn_Wellenheim } # Welzl von Wellenheim
 		{ dynnp_von dynn_Wernhardt }
 		{ dynnp_von dynn_Westenholz }
@@ -816,78 +881,73 @@ name_list_german = {
 		{ dynnp_von dynn_Ahlimb }
 		{ dynnp_von dynn_Arenstorff }
 		{ dynnp_von dynn_Arnim }
+		{ dynnp_von dynn_Badingen }
+		{ dynnp_von dynn_Baruth }
 		{ dynnp_von dynn_Barby }
 		{ dynnp_von dynn_Bardeleben }
 		{ dynnp_von dynn_Barfus }
 		{ dynnp_von dynn_Barnewitz }
 		{ dynnp_von dynn_Barsdorf }
+		{ dynnp_von dynn_Beeskow }
+		{ dynnp_von dynn_Freyenstein }
+		{ dynnp_von dynn_Leuthen }
 		{ dynnp_von dynn_Lindau }
+		{ dynnp_von dynn_Neuhardenberg }
+		{ dynnp_von dynn_Ruppin }
 		{ dynnp_von dynn_Schlieben }
+		{ dynnp_von dynn_Storkow }
+		{ dynnp_von dynn_Teupitz }
 		{ dynnp_von dynn_Walternienburg }		
-		
-		# ZÃ¼rich Roll of Arms Page 361-480
-		#{ dynn_Wissingen }
-		{ dynnp_von dynn_Horneck }
-		{ dynnp_von dynn_Aichelberg }
-		{ dynnp_von dynn_Wurmlingen }
-		{ dynnp_von dynn_Konigsholz }
-		{ dynnp_von dynn_Goldast }
-		{ dynnp_von dynn_Dettighofen }
-		#{ dynn_Schulmeister }
-		{ dynnp_von dynn_Lichtenfeld }
-		{ dynnp_von dynn_Flachsland }
-		{ dynnp_von dynn_Fackelstein }
-		#{ dynn_Degerheim }
-		{ dynnp_von dynn_Rotberg }
-		{ dynnp_von dynn_Hasenweiler }
-		{ dynnp_von dynn_Hattstatt }
-		{ dynnp_von dynn_Torberg }
-		{ dynnp_von dynn_Munsingen }
-		{ dynnp_von dynn_Zorn }
-		{ dynnp_von dynn_Stubenweg }
-		{ dynnp_von dynn_Mullenheim }
-		{ dynnp_von dynn_Munchenstain }
-		{ dynnp_von dynn_Bollweiler }
-		{ dynnp_von dynn_Eckwersheim }
-		{ dynnp_von dynn_Randenburg }
-		{ dynnp_von dynn_Bonstetten }
-		{ dynnp_von dynn_Laubegg }
-		{ dynnp_von dynn_Randeck }
-		{ dynnp_von dynn_Wassersteltz }
-		{ dynnp_von dynn_Kurnbach }
-		{ dynnp_von dynn_Wolfsattel }
-		{ dynnp_von dynn_Wulfingen }
-		{ dynnp_von dynn_Briner }
-		{ dynnp_von dynn_Moos }
-		{ dynnp_von dynn_Baumburg }
-		{ dynnp_von dynn_Rechberg }
-		{ dynnp_von dynn_Hun }
-		{ dynnp_von dynn_Wart }
-		{ dynnp_zu dynn_Syrgenstein  }
-		{ dynnp_von dynn_Tannenfels }
-		{ dynnp_von dynn_Leuberg }
-		{ dynnp_von dynn_Razenriet }
-		{ dynnp_von dynn_Burglen }
-		{ dynnp_von dynn_Affenstein }
-		{ dynnp_von dynn_Markdorf }
-		{ dynnp_von dynn_Schrundholz }
-		{ dynnp_von dynn_Reichenbach }
-		{ dynnp_von dynn_Burst }
-		{ dynnp_von dynn_Kaplan }
-		{ dynnp_von dynn_Stuben }
-		{ dynnp_von dynn_Herrlingen }
-		{ dynnp_von dynn_Herdern }
-		{ dynnp_von dynn_Hagendorn }
-		{ dynnp_von dynn_Zezikon }
-		{ dynnp_von dynn_Riedhausen }
-		{ dynnp_von dynn_Blidegg }
-		{ dynnp_von dynn_Heggelbach }
-		{ dynnp_am dynn_Hard }
-		{ dynnp_von dynn_Stubenwid }
-		{ dynnp_von dynn_Ammenhausen }
-		{ dynnp_von dynn_Summerau }
-		{ dynnp_von dynn_Bildstein }
-		{ dynnp_von dynn_Hugelshofen }
+		{ dynnp_von dynn_Zauche }
+
+		# Zürich Roll of Arms Page 361-480
+		{ dynnp_von dynn_Horneck } #swab
+		{ dynnp_von dynn_Aichelberg } #swab
+		{ dynnp_von dynn_Wurmlingen } #swab
+		{ dynnp_von dynn_Königsholz } #swiss
+		{ dynnp_von dynn_Goldast } #swiss
+		{ dynnp_von dynn_Dettighofen } #alem
+
+		{ dynnp_von dynn_Hasenweiler } #alem
+		{ dynnp_von dynn_Hattstatt } #alem
+		{ dynnp_von dynn_Torberg } #swiss
+		{ dynnp_von dynn_Stubenweg } #austr
+		{ dynnp_von dynn_Mülheim } # rhenish
+		{ dynnp_von dynn_Bollweiler } #swiss
+		{ dynnp_zu dynn_Schaler } #swiss
+		{ dynnp_von dynn_Randenburg } #franc
+		{ dynnp_von dynn_Bonstetten } #swiss
+		{ dynnp_von dynn_Randeck } #bavarian
+		{ dynnp_von dynn_Wasserstelz } #alema
+		{ dynnp_von dynn_Kürnbach } #swab
+		{ dynnp_von dynn_Wolfsattel } #bav
+		{ dynnp_von dynn_Briner } #swiss
+		{ dynnp_von dynn_Moos } #swiss
+		{ dynnp_von dynn_Baumburg } #swiss
+		{ dynnp_von dynn_Rechberg } #swab
+		{ dynnp_von dynn_Hün } #swiss
+		{ dynnp_von dynn_Wart } #swiss
+		{ dynnp_von dynn_Syrgenstein } #alem
+		{ dynnp_von dynn_Burgberg } #alem
+		{ dynnp_von dynn_Tannenfels } #swab
+		{ dynnp_von dynn_Leuberg } #swiss
+		{ dynnp_von dynn_Ratzenried } #alem
+		{ dynnp_von dynn_Schrundholz } #alem
+		{ dynnp_von dynn_Reichenbach } #hess
+		{ dynnp_von dynn_Burst } #swiss
+		{ dynnp_von dynn_Kaplan } #swiss
+		{ dynnp_von dynn_Stuben } #swiss
+		{ dynnp_von dynn_Herrlingen } #swab
+
+		{ dynnp_von dynn_Zezikon } #swiss
+		{ dynnp_von dynn_Riedhausen } #alem
+		{ dynnp_von dynn_Heggelbach } #alem
+		{ dynnp_am dynn_Hard } #swiss
+		{ dynnp_von dynn_Stubenwid } #swiss
+		{ dynnp_von dynn_Ammenhausen } #hess
+		{ dynnp_von dynn_Sumerau } #alem
+		{ dynnp_von dynn_Bildstein } #swiss
+		{ dynnp_von dynn_Hugelshofen }#swiss
 		{ dynnp_von dynn_Hegi }
 		{ dynnp_von dynn_Weinfelden }
 		{ dynnp_von dynn_Oberriedern }
@@ -1002,75 +1062,6 @@ name_list_german = {
 		{ dynnp_von dynn_Sulburg }
 		{ dynnp_von dynn_Rodenstein }
 		{ dynnp_von dynn_Zylnhardt }
-	
-		#AltmÃ¼hl
-		
-		
-		
-		
-		{ dynnp_von dynn_Wollwarth }
-		{ dynnp_von dynn_Gundelsheim }
-		{ dynnp_von dynn_Haltermannstetten }
-		{ dynnp_von dynn_Herckam }
-		{ dynnp_von dynn_Kuhdorf }
-		{ dynnp_von dynn_Lochinger }
-		{ dynnp_von dynn_Ottenberg }
-		{ dynnp_von dynn_Bibart }
-		{ dynnp_von dynn_Schenkenstein }
-		{ dynnp_von dynn_Schrotzberg }
-		{ dynnp_von dynn_Wilhelmsdorf }
-		{ dynnp_von dynn_Appold }
-		{ dynnp_von dynn_Berga }
-		{ dynnp_von dynn_Auritz }
-		{ dynnp_von dynn_Falkenhausen }
-		{ dynnp_von dynn_Hallerstein }
-		{ dynnp_von dynn_Kressenstein }
-		{ dynnp_von dynn_Leublfing }
-		{ dynnp_von dynn_Grabenhof }
-		{ dynnp_von dynn_Mohrenfels }
-		{ dynnp_von dynn_Kornburg }
-
-
-		
-	
-
-
-
-
-
-		{ dynnp_von dynn_Badingen }
-		{ dynnp_von dynn_Baruth }
-		{ dynnp_von dynn_Beeskow }
-		{ dynnp_von dynn_Cottbus }
-		{ dynnp_von dynn_Drehna }
-		{ dynnp_von dynn_Finsterwalde }
-		{ dynnp_von dynn_Forst }
-		{ dynnp_von dynn_Freyenstein }
-		{ dynnp_von dynn_Golssen }
-		{ dynnp_von dynn_Neu-Hardenberg }
-		{ dynnp_von dynn_Leuthen }
-		{ dynnp_von dynn_Lieberose }
-		{ dynnp_von dynn_Lubbenau }
-		{ dynnp_von dynn_Muhlberg }
-		{ dynnp_von dynn_Reichwalde }
-		{ dynnp_von dynn_Ruhland }
-		{ dynnp_von dynn_Ruppin }
-		{ dynnp_von dynn_Sonnewalde }
-		{ dynnp_von dynn_Spremberg }
-		{ dynnp_von dynn_Straupitz }
-		{ dynnp_von dynn_Storkow }
-		{ dynnp_von dynn_Teupitz }
-		{ dynnp_von dynn_Zauche }
-		{ dynnp_von dynn_Zossen }
-
-		
-
-		{ dynnp_von dynn_Mecklenburg }
-		{ dynnp_von dynn_Richenberg }
-		{ dynnp_von dynn_Rostock }
-		{ dynnp_von dynn_Stargard }
-		{ dynnp_von dynn_Werle }
-
 	}
 	dynasty_of_location_prefix = "dynnp_von"
 
@@ -1078,8 +1069,6 @@ name_list_german = {
 	pat_grf_name_chance = 50
 	mat_grf_name_chance = 5
 	father_name_chance = 10
-	patronym_suffix_male = "dynnpat_suf_son"
-	patronym_suffix_female = "dynnpat_suf_son"
 	
 	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 	pat_grm_name_chance = 10

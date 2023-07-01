@@ -8,36 +8,49 @@ k_italy = {
 	}
 }
 
-#Trent
-c_trent = {
-	1006.1.1 = {
-		holder = trent_uldarico_1
-	}
-	1022.1.1 = {
-		holder = trent_uldarico_2
+#Genoa
+k_genoa = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = spinola1 # Andrea I
 	}
 }
-c_bozen = {
-	1006.1.1 = {
-		holder = trent_uldarico_1
-	}
-	1022.1.1 = {
-		holder = trent_uldarico_2
+d_genoa = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = spinola1 # Andrea I
 	}
 }
-c_rovereto = {
-	1006.1.1 = {
-		holder = trent_uldarico_1
+c_genoa = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = spinola1 # Andrea I
 	}
-	1022.1.1 = {
-		holder = trent_uldarico_2
+}
+c_la_spezia = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = spinola1 # Andrea I
 	}
 }
 
-#Trieste
-c_trieste = {
-	1050.1.1 = {
-		holder = tybein1
+#Pisa
+k_pisa = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = orlandi1 # Giovanni
+	}
+}
+d_pisa = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = orlandi1 # Giovanni
+	}
+}
+c_pisa = {
+	1000.1.1 = { government = republic_government }
+	1054.1.1 = {
+		holder = orlandi1 # Giovanni
 	}
 }
 
@@ -48,55 +61,23 @@ k_venice = {
 		holder = contarini1
 	}
 }
+d_venice = {
+	697.1.1 = { government = republic_government }
+	1043.1.1 = {
+		holder = contarini1
+	}
+}
 c_veneto = {
+	697.1.1 = { government = republic_government }
 	1043.1.1 = {
 		holder = contarini1
 	}
 }
 
-#Aquileia
-c_friuli = {
-	1049.1.1 = {
-		holder = aquileia_gotebald
-	}
-}
-c_tolmezzo = {
-	1049.1.1 = {
-		holder = aquileia_gotebald
-	}
-}
-c_pordenone = {
-	1049.1.1 = {
-		holder = aquileia_gotebald
-	}
-}
-
-#Treviso
-c_treviso = {
-	1054.1.1 = {
-		holder = collalto1 # Rambaldo III
-	}
-}
-c_belluno = {
-	1054.1.1 = {
-		holder = collalto1 # Rambaldo III
-	}
-}
-c_padua = {
-	1054.1.1 = {
-		holder = collalto1 # Rambaldo III
-	}
-}
-
-#Verona
-c_verona = {
-	1054.1.1 = {
-		holder = widoning1 # Uberto I
-	}
-}
-c_vicenza = {
-	1054.1.1 = {
-		holder = widoning1 # Uberto I
+#Trieste
+c_trieste = {
+	1050.1.1 = {
+		holder = tybein1
 	}
 }
 
@@ -116,34 +97,51 @@ c_savona = {
 		holder = vasto1 # Ottone I
 	}
 }
-c_finale = {
-	1050.1.1 = {
-		holder = vasto1 # Ottone I
+
+#Aquileia
+c_friuli = {
+	1049.1.1 = {
+		holder = calw6
+	}
+}
+c_aquileia = {
+	1049.1.1 = {
+		holder = calw6
+	}
+}
+c_pordenone = {
+	1049.1.1 = {
+		holder = calw6
+	}
+}
+c_carnia = {
+	1049.1.1 = {
+		holder = calw6
+	}
+}
+c_cadore = {
+	1049.1.1 = {
+		holder = calw6
 	}
 }
 
-#Ravenna
-c_ravenna = {
-	1051.8.23 = {
-		holder = ravenna_enrico # Enrico I
-	}
-}
-c_forli = {
-	1051.8.23 = {
-		holder = ravenna_enrico # Enrico I
-	}
-}
-c_carpegna = {
-	1051.8.23 = {
-		holder = ravenna_enrico # Enrico I
-	}
-}
-
-#Aosta
-c_aosta = {
+#Cremona
+c_cremona = {
 	1054.1.1 = {
-		liege = d_savoie
-		holder = challant1 # Bavo I
+		holder = ugoning1 # Ugo II
+	}
+}
+c_asola = {
+	1054.1.1 = {
+		holder = ugoning1 # Ugo II
+	}
+}
+
+#Perugia
+c_perugia = {
+	1038.1.1 = {
+		liege = k_papal_state
+		holder = farolfing1 # Winildo I
 	}
 }
 
@@ -178,16 +176,26 @@ c_cuneo = {
 		holder = arduining1 # Adelaide
 	}
 }
-c_ceva = {
+c_carretto = {
+	1034.10.2 = {
+		holder = arduining1 # Adelaide
+	}
+}
+c_susa = {
+	1034.10.2 = {
+		holder = arduining1 # Adelaide
+	}
+}
+c_albenga = {
 	1034.10.2 = {
 		holder = arduining1 # Adelaide
 	}
 }
 
-#Ivrea
-c_ivrea = {
-	1041.1.1 = {
-		holder = anskaring23 # Guido I
+#Milan
+c_milano = {
+	1029.1.1 = {
+		holder = este1 # Alberto Azzo II
 	}
 }
 
@@ -223,6 +231,139 @@ c_san_miniato = {
 	}
 }
 
+#Ferrara
+c_ferrara = {
+	1052.5.6 = {
+		holder = attoning2 # Frederico I
+	}
+}
+
+#Vernio
+c_vernio = {
+	1045.1.1 = {
+		holder = alberti1 # Ildebrando III
+	}
+}
+
+#Aosta
+c_aosta = {
+	1054.1.1 = {
+		liege = d_savoie
+		holder = challant1 # Bavo I
+	}
+}
+
+#Trent
+c_trent = {
+	1006.1.1 = {
+		holder = trent_uldarico_1
+	}
+	1022.1.1 = {
+		holder = trent_uldarico_2
+	}
+}
+c_fassa = {
+	1006.1.1 = {
+		holder = trent_uldarico_1
+	}
+	1022.1.1 = {
+		holder = trent_uldarico_2
+	}
+}
+
+#Treviso
+c_treviso = {
+	1054.1.1 = {
+		holder = collalto1 # Rambaldo III
+	}
+}
+c_belluno = {
+	1054.1.1 = {
+		holder = collalto1 # Rambaldo III
+	}
+}
+c_ceneda = {
+	1054.1.1 = {
+		holder = collalto1 # Rambaldo III
+	}
+}
+
+#Ventimiglia
+c_ventimiglia = {
+	1038.1.1 = {
+		liege = d_piedmonte #?
+		holder = ventimiglia1 # Ottone I
+	}
+}
+
+#Verona
+c_verona = {
+	1054.1.1 = {
+		holder = widoning1 # Uberto I
+	}
+}
+c_vicenza = {
+	1054.1.1 = {
+		holder = widoning1 # Uberto I
+	}
+}
+
+#Lomello
+c_lomellina = {
+	1054.1.1 = {
+		holder = widoning2 # Ottone I of Lomello
+	}
+}
+c_pavia = {
+	1054.1.1 = {
+		holder = widoning2 # Ottone I of Lomello
+	}
+}
+
+#Ravenna
+c_ravenna = {
+	1051.8.23 = {
+		holder = ravenna_enrico # Enrico I
+	}
+}
+c_forli = {
+	1051.8.23 = {
+		holder = ravenna_enrico # Enrico I
+	}
+}
+c_bagno = {
+	1051.8.23 = {
+		holder = ravenna_enrico # Enrico I
+	}
+}
+c_este = {
+	1051.8.23 = {
+		holder = ravenna_enrico # Enrico I
+	}
+}
+c_imola = {
+	1051.8.23 = {
+		holder = ravenna_enrico # Enrico I
+	}
+}
+c_rimini = {
+	1051.8.23 = {
+		holder = ravenna_enrico # Enrico I
+	}
+}
+c_cesena = {
+	1051.8.23 = {
+		holder = ravenna_enrico # Enrico I
+	}
+}
+
+#Ivrea
+c_ivrea = {
+	1041.1.1 = {
+		holder = anskaring23 # Guido I
+	}
+}
+
 #Mantua
 c_mantua = {
 	1052.5.6 = {
@@ -243,25 +384,6 @@ c_reggio = {
 		holder = attoning2 # Frederico I
 	}
 }
-c_frignano = {
-	1052.5.6 = {
-		holder = attoning2 # Frederico I
-	}
-}
-
-#Ferrara
-c_ferrara = {
-	1052.5.6 = {
-		holder = attoning2 # Frederico I
-	}
-}
-
-#Vernio
-c_vernio = {
-	1045.1.1 = {
-		holder = alberti1 # Ildebrando III
-	}
-}
 
 #Bergamo
 c_bergamo = {
@@ -269,14 +391,9 @@ c_bergamo = {
 		holder = gisalberting1 # Arduino III
 	}
 }
-c_edolo = {
-	1053.1.1 = {
-		holder = gisalberting1 # Arduino III
-	}
-}
-c_sondrio = {
-	1053.1.1 = {
-		holder = gisalberting1 # Arduino III
+c_brescia = {
+	1054.1.1 = {
+		holder = ugoning1 # Ugo II
 	}
 }
 
@@ -312,19 +429,9 @@ c_sovana = {
 		holder = aldobrandeschi1 # Ildebrando V
 	}
 }
-c_suvereto = {
-	1034.1.1 = {
-		holder = aldobrandeschi1 # Ildebrando V
-	}
-}
 
 #Novara
 c_novara = {
-	1025.1.1 = {
-		holder = confalonieri1 # Guido I
-	}
-}
-c_verbania = {
 	1025.1.1 = {
 		holder = confalonieri1 # Guido I
 	}
@@ -337,16 +444,6 @@ d_spoleto = {
 	}
 }
 c_spoleto = {
-	1037.5.29 = {
-		holder = hucpolding1 # Ugo III
-	}
-}
-c_assisi = {
-	1037.5.29 = {
-		holder = hucpolding1 # Ugo III
-	}
-}
-c_aquila = {
 	1037.5.29 = {
 		holder = hucpolding1 # Ugo III
 	}
@@ -365,80 +462,9 @@ c_imola = {
 }
 
 #Tusculum
-c_orbetello = {
+c_castro = {
 	1044.1.1 = {
 		holder = tuscolo1 # Gregorio II
-	}
-}
-
-#Cremona
-c_cremona = {
-	1054.1.1 = {
-		holder = ugoning1 # Ugo II
-	}
-}
-c_brescia = {
-	1054.1.1 = {
-		holder = ugoning1 # Ugo II
-	}
-}
-
-#Genoa
-k_genoa = {
-	1000.1.1 = { government = republic_government }
-	1054.1.1 = {
-		holder = spinola1 # Andrea I
-	}
-}
-d_genoa = {
-	1000.1.1 = { government = republic_government }
-	1054.1.1 = {
-		holder = spinola1 # Andrea I
-	}
-}
-c_genoa = {
-	1000.1.1 = { government = republic_government }
-	1054.1.1 = {
-		holder = spinola1 # Andrea I
-	}
-}
-c_spezia = {
-	1000.1.1 = { government = republic_government }
-	1054.1.1 = {
-		holder = spinola1 # Andrea I
-	}
-}
-
-#Pisa
-k_pisa = {
-	1000.1.1 = { government = republic_government }
-	1054.1.1 = {
-		holder = orlandi1 # Giovanni
-	}
-}
-d_pisa = {
-	1000.1.1 = { government = republic_government }
-	1054.1.1 = {
-		holder = orlandi1 # Giovanni
-	}
-}
-c_pisa = {
-	1000.1.1 = { government = republic_government }
-	1054.1.1 = {
-		holder = orlandi1 # Giovanni
-	}
-}
-c_livorno = {
-	1000.1.1 = { government = republic_government }
-	1054.1.1 = {
-		holder = orlandi1 # Giovanni
-	}
-}
-
-#Milan
-c_lombardia = {
-	1029.1.1 = {
-		holder = este1 # Alberto Azzo II
 	}
 }
 
@@ -447,5 +473,17 @@ c_bobbio = {
 	1000.1.1 = { government = theocracy_government }
 	1054.1.1 = {
 		holder = bobbio_placido # Placido
+	}
+}
+
+#Fermo
+c_fermo = {
+	1054.1.1 = {
+		holder = azzoning1 # Trasmondo III
+	}
+}
+c_camerino = {
+	1054.1.1 = {
+		holder = azzoning1 # Trasmondo III
 	}
 }

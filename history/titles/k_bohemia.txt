@@ -5,19 +5,31 @@ c_brno = {
 		holder = premyslovci4 # Konrád I
 	}
 }
-c_jihlava = {
-	1050.1.1 = {
-		liege = d_bohemia
-		holder = premyslovci4 # Konrád I
-	}
-}
 c_mistek = {
 	1050.1.1 = {
 		liege = d_bohemia
 		holder = premyslovci4 # Konrád I
 	}
 }
-c_veligrad = {
+c_hradiste = {
+	1050.1.1 = {
+		liege = d_bohemia
+		holder = premyslovci4 # Konrád I
+	}
+}
+c_mikulov = {
+	1050.1.1 = {
+		liege = d_bohemia
+		holder = premyslovci4 # Konrád I
+	}
+}
+c_znojmo = {
+	1050.1.1 = {
+		liege = d_bohemia
+		holder = premyslovci4 # Konrád I
+	}
+}
+c_svitavy = {
 	1050.1.1 = {
 		liege = d_bohemia
 		holder = premyslovci4 # Konrád I
@@ -29,7 +41,7 @@ c_olomouc = {
 		holder = premyslovci4 # Konrád I
 	}
 }
-c_prostejov = {
+c_jihlava = {
 	1050.1.1 = {
 		liege = d_bohemia
 		holder = premyslovci4 # Konrád I
@@ -42,27 +54,17 @@ d_bohemia = {
 		holder = premyslovci1 # Bretislav
 	}
 }
-c_praha = {
+c_jicin = {
 	1034.1.1 = {
 		holder = premyslovci1 # Bretislav
 	}
 }
-c_plzen = {
+c_chrudim = {
 	1034.1.1 = {
 		holder = premyslovci1 # Bretislav
 	}
 }
-c_pisek = {
-	1034.1.1 = {
-		holder = premyslovci1 # Bretislav
-	}
-}
-c_loket = {
-	1034.1.1 = {
-		holder = premyslovci1 # Bretislav
-	}
-}
-c_zatec = {
+c_nachod = {
 	1034.1.1 = {
 		holder = premyslovci1 # Bretislav
 	}
@@ -72,12 +74,17 @@ c_litomerice = {
 		holder = premyslovci1 # Bretislav
 	}
 }
-c_kladsko = {
+c_jachymov = {
 	1034.1.1 = {
 		holder = premyslovci1 # Bretislav
 	}
 }
-c_hradec_kralove = {
+c_beroun = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_kladno = {
 	1034.1.1 = {
 		holder = premyslovci1 # Bretislav
 	}
@@ -87,9 +94,72 @@ c_mlada_boleslav = {
 		holder = premyslovci1 # Bretislav
 	}
 }
-c_tabor = {
+c_hradecko = {
 	1034.1.1 = {
 		holder = premyslovci1 # Bretislav
+	}
+}
+c_frydlant = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_stribro = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_klatovy = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_plzen = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_caslav = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_jindrichuv = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_budejovice = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_krumlov = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_pisek = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_cheb = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+c_praha = {
+	1034.1.1 = {
+		holder = premyslovci1 # Bretislav
+	}
+}
+
+#Zatec
+c_zatec = {
+	1054.1.1 = {
+		liege = d_bohemia
+		holder = hrabisici1 # Všebor I
 	}
 }
 
@@ -105,7 +175,7 @@ d_lausitz = {
 		holder = wettin3 # Dedo I
 	}
 }
-c_chotebuz = {
+c_cottbus = {
 	1032.1.1 = {
 		holder = wettin7 # Dietrich I
 	}
@@ -116,7 +186,7 @@ c_chotebuz = {
 		holder = wettin3 # Dedo I
 	}
 }
-c_grabin = {
+c_guben = {
 	1032.1.1 = {
 		holder = wettin7 # Dietrich I
 	}
@@ -138,7 +208,18 @@ c_bautzen = {
 		holder = wettin3 # Dedo I
 	}
 }
-c_luban = {
+c_spreewald = {
+	1032.1.1 = {
+		holder = wettin7 # Dietrich I
+	}
+	1034.1.1 = {
+		holder = ekkeharding1 # Ekkehard I
+	}
+	1046.1.24 = {
+		holder = wettin3 # Dedo I
+	}
+}
+c_heidesee = {
 	1032.1.1 = {
 		holder = wettin7 # Dietrich I
 	}

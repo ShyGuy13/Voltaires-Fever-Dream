@@ -8,47 +8,17 @@ c_lebus = {
 		holder = piast1 # Kazimierz I
 	}
 }
-c_kozstryn = {
-	1039.1.1 = {
-		holder = piast1 # Kazimierz I
-	}
-}
 c_zielenzig = {
 	1039.1.1 = {
 		holder = piast1 # Kazimierz I
 	}
 }
-c_krosno_odrzanskie = {
+c_sternberg = {
 	1039.1.1 = {
 		holder = piast1 # Kazimierz I
 	}
 }
-c_legnica = {
-	1039.1.1 = {
-		holder = piast1 # Kazimierz I
-	}
-}
-c_jawor = {
-	1039.1.1 = {
-		holder = piast1 # Kazimierz I
-	}
-}
-c_wroclaw = {
-	1039.1.1 = {
-		holder = piast1 # Kazimierz I
-	}
-}
-c_milicz = {
-	1039.1.1 = {
-		holder = piast1 # Kazimierz I
-	}
-}
-c_swidnica = {
-	1039.1.1 = {
-		holder = piast1 # Kazimierz I
-	}
-}
-c_opava = {
+c_prudnik = {
 	1039.1.1 = {
 		holder = piast1 # Kazimierz I
 	}
@@ -58,17 +28,7 @@ c_opole = {
 		holder = piast1 # Kazimierz I
 	}
 }
-c_brzeg = {
-	1039.1.1 = {
-		holder = piast1 # Kazimierz I
-	}
-}
-c_namyslow = {
-	1039.1.1 = {
-		holder = piast1 # Kazimierz I
-	}
-}
-c_nysa = {
+c_pszczna = {
 	1039.1.1 = {
 		holder = piast1 # Kazimierz I
 	}
@@ -78,12 +38,42 @@ c_oswiecim = {
 		holder = piast1 # Kazimierz I
 	}
 }
-c_raciborz = {
+c_scinawa = {
 	1039.1.1 = {
 		holder = piast1 # Kazimierz I
 	}
 }
-c_cieszyn = {
+c_zagan = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_legnica = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_swidnica = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_jawor = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_brzeg = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_olesnica = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_trzebnica = {
 	1039.1.1 = {
 		holder = piast1 # Kazimierz I
 	}
@@ -93,7 +83,77 @@ c_bytom = {
 		holder = piast1 # Kazimierz I
 	}
 }
+c_strzelce = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_toszek = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_bielsko = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_cieszyn = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_wroclaw = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_glubczyce = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_ratibor = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_krnov = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_ziebice = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_nysa = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_kladsko = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_opava = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_krosno_odrzanskie = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
 c_glogow = {
+	1039.1.1 = {
+		holder = piast1 # Kazimierz I
+	}
+}
+c_chojnik = {
 	1039.1.1 = {
 		holder = piast1 # Kazimierz I
 	}

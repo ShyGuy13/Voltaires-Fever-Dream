@@ -1,0 +1,12 @@
+﻿hohenburg1 = {
+	name = "Ernst" # Ernst I
+	dynasty = 86
+	religion = catholic
+	culture = bavarian
+	1041.1.1 = { #fic
+		birth = yes
+	}
+	1110.1.1 = { #fic
+		death = yes
+	}
+}

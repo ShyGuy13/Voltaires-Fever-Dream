@@ -1,15 +1,3 @@
-#East Francia
-k_east_francia = {
-	876.8.28 = {
-		holder = karling45 #Charles the Fat
-	}
-	887.11.30 = {
-		holder = karling52 #Arnulf
-	}
-	899.12.8 = {
-		holder = karling58 #Ludwig the Child
-	}
-}
 
 #Worms
 c_worms = {
@@ -22,14 +10,427 @@ c_speyer = {
 		holder = salier3 # Heinrich III
 	}
 }
-c_gravenstein = {
-	1039.6.4 = {
-		holder = salier3 # Heinrich III
+
+#Fulda
+c_fulda = {
+	744.1.1 = { government = theocracy_government }
+	1047.1.1 = {
+		holder = fulda_egbert # Egbert I
+	}
+}
+
+#Carniola
+d_krain = {
+	1044.1.1 = {
+		holder = weimar1
+	}
+}
+c_kranj = {
+	1044.1.1 = {
+		holder = weimar1
+	}
+}
+c_ljubljana = {
+	1044.1.1 = {
+		holder = weimar1
+	}
+}
+c_pazin = {
+	1044.1.1 = {
+		holder = weimar1
+	}
+}
+c_pula = {
+	1044.1.1 = {
+		holder = weimar1
+	}
+}
+c_koper = {
+	1044.1.1 = {
+		holder = weimar1
+	}
+}
+
+#Breisgau / Freiburg
+d_breisgau = {
+	1024.7.15 = {
+		holder = zahringen1 # Berthold I
+	}
+}
+c_freiburg = {
+	962.1.1 = {
+		holder = zahringen8 # Berthold I
+	}
+	982.7.13 = {
+		holder = zahringen7 # Berthold II
+	}
+	1006.2.27 = {
+		holder = zahringen6 # Berthold III
+	}
+	1024.7.15 = {
+		holder = zahringen1 # Berthold I
+	}
+}
+c_furstenberg = {
+	1024.7.15 = {
+		holder = zahringen1 # Berthold I
+	}
+}
+c_geroldseck = {
+	1024.7.15 = {
+		holder = zahringen1 # Berthold I
+	}
+}
+c_triberg = {
+	1024.7.15 = {
+		holder = zahringen1 # Berthold I
+	}
+}
+c_ortenau = {
+	1024.7.15 = {
+		holder = zahringen1 # Berthold I
+	}
+}
+
+#Ravensburg
+c_ravensburg = {
+	1030.3.10 = {
+		holder = welf1 # Welf III
+	}
+}
+
+#Lauffen
+c_lauffen = {
+	1000.1.1 = {
+		holder = lauffen3 # Boppo I
+	}
+	1030.1.1 = {
+		holder = lauffen1 # Boppo II
+	}
+}
+
+#Nellenburg
+c_nellenburg = {
+	1036.1.1 = {
+		holder = eberharding1 # Eberhard I
+	}
+}
+
+#Höwen
+c_howen = {
+	1054.1.1 = {
+		holder = howen1
+	}
+}
+
+#Calw
+c_calw = {
+	1043.1.1 = {
+		holder = calw2 # Adalbert I
+	}
+	1046.1.1 = {
+		holder = calw5 # Adalbert II
+	}
+}
+c_lowenstein = {
+	1043.1.1 = {
+		holder = calw2 # Adalbert I
+	}
+	1046.1.1 = {
+		holder = calw5 # Adalbert II
+	}
+}
+
+#Württemberg
+c_wurttemberg = {
+	1054.1.1 = {
+		holder = wurttemberg1 # Konrad I
+	}
+}
+
+#Brunswick
+c_wolfenbuttel = {
+	990.1.1 = {
+		holder = brunoning7 # Bruno I
+	}
+	1014.1.1 = {
+		holder = brunoning3 # Liudolf I
+	}
+	1038.4.23 = {
+		holder = brunoning2 # Ekbert I
+	}
+	1051.1.1 = {
+		liege = d_bm_hildesheim
+	}
+}
+
+#Speyer Bishopric
+c_bruchsal = {
+	1051.1.1 = {
+		holder = falkenberg1
+	}
+}
+
+#Worms Bishopric
+c_heidelberg = {
+	1044.1.1 = {
+		holder = worms_arnold # Arnold
+	}
+}
+c_bensheim = {
+	1044.1.1 = {
+		holder = worms_arnold # Arnold
+	}
+}
+
+#Zollern
+c_zollern = {
+	1040.1.1 = {
+		holder = hohenzollern1
+	}
+}
+c_hohenberg = {
+	1040.1.1 = {
+		holder = hohenzollern1
+	}
+}
+
+#Lechsgemund
+c_lechsgemund = {
+	1035.1.1 = {
+		holder = lechsgemund1 # Luitger I
+	}
+}
+
+#Staufen
+c_staufen = {
+	1053.1.1 = {
+		holder = hohenstaufen2
+	}
+}
+c_limpurg = {
+	1053.1.1 = {
+		holder = hohenstaufen2
+	}
+}
+
+#Urach
+c_urach = {
+	1054.1.1 = {
+		holder = urach1 # Egino II
+	}
+}
+
+#Dagsburg
+c_dagsburg = {
+	950.1.1 = {
+		holder = dagsburg12 # Eberhard III
+	}
+	967.2.18 = {
+		holder = dagsburg7 # Hugo III
+	}
+	986.1.1 = {
+		holder = dagsburg4 # Hugo IV
+	}
+	1047.1.1 = {
+		holder = dagsburg3 # Hugo V
+	}
+	1049.11.18 = {
+		holder = dagsburg1 # Heinrich I
+	}
+}
+
+#Suppligenburg
+c_supplingenburg = {
+	1013.1.1 = {
+		liege = d_altsachsen
+		holder = supplingenburg3 # Liutger I
+	}
+	1031.1.1 = {
+		holder = supplingenburg1 # Bernhard I
+	}
+}
+c_wittingen = {
+	1013.1.1 = {
+		liege = d_altsachsen
+		holder = supplingenburg3 # Liutger I
+	}
+	1031.1.1 = {
+		holder = supplingenburg4 # Luther I
+	}
+}
+
+#Salzburg
+c_salzburg = {
+	923.10.8 = {
+		holder = ariboning11 # Adalbert II
+	}
+	#935.11.14 = {}
+	1041.7.28 = {
+		holder = salzburg_balduin
+	}
+}
+c_pinzgau = {
+	1041.7.28 = {
+		holder = salzburg_balduin
+	}
+}
+c_gastein = {
+	1041.7.28 = {
+		holder = salzburg_balduin
+	}
+}
+
+#Cilli
+c_cilli = {
+	#1000.1.1 = {
+	#	name = SAVINJA
+	#}
+	1045.1.1 = {
+		holder = askuining1
+	}
+	#1341.1.1 = {
+	#	reset_name = yes
+	#}
+}
+c_pettau = {
+	1045.1.1 = {
+		holder = askuining1
+	}
+}
+c_marburg-osterreich = {
+	1045.1.1 = {
+		holder = askuining1
+	}
+}
+c_gonobitz = {
+	1045.1.1 = {
+		holder = askuining1
+	}
+}
+c_sanneck = {
+	1045.1.1 = {
+		holder = askuining1
+	}
+}
+
+#Murmark
+c_graz = {
+	1035.1.1 = {
+		liege = d_steyermark
+		holder = formbach3 #Arnold II
+	}
+}
+c_voitsberg = {
+	1035.1.1 = {
+		liege = d_steyermark
+		holder = formbach3 #Arnold II
+	}
+}
+c_pingau = {
+	1035.1.1 = {
+		liege = d_steyermark
+		holder = formbach3 #Arnold II
+	}
+}
+c_feldbach = {
+	1035.1.1 = {
+		liege = d_steyermark
+		holder = formbach3 #Arnold II
+	}
+}
+c_enns = {
+	1035.1.1 = {
+		liege = d_steyermark
+		holder = formbach3 #Arnold II
+	}
+}
+
+#Styria
+d_steyermark = {
+	1035.1.1 = {
+		holder = formbach3 # Arnold I
+	}
+	1041.1.1 = {
+		holder = formbach2 # Gottfried I
+	}
+	1050.1.1 = {
+		holder = traungau1 # Ottokar I
+	}
+}
+c_steiermark = {
+	980.1.1 = {
+		holder = traungau4 # Ottokar V
+	}
+	1020.3.5 = {
+		holder = traungau1 # Ottokar VI
+	}
+}
+c_murzzuschlag = {
+	980.1.1 = {
+		holder = traungau4 # Ottokar V
+	}
+	1020.3.5 = {
+		holder = traungau1 # Ottokar VI
+	}
+}
+c_leoben = {
+	980.1.1 = {
+		holder = traungau4 # Ottokar V
+	}
+	1020.3.5 = {
+		holder = traungau1 # Ottokar VI
+	}
+}
+c_gallenstein = {
+	980.1.1 = {
+		holder = traungau4 # Ottokar V
+	}
+	1020.3.5 = {
+		holder = traungau1 # Ottokar VI
+	}
+}
+c_donnersbach = {
+	980.1.1 = {
+		holder = traungau4 # Ottokar V
+	}
+	1020.3.5 = {
+		holder = traungau1 # Ottokar VI
+	}
+}
+
+#Brixen
+c_brixen = {
+	1048.7.17 = {
+		holder = brixen_altwin
+	}
+}
+
+#Tübingen
+c_tubingen = {
+	1054.1.1 = {
+		holder = tubingen1 # Anselm I
+	}
+}
+c_blaubeuren = {
+	1054.1.1 = {
+		holder = tubingen1 # Anselm I
 	}
 }
 
 #Austria
 d_osterreich = {
+	981.1.1 = {
+		holder = babenberg7 #Leopold I
+	}
+	994.7.10 = {
+		holder = babenberg8 #Heinrich I
+	}
+	1018.6.23 = {
+		holder = babenberg1 #Albrecht I
+	}
+}
+c_korneuburg = {
 	981.1.1 = {
 		holder = babenberg7 #Leopold I
 	}
@@ -52,17 +453,6 @@ c_melk = {
 	}
 }
 c_vienna = {
-	981.1.1 = {
-		holder = babenberg7 #Leopold I
-	}
-	994.7.10 = {
-		holder = babenberg8 #Heinrich I
-	}
-	1018.6.23 = {
-		holder = babenberg1 #Albrecht I
-	}
-}
-c_hainburg = {
 	981.1.1 = {
 		holder = babenberg7 #Leopold I
 	}
@@ -107,19 +497,666 @@ c_freistadt = {
 	}
 }
 
-#Krems
-c_krems = {
-	1054.1.1 = {
-		liege = d_osterreich
-		holder = kuenring1 # Azzo I
+#Neuburg
+c_neuburg = {
+	1040.1.1 = {
+		holder = formbach7
+	}
+}
+c_linz = {
+	1040.1.1 = {
+		holder = formbach7
 	}
 }
 
-#Raabs
-c_raabs = {
+#Görz
+c_gorz = {
 	1054.1.1 = {
-		liege = d_osterreich
-		holder = raabs1 # Ulrich I
+		holder = meinharding1
+	}
+}
+
+#Vogtland
+c_vogtland = {
+	1054.1.1 = {
+		holder = reuss1 # Erkenbert I
+	}
+}
+c_zwickau = {
+	1054.1.1 = {
+		holder = reuss1 # Erkenbert I
+	}
+}
+c_gera = {
+	1054.1.1 = {
+		holder = reuss1 # Erkenbert I
+	}
+}
+c_hartenstein = {
+	1054.1.1 = {
+		holder = reuss1 # Erkenbert I
+	}
+}
+
+#Orlamünde
+c_orlamunde = {
+	1054.1.1 = { #technically 1060
+		holder = weimar6 # Otto I
+	}
+}
+
+#Völkermarkt
+c_volkermarkt = {
+	1000.1.1 = {
+		liege = d_carinthia
+		holder = heunburg5
+	}
+	1043.1.1 = {
+		holder = heunburg1 # Gero I
+	}
+}
+
+#Ortenberg
+c_spittal = {
+	1054.1.1 = {
+		liege = d_carinthia
+		holder = ortenburg1 # Adalbert I
+	}
+}
+
+#Carinthia
+d_carinthia = {
+	1039.11.29 = {
+		holder = eppenstein1 # #Marquard IV of Carinthia
+	}
+}
+c_karnten = {
+	1039.11.29 = {
+		holder = eppenstein1
+	}
+}
+c_lienz = {
+	1039.11.29 = {
+		holder = eppenstein1
+	}
+}
+c_feldkirchen = {
+	1039.11.29 = {
+		holder = eppenstein1
+	}
+}
+c_greifenburg = {
+	1039.11.29 = {
+		holder = eppenstein1
+	}
+}
+
+#Wied
+c_wied = {
+	1034.1.1 = {
+		liege = d_palatinate
+		holder = wied1 # Wittekind I
+	}
+}
+
+#Göttingen
+c_gottingen = {
+	1054.1.1 = {
+		holder = grone1 # Bevo I
+	}
+}
+
+#Münzenberg
+c_munzenberg = {
+	1054.1.1 = {
+		holder = munzenberg1 # Kuno I
+	}
+}
+c_frankfurt = {
+	1054.1.1 = {
+		holder = munzenberg1 # Kuno I
+	}
+}
+c_erbach = {
+	1054.1.1 = {
+		holder = munzenberg1 # Kuno I
+	}
+}
+
+#Hildesheim
+c_hildesheim = {
+	1044.11.14 = {
+		holder = hildesheim_azelin # Azelin
+	}
+	1054.3.8 = {
+		holder = hildesheim_hezilo # Hezilo I
+	}
+}
+
+#Thuringia
+d_thuringia = {
+	1030.1.1 = {
+		holder = ludowing1 # Ludwig I
+	}
+}
+c_gotha = {
+	1030.1.1 = {
+		holder = ludowing1 # Ludwig I
+	}
+}
+
+#Bogen
+c_straubing = {
+	1054.1.1 = {
+		liege = d_bavaria
+		holder = bogen1 # Albert
+	}
+}
+c_cham = {
+	1054.1.1 = {
+		holder = bogen1 # Albert
+	}
+}
+c_degenberg = {
+	1054.1.1 = {
+		holder = bogen1 # Albert
+	}
+}
+
+#Ingolstadt
+c_ingolstadt = {
+	1045.1.1 = {
+		liege = d_bavaria
+		holder = wittelsbach1
+	}
+}
+
+#Köln
+c_cologne = {
+	1036.8.25 = {
+		holder = ezzoning7
+	}
+}
+c_neuss = {
+	1036.8.25 = {
+		holder = ezzoning7
+	}
+}
+
+#Kleve
+c_kleve = {
+	1021.1.1 = {
+		holder = kleve1 # Rutger I
+	}
+	1050.1.1 = {
+		holder = kleve2 # Rutger II
+	}
+}
+c_wesel = {
+	1021.1.1 = {
+		holder = kleve1 # Rutger I
+	}
+	1050.1.1 = {
+		holder = kleve2 # Rutger II
+	}
+}
+c_mors = {
+	1021.1.1 = {
+		holder = kleve1 # Rutger I
+	}
+	1050.1.1 = {
+		holder = kleve2 # Rutger II
+	}
+}
+
+#Dithmarschen
+c_ditmarschen = {
+	1054.1.1 = {
+		government = tribal_government # technically a peasant republic
+		holder = dithmarschen1
+	}
+}
+
+#Colmar
+c_colmar = {
+	1054.1.1 = {
+		liege = d_alsace
+		holder = landsberg1 # Konrad I
+	}
+}
+
+#Egisheim
+c_schlettstadt = {
+	950.1.1 = {
+		holder = dagsburg12 # Eberhard III
+	}
+	967.2.18 = {
+		holder = dagsburg7 # Hugo III
+	}
+	986.1.1 = {
+		holder = dagsburg4 # Hugo IV
+	}
+	1047.1.1 = {
+		holder = dagsburg5 # Gerhard I
+	}
+	1038.1.1 = {
+		holder = dagsburg2 # Hildegard I
+	}
+}
+c_egisheim = {
+	950.1.1 = {
+		holder = dagsburg12 # Eberhard III
+	}
+	967.2.18 = {
+		holder = dagsburg7 # Hugo III
+	}
+	986.1.1 = {
+		holder = dagsburg4 # Hugo IV
+	}
+	1012.1.1 = {
+		holder = dagsburg5 # Gerhard I
+	}
+	1038.1.1 = {
+		holder = dagsburg2 # Hildegard I
+	}
+}
+
+#Bregenz
+c_bregenz = {
+	780.1.1 = {
+		holder = udalriching21 # Ulrich I
+	}
+	807.1.1 = {
+		holder = udalriching19 # Ulrich II
+	}
+	815.1.1 = {
+		holder = udalriching20 # Ratbert I
+	}
+	817.1.1 = {
+		holder = udalriching18 # Ulrich III
+	}
+	894.9.27 = {
+		holder = udalriching17 # Ulrich IV
+	}
+	896.4.14 = {
+		holder = udalriching12 # Ulrich V
+	}
+	917.1.1 = {
+		holder = udalriching7 # Ulrich VI
+	}
+	957.8.25 = {
+		holder = udalriching8 # Ulrich VII
+	}
+	972.3.16 = {
+		holder = udalriching11 # Ulrich VIII
+	}
+	979.1.1 = {
+		holder = udalriching6 # Adalbert I
+	}
+	980.1.1 = {
+		holder = udalriching5 # Marquard I
+	}
+	1019.1.1 = {
+		holder = udalriching4 # Marquard II
+	}
+	1038.1.1 = {
+		holder = udalriching3 # Ulrich IX
+	}
+}
+c_waldburg = {
+	780.1.1 = {
+		holder = udalriching21 # Ulrich I
+	}
+	807.1.1 = {
+		holder = udalriching19 # Ulrich II
+	}
+	815.1.1 = {
+		holder = udalriching20 # Ratbert I
+	}
+	817.1.1 = {
+		holder = udalriching18 # Ulrich III
+	}
+	894.9.27 = {
+		holder = udalriching17 # Ulrich IV
+	}
+	896.4.14 = {
+		holder = udalriching12 # Ulrich V
+	}
+	917.1.1 = {
+		holder = udalriching7 # Ulrich VI
+	}
+	957.8.25 = {
+		holder = udalriching8 # Ulrich VII
+	}
+	972.3.16 = {
+		holder = udalriching11 # Ulrich VIII
+	}
+	979.1.1 = {
+		holder = udalriching6 # Adalbert I
+	}
+	980.1.1 = {
+		holder = udalriching5 # Marquard I
+	}
+	1019.1.1 = {
+		holder = udalriching4 # Marquard II
+	}
+	1038.1.1 = {
+		holder = udalriching3 # Ulrich IX
+	}
+}
+c_hohenems = {
+	780.1.1 = {
+		holder = udalriching21 # Ulrich I
+	}
+	807.1.1 = {
+		holder = udalriching19 # Ulrich II
+	}
+	815.1.1 = {
+		holder = udalriching20 # Ratbert I
+	}
+	817.1.1 = {
+		holder = udalriching18 # Ulrich III
+	}
+	894.9.27 = {
+		holder = udalriching17 # Ulrich IV
+	}
+	896.4.14 = {
+		holder = udalriching12 # Ulrich V
+	}
+	917.1.1 = {
+		holder = udalriching7 # Ulrich VI
+	}
+	957.8.25 = {
+		holder = udalriching8 # Ulrich VII
+	}
+	972.3.16 = {
+		holder = udalriching11 # Ulrich VIII
+	}
+	979.1.1 = {
+		holder = udalriching6 # Adalbert I
+	}
+	980.1.1 = {
+		holder = udalriching5 # Marquard I
+	}
+	1019.1.1 = {
+		holder = udalriching4 # Marquard II
+	}
+	1038.1.1 = {
+		holder = udalriching3 # Ulrich IX
+	}
+}
+
+#Unterrätien
+c_vaduz = {
+	780.1.1 = {
+		holder = udalriching21 # Ulrich I
+	}
+	807.1.1 = {
+		holder = udalriching19 # Ulrich II
+	}
+	815.1.1 = {
+		holder = udalriching20 # Ratbert I
+	}
+	817.1.1 = {
+		holder = udalriching18 # Ulrich III
+	}
+	894.9.27 = {
+		holder = udalriching17 # Ulrich IV
+	}
+	896.4.14 = {
+		holder = udalriching12 # Ulrich V
+	}
+	917.1.1 = {
+		holder = udalriching7 # Ulrich VI
+	}
+	957.8.25 = {
+		holder = udalriching8 # Ulrich VII
+	}
+	972.3.16 = {
+		holder = udalriching11 # Ulrich VIII
+	}
+	979.1.1 = {
+		holder = udalriching6 # Adalbert I
+	}
+	980.1.1 = {
+		holder = udalriching5 # Marquard I
+	}
+	1019.1.1 = {
+		holder = udalriching4 # Marquard II
+	}
+	1038.1.1 = {
+		holder = udalriching27 # Eberhard I
+	}
+}
+c_werdenberg = {
+	780.1.1 = {
+		holder = udalriching21 # Ulrich I
+	}
+	807.1.1 = {
+		holder = udalriching19 # Ulrich II
+	}
+	815.1.1 = {
+		holder = udalriching20 # Ratbert I
+	}
+	817.1.1 = {
+		holder = udalriching18 # Ulrich III
+	}
+	894.9.27 = {
+		holder = udalriching17 # Ulrich IV
+	}
+	896.4.14 = {
+		holder = udalriching12 # Ulrich V
+	}
+	917.1.1 = {
+		holder = udalriching7 # Ulrich VI
+	}
+	957.8.25 = {
+		holder = udalriching8 # Ulrich VII
+	}
+	972.3.16 = {
+		holder = udalriching11 # Ulrich VIII
+	}
+	979.1.1 = {
+		holder = udalriching6 # Adalbert I
+	}
+	980.1.1 = {
+		holder = udalriching5 # Marquard I
+	}
+	1019.1.1 = {
+		holder = udalriching4 # Marquard II
+	}
+	1038.1.1 = {
+		holder = udalriching27 # Eberhard I
+	}
+}
+
+#Tettnang
+c_tettnang = {
+	780.1.1 = {
+		holder = udalriching21 # Ulrich I
+	}
+	807.1.1 = {
+		holder = udalriching19 # Ulrich II
+	}
+	815.1.1 = {
+		holder = udalriching20 # Ratbert I
+	}
+	817.1.1 = {
+		holder = udalriching18 # Ulrich III
+	}
+	894.9.27 = {
+		holder = udalriching17 # Ulrich IV
+	}
+	896.4.14 = {
+		holder = udalriching12 # Ulrich V
+	}
+	917.1.1 = {
+		holder = udalriching7 # Ulrich VI
+	}
+	957.8.25 = {
+		holder = udalriching8 # Ulrich VII
+	}
+	972.3.16 = {
+		holder = udalriching11 # Ulrich VIII
+	}
+	979.1.1 = {
+		holder = udalriching6 # Adalbert I
+	}
+	980.1.1 = {
+		holder = udalriching5 # Marquard I
+	}
+	1019.1.1 = {
+		holder = udalriching4 # Marquard II
+	}
+	1038.1.1 = {
+		holder = buchhorn1 # Otto I
+	}
+}
+
+#Wiltberg
+c_wiltberg = {
+	1054.1.1 = {
+		holder = wiltberg1 # Gerwig I
+	}
+}
+
+#Schweinfurt
+c_schweinfurt = {
+	1054.1.1 = {
+		holder = luitpolding6 # Beatrix
+	}
+}
+
+#Helfenstein
+c_helfenstein = {
+	1054.1.1 = {
+		holder = helfenstein1 # Manegold I
+	}
+}
+
+#Sigmaringen
+c_sigmaringen = {
+	1054.1.1 = {
+		holder = sigmaringen1 # Manegold I
+	}
+}
+
+#Veringen
+c_veringen = {
+	1010.3.4 = {
+		holder = veringen1 # Wolfrad I
+	}
+}
+
+#Gleichen
+c_gleichen = {
+	1054.1.1 = {
+		holder = gleichen1 # Erwin I
+	}
+}
+
+#Burgau
+c_burgau = {
+	1054.1.1 = {
+		holder = ronsberg1 # Reginhard I
+	}
+}
+c_roggenberg = {
+	1054.1.1 = {
+		holder = ronsberg1 # Reginhard I
+	}
+}
+c_mindelheim = {
+	1054.1.1 = {
+		holder = ronsberg1 # Reginhard I
+	}
+}
+
+#Kirchberg
+c_kirchberg = {
+	1054.1.1 = {
+		holder = kirchberg1 # Otto I
+	}
+}
+
+#Moosburg
+c_moosburg = {
+	1054.1.1 = {
+		liege = d_bavaria
+		holder = moosburg1
+	}
+}
+
+#Öttingen
+c_ottingen = {
+	1054.1.1 = {
+		holder = ottingen1 # Sieghard I
+	}
+}
+
+#Teck
+c_teck = {
+	1053.6.18 = {
+		holder = maden1 # Werner III
+	}
+}
+
+#Pfullendorf
+c_pfullendorf = {
+	1054.1.1 = {
+		holder = pfullendorf1 # Ludwig I
+	}
+}
+c_heiligenberg = {
+	1054.1.1 = {
+		holder = pfullendorf1 # Ludwig I
+	}
+}
+
+#Jülich
+c_julich = {
+	1003.1.1 = {
+		holder = julich1 # Gerhard I
+	}
+	1040.1.1 = {
+		holder = julich2 # Gerhard II
+	}
+}
+c_eschweiler = {
+	1003.1.1 = {
+		holder = julich1 # Gerhard I
+	}
+	1040.1.1 = {
+		holder = julich2 # Gerhard II
+	}
+}
+c_bruggen = {
+	1003.1.1 = {
+		holder = julich1 # Gerhard I
+	}
+	1040.1.1 = {
+		holder = julich2 # Gerhard II
+	}
+}
+
+#Leiningen
+c_leiningen = {
+	1054.1.1 = {
+		holder = leiningen1 # Emicho I
+	}
+}
+
+#Falkenstein
+c_falkenstein = {
+	1054.1.1 = {
+		holder = falkenstein1 # Werner I
+	}
+}
+
+#Trier
+c_trier = {
+	1047.6.16 = {
+		holder = ezzoning4 # Eberhard I
 	}
 }
 
@@ -135,708 +1172,15 @@ c_pitten = {
 	}
 }
 
-#Neuburg
-c_neuburg = {
-	1040.1.1 = {
-		holder = formbach7
-	}
-}
-c_linz = {
-	1040.1.1 = {
-		holder = formbach7
-	}
-}
-
-#Carinthia
-d_carinthia = {
-	1039.11.29 = {
-		holder = eppenstein1
-	}
-}
-c_karnten = {
-	1039.11.29 = {
-		holder = eppenstein1
-	}
-}
-c_lienz = {
-	1039.11.29 = {
-		holder = eppenstein1
-	}
-}
-c_treffen = {
-	1039.11.29 = {
-		holder = eppenstein1
-	}
-}
-c_sachsenweg = {
-	1039.11.29 = {
-		holder = eppenstein1
-	}
-}
-
-#Styria
-d_steyermark = {
-	1035.1.1 = {
-		holder = formbach3 # Arnold I
-	}
-	1041.1.1 = {
-		holder = formbach2 # Gottfried I
-	}
-	1050.1.1 = {
-		holder = traungau1 # Ottokar I
-	}
-}
-c_steiermark = {
-	980.1.1 = {
-		holder = traungau4 # Ottokar V
-	}
-	1020.3.5 = {
-		holder = traungau1 # Ottokar VI
-	}
-}
-c_admont = {
-	980.1.1 = {
-		holder = traungau4 # Ottokar V
-	}
-	1020.3.5 = {
-		holder = traungau1 # Ottokar VI
-	}
-}
-c_murzzuschlag = {
-	980.1.1 = {
-		holder = traungau4 # Ottokar V
-	}
-	1020.3.5 = {
-		holder = traungau1 # Ottokar VI
-	}
-}
-c_gurktal = {
-	980.1.1 = {
-		holder = traungau4 # Ottokar V
-	}
-	1020.3.5 = {
-		holder = traungau1 # Ottokar VI
-	}
-}
-
-#Carniola
-d_krain = {
-	1044.1.1 = {
-		holder = weimar1
-	}
-}
-c_kranj = {
-	1044.1.1 = {
-		holder = weimar1
-	}
-}
-c_rijeka = {
-	1044.1.1 = {
-		holder = weimar1
-	}
-}
-c_ljubljana = {
-	1044.1.1 = {
-		holder = weimar1
-	}
-}
-c_pazin = {
-	1044.1.1 = {
-		holder = weimar1
-	}
-}
-c_vipava = {
-	1044.1.1 = {
-		holder = weimar1
-	}
-}
-c_pula = {
-	1044.1.1 = {
-		holder = weimar1
-	}
-}
-
-#Görz
-c_gorz = {
+#Wolfach
+c_wolfach = {
 	1054.1.1 = {
-		holder = meinharding1
+		holder = wolfach1 # Friedrich I
 	}
 }
-
-#Tirol
-d_tyrol = {
-	1054.7.1 = {
-		holder = tirol1
-	}
-}
-c_meran = {
-	1054.7.1 = {
-		holder = tirol1
-	}
-}
-c_ischgl = {
-	1054.7.1 = {
-		holder = tirol1
-	}
-}
-
-#Brixen
-c_brixen = {
-	1048.7.17 = {
-		holder = brixen_altwin
-	}
-}
-c_bled = {
-	1048.7.17 = {
-		holder = brixen_altwin
-	}
-}
-
-#Murmark
-c_graz = {
-	1035.1.1 = {
-		liege = d_steyermark
-		holder = formbach3 #Arnold II
-	}
-}
-c_pingau = {
-	1035.1.1 = {
-		liege = d_steyermark
-		holder = formbach3 #Arnold II
-	}
-}
-c_mahrenberg = {
-	1035.1.1 = {
-		liege = d_steyermark
-		holder = formbach3 #Arnold II
-	}
-}
-c_enns = {
-	1035.1.1 = {
-		liege = d_steyermark
-		holder = formbach3 #Arnold II
-	}
-}
-
-#Chiemgau
-c_chiemgau = {
-	1046.1.1 = {
-		holder = siegharding1
-	}
-}
-c_taufers = {
-	1046.1.1 = {
-		holder = siegharding1
-	}
-}
-
-#Cilli
-c_cilli = {
-	#1000.1.1 = {
-	#	name = SAVINJA
-	#}
-	1045.1.1 = {
-		holder = askuining1
-	}
-	#1341.1.1 = {
-	#	reset_name = yes
-	#}
-}
-c_pettau = {
-	1045.1.1 = {
-		holder = askuining1
-	}
-}
-
-#Salzburg
-c_salzburg = {
-	923.10.8 = {
-		holder = ariboning11 # Adalbert II
-	}
-	#935.11.14 = {}
-	1041.7.28 = {
-		holder = salzburg_balduin
-	}
-}
-c_pinzgau = {
-	1041.7.28 = {
-		holder = salzburg_balduin
-	}
-}
-c_matrei = {
-	1041.7.28 = {
-		holder = salzburg_balduin
-	}
-}
-
-#Berchtesgaden
-c_berchtesgaden = {
+c_hornberg = {
 	1054.1.1 = {
-		liege = d_bm_salzburg
-		holder = ariboning1
-	}
-}
-
-#Bavaria
-d_bavaria = {
-	1026.2.27 = {
-		holder = salier4
-	}
-	1027.1.1 = {
-		holder = salier3
-	}
-	1042.1.1 = {
-		holder = luxemburg1
-	}
-	1047.10.14 = {
-		holder = salier3
-	}
-	1049.1.1 = {
-		holder = ezzoning1
-	}
-	1053.4.11 = {
-		holder = salier1
-	}
-	1054.6.1 = {
-		holder = salier2
-	}
-}
-c_innkreis = {
-	1026.2.27 = {
-		holder = salier4
-	}
-	1027.1.1 = {
-		holder = salier3
-	}
-	1042.1.1 = {
-		holder = luxemburg1
-	}
-	1047.10.14 = {
-		holder = salier3
-	}
-	1049.1.1 = {
-		holder = ezzoning1
-	}
-	1053.4.11 = {
-		holder = salier1
-	}
-	1054.6.1 = {
-		holder = salier2
-	}
-}
-c_straubing = {
-	1026.2.27 = {
-		holder = salier4
-	}
-	1027.1.1 = {
-		holder = salier3
-	}
-	1042.1.1 = {
-		holder = luxemburg1
-	}
-	1047.10.14 = {
-		holder = salier3
-	}
-	1049.1.1 = {
-		holder = ezzoning1
-	}
-	1053.4.11 = {
-		holder = salier1
-	}
-	1054.6.1 = {
-		holder = salier2
-	}
-}
-c_cham = {
-	1026.2.27 = {
-		holder = salier4
-	}
-	1027.1.1 = {
-		holder = salier3
-	}
-	1042.1.1 = {
-		holder = luxemburg1
-	}
-	1047.10.14 = {
-		holder = salier3
-	}
-	1049.1.1 = {
-		holder = ezzoning1
-	}
-	1053.4.11 = {
-		holder = salier1
-	}
-	1054.6.1 = {
-		holder = salier2
-	}
-}
-c_ortenberg = {
-	1026.2.27 = {
-		holder = salier4
-	}
-	1027.1.1 = {
-		holder = salier3
-	}
-	1042.1.1 = {
-		holder = luxemburg1
-	}
-	1047.10.14 = {
-		holder = salier3
-	}
-	1049.1.1 = {
-		holder = ezzoning1
-	}
-	1053.4.11 = {
-		holder = salier1
-	}
-	1054.6.1 = {
-		holder = salier2
-	}
-}
-
-#Moosburg
-c_moosburg = {
-	1054.1.1 = {
-		liege = d_bavaria
-		holder = moosburg1
-	}
-}
-
-#Freising
-c_freising = {
-	1052.4.6 = {
-		holder = siegharding2
-	}
-}
-c_waidhofen = {
-	1052.4.6 = {
-		holder = siegharding2
-	}
-}
-
-#Eichstätt
-c_eichstadt = {
-	1042.1.1 = {
-		holder = calw1 # Gebhard
-	}
-	1054.4.19 = { # calw1 becomes Pope
-		holder = reginbodoning3 # Gundekar II
-	}
-}
-
-#Hirschberg
-c_hirschberg = {
-	1042.1.1 = {
-		holder = hirschberg1
-	}
-}
-c_heideck = {
-	1042.1.1 = {
-		holder = hirschberg1
-	}
-}
-
-#Pappenheim
-c_pappenheim = {
-	1054.1.1 = {
-		holder = pappenheim1 # Heinrich der Erbauer
-	}
-}
-
-#Lechsgemund
-c_lechsgemund = {
-	1035.1.1 = {
-		holder = lechsgemund1 # Luitger I
-	}
-}
-
-#Regensburg
-c_regensburg = {
-	1036.3.17 = {
-		holder = popponing1
-	}
-}
-c_kitzbuhel = {
-	1036.3.17 = {
-		holder = popponing1
-	}
-}
-
-#Abensberg
-c_abensberg = {
-	1054.1.1 = {
-		holder = abensberg1
-	}
-}
-
-#Scheyern
-c_scheyern = {
-	1045.1.1 = {
-		holder = wittelsbach1
-	}
-}
-c_ingolstadt = {
-	1045.1.1 = {
-		holder = wittelsbach1
-	}
-}
-
-#Andechs
-c_andechs = {
-	1054.1.1 = {
-		holder = andechs1
-	}
-}
-c_munchen = {
-	1054.1.1 = {
-		holder = andechs1
-	}
-}
-c_seefeld = {
-	1054.1.1 = {
-		holder = andechs1
-	}
-}
-c_innsbruck = {
-	1054.1.1 = {
-		holder = andechs1
-	}
-}
-
-#Passau 
-c_passau = {
-	1045.7.14 = {
-		holder = reginbodoning2
-	}
-}
-c_sankt_polten = {
-	1045.7.14 = {
-		holder = reginbodoning2
-	}
-}
-
-#Schaunberg
-c_schaunberg = {
-	1054.1.1 = {
-		holder = julbach1
-	}
-}
-
-#Eschenlohe
-c_eschenlohe = {
-	#1000.1.1 = {
-	#	name = EPPAN
-	#}
-	1054.1.1 = {
-		holder = eppan1
-	}
-	#1248.1.1 = {
- 	#	reset_name = yes
- 	#}
-}
-c_seefeld = {
-	1054.1.1 = {
-		holder = eppan1
-	}
-}
-
-#Rosenheim
-c_rosenheim = {
-	1050.1.1 = {
-		liege = d_bavaria
-		holder = dilching1 # Patto I
-	}
-}
-
-#Wasserburg
-c_wasserburg = {
-	#1000.1.1 = {
-	#	name = ROTT
-	#}
-	1054.1.1 = {
-		liege = d_bavaria
-		holder = pilgriming1
-	}
-	#1098.1.1 = {
- 	#	reset_name = yes
- 	#}
-}
-
-#Nordgau
-d_nordgau = {
-	956.1.1 = {
-		holder = diepolding6
-	}
-	984.1.1. = {
-		holder = diepolding5
-	}
-	1025.1.1 = {
-		holder = diepolding3
-	}
-	1050.6.19 = {
-		holder = diepolding1
-	}
-}
-c_velden = {
-	956.1.1 = {
-		holder = diepolding6
-	}
-	984.1.1. = {
-		holder = diepolding5
-	}
-	1025.1.1 = {
-		holder = diepolding3
-	}
-	1050.6.19 = {
-		holder = diepolding1
-	}
-}
-
-#Neumark
-c_neumarkt = {
-	983.1.1 = {
-		liege = d_nordgau
-		holder = baboning3 # Babo I
-	}
-	1001.3.6 = {
-		holder = baboning2 # Ruprecht I
-	}
-	1035.12.13 = {
-		holder = baboning4 # Babo II
-	}
-}
-
-#Querfurt
-c_querfurt = {
-	1030.1.1 = {
-		holder = querfurt1 # Burkhard I
-	}
-}
-
-#Schwarzenburg
-c_rotz = {
-	1048.1.1 = {
-		liege = d_nordgau
-		holder = schwarzenburg1
-	}
-}
-
-#Sulzbach
-c_sulzbach = {
-	1007.1.1 = {
-		liege = d_nordgau
-		holder = sulzbach2
-	}
-	1043.1.1 = {
-		holder = sulzbach1
-	}
-}
-
-#Bamberg
-c_bamberg = {
-	1053.1.2 = {
-		holder = eppenstein5
-	}
-}
-c_riedfeld = {
-	1053.1.2 = {
-		holder = eppenstein5
-	}
-}
-c_ansbach = {
-	1053.1.2 = {
-		holder = eppenstein5
-	}
-}
-c_villach = {
-	1053.1.2 = {
-		holder = eppenstein5
-	}
-}
-c_wolfsberg = {
-	1053.1.2 = {
-		holder = eppenstein5
-	}
-}
-c_nurnberg = {
-	1053.1.2 = {
-		holder = eppenstein5
-	}
-}
-
-#Bayreuth
-c_bayreuth = {
-	1054.1.1 = {
-		holder = gilching1
-	}
-}
-c_kronach = {
-	1054.1.1 = {
-		holder = gilching1
-	}
-}
-c_coburg = {
-	1054.1.1 = {
-		holder = gilching1
-	}
-}
-
-#Schweinfurt
-c_schweinfurt = {
-	1054.1.1 = {
-		holder = luitpolding6 # Beatrix
-	}
-}
-
-#Rieneck
-c_rieneck = {
-	1054.1.1 = {
-		liege = d_bm_mainz #Burggraves of Mainz
-		holder = rieneck1 # Gerhard I
-	}
-}
-
-#Klingenberg
-c_klingenberg = {
-	1054.1.1 = {
-		holder = bickenbach1
-	}
-}
-
-#Rheingraviate
-c_rheingraviate = {
-	1019.1.1 = {
-		holder = embrichoning2 # Embricho I
-	}
-	1050.1.1 = {
-		holder = embrichoning1 # Ludwig I
-	}
-	1104.1.1 = {
-		holder = embrichoning3 # Ludwig II
-	}
-}
-
-#Wertheim
-
-#Würzburg
-c_wurzburg = {
-	1045.5.27 = {
-		holder = formbach14 # Adalbero I
-	}
-}
-c_hohenlohe = {
-	1045.5.27 = {
-		holder = formbach14 # Adalbero I
-	}
-}
-c_crailsheim = {
-	1045.5.27 = {
-		holder = formbach14 # Adalbero I
-	}
-}
-c_darmstadt = {
-	1045.5.27 = {
-		holder = formbach14 # Adalbero I
+		holder = wolfach1 # Friedrich I
 	}
 }
 
@@ -847,384 +1191,31 @@ c_hall = {
 	}
 }
 
-#Leuchtenberg
-c_leuchtenburg = {
+#Schwarzburg
+c_schwarzburg = {
 	1054.1.1 = {
-		liege = d_nordgau # ?
-		holder = leuchtenberg1
+		holder = schwarzburg1 # Sizzo II
 	}
 }
-
-#Swabia
-d_swabia = {
-	1047.9.7 = {
-		holder = luitpolding1
-	}
-}
-c_fussen = {
-	1047.9.7 = {
-		holder = luitpolding1
-	}
-}
-c_kempten = {
-	1047.9.7 = {
-		holder = luitpolding1
-	}
-}
-c_crailsheim = {
-	1047.9.7 = {
-		holder = luitpolding1
-	}
-}
-c_feuchtwangen = {
-	1047.9.7 = {
-		holder = luitpolding1
-	}
-}
-c_fremdingen = {
-	1047.9.7 = {
-		holder = luitpolding1
-	}
-}
-c_ulm = {
-	1047.9.7 = {
-		holder = luitpolding1
-	}
-}
-
-#Augsburg
-c_augsburg = {
-	973.1.1 = {
-		holder = augsburg_heinrich_1 # Heinrich I
-	}
-	#982.7.13 = {
-	#
-	#}
-	#...
-	1047.1.1 = {
-		holder = augsburg_heinrich_2 # Heinrich II
-	}
-	#1063.9.3 = {
-	#...
-	#}
-}
-
-#Helfenstein
-c_helfenstein = {
+c_hohnstein = {
 	1054.1.1 = {
-		holder = helfenstein1 # Manegold I
+		holder = schwarzburg1 # Sizzo II
 	}
 }
 
-#Urach
-c_urach = {
+#Raabs
+c_raabs = {
 	1054.1.1 = {
-		holder = urach1 # Egino II
+		liege = d_osterreich
+		holder = raabs1 # Ulrich I
 	}
 }
 
-#Zweifalten
-c_zwiefalten = {
-	1050.1.1 = {
-		holder = achalm1 # Gero
-	}
-}
-
-#Calw
-c_calw = {
-	1049.1.1 = {
-		holder = calw2 # Adalbert I
-	}
-}
-c_lowenstein = {
-	1049.1.1 = {
-		holder = calw2 # Adalbert I
-	}
-}
-
-#Vaihingen / Ludwigsburg
-c_vaihingen = {
+#Krems
+c_krems = {
 	1054.1.1 = {
-		holder = vaihingen1 # Adalbert I
-	}
-}
-
-#Teck
-c_teck = {
-	1053.6.18 = {
-		holder = maden1 # Werner III
-	}
-}
-
-#Burgau
-c_burgau = {
-	1054.1.1 = {
-		holder = ronsberg1 # Reginhard I
-	}
-}
-
-#Öttingen
-c_ottingen = {
-	1054.1.1 = {
-		holder = ottingen1 # Sieghard I
-	}
-}
-
-#Ellwangen
-c_ellwangen = {
-	1046.1.1 = {
-		government = theocracy_government
-		holder = ellwangen_arn # Arn
-	}
-}
-
-#Dillingen
-c_dillingen = {
-	1054.1.1 = {
-		holder = dillingen1 # Hupold III
-	}
-}
-
-#Höwen
-c_howen = {
-	1054.1.1 = {
-		holder = howen1
-	}
-}
-
-#Lauffen
-c_lauffen = {
-	1000.1.1 = {
-		holder = lauffen3 # Boppo I
-	}
-	1030.1.1 = {
-		holder = lauffen1 # Boppo II
-	}
-}
-
-#Stühlingen
-c_stuhlingen = {
-	1054.1.1 = {
-		holder = stuhlingen1
-	}
-}
-
-#Nellenburg
-c_nellenburg = {
-	1036.1.1 = {
-		holder = eberharding1 # Eberhard I
-	}
-}
-
-#Veringen
-c_veringen = {
-	1032.1.1 = {
-		holder = veringen1 # Wolfrad I
-	}
-}
-
-#Tübingen
-c_tubingen = {
-	1054.1.1 = {
-		holder = tubingen1 # Anselm I
-	}
-}
-c_pfalzgrafenweiler = {
-	1054.1.1 = {
-		holder = tubingen1 # Anselm I
-	}
-}
-c_blaubeuren= {
-	1054.1.1 = {
-		holder = tubingen1 # Anselm I
-	}
-}
-
-#Wolfach
-c_wolfach = {
-	1054.1.1 = {
-		holder = wolfach1 # Friedrich I
-	}
-}
-
-#Staufen
-c_staufen = {
-	1053.1.1 = {
-		holder = hohenstaufen2
-	}
-}
-c_backnang = {
-	1053.1.1 = {
-		holder = hohenstaufen2
-	}
-}
-
-#Ravensburg
-c_ravensburg = {
-	1030.3.10 = {
-		holder = welf1 # Welf III
-	}
-}
-
-#Pfullendorf
-c_pfullendorf = {
-	1054.1.1 = {
-		holder = udalriching1
-	}
-}
-c_heiligenberg = {
-	1054.1.1 = {
-		holder = udalriching1
-	}
-}
-
-#Konstanz
-c_konstanz = {
-	1051.6.22 = {
-		holder = konstanz_rumold
-	}
-}
-
-#Bregenz
-c_bregenz = {
-	1054.1.1 = {
-		holder = udalriching3
-	}
-}
-c_argengau = {
-	1054.1.1 = {
-		holder = udalriching3
-	}
-}
-c_hohenems = {
-	1054.1.1 = {
-		holder = udalriching3
-	}
-}
-c_vaduz = {
-	1054.1.1 = {
-		holder = udalriching3
-	}
-}
-c_werdenberg = {
-	1054.1.1 = {
-		holder = udalriching3
-	}
-}
-c_waldburg = {
-	1054.1.1 = {
-		holder = udalriching3
-	}
-}
-
-#Stühlingen
-c_stuhlingen = {
-	1054.1.1 = {
-		holder = stuhlingen1
-	}
-}
-
-#Beuren
-c_kaufbeuren = {
-	1054.1.1 = {
-		holder = beuren1
-	}
-}
-
-#Hohentrüdingen
-c_hohentrudingen = {
-	1050 = {
-		holder = truhendingen1
-	}
-}
-
-#Zollern
-c_zollern = {
-	1040.1.1 = {
-		holder = hohenzollern1
-	}
-}
-c_hohenberg = {
-	1040.1.1 = {
-		holder = hohenzollern1
-	}
-}
-
-#Lupfen
-c_lupfen = {
-	1054.1.1 = {
-		holder = lupfen1 # Heinrich I
-	}
-}
-
-#Helfenstein
-c_helfenstein = {
-	1054.1.1 = {
-		holder = helfenstein1 # Manegold I
-	}
-}
-
-#Sulz
-c_sulz = {
-	1054.1.1 = {
-		holder = sulz1 # Alwig I
-	}
-}
-
-#Sigmaringen
-c_sigmaringen = {
-	1054.1.1 = {
-		holder = sigmaringen1 # Manegold I
-	}
-}
-
-#Baden
-c_baden = {
-	1054.1.1 = {
-		holder = zahringen2 # Hermann I
-	}
-}
-
-#Breisgau / Freiburg
-c_breisgau = {
-	1024.1.1 = {
-		holder = zahringen1 # Berthold I
-	}
-}
-c_oppenau = {
-	1024.1.1 = {
-		holder = zahringen1 # Berthold I
-	}
-}
-c_furstenberg = {
-	1024.1.1 = {
-		holder = zahringen1 # Berthold I
-	}
-}
-c_offenburg = {
-	1024.1.1 = {
-		holder = zahringen1 # Berthold I
-	}
-}
-c_geroldseck = {
-	1024.1.1 = {
-		holder = zahringen1 # Berthold I
-	}
-}
-
-#Eberstein
-c_eberstein = {
-	940.1.1 = {
-		holder = eberstein5 # Eberhard I
-	}
-	960.1.1 = {
-		holder = eberstein4 # Gebhard I
-	}
-	1010.1.1 = {
-		holder = eberstein3 # Adalbert I
-	}
-	1046.1.1 = {
-		holder = eberstein1 # Berthold I
+		liege = d_osterreich
+		holder = kuenring1 # Azzo I
 	}
 }
 
@@ -1252,16 +1243,248 @@ c_schirmeck = {
 	}
 }
 
-#Egisheim
-c_egisheim = {
-	985.1.1 = {
-		holder = dagsburg4 # Hugo VI
+#Arnstein
+c_arnstein = {
+	1054.1.1 = {
+		holder = steusslingen1 # Walter I
 	}
-	1012.1.1 = {
-		holder = dagsburg5 # Gerhard I
+}
+
+#Hachberg
+c_hachberg = {
+	1054.1.1 = {
+		liege = d_breisgau
+		holder = hachberg1 # Dietrich I
 	}
-	1038.1.1 = {
-		holder = dagsburg2 # Hildegard I
+}
+
+#Vaihingen / Ludwigsburg
+c_vaihingen = {
+	1054.1.1 = {
+		holder = vaihingen1 # Adalbert I
+	}
+}
+
+#Klettenberg
+c_klettenberg = {
+	1054.1.1  = {
+		holder = klettenberg1 # Heselin I
+	}
+}
+
+#Castell
+c_castell = {
+	1054.1.1 = {
+		holder = castell1 # Ruprecht I
+	}
+}
+
+#Katzenelnbogen
+c_katzenelnbogen = {
+	1054.1.1 = {
+		liege = d_bm_cologne # ???
+		holder = katzenelnbogen1 # Diether I
+	}
+}
+
+#Wertheim
+c_wertheim = {
+	1050.1.1 = {
+		holder = wertheim1 # Bruno I
+	}
+}
+
+#Hohentrüdingen
+c_hohentrudingen = {
+	1050 = {
+		holder = truhendingen1
+	}
+}
+
+#Diez
+c_nassau = {
+	1053.1.1 = {
+		holder = diez1 # Embricho I
+	}
+}
+c_weilburg = {
+	1053.1.1 = {
+		holder = diez1 # Embricho I
+	}
+}
+c_westerburg = {
+	1053.1.1 = {
+		holder = diez1 # Embricho I
+	}
+}
+c_dillenburg = {
+	1053.1.1 = {
+		holder = diez1 # Embricho I
+	}
+}
+
+#Anhalt
+c_anhalt = {
+	1036.1.1 = {
+		holder = askanier1 # Esico I
+	}
+}
+c_wittenberg = {
+	1036.1.1 = {
+		holder = askanier1 # Esico I
+	}
+}
+c_zerbst = {
+	1036.1.1 = {
+		holder = askanier1 # Esico I
+	}
+}
+
+#Berg
+c_berg = {
+	1054.1.1 = {
+		holder = berg1 # Adolf I
+	}
+}
+c_huckeswagen = {
+	1054.1.1 = {
+		holder = berg1 # Adolf I
+	}
+}
+
+#Sundgau
+c_sundgau = {
+	#unknown dynasty, Flachslanden just from the region
+	1052.1.1 = {
+		holder = flachslanden1 # Kuno I
+	}
+}
+c_pfirt = {
+	1052.1.1 = {
+		holder = flachslanden1 # Kuno I
+	}
+}
+
+#Dillingen
+c_dillingen = {
+	1054.1.1 = {
+		holder = dillingen1 # Hupold III
+	}
+}
+
+#Sulz
+c_sulz = {
+	1054.1.1 = {
+		holder = sulz1 # Alwig I
+	}
+}
+
+#Leuchtenberg
+c_leuchtenburg = {
+	1054.1.1 = {
+		liege = d_nordgau # ?
+		holder = leuchtenberg1
+	}
+}
+
+#Hohenburg
+# c_hohenburg = {
+# 	1054.1.1 = {
+# 		holder = hohenburg1 # Ernst
+# 	}
+# }
+
+#Zweifalten
+c_zwiefalten = {
+	1050.1.1 = {
+		holder = achalm4 # Kuno I
+	}
+}
+
+#Arnsberg
+c_arnsberg = {
+	1025.1.1 = {
+		holder = arnsberg1 # Bernhard II
+	}
+}
+c_sauerland = {
+	1025.1.1 = {
+		holder = arnsberg1 # Bernhard II
+	}
+}
+c_altena = {
+	1025.1.1 = {
+		holder = arnsberg1 # Bernhard II
+	}
+}
+c_mark = {
+	1025.1.1 = {
+		holder = arnsberg1 # Bernhard II
+	}
+}
+
+#Würzburg
+c_wurzburg = {
+	1045.5.27 = {
+		holder = formbach14 # Adalbero I
+	}
+}
+c_darmstadt = {
+	1045.5.27 = {
+		holder = formbach14 # Adalbero I
+	}
+}
+c_hohenlohe = {
+	1045.5.27 = {
+		holder = formbach14 # Adalbero I
+	}
+}
+c_dieburg = {
+	1045.5.27 = {
+		holder = formbach14 # Adalbero I
+	}
+}
+c_aschach = {
+	1045.5.27 = {
+		holder = formbach14 # Adalbero I
+	}
+}
+c_mergentheim = {
+	1045.5.27 = {
+		holder = formbach14 # Adalbero I
+	}
+}
+c_mockmuhl = {
+	1045.5.27 = {
+		holder = formbach14 # Adalbero I
+	}
+}
+
+#Lupfen
+c_lupfen = {
+	1054.1.1 = {
+		holder = lupfen1 # Heinrich I
+	}
+}
+
+#Hirschberg
+# c_hirschberg = {
+# 	1042.1.1 = {
+# 		holder = hirschberg1
+# 	}
+# }
+c_heideck = {
+	1042.1.1 = {
+		liege = d_bm_eichstadt
+		holder = hirschberg1
+	}
+}
+
+#Pappenheim
+c_pappenheim = {
+	1054.1.1 = {
+		liege = d_bm_eichstadt
+		holder = pappenheim1 # Heinrich der Erbauer
 	}
 }
 
@@ -1272,50 +1495,193 @@ c_rappoltstein = {
 	}
 }
 
-#Speyer Bishopric
-c_bruchsal = {
-	1051.1.1 = {
-		holder = falkenberg1
+#Mainz
+c_mainz = {
+	1051.6.11 = {
+		holder = babenberg11 # Luitpold I
 	}
 }
-c_lauterburg = {
-	1051.1.1 = {
-		holder = falkenberg1
-	}
-}
-
-#Schwarzburg
-c_schwarzburg = {
-	1054.1.1 = {
-		holder = schwarzburg1 # Sizzo II
-	}
-}
-c_kevernburg = {
-	1054.1.1 = {
-		holder = schwarzburg1 # Sizzo II
+c_durn = {
+	1051.6.11 = {
+		holder = babenberg11 # Luitpold I
 	}
 }
 
-#Naumburg
-c_naumburg = {
-	1045.1.1 = {
-		holder = wippra1 # Eberhard I
+#Sulzbach
+c_sulzbach = {
+	1007.1.1 = {
+		liege = d_nordgau
+		holder = sulzbach2
+	}
+	1043.1.1 = {
+		holder = sulzbach1
 	}
 }
 
-#Gleichenstein
-c_northeim = {
-	983.1.1 = {
-		holder = northeim6 # Siegfried I
+
+#Bamberg
+c_bamberg = {
+	1053.1.2 = {
+		holder = eppenstein5
 	}
-	1004.11.1 = {
-		holder = northeim4 # Bernhard I
+}
+c_ansbach = {
+	1053.1.2 = {
+		holder = eppenstein5
+	}
+}
+c_villach = {
+	1053.1.2 = {
+		holder = eppenstein5
+	}
+}
+c_wolfsberg = {
+	1053.1.2 = {
+		holder = eppenstein5
+	}
+}
+c_nurnberg = {
+	1053.1.2 = {
+		holder = eppenstein5
+	}
+}
+
+#Wiesbaden
+c_wiesbaden = {
+	1017.1.1 = {
+		liege = d_bm_mainz
+		holder = reginbodoning4 # Reginhard I
 	}
 	1040.1.1 = {
-		holder = northeim1 # Otto I
+		holder = reginbodoning5 # Siegfried
 	}
 }
-c_eschwege = {
+
+#Aschaffenburg
+c_aschaffenburg = {
+	1017.1.1 = {
+		liege = d_bm_mainz
+		holder = reginbodoning4 # Reginhard I
+	}
+	1040.1.1 = {
+		holder = reginbodoning9 # Gerhard I
+	}
+}
+
+#Augsburg
+c_augsburg = {
+	973.1.1 = {
+		holder = augsburg_heinrich_1 # Heinrich I
+	}
+	#982.7.13 = {
+	#
+	#}
+	#...
+	1047.1.1 = {
+		holder = augsburg_heinrich_2 # Heinrich II
+	}
+	#1063.9.3 = {
+	#...
+	#}
+}
+
+#Helfenstein
+c_helfenstein = {
+	1054.1.1 = {
+		holder = helfenstein1 # Manegold I
+	}
+}
+
+#Regensburg
+c_regensburg = {
+	1036.3.17 = {
+		holder = popponing1
+	}
+}
+
+#Kitzbühel
+c_kitzbuhel = {
+	1050.1.1 = {
+		liege = d_bm_regensburg
+		holder = dilching1 # Patto I
+	}
+}
+
+#Konstanz
+c_konstanz = {
+	1051.6.22 = {
+		holder = konstanz_rumold
+	}
+}
+
+#Chiemgau
+c_chiemgau = {
+	1046.1.1 = {
+		holder = siegharding1
+	}
+}
+
+#Saarbrücken
+c_saarbrucken = {
+	1054.1.1 = {
+		holder = saarbrucken1 # Siegbert I
+	}
+}
+c_zweibrucken = {
+	1054.1.1 = {
+		holder = saarbrucken1 # Siegbert I
+	}
+}
+
+#Kriechingen
+c_kriechingen = {
+	1054.1.1 = {
+		liege = d_bm_metz
+		holder = sirck1 # Sigebert I
+	}
+}
+
+#Eschenlohe
+c_eschenlohe = {
+	#1000.1.1 = {
+	#	name = EPPAN
+	#}
+	1054.1.1 = {
+		holder = eppan1
+	}
+	#1248.1.1 = {
+ 	#	reset_name = yes
+ 	#}
+}
+
+#Andechs
+c_andechs = {
+	1054.1.1 = {
+		holder = andechs1
+	}
+}
+c_munchen = {
+	1054.1.1 = {
+		holder = andechs1
+	}
+}
+
+#Lippe
+c_lippe = {
+	1054.1.1 = {
+		holder = lippe1 # Hermann I
+	}
+}
+
+#Schaunberg
+c_schaunberg = {
+	1054.1.1 = {
+		holder = julbach1
+	}
+}
+
+#Northeim
+c_eichsfeld = {
 	983.1.1 = {
 		holder = northeim6 # Siegfried I
 	}
@@ -1337,52 +1703,586 @@ c_bentheim = {
 		holder = northeim1 # Otto I
 	}
 }
-c_holenberg = {
-	983.1.1 = {
-		holder = northeim6 # Siegfried I
-	}
-	1004.11.1 = {
-		holder = northeim4 # Bernhard I
-	}
-	1040.1.1 = {
-		holder = northeim1 # Otto I
+
+#Mansfeld
+c_mansfeld = {
+	1051.1.1 = {
+		holder = mansfeld1 # Hoyer I
 	}
 }
 
-#Lobdeburg
-c_lobdaburg = {
+#Solms
+c_solms = {
 	1054.1.1 = {
-		holder = lobdeburg1
+		holder = merenberg1 # Hartrad I
 	}
 }
 
-#Vogtland
-c_plauen = {
+#Hanau
+c_hanau = {
 	1054.1.1 = {
-		holder = reuss1 # Erkenbert I
-	}
-}
-c_hartenstein = {
-	1054.1.1 = {
-		holder = reuss1 # Erkenbert I
-	}
-}
-c_gera = {
-	1054.1.1 = {
-		holder = reuss1 # Erkenbert I
+		holder = dorfelden1 # Reinhold I
 	}
 }
 
-#Magdeburg
-c_magdeburg = {
-	1051.2.28 = {
-		holder = magdeburg_engelhard
+#Gelnhausen
+c_gelnhausen = {
+	1054.1.1 = {
+		holder = selbold1 # Dietmar I
 	}
 }
-c_halle = {
-	1051.2.28 = {
-		holder = magdeburg_engelhard
+
+#Hesse
+c_marburg = {
+	1008.1.1 = {
+		holder = gisoning2 # Giso I
 	}
+	1054.1.1 = {
+		holder = gisoning1 # Giso II
+	}
+}
+c_kassel = {
+	1008.1.1 = {
+		holder = gisoning2 # Giso I
+	}
+	1054.1.1 = {
+		holder = gisoning1 # Giso II
+	}
+}
+c_boyneburg = {
+	1008.1.1 = {
+		holder = gisoning2 # Giso I
+	}
+	1054.1.1 = {
+		holder = gisoning1 # Giso II
+	}
+}
+c_hofgeismar = {
+	1008.1.1 = {
+		holder = gisoning2 # Giso I
+	}
+	1054.1.1 = {
+		holder = gisoning1 # Giso II
+	}
+}
+
+#Ziegenhain
+c_ziegenhain = {
+	1054.1.1 = {
+		holder = reichenbach2 # Gozmar I
+	}
+}
+
+#Swabia
+d_swabia = {
+	1047.9.7 = {
+		holder = luitpolding1
+	}
+}
+c_fussen = {
+	1047.9.7 = {
+		holder = luitpolding1
+	}
+}
+c_kempten = {
+	1047.9.7 = {
+		holder = luitpolding1
+	}
+}
+c_ansbach = {
+	1047.9.7 = {
+		holder = luitpolding1
+	}
+}
+
+#Beuren
+c_kaufbeuren = {
+	1054.1.1 = {
+		liege = d_swabia
+		holder = beuren1
+	}
+}
+
+#Klettgau
+c_klettgau = {
+	1045.6.30 = {
+		holder = kussenberg1 # Ulrich
+	}
+	1054.1.1 = {
+		holder = kussenberg2 # Luitold
+	}
+}
+
+#Tecklenburg
+c_tecklenburg = {
+	1046.1.1 = {
+		liege = d_bm_utrecht
+		holder = zutphen1 # Godschalk I
+	}
+}
+c_meppen = {
+	1046.1.1 = {
+		liege = d_bm_utrecht
+		holder = zutphen1 # Godschalk I
+	}
+}
+c_friesoythe = {
+	1046.1.1 = {
+		liege = d_bm_utrecht
+		holder = zutphen1 # Godschalk I
+	}
+}
+c_kloppenburg = {
+	1046.1.1 = {
+		liege = d_bm_utrecht
+		holder = zutphen1 # Godschalk I
+	}
+}
+
+#Steinfurt
+c_steinfurt = {
+	1054.1.1 = {
+		holder = steinfurt1 # Steinfurt
+	}
+}
+
+#Eberstein
+c_eberstein = {
+	940.1.1 = {
+		holder = eberstein5 # Eberhard I
+	}
+	960.1.1 = {
+		holder = eberstein4 # Gebhard I
+	}
+	1010.1.1 = {
+		holder = eberstein3 # Adalbert I
+	}
+	1046.1.1 = {
+		holder = eberstein1 # Berthold I
+	}
+}
+
+#Nidda
+c_nidda = {
+	1054.1.1 = {
+		holder = malsburg1 # Volkold I
+	}
+}
+
+#Osnbrück
+c_osnabruck = {
+	1052.4.19 = {
+		holder = osnabruck_benno_1 # Benno I
+	}
+}
+c_melle = {
+	1052.4.19 = {
+		holder = osnabruck_benno_1 # Benno I
+	}
+}
+c_bielefeld = {
+	1052.4.19 = {
+		holder = osnabruck_benno_1 # Benno I
+	}
+}
+c_rheda = {
+	1052.4.19 = {
+		holder = osnabruck_benno_1 # Benno I
+	}
+}
+
+#Berchtesgaden
+c_berchtesgaden = {
+	1054.1.1 = {
+		liege = d_bm_salzburg
+		holder = ariboning1
+	}
+}
+
+#Abensberg
+c_abensberg = {
+	1054.1.1 = {
+		holder = abensberg1
+	}
+}
+
+#Oldenburg
+c_oldenburg = {
+	1054.1.1 = {
+		holder = oldenburg1 # Egilmar I
+	}
+}
+c_ammerland = {
+	1054.1.1 = {
+		holder = oldenburg1 # Egilmar I
+	}
+}
+
+#Rieneck
+c_rieneck = {
+	1054.1.1 = {
+		liege = d_bm_mainz #Burggraves of Mainz
+		holder = rieneck1 # Gerhard I
+	}
+}
+
+#Münster
+c_munster = {
+	1000.1.1 = { government = theocracy_government }
+	1042.7.22 = {
+		holder = munster_rudbert # Rudbert I
+	}
+}
+c_horstmar = {
+	1042.7.22 = {
+		holder = munster_rudbert # Rudbert I
+	}
+}
+c_ahaus = {
+	1042.7.22 = {
+		holder = munster_rudbert # Rudbert I
+	}
+}
+
+#Bayreuth
+c_bayreuth = {
+	1054.1.1 = {
+		holder = gilching1
+	}
+}
+c_coburg = {
+	1054.1.1 = {
+		holder = gilching1
+	}
+}
+c_kronach = {
+	1054.1.1 = {
+		holder = gilching1
+	}
+}
+
+#Eichstätt
+c_eichstadt = {
+	1000.1.1 = { government = theocracy_government }
+	1042.1.1 = {
+		holder = calw1 # Gebhard
+	}
+	1054.4.19 = { # calw1 becomes Pope
+		holder = reginbodoning3 # Gundekar II
+	}
+}
+
+#Waldeck
+c_waldeck = {
+	1054.1.1 = {
+		holder = itter1 # Rember
+	}
+}
+
+#Baden
+c_baden = {
+	1054.1.1 = {
+		liege = d_breisgau
+		holder = zahringen2 # Hermann I
+	}
+}
+
+#Stühlingen
+c_stuhlingen = {
+	1054.1.1 = {
+		holder = stuhlingen1
+	}
+}
+
+#Sausenberg
+c_sausenberg = {
+	1054.1.1 = {
+		liege = d_breisgau
+		holder = kaltenbach1 # Berchtold I
+	}
+}
+
+#Passau 
+c_passau = {
+	1045.7.14 = {
+		holder = reginbodoning2
+	}
+}
+
+#Wittgenstein
+c_wittgenstein = {
+	1054.1.1 = {
+		holder = grafschaft1 # Hermann I
+	}
+}
+c_grafschaft = {
+	1054.1.1 = {
+		holder = grafschaft1 # Hermann I
+	}
+}
+c_battenberg = {
+	1054.1.1 = {
+		holder = grafschaft1 # Hermann I
+	}
+}
+
+#Dresden
+c_dresden = {
+	1046.1.1 = {
+		holder = dresden_bruno # Bruno I
+	}
+}
+
+#Halberstadt
+c_halberstadt = {
+	1035.8.23 = {
+		holder = luitpolding9 # Burkhard I
+	}
+}
+
+#Blankenburg
+c_blankenburg = {
+	1054.1.1 = {
+		holder = regenstein1 # Bodo I
+	}
+}
+
+#Diepholz
+c_diepolz = {
+	1054.1.1 = {
+		holder = diepholz1 # Gottschalk I
+	}
+}
+
+#Querfurt
+c_querfurt = {
+	1030.1.1 = {
+		holder = querfurt1 # Burkhard I
+	}
+}
+
+#Schwalenberg
+c_schwalenberg = {
+	1054.1.1 = {
+		holder = schwalenberg1 # Heinrich I
+	}
+}
+
+#Altsachsen
+d_altsachsen = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_ulzen = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_luneburg = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_heidekreis = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_celle = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_dannenberg = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_schauenburg = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_hannover = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_luchow = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+c_wunstorf = {
+	973.3.27 = {
+		holder = billung7 # Bernhard I
+	}
+	1011.2.9 = {
+		holder = billung1 # Bernhard II
+	}
+}
+
+#Wölpe
+c_wolpe = {
+	1054.1.1 = {
+		holder = wolpe1 # Gerbert I
+	}
+}
+c_hoya = {
+	1054.1.1 = {
+		holder = wolpe1 # Gerbert I
+	}
+}
+c_nienburg = {
+	1054.1.1 = {
+		holder = wolpe1 # Gerbert I
+	}
+}
+
+#Verden
+c_verden = {
+	1049.8.21 = {
+		holder = verden_siegbert # Siegbert I
+	}
+}
+
+#Everstein
+c_everstein = {
+	1054.1.1 = {
+		holder = everstein1 # Gumbert I
+	}
+}
+
+#Minden
+c_minden = {
+	1036.10.10 = {
+		holder = goseck1 # Bruno I
+	}
+}
+
+#Bederkesa
+c_bederkesa = {
+	1054.1.1 = {
+		liege = d_bm_bremen
+		holder = bederkesa1 # Bederich I
+	}
+}
+
+#Dassel
+c_dassel = {
+	1054.1.1 = {
+		holder = dassel1 # Dietrich I
+	}
+}
+
+#Bremen
+c_bremen = {
+	1043.4.15 = {
+		holder = wettin2 # Albrecht I
+	}
+}
+c_bremervorde = {
+	1043.4.15 = {
+		holder = wettin2 # Albrecht I
+	}
+}
+c_ottersberg = {
+	1043.4.15 = {
+		holder = wettin2 # Albrecht I
+	}
+}
+
+#Holstein
+c_hamburg = {
+	1054.1.1 = { # actually 1059
+		liege = d_altsachsen
+		holder = hamburg1 # Heinrich I
+	}
+}
+c_pinneberg = {
+	1054.1.1 = { # actually 1059
+		liege = d_altsachsen
+		holder = hamburg1 # Heinrich I
+	}
+}
+c_segeberg = {
+	1054.1.1 = { # actually 1059
+		liege = d_altsachsen
+		holder = hamburg1 # Heinrich I
+	}
+}
+c_itzehoe = {
+	1054.1.1 = { # actually 1059
+		liege = d_altsachsen
+		holder = hamburg1 # Heinrich I
+	}
+}
+c_rendsburg = {
+	1054.1.1 = { # actually 1059
+		liege = d_altsachsen
+		holder = hamburg1 # Heinrich I
+	}
+}
+
+#Paderborn
+c_paderborn = {
+	1051.11.7 = {
+		holder = billung11 # Imad
+	}
+}
+
+#Stade
+c_stade = {
+	976.5.11 = {
+		holder = udoning4 # Heinrich II
+	}
+	1016.10.2 = {
+		holder = udoning2 # Siefried I
+	}
+	1037.1.6 = {
+		holder = udoning1 # Udo II
+	}
+	#fief of Bremen
+}
+c_harburg = {
+	976.5.11 = {
+		holder = udoning4 # Heinrich II
+	}
+	1016.10.2 = {
+		holder = udoning2 # Siefried I
+	}
+	1037.1.6 = {
+		holder = udoning1 # Udo II
+	}
+	#fief of Bremen
 }
 
 #Brehna
@@ -1390,76 +2290,6 @@ c_brehna = {
 	1034.11.19 = {
 		liege = d_lausitz
 		holder = wettin1 # Gero I
-	}
-}
-
-#Anhalt
-c_wittenberg = {
-	1036.1.1 = {
-		holder = askanier1 # Esico I
-	}
-}
-c_aschersleben = {
-	1036.1.1 = {
-		holder = askanier1 # Esico I
-	}
-}
-
-#Meissen
-d_meissen = {
-	1002.4.30 = {
-		holder = ekkeharding1 # Ekkehard II
-	}
-	1046.1.24 = {
-		holder = weimar5 # Wilhelm I
-	}
-}
-c_meissen = {
-	1002.4.30 = {
-		holder = ekkeharding1 # Ekkehard II
-	}
-	1046.1.24 = {
-		holder = weimar5 # Wilhelm I
-	}
-}
-c_dohna = {
-	1002.4.30 = {
-		holder = ekkeharding1 # Ekkehard II
-	}
-	1046.1.24 = {
-		holder = weimar5 # Wilhelm I
-	}
-}
-c_zitawa = {
-	1002.4.30 = {
-		holder = ekkeharding1 # Ekkehard II
-	}
-	1046.1.24 = {
-		holder = weimar5 # Wilhelm I
-	}
-}
-c_luban = {
-	1002.4.30 = {
-		holder = ekkeharding1 # Ekkehard II
-	}
-	1046.1.24 = {
-		holder = weimar5 # Wilhelm I
-	}
-}
-c_colditz = {
-	1002.4.30 = {
-		holder = ekkeharding1 # Ekkehard II
-	}
-	1046.1.24 = {
-		holder = weimar5 # Wilhelm I
-	}
-}
-c_bautzen = {
-	1002.4.30 = {
-		holder = ekkeharding1 # Ekkehard II
-	}
-	1046.1.24 = {
-		holder = weimar5 # Wilhelm I
 	}
 }
 
@@ -1478,28 +2308,15 @@ c_merseburg = {
 	}
 }
 
-#Dresden
-c_dresden = {
-	1046.1.1 = {
-		holder = dresden_bruno # Bruno I
+#Magdeburg
+c_magdeburg = {
+	1051.2.28 = {
+		holder = magdeburg_engelhard
 	}
 }
-c_dahlen = {
-	1046.1.1 = {
-		holder = dresden_bruno # Bruno I
-	}
-}
-
-#Fulda
-c_fulda = {
-	744.1.1 = { government = theocracy_government }
-	1047.1.1 = {
-		holder = fulda_egbert # Egbert I
-	}
-}
-c_hammelburg = {
-	1047.1.1 = {
-		holder = fulda_egbert # Egbert I
+c_sulzetal = {
+	1051.2.28 = {
+		holder = magdeburg_engelhard
 	}
 }
 
@@ -1512,147 +2329,6 @@ c_henneberg = {
 c_schmalkalden = {
 	1049.1.1 = {
 		holder = popponing2 # Poppo I
-	}
-}
-
-#Halberstadt
-c_halberstadt = {
-	1035.8.23 = {
-		holder = luitpolding9 # Burkhard I
-	}
-}
-
-#Münzenberg
-c_munzenberg = {
-	1054.1.1 = {
-		holder = munzenberg1 # Kuno I
-	}
-}
-c_gleiberg = {
-	1054.1.1 = {
-		holder = munzenberg1 # Kuno I
-	}
-}
-c_erbach = {
-	1054.1.1 = {
-		holder = munzenberg1 # Kuno I
-	}
-}
-
-#Mainz
-c_mainz = {
-	1051.6.11 = {
-		holder = babenberg11 # Luitpold I
-	}
-}
-c_durn = {
-	1051.6.11 = {
-		holder = babenberg11 # Luitpold I
-	}
-}
-c_aschaffenburg = {
-	1051.6.11 = {
-		holder = babenberg11 # Luitpold I
-	}
-}
-c_erfurt = {
-	1051.6.11 = {
-		holder = babenberg11 # Luitpold I
-	}
-}
-
-#Worms Diocese
-c_heidelberg = {
-	1044.1.1 = {
-		holder = worms_arnold # Arnold
-	}
-}
-c_erbach = {
-	1044.1.1 = {
-		holder = worms_arnold # Arnold
-	}
-}
-
-#Trier
-c_trier = {
-	1047.6.16 = {
-		holder = ezzoning4 # Eberhard I
-	}
-}
-c_koblenz = {
-	1047.6.16 = {
-		holder = ezzoning4 # Eberhard I
-	}
-}
-
-#Pfalz
-d_palatinate = {
-	1047.9.7 = {
-		holder = ezzoning2 # Heinrich I
-	}
-}
-c_bonn = {
-	1047.9.7 = {
-		holder = ezzoning2 # Heinrich I
-	}
-}
-c_virneburg = {
-	1047.9.7 = {
-		holder = ezzoning2 # Heinrich I
-	}
-}
-
-#Thuringia
-d_thuringia = {
-	1030.1.1 = {
-		holder = ludowing1 # Ludwig I
-	}
-}
-c_herbsleben = {
-	1030.1.1 = {
-		holder = ludowing1 # Ludwig I
-	}
-}
-c_gotha = {
-	1030.1.1 = {
-		holder = ludowing1 # Ludwig I
-	}
-}
-c_salza = {
-	1030.1.1 = {
-		holder = ludowing1 # Ludwig I
-	}
-}
-c_kevernburg = {
-	1030.1.1 = {
-		holder = ludowing1 # Ludwig I
-	}
-}
-c_freyburg = {
-	1030.1.1 = {
-		holder = ludowing1 # Ludwig I
-	}
-}
-
-#Hersfeld
-c_hersfeld = {
-	1000.1.1 = { government = theocracy_government }
-	1036.1.1 = {
-		holder = hersfeld_meginher # Meginher I
-	}
-}
-
-#Schwalenberg
-c_schwalenberg = {
-	1054.1.1 = {
-		holder = schwalenberg1 # Heinrich I
-	}
-}
-
-#Leisnig
-c_leisnig = {
-	1054.1.1 = {
-		holder = groitzsch1 # Wiprecht I
 	}
 }
 
@@ -1672,115 +2348,45 @@ c_haldensleben = {
 	}
 }
 c_stendal = {
+	965.1.1 = {
+		holder = haldensleben5 # Dietrich I
+	}
+	985.8.25 = {
+		holder = haldensleben4 # Bernhard I
+	}
+	1018.1.1 = {
+		holder = haldensleben3 # Bernhard II
+	}
 	1051.1.1 = {
 		holder = haldensleben1 # Wilhelm
 	}
 }
-
-#Gleichen
-c_gleichen = {
-	1054.1.1 = {
-		holder = gleichen1 # Erwin I
+c_tangermunde = {
+	965.1.1 = {
+		holder = haldensleben5 # Dietrich I
+	}
+	985.8.25 = {
+		holder = haldensleben4 # Bernhard I
+	}
+	1018.1.1 = {
+		holder = haldensleben3 # Bernhard II
+	}
+	1051.1.1 = {
+		holder = haldensleben1 # Wilhelm
 	}
 }
-
-#Alsace
-d_alsace = {
-	1054.1.1 = {
-		holder = huneburg1 # Dietrich I
+c_salzwedel = {
+	965.1.1 = {
+		holder = haldensleben5 # Dietrich I
 	}
-}
-c_hagenau = {
-	1054.1.1 = {
-		holder = huneburg1 # Dietrich I
+	985.8.25 = {
+		holder = haldensleben4 # Bernhard I
 	}
-}
-c_barr = {
-	1054.1.1 = {
-		holder = huneburg1 # Dietrich I
+	1018.1.1 = {
+		holder = haldensleben3 # Bernhard II
 	}
-}
-c_zabern = {
-	1054.1.1 = {
-		holder = huneburg1 # Dietrich I
-	}
-}
-c_lichtenberg = {
-	1054.1.1 = {
-		holder = huneburg1 # Dietrich I
-	}
-}
-
-#Sundgau
-c_sundgau = {
-	#unknown dynasty, Flachslanden just from the region
-	1052.1.1 = {
-		holder = flachslanden1 # Kuno I
-	}
-}
-c_pfirt = {
-	1052.1.1 = {
-		holder = flachslanden1 # Kuno I
-	}
-}
-
-#Fleckenstein
-c_fleckenstein = {
-	1054.1.1 = {
-		holder = fleckenstein1 # Gottfried I
-	}
-}
-
-#Murbach
-c_murbach = {
-	1049.1.1 = {
-		government = theocracy_government
-		holder = murbach_wolfrad # Wolfrad
-	}
-}
-
-#Dagsburg
-c_dagsburg = {
-	985.1.1 = {
-		holder = dagsburg4 # Hugo VI
-	}
-	1012.1.1 = {
-		holder = dagsburg3 # Hugo VII
-	}
-	1049.1.1 = {
-		holder = dagsburg1 # Heinrich I
-	}
-}
-
-#Diez
-c_diez = {
-	1053.1.1 = {
-		holder = diez1 # Embricho I
-	}
-}
-c_nassau = {
-	1053.1.1 = {
-		holder = diez1 # Embricho I
-	}
-}
-c_sayn = {
-	1053.1.1 = {
-		holder = diez1 # Embricho I
-	}
-}
-
-#Solms
-c_solms = {
-	1054.1.1 = {
-		holder = merenberg1 # Hartrad I
-	}
-}
-
-#Bederkesa
-c_bederkesa = {
-	1054.1.1 = {
-		liege = d_bm_bremen
-		holder = bederkesa1 # Bederich I
+	1051.1.1 = {
+		holder = haldensleben1 # Wilhelm
 	}
 }
 
@@ -1824,7 +2430,25 @@ c_mecklenburg = {
 		holder = nakoning1 # Gotszalk
 	}
 }
-
+c_mecklenburg = {
+	#Obodriti
+	800.1.1 = { government = tribal_government }
+	954.1.1 = {
+		holder = nakoning5 # Nakon
+	}
+	966.1.1 = {
+		holder = nakoning4 # Mstivoj
+	}
+	995.1.1 = {
+		holder = nakoning3 # Mstislav
+	}
+	1018.1.1 = {
+		holder = nakoning2 # Udo
+	}
+	1028.1.1 = {
+		holder = nakoning1 # Gotszalk
+	}
+}
 
 #Ratzeburg
 c_ratzeburg = {
@@ -1849,18 +2473,6 @@ c_ratzeburg = {
 
 #Lauenburg
 c_lauenburg = {
-	#Polabi
-	800.1.1 = {
-		government = tribal_government
-		liege = d_mecklenburg
-	}
-	1054.1.1 = {
-		holder = polabi1 # Dobromil 
-	}
-}
-
-#Boizenburg
-c_boizenburg = {
 	#Polabi
 	800.1.1 = {
 		government = tribal_government
@@ -1933,7 +2545,17 @@ c_lubeck = {
 }
 
 #Rostock
-c_rostock = {
+c_tessin = {
+	#Circipani
+	800.1.1 = {
+		government = tribal_government
+		liege = d_mecklenburg
+	}
+	1054.1.1 = {
+		holder = circipani1
+	}
+}
+c_teterow = {
 	#Circipani
 	800.1.1 = {
 		government = tribal_government
@@ -1964,9 +2586,7 @@ c_jerichow = {
 		holder = liezizi1
 	}
 }
-
-#Lindau-Zerbst
-c_lindau-zerbst = {
+c_mockern = {
 	#Liezizi
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
@@ -1982,9 +2602,30 @@ c_berlin = {
 		holder = sprevani1 # Wlodzimierz
 	}
 }
+c_oderland = {
+	#Sprevani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = sprevani1 # Wlodzimierz
+	}
+}
+c_furstenwalde = {
+	#Sprevani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = sprevani1 # Wlodzimierz
+	}
+}
 
 #Potsdam
 c_potsdam = {
+	#Ploni
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = ploni1 # Ctibor
+	}
+}
+c_genthin = {
 	#Ploni
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
@@ -2001,9 +2642,26 @@ c_havelberg = {
 		holder = brizani1 # Drasco
 	}
 }
+c_westprignitz = {
+	#Brizani
+	800.1.1 = { government = tribal_government }
+	839.1.1 = { liege = d_mecklenburg }
+	1054.1.1 = {
+		holder = brizani1 # Drasco
+	}
+}
 
 #Pritzwalk
-c_pritzwalk = {
+c_ostprignitz = {
+	#Linoni
+	800.1.1 = { government = tribal_government }
+	839.1.1 = { liege = d_mecklenburg }
+	1054.1.1 = {
+		holder = linoni1
+	}
+}
+#Wittstock
+c_wittstock = {
 	#Linoni
 	800.1.1 = { government = tribal_government }
 	839.1.1 = { liege = d_mecklenburg }
@@ -2013,7 +2671,7 @@ c_pritzwalk = {
 }
 
 #Köpenick
-c_kopenick = {
+c_barnim = {
 	#Riaciani
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
@@ -2030,14 +2688,21 @@ c_templin = {
 
 #Brandenburg
 c_brandenburg = {
-	#Riaciani
+	#Hevelli
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
 		holder = hevelli1
 	}
 }
 c_rathenow = {
-	#Riaciani
+	#Hevelli
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = hevelli1
+	}
+}
+c_mittelmark = {
+	#Hevelli
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
 		holder = hevelli1
@@ -2052,9 +2717,7 @@ c_ruppin = {
 		holder = murizzi1
 	}
 }
-
-#Wittstock
-c_wittstock = {
+c_rheinsberg = {
 	#Murizzi
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
@@ -2086,6 +2749,13 @@ c_prenzlau = {
 		holder = ukrani1
 	}
 }
+c_uckermunde = {
+	#Ukrani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = ukrani1
+	}
+}
 
 #Stargard
 c_stargard = {
@@ -2095,7 +2765,14 @@ c_stargard = {
 		holder = tolenzi1 # Mstislav
 	}
 }
-c_anklam = {
+c_demmin = {
+	#Tolenzi
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = tolenzi1 # Mstislav
+	}
+}
+c_neubrandenburg = {
 	#Tolenzi
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
@@ -2105,7 +2782,16 @@ c_anklam = {
 
 #Wolgast
 c_wolgast = {
-	#chyzani
+	#Chyzani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = chyzani1
+	}
+}
+
+#Stralsund
+c_stralsund = {
+	#Chyzani
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
 		holder = chyzani1
@@ -2114,7 +2800,7 @@ c_wolgast = {
 
 #Barth
 c_barth = {
-	#chyzani
+	#Chyzani
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
 		holder = chyzani1
@@ -2129,7 +2815,14 @@ c_pyritz = {
 		holder = prissani1
 	}
 }
-c_storgard = {
+c_greifenhagen = {
+	#Prissani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = prissani1
+	}
+}
+c_naugard = {
 	#Prissani
 	800.1.1 = { government = tribal_government }
 	1054.1.1 = {
@@ -2145,6 +2838,400 @@ c_cammin = {
 		holder = velunzani1
 	}
 }
+c_kolberg = {
+	#Velunzani
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = velunzani1
+	}
+}
+
+c_regenwalde = {
+	#Biologardi
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = biologardi1
+	}
+}
+c_dramburg = {
+	#Biologardi
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = biologardi1
+	}
+}
+c_arnswalde = {
+	#Biologardi
+	800.1.1 = { government = tribal_government }
+	1054.1.1 = {
+		holder = biologardi1
+	}
+}
+
+#East Francia
+k_east_francia = {
+	876.8.28 = {
+		holder = karling45 #Charles the Fat
+	}
+	887.11.30 = {
+		holder = karling52 #Arnulf
+	}
+	899.12.8 = {
+		holder = karling58 #Ludwig the Child
+	}
+}
+
+#Tirol
+d_tyrol = {
+	1054.7.1 = {
+		holder = tirol1
+	}
+}
+c_meran = {
+	1054.7.1 = {
+		holder = tirol1
+	}
+}
+c_ischgl = {
+	1054.7.1 = {
+		holder = tirol1
+	}
+}
+
+#Bavaria
+d_bavaria = {
+	1026.2.27 = {
+		holder = salier4
+	}
+	1027.1.1 = {
+		holder = salier3
+	}
+	1042.1.1 = {
+		holder = luxemburg1
+	}
+	1047.10.14 = {
+		holder = salier3
+	}
+	1049.1.1 = {
+		holder = ezzoning1
+	}
+	1053.4.11 = {
+		holder = salier1
+	}
+	1054.6.1 = {
+		holder = salier2
+	}
+}
+c_innkreis = {
+	1026.2.27 = {
+		holder = salier4
+	}
+	1027.1.1 = {
+		holder = salier3
+	}
+	1042.1.1 = {
+		holder = luxemburg1
+	}
+	1047.10.14 = {
+		holder = salier3
+	}
+	1049.1.1 = {
+		holder = ezzoning1
+	}
+	1053.4.11 = {
+		holder = salier1
+	}
+	1054.6.1 = {
+		holder = salier2
+	}
+}
+c_ortenberg = {
+	1026.2.27 = {
+		holder = salier4
+	}
+	1027.1.1 = {
+		holder = salier3
+	}
+	1042.1.1 = {
+		holder = luxemburg1
+	}
+	1047.10.14 = {
+		holder = salier3
+	}
+	1049.1.1 = {
+		holder = ezzoning1
+	}
+	1053.4.11 = {
+		holder = salier1
+	}
+	1054.6.1 = {
+		holder = salier2
+	}
+}
+
+#Freising
+c_freising = {
+	1052.4.6 = {
+		holder = siegharding2
+	}
+}
+c_waidhofen = {
+	1052.4.6 = {
+		holder = siegharding2
+	}
+}
+
+#Wasserburg
+c_wasserburg = {
+	#1000.1.1 = {
+	#	name = ROTT
+	#}
+	1054.1.1 = {
+		liege = d_bavaria
+		holder = pilgriming1
+	}
+	#1098.1.1 = {
+ 	#	reset_name = yes
+ 	#}
+}
+
+#Nordgau
+d_nordgau = {
+	956.1.1 = {
+		holder = diepolding6
+	}
+	984.1.1. = {
+		holder = diepolding5
+	}
+	1025.1.1 = {
+		holder = diepolding3
+	}
+	1050.6.19 = {
+		holder = diepolding1
+	}
+}
+c_amberg = {
+	956.1.1 = {
+		holder = diepolding6
+	}
+	984.1.1. = {
+		holder = diepolding5
+	}
+	1025.1.1 = {
+		holder = diepolding3
+	}
+	1050.6.19 = {
+		holder = diepolding1
+	}
+}
+c_kemnath = {
+	956.1.1 = {
+		holder = diepolding6
+	}
+	984.1.1. = {
+		holder = diepolding5
+	}
+	1025.1.1 = {
+		holder = diepolding3
+	}
+	1050.6.19 = {
+		holder = diepolding1
+	}
+}
+c_waldau = {
+	956.1.1 = {
+		holder = diepolding6
+	}
+	984.1.1. = {
+		holder = diepolding5
+	}
+	1025.1.1 = {
+		holder = diepolding3
+	}
+	1050.6.19 = {
+		holder = diepolding1
+	}
+}
+
+#Neumark
+c_neumarkt = {
+	983.1.1 = {
+		liege = d_nordgau
+		holder = baboning3 # Babo I
+	}
+	1001.3.6 = {
+		holder = baboning2 # Ruprecht I
+	}
+	1035.12.13 = {
+		holder = baboning4 # Babo II
+	}
+}
+
+#Klingenberg
+c_klingenberg = {
+	1054.1.1 = {
+		holder = bickenbach1
+	}
+}
+
+#Rheingraviate
+c_rheingraviate = {
+	1019.1.1 = {
+		holder = embrichoning2 # Embricho I
+	}
+	1050.1.1 = {
+		holder = embrichoning1 # Ludwig I
+	}
+	1104.1.1 = {
+		holder = embrichoning3 # Ludwig II
+	}
+}
+
+#Naumburg
+c_naumburg = {
+	1045.1.1 = {
+		holder = wippra1 # Eberhard I
+	}
+}
+
+#Lobdeburg
+c_lobdaburg = {
+	1054.1.1 = {
+		holder = lobdeburg1
+	}
+}
+
+#Meissen
+d_meissen = {
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
+	}
+	1046.1.24 = {
+		holder = weimar5 # Wilhelm I
+	}
+}
+c_meissen = {
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
+	}
+	1046.1.24 = {
+		holder = weimar5 # Wilhelm I
+	}
+}
+c_dohna = {
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
+	}
+	1046.1.24 = {
+		holder = weimar5 # Wilhelm I
+	}
+}
+c_zitawa = {
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
+	}
+	1046.1.24 = {
+		holder = weimar5 # Wilhelm I
+	}
+}
+c_luban = {
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
+	}
+	1046.1.24 = {
+		holder = weimar5 # Wilhelm I
+	}
+}
+c_colditz = {
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
+	}
+	1046.1.24 = {
+		holder = weimar5 # Wilhelm I
+	}
+}
+c_bautzen = {
+	1002.4.30 = {
+		holder = ekkeharding1 # Ekkehard II
+	}
+	1046.1.24 = {
+		holder = weimar5 # Wilhelm I
+	}
+}
+
+#Pfalz
+d_palatinate = {
+	1047.9.7 = {
+		holder = ezzoning2 # Heinrich I
+	}
+}
+c_bonn = {
+	1047.9.7 = {
+		holder = ezzoning2 # Heinrich I
+	}
+}
+c_virneburg = {
+	1047.9.7 = {
+		holder = ezzoning2 # Heinrich I
+	}
+}
+
+#Hersfeld
+c_hersfeld = {
+	1000.1.1 = { government = theocracy_government }
+	1036.1.1 = {
+		holder = hersfeld_meginher # Meginher I
+	}
+}
+
+#Leisnig
+c_leisnig = {
+	1054.1.1 = {
+		holder = groitzsch1 # Wiprecht I
+	}
+}
+
+#Alsace
+d_alsace = {
+	1054.1.1 = {
+		holder = huneburg1 # Dietrich I
+	}
+}
+c_hagenau = {
+	1054.1.1 = {
+		holder = huneburg1 # Dietrich I
+	}
+}
+c_barr = {
+	1054.1.1 = {
+		holder = huneburg1 # Dietrich I
+	}
+}
+c_zabern = {
+	1054.1.1 = {
+		holder = huneburg1 # Dietrich I
+	}
+}
+c_lichtenberg = {
+	1054.1.1 = {
+		holder = huneburg1 # Dietrich I
+	}
+}
+
+#Fleckenstein
+c_fleckenstein = {
+	1054.1.1 = {
+		holder = fleckenstein1 # Gottfried I
+	}
+}
+
+#Murbach
+b_murbach = {
+	1049.1.1 = {
+		government = theocracy_government
+		holder = murbach_wolfrad # Wolfrad
+	}
+}
 
 #Isenburg
 c_isenburg = {
@@ -2153,300 +3240,10 @@ c_isenburg = {
 	}
 }
 
-#Oldenburg
-c_oldenburg = {
-	1054.1.1 = {
-		holder = oldenburg1 # Egilmar I
-	}
-}
-c_bruchhausen = {
-	1054.1.1 = {
-		holder = oldenburg1 # Egilmar I
-	}
-}
-
-#Brunswick
-c_wolfenbuttel = {
-	990.1.1 = {
-		holder = brunoning7 # Bruno I
-	}
-	1014.1.1 = {
-		holder = brunoning3 # Liudolf I
-	}
-	1038.4.23 = {
-		holder = brunoning2 # Ekbert I
-	}
-	1051.1.1 = {
-		liege = d_bm_hildesheim
-	}
-}
-
-#Hildesheim
-c_hildesheim = {
-	1044.11.14 = {
-		holder = hildesheim_azelin # Azeilin
-	}
-	1054.3.8 = {
-		holder = hildesheim_hezilo # Hezilo I
-	}
-}
-c_liebenburg = {
-	1044.11.14 = {
-		holder = hildesheim_azelin # Azeilin
-	}
-	1054.3.8 = {
-		holder = hildesheim_hezilo # Hezilo I
-	}
-}
-
 #Woldenberg
 c_woldenberg = {
 	1054.1.1 = {
 		holder = woldenberg1 # Burkhard I
-	}
-}
-
-#Altsachsen
-d_saxony = {
-	973.3.27 = {
-		name = ALTSACHSEN
-		holder = billung7 # Bernhard I
-	}
-	1011.2.9 = {
-		holder = billung1 # Bernhard II
-	}
-}
-c_luneburg = {
-	973.3.27 = {
-		holder = billung7 # Bernhard I
-	}
-	1011.2.9 = {
-		holder = billung1 # Bernhard II
-	}
-}
-c_celle = {
-	973.3.27 = {
-		holder = billung7 # Bernhard I
-	}
-	1011.2.9 = {
-		holder = billung1 # Bernhard II
-	}
-}
-c_dannenberg = {
-	973.3.27 = {
-		holder = billung7 # Bernhard I
-	}
-	1011.2.9 = {
-		holder = billung1 # Bernhard II
-	}
-}
-c_schauenburg = {
-	973.3.27 = {
-		holder = billung7 # Bernhard I
-	}
-	1011.2.9 = {
-		holder = billung1 # Bernhard II
-	}
-}
-c_hannover = {
-	973.3.27 = {
-		holder = billung7 # Bernhard I
-	}
-	1011.2.9 = {
-		holder = billung1 # Bernhard II
-	}
-}
-c_luchow = {
-	973.3.27 = {
-		holder = billung7 # Bernhard I
-	}
-	1011.2.9 = {
-		holder = billung1 # Bernhard II
-	}
-}
-c_wunstorf = {
-	973.3.27 = {
-		holder = billung7 # Bernhard I
-	}
-	1011.2.9 = {
-		holder = billung1 # Bernhard II
-	}
-}
-
-#Paderborn
-c_paderborn = {
-	1051.11.7 = {
-		holder = billung11 # Imad
-	}
-}
-
-#Stade
-c_stade = {
-	976.5.11 = {
-		holder = udoning4 # Heinrich II
-	}
-	1016.10.2 = {
-		holder = udoning2 # Siefried I
-	}
-	1037.1.6 = {
-		holder = udoning1 # Udo II
-	}
-	#fief of Bremen
-}
-
-#Holstein
-c_hamburg = {
-	1054.1.1 = { # actually 1059
-		liege = d_saxony
-		holder = hamburg1 # Heinrich I
-	}
-}
-c_rendsburg = {
-	1054.1.1 = { # actually 1059
-		liege = d_saxony
-		holder = hamburg1 # Heinrich I
-	}
-}
-c_ditmarschen = {
-	1054.1.1 = { # actually 1059
-		liege = d_saxony
-		holder = hamburg1 # Heinrich I
-	}
-}
-
-#Bremen
-c_bremen = {
-	1043.4.15 = {
-		holder = wettin2 # Albrecht I
-	}
-}
-c_ottersberg = {
-	1043.4.15 = {
-		holder = wettin2 # Albrecht I
-	}
-}
-
-#Verden
-c_verden = {
-	1049.8.21 = {
-		holder = verden_siegbert # Siegbert I
-	}
-}
-
-#Minden
-c_minden = {
-	1036.10.10 = {
-		holder = goseck1 # Bruno I
-	}
-}
-c_hausberge = {
-	1036.10.10 = {
-		holder = goseck1 # Bruno I
-	}
-}
-
-#Emsigerland
-c_emsigerland = {
-	1044.7.12 = {
-		holder = werl1 # Hermann III
-	}
-}
-
-#Münster
-c_munster = {
-	1042.7.22 = {
-		holder = munster_rudbert # Rudbert I
-	}
-}
-c_coesfeld = {
-	1042.7.22 = {
-		holder = munster_rudbert # Rudbert I
-	}
-}
-c_ahaus = {
-	1042.7.22 = {
-		holder = munster_rudbert # Rudbert I
-	}
-}
-
-#Diepholz
-c_diepolz = {
-	1054.1.1 = {
-		holder = diepholz1 # Gottschalk I
-	}
-}
-
-#Hesse
-c_marburg = {
-	1008.1.1 = {
-		holder = gisoning2 # Giso I
-	}
-	1054.1.1 = {
-		holder = gisoning1 # Giso II
-	}
-}
-c_kassel = {
-	1008.1.1 = {
-		holder = gisoning2 # Giso I
-	}
-	1054.1.1 = {
-		holder = gisoning1 # Giso II
-	}
-}
-
-#Ziegenhain
-c_ziegenhain = {
-	1054.1.1 = {
-		holder = reichenbach2 # Gozmar I
-	}
-}
-
-#Hanau
-c_hanau = {
-	1054.1.1 = {
-		holder = dorfelden1 # Reinhold I
-	}
-}
-
-#Gelnhausen
-c_gelnhausen = {
-	1054.1.1 = {
-		holder = selbold1 # Dietmar I
-	}
-}
-
-#Wittgenstein
-c_wittgenstein = {
-	1054.1.1 = {
-		holder = grafschaft1 # Hermann I
-	}
-}
-
-#Katzenelnbogen
-c_katzenelnbogen = {
-	1054.1.1 = {
-		liege = d_bm_cologne # ???
-		holder = katzenelnbogen1 # Diether I
-	}
-}
-
-#Wied
-c_wied = {
-	1034.1.1 = {
-		liege = d_palatinate
-		holder = wied1 # Wittekind I
-	}
-}
-
-#Osnbrück
-c_osnabruck = {
-	1052.4.19 = {
-		holder = osnabruck_benno_1 # Benno I
-	}
-}
-c_rheda = {
-	1052.4.19 = {
-		holder = osnabruck_benno_1 # Benno I
 	}
 }
 
@@ -2466,198 +3263,6 @@ c_wildenberg = {
 	}
 }
 
-#Jülich
-c_julich = {
-	1003.1.1 = {
-		holder = julich1 # Gerhard I
-	}
-	1040.1.1 = {
-		holder = julich2 # Gerhard II
-	}
-}
-c_stolberg = {
-	1003.1.1 = {
-		holder = julich1 # Gerhard I
-	}
-	1040.1.1 = {
-		holder = julich2 # Gerhard II
-	}
-}
-
-#Kleve
-c_kleve = {
-	1021.1.1 = {
-		holder = kleve1 # Rutger I
-	}
-	1050.1.1 = {
-		holder = kleve2 # Rutger II
-	}
-}
-c_mors = {
-	1021.1.1 = {
-		holder = kleve1 # Rutger I
-	}
-	1050.1.1 = {
-		holder = kleve2 # Rutger II
-	}
-}
-
-#Berg
-c_bergh = {
-	1054.1.1 = {
-		holder = berg1 # Adolf I
-	}
-}
-c_huckeswagen = {
-	1054.1.1 = {
-		holder = berg1 # Adolf I
-	}
-}
-c_homburg = {
-	1054.1.1 = {
-		holder = berg1 # Adolf I
-	}
-}
-
-#Arnsberg
-c_arnsberg = {
-	1025.1.1 = {
-		holder = arnsberg1 # Bernhard II
-	}
-}
-c_mark = {
-	1025.1.1 = {
-		holder = arnsberg1 # Bernhard II
-	}
-}
-c_hohenlimburg = {
-	1025.1.1 = {
-		holder = arnsberg1 # Bernhard II
-	}
-}
-c_bilstein = {
-	1025.1.1 = {
-		holder = arnsberg1 # Bernhard II
-	}
-}
-c_rietberg = {
-	1025.1.1 = {
-		holder = arnsberg1 # Bernhard II
-	}
-}
-
-#Köln
-c_cologne = {
-	1036.8.25 = {
-		holder = ezzoning7
-	}
-}
-c_brilon = {
-	1036.8.25 = {
-		holder = ezzoning7
-	}
-}
-c_wipperfurth = {
-	1036.8.25 = {
-		holder = ezzoning7
-	}
-}
-
-#Waldeck
-c_waldeck = {
-	1054.1.1 = {
-		holder = itter1 # Rember
-	}
-}
-
-#Mansfeld
-c_mansfeld = {
-	1051.1.1 = {
-		holder = mansfeld1 # Hoyer I
-	}
-}
-
-#Klettenberg
-c_klettenberg = {
-	1054.1.1  = {
-		holder = klettenberg1 # Heselin I
-	}
-}
-
-#Göttingen
-c_gottingen = {
-	1054.1.1 = {
-		holder = grone1 # Bevo I
-	}
-}
-
-#Dassel
-c_dassel = {
-	1054.1.1 = {
-		holder = dassel1 # Dietrich I
-	}
-}
-
-#Lippe
-c_lippe = {
-	1054.1.1 = {
-		holder = lippe1 # Hermann I
-	}
-}
-
-#Saarbrücken
-c_saarbrucken = {
-	1054.1.1 = {
-		holder = saarbrucken1 # Siegbert I
-	}
-}
-c_zweibrucken = {
-	1054.1.1 = {
-		holder = saarbrucken1 # Siegbert I
-	}
-}
-
-#Württemberg
-c_wurttemberg = {
-	1054.1.1 = {
-		holder = wurttemberg1 # Konrad I
-	}
-}
-
-#Kriechingen
-c_puttlingen = {
-	1054.1.1 = {
-		liege = d_bm_metz
-		holder = sirck1 # Sigebert I
-	}
-}
-
-#Wölpe
-c_wolpe = {
-	1054.1.1 = {
-		holder = wolpe1 # Gerbert I
-	}
-}
-c_hoya = {
-	1054.1.1 = {
-		holder = wolpe1 # Gerbert I
-	}
-}
-
-#Steinfurt
-c_steinfurt = {
-	1054.1.1 = {
-		holder = steinfurt1 # Steinfurt
-	}
-}
-
-#Arnstein
-c_arnstein = {
-	1054.1.1 = {
-		holder = steusslingen1 # Walter I
-	}
-}
-
 #Abenberg
 c_abenberg = {
 	995.1.1 = {
@@ -2668,20 +3273,6 @@ c_abenberg = {
 	}
 	1037.1.1 = {
 		holder = abenberg1 # Wolfram I
-	}
-}
-
-#Falkenstein
-c_falkenstein = {
-	1054.1.1 = {
-		holder = falkenstein1 # Werner I
-	}
-}
-
-#Nidda
-c_nidda = {
-	1054.1.1 = {
-		holder = malsburg1 # Volkold I
 	}
 }
 
@@ -2699,13 +3290,6 @@ c_lutzelstein = {
 	}
 }
 
-#Wertheim
-c_wertheim = {
-	1050.1.1 = {
-		holder = wertheim1 # Bruno I
-	}
-}
-
 #Manderscheid
 c_manderscheid = {
 	1054.1.1 = {
@@ -2720,13 +3304,6 @@ c_spiegelberg = {
 	}
 }
 
-#Castell
-c_castell = {
-	1054.1.1 = {
-		holder = castell1 # Ruprecht I
-	}
-}
-
 #Ulm
 c_ulm = {
 	1000.1.1 = {
@@ -2738,32 +3315,11 @@ c_ulm = {
 	}
 }
 
-#Wiltberg
-c_wiltberg = {
-	1054.1.1 = {
-		holder = wiltberg1 # Gerwig I
-	}
-}
-
-#Orlamünde
-c_orlamunde = {
-	1054.1.1 = { #technically 1060
-		holder = weimar6 # Otto I
-	}
-}
-
 #Kornelimünster
 c_kornelimunster = {
 	1000.1.1 = { government = theocracy_government }
 	1054.1.1 = {
 		holder = kornelimunster_libertus # Libertus
-	}
-}
-
-#Everstein
-c_everstein = {
-	1054.1.1 = {
-		holder = everstein1 # Gumbert I
 	}
 }
 
@@ -2790,37 +3346,9 @@ c_werden = {
 	}
 }
 
-#Leiningen
-c_leiningen = {
-	1054.1.1 = {
-		holder = leiningen1 # Emicho I
-	}
-}
-
 #Grimma
 c_grimma = {
 	1054.1.1 = {
 		holder = dewin1 # Tammo I
-	}
-}
-
-#Sausenberg
-c_sausenberg = {
-	1054.1.1 = {
-		holder = kaltenbach1 # Berchtold I
-	}
-}
-
-#Blankenburg
-c_blankenburg = {
-	1054.1.1 = {
-		holder = regenstein1 # Bodo I
-	}
-}
-
-#Suppligenburg
-c_wernigerode = {
-	1031.1.1 = {
-		holder = supplingenburg1 # Bernhard I
 	}
 }

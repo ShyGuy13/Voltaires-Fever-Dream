@@ -3,8 +3,12 @@ groitzsch1 = {
 	dynasty = 269
 	religion = catholic
 	culture = saxon
+	father = groitzsch5
 	1016.1.1 = { #fic
 		birth = yes
+	}
+	1041.1.1 = {
+		add_spouse = leinungen1 # Sigena
 	}
 	1061.1.1 = {
 		death = yes
@@ -16,11 +20,89 @@ groitzsch2 = {
 	dynasty = 269
 	religion = catholic
 	culture = saxon
+	trait = twin
 	father = groitzsch1
+	mother = leinungen1
 	1050.1.1 = { #est
 		birth = yes
 	}
 	1124.5.22 = {
+		death = yes
+	}
+}
+
+groitzsch3 = {
+	name = "Otto" #
+	dynasty = 269
+	religion = catholic
+	culture = saxon
+	father = groitzsch1
+	mother = leinungen1
+	1041.1.1 = { #fic
+		birth = yes
+	}
+	1102.1.1 = { #fic
+		death = yes
+	}
+}
+
+groitzsch4 = {
+	name = "Hermann" #
+	dynasty = 269
+	religion = catholic
+	culture = saxon
+	father = groitzsch1
+	mother = leinungen1
+	1046.1.1 = { #fic
+		birth = yes
+	}
+	1105.1.1 = { #fic
+		death = yes
+	}
+}
+
+groitzsch5 = {
+	name = "Wulf" #
+	dynasty = 269
+	religion = catholic
+	culture = saxon
+	985.1.1 = { #est
+		birth = yes
+	}
+	1041.1.1 = { #fic
+		death = yes
+	}
+}
+
+groitzsch6 = {
+	name = "Johanna" # fictional name
+	female = yes
+	dynasty = 269
+	religion = catholic
+	culture = saxon
+	trait = twin
+	father = groitzsch1
+	mother = leinungen1
+	1050.1.1 = { #fic
+		birth = yes
+	}
+	1098.1.1 = { #fic
+		death = yes
+	}
+}
+
+groitzsch6 = {
+	name = "Ursula" # fictional name
+	female = yes
+	dynasty = 269
+	religion = catholic
+	culture = saxon
+	father = groitzsch1
+	mother = leinungen1
+	1053.1.1 = { #fic
+		birth = yes
+	}
+	1107.1.1 = { #fic
 		death = yes
 	}
 }

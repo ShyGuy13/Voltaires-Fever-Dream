@@ -8,9 +8,7 @@
 		birth = yes
 	}
 	1047.1.1 = {
-		effect = {
-			add_pressed_claim = title:d_carinthia
-		}
+		add_pressed_claim = title:d_carinthia
 	}
 	1055.11.13 = {
 		death = yes

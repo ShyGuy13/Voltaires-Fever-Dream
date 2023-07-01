@@ -1,12 +1,28 @@
 ﻿maden1 = {
 	name = "Werner" # Werner III of Neckargau
-	dynasty = 57
+	dynasty_house = house_maden
 	religion = catholic
 	culture = swabian
+	father = maden2
 	1040.1.1 = {
 		birth = yes
 	}
 	1065.2.24 = {
+		death = yes
+	}
+}
+
+maden2 = {
+	name = "Werner" # Werner II of Neckargau
+	dynasty_house = house_maden
+	religion = catholic
+	culture = swabian
+	father = winterthur5
+	mother = eberharding17
+	1021.1.1 = { #fic
+		birth = yes
+	}
+	1053.6.18 = {
 		death = yes
 	}
 }

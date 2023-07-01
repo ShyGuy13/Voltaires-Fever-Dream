@@ -1,5 +1,5 @@
 ﻿calw1 = {
-	name = "Gebhard" #bishop of Eichstätt & Pope Victor II - Gebhard
+	name = "Gebhard" #bishop of Eichstätt & Pope Victor II
 	dynasty = 42
 	religion = catholic
 	culture = swabian
@@ -31,13 +31,13 @@ calw2 = {
 	culture = swabian
 	father = calw3 #???
 	mother = calw3_wife #???
-	1008.1.1 = { #fic
+	978.1.1 = { #fic
 		birth = yes
 	}
-	1054.1.1 = { #fic
-		add_spouse = willsbach1 # Cunizza
+	1027.1.1 = { #fic
+		add_spouse = dagsburg13 # Adelheid
 	}
-	1075.1.1 = {
+	1046.1.1 = {
 		death = yes
 	}
 }
@@ -69,6 +69,35 @@ calw4 = {
 		birth = yes
 	}
 	1069.9.9 = {
+		death = yes
+	}
+}
+
+calw5 = {
+	name = "Adalbert" # Adalbert II
+	dynasty = 42
+	religion = catholic
+	culture = swabian
+	father = calw2
+	mother = dagsburg13
+	1027.1.1 = { #est
+		birth = yes
+	}
+	1099.9.22 = {
+		death = yes
+	}
+}
+
+calw6 = {
+	name = "Gotebald"
+	dynasty = 42
+	religion = catholic
+	culture = swabian
+	father = calw3
+	999.1.1 = { #fic
+		birth = yes
+	}
+	1063.1.1 = {
 		death = yes
 	}
 }

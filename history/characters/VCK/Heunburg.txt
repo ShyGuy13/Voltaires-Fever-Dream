@@ -1,0 +1,68 @@
+﻿heunburg1 = {
+	name = "Gero" # Gero I of Trixen
+	dynasty = 302
+	religion = catholic
+	culture = austrian
+	father = heunburg5 #???
+	1017.1.1 = { #fic
+		birth = yes
+	}
+	1072.1.1 = {
+		death = yes
+	}
+}
+
+heunburg2 = {
+	name = "Wilhelm" # Wilhelm I of Trixen
+	dynasty = 302
+	religion = catholic
+	culture = austrian
+	father = heunburg1
+	1039.1.1 = { #fic
+		birth = yes
+	}
+	1103.1.1 = {
+		death = yes
+	}
+}
+
+heunburg3 = {
+	name = "Wolfger" # 
+	dynasty = 302
+	religion = catholic
+	culture = austrian
+	father = heunburg5 #???
+	1020.1.1 = { #fic
+		birth = yes
+	}
+	1088.1.1 = { #fic
+		death = yes
+	}
+}
+
+heunburg4 = {
+	name = "Friedrich" # 
+	dynasty = 302
+	religion = catholic
+	culture = austrian
+	father = heunburg5 #???
+	1023.1.1 = { #fic
+		birth = yes
+	}
+	1085.1.1 = { #fic
+		death = yes
+	}
+}
+
+heunburg5 = {
+	name = "Manfred" # fic name
+	dynasty = 302
+	religion = catholic
+	culture = austrian
+	989.1.1 = { #fic
+		birth = yes
+	}
+	1043.1.1 = { #fic
+		death = yes
+	}
+}

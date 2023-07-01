@@ -1,0 +1,12 @@
+biologardi1 = {
+	name = "Zbynek" #fic for 1054
+	dynasty = 297
+	culture = kashubian
+	religion = slavic_pagan
+	1019.1.1 = { #fic
+		birth = yes
+	}
+	1082.1.1 = {
+		death = yes
+	}
+}

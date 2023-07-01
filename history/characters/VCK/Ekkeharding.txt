@@ -1,4 +1,4 @@
-ekkeharding1 = {
+﻿ekkeharding1 = {
 	name = "Ekkehard" # Ekkehard II of Meissen
 	dynasty = 275
 	religion = catholic
@@ -17,12 +17,13 @@ ekkeharding2 = {
 	dynasty = 275
 	religion = catholic
 	culture = thuringian
+	father = ekkeharding4
 	960.1.1 = { #est
 		birth = yes
 	}
 	1002.4.30 = {
 		death = {
-			death_reason = death_raid_killer
+			death_reason = death_raid
 			killer = northeim5 # Siegfried II von Northeim
 		}
 	}
@@ -38,6 +39,75 @@ ekkeharding3 = {
 		birth = yes
 	}
 	1038.11.1 = {
+		death = yes
+	}
+}
+
+ekkeharding4 = {
+	name = "Gunther" # Gunther I of Meissen
+	dynasty = 275
+	religion = catholic
+	culture = thuringian
+	father = ekkeharding7
+	928.1.1 = { #fic
+		birth = yes
+	}
+	982.7.13 = {
+		death = yes
+	}
+}
+
+ekkeharding5 = {
+	name = "Gunzelin" # Gunzelin I of Kuckenburg
+	dynasty = 275
+	religion = catholic
+	culture = thuringian
+	father = ekkeharding4
+	965.1.1 = { #est
+		birth = yes
+	}
+	1017.1.1 = {
+		death = yes
+	}
+}
+
+ekkeharding6 = {
+	name = "Bruno" # 
+	dynasty = 275
+	religion = catholic
+	culture = thuringian
+	father = ekkeharding4
+	973.1.1 = { #fic
+		birth = yes
+	}
+	1031.1.1 = { #fic
+		death = yes
+	}
+}
+
+ekkeharding7 = {
+	name = "Ekkehard" # Ekkehard of Merseburg
+	dynasty = 275
+	religion = catholic
+	culture = thuringian
+	father = ekkeharding8
+	903.1.1 = { #fic
+		birth = yes
+	}
+	954.8.30 = {
+		death = yes
+	}
+}
+
+ekkeharding8 = {
+	name = "Ekkehard" # 
+	dynasty = 275
+	religion = catholic
+	culture = thuringian
+	875.1.1 = { #fic
+		birth = yes
+	}
+	938.1.1 = { #fic
 		death = yes
 	}
 }

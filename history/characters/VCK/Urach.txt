@@ -1,9 +1,10 @@
 ﻿urach1 = {
 	name = "Egino" # Egino II of Urach
-	dynasty = 58
+	dynasty_house = house_urach
 	religion = catholic
 	culture = swabian
-	1045.1.1 = {
+	father = achalm1
+	1038.1.1 = { #fic
 		birth = yes
 	}
 	1105.7.7 = {

@@ -1,12 +1,26 @@
 ﻿hirschberg1 = {
+	name = "Hartwig" #Hartwig II of Hirschberg
+	dynasty = 17
+	religion = catholic
+	culture = bavarian
+	father = hirschberg2
+	1011.1.1 = { #est
+		birth = yes
+	}
+	1069.9.9 = {
+		death = yes
+	}
+}
+
+hirschberg2 = {
 	name = "Hartwig" #Hartwig I of Hirschberg
 	dynasty = 17
 	religion = catholic
 	culture = bavarian
-	1020.1.1 = { #fic
+	974.1.1 = { #fic
 		birth = yes
 	}
-	1087.1.1 = {
+	1034.1.1 = { #est
 		death = yes
 	}
 }

@@ -70,7 +70,7 @@ swabian = {
 	traditions = {
 		tradition_parochialism
 		tradition_hard_working
-		tradition_recognition_of_talent 
+		tradition_talent_acquisition 
 	}
 	
 	name_list = name_list_swabian
@@ -304,7 +304,7 @@ hessian = {
 	language = language_high_german
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_business
+		tradition_family_entrepreneurship
 		tradition_ruling_caste
 		tradition_swords_to_hire
 	}
@@ -394,7 +394,7 @@ eastphalian = {
 	language = language_saxon
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_adaptive_skirmishers 
+		tradition_adaptive_skirmishing
 		tradition_modest
 	}
 	
@@ -512,9 +512,9 @@ hannoverian = {
 	language = language_saxon
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_strong_believers 
+		tradition_zealous_people
 		tradition_forbearing
-		tradition_formation_fighting_experts 
+		tradition_formation_fighting
 	}
 	
 	name_list = name_list_hannoverian

@@ -61,21 +61,6 @@ babenberg4 = {
 	}
 }
 
-babenberg5 = {
-	name = "Albert" #Albert of Bogen, Windberg and Pernegg 
-	dynasty = 3
-	culture = austrian
-	religion = catholic
-	father = babenberg2
-	1054.1.1 = { #fic
-		birth = yes
-		give_nickname = nick_the_faceless
-	}
-	1100.7.27 = {
-		death = yes
-	}
-}
-
 babenberg6 = {
 	name = "Justizia" #wife of Otto of Wolfratshausen
 	female = yes

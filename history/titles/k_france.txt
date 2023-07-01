@@ -1,5 +1,22 @@
+#Nîmes
+c_nimes = {
+	1054.1.1 = {
+		holder = trencavel1 # Raimond Bernard I
+	}
+}
+c_uzes = {
+	1054.1.1 = {
+		holder = trencavel1 # Raimond Bernard I
+	}
+}
+
 #Valentinois
 c_valentinois = {
+	1040.1.1 = {
+		holder = valence1 # Aymar I
+	}
+}
+c_diois = {
 	1040.1.1 = {
 		holder = valence1 # Aymar I
 	}
@@ -7,11 +24,6 @@ c_valentinois = {
 
 #Metz
 c_metz = {
-	1047.1.1 = {
-		holder = luxemburg2 # Adalbéron III
-	}
-}
-c_tenquin = {
 	1047.1.1 = {
 		holder = luxemburg2 # Adalbéron III
 	}
@@ -39,7 +51,7 @@ c_nancy = {
 		holder = gerharding1 # Gérard I
 	}
 }
-c_epinal = {
+c_chaumontois = {
 	1048.11.11 = {
 		holder = gerharding1 # Gérard I
 	}
@@ -59,7 +71,17 @@ c_bitsch = {
 		holder = gerharding1 # Gérard I
 	}
 }
-c_merzig = {
+c_soulosse = {
+	1048.11.11 = {
+		holder = gerharding1 # Gérard I
+	}
+}
+c_saaralben = {
+	1048.11.11 = {
+		holder = gerharding1 # Gérard I
+	}
+}
+c_saint-die = {
 	1048.11.11 = {
 		holder = gerharding1 # Gérard I
 	}
@@ -74,7 +96,23 @@ d_franche_comte = {
 		holder = anskaring1 # Reginald I
 	}
 }
-c_dole = {
+c_amous = {
+	982.1.1 = {
+		holder = anskaring11 # Otton I
+	}
+	1026.9.21 = {
+		holder = anskaring1 # Reginald I
+	}
+}
+c_portois = {
+	982.1.1 = {
+		holder = anskaring11 # Otton I
+	}
+	1026.9.21 = {
+		holder = anskaring1 # Reginald I
+	}
+}
+c_amont = {
 	982.1.1 = {
 		holder = anskaring11 # Otton I
 	}
@@ -90,7 +128,7 @@ c_besancon = {
 		holder = anskaring1 # Reginald I
 	}
 }
-c_orgelet = {
+c_milieu = {
 	982.1.1 = {
 		holder = anskaring11 # Otton I
 	}
@@ -98,7 +136,23 @@ c_orgelet = {
 		holder = anskaring1 # Reginald I
 	}
 }
-c_pontarlier = {
+c_varais = {
+	982.1.1 = {
+		holder = anskaring11 # Otton I
+	}
+	1026.9.21 = {
+		holder = anskaring1 # Reginald I
+	}
+}
+c_aval = {
+	982.1.1 = {
+		holder = anskaring11 # Otton I
+	}
+	1026.9.21 = {
+		holder = anskaring1 # Reginald I
+	}
+}
+c_escuens = {
 	982.1.1 = {
 		holder = anskaring11 # Otton I
 	}
@@ -239,6 +293,30 @@ c_gapencais = {
 		holder = bosoning5 # Guillaume V
 	}
 }
+c_montauban = {
+	935.1.1 = {
+		holder = bosoning11 # Boson II
+	}
+	#After Boson II, his descendants jointly ruled Provence; Arles branch of younger son
+	968.1.1 = {
+		holder = bosoning12 # Guillaume I the Liberator
+	}
+	993.8.23 = {
+		holder = bosoning3 # Guillaume II the Pious
+	}
+	1019.3.4 = {
+		holder = bosoning4 # Guillaume IV
+	}
+	1030.1.1 = {
+		holder = bosoning2 # Foulques I
+	}
+	#Godefroid jointly ruled Provence with his nephews
+	1051.4.27 = {
+		liege = d_provence
+		holder = bosoning5 # Guillaume V
+	}
+}
+
 #Digne
 c_digne = {
 	935.1.1 = {
@@ -269,7 +347,7 @@ c_digne = {
 		holder = bosoning1 # Geoffroi I
 	}
 }
-c_cannes = {
+c_brignoles = {
 	935.1.1 = {
 		holder = bosoning11 # Boson II
 	}
@@ -353,6 +431,14 @@ c_marseille = {
 	}
 }
 
+#Castellane
+c_castellane = {
+	1054.1.1 = {
+		liege = d_provence
+		holder = castellane1 # Boniface I
+	}
+}
+
 #Nice
 c_nice = {
 	1054.1.1 = {
@@ -390,18 +476,6 @@ c_montbeliard = {
 	}
 }
 
-#Nîmes
-c_nimes = {
-	1054.1.1 = {
-		holder = trencavel1 # Raimond Bernard I
-	}
-}
-c_uzes = {
-	1054.1.1 = {
-		holder = trencavel1 # Raimond Bernard I
-	}
-}
-
 #Vianden
 c_vianden = {
 	1054.1.1 = {
@@ -415,7 +489,22 @@ c_dauphine_viennois = {
 		holder = albon1 # Guigues I
 	}
 }
+c_gresivaudan = {
+	1054.1.1  = {
+		holder = albon1 # Guigues I
+	}
+}
 c_grenoble = {
+	1054.1.1  = {
+		holder = albon1 # Guigues I
+	}
+}
+c_albon = {
+	1054.1.1  = {
+		holder = albon1 # Guigues I
+	}
+}
+c_briancon = {
 	1054.1.1  = {
 		holder = albon1 # Guigues I
 	}
@@ -432,14 +521,33 @@ c_savoie = {
 		holder = savoia1 # Ottone I
 	}
 }
+c_martigny = {
+	1052.1.1  = {
+		holder = savoia1 # Ottone I
+	}
+}
 
 #Bresse
+c_bugey = {
+	1054.1.1 = {
+		holder = bauge1 # Raimond I
+	}
+}
 c_bresse = {
 	1054.1.1 = {
 		holder = bauge1 # Raimond I
 	}
 }
-
+c_dombes = {
+	1054.1.1 = {
+		holder = bauge1 # Raimond I
+	}
+}
+c_valromey = {
+	1054.1.1 = {
+		holder = bauge1 # Raimond I
+	}
+}
 
 #Beaujolais
 c_beaujeu = {
@@ -515,5 +623,13 @@ c_salm = {
 c_vielsalm = {
 	1047.10.16 = {
 		holder = salm1 # Hermann I
+	}
+}
+
+#Tournai
+c_tournai = {
+	1000.1.1 = { government = theocracy_government }
+	1044.1.1 = {
+		holder = tournai_baudouin # Baudouin I
 	}
 }

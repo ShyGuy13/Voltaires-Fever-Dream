@@ -1,0 +1,27 @@
+leinungen1 = {
+	name = "Sigena" # wife of Wiprecht I von Groitzsch
+	female = yes
+	dynasty = 299
+	religion = catholic
+	culture = saxon
+	father = leinungen2
+	1025.1.1 = { #est
+		birth = yes
+	}
+	1110.1.1 = { #est
+		death = yes
+	}
+}
+
+leinungen2 = {
+	name = "Goswin" # 
+	dynasty = 299
+	religion = catholic
+	culture = saxon
+	982.1.1 = { #fic
+		birth = yes
+	}
+	1044.1.1 = { #fic
+		death = yes
+	}
+}

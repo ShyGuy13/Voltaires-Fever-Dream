@@ -1,0 +1,13 @@
+﻿ortenburg1 = {
+	name = "Adalbert" # Adalbert I of Ortenburg
+	dynasty_house = house_ortenburg
+	religion = catholic
+	culture = austrian
+	father = hirschberg1
+	1034.1.1 = { #fic
+		birth = yes
+	}
+	1096.8.1 = {
+		death = yes
+	}
+}

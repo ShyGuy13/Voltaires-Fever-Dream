@@ -21,7 +21,7 @@ heinsberg2 = {
 	1033.1.1 = {
 		birth = yes
 	}
-	1082.1.1 = {
+	1082.10.19 = {
 		death = yes
 	}
 }

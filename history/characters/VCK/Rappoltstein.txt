@@ -1,6 +1,6 @@
 ﻿rappoltstein1 = {
 	name = "Reinbold" # Reinbold I of Rappoltstein
-	dynasty = 158
+	dynasty = 123
 	culture = boden_alemannic
 	religion = catholic
 	1011.1.1 = { #fic
@@ -13,7 +13,7 @@
 
 rappoltstein2 = {
 	name = "Adalbert" # Adalbert I of Rappoltstein
-	dynasty = 158
+	dynasty = 123
 	culture = boden_alemannic
 	religion = catholic
 	father = rappoltstein1

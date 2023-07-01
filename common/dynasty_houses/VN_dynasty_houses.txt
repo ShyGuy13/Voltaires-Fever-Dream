@@ -3,75 +3,98 @@
 	name = "dynn_Eppan"
 	dynasty = 14 #Bozen
 }
-
 house_vasto = {
 	prefix = "dynnp_del"
 	name = "dynn_Vasto"
 	dynasty = 126 # Aleraming
 }
-
 house_vermandois = {
 	prefix = "dynnp_de"
 	name = "dynn_Vermandois"
 	dynasty = 211 # Karling
 }
-
 house_chiny = {
 	prefix = "dynnp_de"
 	name = "dynn_Chiny"
 	dynasty = 211 # Karling
 }
-
 house_soissons = {
 	prefix = "dynnp_de"
 	name = "dynn_Soissons"
 	dynasty = 211 # Karling
 }
-
 house_hamburg = {
 	prefix = "dynnp_von"
 	name = "dynn_Hamburg"
 	dynasty = 223 # Udoning
 }
-
 house_thiers = {
 	prefix = "dynnp_de"
 	name = "dynn_Thiers"
 	dynasty = 244 # Auvergne
 }
-
 house_salm = {
 	prefix = "dynnp_von"
 	name = "dynn_Salm"
 	dynasty = 120 # Wigeriching
 }
-
 house_kleve = {
 	prefix = "dynnp_von"
 	name = "dynn_Kleve"
 	dynasty = 206 # Gelre
 }
-
 house_heinsberg = {
 	prefix = "dynnp_van"
 	name = "dynn_Heinsberg"
 	dynasty = 206 # Gelre
 }
-
 house_luxemburg = {
 	prefix = "dynnp_von"
 	name = "dynn_Luxemburg"
 	dynasty = 120 # Wigeriching
 }
-
 house_berg = {
 	prefix = "dynnp_von"
 	name = "dynn_Berg"
 	dynasty = 81 # Ezzoning
 }
-
 house_traungau = {
 	prefix = "dynnp_von"
 	name = "dynn_Traungau"
 	dynasty = 12 # Ariboning
+}
+house_winterthur = {
+	prefix = "dynnp_von"
+	name = "dynn_Winterthur"
+	dynasty = 54 # Udalriching
+}
+house_maden = {
+	prefix = "dynnp_von"
+	name = "dynn_Maden"
+	dynasty = 54 # Udalriching
+}
+house_bogen = {
+	prefix = "dynnp_von"
+	name = "dynn_Bogen"
+	dynasty = 3 # Babenberg
+}
+house_urach = {
+	prefix = "dynnp_von"
+	name = "dynn_Urach"
+	dynasty = 134 # Achalm
+}
+house_buchhorn = {
+	prefix = "dynnp_von"
+	name = "dynn_Buchhorn"
+	dynasty = 54 # Udalriching
+}
+house_pfullendorf = {
+	prefix = "dynnp_von"
+	name = "dynn_Pfullendorf"
+	dynasty = 54 # Udalriching
+}
+house_ortenburg = {
+	prefix = "dynnp_von"
+	name = "dynn_Ortenburg"
+	dynasty = 17 # Hirschberg
 }

@@ -223,3 +223,18 @@ eberharding16 = {
 		death = yes
 	}
 }
+
+eberharding17 = {
+	name = "Irmengard" #
+	female = yes
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding3
+	988.1.1 = { #fic
+		birth = yes
+	}
+	1043.1.1 = { #fic
+		death = yes
+	}
+}

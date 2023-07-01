@@ -38,3 +38,46 @@ embrichoning3 = {
 		death = yes
 	}
 }
+
+embrichoning4 = {
+	name = "Embricho" # Embricho II of Rheingraviate
+	dynasty = 146
+	culture = pfalzish
+	religion = catholic
+	father = embrichoning1
+	1045.1.1 = { #fic
+		birth = yes
+	}
+	1117.1.1 = {
+		death = yes
+	}
+}
+
+embrichoning5 = {
+	name = "Ruthard" # bishop of Mainz
+	dynasty = 146
+	culture = pfalzish
+	religion = catholic
+	father = embrichoning1
+	1048.1.1 = { #fic
+		birth = yes
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+
+embrichoning6 = {
+	name = "Dankmud" # wife of Richolf
+	female = yes
+	dynasty = 146
+	culture = pfalzish
+	religion = catholic
+	father = embrichoning1
+	1053.1.1 = { #fic
+		birth = yes
+	}
+	1112.1.1 = { #fic
+		death = yes
+	}
+}

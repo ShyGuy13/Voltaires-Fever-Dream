@@ -3,10 +3,42 @@
 	dynasty = 47
 	religion = catholic
 	culture = swabian
+	father = sigmaringen3
 	1020.1.1 = {
 		birth = yes
 	}
 	1084.1.1 = {
+		death = yes
+	}
+}
+
+sigmaringen2 = {
+	name = "Ludwig" # Ludwig I of Sigmaringen
+	dynasty = 47
+	religion = catholic
+	culture = swabian
+	father = sigmaringen3
+	1025.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_old
+	}
+	1083.1.1 = {
+		add_spouse = zahringen11 # Richenza of Zähringen
+	}
+	1092.1.1 = {
+		death = yes
+	}
+}
+
+sigmaringen3 = {
+	name = "Meinloh" # fictional, just to make them brothers
+	dynasty = 47
+	religion = catholic
+	culture = swabian
+	993.1.1 = { #fic
+		birth = yes
+	}
+	1043.1.1 = { #fic
 		death = yes
 	}
 }

@@ -4,6 +4,7 @@
 	religion = catholic
 	culture = pfalzish
 	father = dagsburg3
+	mother = dagsburg3_wife
 	1016.1.1 = { #fic
 		birth = yes
 	}
@@ -28,7 +29,7 @@ dagsburg2 = {
 }
 
 dagsburg3 = {
-	name = "Hugo" # Hugo VII of Dagsburg
+	name = "Hugo" # Hugo V of Dagsburg
 	dynasty = 158
 	religion = catholic
 	culture = pfalzish
@@ -36,20 +37,24 @@ dagsburg3 = {
 	992.1.1 = { #fic
 		birth = yes
 	}
-	1049.1.1 = {
+	1016.1.1 = {
+		add_spouse = dagsburg3_wife # Mathilde
+	}
+	1049.11.18 = {
 		death = yes
 	}
 }
 
 dagsburg4 = {
-	name = "Hugo" # Hugo VI of Dagsburg & Egisheim
+	name = "Hugo" # Hugo IV of Dagsburg & Egisheim
 	dynasty = 158
 	religion = catholic
 	culture = pfalzish
-	945.1.1 = { #fic
+	father = dagsburg7
+	968.1.1 = { #est
 		birth = yes
 	}
-	1012.1.1 = { #fic
+	1047.1.1 = { #est
 		death = yes
 	}
 }
@@ -65,19 +70,165 @@ dagsburg5 = {
 	}
 	1038.1.1 = {
 		death = yes
+		#slayed by Reginbald von Rappoltstein
 	}
 }
 
 dagsburg6 = {
-	name = "Leo" # pope Leo IX - Bruno
+	name = "Bruno" # Pope Leo IX
 	dynasty = 158
 	religion = catholic
 	culture = pfalzish
 	father = dagsburg4
-	1002.6.21 = { #fic
+	1002.6.21 = {
 		birth = yes
 	}
+	1048.8.9 = {
+		name = "Leo"
+	}
 	1054.4.16 = {
+		death = yes
+	}
+}
+
+dagsburg7 = {
+	name = "Hugo" # Hugo III of Dagsburg & Egisheim
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg12
+	945.1.1 = { #est
+		birth = yes
+	}
+	986.1.1 = { #est
+		death = yes
+	}
+}
+
+dagsburg8 = {
+	name = "Albrecht" # 
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg3
+	mother = dagsburg3_wife
+	1031.1.1 = { #fic
+		birth = yes
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+
+dagsburg9 = {
+	name = "Eberhard"
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg7
+	975.1.1 = { #fic
+		birth = yes
+	}
+	1012.1.1 = { #fic
+		death = yes
+	}
+}
+
+dagsburg10 = {
+	name = "Matfrid"
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg7
+	977.1.1 = { #fic
+		birth = yes
+	}
+	991.1.1 = { #fic
+		death = yes
+	}
+}
+
+dagsburg11 = {
+	name = "Gerhard"
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg7
+	981.1.1 = { #fic
+		birth = yes
+	}
+	1018.1.1 = { #fic
+		death = yes
+	}
+}
+
+dagsburg12 = {
+	name = "Eberhard" # Eberhard III of Nordgau
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	919.1.1 = { #fic
+		birth = yes
+	}
+	967.2.18 = {
+		death = yes
+	}
+}
+
+dagsburg13 = {
+	name = "Adelheid" # wife of Adalbert I. of Calw
+	female = yes
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg4
+	1000.1.1 = { #est
+		birth = yes
+	}
+	1040.1.1 = { #est
+		death = yes
+	}
+}
+
+dagsburg14 = {
+	name = "Hildegard" # wife of Adalbert I. of Calw
+	female = yes
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg4
+	997.1.1 = { #fic
+		birth = yes
+	}
+	1058.1.1 = { #fic
+		death = yes
+	}
+}
+
+dagsburg15 = {
+	name = "Gerold" # Gerold of Genf
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg5
+	1034.1.1 = {
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+
+#wifes
+dagsburg3_wife = {
+	name = "Mathilde" # 
+	female = yes
+	religion = catholic
+	culture = pfalzish
+	999.1.1 = { #fic
+		birth = yes
+	}
+	1065.1.1 = { #fic
 		death = yes
 	}
 }

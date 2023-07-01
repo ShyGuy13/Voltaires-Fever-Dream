@@ -5,7 +5,7 @@
 	culture = thuringian
 	987.1.1 = { #fic
 		birth = yes
-		give_nickname = nick_the_beardy
+		give_nickname = nick_the_bearded
 	}
 	1056.1.1 = {
 		death = yes
@@ -20,7 +20,7 @@ ludowing2 = {
 	father = ludowing1
 	1042.1.1 = {
 		birth = yes
-		give_nickname = nick_the_jumper
+		give_nickname = nick_the_springer
 	}
 	1123.5.8 = {
 		death = yes

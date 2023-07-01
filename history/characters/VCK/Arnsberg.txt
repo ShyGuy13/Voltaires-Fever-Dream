@@ -1,4 +1,4 @@
-arnsberg1 = {
+﻿arnsberg1 = {
 	name = "Bernhard" # Bernhard II of Arnsberg
 	dynasty = 135
 	religion = catholic

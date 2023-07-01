@@ -22,7 +22,7 @@ habsburg2 = {
 	985.1.1 = {
 		birth = yes
 	}
-	1045.1.1 = {
+	1045.6.30 = {
 		death = yes
 	}
 }
@@ -112,7 +112,7 @@ habsburg8 = {
 }
 
 habsburg9 = {
-	name = "Albrecht" #Otto I of Habsburg
+	name = "Albrecht" #Albrecht I of Habsburg
 	dynasty = 70
 	culture = swiss
 	religion = catholic

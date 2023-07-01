@@ -55,7 +55,7 @@ marseille4 = {
 	religion = catholic
 	father = marseille2
 	mother = raimonding8
-	1027.1.1 = { #fic
+	1015.1.1 = { #fic
 		birth = yes
 	}
 	1068.1.1 = { #fic

@@ -1,0 +1,27 @@
+﻿buchhorn1 = {
+	name = "Otto" #Otto I of Buchhorn
+	dynasty_house = house_buchhorn
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching4
+	1013.1.1 = { #fic
+		birth = yes
+	}
+	1057.1.1 = { #fic
+		death = yes
+	}
+}
+
+buchhorn2 = {
+	name = "Otto" #Otto II of Buchhorn
+	dynasty_house = house_buchhorn
+	religion = catholic
+	culture = boden_alemannic
+	father = buchhorn1
+	1048.1.1 = { #fic
+		birth = yes
+	}
+	1089.1.1 = {
+		death = yes
+	}
+}

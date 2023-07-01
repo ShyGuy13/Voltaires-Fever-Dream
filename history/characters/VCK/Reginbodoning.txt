@@ -55,7 +55,7 @@ reginbodoning4 = {
 }
 
 reginbodoning5 = {
-	name = "Siegfried" # Reginhard of Königssondergau
+	name = "Siegfried" # Siegfried of Königssondergau
 	dynasty = 24
 	religion = catholic
 	culture = hessian

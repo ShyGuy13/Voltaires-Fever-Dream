@@ -3,8 +3,12 @@ ce_vn_slovenian_hat.dds = { colors = 2 category = manmade }
 ce_vn_bartholomew_the_apostle_castle.dds = { colors = 3 category = manmade }
 ce_vn_wall_anchor.dds = { colors = 1 category = manmade }
 ce_vn_waidhofen_castle.dds = { colors = 3 category = manmade }
+ce_vn_wolfshook.dds = { colors = 1 category = manmade }
+ce_vn_spear.dds = { colors = 1 category = manmade }
+ce_vn_doublehook.dds = { colors = 1 category = manmade }
 #Animals
 ce_vn_crow.dds = { colors = 3 category = animals }
+ce_vn_crane.dds = { colors = 1 category = animals }
 ce_vn_fish_sideways_left.dds = { colors = 2 category = animals }
 ce_vn_fish_sideways_left2.dds = { colors = 3 category = animals }
 ce_vn_fish_sideways_left3.dds = { colors = 3 category = animals }
@@ -17,7 +21,6 @@ ce_vn_wyvern_head.dds = { colors = 3 category = animals }
 ce_vn_pigeon.dds = { colors = 3 category = animals }
 ce_vn_barbels_inverted.dds = { colors = 2 category = animals }
 ce_vn_peacock.dds = { colors = 3 category = animals }
-ce_vn_peacock2.dds = { colors = 3 category = animals }
 ce_vn_goat_rooster.dds = { colors = 2 category = animals }
 ce_vn_goat_rooster2.dds = { colors = 3 category = animals }
 #Abstract
@@ -27,8 +30,9 @@ ce_vn_grape_vine.dds = { colors = 2 category = nature }
 ce_vn_tree_oak.dds = { colors = 3 category = nature }
 ce_vn_gold_stone.dds = { colors = 1 category = nature }
 ce_vn_cloud.dds = { colors = 1 category = nature }
-ce_vn_acorn.dds = { colors = 2 category = nature }
+ce_vn_acorn.dds = { colors = 1 category = nature }
 #Figures
 ce_vn_sword_arm.dds = { colors = 3 category = figures }
+ce_vn_gnome.dds = { colors = 3 category = figures }
 #Pattern
 ce_vn_lozenge_checkers.dds = { colors = 2 category = patterns }

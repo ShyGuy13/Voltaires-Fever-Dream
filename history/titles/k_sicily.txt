@@ -5,6 +5,34 @@
 # 		holder = bari1 # Argyrus
 # 	}
 # }
+
+#Corsica
+d_corsica = {
+	1040.1.1 = {
+		holder = cinarca1 # Antonio I
+	}
+}
+c_bastia = {
+	1040.1.1 = {
+		holder = cinarca1 # Antonio I
+	}
+}
+c_bonifazio = {
+	1040.1.1 = {
+		holder = cinarca1 # Antonio I
+	}
+}
+c_aleria = {
+	1040.1.1 = {
+		holder = cinarca1 # Antonio I
+	}
+}
+c_ajaccio = {
+	1040.1.1 = {
+		holder = cinarca1 # Antonio I
+	}
+}
+
 d_catapanate = {
 	1050.1.1 = {
 		liege = e_byzantium
@@ -237,23 +265,6 @@ c_sassari = {
 c_bosa = {
 	1038.1.1 = {
 		holder = lacon7 # Comita I
-	}
-}
-
-#Corsica
-d_corsica = {
-	1040.1.1 = {
-		holder = cinarca1 # Antonio I
-	}
-}
-c_ajaccio = {
-	1040.1.1 = {
-		holder = cinarca1 # Antonio I
-	}
-}
-c_bastia = {
-	1040.1.1 = {
-		holder = cinarca1 # Antonio I
 	}
 }
 

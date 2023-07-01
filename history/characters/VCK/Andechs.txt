@@ -4,7 +4,7 @@
 	religion = catholic
 	culture = bavarian
 	father = andechs2
-	1030.1.1 = { #fic
+	1027.1.1 = { #fic
 		birth = yes
 	}
 	1098.1.1 = {
@@ -49,6 +49,21 @@ andechs4 = {
 		birth = yes
 	}
 	1020.1.1 = {
+		death = yes
+	}
+}
+
+andechs5 = {
+	name = "Uta" #wife of Kuno I of Rott
+	female = yes
+	dynasty = 27
+	religion = catholic
+	culture = bavarian
+	father = andechs2
+	1029.1.1 = { #fic
+		birth = yes
+	}
+	1071.1.1 = { #fic
 		death = yes
 	}
 }

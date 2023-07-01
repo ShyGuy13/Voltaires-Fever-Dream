@@ -1,4 +1,6 @@
 ﻿l_english:
+#Mottos
+ dynn_Hohenstaufen_motto: "Be subject to no one but God and Justice"
 #Prefixes
  dynnp_von_der: "von der"
  dynnp_Banu: "Banû"
@@ -49,7 +51,7 @@
  dynn_Calw: "Calw"
  dynn_Dillingen: "Dillingen"
  dynn_Hohenstaufen: "Hohenstaufen"
- dynn_Marstetten: "Marstetten"
+ dynn_Neuffen: "Neuffen"
  dynn_Helfenstein: "Helfenstein"
  dynn_Sigmaringen: "Sigmaringen"
  dynn_Tannenfels: "Tannenfels"
@@ -60,9 +62,8 @@
  dynn_Ottingen: "Öttingen"
  dynn_Udalriching: "Udalriching"
  dynn_Sulz: "Sulz"
+ dynn_Azzoning: "Azzoning"
  dynn_Tubingen: "Tübingen"
- dynn_Maden: "Maden"
- dynn_Urach: "Urach"
  dynn_Vaihingen: "Vaihingen"
  dynn_Veringen: "Veringen"
  dynn_Breitenstein: "Breitenstein"
@@ -90,7 +91,7 @@
  dynn_Wiltberg: "Wiltberg"
  dynn_Truhendingen: "Truhendingen"
  dynn_Reuss: "Reuß"
- dynn_Schwarzenburg: "Schwarzenburg"
+ dynn_Hohenburg: "Hohenburg"
  dynn_Howen: "Höwen"
  dynn_Stuhlingen: "Stühlingen"
  dynn_Faucigny: "Faucigny"
@@ -133,7 +134,7 @@
  dynn_Aleraming: "Aleraming"
  dynn_Kuenring: "Kuenring"
  dynn_Challant: "Challant"
- dynn_Winterthur: "Winterthur"
+ dynn_Kirsch: "Kirsch"
  dynn_Waldburg: "Waldburg"
  dynn_Premyslovci: "Přemyslovci"
  dynn_Zahringen: "Zähringen"
@@ -174,7 +175,7 @@
  dynn_Leiningen: "Leiningen"
  dynn_Sirck: "Sirck"
  dynn_Zweibrucken: "Zweibrücken"
- 
+ dynn_Landsberg: "Landsberg"
  dynn_Huckeswagen: "Hückeswagen"
  dynn_Julich: "Jülich"
  dynn_Marseille: "Marseille"
@@ -289,6 +290,7 @@
  dynn_Gerolding: "Gerolding"
  dynn_Orlandi: "Orlandi"
  dynn_Aldobrandeschi: "Aldobrandeschi"
+ dynn_Farolfing: "Farolfing"
  dynn_Tuscolo: "Tuscolo"
  dynn_Farolfing: "Farolfing"
  dynn_Baboning: "Baboning"
@@ -301,6 +303,12 @@
  dynn_Ploni: "Ploni"
  dynn_Skjalmsunr: "Skjalmsunr"
  dynn_Castellane: "Castellane"
+ dynn_Biologardi: "Biologardi"
+ dynn_Ringgenberg: "Ringgenberg"
+ dynn_Leinungen: "Leinungen"
+ dynn_Hachberg: "Hachberg"
+ dynn_Kussenberg: "Küssenberg"
+ dynn_Heunburg: "Heunburg"
 #Houses
  dynn_Eppan: "Eppan"
  dynn_Vasto: "Vasto"
@@ -315,6 +323,13 @@
  dynn_Luxemburg: "Luxemburg"
  dynn_Berg: "Berg"
  dynn_Traungau: "Traungau"
+ dynn_Winterthur: "Winterthur"
+ dynn_Maden: "Maden"
+ dynn_Bogen: "Bogen"
+ dynn_Urach: "Urach"
+ dynn_Buchhorn: "Buchhorn"
+ dynn_Pfullendorf: "Pfullendorf"
+ dynn_Ortenburg: "Ortenburg"
 #Cultures
 #Central Germanic
 #North Germanic
@@ -346,3 +361,4 @@
  dynn_Salis: "Salis"
  dynn_Scanvetg: "Scanveth"
  dynn_Zaccon: "Zaccon"
+#South Slavic

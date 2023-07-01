@@ -1,4 +1,4 @@
-woldenberg1 = {
+﻿woldenberg1 = {
 	name = "Burkhard" #Burkhard I of Woldenberg
 	dynasty= 272
 	culture = eastphalian

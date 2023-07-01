@@ -1,0 +1,12 @@
+hachberg1 = {
+	name = "Dietrich" # Dietrich I of Hachberg
+	dynasty = 300
+	religion = catholic
+	culture = boden_alemannic
+	1029.1.1 = { #fic
+		birth = yes
+	}
+	1093.1.1 = { #fic
+		death = yes
+	}
+}

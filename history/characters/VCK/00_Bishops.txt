@@ -115,18 +115,7 @@ sitten_ermenfroi = {
 	}
 }
 
-#Aquileia
-aquileia_gotebald = {
-	name = "Gotebald"
-	religion = catholic
-	culture = franconian
-	995.1.1 = { #fic
-		birth = yes
-	}
-	1063.1.1 = {
-		death = yes
-	}
-}
+
 
 #Chadé
 chade_thietmar = {
@@ -446,6 +435,19 @@ kornelimunster_libertus = {
 	}
 }
 
+#Speyer
+speyer_sigibodo = {
+	name = "Sigibodo" # Sigibodo I
+	religion = catholic
+	culture = franconian
+	984.1.1 = { #fic
+		birth = yes
+	}
+	1051.1.1 = {
+		death = yes
+	}
+}
+
 #Merseburg
 merseburg_ezzelin_1 = {
 	name = "Ezzelin" # Ezzelin I
@@ -459,3 +461,15 @@ merseburg_ezzelin_1 = {
 	}
 }
 
+#Tournai
+tournai_baudouin = {
+	name = "Baudouin"
+	religion = catholic
+	culture = picard
+	1014.1.1 = {
+		birth = yes
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}

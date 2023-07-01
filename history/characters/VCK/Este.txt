@@ -10,7 +10,7 @@
 	1036.1.1 = {
 		add_spouse = welf3 # Kunigunde of Welf
 	}
-	1097.1.1 = {
+	1097.8.20 = {
 		death = yes
 	}
 }

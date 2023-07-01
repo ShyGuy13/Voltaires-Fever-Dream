@@ -1,5 +1,69 @@
-#lorrainian
+﻿#lorrainian
 #Boutteville 
 
 #norman
 #bray
+
+name_list_french = {
+	mercenary_names = {
+	}
+
+	male_names = {        
+		Amé Amis Albert Aymon Aubrey Adémar Adrien Aimery Alain Aldebert Aldéric Alphonse Amaury Amédée Ancel André Antoine Archambaud Arnaud Arnault Arnoul Aubry Aymar
+		Barthélémi Baudouin Benoît Bérenger Bernard Bertrand Bohemond Boson Bouchard
+		Centule Charles Clotaire Claude
+		Éttiene Édouard Érrard Étienne Ebbon Enguerrand Eudes Eustache Evrard Érard
+		Fromond Frédéric Foulques François Ferry
+		Germain Godefroid Garin Gérard Gobert Gautier Gervais Guichard Guiges Guilhem Guillaume Guy Gaucher Gaucelin Gauthier Geoffroi Géraud Gilbert Gilles Godefroi
+		Hector Hervé Hélie Hamelin Henri Herbert Hildebert Hugues Humbert
+		Josse Josserand Juhel Jacques Jaufré Jaspert Jean Jourdain Julien
+		Léon Léonard Lothaire Louis Loup Léopold
+		Miles Mathieu Maurice Manassès
+		Nicolas
+		Oulri Ogier Onfroi Orson Othon Olivier Odon Olry
+		Payen Philippe Pierre Pibon
+		Renée Ricuin Riquin Raimbaut Raoul Robin Roger Rorgues Roubaud Raymond Raynaud Renaud Richard Robert
+		Sifroy Savary Sigismond Simon Samson
+		Toussaint Thibaut Thibault Thiébaut Thierry Thomas
+		Valeran Vauquelin
+		Yves
+	}
+	female_names = {
+		Annette Angélique Alphonsine Avoie Andrée Aimée Adrienne Adèle Adalmode Adelaide Adelinde Agnès Aléarde Alice Aliénor Agathe Alix Almodis Amelie Anne Antoinette Arsinde Aude Aurengarde 
+		Béatrice Béatrix Belleassez Benoîte Bérengère Berthe Blanche Bonne Bourgogne Bourguigne
+		Chrétienne Christine Claudine Claire Colette Catherine Cécile Cathèrine Charlotte Constance
+		Dauphine Diane Denise Douce
+		Esther Élisabeth Echive Eglantine Éléonore Élodie Étiennette Elisabeth Emma Ermengarde Ermessinde Esclarmonde Euphrosine Eustachie Eve
+		Fleur Françoise
+		Guyonne Guillemine Gilberte Germaine Gillette Geneviève Gerberge Gisèle Guillaumette Gabrielle
+		Henriette Héloise Helvis Hodierne Hélène
+		Ide Ildégarde Isabeau Isabelle
+		Justine	Joachine Jacquette Jeanne Judith Julienne Jacqueline Jeannette
+		Louise
+		Mathurine Martine Marion Michelle Mafalda Mahaut Margot Marguerite Marie Marthe Mascarose Mathilde Mélisande Mélisende Mélusine
+		Nicole
+		Olive Odette
+		Pierrette Philiberte Peronnelle Perrine Perrette Péronelle Pernelle Perinne Pernette Plaisance
+		Robinette Roberte Rachel Robine Ragonde Raymonde
+		Sidonie Sarrazine Solène Sophie Stéphanie Sybille Suzanne
+		Tiburge
+		Yvonne Yonne Valentine Valence Yolande Ysabeau
+	}
+	dynasty_names = {
+		
+	}
+
+	dynasty_of_location_prefix = "dynnp_de"
+	grammar_transform = french
+	patronym_prefix_male = "dynnpat_pre_fils"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 60
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 60
+	mother_name_chance = 10
+}

@@ -71,14 +71,85 @@ zahringen5 = {
 }
 
 zahringen6 = {
-	name = "Berthold " # 
+	name = "Berthold" # Berthold III of Breisgau
 	dynasty = 132
 	religion = catholic
 	culture = boden_alemannic
-	960.1.1 = { # fic
+	father = zahringen7
+	985.1.1 = { # est
 		birth = yes
 	}
 	1024.7.15 = {
+		death = yes
+	}
+}
+
+zahringen7 = {
+	name = "Berthold" # Berthold II of Breisgau
+	dynasty = 132
+	religion = catholic
+	culture = boden_alemannic
+	father = zahringen8
+	952.1.1 = { # fic
+		birth = yes
+	}
+	1006.2.27 = {
+		death = yes
+	}
+}
+
+zahringen8 = {
+	name = "Berthold" # Berthold I of Breisgau
+	dynasty = 132
+	religion = catholic
+	culture = boden_alemannic
+	919.1.1 = { # fic
+		birth = yes
+	}
+	982.7.13 = {
+		death = yes
+	}
+}
+
+zahringen9 = {
+	name = "Adalbert"
+	dynasty = 132
+	religion = catholic
+	culture = boden_alemannic
+	father = zahringen8
+	957.1.1 = { # fic
+		birth = yes
+	}
+	993.1.1 = { # fic
+		death = yes
+	}
+}
+
+zahringen10 = {
+	name = "Gebhard"
+	dynasty = 132
+	religion = catholic
+	culture = boden_alemannic
+	father = zahringen7
+	988.1.1 = { # fic
+		birth = yes
+	}
+	997.1.1 = { # fic
+		death = yes
+	}
+}
+
+zahringen11 = {
+	name = "Richenza" # wife of Ludwig of Sigmaringen
+	female = yes
+	dynasty = 132
+	religion = catholic
+	culture = boden_alemannic
+	father = zahringen1
+	1054.1.1 = { #fic
+		birth  = yes
+	}
+	1110.1.1 = { #est
 		death = yes
 	}
 }

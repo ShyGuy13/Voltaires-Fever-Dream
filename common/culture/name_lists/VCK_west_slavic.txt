@@ -1,4 +1,4 @@
-# slovak = {
+﻿# slovak = {
 # 	male_names = {
 # 		Abdon Ábel Abelard Abrahám Absolón Achác Achiles Adalbert Adam Adelard Adolf Adrián Agap Agatón Aladár Alan Albert Albertín Albín Albrecht Aleš Alex Alexander Alexej Alfonz Alfréd 
 # 		Alojz Amadeus Amand Amand Amarant Amát Amátus Ambróz Amos Anastáz Anatol Andreas Andrej Andronik Angel Antal Antim Antip Anton Anzelm Apián Apolinár Apolón Aretas Ariel Aristid Arkád 

@@ -7,6 +7,9 @@
 	1003.1.1 = { #est
 		birth = yes
 	}
+	1035.1.1 = { #fic
+		add_spouse = querfurt2 # Ida of Querfurt
+	}
 	1069.1.1 = {
 		death = yes
 	}
@@ -18,6 +21,7 @@ supplingenburg2 = {
 	religion = catholic
 	culture = eastphalian
 	father = supplingenburg1
+	mother = querfurt2
 	1035.1.1 = { #est
 		birth = yes
 	}
@@ -40,7 +44,7 @@ supplingenburg3 = {
 }
 
 supplingenburg4 = {
-	name = "Luther" #
+	name = "Luther" #Luther I of Derlingau
 	dynasty = 273
 	religion = catholic
 	culture = eastphalian
@@ -49,6 +53,21 @@ supplingenburg4 = {
 		birth = yes
 	}
 	1063.1.1 = {
+		death = yes
+	}
+}
+
+supplingenburg5 = {
+	name = "Dietmar" #bishop of Halberstadt
+	dynasty = 273
+	religion = catholic
+	culture = eastphalian
+	father = supplingenburg1
+	mother = querfurt2
+	1038.1.1 = { #fic
+		birth = yes
+	}
+	1089.2.16 = {
 		death = yes
 	}
 }

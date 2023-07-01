@@ -1,7 +1,7 @@
 d_bm_aquileia = {
 	1000.1.1 = { government = theocracy_government }
 	1049.1.1 = {
-		holder = aquileia_gotebald # Gotebald I
+		holder = calw6 # Gotebald I
 	}
 }
 
@@ -27,8 +27,11 @@ d_bm_strassburg = {
 
 d_bm_speyer = {
 	346.1.1 = { government = theocracy_government }
+	1039.10.13 = {
+		holder = speyer_sigibodo # Sigibodo I
+	}
 	1051.1.1 = {
-		holder = falkenberg1
+		holder = falkenberg1 # Arnold I
 	}
 }
 

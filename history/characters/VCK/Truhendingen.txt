@@ -6,7 +6,7 @@
 	1020.1.1 = { #fic
 		birth = yes
 	}
-	10701.1 = {
+	1070.1.1 = {
 		death = yes
 	}
 }
@@ -20,7 +20,7 @@ truhendingen2 = {
 	1050.1.1 = {
 		birth = yes
 	}
-	1103.1 = {
+	1103.1.1 = {
 		death = yes
 	}
 }

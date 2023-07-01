@@ -16,7 +16,7 @@ hucpolding2 = {
 	dynasty = 118
 	religion = catholic
 	culture = umbrian
-	994.1.1 = { #fic
+	1002.1.1 = { #fic
 		birth = yes
 	}
 	1056.1.1 = {

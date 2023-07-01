@@ -1,0 +1,68 @@
+wolfertschwenden1 = {
+	name = "Giselfried" # Giselfried I of Wolfertschwenden
+	dynasty = 52
+	culture = swabian
+	religion = catholic
+	957.1.1 = { #fic
+		birth = yes
+	}
+	1008.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfertschwenden2 = {
+	name = "Hathos" # Hathos I of Wolfertschwenden
+	dynasty = 52
+	culture = swabian
+	religion = catholic
+	father = wolfertschwenden1
+	994.1.1 = { #fic
+		birth = yes
+	}
+	1047.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfertschwenden3 = {
+	name = "Hawin" # Hawin I of Wolfertschwenden
+	dynasty = 52
+	culture = swabian
+	religion = catholic
+	father = wolfertschwenden2
+	1033.1.1 = { #fic
+		birth = yes
+	}
+	1095.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfertschwenden4 = {
+	name = "Albrecht" # 
+	dynasty = 52
+	culture = swabian
+	religion = catholic
+	father = wolfertschwenden2
+	1037.1.1 = { #fic
+		birth = yes
+	}
+	1089.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfertschwenden5 = {
+	name = "Konrad" # 
+	dynasty = 52
+	culture = swabian
+	religion = catholic
+	father = wolfertschwenden2
+	1044.1.1 = { #fic
+		birth = yes
+	}
+	1092.1.1 = { #fic
+		death = yes
+	}
+}

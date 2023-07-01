@@ -1,4 +1,4 @@
-baboning1 = {
+﻿baboning1 = {
 	name = "Sieglinde" # fictional name, wife of Wolfram I of Abenberg
 	female = yes
 	dynasty = 287

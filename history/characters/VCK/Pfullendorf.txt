@@ -1,0 +1,30 @@
+pfullendorf1 = {
+	name = "Ludwig" #Ludwig I of Pfullendorf
+	dynasty_house = house_pfullendorf
+	religion = catholic
+	culture = swabian
+	trait = one_eyed
+	trait = dull
+	trait = lisping
+	father = udalriching2 # his historical father isn't known
+	1018.1.1 = { #fic
+		birth = yes
+	}
+	1086.12.24 = {
+		death = yes
+	}
+}
+
+pfullendorf2 = {
+	name = "Gero" #Gero I of Pfullendorf
+	dynasty_house = house_pfullendorf
+	religion = catholic
+	culture = swabian
+	father = pfullendorf1
+	1050.1.1 = { #fic
+		birth = yes
+	}
+	1116.5.17 = {
+		death = yes
+	}
+}

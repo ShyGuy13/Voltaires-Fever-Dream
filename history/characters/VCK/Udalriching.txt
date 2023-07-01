@@ -1,26 +1,27 @@
 ﻿udalriching1 = {
-	name = "Ludwig" #Ludwig I of Pfullendorf
+	name = "Herbert" #fictional character to connect the Pfullendorf branch
 	dynasty = 54
 	religion = catholic
-	culture = swabian
-	1010.1.1 = { #fic
+	culture = boden_alemannic
+	father = udalriching24
+	961.1.1 = { #fic
 		birth = yes
 	}
-	1086.1.1 = {
+	1024.1.1 = {
 		death = yes
 	}
 }
 
 udalriching2 = {
-	name = "Gero" #Gero I of Pfullendorf
+	name = "Reginbert" #fictional character to connect the Pfullendorf branch
 	dynasty = 54
 	religion = catholic
-	culture = swabian
+	culture = boden_alemannic
 	father = udalriching1
-	1050.1.1 = { #fic
+	987.1.1 = { #fic
 		birth = yes
 	}
-	1116.1.1 = {
+	1024.1.1 = {
 		death = yes
 	}
 }
@@ -30,10 +31,395 @@ udalriching3 = {
 	dynasty = 54
 	religion = catholic
 	culture = boden_alemannic
+	father = udalriching4
 	1020.1.1 = { #fic
 		birth = yes
+		give_nickname = nick_the_older
 	}
 	1078.1.1 = {
+		death = yes
+	}
+}
+
+udalriching4 = {
+	name = "Marquard" #Marquard II of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching5
+	979.1.1 = { #fic
+		birth = yes
+	}
+	1038.1.1 = { #fic
+		death = yes
+	}
+}
+
+udalriching5 = {
+	name = "Marquard" #Marquard I of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching6
+	948.1.1 = { #fic
+		birth = yes
+	}
+	1019.1.1 = {
+		death = yes
+	}
+}
+
+udalriching6 = {
+	name = "Adalbert" #Adalbert I of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching7
+	938.1.1 = { #fic
+		birth = yes
+	}
+	980.1.1 = { #fic
+		death = yes
+	}
+}
+
+udalriching7 = {
+	name = "Ulrich" #Ulrich VI of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching12
+	905.1.1 = { #fic
+		birth = yes
+	}
+	957.8.25 = {
+		death = yes
+	}
+}
+
+udalriching8 = {
+	name = "Ulrich" #Ulrich VII of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching7
+	928.1.1 = { #fic
+		birth = yes
+	}
+	972.3.16 = {
+		death = yes
+	}
+}
+
+udalriching9 = {
+	name = "Gebhard" #bishop of Konstanz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching7
+	949.1.1 = {
+		birth = yes
+	}
+	995.8.27 = {
+		death = yes
+	}
+}
+
+udalriching10 = {
+	name = "Gerold"
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching21
+	799.1.1 = { #fic
+		birth = yes
+	}
+	803.1.1 = {
+		death = yes
+	}
+}
+
+udalriching11 = {
+	name = "Ulrich" #Ulrich VIII of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching8
+	953.1.1 = { #fic
+		birth = yes
+	}
+	979.1.1 = { #fic
+		death = yes
+	}
+}
+
+udalriching12 = {
+	name = "Ulrich" #Ulrich V of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching17
+	884.1.1 = { #fic
+		birth = yes
+	}
+	917.1.1 = { #fic
+		death = yes
+	}
+}
+
+udalriching13 = {
+	name = "Adalhard"
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching12
+	908.1.1 = { #fic
+		birth = yes
+	}
+	979.1.1 = { #fic
+		death = yes
+	}
+}
+
+udalriching14 = {
+	name = "Dorothea" #fictional name, wife of Adalbert of Marchtal
+	female = yes
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching12
+	910.1.1 = { #fic
+		birth = yes
+	}
+	962.1.1 = { #fic
+		death = yes
+	}
+}
+
+udalriching15 = {
+	name = "Burkhard" #abbot of St Gallen
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	trait = devoted
+	father = udalriching12
+	912.1.1 = { #fic
+		birth = yes
+	}
+	975.8.9 = {
+		death = yes
+	}
+}
+
+udalriching16 = {
+	name = "Wido"
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching12
+	913.1.1 = { #fic
+		birth = yes
+	}
+	919.1.1 = { #fic
+		death = yes
+	}
+}
+
+udalriching17 = {
+	name = "Ulrich" #Ulrich IV of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching18
+	856.1.1 = { #fic
+		birth = yes
+	}
+	896.4.14 = {
+		death = yes
+	}
+}
+
+udalriching18 = {
+	name = "Ulrich" #Ulrich III of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching20
+	814.1.1 = { #fic
+		birth = yes
+	}
+	894.9.27 = {
+		death = yes
+	}
+}
+
+udalriching19 = {
+	name = "Ulrich" #Ulrich II of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching21
+	788.1.1 = { #fic
+		birth = yes
+	}
+	815.1.1 = {
+		death = yes
+	}
+}
+
+udalriching20 = {
+	name = "Ratbert" #Ratbert I of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching21
+	791.1.1 = { #fic
+		birth = yes
+	}
+	817.1.1 = {
+		death = yes
+	}
+}
+
+udalriching21 = {
+	name = "Ulrich" #Ulrich I of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	753.1.1 = { #est
+		birth = yes
+	}
+	807.1.1 = {
+		death = yes
+	}
+}
+
+udalriching22 = {
+	name = "Poppo" 
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching21
+	797.1.1 = {
+		birth = yes
+	}
+	803.1.1 = {
+		death = yes
+	}
+}
+
+udalriching23 = {
+	name = "Erich" 
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching21
+	802.1.1 = { #fic
+		birth = yes
+	}
+	827.1.1 = { #fic
+		death = yes
+	}
+}
+
+udalriching24 = {
+	name = "Richere"
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching13
+	933.1.1 = { #fic
+		birth = yes
+	}
+	984.1.1 = { #fic
+		death = yes
+	}
+}
+
+
+
+udalriching26 = {
+	name = "Marquard" #Marquard III of Argen- and Rheingau 
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching4
+	1016.1.1 = { #fic
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+udalriching27 = {
+	name = "Eberhard" #Eberhard of Unterrätien
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching4
+	1023.1.1 = { #fic
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+
+udalriching28 = {
+	name = "Gerold" # Gerold I of Zürichgau und Thurgau
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching19
+	807.1.1 = { #fic
+		birth = yes
+	}
+	867.1.1 = {
+		death = yes
+	}
+}
+
+
+
+udalriching30 = {
+	name = "Marquard" #
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching3
+	1043.1.1 = { #fic
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+
+udalriching31 = {
+	name = "Ulrich" # Ulrich X of Bregenz
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching3
+	1047.1.1 = { #fic
+		birth = yes
+	}
+	1097.10.26 = {
+		death = yes
+	}
+}
+
+udalriching32 = {
+	name = "Heinrich" # Heinrich of Nibelgau
+	dynasty = 54
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching3
+	1051.1.1 = { #fic
+		birth = yes
+	}
+	1094.1.1 = {
 		death = yes
 	}
 }

@@ -1,0 +1,12 @@
+﻿ringgenberg1 = {
+	name = "Arnold" #Arnold I von Ringgenberg
+	dynasty = 298
+	religion = catholic
+	culture = swiss
+	1022.1.1 = { #fic
+		birth = yes
+	}
+	1093.1.1 = { #fic
+		death = yes
+	}
+}

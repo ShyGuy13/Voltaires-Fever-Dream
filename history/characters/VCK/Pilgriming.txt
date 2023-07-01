@@ -6,4 +6,68 @@
 	1015.1.1 = {
 		birth = yes
 	}
+	1041.1.1 = {
+		add_spouse = andechs5 # Uta of Andechs
+	}
+	1086.3.27 = {
+		death = yes
+	}
+}
+
+pilgriming2 = {
+	name = "Kuno" #Kuno II of Rott
+	dynasty = 15
+	religion = catholic
+	culture = bavarian
+	father = pilgriming1
+	mother = andechs5
+	1045.1.1 = { #fic
+		birth = yes
+	}
+	1081.8.11 = {
+		death = yes
+	}
+}
+
+pilgriming3 = {
+	name = "Irmgard" #
+	female = yes
+	dynasty = 15
+	religion = catholic
+	culture = bavarian
+	father = pilgriming1
+	mother = andechs5
+	1047.1.1 = { #fic
+		birth = yes
+	}
+	1101.6.14 = {
+		death = yes
+	}
+}
+
+pilgriming1 = {
+	name = "Poppo" #bishop of Brixen & Pope Damasus II
+	dynasty = 15
+	martial = 6
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 8
+	religion = catholic
+	culture = bavarian
+	trait = diligent
+	trait = calm
+	trait = zealous
+	trait = education_diplomacy_3
+	980.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_bavarian
+	}
+	1048.7.16 = {
+		name = "Damasus"
+	}
+	1048.8.9 = {
+		death = {
+			death_reason = death_ill
+		}
+	}
 }

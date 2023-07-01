@@ -1,13 +1,161 @@
 ﻿winterthur1 = {
 	name = "Adelheid" #wife of Hartmann I of Dillingen
 	female = yes
-	dynasty = 129
+	dynasty_house = house_winterthur
 	religion = catholic
-	culture = swiss
+	culture = boden_alemannic
+	father = winterthur4
 	1050.1.1 = {
 		birth = yes
 	}
-	1125.1.1 = {
+	1125.3.1 = {
+		death = yes
+	}
+}
+
+winterthur2 = {
+	name = "Liutfrid" #Liutfrid I of Winterthur
+	dynasty_house = house_winterthur
+	religion = catholic
+	culture = boden_alemannic
+	father = udalriching7
+	930.1.1 = { #est
+		birth = yes
+	}
+	972.3.16 = {
+		death = yes
+	}
+}
+
+winterthur3 = {
+	name = "Adalbert" #Adalbert I of Winterthur
+	dynasty_house = house_winterthur
+	religion = catholic
+	culture = boden_alemannic
+	father = winterthur2
+	960.1.1 = { #est
+		birth = yes
+	}
+	1030.9.8 = {
+		death = yes
+	}
+}
+
+winterthur4 = {
+	name = "Adalbert" #Adalbert II of Winterthur
+	dynasty_house = house_winterthur
+	religion = catholic
+	culture = boden_alemannic
+	father = winterthur5
+	mother = eberharding17
+	1022.1.1 = { #est
+		birth = yes
+	}
+	1053.6.18 = {
+		death = yes
+	}
+}
+
+winterthur5 = {
+	name = "Werner" #Werner I of Winterthur
+	dynasty_house = house_winterthur
+	religion = catholic
+	culture = boden_alemannic
+	father = winterthur3
+	1000.1.1 = {
+		birth = yes
+	}
+	1020.1.1 = { #fic
+		add_spouse = eberharding17 # Irmengard
+	}
+	1040.8.22 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+winterthur6 = {
+	name = "Werner" #Werner I of Kyburg
+	dynasty_house = house_winterthur
+	religion = catholic
+	culture = boden_alemannic
+	father = winterthur2
+	966.1.1 = { #fic
+		birth = yes
+	}
+	1030.8.17 = {
+		death = yes
+	}
+}
+
+winterthur7 = {
+	name = "Udo" #Udo I of Chur
+	dynasty_house = house_winterthur
+	religion = catholic
+	culture = boden_alemannic
+	father = winterthur2
+	969.1.1 = { #fic
+		birth = yes
+	}
+	1020.1.1 = {
+		death = yes
+	}
+}
+
+winterthur8 = {
+	name = "Marquard" #Marquard of Unterrätien
+	dynasty_house = house_winterthur
+	religion = catholic
+	culture = boden_alemannic
+	father = winterthur2
+	971.1.1 = { #fic
+		birth = yes
+	}
+	1032.1.1 = {
+		death = yes
+	}
+}
+
+winterthur9 = {
+	name = "Eberhard" #
+	dynasty_house = house_winterthur
+	religion = catholic
+	culture = boden_alemannic
+	father = winterthur8
+	1002.1.1 = { #fic
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+
+winterthur10 = {
+	name = "Liutfrid" #
+	dynasty_house = house_winterthur
+	religion = catholic
+	culture = boden_alemannic
+	father = winterthur5
+	mother = eberharding17
+	1024.1.1 = { #fic
+		birth = yes
+	}
+	1040.8.22 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+winterthur11 = {
+	name = "Hermann" #abbot of Einsiedeln
+	dynasty_house = house_winterthur
+	religion = catholic
+	culture = boden_alemannic
+	trait = devoted
+	father = winterthur5
+	mother = eberharding17
+	1029.1.1 = { #fic
+		birth = yes
+	}
+	1065.1.1 = {
 		death = yes
 	}
 }

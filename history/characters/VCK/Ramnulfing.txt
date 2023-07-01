@@ -1,5 +1,5 @@
 ﻿ramnulfing1 = {
-	name = "Agnes" # wife of Emperor III
+	name = "Agnes" # wife of Emperor Heinrich III
 	female = yes
 	dynasty = 291
 	culture = poitevin
