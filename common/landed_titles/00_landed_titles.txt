@@ -2996,10 +2996,6 @@ e_netherlands = {
 					province = 9925
 					color = { 72 171 76 }
 				}
-				b_boslar = {
-					province = 9926
-					color = { 229 143 202 }
-				}
 			}
 
 			c_guelders = { # Opper-Gelre
@@ -8380,10 +8376,6 @@ e_hre = {
 					province = 10397
 					color = { 42 231 108 }
 				}
-				b_gennep = {
-					province = 8956
-					color = { 189 175 119 }
-				}
 				b_emmerich = {
 					province = 9894
 					color = { 213 201 151 }
@@ -9695,6 +9687,10 @@ e_hre = {
 					province = 9953
 					color = { 54 150 181 }
 				}
+				b_schlitz = {
+					province = 9967
+					color = { 220 209 34 }
+				}
 			}
 
 			c_marburg = {
@@ -9932,6 +9928,10 @@ e_hre = {
 					province = 9997
 					color = { 58 208 174 }
 				}
+				b_jossa = {
+					province = 10132
+					color = { 207 196 28 }
+				}
 				b_altenhasslau = {
 					province = 10010
 					color = { 75 229 194 }
@@ -9949,13 +9949,14 @@ e_hre = {
 					province = 9969
 					color = { 118 97 63 }
 				}
+				b_bruckenau = {
+					province = 9971
+					color = { 128 104 67 }
+					color2 = { 255 255 255 }
+				}
 				b_neuenberg = {
 					province = 9970
 					color = { 106 85 53 }
-				}
-				b_schlitz = {
-					province = 9967
-					color = { 220 209 34 }
 				}
 			}
 
@@ -10028,6 +10029,10 @@ e_hre = {
 				b_lichtenberg = {
 					province = 9219
 					color = { 208 69 224 }
+				}
+				b_zabern = {
+					province = 9216
+					color = { 225 216 84 }
 				}
 			}
 
@@ -10181,6 +10186,8 @@ e_hre = {
 			}
 
 			c_schirmeck = {
+				color = { 119 99 184 }
+
 				b_schirmeck = {
 					province = 9213
 					color = { 225 217 84 }
@@ -10410,19 +10417,9 @@ e_hre = {
 					province = 9604
 					color = { 226 206 229 }
 				}
-
-
-				b_torgau = {
-					province = 9599
-					color = { 200 179 203 }
-				}
 				b_muhlberg = {
 					province = 9600
 					color = { 234 218 236 }
-				}
-				b_oschatz = {
-					province = 9601
-					color = { 226 205 229 }
 				}
 			}
 		}
@@ -12134,6 +12131,10 @@ e_hre = {
 					province = 9612
 					color = { 246 229 137 }
 				}
+				b_oschatz = {
+					province = 9601
+					color = { 226 205 229 }
+				}
 			}
 
 			c_brehna = {
@@ -12143,9 +12144,9 @@ e_hre = {
 					province = 9614
 					color = { 174 158 176 }
 				}
-				b_herzberg = {
-					province = 9590
-					color = { 176 155 179 }
+				b_torgau = {
+					province = 9599
+					color = { 200 179 203 }
 				}
 				b_schmiedeberg = {
 					province = 9591
@@ -12153,15 +12154,17 @@ e_hre = {
 				}
 			}
 
-			c_schweinitz = {
-				color = { 127 180 60 }
+			c_herzberg = {
+				color = { 87 140 20 }
 
+				b_herzberg = {
+					province = 9590
+					color = { 176 155 179 }
+				}
 				b_liebenwerda = {
 					province = 9589
 					color = { 187 170 189 }
 				}
-
-
 				b_schlieben = {
 					province = 9592
 					color = { 201 187 203 }
@@ -12172,8 +12175,12 @@ e_hre = {
 				}
 			}
 
-			c_luckenwalde = {
+			c_juterbog = {
 
+				b_juterbog = {
+					province = 9511
+					color = { 171 81 49 }
+				}
 				b_luckenwalde = {
 					province = 9508
 					color = { 200 111 80 }
@@ -12189,10 +12196,6 @@ e_hre = {
 				b_wiepersdorf = {
 					province = 9510
 					color = { 174 141 116 }
-				}
-				b_juterbog = {
-					province = 9511
-					color = { 171 81 49 }
 				}
 			}
 
@@ -13899,6 +13902,27 @@ e_hre = {
 				}
 			}
 
+			c_hoheneck = {
+				b_hoheneck = {
+					province = 10172
+					color = { 201 184 57 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_schwarzenberg = {
+				b_schwarzenberg = {
+					province = 10158
+					color = { 130 119 55 }
+					color2 = { 255 255 255 }
+				}	
+				b_kitzingen = {
+					province = 10138
+					color = { 186 176 128 }
+					color2 = { 255 255 255 }
+				}
+			}
+
 			c_castell = {
 				color = { 221 93 170 }
 
@@ -13995,10 +14019,12 @@ e_hre = {
 					province = 10131
 					color = { 224 127 69 }
 				}
-				b_jossa = {
-					province = 10132
-					color = { 207 196 28 }
+				b_schluchtern = {
+					province = 10005
+					color = { 61 212 178 }
+					color2 = { 255 255 255 }
 				}
+
 				b_burgsinn = {
 					province = 10133
 					color = { 219 208 36 }
@@ -14047,6 +14073,11 @@ e_hre = {
 				b_wurzburg = {
 					province = 7501
 					color = { 139 62 255 }
+				}
+				b_trimberg = {
+					province = 10142
+					color = { 176 167 118 }
+					color2 = { 255 255 255 }
 				}
 				b_karlburg = {
 					province = 10137
@@ -15734,7 +15765,6 @@ e_hre = {
 					province = 9179
 					color = { 196 98 79 }
 				}
-
 				b_eschenbach = {
 					province = 10204
 					color = { 98 202 201 }
@@ -16170,21 +16200,16 @@ e_hre = {
 				}
 			}
 
-			# c_hirschberg = {
-			# 	color = { 99 60 139 }
-			# 	color2 = { 255 255 255 }
+			c_hirschberg = {
+				color = { 99 60 139 }
+				color2 = { 255 255 255 }
 
-			# 	b_hirschberg = {
-			# 		province = 2991
-			# 		color = { 217 40 128 }
-			# 		color2 = { 255 255 255 }
-			# 	}
-			# 	b_breitenbrunn = {
-			# 		province = 1061
-			# 		color = { 156 50 79 }
-			# 		color2 = { 255 255 255 }
-			# 	}
-			# }
+				b_hirschberg = {
+					province = 10202
+					color = { 97 202 201 }
+					color2 = { 255 255 255 }
+				}
+			}
 
 			c_heideck = {
 				color = { 120 167 19 }
@@ -16225,6 +16250,37 @@ e_hre = {
 				b_hohenfels = {
 					province = 10226
 					color = { 98 200 199 }
+				}
+			}
+
+			c_riedenburg = {
+				b_riedenburg = {
+					province = 10219
+					color = { 65 124 166 }
+					color2 = { 255 255 255 }
+				}
+				b_vohburg = {
+					province = 10276
+					color = { 51 111 152 }
+					color2 = { 255 255 255 }
+				}
+				b_hemau = {
+					province = 10222
+					color = { 53 109 148 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_lengenfeld = {
+				b_lengenfeld = {
+					province = 10227
+					color = { 55 108 145 }
+					color2 = { 255 255 255 }
+				}
+				b_schwandorf = {
+					province = 10228
+					color = { 64 124 166 }
+					color2 = { 255 255 255 }
 				}
 			}
 
@@ -44221,11 +44277,6 @@ e_hre = {
 
 
 
-# b_zabern = {
-# 	province = 9216
-# 	color = { 225 216 84 }
-# 	color2 = { 255 255 255 }
-# }
 
 
 
@@ -44578,16 +44629,7 @@ e_hre = {
 
 
 
-# b_tann = {
-# 	province = 9968
-# 	color = { 225 213 26 }
-# 	color2 = { 255 255 255 }
-# }
-# b_bruckenau = {
-# 	province = 9971
-# 	color = { 128 104 67 }
-# 	color2 = { 255 255 255 }
-# }
+
 
 
 
@@ -44616,11 +44658,6 @@ e_hre = {
 
 
 
-# b_schluchtern = {
-# 	province = 10005
-# 	color = { 61 212 178 }
-# 	color2 = { 255 255 255 }
-# }
 
 
 
@@ -44815,19 +44852,10 @@ e_hre = {
 
 
 
-# b_kitzingen = {
-# 	province = 10138
-# 	color = { 186 176 128 }
-# 	color2 = { 255 255 255 }
-# }
 
 
 
-# b_trimberg = {
-# 	province = 10142
-# 	color = { 176 167 118 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_reichenbach = {
 # 	province = 10151
 # 	color = { 112 108 107 }
@@ -44846,11 +44874,7 @@ e_hre = {
 # 	color2 = { 255 255 255 }
 # }
 
-# b_schwarzenberg = {
-# 	province = 10158
-# 	color = { 130 119 55 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_windsheim = {
 # 	province = 10159
 # 	color = { 192 237 167 }
@@ -44863,11 +44887,7 @@ e_hre = {
 
 
 
-# b_hoheneck = {
-# 	province = 10172
-# 	color = { 201 184 57 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_munchsteinach = {
 # 	province = 10173
 # 	color = { 186 171 50 }
@@ -44918,11 +44938,7 @@ e_hre = {
 # 	color = { 178 132 201 }
 # 	color2 = { 255 255 255 }
 # }
-# b_hirschau = {
-# 	province = 10202
-# 	color = { 97 202 201 }
-# 	color2 = { 255 255 255 }
-# }
+
 
 # b_schnaittach = {
 # 	province = 10205
@@ -44937,11 +44953,7 @@ e_hre = {
 
 
 
-# b_riedenburg = {
-# 	province = 10219
-# 	color = { 65 124 166 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_dietfurt = {
 # 	province = 10220
 # 	color = { 83 212 232 }
@@ -44952,22 +44964,6 @@ e_hre = {
 # 	color = { 222 211 28 }
 # 	color2 = { 255 255 255 }
 # }
-# b_hemau = {
-# 	province = 10222
-# 	color = { 53 109 148 }
-# 	color2 = { 255 255 255 }
-# }
-
-# b_lengenfeld = {
-# 	province = 10227
-# 	color = { 55 108 145 }
-# 	color2 = { 255 255 255 }
-# }
-# b_schwandorf = {
-# 	province = 10228
-# 	color = { 64 124 166 }
-# 	color2 = { 255 255 255 }
-# }
 
 
 
@@ -44984,11 +44980,10 @@ e_hre = {
 
 
 
-# b_vohburg = {
-# 	province = 10276
-# 	color = { 51 111 152 }
-# 	color2 = { 255 255 255 }
-# }
+
+
+
+
 
 
 

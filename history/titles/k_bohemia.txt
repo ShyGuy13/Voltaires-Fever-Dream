@@ -230,3 +230,14 @@ c_heidesee = {
 		holder = wettin3 # Dedo I
 	}
 }
+c_juterbog = {
+	1032.1.1 = {
+		holder = wettin7 # Dietrich I
+	}
+	1034.1.1 = {
+		holder = ekkeharding1 # Ekkehard I
+	}
+	1046.1.24 = {
+		holder = wettin3 # Dedo I
+	}
+}

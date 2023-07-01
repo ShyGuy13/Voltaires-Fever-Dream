@@ -1047,6 +1047,11 @@ c_veringen = {
 		holder = veringen1 # Wolfrad I
 	}
 }
+c_biberach = {
+	1010.3.4 = {
+		holder = veringen1 # Wolfrad I
+	}
+}
 
 #Gleichen
 c_gleichen = {
@@ -1347,6 +1352,11 @@ c_berg = {
 	}
 }
 c_huckeswagen = {
+	1054.1.1 = {
+		holder = berg1 # Adolf I
+	}
+}
+c_styrum = {
 	1054.1.1 = {
 		holder = berg1 # Adolf I
 	}
@@ -2287,6 +2297,12 @@ c_harburg = {
 
 #Brehna
 c_brehna = {
+	1034.11.19 = {
+		liege = d_lausitz
+		holder = wettin1 # Gero I
+	}
+}
+c_herzberg = {
 	1034.11.19 = {
 		liege = d_lausitz
 		holder = wettin1 # Gero I
