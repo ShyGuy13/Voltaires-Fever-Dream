@@ -138,6 +138,18 @@
  nissard: "Nissard"
  nissard_prefix: "Nissardo"
  nissard_collective_noun: "Nissards"
+ champenois: "Champenois"
+ champenois_prefix: "Champeno"
+ champenois_collective_noun: "Champenois"
+ romagnan: "Romagnan"
+ romagnan_prefix: "Romagnoli"
+ romagnan_collective_noun: "Romagnoli"
+ umbrian: "Umbrian"
+ umbrian_prefix: "Umbro"
+ umbrian_collective_noun: "Umbrians"
+ german: "Old High German"
+ german_prefix: "Germano"
+ german_collective_noun: "Old High Germans"
 #Others: Aostan, Jurassien, Limburgish, Drenthian, East Frisian, Nordgauer, Alsatian, Black Alemannic, West Franconian, Oldenburgish, Emslandic, Bergish, Lorraine Franconian, Moselle Franconian, North Markish, South Markish, Dithmarsch, Kleverlandisch, Erzgebirgisch
 #Heritages
  heritage_dutch_name: "Dutch"

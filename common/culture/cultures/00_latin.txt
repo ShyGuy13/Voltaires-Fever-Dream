@@ -239,11 +239,13 @@ maltese = {
 	language = language_darja
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_linguists
+		tradition_language_scholars
+		tradition_xenophilic
+		tradition_fishermen
 	}
 	
 	dlc_tradition = {
-		trait = tradition_malleable_invaders
+		trait = tradition_staunch_traditionalists
 		requires_dlc_flag = hybridize_culture
 	}
 	
@@ -336,7 +338,7 @@ neapolitan = {
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_seafarers
+		tradition_seafaring
 		tradition_spartan
 		tradition_martial_admiration 
 	}

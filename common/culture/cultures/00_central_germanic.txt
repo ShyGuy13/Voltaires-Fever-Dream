@@ -249,6 +249,7 @@ boden_alemannic = {
 	traditions = {
 		tradition_parochialism
 		tradition_ruling_caste
+		tradition_battlefield_looters
 	}
 	
 	name_list = name_list_boden_alemannic
@@ -306,7 +307,7 @@ hessian = {
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_ruling_caste
-		tradition_swords_to_hire
+		tradition_swords_for_hire
 	}
 	
 	name_list = name_list_hessian
@@ -364,7 +365,7 @@ central_margravian = {
 	language = language_saxon
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_castle_keepers
+		tradition_formation_fighting
 		tradition_zealous_people
 		tradition_by_the_sword
 	}
@@ -396,6 +397,7 @@ eastphalian = {
 	traditions = {
 		tradition_adaptive_skirmishing
 		tradition_modest
+		tradition_monastic_communities
 	}
 	
 	name_list = name_list_eastphalian
@@ -485,6 +487,7 @@ pfalzish = {
 	traditions = {
 		tradition_equitable
 		tradition_ruling_caste
+		tradition_strength_in_numbers
 	}
 	
 	name_list = name_list_pfalzish

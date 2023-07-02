@@ -58,7 +58,7 @@
 		dynasty_splendor_level = 1
 		type = male
 		birth = 995.1.1
-		title = d_saxony
+		title = d_altsachsen
 		government = feudal_government
 		culture = low_elbish
 		religion = catholic

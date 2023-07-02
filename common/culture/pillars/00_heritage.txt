@@ -1,28 +1,4 @@
-﻿heritage_akan = {
-	type = heritage
-}
-
-heritage_arabic = {
-	type = heritage
-}
-
-heritage_baltic = {
-	type = heritage
-}
-
-heritage_balto_finnic = {
-	type = heritage
-}
-
-heritage_berber = {
-	type = heritage
-}
-
-heritage_brythonic = {
-	type = heritage
-}
-
-heritage_burman = {
+﻿heritage_arabic = {
 	type = heritage
 }
 
@@ -30,47 +6,11 @@ heritage_byzantine = {
 	type = heritage
 }
 
-heritage_central_african = {
-	type = heritage
-}
-
 heritage_central_germanic = {
 	type = heritage
 }
 
-heritage_chinese = {
-	type = heritage
-}
-
-heritage_dravidian = {
-	type = heritage
-}
-
-heritage_east_african = {
-	type = heritage
-}
-
-heritage_east_slavic = {
-	type = heritage
-}
-
 heritage_frankish = {
-	type = heritage
-}
-
-heritage_goidelic = {
-	type = heritage
-}
-
-heritage_iberian = {
-	type = heritage
-}
-
-heritage_indo_aryan = {
-	type = heritage
-}
-
-heritage_iranian = {
 	type = heritage
 }
 
@@ -82,31 +22,7 @@ heritage_latin = {
 	type = heritage
 }
 
-heritage_magyar = {
-	type = heritage
-}
-
-heritage_mongolic = {
-	type = heritage
-}
-
 heritage_north_germanic = {
-	type = heritage
-}
-
-heritage_qiangic = {
-	type = heritage
-}
-
-heritage_sahelian = {
-	type = heritage
-}
-
-heritage_senegambian = {
-	type = heritage
-}
-
-heritage_somalian = {
 	type = heritage
 }
 
@@ -114,47 +30,11 @@ heritage_south_slavic = {
 	type = heritage
 }
 
-heritage_tibetan = {
-	type = heritage
-}
-
-heritage_turkic = {
-	type = heritage
-}
-
-heritage_ugro_permian = {
-	type = heritage
-}
-
-heritage_volga_finnic = {
-	type = heritage
-}
-
-heritage_west_african = {
-	type = heritage
-}
-
-heritage_west_germanic = {
-	type = heritage
-}
-
 heritage_west_slavic = {
 	type = heritage
 }
 
-heritage_yoruba = {
-	type = heritage
-}
-
-heritage_tocharian = {
-	type = heritage
-}
-
-heritage_vlach = {
-	type = heritage
-}
-
 #mod
-heritage_hollandian = {
+heritage_dutch = {
 	type = heritage
 }

@@ -32,7 +32,7 @@ slovenian = {
 	language = language_south_slavic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_forest_fighting
+		tradition_forest_fighters
 		tradition_modest
 	}
 

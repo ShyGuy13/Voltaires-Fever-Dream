@@ -73,7 +73,7 @@ ladin = {
 	traditions = {
 		tradition_isolationist
 		tradition_esteemed_hospitality
-		tradition_pacifists
+		tradition_pacifism
 		tradition_mountain_homes
 	}
 	

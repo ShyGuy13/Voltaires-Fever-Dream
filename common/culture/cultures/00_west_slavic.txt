@@ -87,59 +87,59 @@ polabian = {
 	}	
 }
 
-slovien = {
-	color = slovien
+# slovien = {
+# 	color = slovien
 	
-	ethos = ethos_egalitarian
-	heritage = heritage_west_slavic
-	language = language_czech_slovak
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_mountaineer_ruralism
-		tradition_equitable
-	}
+# 	ethos = ethos_egalitarian
+# 	heritage = heritage_west_slavic
+# 	language = language_czech_slovak
+# 	martial_custom = martial_custom_male_only
+# 	traditions = {
+# 		tradition_mountaineer_ruralism
+# 		tradition_equitable
+# 	}
 	
-	name_list = name_list_slovien
+# 	name_list = name_list_slovien
 	
-	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
+# 	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
+# 	building_gfx = { western_building_gfx }
+# 	clothing_gfx = { western_clothing_gfx }
+# 	unit_gfx = { eastern_unit_gfx }
 
-	ethnicities = {
-		45 = slavic_blond
-		5 = slavic_ginger
-		35 = slavic_brown_hair
-		15 = slavic_dark_hair
-	}
-}
+# 	ethnicities = {
+# 		45 = slavic_blond
+# 		5 = slavic_ginger
+# 		35 = slavic_brown_hair
+# 		15 = slavic_dark_hair
+# 	}
+# }
 
-carantanian = {
-	color = carantanian
+# carantanian = {
+# 	color = carantanian
 	
-	ethos = ethos_communal
-	heritage = heritage_west_slavic
-	language = language_south_slavic	#More or less a west slavic group who ended up adopting south slavic languages after the Avars cut off the slavs in the Pannonian basin
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_mountaineer_ruralism
-		tradition_martial_admiration
-	}
+# 	ethos = ethos_communal
+# 	heritage = heritage_west_slavic
+# 	language = language_south_slavic	#More or less a west slavic group who ended up adopting south slavic languages after the Avars cut off the slavs in the Pannonian basin
+# 	martial_custom = martial_custom_male_only
+# 	traditions = {
+# 		tradition_mountaineer_ruralism
+# 		tradition_martial_admiration
+# 	}
 	
-	name_list = name_list_carantanian
+# 	name_list = name_list_carantanian
 	
-	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
+# 	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
+# 	building_gfx = { western_building_gfx }
+# 	clothing_gfx = { western_clothing_gfx }
+# 	unit_gfx = { eastern_unit_gfx }
 	
-	ethnicities = {
-		45 = slavic_blond
-		5 = slavic_ginger
-		35 = slavic_brown_hair
-		15 = slavic_dark_hair
-	}
-}
+# 	ethnicities = {
+# 		45 = slavic_blond
+# 		5 = slavic_ginger
+# 		35 = slavic_brown_hair
+# 		15 = slavic_dark_hair
+# 	}
+# }
 
 #mod
 sorbian = {
@@ -148,6 +148,7 @@ sorbian = {
 	ethos = ethos_communal
 	heritage = heritage_west_slavic
 	language = language_sorbian
+	martial_custom = martial_custom_male_only
 	traditions = {
 		
 	}
