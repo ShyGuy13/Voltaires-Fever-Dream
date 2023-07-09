@@ -1,6 +1,6 @@
 ﻿maghrebi = {
 	color = maghrebi
-	created = 600.1.1
+	#created = 600.1.1
 	#parents = { bedouin baranis }
 	
 	ethos = ethos_spiritual
@@ -15,7 +15,7 @@
 		tradition_fishermen
 	}
 	
-	name_list = name_list_maghrebi
+	name_list = name_list_tunisian
 
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 

@@ -696,3 +696,133 @@
 		
 	}
 }
+
+name_list_croatian = {
+	male_names = {
+		Almos Adam Andrija Andrej Aleksandar
+		Bartol Bartolomeus Besar Bojan Boris Branimir
+		Caspar Castimir
+		Dragutin Dimitrije Danail Daniel Dmitar Dobromir Dragan Dragomir Drzislav Dujam Duym
+		Filip Franjo Florijan Fabijan Ferdo Fauszty
+		Gavrilo Gabrijel Goislav Grgur Gaspar Gheorghe George Grigorii
+		Hranislav Hrvoje
+		Igor Ivan Ioan
+		Josip Jitej Juraj
+		Kresimir Karlo Koloman
+		Luka Ljudevit Ljutomisl Lovro Luj Ladislav
+		Marko Mihajlo Milan Mirko Miroslav Mutimir Matej Matthew Milman Mislav Matija
+		Nikolitza Nicholas Nenad Nikola
+		Ognjen
+		Petar Prohor Pero
+		Radomir Ratimir
+		Slavko Sulvan Stjepan Slavic Svetoslav Stanislav Sebeslav Seslav Slavich
+		Trpimir Teodor Tomislav Tvrdoslav Tvrtko Toma
+		Ulfo Ulf
+		Vid Vitomir Vlaicu Vukan Vladislav Vjenceslav Vladko
+		Zvonimir Zvonomir
+	}
+	female_names = {
+		Adriana Anna Antonija Andreja Agneza
+		Borislava
+		Cededa Capeka Catherine
+		Doroteja Dorothy Dragana Dubravka
+		Ekaterina Emilija Emily
+		Gordana
+		Helena Helen
+		Jadviga Jovana Jadranka Jagoda Jelena Jelka Josipa
+		Kera Katalin
+		Ladika Lucija Lucia
+		Maria Mihaela Mare Marija Marijana Mirjana Mirna Mojca
+		Nada NataŠa Natalija
+		Petra
+		Rijeka
+		Silvija Snjezana Sofija Sophia Suzana Susana Svjetlana Suronja
+		Tatjana Tihana
+		Viola Vedrana Visnja Vjekoslava Valerija
+		Yolanda
+		Zlata Zvonimira 
+	}
+
+	dynasty_names = {
+		"dynn_Trpimirović"
+		"dynn_Mihaljević"
+		"dynn_Šubić"
+		"dynn_Drašković"
+		"dynn_Babonić"
+		"dynn_Frankapani"
+		"dynn_Kačić"
+		"dynn_Svetoslavić"
+		"dynn_Krešimirović"
+		"dynn_Domagojević"
+		"dynn_Gorjanski"
+		"dynn_Svačić"
+		"dynn_Lacković"
+		"dynn_Crnković"
+		"dynn_Rubido"
+		"dynn_Cerva"
+		"dynn_Jelačić"
+		"dynn_Zrinski"
+		"dynn_Kabužić"
+		"dynn_Garaj"
+		"dynn_Bebek"
+		"dynn_Hrvatinić"
+		"dynn_Kosača"
+		"dynn_Vukčić"
+		"dynn_Vukašin"
+		"dynn_Kobilić"
+		"dynn_Dukasin"
+		"dynn_Feštetić"
+		"dynn_Berislavić"
+		"dynn_Nepilić"
+		"dynn_Jelačić"
+	}
+
+	cadet_dynasty_names = {
+		"dynn_Trpimirović"
+		"dynn_Mihaljević"
+		"dynn_Šubić"
+		"dynn_Drašković"
+		"dynn_Babonić"
+		"dynn_Frankapani"
+		"dynn_Kačić"
+		"dynn_Svetoslavić"
+		"dynn_Krešimirović"
+		"dynn_Domagojević"
+		"dynn_Gorjanski"
+		"dynn_Svačić"
+		"dynn_Lacković"
+		"dynn_Crnković"
+		"dynn_Rubido"
+		"dynn_Cerva"
+		"dynn_Jelačić"
+		"dynn_Zrinski"
+		"dynn_Kabužić"
+		"dynn_Garaj"
+		"dynn_Bebek"
+		"dynn_Hrvatinić"
+		"dynn_Kosača"
+		"dynn_Vukčić"
+		"dynn_Vukašin"
+		"dynn_Kobilić"
+		"dynn_Dukasin"
+		"dynn_Feštetić"
+		"dynn_Berislavić"
+		"dynn_Nepilić"
+		"dynn_Jelačić"
+	}
+	
+	dynasty_of_location_prefix = "dynnp_od"
+
+	patronym_suffix_male = "dynnpat_suf_iC_"
+	always_use_patronym = yes
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 40
+	mat_grf_name_chance = 10
+	father_name_chance = 10
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 10
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+}

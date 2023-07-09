@@ -145,12 +145,14 @@ polabian = {
 sorbian = {
 	color = sorbian
 	
-	ethos = ethos_communal
+	ethos = ethos_egalitarian
 	heritage = heritage_west_slavic
 	language = language_sorbian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
+		tradition_hussar
+		tradition_hit_and_run
+		tradition_forest_folk
 	}
 	
 	name_list = name_list_carantanian
@@ -171,18 +173,14 @@ sorbian = {
 kashubian = {
 	color = kashubian
 	
-	ethos = ethos_communal
+	ethos = ethos_stoic
 	heritage = heritage_west_slavic
 	language = language_lechitic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_fishermen
 		tradition_hussar
-	}
-
-	dlc_tradition = {
-		trait = tradition_staunch_traditionalists
-		requires_dlc_flag = hybridize_culture
+		tradition_forest_fighters
 	}
 	
 	name_list = name_list_kashubian
@@ -208,7 +206,8 @@ moravian = {
 	language = language_czech_slovak
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
+		tradition_loyal_soldiers
+		tradition_ruling_caste
 	}
 	
 	name_list = name_list_moravian
@@ -229,12 +228,14 @@ moravian = {
 schlesian = {
 	color = schlesian
 	
-	ethos = ethos_communal
+	ethos = ethos_spiritual
 	heritage = heritage_west_slavic
 	language = language_lechitic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
+		tradition_hussar
+		tradition_fervent_temple_builders
+		tradition_hereditary_hierarchy
 	}
 	
 	name_list = name_list_schlesian

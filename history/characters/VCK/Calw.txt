@@ -12,7 +12,7 @@
 	trait = zealous
 	trait = education_diplomacy_3
 	father = calw3
-	mother = calw3_wife
+	mother = popponing6
 	1018.1.1 = {
 		birth = yes
 	}
@@ -29,9 +29,9 @@ calw2 = {
 	dynasty = 42
 	religion = catholic
 	culture = swabian
-	father = calw3 #???
-	mother = calw3_wife #???
-	978.1.1 = { #fic
+	father = calw3
+	mother = popponing6
+	996.1.1 = { #fic
 		birth = yes
 	}
 	1027.1.1 = { #fic
@@ -47,11 +47,11 @@ calw3 = {
 	dynasty = 42
 	religion = catholic
 	culture = swabian
-	991.1.1 = { #fic
+	974.1.1 = { #fic
 		birth = yes
 	}
 	1015.1.1 = {
-		add_spouse = calw3_wife # Biliza
+		add_spouse = popponing6 # Biliza
 	}
 	1043.1.1 = { #fic
 		death = yes
@@ -64,7 +64,7 @@ calw4 = {
 	religion = catholic
 	culture = swabian
 	father = calw3
-	mother = calw3_wife
+	mother = popponing6
 	1010.1.1 = { #est
 		birth = yes
 	}
@@ -89,7 +89,7 @@ calw5 = {
 }
 
 calw6 = {
-	name = "Gotebald"
+	name = "Gotebald" #patriarch of Aquileia
 	dynasty = 42
 	religion = catholic
 	culture = swabian
@@ -98,20 +98,6 @@ calw6 = {
 		birth = yes
 	}
 	1063.1.1 = {
-		death = yes
-	}
-}
-
-#wifes
-calw3_wife = {
-	name = "Biliza"
-	female = yes
-	religion = catholic
-	culture = swabian
-	991.1.1 = { #est
-		birth = yes
-	}
-	1068.4.2 = { #fic
 		death = yes
 	}
 }

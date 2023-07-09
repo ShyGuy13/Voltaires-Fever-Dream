@@ -61,7 +61,7 @@ udalriching5 = {
 	religion = catholic
 	culture = boden_alemannic
 	father = udalriching6
-	948.1.1 = { #fic
+	954.1.1 = { #fic
 		birth = yes
 	}
 	1019.1.1 = {

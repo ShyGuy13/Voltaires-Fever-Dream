@@ -873,9 +873,7 @@
 	culture = moselle_franconian
 }
 183 = {
-	prefix = "dynnp_von"
-	name = "dynn_Wippra"
-	culture = saxon
+	#free
 }
 184 = {
 	prefix = "dynnp_von"
@@ -1425,35 +1423,43 @@
 	culture = austrian
 }
 303 = {
+	prefix = "dynnp_van"
+	name = "dynn_Egmont"
+	culture = dutch
+}
+304 = {
+	prefix = "dynnp_von"
+	name = "dynn_Seinsheim"
+	culture = franconian
+}
+305 = {
+	prefix = "dynnp_von"
+	name = "dynn_Schauenburg"
+	culture = low_elbish
+}
+306 = {
+	prefix = "dynnp_von"
+	name = "dynn_Schauenburg"
+	culture = low_elbish
+}
+307 = {
 	
 }
-# 304 = {
+308 = {
 	
-# }
-# 305 = {
+}
+309 = {
 	
-# }
-# 306 = {
+}
+310 = {
 	
-# }
-# 307 = {
+}
+311 = {
 	
-# }
-# 308 = {
+}
+312 = {
 	
-# }
-# 309 = {
-	
-# }
-# 310 = {
-	
-# }
-# 311 = {
-	
-# }
-# 312 = {
-	
-# }
+}
 # 313 = {
 	
 # }

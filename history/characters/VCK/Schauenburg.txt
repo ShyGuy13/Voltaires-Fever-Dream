@@ -1,0 +1,12 @@
+﻿schauenburg1 = {
+	name = "Adolf" # Adolf I of Schauenburg
+	dynasty = 305
+	culture = low_elbish
+	religion = catholic
+	1050.1.1 = { #fic
+		birth = yes
+	}
+	1130.1.1 = {
+		death = yes
+	}
+}

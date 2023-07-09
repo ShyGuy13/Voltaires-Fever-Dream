@@ -1,0 +1,82 @@
+﻿egmont1 = {
+	name = "Beerwout" # Beerwout I of Egmont
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	father = egmont2
+	1049.1.1 = { #est
+		birth = yes
+	}
+	1114.1.1 = {
+		death = yes
+	}
+}
+
+egmont2 = {
+	name = "Dodo" # Dodo II of Egmont
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	father = egmont3
+	1011.1.1 = { #fic
+		birth = yes
+	}
+	1074.1.1 = {
+		death = yes
+	}
+}
+
+egmont3 = {
+	name = "Walger" # Walger I of Egmont
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	father = egmont4
+	982.1.1 = { #fic
+		birth = yes
+	}
+	1036.1.1 = {
+		death = yes
+	}
+}
+
+egmont4 = {
+	name = "Dodo" # Dodo I of Egmont
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	father = egmont5
+	937.1.1 = { #fic
+		birth = yes
+	}
+	1006.1.1 = { #fic
+		death = yes
+	}
+}
+
+egmont5 = {
+	name = "Wolbrand" # Wolbrand I of Egmont
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	father = egmont6
+	909.1.1 = { #fic
+		birth = yes
+	}
+	968.1.1 = { #fic
+		death = yes
+	}
+}
+
+egmont6 = {
+	name = "Radbold" # Radbold I of Egmont
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	876.1.1 = {
+		birth = yes
+	}
+	932.1.1 = {
+		death = yes
+	}
+}

@@ -1,6 +1,6 @@
 ﻿wippra1 = {
 	name = "Eberhard" # bishop of Naumburg
-	dynasty = 183
+	dynasty = 107
 	religion = catholic
 	culture = saxon
 	1018.1.1 = { #fic

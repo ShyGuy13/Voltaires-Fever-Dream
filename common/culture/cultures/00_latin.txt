@@ -69,7 +69,7 @@ cisalpine = { #piedmontese
 	traditions = {
 		tradition_republican_legacy
 		tradition_mountain_homes
-		
+		tradition_battlefield_looters
 	}
 	
 	name_list = name_list_cisalpine
@@ -91,13 +91,15 @@ sardinian = {
 
 	created = 100.1.1
 	
-	ethos = ethos_communal
+	ethos = ethos_stoic
 	heritage = heritage_latin
 	language = language_sardinian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_stalwart_defenders
 		tradition_isolationist
+		tradition_fishermen
+		tradition_quarrelsome
 	}
 	
 	name_list = name_list_sardinian
@@ -109,6 +111,7 @@ sardinian = {
 	
 	ethnicities = {
 		10 = mediterranean
+		1 = mediterranean_byzantine
 	}
 }
 
@@ -206,12 +209,15 @@ langobard = { #Germanic Ancestor culture
 venetian = {
 	color = venetian
 	
-	ethos = ethos_stoic
+	ethos = ethos_bellicose
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_maritime_mercantilism
+		tradition_talent_acquisition
+		tradition_seafaring
+		tradition_republican_legacy
 	}
 	
 	dlc_tradition = {
@@ -249,7 +255,7 @@ maltese = {
 		requires_dlc_flag = hybridize_culture
 	}
 	
-	name_list = name_list_lombard
+	name_list = name_list_maltese
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -258,18 +264,21 @@ maltese = {
 	
 	ethnicities = {
 		10 = mediterranean
+		1 = arab
 	}
 }
 
 corsican = {
 	color = corsican
 	
-	ethos = ethos_spiritual
+	ethos = ethos_communal
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		
+		tradition_seafaring
+		tradition_stand_and_fight
+		tradition_hereditary_hierarchy
 	}
 	
 	name_list = name_list_italian
@@ -292,6 +301,8 @@ emilian = {
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_hard_working
+		tradition_ruling_caste
 	}
 	
 	name_list = name_list_sicilian
@@ -309,13 +320,14 @@ emilian = {
 ligurian = {
 	color = ligurian
 	
-	ethos = ethos_courtly
+	ethos = ethos_bureaucratic
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_maritime_mercantilism
 		tradition_republican_legacy
+		tradition_adaptive_skirmishing
 	}
 	
 	name_list = name_list_sicilian
@@ -333,7 +345,7 @@ ligurian = {
 neapolitan = {
 	color = neapolitan
 	
-	ethos = ethos_courtly
+	ethos = ethos_bureaucratic
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
@@ -358,7 +370,7 @@ neapolitan = {
 romagnan = {
 	color = romagnan
 	
-	ethos = ethos_courtly
+	ethos = ethos_spiritual
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
@@ -380,9 +392,9 @@ romagnan = {
 }
 
 umbrian = {
-	color = romagnan
+	color = umbrian
 	
-	ethos = ethos_courtly
+	ethos = ethos_egalitarian
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
@@ -405,6 +417,10 @@ umbrian = {
 
 nissard = {
 	color = nissard
+
+	created = 1050.1.1
+
+	parents = { provencal cisalpine }
 	
 	ethos = ethos_communal
 	heritage = heritage_latin
@@ -413,6 +429,8 @@ nissard = {
 	traditions = {
 		tradition_stalwart_defenders
 		tradition_isolationist
+		tradition_ruling_caste
+		tradition_welcoming
 	}
 	
 	name_list = name_list_nissard
@@ -427,25 +445,32 @@ nissard = {
 	}
 }
 
-# dalmatian = {
-# 	color = dalmatian
+dalmatian = {
+	color = dalmatian
+
+	created = 1000.1.1
+
+	parents = { croatian venetian }
 	
-# 	ethos = ethos_courtly
-# 	heritage = heritage_latin
-# 	language = language_dalmatian
-# 	martial_custom = martial_custom_male_only
-# 	traditions = {
-		
-# 	}
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_dalmatian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fishermen
+		tradition_stalwart_defenders
+		tradition_practiced_pirates
+	}
 	
-# 	name_list = name_list_dalmatian
+	name_list = name_list_dalmatian
 	
-# 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-# 	building_gfx = { mediterranean_building_gfx }
-# 	clothing_gfx = { western_clothing_gfx }
-# 	unit_gfx = { western_unit_gfx }
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
 	
-# 	ethnicities = {
-# 		10 = mediterranean
-# 	}	
-# }
+	ethnicities = {
+		10 = mediterranean
+		1 = mediterranean_byzantine
+	}	
+}

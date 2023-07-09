@@ -1,0 +1,26 @@
+﻿seinsheim1 = {
+	name = "Konrad" # Konrad I of Schwarzenburg
+	dynasty = 304
+	culture = franconian
+	religion = catholic
+	1029.1.1 = { #fic
+		birth = yes
+	}
+	1093.1.1 = {
+		death = yes
+	}
+}
+
+seinsheim2 = {
+	name = "Burkhard" # Burkhard I of Schwarzenburg
+	dynasty = 304
+	culture = franconian
+	religion = catholic
+	father = seinsheim1
+	1051.1.1 = { #fic
+		birth = yes
+	}
+	1132.1.1 = {
+		death = yes
+	}
+}

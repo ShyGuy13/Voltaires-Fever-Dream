@@ -1,29 +1,27 @@
 ﻿name_list_romansch = {
-	#mercenary_names = {
-	#	
-	#}
-
 	male_names = {
-		Alexandru Andrin Aden Andreia Aurél Andrin Alexi
-		Balser Baltran Bandet Bernard Benno Benedegt
-		Cosmin Clario Chasprot Chrest Corsin Curo Chasper Carli
+		Alexandru Andrin Aden Andreia Aurél Andrin Alexi Artur Antonin
+		Balser Baltran Bandet Bernard Benno Benedegt Bernardin Blesi
+		Cosmin Clario Chasprot Chrest Corsin Curo Chasper Carli Clà
+		Dumeng
 		Flurin Franceschi Fadri Filip
-		Gisep Gregor
+		Gisep Gregor Giacumin
+		Hasper
 		Ionut Iso
-		Jacum Jachiam Jüst
-		Lissandri Liviu Liun Lücha Ludivic
-		Michelagnul Mihal Mattia Maurus
-		Pieri Petrica
-		Rapoto
-		Severin
-		Tuone
+		Jacum Jachiam Jüst Jaronas
+		Lissandri Liviu Liun Lücha Ludivic Lurintg
+		Michelagnul Mihal Mattia Maurus Matteias Murezi
+		Pieri Petrica Pasqual Paulin Peader
+		Rapoto Ramun
+		Severin Silvan Schimun Serafin Stiafan
+		Tuone Tumasch Tsasper
 		Uorsin
 		Valentin Victorin Viturin
 		Zirolamo
 	}
 	
 	female_names = {
-		Agnabella Adelca Anute Aita Alva Andrina Annafila Annotta
+		Agnabella Adelca Anute Aita Alva Andrina Annafila Annotta Adelina
 		Biatris Baria Bertilla
 		Crestina Chartrina Cilgia
 		Duscha
@@ -31,10 +29,10 @@
 		Juditta Jacobina
 		Luisia Luzia
 		Marila Mira Miria Mirvana Madlaina Mevina Maclaina Maria
-		Neva Neisa Nescha
+		Neva Neisa Nescha Nona
 		Oderica Ottavia Onna
 		Rita Romea Ramuna
-		Silvana Susanna Serina
+		Silvana Susanna Serina Salomea
 		Teigra Tonia
 		Ulrica Urschla Ursetta Ursina
 		Varena
@@ -65,6 +63,178 @@
 		{ dynn_Salis }
 		{ dynn_Scanvetg }
 		{ dynn_Zaccon }
+	}
+
+	cadet_dynasty_names = {
+		{ dynn_Accola }
+		{ dynn_Battaglia }
+		{ dynn_Bazzell }
+		{ dynn_Bossi }
+		{ dynn_Cadruvi }
+		{ dynn_Caduff }
+		{ dynn_Camenisch }
+		{ dynn_Caminada }
+		{ dynn_Capeder }
+		{ dynn_Corsin }
+		{ dynn_Decurtins }
+		{ dynn_Derungs }
+		{ dynnp_dil dynn_Monte-Villa }
+		{ dynn_Menduri }
+		{ dynn_Marca }
+		{ dynn_Mont }
+		{ dynn_Naso }
+		{ dynn_Planta }
+		{ dynn_Porta }
+		{ dynn_Rampa }
+		{ dynn_Razen }
+		{ dynn_Salis }
+		{ dynn_Scanvetg }
+		{ dynn_Zaccon }
+	}
+	dynasty_of_location_prefix = "dynnp_di"
+
+	patronym_prefix_male = "dynnpat_pre_di"
+	patronym_prefix_female = "dynnpat_pre_di"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 25
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+}
+
+name_list_friulian = {
+	male_names = {
+		Achil Agnul Alesandri Alviero
+		Carli Cesar Clario Cristoful
+		Denêl
+		Enio
+		Ferdinant
+		Grivôr
+		Indrì
+		Jacum Jaroni
+		Lissandri Laurinç Lelo Luduì Luîs
+		Michêlagnul
+		Niculau
+		Pieri
+		Riedo
+		Tuone
+		Vît
+		Zuan Zirolamo
+	}
+
+	female_names = {
+		Agnabella Adelca Antoniete Anute
+		Biatris
+		Crestina
+		Jolande
+		Luzie
+		Marila Mira Miria Mirvana
+		Neva
+		Oderica
+	}
+
+	dynasty_names = {
+		{ dynn_Primiero }
+		{ dynn_Panciera }
+		{ dynn_Gerra }
+		{ dynnp_da dynn_Montelongo }
+		{ dynnp_di dynn_San_Genesio }
+		{ dynnp_di dynn_Razzi }
+		{ dynnp_di dynn_Villalta }
+		{ dynn_Barbarigo }
+		{ dynn_Gradenigo }
+		{ dynn_Grimani }
+	}
+
+	cadet_dynasty_names = {
+		{ dynn_Primiero }
+		{ dynn_Panciera }
+		{ dynn_Gerra }
+		{ dynnp_da dynn_Montelongo }
+		{ dynnp_di dynn_San_Genesio }
+		{ dynnp_di dynn_Razzi }
+		{ dynnp_di dynn_Villalta }
+		{ dynn_Barbarigo }
+		{ dynn_Gradenigo }
+		{ dynn_Grimani }
+	}
+	dynasty_of_location_prefix = "dynnp_di"
+
+	patronym_prefix_male = "dynnpat_pre_di"
+	patronym_prefix_female = "dynnpat_pre_di"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 25
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+}
+
+name_list_ladin = {
+	male_names = {
+		Alexandru Antone Arcangiul Andrin
+		Balzar Batista
+		Chrest Conradin Cosmin Clario
+		Domëne Dumëine Durich
+		Firmiliano Francësch Flurin Fadri
+		Giosef
+		Iachiam Ionut
+		Janmatî Jepele Jacum
+		Lejio Luci Liviu Lissandri
+		Matî Micurà Maurus Mihal Michelagnul
+		Pasqual Petrica Pieri
+		Rapoto
+		Tomesc Tuone
+		Ujöp Uorsin
+		Vigil Valentin Victorin Viturin
+		Willram
+		Ziprian Zirolamo
+	}
+
+	female_names = {
+		Agnabella Anute	Adelca
+		Biatris
+		Crestina
+		Frena
+		Gioseffa
+		Ioana
+		Marghi Madlaina Marila Mira Miria Mirvana
+		Neva
+		Ottavia Oderica
+		Tresl Teigra
+	}
+
+	dynasty_names = {
+		{ dynnp_di dynn_Enno }
+		{ dynn_Ribi }
+		{ dynn_Madruzzo }
+		{ dynn_Zen }
+		{ dynnp_di dynn_Bonporto }
+		{ dynn_Moroder }
+		{ dynnp_de dynn_Mul }
+		{ dynnp_de dynn_Net }
+		{ dynnp_de dynn_Rü }
+	}
+
+	cadet_dynasty_names = {
+		{ dynnp_di dynn_Enno }
+		{ dynn_Ribi }
+		{ dynn_Madruzzo }
+		{ dynn_Zen }
+		{ dynnp_di dynn_Bonporto }
+		{ dynn_Moroder }
+		{ dynnp_de dynn_Mul }
+		{ dynnp_de dynn_Net }
+		{ dynnp_de dynn_Rü }
 	}
 	dynasty_of_location_prefix = "dynnp_di"
 

@@ -1,0 +1,86 @@
+﻿name_list_maltese = {
+	male_names = {
+		Awgustu Anġlu Anastasju Anard Alwiġi Alfonsu Aloiseo Antnin
+		Bastjan Bażilju Benedettu
+		Ċensu Ċikku
+		Danjel Duminku
+		Edwardu Emman Emmanwel Enriku Esdra Ewgenju Eżekjel
+		Federiku Feliċ Franġisk
+		Ġużeppi Ġustinu Ġuda Ġożwè Ġovanni Ġona Ġoel Ġlormu Girgor Ġino Għamos Għabdija Ġeremija Ġennaru Ġorġ Ġwann Ġakbu Ġakmu Ġakobb Ġan Ġanni Gauden Gejtanu
+		Ħamallu Hosegħa
+		Iermu Ilarju Indri Injazju
+		Jesmond
+		Kalanch Kalċidon Kalċidonju Karlu Karmenu Kristofru Kurun
+		Lawrenz Lażżru Leonardu Luqa Lwiġi
+		Mikea Melkjor Mattew Mikiel Malakija Manwel Marċell Marjanu Marju Massimiljanu
+		Nazju Nazzarenu Nenu Nestu
+		Pawlu Patrizju Pietru Piju Porfilju Publju
+		Robertu Rokku Rużar
+		Saverju Spiru Stiefnu
+		Tarċis Timotju Tobija Tumas Turu
+		Valentinu Vinċenz Virġilju
+		Wistin
+		Xandru Xmun
+		Yandrick
+		Żakkarija Żeppi
+	}
+
+	female_names = {
+		Aloisetta Antea Atanasia
+		Beatriċi Bernardette
+		Ċeċilija
+		Demaris Dorienne Doriette Duminka
+		Edera Edmea Elissia Eliżabetta
+		Fawstina Frenċa
+		Ġużeppa Ġuża Ġuljetta Ġuditta Grezzja Ġannina Gejta Gejtana Ġiżimin Glorianne Ġovanna Grazzja
+		Ħilda
+		Iżabella
+		Josienne
+		Karmena Karmni Kjara Klawdja
+		Lela Liena Luċija
+		Marija Marthese Manwela Margerita Mikela
+		Nadette Nataline Nena
+		Odilja
+		Patrizja
+		Riħanna Rożarja
+		Sefora Sunta
+		Tereża Tereżina Trezza
+		Vittorja
+		Wenza
+		Yanica
+	}
+
+	dynasty_names = {
+		{ dynn_Attard }
+		{ dynn_Axiaq }
+		{ dynn_Axisa }
+		{ dynn_Bajjada }
+		{ dynn_Boffa }
+		{ dynn_Bugeja }
+		{ dynn_Calleja }
+		{ dynn_Ciantar }
+		{ dynn_Curmi }
+		{ dynn_Cutajar }
+		{ dynn_Decelis }
+		{ dynn_Difesa }
+		{ dynn_Drago }
+		{ dynn_Ebejer }
+		{ dynn_Ellul }
+		{ dynn_Fiteni }
+		{ dynn_Fsadni }
+		{ dynn_Grixti }
+		{ dynn_Laferla }
+		{ dynn_Micallef }
+		{ dynn_Mifsud }
+		{ dynn_Naudi }
+		{ dynn_Psaila }
+		{ dynn_Rapa }
+		{ dynn_Said }
+		{ dynn_Sciriha }
+		{ dynn_Xerri }
+		{ dynn_Xuereb }
+		{ dynn_Zahra }
+		{ dynn_Zarb }
+		{ dynn_Zerafa }
+	}
+}

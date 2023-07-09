@@ -959,7 +959,6 @@ d_bm_minden = {
 	de_jure_drift_disabled = yes
 }
 
-
 #BYZANTINE TITULAR PROVINCES
 d_catapanate = {
 	capital = c_bari
@@ -992,6 +991,7 @@ d_altsachsen = {
 	always_follows_primary_heir = yes
 	de_jure_drift_disabled = yes
 }
+
 d_breisgau = {
 	color = { 223 70 99 }
 

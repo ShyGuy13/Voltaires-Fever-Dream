@@ -275,6 +275,7 @@
 		{ dynnp_von dynn_Schwaan }
 		{ dynnp_von dynn_Stargard }
 		{ dynnp_von dynn_Werle }
+		{ dynnp_von dynn_Zuhm }
 		#Prussian
 		{ dynnp_von dynn_Pretlack }
 		#Pfalzish
@@ -496,6 +497,7 @@
 		{ dynnp_von dynn_Berchem }
 		{ dynnp_von dynn_Braunsberg }
 		{ dynnp_von dynn_Broich }
+		{ dynnp_von dynn_Eltz }
 		{ dynnp_von dynn_Gailing }
 		{ dynnp_von dynn_Koberstein }
 		{ dynnp_von dynn_Linnep }
@@ -505,10 +507,12 @@
 		{ dynnp_von dynn_Neuerburg }
 		{ dynnp_von dynn_Olbrück }
 		{ dynnp_zu dynn_Rhein }
+		{ dynnp_von dynn_Röhl }
 		{ dynnp_von dynn_Styrum }
 		{ dynnp_von dynn_Wickrath }
 		{ dynnp_von dynn_Vallendar }
 		{ dynnp_von dynn_Virneburg }
+		{ dynnp_von dynn_Xanten }
 		#Moselle Frankish
 		{ dynnp_von dynn_Bettingen }
 		{ dynnp_von dynn_Blieskastel }

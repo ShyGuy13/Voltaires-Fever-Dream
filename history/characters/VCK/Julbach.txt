@@ -1,5 +1,5 @@
 ﻿julbach1 = {
-	name = "Raffolt" #Raffolt I of Schaumberg
+	name = "Raffolt" #Raffolt I of Schaunberg
 	dynasty = 6
 	religion = catholic
 	culture = austrian

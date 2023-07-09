@@ -36,3 +36,4 @@ ce_vn_sword_arm.dds = { colors = 3 category = figures }
 ce_vn_gnome.dds = { colors = 3 category = figures }
 #Pattern
 ce_vn_lozenge_checkers.dds = { colors = 2 category = patterns }
+ce_vn_trimount.dds = { colors = 1 category = patterns }

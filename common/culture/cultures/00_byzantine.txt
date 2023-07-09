@@ -28,7 +28,7 @@
 griko = {
 	color = griko
 	created = 800.1.1
-	parents = { greek lombard }
+	parents = { greek langobard }
 
 	ethos = ethos_communal
 	heritage = heritage_byzantine

@@ -1,9 +1,252 @@
 ﻿name_list_dutch = {
 	mercenary_names = {
+		{ name = mercenary_company_of_the_brabancon_wolf coat_of_arms = mc_company_of_the_brabancon_wolf }
+		{ name = mercenary_company_flemish_band }
+		{ name = mercenary_false_earls_company }
+	}
+
+	male_names = {
+		Adriaen Albrecht Albert Alwin Ambroos Antoon Arnold Arnulf Adriaan Andries Antonius Abraham
+		Balderik Barend Barnaerd Bernard Bartolomeus Bavo Bertold Boudewijn Baldwin Barthout
+		Claes Claeuwaert Charles Christopher Christiaan Christoffel Constantijn Cornelis
+		Daevit David Damaes Diederick Dirk Douwe Daniel
+		Eduard Edward Egmund Ekbert	Emmo Engelbrecht Eise
+		Filips Floris Folbert Frans Francis Frederik Frederick
+		Gerard Gerolt Gerulf Gerrit Gijsbrecht Giselbert Gilbert Godfried Godfrey Godschalk Gozewijn Guij Guy Gwijde Gaspar Gabriel Gerben
+		Hendrik Henry Herman Hubert Hugo Hugh Hans
+		Ijsbrand Ijsbrecht Isaac
+		Jacco Jacob Jan John Johan Jeroen Joost
+		Karel Koenraad Konrad Kristof
+		Lambert Lodewijk Louis Ludewijn Lutbert Luthard Laurens
+		Maertijn Martin	Marquart
+		Niclaes Nicholas Nicolaas
+		Olivier Oliver Otto Otwin Onno
+		Philip Pieter Peter Paul
+		Reinaerd Reinoud Reinhold Reginar Robrecht Robert Rodulf Roelof Roland Rutger Roeland Rogier
+		Sebastiaen Sicco Simon Steven Stephen Steyn Sten
+		Theodolf Thierry Thomas
+		Vincent
+		Waelram Walter Wicher Willem William Wolfard Maurits
+    	Zacharias
+	}
+
+	female_names = {
+		Ada Adela Adelheid Adelaide Aechte Agaete Aleid Alijse Alice Aliken Anna Annelies
+		Badeloge Bava Beatrijs Beatrice Benedicta Blanca Blanche Blanceflore
+		Cecily Cecilia Cille Clara Clementia Catherine
+		Ellijnore Eleanor Emma Ermingarde Ermengarde Elisabeth
+		Fenne Filippa Philippa Frida
+		Gheertrude Gertrude Gerda Godila
+		Haduwijn Helena Helen Herlinda Hilligonda
+		Ide Ida Imagina Irene Isabelle Iudith
+		Jacoba Jaccobijn Jasminne Johanna Joan Jolanda Juliana Jutte
+		Kathrijne Katrien 
+		Liedwin Lisebet
+		Machtelt Margareta Margaretha Margaret Maria Mathilde Matilda 
+		Oda Odelt Olinde Onna
+		Pieternelle Petronilla
+		Reynilde Rosanne
+		Sanne Sigerda Sophie Sophia Swanhildis
+		Thetburga Tamara Tiburge
+		Waltrud Wila Wendelmoet Wenna Willemine
+		Yonefij Yvonne
+		Zoete
 	}
 
 	dynasty_names = {
-		{ dynnp_van dynn_Holset }
+		{ dynnp_van_den dynn_Abeele }
+		{ dynnp_van dynn_Adrichem }
+		{ dynnp_van dynn_Aerssen }
+		{ dynn_Alewijn } #Patrician
+		{ dynnp_van dynn_Amstel }
+		{ dynnp_van_den dynn_Anxter }
+		{ dynnp_van dynn_Arkel }
+		{ dynnp_van dynn_Asbeck }
+		{ dynn_Backer } #Patrician
+		{ dynnp_van_den dynn_Boetzelaer }
+		{ dynnp_van_den dynn_Bosch }
 		{ dynnp_van dynn_Boet }
+		{ dynnp_van dynn_Brederode }
+		{ dynnp_van dynn_Bronkhorst }
+		{ dynnp_van_der dynn_Capellen }
+		{ dynnp_van dynn_Citters }
+		{ dynnp_van dynn_Coeverden }
+		{ dynnp_van dynn_Collen }
+		{ dynnp_van dynn_Cortenbach }
+		{ dynn_Dedel } #Patrician
+		{ dynnp_van_der dynn_Duyn }
+		{ dynnp_van dynn_Dwingelo }
+		{ dynnp_van dynn_Echten }
+		{ dynnp_van dynn_Eerde }
+		{ dynn_Eggert } #Patrician
+		{ dynnp_van_den dynn_Eynde }
+		{ dynnp_van dynn_Foreest }
+		{ dynnp_van dynn_Heemstra }
+		{ dynnp_van dynn_Heerdt }
+		{ dynnp_van dynn_Heiden }
+		{ dynnp_van dynn_Hoensbroeck }
+		{ dynnp_van dynn_Hogendorp }
+		{ dynnp_van dynn_Holset }
+		{ dynnp_van dynn_Huydecoper } #Huydecoper van Maarsseveen
+		{ dynnp_van dynn_Iddekinge }
+		{ dynnp_van dynn_IJsselstein }
+		{ dynnp_van dynn_Keppel }
+		{ dynnp_van dynn_Laer } #Laer tot Hoenlo
+		{ dynnp_van dynn_Loon }
+		{ dynnp_van dynn_Meeuwen }
+		{ dynnp_van dynn_Papebroch }
+		{ dynnp_van dynn_Renesse }
+		{ dynn_Six } # Patrician
+		{ dynn_Schaep } # Patrician
+		{ dynnp_van dynn_Schimmelpenninck } # Schimmelpenninck van der Oye
+		{ dynnp_van_der dynn_Schuer }
+		{ dynnp_van_der dynn_Spengler }
+		{ dynnp_van dynn_Steenwijk } # Vos van Steenwijk
+		{ dynnp_van dynn_Tetrode }
+		{ dynnp_van dynn_Teylingen }
+		{ dynnp_van dynn_Voorst } #Voorst tot Voorst
+		{ dynnp_van_de dynn_Wall } #Dewall
+		{ dynnp_van dynn_Wassenaer }
+		{ dynnp_van_de dynn_Witt } #Dewitt
+		{ dynnp_van_der dynn_Wyck }
+		{ dynnp_van dynn_Zoudenbalch }
 	}
+
+	dynasty_of_location_prefix = "dynnp_van"
+	
+	patronym_suffix_male = "dynnpat_suf_szoon"
+	patronym_suffix_female = "dynnpat_suf_sdochter"
+	always_use_patronym = yes
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 25
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5
+}
+
+name_list_frisian = {
+	male_names = {
+		Ane Affo Anno Aabke Aaldrich
+		Bernard Baltasar
+		Christoph Campegius
+		Duren Dodo
+		Enno "Enno Laodewyk" Edo Edzard Eggerik Eilhard Eeltsje
+		Folkerus Focko Freark Franciscus
+		Gerlof Gysbert
+		Hero Hendrik
+		Jarich Jancko Jelmera "Jaoris Christian" "Jaoris Albrecht" Jacobus Joast Jehan Joaris
+		"Karel Edzard" Keno Kristiaan Karel
+		Lütet Liuward Loadewyk
+		Michiel Magnus Marten Meppe Meik Meeno
+		Nicolaas
+		Oomken Ocko Oluf
+		Petrus Pier Poppo
+		Reijner Ritske "Rudolf Christian" Rudolf
+		Sibet
+		Tjelle Tanne Tzirk Tileman Tako Theunis Tsalling Tsjibbe
+		Unico Ulrich Ulrik Ucko Uniko Ubbo Ulfert Uka Uniko
+		Wychman Welbert Wimken Worp Wijerd Widzel Wigbolt Wijard Wybrand Waalke
+		Ygo
+	}
+
+	female_names = {
+		Aaje Adda Albertina Ats Anna Aachte Aachtje Aafke Aagthe
+		Doda Doytses
+		Elisabet Elke
+		Frauwa Fokel Foelke
+		Gela Goslinga
+		Heba
+		Juliana
+		Marije
+		Nynke
+		Kristine Kynke
+		Rintsje Ruerdtsje
+		Sybrant Stine Sesilia Sjarlotte
+		Tijdt Theda Teth Ulfertje Tiadeke Titia
+		Ubbea
+		Vrouwe Ventje
+		Wobbel
+	}
+
+	dynasty_names = {
+		{ dynn_Abdena }
+		{ dynn_Accama }
+		{ dynn_Aildesna }
+		{ dynnp_fan dynn_Aldenboarch }
+		{ dynn_Allena }
+		{ dynn_Attena }
+		{ dynn_Beninga }
+		{ dynn_Binnerts }
+		{ dynnp_fan dynn_Blije }
+		{ dynnp_fan dynn_Boalsert }
+		{ dynn_Bonga }
+		{ dynn_Bonninga }
+		{ dynn_Brandsma }
+		{ dynnp_tom dynn_Brok }
+		{ dynn_Brongersma }
+		{ dynn_Carree }
+		{ dynn_Camminga }
+		{ dynn_Cirksena }
+		{ dynn_Dirksen }
+		{ dynn_Donia }
+		{ dynn_Douwama }
+		{ dynn_Durks }
+		{ dynn_Edema }
+		{ dynn_Eisinga }
+		{ dynn_Emmius }
+		{ dynn_Eschels }
+		{ dynnp_fan dynn_Esens }
+		{ dynn_Feddes }
+		{ dynn_Galama }
+		{ dynn_Hamkes }
+		{ dynn_Halbertsma }
+		{ dynn_Haringsma }
+		{ dynn_Idzinga }
+		{ dynn_Japiks }
+		{ dynn_Jelckama }
+		{ dynn_Jelgersma }
+		{ dynnp_fan dynn_Jever }
+		{ dynn_Lenige }
+		{ dynn_Luersma }
+		{ dynn_Manninga }
+		{ dynn_Onneken }
+		{ dynn_Papinga }
+		{ dynn_Pijbes }
+		{ dynn_Popma }
+		{ dynn_Ripperda }
+		{ dynnp_fan dynn_Rossum }
+		{ dynn_Sirksena }
+		{ dynn_Steenbicker }
+		{ dynn_Syardsna }
+		{ dynn_Syrtsema }
+		{ dynn_Thaborita } #fan Thabor
+		{ dynn_Tjarksena }
+		{ dynn_Ukena }
+		{ dynn_Vitringa }
+		{ dynn_Walles }
+		{ dynn_Wiarda }
+		{ dynn_Wiemken }
+		{ dynn_Zelle }
+	}
+
+	dynasty_of_location_prefix = "dynnp_fan"
+
+	patronym_suffix_male = "dynnpat_suf_sson"
+	patronym_suffix_female = "dynnpat_suf_sdohtor"
+	always_use_patronym = yes	
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 30
+	mat_grf_name_chance = 10
+	father_name_chance = 5
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 40
+	mother_name_chance = 5	
 }

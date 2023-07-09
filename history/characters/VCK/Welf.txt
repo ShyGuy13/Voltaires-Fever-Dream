@@ -71,3 +71,16 @@ welf5 = {
 		death = yes
 	}
 }
+
+welf6 = {
+	name = "Eticho" # bishop of Augsburg
+	dynasty = 93
+	religion = catholic
+	culture = swabian
+	944.1.1 = { 
+		birth = yes
+	}
+	988.6.24 = {
+		death = yes
+	}
+}

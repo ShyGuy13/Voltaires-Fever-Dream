@@ -1,7 +1,55 @@
-﻿danish = {
+﻿norse = {
+	color = norse
+	
+	ethos = ethos_bellicose
+	heritage = heritage_north_germanic
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_things
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	# FP1 Traditions
+	dlc_tradition = {
+		trait = tradition_fp1_coastal_warriors
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_hird
+	}
+	dlc_tradition = {
+		trait = tradition_fp1_performative_honour
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_poetry
+	}
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+	
+	name_list = name_list_norse
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
+
+danish = {
 	color = danish
 	created = 1000.1.1
-	parents = {  }
+	parents = { norse }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_north_germanic
@@ -38,8 +86,8 @@
 #mod
 jutlandic = {
 	color = jutlandic
-	created = 1000.1.1
-	parents = { }
+	created = 1050.1.1
+	parents = { danish }
 	
 	ethos = ethos_stoic
 	heritage = heritage_north_germanic
@@ -47,8 +95,8 @@ jutlandic = {
 	martial_custom = martial_custom_male_only	
 	traditions = {
 		tradition_things
-		tradition_eye_for_an_eye
-		tradition_hereditary_hierarchy
+		tradition_life_is_just_a_joke
+		tradition_wetlanders
 		tradition_runestones
 	}
 	# FP1 Traditions

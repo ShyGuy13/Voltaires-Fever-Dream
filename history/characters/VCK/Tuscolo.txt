@@ -4,7 +4,7 @@ tuscolo1 = {
 	religion = catholic
 	culture = italian
 	father = tuscolo7
-	1015.1.1 = { #fic
+	1006.1.1 = { #fic
 		birth = yes
 	}
 	1058.1.1 = {

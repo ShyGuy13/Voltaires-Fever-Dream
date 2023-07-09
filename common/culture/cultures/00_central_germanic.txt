@@ -147,7 +147,7 @@ german = {	#obsolete
 pommeranian = {
 	color = pommeranian
 	created = 1120.1.1 #Ostsiedlung
-	parents = { central_margravian kashubian }
+	parents = { central_margravian polabian }
 	
 	ethos = ethos_stoic
 	heritage = heritage_central_germanic
@@ -177,7 +177,7 @@ pommeranian = {
 #mod
 austrian = {
 	color = austrian
-	created = 972.1.1 #establishment of the Ostmarch
+	created = 972.1.1 #establishment of the Ostmark
 	parents = { bavarian }
 	
 	ethos = ethos_egalitarian
@@ -297,7 +297,7 @@ thuringian = {
 
 hessian = {
 	color = hessian
-	created = 600.1.1
+	created = 600.1.1 #Chatti get subjugated
 	parents = { frankish }
 	
 	ethos = ethos_egalitarian
@@ -328,7 +328,7 @@ hessian = {
 low_elbish = {
 	color = low_elbish
 	created = 785.1.1 # Saxon Wars end
-	parents = { old_saxon }
+	parents = { old_saxon frankish }
 	
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic
@@ -417,7 +417,7 @@ eastphalian = {
 
 ripuarian = {
 	color = ripuarian
-	created = 600.1.1
+	created = 936.1.1 #Otto I is crowned
 	parents = { frankish }
 
 	ethos = ethos_communal
@@ -448,7 +448,7 @@ ripuarian = {
 moselle_franconian = {
 	color = moselle_franconian
 	created = 925.1.1 # Luxemburg becomes part of East Francia
-	parents = { lorrainian ripuarian }
+	parents = { lorrainian franconian }
 
 	ethos = ethos_courtly
 	heritage = heritage_central_germanic

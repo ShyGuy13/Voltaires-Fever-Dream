@@ -33,8 +33,3 @@ heritage_south_slavic = {
 heritage_west_slavic = {
 	type = heritage
 }
-
-#mod
-heritage_dutch = {
-	type = heritage
-}

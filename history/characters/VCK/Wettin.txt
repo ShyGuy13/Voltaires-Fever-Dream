@@ -23,7 +23,6 @@ wettin2 = {
 	stewardship = 5
 	trait = temperate
 	trait = education_learning_3
-	
 	1000.1.1 = {
 		birth = yes
 	}
@@ -33,7 +32,7 @@ wettin2 = {
 }
 
 wettin3 = {
-	name = "Dedo" # Dedo I of Lausitz
+	name = "Dietrich" # Dedo I of Lausitz
 	dynasty = 102
 	religion = catholic
 	culture = saxon
@@ -47,7 +46,7 @@ wettin3 = {
 }
 
 wettin4 = {
-	name = "Dedo" # Dedo II of Lausitz
+	name = "Dietrich" # Dedo II of Lausitz
 	dynasty = 102
 	religion = catholic
 	culture = saxon
@@ -95,6 +94,7 @@ wettin7 = {
 	dynasty = 102
 	religion = catholic
 	culture = saxon
+	father = wettin14
 	987.1.1 = {
 		birth = yes
 	}
@@ -112,7 +112,6 @@ wettin8 = {
 	father = wettin7
 	1017.1.1 = { #est
 		birth = yes
-		employer = magdeburg_engelhard
 	}
 	1084.4.18 = {
 		death = yes
@@ -130,6 +129,77 @@ wettin9 = {
 		give_nickname = nick_the_brave
 	}
 	1091.3.9 = {
+		death = yes
+	}
+}
+
+wettin10 = {
+	name = "Friedrich" # Burggraf Friedrich I
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	960.1.1 = { #est
+		birth = yes
+	}
+	1017.1.5 = {
+		death = yes
+	}
+}
+
+wettin11 = {
+	name = "Oda" # 
+	female = yes
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	father = wettin10
+	983.1.1 = { #fic
+		birth = yes
+	}
+	1049.1.1 = { #fic
+		death = yes
+	}
+}
+
+wettin12 = {
+	name = "Hilda" # 
+	female = yes
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	father = wettin10
+	994.1.1 = { #fic
+		birth = yes
+	}
+	1059.1.1 = { #fic
+		death = yes
+	}
+}
+
+wettin13 = {
+	name = "Hidda" # 
+	female = yes
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	father = wettin10
+	1003.1.1 = { #fic
+		birth = yes
+	}
+	1068.1.1 = { #fic
+		death = yes
+	}
+}
+
+wettin14 = {
+	name = "Dietrich" # Dietrich I of Wettin
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	957.1.1 = { #est
+		birth = yes
+	}
+	1009.11.13 = {
 		death = yes
 	}
 }

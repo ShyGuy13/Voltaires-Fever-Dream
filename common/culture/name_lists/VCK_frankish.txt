@@ -1,6 +1,11 @@
 ﻿#lorrainian
 #Boutteville 
 
+#walloon
+# { dynnp_de dynn_Merode }
+# { dynnp_de dynn_Ligne }
+# { dynnp_de dynn_Croÿ }
+
 #norman
 #bray
 

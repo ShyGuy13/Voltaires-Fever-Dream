@@ -110,7 +110,7 @@ raimonding8 = {
 	religion = catholic
 	father = raimonding3 #debated
 	mother = bosoning6
-	1015.1.1 = { #fic
+	1004.1.1 = { #fic
 		birth = yes
 	}
 	1081.1.1 = {

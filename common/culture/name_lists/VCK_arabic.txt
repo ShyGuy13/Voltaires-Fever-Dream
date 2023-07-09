@@ -1,0 +1,98 @@
+name_list_tunisian = {
+	male_names = {
+		"al-Hajjaj" "‘Abd al-Karim" "‘Alî" Ayman "‘Abbâd" "‘Abbâs" "‘Abd Allâh" "‘Abd al-‘Azîz" "‘Abd al-Hakam" "‘Abd al-Hasan" "‘Abd al-Hazm" "‘Abd ar-Rahman" "‘Abd al-Razzaq" Abû "Abû Bakr" Adfuns Ahmad "‘Amîr" Ayyûb
+		Balashk Bilal Barakat Basir
+		Dâwûd
+		Firdaus Fadl Fath "Fu‘âd" Fahd Fârûq Fâris
+		Galind Garsiya
+		Hakam Hilal Haiyar Hâshim Haydar Husam Hasan
+		Ibrâhîm "‘Ismâ‘îl" Iqbal
+		Jyad Jabbar "Ja‘far" Junayd Jamal
+		Khaliq
+		Lubb
+		"Ma‘n" Mubâssir Muhammad Mundhir Mûsâ Mujâhid Hâmmu Muh Malek Malik Mansûr "Muzaffar ad-Dîn" Mustafa
+		"Nizam ad-Dîn" Najib "N‘Guna" Nasr Nazar Niptasan
+		Ptolemee
+		Qusay Qutaiba Qâsim
+		Raf Rasiq Rahim Rashîd
+		Sanyo Siddray "Sa‘îd" Samir "Sa‘d" Sifaks Sifal Sinbad Sisso Stembanos Suggut Sultan Salâh Sulaymân Sammer Seghada Sekla "Shams ad-Dîn" Safi Sakhr
+		Tifilwit Tâshfîn Tegama Thabitah Tifan Tiljad "T‘ar‘iq" Tabat Taffunnut Tâhir Takfarinas Tanan Tariq
+		"‘Uthmân" Ugdada Ugwistan "‘Umar" "Uqess‘un" Uregh Urtilian "Urz‘ig" Uzmir Uzza
+		Wannaqo "Watt‘âs" Wahab Wahid
+		Xamida 
+		Yahaff Yunes Yûsuf Yuva Yabdas Yaghmurâsan Yahyâ Yattuy Yeften "Yeh‘lem" Yiliyen Yuba Yugerten Youkhanna 
+		Zayyân "Z‘effun" Zafir Zalelsan Zayar "Zer‘wal" Zigza Zîrî Zubayr Zahir
+	}
+
+	female_names = {
+		"‘Alîya"  Haifa Abda Ahu Aiza
+		Butayna
+		Daniyah Dima Dinara Dua Durra Durriyya
+		Edza Eleonorka
+		Fahra Fahriya Fâtimah Fahima Faghissa Fariza Fedada
+		Gamila Ghada
+		Habiba Huda 
+		Ibtisam Isra
+		Karima Kera Khadija
+		Layla
+		Maha Malika Mariam Maria Munya Munia
+		Nadia Naila Nur
+		Rafiqa Rahat Raisa Randa
+		Safiya Salma Shakira Suraya
+		Tabassum Tahira Tarifa Thashim Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi Tintifawin Tinzert Tisent Tislit Titbirt Titrit Tizemt Tiziri Triya Tudert "Tuh‘r‘ict" Tureght
+		Umm
+		Wahida
+		Yasmin
+		Zahida Zahra
+	}
+
+	dynasty_names = {
+		#bedoiun_arabic
+		{ dynnp_Banu dynn_Saud }
+		{ dynnp_Banu dynn_Rasul }
+		{ dynnp_Banu dynn_Tahir }
+		{ dynnp_Banu dynn_Qasim }
+		{ dynnp_Banu dynn_Nabhan }
+		{ dynnp_Banu dynn_Yaruba }
+		{ dynnp_Banu dynn_Said }
+		{ dynnp_Banu dynn_Jarwan }
+		#moroccan
+		{ dynnp_Banu dynn_Marin }
+		{ dynnp_Banu dynn_Shaban }
+		{ dynnp_Banu dynn_Ali }
+		{ dynnp_Banu dynn_Wattas }
+		{ dynn_Dilaiyya }
+		{ dynnp_Banu dynn_Idris }
+		{ dynnp_Banu dynn_Imran }
+		{ dynnp_Banu dynn_Ghaniya }
+		{ dynnp_Banu dynn_Siqilli }
+		{ dynnp_Banu dynn_Maymun }
+		{ dynnp_Banu dynn_TaAllah }
+		#tunisian
+		{ dynnp_Banu dynn_Hafs }
+		{ dynnp_Banu dynn_Murad }
+		{ dynnp_Banu dynn_Husayn }
+		{ dynnp_Banu dynn_Ziri }
+		{ dynnp_Banu dynn_Khurasan }
+		{ dynnp_Banu dynn_Muhammad }
+		{ dynnp_Banu dynn_Timnah }
+		{ dynnp_Banu dynn_Mankut }
+		{ dynnp_Banu dynn_Awwas }
+		{ dynnp_Banu dynn_Aghlab }
+		{ dynnp_Banu dynn_Fihri }
+		{ dynnp_Banu dynn_Muhallab }
+		{ dynnp_Banu dynn_Fatimah }
+		#algerian
+		{ dynnp_Banu dynn_Jallab }
+		{ dynnp_Banu dynn_Nail }
+		{ dynnp_Banu dynn_Shaykh }
+		{ dynnp_Banu dynn_Rashid }
+		{ dynnp_Banu dynn_Jennad }
+		{ dynnp_Banu dynn_Irraten }
+		{ dynnp_Banu dynn_Ijer }
+		{ dynnp_Banu dynn_Kinanah }
+		{ dynnp_Banu dynn_Tumi }
+		{ dynnp_Banu dynn_Yaqub }
+		{ dynnp_Banu dynn_Sanhaja }
+	}
+}

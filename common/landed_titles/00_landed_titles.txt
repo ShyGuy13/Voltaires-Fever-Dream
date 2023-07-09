@@ -2006,10 +2006,10 @@ e_netherlands = {
 					province = 8887
 					color = { 123 24 24 }
 				}
-				b_federgoerland = {
-					province = 8888
-					color = { 164 50 49 }
-				}
+				# b_federgoerland = {
+				# 	province = 8888
+				# 	color = { 164 50 49 }
+				# }
 				b_norderland = {
 					province = 8889
 					color = { 207 67 63 }
@@ -8315,23 +8315,20 @@ e_hre = {
 				}
 			}
 
-			c_blankenburg = {
+			c_blankenberg = {
 				color = { 186 42 140 }
 
 				b_blankenberg = {
 					province = 9906
 					color = { 215 126 187 }
-					color2 = { 255 255 255 }
 				}
 				b_windeck = {
 					province = 9907
 					color = { 229 142 201 }
-					color2 = { 255 255 255 }
 				}
 				b_lowenburg = {
 					province = 9905
 					color = { 210 184 37 }
-					color2 = { 255 255 255 }
 				}
 			}
 
@@ -8419,23 +8416,6 @@ e_hre = {
 		}
 
 		d_eastphalia = {
-
-			c_blankenburg = {
-				color = { 73 103 134 }
-				
-				b_blankenburg = {
-					province = 9672
-					color = { 63 105 169 }
-				}
-				b_wernigerode = {
-					province = 9674
-					color = { 180 150 188 }
-				}
-				b_quedlinburg = {
-					province = 9675
-					color = { 147 86 176 }
-				}
-			}
 
 			c_melle = {
 				color = { 180 78 65 }
@@ -8607,20 +8587,9 @@ e_hre = {
 					province = 9775
 					color = { 215 25 25 }
 				}
-			}
-
-			c_salzhemmendorf = {
-				b_salzhemmendorf = {
-					province = 9773
-					color = { 196 173 92 }
-				}
-				b_polle = {
-					province = 9771
-					color = { 193 170 92 }
-				}
-				b_homburgwald = {
-					province = 9774
-					color = { 159 135 54 }
+				b_uslar = {
+					province = 9776
+					color = { 136 114 38 }
 				}
 			}
 
@@ -8630,6 +8599,10 @@ e_hre = {
 				b_everstein = {
 					province = 9772
 					color = { 184 158 67 }
+				}
+				b_homburgwald = {
+					province = 9774
+					color = { 159 135 54 }
 				}
 			}
 
@@ -8644,9 +8617,9 @@ e_hre = {
 					province = 9824
 					color = { 229 158 225 }
 				}
-				b_lugde = {
-					province = 9825
-					color = { 214 90 78 }
+				b_polle = {
+					province = 9771
+					color = { 193 170 92 }
 				}
 			}
 
@@ -8661,6 +8634,10 @@ e_hre = {
 					province = 9836
 					color = { 139 142 205 }
 				}
+				b_rietberg = {
+					province = 9835
+					color = { 239 146 194 }
+				}
 				b_sassenberg = {
 					province = 9839
 					color = { 200 100 40 }
@@ -8673,6 +8650,10 @@ e_hre = {
 				b_hohenlimburg = {
 					province = 9881
 					color = { 189 36 36 }
+				}
+				b_rheine = {
+					province = 9848
+					color = { 154 76 30 }
 				}
 			}
 
@@ -8699,17 +8680,6 @@ e_hre = {
 			# 		color2 = { 255 255 255 }
 			# 	}
 			# }
-
-			c_zuschen = {
-				b_brilon = {
-					province = 9867
-					color = { 66 116 69 }
-				}
-				b_meschede = {
-					province = 9868
-					color = { 100 159 103 }
-				}
-			}
 
 			c_sauerland = {
 				b_bilstein = {
@@ -8769,15 +8739,6 @@ e_hre = {
 				b_gimborn = {
 					province = 9909
 					color = { 205 191 137 }
-				}
-			}
-
-			c_rietberg = {
-				color = { 223 161 223 }
-
-				b_rietberg = {
-					province = 9835
-					color = { 239 146 194 }
 				}
 			}
 
@@ -8976,10 +8937,6 @@ e_hre = {
 				b_grubenhagen = {
 					province = 9778
 					color = { 207 183 99 }
-				}
-				b_uslar = {
-					province = 9776
-					color = { 136 114 38 }
 				}
 				b_northeim = {
 					province = 9777
@@ -9311,6 +9268,25 @@ e_hre = {
 		d_holstein = {
 			color = { 220 150 158 }
 
+			capital = c_lubeck
+
+			c_lubeck = {
+				color = { 156 179 189 }
+
+				b_lubeck = {
+					province = 7467
+					color = { 134 122 0 }
+				}
+				b_ratekau = {
+					province = 9270
+					color = { 108 123 147 }
+				}
+				b_plon = {
+					province = 9309
+					color = { 231 157 157 }
+				}
+			}
+
 			c_rendsburg = {
 				color = { 230 160 168 }
 
@@ -9508,6 +9484,10 @@ e_hre = {
 					province = 9769
 					color = { 92 86 210 }
 				}
+				b_salzhemmendorf = {
+					province = 9773
+					color = { 196 173 92 }
+				}
 			}
 
 			c_calenberg = {
@@ -9540,11 +9520,6 @@ e_hre = {
 					province = 9722
 					color = { 173 125 176 }
 				}
-			}
-
-			c_wunstorf = {
-				color = { 96 72 19 }
-
 				b_wunstorf = {
 					province = 9766
 					color = { 88 74 25 }
@@ -9714,6 +9689,17 @@ e_hre = {
 				}
 			}
 
+			c_itter = {
+				b_itter = {
+					province = 9939
+					color = { 72 129 193 }
+				}
+				b_fritzlar = {
+					province = 9943
+					color = { 191 160 123 }
+				}
+			}
+
 			c_waldeck = {
 				color = { 184 41 54 }
 
@@ -9724,10 +9710,6 @@ e_hre = {
 				b_wildungen = {
 					province = 9937
 					color = { 174 70 70 }
-				}
-				b_itter = {
-					province = 9939
-					color = { 72 129 193 }
 				}
 				b_jesberg = {
 					province = 9954
@@ -9883,10 +9865,10 @@ e_hre = {
 				}
 			}
 
-			c_hofgeismar = {
-				b_hofgeismar = {
-					province = 9940
-					color = { 191 160 122 }
+			c_gudensberg = {
+				b_gudensberg = {
+					province = 9944
+					color = { 97 183 212 }
 				}
 				b_reinhardswald = {
 					province = 9941
@@ -9895,14 +9877,6 @@ e_hre = {
 				b_wolfhagen = {
 					province = 9942
 					color = { 84 170 198 }
-				}
-				b_fritzlar = {
-					province = 9943
-					color = { 191 160 123 }
-				}
-				b_gudensberg = {
-					province = 9944
-					color = { 97 183 212 }
 				}
 			}
 
@@ -10226,8 +10200,53 @@ e_hre = {
 	 		color2 = { 255 255 255 }
 
 	 		capital = c_meissen
+
+			 c_kolditz = {
+				color = { 255  101  38 }
+
+				b_kolditz = {
+					province = 9617
+					color = { 174 157 176 }
+				}
+				b_groitzsch = {
+					province = 9616
+					color = { 186 170 188 }
+				}
+			}
+
+			c_leisnig = {
+				color = { 146 134 77 }
+
+				b_leisnig = {
+					province = 9618
+					color = { 186 171 188 }
+				}
+				b_kriebstein = {
+					province = 9619
+					color = { 174 156 176 }
+				}
+			}
+
+			c_grimma = {
+				color = { 233 88 88 }
+
+				b_grimma = {
+					province = 9615
+					color = { 198 184 200 }
+				}
+				b_wurzen = {
+					province = 9612
+					color = { 246 229 137 }
+				}
+				b_oschatz = {
+					province = 9601
+					color = { 226 205 229 }
+				}
+			}
 			
 			c_hartenstein = {
+				color = { 143  255  76 }
+
 				b_hartenstein = {
 					province = 9633
 					color = { 146 243 150 }
@@ -10303,6 +10322,8 @@ e_hre = {
 			}
 
 			c_dohna = {
+				color = { 204  154  41 }
+
 				b_dohna = {
 					province = 9608
 					color = { 200 181 203 }
@@ -10318,22 +10339,6 @@ e_hre = {
 				b_wildenstein = {
 					province = 9611
 					color = { 212 195 215 }
-				}
-			}
-
-			c_leipzig = {
-				
-				b_leipzig = {
-					province = 7484
-					color = { 8 156 128 }
-				}
-				b_bitterfeld = {
-					province = 9596
-					color = { 201 186 203 }
-				}
-				b_delitzsch = {
-					province = 9613
-					color = { 186 169 188 }
 				}
 			}
 
@@ -10364,10 +10369,6 @@ e_hre = {
 				b_chemnitz = {
 					province = 9629
 					color = { 234 211 237 }
-				}
-				b_zschillen = {
-					province = 9621
-					color = { 70 74 80 }
 				}
 				b_rochlitz = {
 					province = 9620
@@ -10426,27 +10427,6 @@ e_hre = {
 
 		d_brunswick = {
 			color = { 116 92 39 }
-
-			c_halberstadt = {
-				color = { 169 95 59 }
-
-				b_halberstadt = {
-					province = 9677
-					color = { 140 75 43 }
-				}
-				b_osterwieck = {
-					province = 9676
-					color = { 121 65 37 }
-				}
-				b_oschersleben = {
-					province = 9678
-					color = { 109 56 29 }
-				}
-				b_gatersleben = {
-					province = 9679
-					color = { 164 91 55 }
-				}
-			}
 
 			c_hildesheim = {
 				color = { 196 172 19 }
@@ -10584,6 +10564,10 @@ e_hre = {
 					province = 9850
 					color = { 244 154 49 }
 				}
+				b_sandwelle = {
+					province = 9851
+					color = { 210 112 52 }
+				}
 			}
 
 			c_horstmar = {
@@ -10594,18 +10578,10 @@ e_hre = {
 				b_dulmen = {
 					province = 9854
 					color = { 195 98 40 }
-				}
-				b_sandwelle = {
-					province = 9851
-					color = { 210 112 52 }
-				}			
+				}		
 				b_greven = {
 					province = 9844
 					color = { 210 112 53 }
-				}
-				b_rheine = {
-					province = 9848
-					color = { 154 76 30 }
 				}
 			}
 
@@ -10691,16 +10667,27 @@ e_hre = {
 				}
 			}
 
+			c_zuschen = {
+				b_meschede = {
+					province = 9868
+					color = { 100 159 103 }
+				}
+				b_brilon = {
+					province = 9867
+					color = { 66 116 69 }
+				}
+				b_ruthen = {
+					province = 9870
+					color = { 49 88 51 }
+				}
+			}
+
 			c_arnsberg = {
 				color = { 138 151 103 }
 
 				b_arnsberg = {
 					province = 7504
 					color = { 11 68 128 }
-				}
-				b_ruthen = {
-					province = 9870
-					color = { 49 88 51 }
 				}
 				b_erwitte = {
 					province = 9871
@@ -11395,6 +11382,10 @@ e_hre = {
 					province = 9362
 					color = { 57 50 200 }
 				}
+				b_penzlin = {
+					province = 9363
+					color = { 85 79 220 }
+				}
 				b_plau = {
 					province = 9334
 					color = { 100 93 237 }
@@ -11455,23 +11446,6 @@ e_hre = {
 				b_selmsdorf = {
 					province = 9269
 					color = { 190 201 219 }
-				}
-			}
-
-			c_lubeck = {
-				color = { 156 179 189 }
-
-				b_lubeck = {
-					province = 7467
-					color = { 134 122 0 }
-				}
-				b_ratekau = {
-					province = 9270
-					color = { 108 123 147 }
-				}
-				b_plon = {
-					province = 9309
-					color = { 231 157 157 }
 				}
 			}
 
@@ -11913,10 +11887,6 @@ e_hre = {
 					province = 9491
 					color = { 119 86 61 }
 				}
-				b_teltow = {
-					province = 9505
-					color = { 57 67 126 }
-				}
 				b_tempelhof = {
 					province = 9506
 					color = { 148 111 85 }
@@ -11991,6 +11961,44 @@ e_hre = {
 			color = { 203 93 124 }
 
 			capital = c_aschersleben
+
+			c_halberstadt = {
+				color = { 169 95 59 }
+
+				b_halberstadt = {
+					province = 9677
+					color = { 140 75 43 }
+				}
+				b_osterwieck = {
+					province = 9676
+					color = { 121 65 37 }
+				}
+				b_oschersleben = {
+					province = 9678
+					color = { 109 56 29 }
+				}
+				b_gatersleben = {
+					province = 9679
+					color = { 164 91 55 }
+				}
+			}
+
+			c_blankenburg = {
+				color = { 73 103 134 }
+				
+				b_blankenburg = {
+					province = 9672
+					color = { 63 105 169 }
+				}
+				b_wernigerode = {
+					province = 9674
+					color = { 180 150 188 }
+				}
+				b_quedlinburg = {
+					province = 9675
+					color = { 147 86 176 }
+				}
+			}
 
 			c_anhalt = {
 				color = { 203 93 124 }
@@ -12083,6 +12091,22 @@ e_hre = {
 
 	 		capital = c_wittenberg
 
+			c_leipzig = {
+				
+				b_leipzig = {
+					province = 7484
+					color = { 8 156 128 }
+				}
+				b_bitterfeld = {
+					province = 9596
+					color = { 201 186 203 }
+				}
+				b_delitzsch = {
+					province = 9613
+					color = { 186 169 188 }
+				}
+			}
+
 			c_wettin = {
 				b_wettin = {
 					province = 9643
@@ -12091,49 +12115,6 @@ e_hre = {
 				b_halle = {
 					province = 10964
 					color = { 206 82 89 }
-				}
-			}
-
-			c_kolditz = {
-				color = { 255  101  38 }
-
-				b_kolditz = {
-					province = 9617
-					color = { 174 157 176 }
-				}
-				b_groitzsch = {
-					province = 9616
-					color = { 186 170 188 }
-				}
-			}
-
-			c_leisnig = {
-				color = { 146 134 77 }
-
-				b_leisnig = {
-					province = 9618
-					color = { 186 171 188 }
-				}
-				b_kriebstein = {
-					province = 9619
-					color = { 174 156 176 }
-				}
-			}
-
-			c_grimma = {
-				color = { 233 88 88 }
-
-				b_grimma = {
-					province = 9615
-					color = { 198 184 200 }
-				}
-				b_wurzen = {
-					province = 9612
-					color = { 246 229 137 }
-				}
-				b_oschatz = {
-					province = 9601
-					color = { 226 205 229 }
 				}
 			}
 
@@ -12398,6 +12379,8 @@ e_hre = {
 			}
 
 			c_orlamunde = {
+				color = { 86  146  177 }
+
 				b_orlamunde = {
 					province = 9687
 					color = { 100 158 177 }
@@ -12507,10 +12490,7 @@ e_hre = {
 					province = 9658
 					color = { 60 138 164 }
 				}
-				b_frankenhausen = {
-					province = 9659
-					color = { 45 120 145 }
-				}
+
 			}
 
 			c_schwarzburg = {
@@ -12536,6 +12516,10 @@ e_hre = {
 				b_beichlingen = {
 					province = 9692
 					color = { 236 65 56 }
+				}
+				b_frankenhausen = {
+					province = 9659
+					color = { 45 120 145 }
 				}
 			}
 
@@ -12634,22 +12618,6 @@ e_hre = {
 				}
 			}
 
-			# c_lobdaburg = {
-			# 	color = { 90 138 133 }
-			# 	color2 = { 255 255 255 }
-
-			# 	b_lobenstein = {
-			# 		province = 61
-			# 		color = { 136 154 64 }
-			# 		color2 = { 255 255 255 }
-			# 	}
-			# 	b_jena = {
-			# 		province = 1228
-			# 		color = { 180 122 79 }
-			# 		color2 = { 255 255 255 }
-			# 	}
-			# }
-
 			# c_freyburg = {
 			# 	b_freyburg = {
 			# 		province = 2965
@@ -12662,6 +12630,15 @@ e_hre = {
 			# 		color2 = { 255 255 255 }
 			# 	}
 			# }
+
+			c_lobdeburg = {
+				color = { 90 138 133 }
+
+				b_lobenstein = {
+					province = 10168
+					color = { 213 202 27 }
+				}
+			}
 
 			c_gera = {
 				color = { 38 154 41 }
@@ -13559,10 +13536,6 @@ e_hre = {
 					province = 10456
 					color = { 241 148 115 }
 				}
-				b_weiltingen = {
-					province = 10455
-					color = { 204 191 28 }
-				}
 			}
 
 			c_ottingen = {
@@ -13751,7 +13724,9 @@ e_hre = {
 			}
 		}
 
-		d_west_franconia = {
+		d_east_franconia = {
+
+			capital = c_wurzburg
 
 			c_dieburg = {				
 				b_dieburg = {
@@ -13822,18 +13797,6 @@ e_hre = {
 					color = { 189 180 132 }
 				}
 			}
-		}
-
-		d_east_franconia = {
-			c_hohentrudingen = {
-				color = { 195 196 95 }
-
-				b_hohentrudingen = {
-					province = 10181
-					color = { 135 91 140 }
-				}
-
-			}
 
 			# c_abenberg = {
 			# 	color = { 233 241 108 }
@@ -13845,6 +13808,19 @@ e_hre = {
 			# 		color2 = { 255 255 255 }
 			# 	}
 			# }
+
+			c_hohentrudingen = {
+				color = { 195 196 95 }
+
+				b_hohentrudingen = {
+					province = 10181
+					color = { 135 91 140 }
+				}
+				b_gunzenhausen = {
+					province = 10231
+					color = { 154 98 183 }
+				}
+			}
 
 			c_ansbach = {
 				color = { 130 77 119 }
@@ -13883,6 +13859,10 @@ e_hre = {
 					province = 10166
 					color = { 213 212 160 }
 				}
+				b_hochstadt = {
+					province = 10165
+					color = { 241 240 209 }
+				}
 				b_streitberg = {
 					province = 10164
 					color = { 224 212 31 }
@@ -13906,20 +13886,35 @@ e_hre = {
 				b_hoheneck = {
 					province = 10172
 					color = { 201 184 57 }
-					color2 = { 255 255 255 }
+				}
+				b_virnsberg = {
+					province = 10192
+					color = { 89 96 94 }
+				}
+				b_windsheim = {
+					province = 10159
+					color = { 192 237 167 }
+				}
+				b_munchsteinach = {
+					province = 10173
+					color = { 186 171 50 }
 				}
 			}
 
 			c_schwarzenberg = {
+				color = { 127  126  36 }
+
 				b_schwarzenberg = {
 					province = 10158
 					color = { 130 119 55 }
-					color2 = { 255 255 255 }
 				}	
+				b_ochsenfurt = {
+					province = 10154
+					color = { 232 221 25 }
+				}
 				b_kitzingen = {
 					province = 10138
 					color = { 186 176 128 }
-					color2 = { 255 255 255 }
 				}
 			}
 
@@ -13937,14 +13932,6 @@ e_hre = {
 				b_gerolzhofen = {
 					province = 10139
 					color = { 196 186 139 }
-				}
-				b_lisberg = {
-					province = 10154
-					color = { 232 221 25 }
-				}
-				b_hochstadt = {
-					province = 10165
-					color = { 241 240 209 }
 				}
 			}
 
@@ -14111,10 +14098,6 @@ e_hre = {
 				b_hof = {
 					province = 10179
 					color = { 186 172 50 }
-				}
-				b_lanzendorf = {
-					province = 10168
-					color = { 213 202 27 }
 				}
 			}
 
@@ -15671,10 +15654,6 @@ e_hre = {
 					province = 10092
 					color = { 203 103 22 }
 				}
-				# b_velden = {
-				# 	province = 10195
-				# 	color = { 212 129 22 }
-				# }
 				b_neumagen = {
 					province = 10093
 					color = { 232 128 45 }
@@ -15738,18 +15717,32 @@ e_hre = {
 
 			capital = c_neumarkt
 
+			c_wolfstein = {
+				b_wolfstein = {
+					province = 10197
+					color = { 76 189 100 }
+				}
+				b_postbauer = {
+					province = 10199
+					color = { 88 97 94 }
+				}
+			}
+
 			c_neumarkt = {
 				b_neumarkt = {
 					province = 10198
 					color = { 98 203 201 }
 				}
-				b_wolfstein = {
-					province = 10197
-					color = { 76 189 100 }
+				b_helfenberg = {
+					province = 10200
+					color = { 70 171 166 }
+					color2 = { 255 255 255 }
 				}
 			}
 
 			c_sulzbach = {
+				color = { 223 161 223 }
+
 				b_sulzbach = {
 					province = 10203
 					color = { 145 181 215 }
@@ -15757,6 +15750,14 @@ e_hre = {
 				b_hersbruck = {
 					province = 10194
 					color = { 232 142 25 }
+				}
+				b_schnaittach = {
+					province = 10205
+					color = { 98 201 201 }
+				}
+				b_velden = {
+					province = 10195
+					color = { 212 129 22 }
 				}
 			}
 
@@ -16196,18 +16197,19 @@ e_hre = {
 				b_spalt = {
 					province = 10186
 					color = { 48 82 154 }
-					color2 = { 255 255 255 }
 				}
 			}
 
 			c_hirschberg = {
 				color = { 99 60 139 }
-				color2 = { 255 255 255 }
 
 				b_hirschberg = {
 					province = 10202
 					color = { 97 202 201 }
-					color2 = { 255 255 255 }
+				}
+				b_dietfurt = {
+					province = 10220
+					color = { 83 212 232 }
 				}
 			}
 
@@ -16294,10 +16296,6 @@ e_hre = {
 				b_worth = {
 					province = 10230
 					color = { 167 122 191 }
-				}
-				b_wiesent = {
-					province = 10231
-					color = { 154 98 183 }
 				}
 			}
 
@@ -42646,12 +42644,12 @@ e_hre = {
 
 # 	landless = yes
 # }
-# k_poland = {
-# 	color = { 197 92 106 }
-# 	color2 = { 255 255 255 }
+k_poland = {
+	color = { 197 92 106 }
+	color2 = { 255 255 255 }
 
-# 	landless = yes
-# }
+	landless = yes
+}
 # k_east_francia = {
 # 	color = { 255 255 255 }
 # 	color2 = { 255 255 255 }
@@ -44359,11 +44357,7 @@ e_hre = {
 
 
 
-# b_penzlin = {
-# 	province = 9363
-# 	color = { 85 79 220 }
-# 	color2 = { 255 255 255 }
-# }
+
 # b_ahrensberg = {
 # 	province = 9364
 # 	color = { 61 54 200 }
@@ -44875,11 +44869,6 @@ e_hre = {
 # }
 
 
-# b_windsheim = {
-# 	province = 10159
-# 	color = { 192 237 167 }
-# 	color2 = { 255 255 255 }
-# }
 
 
 
@@ -44888,11 +44877,6 @@ e_hre = {
 
 
 
-# b_munchsteinach = {
-# 	province = 10173
-# 	color = { 186 171 50 }
-# 	color2 = { 255 255 255 }
-# }
 
 
 
@@ -44913,26 +44897,14 @@ e_hre = {
 # 	color = { 214 208 23 }
 # 	color2 = { 255 255 255 }
 # }
-# b_virnsberg = {
-# 	province = 10192
-# 	color = { 89 96 94 }
-# 	color2 = { 255 255 255 }
-# }
 
 
 
 
 
-# b_postbauer = {
-# 	province = 10199
-# 	color = { 88 97 94 }
-# 	color2 = { 255 255 255 }
-# }
-# b_helfenberg = {
-# 	province = 10200
-# 	color = { 70 171 166 }
-# 	color2 = { 255 255 255 }
-# }
+
+
+
 # b_allersburg = {
 # 	province = 10201
 # 	color = { 178 132 201 }
@@ -44940,11 +44912,6 @@ e_hre = {
 # }
 
 
-# b_schnaittach = {
-# 	province = 10205
-# 	color = { 98 201 201 }
-# 	color2 = { 255 255 255 }
-# }
 
 
 
@@ -44953,12 +44920,6 @@ e_hre = {
 
 
 
-
-# b_dietfurt = {
-# 	province = 10220
-# 	color = { 83 212 232 }
-# 	color2 = { 255 255 255 }
-# }
 # b_breitenegg = {
 # 	province = 10221
 # 	color = { 222 211 28 }
@@ -47550,1073 +47511,809 @@ e_hre = {
 # 	}
 
 
-# # e_scandinavia = {
-# # 	color = { 62 122 189 }
-# # 	color2 = { 255 255 255 }
+e_scandinavia = {
+	color = { 62 122 189 }
 
-# # 	capital = c_viborg
+	capital = c_roskilde
 
-# # 	k_denmark = {
-# # 		color = { 190 70 70 }
-# # 		color2 = { 255 255 255 }
+	k_denmark = {
+		color = { 190 70 70 }
 
-# # 		capital = c_viborg
+		capital = c_roskilde
 
-# # 		d_jylland = {
+ 		d_jylland = {
 
-# # 			capital = c_viborg
+ 			capital = c_viborg
 			
-# # 		 c_viborg = {
-# # 				b_viborg = {
-# # 					province = 2320
-# # 					color = { 117 158 124 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_bjerring = {
-# # 			 province = 2690
-# # 					color = { 103 21 196 }
-# # 				 color2 = { 255 255 255 }
-# # 				}			
-# # 				b_hammershoj = {
-# # 					province = 5222
-# # 					color = { 20 158 124 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_stovring = {
-# # 					province = 7349
-# # 					color = { 204 124 164 }
-# # 					color2 = { 255 255 255 }
-# # 			 }
-# # 				b_hvidsten = {
-# # 					 province = 7350
-					
-# # 	color = { 204 71 108 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_gjerlev = {
-# # 					 province = 7351
-					
-# # 	color = { 107 27 50 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_hobro = {
-# # 					 province = 7352
-					
-# # 	color = { 229 190 1 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
+			c_viborg = {
+ 				b_viborg = {
+ 					province = 98
+ 					color = { 155 27 27 }
+ 				}
+ 				b_bjerring = {
+ 			        province = 99
+					    color = { 212 64 64 }
+ 				    color2 = { 255 255 255 }
+ 				}			
+				b_hammershoj = {
+ 					province = 100
+ 					color = { 122 21 21 }
+				}
+				b_hvidsten = {
+					province = 101
+					color = { 184 45 45 }
+					color2 = { 255 255 255 }
+ 		        }
+ 				b_hobro = {
+ 					 province = 102					
+ 	                 color = { 164 41 41 }
+					 color2 = { 255 255 255 }
+ 			    }
+ 				b_stovring = {
+ 					 province = 103					
+	                 color = { 220 56 56 }
+					 color2 = { 255 255 255 }
+			        }
+				b_gjerlev = {
+ 					 province = 104					
+ 	                 color = { 184 57 57 }
+    				 color2 = { 255 255 255 }
+ 			    }
+ 		 	}			
+ 			c_varde = {
+ 				b_varde = {
+ 					province = 144
+ 					color = { 173 53 53 }
+ 				}
+ 				b_lonborg = {
+ 					province = 145
+ 					color = { 199 82 82 }
+ 				}
+ 				b_vejen = {
+ 					province = 146
+ 					color = { 96 21 21 }
+ 				}
+ 				b_vilslev = {
+ 					province = 147
+ 					color = { 106 30 30 }
+ 			    }
+ 			    b_Horne = {
+ 					 province = 148				
+ 	                 color = { 141 39 39 }
+		   	    }
+ 				b_sonderho = {
+ 					 province = 149					
+ 	                 color = { 133 34 34 }
+ 			    }
+ 			}
+
+ 			c_holstebro = {
+ 				b_holstebro = {
+ 					province = 135
+ 					color = { 194 56 56 }
+ 				}
+ 				b_thyboron = {
+ 					province = 136					
+ 	                color = { 214 57 57 }
+ 			    }
+ 				b_lemvig = {
+ 					province = 137					
+ 	                color = { 175 22 22 }
+ 			    }
+ 				b_vinderup = {
+ 					province = 138					
+ 	                color = { 156 42 43 }
+ 			    }
+ 				b_sparkaer = {
+ 					province = 139					
+ 	                color = { 214 77 77 }
+ 			    }
+ 			}
 			
-# # 			c_varde = {
-# # 				b_varde = {
-# # 					province = 348
-# # 					color = { 145 173 143 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_lonborg = {
-# # 					province = 5228
-# # 					color = { 65 112 8 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_vejen = {
-# # 					province = 5229
-# # 					color = { 106 181 122 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_vilslev = {
-# # 					province = 7330
-# # 					color = { 121 174 178 }
-# # 					color2 = { 255 255 255 }
-# # 			 }
-# # 			 b_Horne = {
-# # 					 province = 7331
-					
-# # 	color = { 119 173 53 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_sonderho = {
-# # 					 province = 7332
-					
-# # 	color = { 91 137 175 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
+ 			c_ringkobing = {
+ 				b_ringkobing = {
+ 					province = 140
+ 					color = { 134 25 25 }
+ 				}
+ 			    b_borris = {
+ 					province = 141
+ 					color = { 184 58 58 }
+ 				}
+ 				b_vind = {
+ 					province = 142					
+ 	                color = { 167 42 42 }
+ 			    }
+ 				b_gjellerup = {
+ 					province = 143					
+ 	                color = { 217 84 84 }
+ 			    }
+ 			}
 			
-# # 			c_holstebro = {
-# # 				b_holstebro = {
-# # 					province = 116
-# # 					color = { 197 29 52 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_thyboron = {
-# # 					 province = 7335
-					
-# # 	color = { 196 98 56 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_lemvig = {
-# # 					 province = 7336
-					
-# # 	color = { 193 166 118 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_vinderup = {
-# # 					 province = 7337
-					
-# # 	color = { 204 186 69 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_sparkaer = {
-# # 					 province = 7338
-					
-# # 	color = { 204 177 138 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
+ 			c_hjorring = {
+ 				b_hjorring = {
+ 					province = 77
+ 					color = { 188 65 65 }
+ 				}
+ 				b_hals-jylland = {
+ 					province = 78
+ 					color = { 196 59 59 }
+ 				}
+ 				b_laeso = {
+ 					province = 79
+ 					color = { 221 47 59 }
+				}
+ 				b_stentinget = {
+					province = 80
+ 					color = { 226 97 97 }
+ 				}
+ 				b_vrensted = {
+ 					province = 81				
+ 	                color = { 156 38 38 }
+ 			    }
+ 				b_saeby = {
+ 					province = 82				
+ 	                color = { 216 77 77 }
+ 			    }
+ 				b_skagen = {
+ 					province = 83				
+ 	                color = { 170 47 47 }
+			    }
+ 			}
 			
-# # 			c_ringkobing = {
-# # 			 b_borris = {
-# # 					province = 2007
-# # 					color = { 46 58 35 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_ringkobing = {
-# # 					province = 5227
-# # 					color = { 250 210 1 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_vind = {
-# # 					 province = 7333
-					
-# # 	color = { 198 43 77 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_gjellerup = {
-# # 					 province = 7334
-					
-# # 	color = { 196 47 144 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
+ 			c_aalborg = {
+ 				b_aalborg = {
+ 					province = 625
+ 					color = { 235 74 80 }
+ 				}
+ 				b_siem = {
+ 					province = 5270
+ 					color = { 172 53 62 }
+ 				}
+ 				b_hadsund = {
+					province = 5226
+ 					color = { 213 69 79 }
+ 				}
+    		}
 			
-# # 			c_hjorring = {
-# # 				b_hjorring = {
-# # 					province = 5225
-# # 					color = { 95 102 97 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_hals-jylland = {
-# # 					province = 5236
-# # 					color = { 91 58 41 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_laeso = {
-# # 					province = 5245
-# # 					color = { 82 32 24 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_stentinget = {
-# # 					province = 5235
-# # 					color = { 230 214 144 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_vrensted = {
-# # 					 province = 7368
-					
-# # 	color = { 91 57 81 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_saeby = {
-# # 					 province = 7369
-					
-# # 	color = { 91 32 77 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_skagen = {
-# # 					 province = 7370
-					
-# # 	color = { 65 102 95 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
+ 			c_randers = {
+ 				b_randers = {
+ 					province = 105
+ 					color = { 183 40 40 }
+ 				}
+ 				b_orsted = {
+ 					province = 106
+ 					color = { 157 15 15 }
+ 				}
+ 				b_hjortshoj = {
+ 					province = 107
+ 					color = { 149 47 51 }
+ 				}
+ 				b_ebeltoft = {
+ 					province = 108
+ 					color = { 229 69 66 }
+ 				}
+ 				b_hyllested = {
+ 					province = 109					
+ 	                color = { 206 51 51 }
+ 			 	}
+ 				b_grenaa = {
+ 					province = 110				
+ 	                color = { 203 66 66 }
+ 			 	}
+ 			}
 			
-# # 			c_aalborg = {
-# # 				b_aalborg = {
-# # 					province = 625
-# # 					color = { 246 208 51 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_siem = {
-# # 					province = 5270
-# # 					color = { 144 070 132 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_hadsund = {
-# # 					province = 5226
-# # 					color = { 191 189 127 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
+ 			c_koldinghus = {
+ 				b_koldinghus = {
+ 					province = 129
+ 					color = { 92 22 22 }
+ 				}
+ 				b_vejle = {
+ 					province = 130
+ 					color = { 136 32 32 }
+ 				}
+ 				b_egtved = {
+ 					province = 131
+ 					color = { 115 33 33 }
+ 				}
+ 				b_jelling = {
+ 					province = 132
+ 					color = { 165 61 61 }
+ 				}
+ 				b_vorbasse = {
+ 					province = 133
+ 					color = { 155 39 39 }					
+ 				}
+ 				b_give = {
+ 					province = 134
+ 					color = { 118 29 29 }
+					
+ 				}
+ 			}
 			
-# # 			c_randers = {
-# # 				b_randers = {
-# # 					province = 5224
-# # 					color = { 116 120 117 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_orsted = {
-# # 					province = 1934
-# # 					color = { 78 92 126 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_hjortshoj = {
-# # 					province = 1950
-# # 					color = { 236 124 38 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_ebeltoft = {
-# # 					province = 363
-# # 					color = { 180 118 192 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_hyllested = {
-# # 					 province = 7353
-					
-# # 	color = { 79 102 135 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_grenaa = {
-# # 					 province = 7354
-					
-# # 	color = { 153 157 193 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
+ 			c_aarhus = {
+ 				b_aarhus = {
+ 					province = 111
+ 					color = { 165 49 49 }
+ 				}
+ 				b_viby = {
+ 					province = 112
+ 					color = { 211 78 78 }
+ 				}
+ 				b_skanderborg = {
+ 					province = 113
+ 					color = { 226 93 94 }
+ 				}
+ 				b_lystrup = {
+ 					province = 114					
+ 	                color = { 191 82 82 }
+ 			    }
+ 				b_sabro = {
+ 					 province = 115					
+ 	                 color = { 187 60 60 }
+ 			    }
+ 				b_vorup = {
+ 					 province = 116				
+ 	                 color = { 149 30 30 }
+ 			    }
+ 			}
 			
-# # 			c_koldinghus = {
-# # 				b_koldinghus = {
-# # 					province = 1231
-# # 					color = { 53 128 32 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_vejle = {
-# # 					province = 2316
-# # 					color = { 221 68 89 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_egtved = {
-# # 					province = 7326
-# # 					color = { 56 183 82 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_jelling = {
-# # 					province = 7327
-# # 					color = { 139 173 60 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_vorbasse = {
-# # 					province = 7328
-# # 					color = { 43 181 146 }
-# # 					color2 = { 255 255 255 }
-					
-# # 				}
-# # 				b_give = {
-# # 					province = 7329
-# # 					color = { 166 211 141 }
-# # 					color2 = { 255 255 255 }
-					
-# # 				}
-# # 			}
+ 			c_horsens = {
+ 				b_horsens = {
+ 					province = 117
+ 					color = { 160 41 41 }
+ 				}
+ 				b_odder = {
+ 					province = 118
+ 					color = { 189 49 49 }
+ 				}
+ 				b_samso = {
+ 	                province = 119	  
+ 	                color = { 227 60 115 }
+ 				}	
+ 				b_snaptun = {
+ 	                province = 120	  
+ 	                color = { 141 43 43 }
+ 				}
+ 				b_tyrsted = {
+ 	                province = 121	  
+ 	                color = { 184 54 54 }
+ 				}
+ 				b_tamdrup = {
+ 	                province = 122	  
+ 	                color = { 205 64 64 }
+ 				}				
+			}
 			
-# # 			c_aarhus = {
-# # 				b_aarhus = {
-# # 					province = 365
-# # 					color = { 104 108 94 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_viby = {
-# # 					province = 7322
-# # 					color = { 52 109 51 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_skanderborg = {
-# # 					province = 5232
-# # 					color = { 134 115 161 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_lystrup = {
-# # 					 province = 7345
-					
-# # 	color = { 77 130 71 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_sjelle = {
-# # 					 province = 7346
-					
-# # 	color = { 93 211 146 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_sabro = {
-# # 					 province = 7347
-					
-# # 	color = { 84 211 80 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_vorup = {
-# # 					 province = 7348
-					
-# # 	color = { 134 211 67 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
+ 			c_silkeborg = {
+ 				b_silkeborg = {
+ 					province = 123				
+ 	                color = { 208 71 72 }
+ 			 	}
+ 				b_rye = {
+ 					province = 124				
+ 	                color = { 184 48 49 }
+ 			 	}
+ 				b_virklund = {
+ 					province = 125				
+ 	                color = { 155 35 36 }
+ 			 	}
+ 				b_engesvang = {
+					province = 126				
+ 	                color = { 143 22 23 } 					 
+ 			 	}
+ 				b_gronbaek = {
+ 					province = 127				
+ 	                color = { 190 45 46 }
+		   		}
+ 				b_thorso = {
+ 					province = 128			
+ 	                color = { 176 37 37 }
+ 			 	}			
+ 			}
 			
-# # 			c_horsens = {
-# # 				b_odder = {
-# # 					province = 7321
-# # 					color = { 49 127 67 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_horsens = {
-# # 					province = 658
-# # 					color = { 235 106 14 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_samso = {
-# # 	  province = 5239
- 	  
-# # 	color = { 24 24 219 }
-# # 	  color2 = { 255 255 255 }
-# # 				}	
-# # 				b_snaptun = {
-# # 	  province = 7323
- 	  
-# # 	color = { 86 86 216 }
-# # 	  color2 = { 255 255 255 }
-# # 				}
-# # 				b_tyrsted = {
-# # 	  province = 7324
- 	  
-# # 	color = { 53 149 214 }
-# # 	  color2 = { 255 255 255 }
-# # 				}
-# # 				b_tamdrup = {
-# # 	  province = 7325
- 	  
-# # 	color = { 91 78 48 }
-# # 	  color2 = { 255 255 255 }
-# # 				}
+ 			c_gedsted = {	
+ 				b_gedsted = {
+ 					 province = 93				
+ 	                 color = { 180 63 71 }
+ 			 }			
+ 				b_vilsted = {
+ 					 province = 94				
+ 	                 color = { 211 86 94 }
+ 			 }
+ 				b_nibe = {
+ 					 province = 95				
+ 	                 color = { 198 59 68 }
+ 			 }
+ 				b_aars = {
+ 					province = 96				
+	                color = { 167 43 51 }
+ 			 }
+ 				b_lerkenfeldt = {
+ 					 province = 97				
+ 	                 color = { 205 60 60 }
+ 			 }
+ 			}
+			
+ 			c_skive = {
+				b_skive = {
+ 					province = 88				
+ 	                color = { 188 51 60 }
+ 			 	}				
+ 				b_spottrup = {
+ 					province = 89				
+ 	                color = { 219 71 81 }
+ 			 	}
+ 				b_eskjaer = {
+					province = 90				
+                    color = { 229 78 88 }
+ 			 	}
+ 				b_glyngore = {
+ 					province = 91				
+ 	                color = { 199 89 97 }
+ 			 	}
+ 				b_mors-jylland = {
+ 					province = 92				
+ 	                color = { 219 59 59 }
+ 			 	}
+ 			}
+			
+ 			c_thisted = {	
+ 				b_thisted = {
+ 					province = 87				
+ 	                color = { 228 84 84 }
+ 			 	}			
+ 				b_boddum = {
+ 					province = 85				
+ 	                color = { 159 58 58 }
+ 			 	}
+ 				b_hundborg = {
+ 					 province = 86				
+ 	                 color = { 218 119 119 }
+ 			 	}
+ 				b_fjerritslev = {
+ 					 province = 84				
+ 	                 color = { 203 64 64 }
+ 			 	}
+			}
+ 		}
+
+		d_slesvig = {
+			color = { 224 74 74 }
+ 			color2 = { 255 255 255 }
+
+			capital = c_slesvig
+
+			c_haderslev = {
+				b_haderslev = {
+					province = 2389
+					color = { 246 131 121 }
+				}
+ 				b_vamdrup = {
+					province = 5230
+					color = { 217 98 86 }
+	 			}
+				b_ribe = {
+ 					province = 1027
+					color = { 142 39 39 }
+				}
+				b_tyrstrup = {
+ 					province = 24
+					color = { 228 107 96 }
+				}
+				b_rangstrup = {
+					province = 25
+					color = { 250 153 144 }
+				}
+ 				b_rodding = {
+					province = 26
+					color = { 238 132 121 }
+				}			
+			}
+			
+ 			c_sonderborg = {
+	            b_sonderborg = {
+					province = 975
+					color = { 254 165 158 }
+ 				}
+ 				b_aabenraa = {
+ 					province = 5233
+ 					color = { 250 141 132 }
+ 				} 				
+				b_lundtoft = {
+					province = 18
+					color = { 214 133 127 }
+				}
+ 				b_augustenborg = {
+ 					province = 19
+					color = { 253 120 109 }
+					color2 = { 255 255 255 }
+				}
+ 				b_nordborg = {
+					province = 20
+					color = { 252 169 162 }
+				}
+			}
+			
+			c_rungholt = {
+	            b_rungholt = {
+ 					province = 15
+ 					color = { 184 69 68 }
+ 				}
+ 				b_sild = {
+ 					province = 16
+ 					color = { 248 190 185 }
+ 				}
+				b_for = {
+ 					province = 17
+					color = { 184 69 69 }					
+				}							
+				b_helgoland = {
+					province = 5273
+					color = { 193 107 36 }
+				}
+			}
+			
+ 			c_tonning = {
+
+ 			    b_tonning = {
+ 					province = 2
+ 					color = { 184 69 67 }
+ 				}
+ 				b_stabelholm = {
+					province = 1
+					color = { 167 65 65 }
+				}
+			}
 				
-# # 			}
-			
-# # 			c_silkeborg = {
-# # 				b_rye = {
-# # 					 province = 7339
-					
-# # 	color = { 89 21 17 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_virklund = {
-# # 					 province = 7340
-					
-# # 	color = { 220 158 122 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_silkeborg = {
-# # 					 province = 7341
-					
-# # 	color = { 216 131 52 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_engesvang = {
-# # 					 province = 7342
-					
-# # 	color = { 216 122 108 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_gronbaek = {
-# # 					 province = 7343
-					
-# # 	color = { 214 85 115 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_thorso = {
-# # 					 province = 7344
-					
-# # 	color = { 214 4 109 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
 				
-# # 			}
-			
-# # 			c_gedsted = {
+			c_husum = {
 				
-# # 				b_vilsted = {
-# # 					 province = 7355
-					
-# # 	color = { 90 55 214 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_nibe = {
-# # 					 province = 7356
-					
-# # 	color = { 111 101 145 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_aars = {
-# # 					 province = 7357
-					
-# # 	color = { 108 72 142 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_gedsted = {
-# # 					 province = 7358
-					
-# # 	color = { 74 111 142 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_lerkenfeldt = {
-# # 					 province = 7359
-					
-# # 	color = { 55 141 142 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
+				b_husum = {
+					province = 10
+					color = { 241 171 165 }					
+    			}
+			    b_hojer = {
+ 					 province = 11
+ 	                 color = { 249 159 151 }
+ 				}
+ 				b_horsbol = {
+ 					province = 12
+ 					color = { 184 68 69 }
+ 				}
+ 				b_langhorn = {
+ 					province = 13
+ 					color = { 210 77 77 }
+ 				}
+ 				b_bredsted = {
+					province = 14
+ 					color = { 247 190 185 }
+ 				}
+ 			}
 			
-# # 			c_skive = {
-				
-# # 				b_spottrup = {
-# # 					 province = 7360
-					
-# # 	color = { 196 102 90 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_skive = {
-# # 					 province = 7361
-					
-# # 	color = { 196 81 47 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_eskjaer = {
-# # 					 province = 7362
-					
-# # 	color = { 196 108 37 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_glyngore = {
-# # 					 province = 7363
-					
-# # 	color = { 196 145 15 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_mors-jylland = {
-# # 					 province = 7364
-					
-# # 	color = { 191 196 54 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
+ 			c_flensborg = {
+				b_flensborg = {
+					province = 5271
+					color = { 239 153 153 }
+ 				}
+ 				b_hanved = {
+ 					province = 8
+ 					color = { 205 71 71 }
+ 				}
+ 				b_gelting = {
+ 					province = 9
+ 					color = { 222 78 78 }
+ 				}
+ 			}
 			
-# # 			c_thisted = {
-				
-# # 				b_boddum = {
-# # 					 province = 7365
-					
-# # 	color = { 131 193 73 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_hundborg = {
-# # 					 province = 7366
-					
-# # 	color = { 61 193 34 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_thisted = {
-# # 					 province = 7367
-					
-# # 	color = { 45 130 65 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
-# # 		}
+ 			c_slesvig = {
+				b_slesvig = {
+ 					province = 3
+ 				    color = { 207 101 101 }
+ 				}
+			    b_bollingsted = {
+ 					province = 4
+					color = { 225 82 82 }
+				}
+				b_isted = {
+					province = 5
+					color = { 162 59 59 }
+				}
+				b_ravnkaer = {
+					province = 6
+					color = { 220 117 117 }
+				}
+				b_egernforde = {
+					province = 7
+					color = { 213 110 110 }
+				}
+			}
+			
+ 			c_rendsborg = {
+				b_rendsborg = {
+					province = 1029
+ 					color = { 160 63 63 }
+				}
+				b_gettorp = {
+					province = 5272
+					color = { 186 88 88 }
+ 				}
+ 			}
+ 			c_tonder = {
+ 				 b_tonder = {
+ 					province = 2704
+	                color = { 145 27 27 }
+				}
+				b_kaer = {
+					province = 21
+	                color = { 167 64 64 }
+ 				}
+				b_skaerbaek = {
+					province = 5234
+	                color = { 235 118 107}
+				}
+ 				b_slogs = {
+ 					province = 22
+	                color = { 247 139 130 }
+				}
+				b_romo = {
+ 					province = 23
+					color = { 253 140 130 }
+				}
+			}
+		}
 		
-# # 		d_slesvig = {
-# # 			color = { 224 74 74 }
-# # 			color2 = { 255 255 255 }
+ 		d_fyn = {
 
-# # 			capital = c_slesvig
-
-# # 			c_haderslev = {
-# # 				b_vamdrup = {
-# # 					province = 5230
-# # 					color = { 130 108 52 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_ribe = {
-# # 					province = 1027
-# # 					color = { 255 164 32 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_haderslev = {
-# # 					province = 2389
-# # 					color = { 51 47 44 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_tyrstrup = {
-# # 					province = 7300
-# # 					color = { 158 110 55 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_rangstrup = {
-# # 					province = 7306
-# # 					color = { 96 52 14 }
-# # 					color2 = { 255 255 255 }	
-# # 				}
-# # 				b_rodding = {
-# # 					province = 7319
-# # 					color = { 219 72 72 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-				
-# # 			}
+ 			capital = c_odense
 			
-# # 			c_sonderborg = {
-# # 				b_aabenraa = {
-# # 					province = 5233
-# # 					color = { 72 150 102 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_sonderborg = {
-# # 					province = 975
-# # 					color = { 52 62 64 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_lundtoft = {
-# # 					province = 7305
-# # 					color = { 129 150 118 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_augustenborg = {
-# # 					province = 7307
-# # 					color = { 147 131 81 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_nordborg = {
-# # 					province = 7308
-# # 					color = { 204 173 65 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
+ 		 	c_odense = {
+ 				b_odense = {
+ 					province = 71			
+ 	                color = { 141 49 107 }
+ 				}
+ 				b_middelfart = {
+ 					province = 72
+ 					color = { 206 113 172 }
+ 				}
+ 				b_assens = {
+ 			        province = 73				 
+ 	                color = { 193 78 151 }
+				}			
+ 				b_bogense = {
+ 					province = 74
+ 					color = { 169 66 131 }
+ 				}
+ 				b_skamby = {
+ 					province = 75			
+ 	                color = { 205 96 165 }
+ 			 	}
+ 				b_otterup = {
+ 					province = 76			
+ 	                color = { 220 139 190 }
+ 				}
+ 			}
 			
-# # 			c_sild = {
-# # 				b_sild = {
-# # 					province = 5231
-# # 					color = { 67 71 80 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_for = {
-# # 					province = 2382
-# # 					color = { 201 117 235 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_rungholt = {
-# # 					province = 7309
-# # 					color = { 234 68 215 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-				
-# # 				b_helgoland = {
-# # 					province = 5273
-# # 					color = { 193 107 36 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
+ 			c_nyborg = {
+ 				b_nyborg = {
+ 					province = 67			
+ 	                color = { 191 54 140 }
+ 			 	}
+ 				b_fraugde = {
+ 					province = 68
+					color = { 241 104 190 }
+ 				}
+ 				b_ladby = {
+    		        province = 69		 
+	                color = { 209 72 159 }
+ 				}			
+				b_viby_fyn = {
+ 					province = 70
+					color = { 201 14 133 }
+ 				}
+ 			}
 			
-# # 			c_tonning = {
-# # 			 b_tonning = {
-# # 					province = 7310
-# # 					color = { 232 13 112 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_stabelholm = {
-# # 					province = 7313
-# # 					color = { 160 133 24 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
-				
-				
-# # 			c_husum = {
-				
-# # 				 b_hojer = {
-# # 					 province = 7303
-					
-# # 	color = { 34 79 244 }
-# # 					 color2 = { 255 255 255 }
-# # 				}
-# # 				b_horsbol = {
-# # 					province = 5241
-# # 					color = { 220 156 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_langhorn = {
-# # 					province = 7371
-# # 					color = { 142 64 78 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_bredsted = {
-# # 					province = 7311
-# # 					color = { 165 91 51 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_husum = {
-# # 					province = 7312
-# # 					color = { 163 113 44 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
+ 			c_svendborg = {
+ 				b_svendborg = {
+ 			        province = 64			 
+ 	                color = { 200 83 157 }
+ 				}			
+ 				b_faaborg = {
+ 					province = 65 
+ 					color = { 228 84 174 }
+ 				}
+ 				b_gudme = {
+ 					province = 66
+ 					color = { 213 105 173 }
+ 				}
+ 			}
 			
-# # 			c_flensborg = {
-# # 				b_flensborg = {
-# # 					province = 5271
-# # 					color = { 160 52 114 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_hanved = {
-# # 					province = 7314
-# # 					color = { 226 55 43 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_gelting = {
-# # 					province = 7315
-# # 					color = { 224 47 129 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
-			
-# # 				c_slesvig = {
-# # 				b_bollingsted = {
-# # 					province = 7316
-# # 					color = { 224 118 136 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_isted = {
-# # 					province = 7317
-# # 					color = { 224 168 148 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_ravnkaer = {
-# # 					province = 7318
-# # 					color = { 224 132 161 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_slesvig = {
-# # 					province = 2384
-# # 					color = { 153 90 110 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_egernforde = {
-# # 					province = 7320
-# # 					color = { 221 157 186 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
-			
-# # 			c_rendsborg = {
-# # 				b_rendsborg = {
-# # 					province = 1029
-# # 					color = { 137 99 117 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_gettorp = {
-# # 					province = 5272
-# # 					color = { 179 36 40 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}	
-			
-# # 			c_tonder = {
-# # 				 b_kaer = {
-# # 					 province = 7302
-					
-# # 	color = { 62 191 242 }
-# # 					 color2 = { 255 255 255 }
-# # 				}
-# # 				 b_tonder = {
-# # 					 province = 2704
-					
-# # 	color = { 76 81 74 }
-# # 					 color2 = { 255 255 255 }
-# # 				}
-# # 				 b_skaerbaek = {
-# # 					 province = 5234
-					
-# # 	color = { 70 69 49 }
-# # 					 color2 = { 255 255 255 }
-# # 				}
-# # 				b_slogs = {
-# # 					 province = 7304
-					
-# # 	color = { 153 183 239 }
-# # 					 color2 = { 255 255 255 }
-# # 				}
-# # 				b_romo = {
-# # 					province = 7301
-# # 					color = { 153 61 30 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
-# # 		}
+ 			c_rudkobing = {
+				b_rudkobing = {
+ 					province = 60				
+ 	                color = { 237 98 185 }
+                }
+  				b_bregninge = {
+					province = 61
+ 					color = { 196 71 150 }
+ 				}
+ 				b_vindeby = {
+ 			        province = 62 
+	                color = { 245 112 196 }
+  				}			
+ 				b_lindelse = {
+ 					province = 63
+ 					color = { 223 60 162 }
+ 				}
+ 			}
+ 		}
 		
-# # 		d_fyn = {
+ 		d_sjaelland = {
 
-# # 			capital = c_odense
-			
-# # 		 c_odense = {
-# # 				b_middelfart = {
-# # 					province = 7372
-# # 					color = { 226 97 132 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_assens = {
-# # 			 province = 7373
-				 
-# # 	color = { 224 213 157 }
-# # 				 color2 = { 255 255 255 }
-# # 				}			
-# # 				b_bogense = {
-# # 					province = 7374
-# # 					color = { 226 0 105 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_skamby = {
-# # 					 province = 7375
-					
-# # 	color = { 226 90 142 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_otterup = {
-# # 					 province = 7376
-					
-# # 	color = { 224 154 161 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_odense = {
-# # 					 province = 7377
-					
-# # 	color = { 224 171 114 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
-			
-# # 			c_nyborg = {
-# # 				b_fraugde = {
-# # 					province = 7378
-# # 					color = { 224 118 185 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_ladby = {
-# # 			 province = 7379
-				 
-# # 	color = { 224 143 157 }
-# # 				 color2 = { 255 255 255 }
-# # 				}			
-# # 				b_viby_fyn = {
-# # 					province = 7380
-# # 					color = { 226 139 77 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_nyborg = {
-# # 					 province = 7381
-					
-# # 	color = { 224 58 127 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
-			
-# # 			c_svendborg = {
-# # 				b_faaborg = {
-# # 					province = 7382
-# # 					color = { 221 79 153 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_svendborg = {
-# # 			 province = 7383
-				 
-# # 	color = { 136 75 221 }
-# # 				 color2 = { 255 255 255 }
-# # 				}			
-# # 				b_gudme = {
-# # 					province = 7384
-# # 					color = { 187 117 221 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
-			
-# # 			c_langeland = {
-# # 				b_bregninge = {
-# # 					province = 7385
-# # 					color = { 226 180 61 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_vindeby = {
-# # 			 province = 7386
-				 
-# # 	color = { 215 226 54 }
-# # 				 color2 = { 255 255 255 }
-# # 				}			
-# # 				b_lindelse = {
-# # 					province = 7387
-# # 					color = { 187 226 129 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_rudkobing = {
-# # 					 province = 7388
-					
-# # 	color = { 226 221 170 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
-# # 		}
-		
-# # 		d_sjaelland = {
+ 			capital = c_roskilde
 
-# # 			capital = c_roskilde
+			c_kobenhavn = {
+				b_kobenhavn = {
+					province = 31				
+	                color = { 87 2 2 }
+			 	}
+				b_helsingor = {
+					province = 29			 
+					color = { 183 69 69 }
+			   	}
+			   	b_ramlose = {
+					province = 28
+					color = { 169 58 58 }
+				}
+				b_smorum = {
+					province = 32				
+ 	                color = { 206 82 82 }
+ 			 	}
+			}
 			
-# # 		 c_roskilde = {
-# # 				b_ramlose = {
-# # 					province = 7389
-# # 					color = { 90 150 110 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_helsingor = {
-# # 			 province = 7390
-				 
-# # 	color = { 70 120 110 }
-# # 				 color2 = { 255 255 255 }
-# # 				}			
-# # 				b_farum = {
-# # 					province = 7391
-# # 					color = { 70 120 167 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_kobenhavn = {
-# # 					 province = 7392
-					
-# # 	color = { 70 120 90 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_smorum = {
-# # 					 province = 7393
-					
-# # 	color = { 70 120 60 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_karlslunde = {
-# # 					 province = 7394
-					
-# # 	color = { 60 150 60 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 				b_roskilde = {
-# # 					 province = 7395
-					
-# # 	color = { 60 130 50 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
+ 		 	c_roskilde = {
+		        b_roskilde = {
+ 					province = 27				
+ 	                color = { 202 95 95 }
+ 			 	}
+ 				b_farum = {
+ 					province = 30
+					color = { 232 105 105 }
+				}
+ 				b_karlslunde = {
+ 					province = 33
+ 				    color = { 199 77 77 }
+			 	}
+ 			}
 			
-# # 			c_nakskov = {
-# # 				b_nakskov = {
-# # 					province = 7396
-# # 					color = { 5 127 14 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_stokkemarke = {
-# # 			 province = 7397
-				 
-# # 	color = { 45 130 15 }
-# # 				 color2 = { 255 255 255 }
-# # 				}			
-# # 				b_rodby = {
-# # 					province = 7398
-# # 					color = { 55 140 30 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_sakskobing = {
-# # 					 province = 7399
-					
-# # 	color = { 75 160 50 }
-# # 					 color2 = { 255 255 255 }
-# # 			 }
-# # 			}
+ 			c_nakskov = {
+ 				b_nakskov = {
+ 					province = 48
+ 					color = { 193 104 104 }
+ 				}
+ 				b_stokkemarke = {
+ 			     	province = 49			 
+ 	             	color = { 178 81 81 }
+ 				}			
+ 				b_rodby = {
+ 					province = 50
+ 					color = { 199 96 96 }
+ 				}
+ 				b_sakskobing = {
+ 					province = 51				
+ 	                color = { 174 72 72 }
+ 			 	}
+ 			}
 			
-# # 			c_nykobing-falster = {
-# # 				b_stubbekobing = {
-# # 					province = 7400
-# # 					color = { 95 180 70 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_nykobing-falster = {
-# # 			 province = 7401
-				 
-# # 	color = { 115 200 90 }
-# # 				 color2 = { 255 255 255 }
-# # 				}			
-# # 				b_stege = {
-# # 					province = 7402
-# # 					color = { 125 220 110 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
+ 			c_nykobing-falster = {
+	            b_nykobing-falster = {
+ 			        province = 40		 
+                  	color = { 209 110 110 }
+ 				}			
+ 				b_stubbekobing = {
+ 					province = 41
+ 					color = { 186 84 84 }
+ 				}
+ 				b_stege = {
+ 					province = 42
+ 					color = { 168 65 65 }
+ 				}
+ 			}
 			
-# # 			c_ringsted = {
-# # 				b_faxe = {
-# # 					province = 7403
-# # 					color = { 0 80 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_heddinge = {
-# # 			 province = 7404
-				 
-# # 	color = { 0 100 0 }
-# # 				 color2 = { 255 255 255 }
-# # 				}			
-# # 				b_haarlev = {
-# # 					province = 7405
-# # 					color = { 0 70 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_ringsted = {
-# # 					province = 7406
-# # 					color = { 0 50 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_koge = {
-# # 					province = 7407
-# # 					color = { 0 60 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
+ 			c_ringsted = {
+	            b_ringsted = {
+					province = 43
+ 					color = { 211 107 107 }
+ 				}
+ 				b_faxe = {
+ 					province = 44
+ 					color = { 210 75 75 }
+ 				}
+ 				b_heddinge = {
+ 			        province = 45		 
+ 	            	color = { 155 63 62 }
+ 				}			
+ 				b_haarlev = {
+ 					province = 46
+ 					color = { 182 81 81 }
+ 				}
+ 				b_koge = {
+ 					province = 47
+ 					color = { 167 63 63 }
+ 				}
+ 			}
 			
-# # 			c_naestved = {
-# # 				b_tybjerg = {
-# # 					province = 7408
-# # 					color = { 0 110 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_naestved = {
-# # 			 province = 7409
-				 
-# # 	color = { 0 120 10 }
-# # 				 color2 = { 255 255 255 }
-# # 				}			
-# # 				b_vordingborg = {
-# # 					province = 7410
-# # 					color = { 145 240 130 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
+			c_naestved = {
+                b_naestved = {
+ 			        province = 34			 
+ 	                color = { 166 79 79 }
+                }
+	 			b_tybjerg = {
+ 					province = 35
+ 					color = { 199 78 78 }
+ 				}
+				b_vordingborg = {
+					province = 36
+					color = { 199 97 97 }
+				}
+			}
 			
-# # 			c_slagelse = {
-# # 				b_soro = {
-# # 					province = 7411
-# # 					color = { 0 120 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_slagelse = {
-# # 			 province = 7412
-				 
-# # 	color = { 0 150 0 }
-# # 				 color2 = { 255 255 255 }
-# # 				}			
-# # 				b_skaelskor = {
-# # 					province = 7413
-# # 					color = { 0 140 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_fuglebjerg = {
-# # 					province = 7414
-# # 					color = { 0 130 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
-# # 			c_kalundborg = {
-# # 				b_vaerslev = {
-# # 					province = 7415
-# # 					color = { 0 200 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_tuse = {
-# # 			 province = 7416
-				 
-# # 	color = { 0 190 0 }
-# # 				 color2 = { 255 255 255 }
-# # 				}			
-# # 				b_kalundborg = {
-# # 					province = 7417
-# # 					color = { 0 200 110 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_norrefjerding = {
-# # 					province = 7418
-# # 					color = { 60 130 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_love = {
-# # 					province = 7419
-# # 					color = { 50 120 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
-			
-# # 			c_holbaek = {
-# # 				b_holbaek = {
-# # 					province = 7420
-# # 					color = { 0 180 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 				b_hyllinge = {
-# # 			 province = 7421
-				 
-# # 	color = { 0 170 0 }
-# # 				 color2 = { 255 255 255 }
-# # 				}			
-# # 				b_skibby = {
-# # 					province = 7422
-# # 					color = { 0 160 0 }
-# # 					color2 = { 255 255 255 }
-# # 				}
-# # 			}
-# # 		}
-# # 	}	
-# # }
+ 			c_slagelse = {
+ 				b_slagelse = {
+ 			     	province = 52			 
+ 	             	color = { 195 67 67 }
+ 				}			
+ 				b_soro = {
+ 					province = 53
+ 					color = { 162 60 60 }
+ 				}
+				b_skaelskor = {
+					province = 54
+ 					color = { 211 84 84 }
+ 				}
+ 				b_fuglebjerg = {
+ 					province = 55
+ 					color = { 192 65 65 }
+ 				}
+ 			}
 
-# # 	# 	d_saxony = {
-# # 	# 		color = { 155 147 180 }
-# # 	# 		color2 = { 255 255 255 }
-
-# # 	# 		capital = c_dresden
-
-# # 	# 		c_hohnstein = {
-# # 	# 			color = { 224 217 250 }
-# # 	# 			color2 = { 255 255 255 }
-
-# # 	# 			b_hohnstein = {
-# # 	# 				province = 226
-# # 	# 				color = { 159 90 64 }
-# # 	# 				color2 = { 255 255 255 }
-# # 	# 			}
-# # 	# 			b_nordhausen = {
-# # 	# 				province = 223
-# # 	# 				color = { 31 84 192 }
-# # 	# 				color2 = { 255 255 255 }
-# # 	# 			}
-# # 	# 		}
-# # 	# 	}
+			c_kalundborg = {
+				b_kalundborg = {
+					province = 56
+					color = { 211 82 82 }
+				}				
+				b_vaerslev = {
+					province = 57
+					color = { 195 78 78 }
+				}
+				b_tuse = {
+			     	province = 58 			 
+	             	color = { 222 92 92 }				 
+				}			
+				b_norrefjerding = {
+					province = 59
+					color = { 177 64 64 }
+				}
+			}
+ 			c_holbaek = {
+				b_holbaek = {
+					province = 37
+					color = { 214 99 99 }
+				}
+				b_hyllinge = {
+			        province = 38		 
+		            color = { 187 61 61 }
+				}			
+				b_skibby = {
+					province = 39
+					color = { 195 77 77 }
+ 				}
+ 			}
+		}
+ 	}	
+ }
 
 # b_lippe = {
 # 	province = 9838
 # 	color = { 21 83 149 }
 # 	color2 = { 255 255 255 }
 # }
-

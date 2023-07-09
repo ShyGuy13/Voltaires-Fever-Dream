@@ -72,7 +72,7 @@ ladin = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_isolationist
-		tradition_esteemed_hospitality
+		tradition_festivities
 		tradition_pacifism
 		tradition_mountain_homes
 	}

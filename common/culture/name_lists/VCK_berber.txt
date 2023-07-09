@@ -1,0 +1,90 @@
+﻿name_list_berber = {
+	male_names = {
+		"al-Hajjaj" "‘Abd al-Karim" "‘Alî" Ayman "‘Abbâd" "‘Abbâs" "‘Abd Allâh" "‘Abd al-‘Azîz" "‘Abd al-Hakam" "‘Abd al-Hasan" "‘Abd al-Hazm" "‘Abd ar-Rahman" "‘Abd al-Razzaq" Abû "Abû Bakr" Adfuns Ahmad "‘Amîr" Ayyûb
+		Balashk Bilal Barakat Basir
+		Dâwûd
+		Firdaus Fadl Fath "Fu‘âd" Fahd Fârûq Fâris
+		Galind Garsiya
+		Hakam Hilal Haiyar Hâshim Haydar Husam Hasan
+		Ibrâhîm "‘Ismâ‘îl" Iqbal
+		Jyad Jabbar "Ja‘far" Junayd Jamal
+		Khaliq
+		Lubb
+		"Ma‘n" Mubâssir Muhammad Mundhir Mûsâ Mujâhid Hâmmu Muh Malek Malik Mansûr "Muzaffar ad-Dîn" Mustafa
+		"Nizam ad-Dîn" Najib "N‘Guna" Nasr Nazar Niptasan
+		Ptolemee
+		Qusay Qutaiba Qâsim
+		Raf Rasiq Rahim Rashîd
+		Sanyo Siddray "Sa‘îd" Samir "Sa‘d" Sifaks Sifal Sinbad Sisso Stembanos Suggut Sultan Salâh Sulaymân Sammer Seghada Sekla "Shams ad-Dîn" Safi Sakhr
+		Tifilwit Tâshfîn Tegama Thabitah Tifan Tiljad "T‘ar‘iq" Tabat Taffunnut Tâhir Takfarinas Tanan Tariq
+		"‘Uthmân" Ugdada Ugwistan "‘Umar" "Uqess‘un" Uregh Urtilian "Urz‘ig" Uzmir Uzza
+		Wannaqo "Watt‘âs" Wahab Wahid
+		Xamida 
+		Yahaff Yunes Yûsuf Yuva Yabdas Yaghmurâsan Yahyâ Yattuy Yeften "Yeh‘lem" Yiliyen Yuba Yugerten Youkhanna 
+		Zayyân "Z‘effun" Zafir Zalelsan Zayar "Zer‘wal" Zigza Zîrî Zubayr Zahir
+	}
+
+	female_names = {
+		"‘Alîya"  Haifa Abda Ahu Aiza
+		Butayna
+		Daniyah Dima Dinara Dua Durra Durriyya
+		Edza Eleonorka
+		Fahra Fahriya Fâtimah Fahima Faghissa Fariza Fedada
+		Gamila Ghada
+		Habiba Huda 
+		Ibtisam Isra
+		Karima Kera Khadija
+		Layla
+		Maha Malika Mariam Maria Munya Munia
+		Nadia Naila Nur
+		Rafiqa Rahat Raisa Randa
+		Safiya Salma Shakira Suraya
+		Tabassum Tahira Tarifa Thashim Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi Tintifawin Tinzert Tisent Tislit Titbirt Titrit Tizemt Tiziri Triya Tudert "Tuh‘r‘ict" Tureght
+		Umm
+		Wahida
+		Yasmin
+		Zahida Zahra
+	}
+
+	dynasty_names = {
+		#berber
+		{ dynnp_Banu dynn_Ifran }
+		{ dynnp_Banu dynn_Maghrawa }
+		{ dynnp_Banu dynn_Jaraw }
+		{ dynnp_Banu dynn_Hakam }
+		{ dynnp_Banu dynn_Atfayyish }
+		{ dynnp_Banu dynn_Isguen }
+		{ dynnp_Banu dynn_Mzab }
+		{ dynnp_Banu dynn_Zayyan }
+		{ dynnp_Banu dynn_Tujin }
+		{ dynnp_Banu dynn_Sanasin }
+		{ dynnp_Banu dynn_Fenazza }
+		{ dynnp_Banu dynn_Khenafsa }
+		{ dynnp_Banu dynn_Aghwat }
+		{ dynnp_Banu dynn_Nasur }
+		{ dynnp_Banu dynn_Sulayman }
+		{ dynnp_Banu dynn_Riyah }
+		{ dynnp_Banu dynn_Jami }
+		{ dynnp_Banu dynn_Rand } 
+		#kabyle
+		{ dynnp_Banu dynn_Tads }
+		{ dynnp_Banu dynn_Malshut }
+		{ dynnp_Banu dynn_Afdal }
+		{ dynnp_Banu dynn_Maatka }
+		{ dynnp_Banu dynn_Muqran }
+		{ dynnp_Banu dynn_Hammad }
+		{ dynnp_Banu dynn_al-Qadi }
+		{ dynnp_Banu dynn_Nemencha }
+		{ dynnp_Banu dynn_Madhi }
+		{ dynnp_Banu dynn_Buqut }
+		{ dynnp_Banu dynn_Aissi }
+		{ dynnp_Banu dynn_Aqwasha }
+		#atlas_berber
+		{ dynnp_Banu dynn_Saad }
+		{ dynnp_Banu dynn_Midrar }
+		{ dynnp_Banu dynn_Hintata }
+		{ dynnp_Banu dynn_Burghawata }
+		{ dynnp_Banu dynn_Atta }
+		{ dynnp_Banu dynn_Ali }
+	}
+}

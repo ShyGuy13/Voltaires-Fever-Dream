@@ -66,3 +66,18 @@ popponing5 = {
 		death = yes
 	}
 }
+
+popponing6 = {
+	name = "Biliza" # wife of Hartiwg I of Calw
+	female = yes
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing5
+	991.1.1 = { #est
+		birth = yes
+	}
+	1068.4.2 = { #fic
+		death = yes
+	}
+}

@@ -30,12 +30,16 @@ salier2 = {
 
 salier3 = {
 	name = "Heinrich" #Heinrich III of HRE
+	dna = salier3_dna
 	dynasty = 38
 	culture = swabian
 	religion = catholic
 	father = salier4
 	1016.10.28 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
 	}
 	1043.1.1 = {
 		add_spouse = ramnulfing1 # Agnes
