@@ -1178,5 +1178,11 @@
 			doctrine = tenet_mendicant_preachers
 			doctrine = tenet_adaptive
 		}
+
+		#Lutheran
+		#Calvinist
+		#Zwinglian
+		#Anabaptism
+		#Anglican
 	}
 }
