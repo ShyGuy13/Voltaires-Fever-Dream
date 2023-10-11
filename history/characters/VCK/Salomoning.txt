@@ -1,0 +1,60 @@
+salomoning1 = {
+	name = "Salomo" # Salomo I of Konstanz
+	culture = boden_alemannic
+	religion = catholic
+	815.1.1 = { #fic
+		birth = yes
+	}
+	871.3.5 = {
+		death = yes
+	}
+}
+
+salomoning2 = {
+	name = "Salomo" # Salomo II of Konstanz, nephew of salomoning1
+	culture = boden_alemannic
+	religion = catholic
+	841.1.1 = { #fic
+		birth = yes
+	}
+	889.12.23 = {
+		death = yes
+	}
+}
+
+salomoning3 = {
+	name = "Salomo" # Salomo III of Konstanz, grand nephew of salomoning1
+	culture = boden_alemannic
+	religion = catholic
+	862.1.1 = { #est
+		birth = yes
+	}
+	919.1.5 = {
+		death = yes
+	}
+}
+
+salomoning4 = {
+	name = "Waldo" # Waldo of Freising, brother of salomoning3
+	dynasty = 314
+	culture = boden_alemannic
+	853.1.1 = { #est
+		birth = yes
+	}
+	906.5.18 = {
+		death = yes
+	}
+}
+
+salomoning5 = {
+	name = "Waldo" # Waldo of Chur, nephew of salomoning3 (his mother = sister of salomoning3)
+	dynasty = 314
+	culture = boden_alemannic
+	religion = catholic
+	897.1.1 = { #fic
+		birth = yes
+	}
+	949.5.17 = {
+		death = yes
+	}
+}
