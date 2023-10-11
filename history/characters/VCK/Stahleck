@@ -1,0 +1,79 @@
+﻿stahleck1 = {
+	name = "Goswin" #Goswin I of Grabfeld
+	dynasty = 312
+	religion = catholic
+	culture = franconian
+  #unknown parents
+	1008.1.1 = { #fic
+		birth = yes
+	}
+  #unknown spouse
+	1051.1.1 = {
+		death = yes
+	}
+}
+
+﻿stahleck2 = {
+	name = "Goswin" #Goswin II of Grabfeld
+	dynasty = 312
+	religion = catholic
+	culture = franconian
+  father = stahleck1
+  #unknown mother
+	1031.1.1 = { #fic
+		birth = yes
+	}
+  #unknown spouse
+	1065.1.1 = {
+		death = {
+      death_reson = death_battle
+	}
+}
+
+﻿stahleck3 = {
+	name = "Goswin" #Goswin III of Grabfeld
+	dynasty = 312
+	religion = catholic
+	culture = franconian
+  father = stahleck2
+  #unknown mother
+	1060.1.1 = { #fic
+		birth = yes
+	}
+  #spouse = Agnes Ezzoning
+	1113.1.1 = { #fic
+		death = yes
+}
+
+﻿stahleck4 = {
+	name = "Goswin" #Goswin IV of Grabfeld
+	dynasty = 312
+	religion = catholic
+	culture = franconian
+  father = stahleck3
+  #mother = Agnes Ezzoning
+	1084.1.1 = { #fic
+		birth = yes
+	}
+  #1108.5.15 = {
+  #  add_spouse = Luitgard of Hengebach
+  #}
+	1140.1.1 = { #fic
+		death = yes
+}
+
+﻿stahleck5 = {
+	name = "Hermann" #Hermann of Grabfeld & Hermann III of Pfalz
+	dynasty = 312
+	religion = catholic
+	culture = franconian
+  father = stahleck4
+  #mother = Luitgard of Hengebach
+	1105.1.1 = { #fic
+		birth = yes
+	}
+  #1122 spouse = Gertrud von Hohenstaufen
+  #1150 spouse = Gertrud von Wettin
+	1156.9.20 = {
+		death = yes
+}
