@@ -1,0 +1,44 @@
+hohenlohe1 = {
+	name = "Gundelo" # Gundelo of Pfitzingen
+	dynasty = 310
+	religion = catholic
+	culture = franconian
+  #unknown parents
+	1032.1.1 = { #est
+		birth = yes
+	}
+  #unknown spouse
+	1103.1.1 = { #est
+		death = yes
+	}
+}
+
+hohenlohe2 = {
+	name = "Berengar" # Berengar of Pfitzingen
+	dynasty = 310
+	religion = catholic
+	culture = franconian
+  father = hohenlohe1
+  #unknown mom
+	1055.1.1 = { #est
+		birth = yes
+	}
+	1086.1.1 = { #fic
+		death = yes
+	}
+}
+
+hohenlohe3 = {
+	name = "Konrad" # Konrad I of Pfitzingen
+	dynasty = 310
+	religion = catholic
+	culture = franconian
+  father = hohenlohe1
+  #unknown mom
+	1060.1.1 = { #est
+		birth = yes
+	}
+	1109.1.1 = { #est
+		death = yes
+	}
+}
