@@ -17,7 +17,7 @@ ebersberg2 = {
 	dynasty_house = house_ebersberg
 	religion = catholic
 	culture = bavarian
-	father = ebersberg1
+	father = ebersberg1 #debated
 	895.1.1 = { #fic
 		birth = yes
 	}
@@ -183,6 +183,38 @@ ebersberg13 = {
 		birth = yes
 	}
 	1056.11.25 = {
+		death = yes
+	}
+}
+
+ebersberg14 = {
+	name = "Altmann"
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+	trait = devoted
+	trait = bastard
+	father = ebersberg8
+	1022.1.1 = { #fic
+		birth = yes
+	}
+	1045.6.12 = {
+		death = yes
+	}
+}
+
+ebersberg15 = {
+	name = "Willibirg"
+	female = yes
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+	trait = devoted
+	father = ebersberg8
+	1025.1.1 = { #fic
+		birth = yes
+	}
+	1063.1.1 = { #fic
 		death = yes
 	}
 }
