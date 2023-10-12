@@ -347,6 +347,36 @@ d_bm_strassburg = {
 	}
 }
 
+d_bm_cologne = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_ordinary_cross_5.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
+d_bm_naumburg = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_key_st_peter.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.542 0.45 } rotation = -40 scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_sword_simple.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.53 0.43 } rotation = 40 scale = { 0.95 0.95 }  }
+	}
+}
+
 d_bm_minden = {
 	pattern = "pattern_solid.dds"
 	color1 = "red"

@@ -239,7 +239,7 @@ siegharding17 = {
 	}
 }
 
-﻿siegharding18 = {
+siegharding18 = {
 	name = "Meginfried"
 	dynasty = 13
 	culture = bavarian
@@ -253,7 +253,7 @@ siegharding17 = {
 	}
 }
 
-﻿siegharding19 = {
+siegharding19 = {
 	name = "Engelbert" # Engelbert V of Chiemgau
 	dynasty = 13
 	culture = bavarian
@@ -267,7 +267,7 @@ siegharding17 = {
 	}
 }
 
-﻿siegharding20 = {
+siegharding20 = {
 	name = "Friedrich" # Friedrich I of Tengling
 	dynasty = 13
 	culture = bavarian
@@ -281,7 +281,7 @@ siegharding17 = {
 	}
 }
 
-﻿siegharding21 = {
+siegharding21 = {
 	name = "Sieghard" # bshop of Aquileia
 	dynasty = 13
 	culture = bavarian
@@ -295,7 +295,7 @@ siegharding17 = {
 	}
 }
 
-﻿siegharding22 = {
+siegharding22 = {
 	name = "Friedgrund" # nun
 	female = yes
 	dynasty = 13
@@ -311,7 +311,7 @@ siegharding17 = {
 	}
 }
 
-﻿siegharding23 = {
+siegharding23 = {
 	name = "Hildburg" # wife of Conrad I of Bohemia
 	female = yes
 	dynasty = 13
@@ -326,7 +326,7 @@ siegharding17 = {
 	}
 }
 
-﻿siegharding24 = {
+siegharding24 = {
 	name = "Swanhild" # wife of Ernst I of Austria
 	female = yes
 	dynasty = 13

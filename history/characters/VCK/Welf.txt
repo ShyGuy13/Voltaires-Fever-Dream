@@ -4,7 +4,8 @@
 	religion = catholic
 	culture = swabian
 	father = welf2
-	990.1.1 = { #fic
+	mother = luxemburg11
+	1007.1.1 = { #est
 		birth = yes
 	}
 	1047.1.1 = {
@@ -21,8 +22,11 @@ welf2 = {
 	religion = catholic
 	culture = swabian
 	father = welf4
-	960.1.1 = { #est
+	965.1.1 = { #est
 		birth = yes
+	}
+	1017.1.1 = {
+		add_spouse = luxemburg11 # Imiza of Luxemburg
 	}
 	1030.3.10 = {
 		death = yes
@@ -36,6 +40,7 @@ welf3 = {
 	religion = catholic
 	culture = swabian
 	father = welf2
+	mother = luxemburg11
 	1020.1.1 = { #est
 		birth = yes
 	}
@@ -49,6 +54,7 @@ welf4 = {
 	dynasty = 93
 	religion = catholic
 	culture = swabian
+	father = welf10
 	930.1.1 = { #fic
 		birth = yes
 	}
@@ -77,10 +83,111 @@ welf6 = {
 	dynasty = 93
 	religion = catholic
 	culture = swabian
+	father = welf10
 	944.1.1 = { 
 		birth = yes
 	}
 	988.6.24 = {
+		death = yes
+	}
+}
+
+welf7 = {
+	name = "Richlinde" # wife of Adalbero II of Ebersberg
+	female = yes
+	dynasty = 93
+	religion = catholic
+	culture = swabian
+	father = welf4
+	983.1.1 = { #est
+		birth = yes
+	}
+	1045.6.12 = {
+		death = yes
+	}
+}
+
+welf8 = {
+	name = "Heinrich" # Heinrich von Altdorf
+	dynasty = 93
+	religion = catholic
+	culture = swabian
+	father = welf4
+	977.1.1 = { #est
+		birth = yes
+	}
+	1000.8.15 = {
+		death = yes
+	}
+}
+
+welf9 = {
+	name = "Eberhard" #bishop of Bamberg
+	dynasty = 93
+	religion = catholic
+	culture = franconian
+	father = welf4
+	974.1.1 = { #est
+		birth = yes
+	}
+	1040.8.13 = {
+		death = yes
+	}
+}
+
+welf10 = {
+	name = "Rudolf" #Rudolf I of Altdorf
+	dynasty = 93
+	religion = catholic
+	culture = franconian
+	father = welf11
+	897.1.1 = { #fic
+		birth = yes
+	}
+	950.3.10 = {
+		death = yes
+	}
+}
+
+welf11 = {
+	name = "Heinrich" #Heinrich mit dem goldenen Wagen
+	dynasty = 93
+	religion = catholic
+	culture = franconian
+	872.1.1 = { #est
+		birth = yes
+		give_nickname = nick_with_the_golden_wagon
+	}
+	934.1.1 = { #est
+		death = yes
+	}
+}
+
+welf12 = {
+	name = "Konrad" # bishop of Konstanz
+	dynasty = 93
+	religion = catholic
+	culture = swabian
+	trait = saint
+	father = welf11
+	902.1.1 = { #est
+		birth = yes
+	}
+	975.11.26 = {
+		death = yes
+	}
+}
+
+welf13 = {
+	name = "Etchio" # 
+	dynasty = 93
+	religion = catholic
+	culture = swabian
+	father = welf11
+	913.1.1 = { #fic
+		birth = yes
+	}
+	982.1.1 = {  #est
 		death = yes
 	}
 }

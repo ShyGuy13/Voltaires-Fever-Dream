@@ -40,6 +40,7 @@ salier3 = {
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}
+		capital = c_worms
 	}
 	1043.1.1 = {
 		add_spouse = ramnulfing1 # Agnes

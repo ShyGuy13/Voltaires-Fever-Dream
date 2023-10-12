@@ -16,3 +16,4 @@ nick_the_captive = {}
 nick_iron_arm = {}
 nick_the_slender = {}
 nick_the_bavarian = {}
+nick_with_the_long_moustaches = {}

@@ -24,3 +24,31 @@ hirschberg2 = {
 		death = yes
 	}
 }
+
+hirschberg3 = {
+	name = "Udalschalk" #Udalschalk of Lurngau
+	dynasty = 17
+	religion = catholic
+	culture = bavarian
+	father = hirschberg1
+	1047.1.1 = { #est
+		birth = yes
+	}
+	1115.11.20 = {
+		death = yes
+	}
+}
+
+hirschberg4 = {
+	name = "Ernst" #Ernst I of Grögling & Ottenburg
+	dynasty = 17
+	religion = catholic
+	culture = bavarian
+	father = hirschberg1
+	1034.1.1 = { #fic
+		birth = yes
+	}
+	1096.11.12 = {
+		death = yes
+	}
+}

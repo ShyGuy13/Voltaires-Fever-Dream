@@ -83,6 +83,9 @@ calw5 = {
 	1027.1.1 = { #est
 		birth = yes
 	}
+	1054.1.1 = { #fic
+		add_spouse = wigeriching11
+	}
 	1099.9.22 = {
 		death = yes
 	}
@@ -98,6 +101,36 @@ calw6 = {
 		birth = yes
 	}
 	1063.1.1 = {
+		death = yes
+	}
+}
+
+calw7 = {
+	name = "Adalbert" # Adalbert III
+	dynasty = 42
+	religion = catholic
+	culture = swabian
+	father = calw5
+	mother = wigeriching11
+	1054.1.1 = { #fic
+		birth = yes
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}
+
+calw8 = {
+	name = "Bruno" # bishop of Metz
+	dynasty = 42
+	religion = catholic
+	culture = swabian
+	father = calw5
+	mother = wigeriching11
+	1057.1.1 = { #est
+		birth = yes
+	}
+	1099.1.1 = {
 		death = yes
 	}
 }

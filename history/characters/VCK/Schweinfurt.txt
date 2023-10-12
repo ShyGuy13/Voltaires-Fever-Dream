@@ -1,0 +1,176 @@
+﻿schweinfurt1 = {
+	name = "Otto" #Otto III of Swabia
+	dynasty_house = house_schweinfurt
+	religion = catholic
+	culture = swabian
+	father = schweinfurt7
+	994.1.1 = {
+		birth = yes
+		give_nickname = nick_the_white
+	}
+	1057.9.28 = {
+		death = yes
+	}
+}
+
+schweinfurt2 = {
+	name = "Bertha" #wife of Hermann II of Kastl, wife of Friedrich I of Kastl
+	female = yes
+	dynasty_house = house_schweinfurt
+	religion = catholic
+	culture = swabian
+	father = schweinfurt1
+	1025.1.1 = { #fic
+		birth = yes
+	}
+	1103.4.1 = {
+		death = yes
+	}
+}
+
+schweinfurt3 = {
+	name = "Gisela" #wife of Arnold of Andechs
+	female = yes
+	dynasty_house = house_schweinfurt
+	religion = catholic
+	culture = swabian
+	father = schweinfurt1
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1100.2.22 = {
+		death = yes
+	}
+}
+
+schweinfurt4 = {
+	name = "Judith" #wife of Konrad I of Bavaria, wife of Botho of Pottenstein
+	female = yes
+	dynasty_house = house_schweinfurt
+	religion = catholic
+	culture = swabian
+	father = schweinfurt1
+	1033.1.1 = { #fic
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
+
+schweinfurt5 = {
+	name = "Eilika" #nun
+	female = yes
+	dynasty_house = house_schweinfurt
+	religion = catholic
+	culture = swabian
+	trait = devoted
+	father = schweinfurt1
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1090.1.1 = { #fic
+		death = yes
+	}
+}
+
+schweinfurt6 = {
+	name = "Beatrix" #wife of Heinrich II of Nordgau
+	female = yes
+	dynasty_house = house_schweinfurt
+	religion = catholic
+	culture = swabian
+	father = schweinfurt1
+	1040.1.1 = {
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
+
+schweinfurt7 = {
+	name = "Heinrich" #Heinrich of Schweinfurt
+	dynasty_house = house_schweinfurt
+	religion = catholic
+	culture = swabian
+	father = schweinfurt12
+	969.1.1 = { #est
+		birth = yes
+	}
+	1017.9.18 = {
+		death = yes
+	}
+}
+
+schweinfurt8 = {
+	name = "Eilika" #wife of Bernhard II of Saxony
+	female = yes
+	dynasty_house = house_schweinfurt
+	religion = catholic
+	culture = swabian
+	father = schweinfurt7
+	1004.1.1 = { #est
+		birth = yes
+	}
+	1059.12.10 = {
+		death = yes
+	}
+}
+
+schweinfurt9 = {
+	name = "Burkhard" #bishop of Halberstadt
+	dynasty_house = house_schweinfurt
+	religion = catholic
+	culture = swabian
+	father = schweinfurt7
+	1001.1.1 = { #est
+		birth = yes
+	}
+	1059.10.18 = {
+		death = yes
+	}
+}
+
+schweinfurt10 = {
+	name = "Heinrich" #could be progenitor of the counts of Lechsgemünd
+	dynasty_house = house_schweinfurt
+	religion = catholic
+	culture = swabian
+	father = schweinfurt7 #debated
+	1007.1.1 = { #fic
+		birth = yes
+	}
+	1045.1.1 = { #fic
+		death = yes
+	}
+}
+
+schweinfurt11 = {
+	name = "Judith" #wife of Bretislaus I of Bohemia
+	female = yes
+	dynasty_house = house_schweinfurt
+	religion = catholic
+	culture = swabian
+	father = schweinfurt7
+	999.1.1 = { #est
+		birth = yes
+	}
+	1058.8.2 = {
+		death = yes
+	}
+}
+
+schweinfurt12 = {
+	name = "Berthold" # Berthold I of Schweinfurt
+	dynasty_house = house_schweinfurt
+	religion = catholic
+	culture = swabian
+	father = luitpolding1
+	937.1.1 = { #est
+		birth = yes
+	}
+	980.1.15 = {
+		death = yes
+	}
+}

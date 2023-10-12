@@ -1,4 +1,4 @@
-wertheim1 = {
+﻿wertheim1 = {
 	name = "Bruno" # Bruno I of Wertheim
 	dynasty = 249
 	religion = catholic
@@ -7,6 +7,20 @@ wertheim1 = {
 		birth = yes
 	}
 	1088.1.1 = {
+		death = yes
+	}
+}
+
+wertheim2 = {
+	name = "Wolfram" # Wolfram I of Wertheim
+	dynasty = 249
+	religion = catholic
+	culture = franconian
+	father = wertheim1
+	1053.1.1 = { #fic
+		birth = yes
+	}
+	1116.1.1 = {
 		death = yes
 	}
 }

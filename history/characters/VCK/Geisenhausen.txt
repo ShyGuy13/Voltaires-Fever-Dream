@@ -1,0 +1,33 @@
+﻿geisenhausen1 = {
+	name = "Heinrich" # bishop of Augsburg
+	dynasty = 308
+	religion = catholic
+	culture = bavarian
+	father = geisenhausen2
+	mother = luitpolding2
+	952.1.1 = { #fic
+		birth = yes
+	}
+	982.7.13 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+geisenhausen2 = {
+	name = "Burkhard"
+	dynasty = 308
+	religion = catholic
+	culture = bavarian
+	#unknown parents
+	918.1.1 = { #fic
+		birth = yes
+	}
+	952.1.1 = { #fic
+		add_spouse = luitpolding2
+	}
+	973.1.1 = { #est
+		death = yes
+	}
+}

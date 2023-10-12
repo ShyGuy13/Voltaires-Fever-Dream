@@ -1,7 +1,7 @@
 ﻿azzoning1 = {
 	name = "Trasmondo" # Trasmondo III of Fermo
 	dynasty = 57
-	culture = langobardic
+	culture = langobard
 	religion = catholic
 	1011.1.1 = {
 		birth = yes

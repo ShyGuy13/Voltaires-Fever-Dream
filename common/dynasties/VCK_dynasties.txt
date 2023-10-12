@@ -8,9 +8,7 @@
 	culture = austrian
 }
 3 = {
-	prefix = "dynnp_von"
-	name = "dynn_Babenberg"
-	culture = austrian
+	#free
 }
 4 = {
 	prefix = "dynnp_von"
@@ -41,9 +39,9 @@
 	culture = slovenian
 }
 10 = {
-	prefix = "dynnp_von"
-	name = "dynn_Raabs"
-	culture = franconian
+	prefix = "dynnp_de"
+	name = "dynn_Boulogne"
+	culture = picard
 }
 11 = {
 	prefix = "dynnp_von"
@@ -494,9 +492,7 @@
 	culture = thuringian
 }
 103 = {
-	prefix = "dynnp_von"
-	name = "dynn_Arnstein"
-	culture = thuringian
+	#free
 }
 104 = {
 	prefix = "dynnp_von"
@@ -566,7 +562,7 @@
 }
 119 = {
 	name = "dynn_Attoning"
-	culture = italian
+	culture = tuscan
 }
 120 = {
 	name = "dynn_Wigeriching"
@@ -873,7 +869,9 @@
 	culture = moselle_franconian
 }
 183 = {
-	#free
+	prefix = "dynnp_von"
+	name = "dynn_Perg"
+	culture = austrian
 }
 184 = {
 	prefix = "dynnp_von"
@@ -1139,15 +1137,15 @@
 239 = {
 	prefix = "dynnp_degli"
 	name = "dynn_Alberti"
-	culture = italian
+	culture = tuscan
 }
 240 = {
 	name = "dynn_Cadoling"
-	culture = italian
+	culture = tuscan
 }
 241 = {
 	name = "dynn_Oberting"
-	culture = italian
+	culture = tuscan
 }
 242 = {
 	prefix = "dynnp_von"
@@ -1320,7 +1318,7 @@
 }
 280 = {
 	prefix = "dynnp_von"
-	name = "dynn_Dewin"
+	name = "dynn_Doben"
 	culture = saxon
 }
 281 = {
@@ -1333,16 +1331,16 @@
 }
 283 = {
 	name = "dynn_Orlandi"
-	culture = italian
+	culture = tuscan
 }
 284 = {
 	name = "dynn_Aldobrandeschi"
-	culture = italian
+	culture = tuscan
 }
 285 = {
 	prefix = "dynnp_di"
 	name = "dynn_Tuscolo"
-	culture = italian
+	culture = tuscan
 }
 286 = {
 	name = "dynn_Farolfing"
@@ -1443,41 +1441,56 @@
 	culture = low_elbish
 }
 307 = {
-	
+	name = "dynn_Rolloning"
+	culture = norman
 }
 308 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Geisenhausen"
+	culture = bavarian
 }
 309 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Walbeck"
+	culture = central_margravian
 }
 310 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Hohenlohe"
+	culture = franconian
 }
 311 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Kastl"
+	culture = bavarian
 }
 312 = {
+	prefix = "dynnp_von"
+	name = "dynn_Stahleck"
+	culture = franconian
+}
+313 = {
+	prefix = "dynnp_von"
+	name = "dynn_Veltheim"
+	culture = central_margravian
+}
+314 = {
+	prefix = "dynnp_von"
+	name = "dynn_Cappenberg"
+	culture = eastphalian
+}
+315 = {
 	
 }
-# 313 = {
+316 = {
 	
-# }
-# 314 = {
+}
+317 = {
 	
-# }
-# 315 = {
+}
+318 = {
 	
-# }
-# 316 = {
-	
-# }
-# 317 = {
-	
-# }
-# 318 = {
-	
-# }
+}
 # 319 = {
 	
 # }

@@ -94,7 +94,7 @@ d_bm_regensburg = {
 d_bm_halberstadt = {
 	1000.1.1 = { government = theocracy_government }
 	1035.8.23 = {
-		holder = luitpolding9 # Burkhard I
+		holder = schweinfurt9 # Burkhard I
 	}
 }
 
@@ -108,7 +108,7 @@ d_bm_passau = {
 d_bm_bamberg = {
 	1007.11.1 = {
 		government = theocracy_government
-		holder = abenberg6 # Eberhard
+		holder = welf9 # Eberhard
 	}
 	1053.1.2 = {
 		holder = eppenstein5
@@ -125,7 +125,7 @@ d_bm_wurzburg = {
 d_bm_augsburg = {
 	300.1.1 = { government = theocracy_government }
 	973.1.1 = {
-		holder = augsburg_heinrich_1 # Heinrich I
+		holder = geisenhausen1 # Heinrich I
 	}
 	#982.7.13 = {
 	#

@@ -9,14 +9,12 @@
 #Dynasties
  dynn_Eppenstein: "Eppenstein"
  dynn_Meinharding: "Meinharding"
- dynn_Babenberg: "Babenberg"
  dynn_Weimar: "Weimar"
  dynn_Formbach: "Formbach"
  dynn_Julbach: "Julbach"
  dynn_Hrabisici: "Hrabišici"
  dynn_Tirol: "Tirol"
  dynn_Askuining: "Askuining"
- dynn_Raabs: "Raabs"
  dynn_Scheyern: "Scheyern"
  dynn_Ariboning: "Ariboning"
  dynn_Siegharding: "Siegharding"
@@ -108,7 +106,6 @@
  dynn_Schwarzburg: "Schwarzburg"
  dynn_Gleichen: "Gleichen"
  dynn_Wettin: "Wettin"
- dynn_Arnstein: "Arnstein"
  dynn_Hohnstein: "Hohnstein"
  dynn_Lobdeburg: "Lobdeburg"
  dynn_Mansfeld: "Mansfeld"
@@ -285,7 +282,7 @@
  dynn_Calvelage: "Calvelage"
  dynn_Spinola: "Spinola"
  dynn_Friemersheim: "Friemersheim"
- dynn_Dewin: "Dewin"
+ dynn_Doben: "Döben"
  dynn_Piast: "Piast"
  dynn_Gerolding: "Gerolding"
  dynn_Orlandi: "Orlandi"
@@ -330,6 +327,11 @@
  dynn_Buchhorn: "Buchhorn"
  dynn_Pfullendorf: "Pfullendorf"
  dynn_Ortenburg: "Ortenburg"
+ dynn_Raabs: "Raabs"
+ dynn_Schweinfurt: "Schweinfurt"
+ dynn_Babenberg: "Babenberg"
+ dynn_Ebersberg: "Ebersberg"
+ dynn_Arnstein: "Arnstein"
 #Cultures
 #Central Germanic
 #North Germanic

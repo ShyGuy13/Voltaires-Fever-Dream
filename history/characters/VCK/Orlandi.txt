@@ -2,7 +2,7 @@ orlandi1 = {
 	name = "Otto" # Giovanni of Pisa
 	dynasty = 283
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1026.1.1 = { #fic
 		birth = yes
 	}

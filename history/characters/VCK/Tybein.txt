@@ -1,5 +1,5 @@
 ﻿tybein1 = {
-	name = "Adalgero" # Adalgero I of Trieste
+	name = "Adalgero" # Adalgero I of Duino
 	dynasty = 91
 	culture = venetian
 	religion = catholic

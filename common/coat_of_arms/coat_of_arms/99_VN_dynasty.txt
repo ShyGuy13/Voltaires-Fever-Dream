@@ -21,7 +21,6 @@
 
 2 = c_gorz # Meinharding
 
-3 = d_osterreich # Babenberg
 
 4 = b_weimar # Weimar
 
@@ -51,7 +50,7 @@
 	color3 = red
 }
 
-10 = c_raabs # Raabs
+10 = c_boulogne # Boulogne
 
 11 = c_scheyern # Scheyern
 
@@ -393,7 +392,7 @@
 
 90 = c_sulzbach # Sulzbach
 
-91 = b_duino # Tybein
+91 = c_duino # Tybein
 
 92 = c_gruyere # Gruyerè
 
@@ -453,7 +452,6 @@
 
 102 = c_wettin # Wettin
 
-103 = c_arnstein # Arnstein
 
 104 = c_hohnstein # Hohnstein
 
@@ -503,22 +501,7 @@
 	}
 }
 
-114 = { # Supponing
-	pattern = "pattern_solid.dds"	
-	color1 = "red"	
-	color2 = "white"
-	colored_emblem = {
-		texture = "ce_checkers_08.dds"
-		color1 = "white"
-		color2 = "red"
-		instance = { position = { 0.5 0.5 } scale = { 2.0 1.0 }  }		
-	}
-	colored_emblem = {
-		texture = "ce_border_shield.dds"
-		color1 = "blue"
-		instance = { position = { 0.5 0.5 } scale = { 1.11 1.11 }  }		
-	}	
-}
+114 = c_seprio
 
 # 115 Oberting
 
@@ -1516,7 +1499,18 @@
 	}
 }
 
-# 280 # Dewin
+280 = { # Döben
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_quarterly.dds"
+		color1 = "blue"
+		color2 = "white"
+		instance = { position = { 0.5 0.25 } scale = { 1.0 0.5 }  }	
+		instance = { position = { 0.5 0.75 } scale = { 1.0 0.5 }  }		
+	}
+}
 
 281 = { # Piast
 	pattern = "pattern_solid.dds"
@@ -1657,6 +1651,44 @@
 304 = c_schwarzenberg # Seinsheim
 
 305 = c_schauenburg # Schauenburg
+
+313 = { # Veltheim
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_ordinary_fess_5.dds"
+		color1 = "black"
+		color2 = "black"
+		instance = { position = { 0.5 0.45 } scale = { 1.0 1.4 }  }
+	}
+	colored_emblem = {
+		texture = "ce_block_04.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.395 } scale = { 1.0 0.5 }  }
+		instance = { position = { 0.5 0.505 } scale = { 1.0 0.5 }  }
+	}
+}
+
+coa_title_3721={
+	custom=yes
+	pattern="pattern_horizontal_stripes_01.dds"
+	color1=black
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=white
+		texture="ce_fleur.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
+
+}
+
+
 
 # 2 = { #Heeckeren
 # 	pattern = "pattern_cross_01.dds"
@@ -2318,3 +2350,27 @@ house_buchhorn = c_tettnang # Buchhorn
 house_pfullendorf = c_pfullendorf # Pfullendorf
 
 house_ortenburg = c_spittal # Ortenburg
+
+house_raabs = c_raabs # Raabs
+
+house_babenberg = d_osterreich # Babenberg
+
+house_ebersberg = { # Ebersberg 
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"	
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_fess_checky.dds"
+		color1 = "white"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+	colored_emblem = {
+		texture = "ce_fess_checky.dds"
+		color1 = "red"
+		color2 = "white"
+		instance = { position = { 0.5 0.38 } scale = { 1.0 1.0 }  }
+	}
+}
+
+house_arnstein = c_arnstein # Arnstein

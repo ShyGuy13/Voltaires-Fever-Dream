@@ -35,7 +35,7 @@ ekkeharding3 = {
 	religion = catholic
 	culture = thuringian
 	father = ekkeharding2
-	980.1.1 = {
+	977.1.1 = { #est
 		birth = yes
 	}
 	1038.11.1 = {
@@ -108,6 +108,79 @@ ekkeharding8 = {
 		birth = yes
 	}
 	938.1.1 = { #fic
+		death = yes
+	}
+}
+
+ekkeharding9 = {
+	name = "Luitgard" # wife of Werner of Walbeck
+	female = yes
+	dynasty = 275
+	religion = catholic
+	culture = thuringian
+	father = ekkeharding2
+	983.1.1 = { #est
+		birth = yes
+	}
+	1012.11.13 = {
+		death = yes
+	}
+}
+
+ekkeharding10 = {
+	name = "Gunther" # bishop of Salzburg
+	dynasty = 275
+	religion = catholic
+	culture = thuringian
+	father = ekkeharding2
+	979.1.1 = { #est
+		birth = yes
+	}
+	1025.11.1 = {
+		death = yes
+	}
+}
+
+ekkeharding11 = {
+	name = "Eilward" # bishop of Salzburg
+	dynasty = 275
+	religion = catholic
+	culture = thuringian
+	father = ekkeharding2
+	988.1.1 = { #fic
+		birth = yes
+	}
+	1023.11.24 = {
+		death = yes
+	}
+}
+
+ekkeharding12 = {
+	name = "Mathilde" # wife of Dietrich II of Wettin
+	female = yes
+	dynasty = 275
+	religion = catholic
+	culture = thuringian
+	father = ekkeharding2
+	992.1.1 = { #fic
+		birth = yes
+	}
+	1045.1.1 = { #fic
+		death = yes
+	}
+}
+
+ekkeharding13 = {
+	name = "Oda" # wife of Boleslav I of Poland
+	female = yes
+	dynasty = 275
+	religion = catholic
+	culture = thuringian
+	father = ekkeharding2
+	995.1.1 = { #est
+		birth = yes
+	}
+	1018.10.31 = {
 		death = yes
 	}
 }

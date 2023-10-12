@@ -1,174 +1,239 @@
 ﻿luitpolding1 = {
-	name = "Otto" #Otto III of Swabia
+	name = "Arnulf" # Arnulf I of Bavaria
 	dynasty = 63
 	religion = catholic
-	culture = swabian
-	father = luitpolding7
-	994.1.1 = {
+	culture = bavarian
+	father = luitpolding13
+	885.1.1 = { #est
 		birth = yes
-		give_nickname = nick_the_white
+		give_nickname = nick_the_evil
 	}
-	1057.9.28 = {
+	937.7.14 = {
 		death = yes
 	}
 }
 
 luitpolding2 = {
-	name = "Alberada"
+	name = "Adelheid" # wife of Burkhard of Geisenhausen
 	female = yes
 	dynasty = 63
 	religion = catholic
-	culture = swabian
+	culture = bavarian
 	father = luitpolding1
-	1025.1.1 = { #fic
+	933.1.1 = { #fic
 		birth = yes
 	}
-	1103.4.1 = {
+	981.1.1 = { #fic
 		death = yes
 	}
 }
 
 luitpolding3 = {
-	name = "Gisela" #wife of Arnold of Andechs
-	female = yes
+	name = "Eberhard" # wife of Burkhard of Geisenhausen
 	dynasty = 63
 	religion = catholic
-	culture = swabian
+	culture = bavarian
 	father = luitpolding1
-	1030.1.1 = { #fic
+	912.1.1 = { #est
 		birth = yes
 	}
-	1100.2.22 = {
+	940.1.1 = { #est
 		death = yes
 	}
 }
 
 luitpolding4 = {
-	name = "Judith"
-	female = yes
+	name = "Wigfried" # bishop of Verdun
 	dynasty = 63
 	religion = catholic
-	culture = swabian
-	father = luitpolding1
-	1033.1.1 = { #fic
+	culture = bavarian
+	father = luitpolding3
+	929.1.1 = { #est
 		birth = yes
 	}
-	1104.1.1 = {
+	983.8.31 = {
 		death = yes
 	}
 }
 
 luitpolding5 = {
-	name = "Eilika"
+	name = "Wigburg" # wife of Pilgrim Pilgriming & Hartwig I of Bavaria
 	female = yes
 	dynasty = 63
 	religion = catholic
-	culture = swabian
-	father = luitpolding1
-	1035.1.1 = { #fic
+	culture = bavarian
+	father = luitpolding3
+	938.1.1 = { #est
 		birth = yes
 	}
-	1090.1.1 = { #fic
+	981.1.1 = { #est
 		death = yes
 	}
 }
 
 luitpolding6 = {
-	name = "Beatrix"
-	female = yes
+	name = "Arnulf" # Arnulf II of Bavaria
 	dynasty = 63
 	religion = catholic
-	culture = swabian
+	culture = bavarian
 	father = luitpolding1
-	1040.1.1 = {
+	913.1.1 = { #est
 		birth = yes
 	}
-	1104.1.1 = {
-		death = yes
+	954.7.22 = {
+		death = {
+			death_reason = death_siege
+			#killer = Dietpold von Dillingen
+		}
 	}
 }
 
 luitpolding7 = {
-	name = "Heinrich" #Heinrich of Schweinfurt
+	name = "Berthold" # Berthold von Reisensburg
 	dynasty = 63
 	religion = catholic
-	culture = swabian
-	father = luitpolding12
-	969.1.1 = { #est
+	culture = bavarian
+	father = luitpolding6
+	945.1.1 = { #fic
 		birth = yes
 	}
-	1017.9.18 = {
+	999.8.26 = {
 		death = yes
 	}
 }
 
 luitpolding8 = {
-	name = "Eilika" #wife of Bernhard II of Saxony
-	female = yes
+	name = "Walburga" # unknown name, wife of Meginhard I of Mangfall
 	dynasty = 63
 	religion = catholic
-	culture = swabian
-	father = luitpolding7
-	1004.1.1 = { #est
+	culture = bavarian
+	father = luitpolding6
+	948.1.1 = { #fic
 		birth = yes
 	}
-	1059.12.10 = {
+	987.1.1 = { #est
 		death = yes
 	}
 }
 
 luitpolding9 = {
-	name = "Burkhard" #bishop of Halberstadt
+	name = "Hermann" # 
 	dynasty = 63
 	religion = catholic
-	culture = swabian
-	father = luitpolding7
-	1001.1.1 = { #est
+	culture = bavarian
+	father = luitpolding1
+	919.1.1 = { #fic
 		birth = yes
 	}
-	1059.10.18 = {
-		death = yes
+	954.7.22 = {
+		death = {
+			death_reason = death_dungeon_passive
+			#killer = Dietpold von Dillingen
+		}
 	}
 }
 
 luitpolding10 = {
-	name = "Heinrich" #could be progenitor of the counts of Lechsgemünd
+	name = "Heinrich" # 
 	dynasty = 63
 	religion = catholic
-	culture = swabian
-	father = luitpolding7 #debated
-	1007.1.1 = { #fic
+	culture = bavarian
+	father = luitpolding1
+	922.1.1 = { #fic
 		birth = yes
 	}
-	1045.1.1 = { #fic
+	929.1.1 = { #fic
 		death = yes
 	}
 }
 
 luitpolding11 = {
-	name = "Judith" #wife of Bretislaus I of Bohemia
+	name = "Judith" # wife of Heinrich I of Bavaria
 	female = yes
 	dynasty = 63
 	religion = catholic
-	culture = swabian
-	father = luitpolding7
-	999.1.1 = { #est
+	culture = bavarian
+	father = luitpolding1
+	925.1.1 = { #est
 		birth = yes
 	}
-	1058.8.2 = {
+	974.1.1 = {
+		trait = devoted
+	}
+	984.7.29 = {
 		death = yes
 	}
 }
 
 luitpolding12 = {
-	name = "Berthold" # Berthold I of Schweinfurt
+	name = "Ludwig"
 	dynasty = 63
 	religion = catholic
-	culture = swabian
-	915.1.1 = { #est
+	culture = bavarian
+	father = luitpolding1
+	931.1.1 = { #est
 		birth = yes
 	}
-	980.1.15 = {
+	974.1.1 = {
+		death = yes
+	}
+}
+
+luitpolding13 = {
+	name = "Luitpold"
+	dynasty = 63
+	religion = catholic
+	culture = bavarian
+	860.1.1 = { #est
+		birth = yes
+	}
+	907.7.4 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+luitpolding14 = {
+	name = "Berthold"
+	dynasty = 63
+	religion = catholic
+	culture = bavarian
+	father = luitpolding13
+	897.1.1 = { #est
+		birth = yes
+	}
+	947.11.23 = {
+		death = yes
+	}
+}
+
+luitpolding15 = {
+	name = "Heinrich" # Heinrich III of Bavaria
+	dynasty = 63
+	religion = catholic
+	culture = bavarian
+	father = luitpolding14
+	943.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_younger
+	}
+	989.10.5 = {
+		death = yes
+	}
+}
+
+luitpolding16 = {
+	name = "Kunigunde" # wife of Ulrich III of Schweinach & Rottgau
+	female = yes
+	dynasty = 63
+	religion = catholic
+	culture = bavarian
+	father = luitpolding14
+	946.1.1 = { #fic
+		birth = yes
+	}
+	1002.1.1 = { #fic
 		death = yes
 	}
 }

@@ -3,6 +3,7 @@
 	dynasty = 15
 	religion = catholic
 	culture = bavarian
+	father = pilgriming5
 	1015.1.1 = {
 		birth = yes
 	}
@@ -45,7 +46,7 @@ pilgriming3 = {
 	}
 }
 
-pilgriming1 = {
+pilgriming4 = {
 	name = "Poppo" #bishop of Brixen & Pope Damasus II
 	dynasty = 15
 	martial = 6
@@ -58,7 +59,8 @@ pilgriming1 = {
 	trait = calm
 	trait = zealous
 	trait = education_diplomacy_3
-	980.1.1 = { #fic
+	father = pilgriming5
+	1019.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_bavarian
 	}
@@ -69,5 +71,116 @@ pilgriming1 = {
 		death = {
 			death_reason = death_ill
 		}
+	}
+}
+
+pilgriming5 = {
+	name = "Poppo" #Poppo II of Rott
+	dynasty = 15
+	religion = catholic
+	culture = bavarian
+	father = pilgriming6
+	991.1.1 = { #est
+		birth = yes
+	}
+	1040.1.1 = { #est
+		death = yes
+	}
+}
+
+pilgriming6 = {
+	name = "Poppo" #Poppo I of Rott
+	dynasty = 15
+	religion = catholic
+	culture = bavarian
+	father = pilgriming7
+	943.1.1 = { #fic
+		birth = yes
+	}
+	980.1.1 = { #est
+		death = yes
+	}
+}
+
+pilgriming7 = {
+	name = "Pilgrim" # Pilgrim of Sempt
+	dynasty = 15
+	religion = catholic
+	culture = bavarian
+	895.1.1 = { #est
+		birth = yes
+	}
+	950.1.1 = { #est
+		death = yes
+	}
+}
+
+pilgriming8 = {
+	name = "Pilgrim" #
+	dynasty = 15
+	religion = catholic
+	culture = bavarian
+	father = pilgriming5
+	1023.1.1 = { #fic
+		birth = yes
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+
+pilgriming9 = {
+	name = "Poppo" #
+	dynasty = 15
+	religion = catholic
+	culture = bavarian
+	father = pilgriming8
+	1048.1.1 = { #fic
+		birth = yes
+	}
+	1077.1.1 = { #est
+		death = yes
+	}
+}
+
+pilgriming10 = {
+	name = "Pilgrim" #
+	dynasty = 15
+	religion = catholic
+	culture = bavarian
+	father = pilgriming6
+	996.1.1 = { #fic
+		birth = yes
+	}
+	1039.12.24 = {
+		death = yes
+	}
+}
+
+pilgriming11 = {
+	name = "Pilgrim" #
+	dynasty = 15
+	religion = catholic
+	culture = bavarian
+	father = pilgriming10
+	1013.1.1 = { #fic
+		birth = yes
+	}
+	1037.12.30 = {
+		death = yes
+	}
+}
+
+pilgriming12 = {
+	name = "Meginhard" #Meginhard I of Gilching
+	dynasty = 15
+	religion = catholic
+	culture = bavarian
+	father = pilgriming7
+	920.1.1 = { #est
+		birth = yes
+	}
+	987.1.1 = { #est
+		death = yes
 	}
 }

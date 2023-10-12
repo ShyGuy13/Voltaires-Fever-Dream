@@ -1,10 +1,13 @@
 ﻿limburg1 = {
-	name = "Waleran" # Waleran I of Limburg
+	name = "Waleran" # Waleran I of Limburg & Arlon
 	dynasty = 212
 	religion = catholic
 	culture = brabantian
 	1031.1.1 = { #fic
 		birth = yes
+	}
+	1054.1.1 = { #fic
+		add_spouse = luxemburg15 # Jutta of Luxemburg
 	}
 	1082.1.1 = {
 		death = yes

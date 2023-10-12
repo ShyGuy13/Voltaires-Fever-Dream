@@ -1,0 +1,40 @@
+﻿perg1 = {
+	name = "Pero" #Pero von Pergkirchen
+	dynasty = 183
+	religion = catholic
+	culture = austrian
+	996.1.1 = { #fic
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+
+perg2 = {
+	name = "Rudolf" # Rudolf I. von Perg
+	dynasty = 183
+	religion = catholic
+	culture = austrian
+	father = perg1
+	1035.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+
+perg3 = {
+	name = "Walchun" # Walchun I. von Perg
+	dynasty = 183
+	religion = catholic
+	culture = austrian
+	father = perg1
+	1050.1.1 = {
+		birth = yes
+	}
+	1114.1.1 = {
+		death = yes
+	}
+}

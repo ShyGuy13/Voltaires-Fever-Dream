@@ -35,6 +35,9 @@ luxemburg3 = {
 	1003.1.1 = { #est
 		birth = yes
 	}
+	1040.1.1 = { #fic
+		add_spouse = boulogne6 # Ida of Boulogne
+	}
 	1050.1.1 = { #fic
 		add_spouse = billung5 # Ida Billung
 	}
@@ -150,7 +153,7 @@ luxemburg11 = {
 	religion = catholic
 	culture = moselle_franconian
 	father = luxemburg5
-	1000.1.1 = {
+	989.1.1 = { #est
 		birth = yes
 	}
 	1055.8.2 = {
@@ -209,6 +212,7 @@ luxemburg15 = {
 	religion = catholic
 	culture = moselle_franconian
 	father = luxemburg3
+	mother = boulogne6
 	1040.1.1 = { #fic
 		birth = yes
 	}

@@ -1,4 +1,4 @@
-dewin1 = {
+﻿doben1 = {
 	name = "Tammo" # Tammo I of Grimma
 	dynasty = 280
 	religion = catholic

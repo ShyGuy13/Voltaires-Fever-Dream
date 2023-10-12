@@ -1,0 +1,343 @@
+﻿walbeck1 = {
+	name = "Lothar" #Lothar I of Walbeck
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	#unknown parents
+	867.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_older
+	}
+	#unknown spouse
+	929.9.5 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+walbeck2 = {
+	name = "Lothar" #Lothar II of Walbeck
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck1
+	#unknown mom
+	898.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_younger
+	}
+	#spouse = Mathilde of Arneburg
+	964.1.21 = {
+		death = yes
+	}
+}
+
+walbeck3 = {
+	name = "Isolde" #fictional name, wife of Dietrich of Haldensleben
+	female = yes
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck1
+	#unknown mom
+	898.1.1 = { #est
+		birth = yes
+	}
+	964.1.21 = {
+		death = yes
+	}
+}
+
+walbeck4 = {
+	name = "Lothar" #Lothar III of Walbeck
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck2
+	#mother = Mathilde of Arneburg
+	942.1.1 = { #est
+		birth = yes
+	}
+	1003.1.25 = {
+		death = yes
+	}
+}
+
+walbeck5 = {
+	name = "Eilika" # wife of Berthold of Nordgau
+	female = yes
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck2
+	#mother = Mathilde of Arneburg
+	938.1.1 = { #est
+		birth = yes
+	}
+	1015.8.19 = {
+		death = yes
+	}
+}
+
+walbeck6 = {
+	name = "Siegfried"
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck2
+	#mother = Mathilde of Arneburg
+	946.1.1 = { #est
+		birth = yes
+	}
+	991.3.15 = {
+		death = yes
+	}
+}
+
+walbeck7 = {
+	name = "Heinrich"
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck2
+	#mother = Mathilde of Arneburg
+	951.1.1 = { #fic
+		birth = yes
+	}
+	962.1.1 = { #fic
+		death = yes
+	}
+}
+
+walbeck8 = {
+	name = "Dietmar" # monk
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	trait = devoted
+	father = walbeck2
+	#mother = Mathilde of Arneburg
+	953.1.1 = { #fic
+		birth = yes
+	}
+	1001.3.12 = {
+		death = yes
+	}
+}
+
+walbeck9 = {
+	name = "Heinrich" # 
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck6
+	#mother = Kunigunde von Stade
+	972.1.1 = { #est
+		birth = yes
+	}
+	1002.11.25 = {
+		death = yes
+	}
+}
+
+walbeck10 = {
+	name = "Friedrich" # 
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck6
+	#mother = Kunigunde von Stade
+	974.1.1 = { #est
+		birth = yes
+	}
+	1028.1.1 = { #fic
+		death = yes
+	}
+}
+
+walbeck11 = {
+	name = "Dietmar" # bishop of Merseburg
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck6
+	#mother = Kunigunde von Stade
+	976.7.25 = {
+		birth = yes
+	}
+	1018.12.1 = {
+		death = yes
+	}
+}
+
+walbeck12 = {
+	name = "Siegfried" # bishop of Münster
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck6
+	#mother = Kunigunde von Stade
+	983.1.1 = { #fic
+		birth = yes
+	}
+	1032.11.27 = {
+		death = yes
+	}
+}
+
+walbeck13 = {
+	name = "Bruno" # bishop of Verden
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck6
+	#mother = Kunigunde von Stade
+	987.1.1 = { #fic
+		birth = yes
+	}
+	1049.8.21 = {
+		death = yes
+	}
+}
+
+walbeck14 = {
+	name = "Konrad" # 
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck10
+	#mother = Thietberga
+	1004.1.1 = { #fic
+		birth = yes
+	}
+	1062.1.1 = { #fic
+		death = yes
+	}
+}
+
+walbeck15 = {
+	name = "Mathilde" # wife of Dietrich von Plötzkau
+	female = yes
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck14
+	#mother = Thietberga
+	1044.1.1 = { #fic
+		birth = yes
+	}
+	1102.1.1 = { #fic
+		death = yes
+	}
+}
+
+walbeck16 = {
+	name = "Werner" # 
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck4
+	#mother = 
+	982.1.1 = { #est
+		birth = yes
+	}
+	1014.11.11 = {
+		death = yes
+	}
+}
+
+walbeck17 = {
+	name = "Lothar" # Lothar IV
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck4
+	#mother = 
+	987.1.1 = { #est
+		birth = yes
+	}
+	1033.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+walbeck18 = {
+	name = "Berthold" # 
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck4
+	#mother = 
+	993.1.1 = { #fic
+		birth = yes
+	}
+	1018.1.1 = { #fic
+		death = yes
+	}
+}
+
+walbeck19 = {
+	name = "Dietrich" # 
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	trait = devoted
+	father = walbeck4
+	#mother = 
+	997.1.1 = { #fic
+		birth = yes
+	}
+	1059.1.1 = { #fic
+		death = yes
+	}
+}
+
+walbeck20 = {
+	name = "Brigitte" # nun
+	female = yes
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	trait = devoted
+	father = walbeck4
+	#mother = 
+	1001.1.1 = { #fic
+		birth = yes
+	}
+	1066.1.1 = { #fic
+		death = yes
+	}
+}
+
+walbeck21 = {
+	name = "Siegfried" # 
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck16
+	#mother = 
+	1008.1.1 = { #est
+		birth = yes
+	}
+	1087.1.1 = { #est
+		death = yes
+	}
+}
+
+walbeck22 = {
+	name = "Bernhard" # 
+	dynasty = 309
+	culture = central_margravian
+	religion = catholic
+	father = walbeck16
+	#mother = 
+	1011.1.1 = { #est
+		birth = yes
+	}
+	1069.1.1 = { #est
+		death = yes
+	}
+}

@@ -1,14 +1,14 @@
-veltheim1 = {
+﻿veltheim1 = {
 	name = "Adalgot" # Adalgot of Veltheim
 	dynasty = 313
 	religion = catholic
-	culture = central_margraviane
-  father = veltheim2
-  #mother = Engela of Steußlingen
+	culture = central_margravian
+  	father = veltheim2
+  	mother = steusslingen7
 	1024.1.1 = { #fic
 		birth = yes
 	}
-  #unknown wife
+  	#unknown wife
 	1083.1.1 = { #fic
 		death = yes
 	}
@@ -18,12 +18,14 @@ veltheim2 = {
 	name = "Eberhard" # fictional character to connect the brothers
 	dynasty = 313
 	religion = catholic
-	culture = central_margraviane
-  #unknown parents
+	culture = central_margravian
+  	#unknown parents
 	998.1.1 = { #fic
 		birth = yes
 	}
-  #spouse = Engela of Steußlingen
+  	1028.1.1 = { #fic
+		add_spouse = steusslingen7 # Engela
+	}
 	1037.1.1 = { #fic
 		death = yes
 	}
@@ -33,9 +35,9 @@ veltheim3 = {
 	name = "Burkhard" # bishop of Halberstadt
 	dynasty = 313
 	religion = catholic
-	culture = central_margraviane
-  father = veltheim2
-  #mother = Engela of Steußlingen
+	culture = central_margravian
+  	father = veltheim2
+  	mother = steusslingen7
 	1028.1.1 = {
 		birth = yes
 	}
@@ -48,9 +50,9 @@ veltheim4 = {
 	name = "Lantfried" # 
 	dynasty = 313
 	religion = catholic
-	culture = central_margraviane
-  father = veltheim2
-  #mother = Engela of Steußlingen
+	culture = central_margravian
+  	father = veltheim2
+  	mother = steusslingen7
 	1032.1.1 = { #fic
 		birth = yes
 	}
@@ -63,16 +65,16 @@ veltheim5 = {
 	name = "Werner" # Werner I of Veltheim
 	dynasty = 313
 	religion = catholic
-	culture = central_margraviane
-  father = veltheim1
-  #unknown mom
+	culture = central_margravian
+  	father = veltheim1
+  	#unknown mom
 	1041.1.1 = { #fic
 		birth = yes
-    give_nickname = nick_the_older
+    	give_nickname = nick_the_older
 	}
-  1065.1.1 = { #fic
-    spouse = groitzsch6
-  }
+  	1065.1.1 = { #fic
+    	add_spouse = groitzsch6
+  	}
 	1089.1.1 = { #fic
 		death = yes
 	}

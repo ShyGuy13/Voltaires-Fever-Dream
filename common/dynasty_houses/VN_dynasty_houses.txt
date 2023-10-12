@@ -98,3 +98,28 @@ house_ortenburg = {
 	name = "dynn_Ortenburg"
 	dynasty = 17 # Hirschberg
 }
+house_raabs = {
+	prefix = "dynnp_von"
+	name = "dynn_Raabs"
+	dynasty = 26 # Diepolding
+}
+house_schweinfurt = {
+	prefix = "dynnp_von"
+	name = "dynn_Schweinfurt"
+	dynasty = 63 # Luitpolding
+}
+house_babenberg = {
+	prefix = "dynnp_von"
+	name = "dynn_Babenberg"
+	dynasty = 63 # Luitpolding
+}
+house_ebersberg = {
+	prefix = "dynnp_von"
+	name = "dynn_Ebersberg"
+	dynasty = 13 # Siegharding
+}
+house_arnstein = {
+	prefix = "dynnp_von"
+	name = "dynn_Arnstein"
+	dynasty = 247 # Steusslingen
+}

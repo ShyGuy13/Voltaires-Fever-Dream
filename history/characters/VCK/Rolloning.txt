@@ -1,0 +1,243 @@
+﻿rolloning1 = {
+	name = "Richard" #Richard II of Normandy
+	dynasty = 307
+	religion = catholic
+	culture = norman
+	963.1.1 = {
+		birth = yes
+		give_nickname = nick_the_good
+	}
+	1026.1.1 = {
+		death = yes
+	}
+}
+
+rolloning2 = {
+	name = "Richard" #Richard III of Normandy
+	dynasty = 307
+	religion = catholic
+	culture = norman
+	father = rolloning1
+	997.1.1 = { #est
+		birth = yes
+	}
+	1027.8.6 = {
+		death = yes
+	}
+}
+
+rolloning3 = {
+	name = "Robert" #Robert I of Normandy
+	dynasty = 307
+	religion = catholic
+	culture = norman
+	father = rolloning1
+	1000.6.22 = {
+		birth = yes
+		give_nickname = nick_the_magnificent
+	}
+	1035.7.22 = {
+		death = yes
+	}
+}
+
+rolloning4 = {
+	name = "Adélaïde" #wife of Reginald I of Burgundy
+	female = yes
+	dynasty = 307
+	religion = catholic
+	culture = norman
+	father = rolloning1
+	1002.1.1 = {
+		birth = yes
+	}
+	1038.1.1 = {
+		death = yes
+	}
+}
+
+rolloning5 = {
+	name = "Guillaume" #monk
+	dynasty = 307
+	religion = catholic
+	culture = norman
+	trait = devoted
+	father = rolloning1
+	1007.1.1 = {
+		birth = yes
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+
+rolloning6 = {
+	name = "Éléonore" #wife of Balduin IV of Flanders
+	female = yes
+	dynasty = 307
+	religion = catholic
+	culture = norman
+	father = rolloning1
+	1011.1.1 = {
+		birth = yes
+	}
+	1071.1.1 = {
+		death = yes
+	}
+}
+
+rolloning7 = {
+	name = "Matilda" #nun
+	female = yes
+	dynasty = 307
+	religion = catholic
+	culture = norman
+	trait = devoted
+	father = rolloning1
+	1013.1.1 = {
+		birth = yes
+	}
+	1033.1.1 = {
+		death = yes
+	}
+}
+
+rolloning8 = {
+	name = "Mauger" # bishop of Rouen
+	dynasty = 307
+	religion = catholic
+	culture = norman
+	father = rolloning1
+	1019.1.1 = {
+		birth = yes
+	}
+	1055.1.1 = {
+		death = {
+			death_reason = death_drowned
+		}
+	}
+}
+
+rolloning9 = {
+	name = "Guillaume" # Guillaume of Talou
+	dynasty = 307
+	religion = catholic
+	culture = norman
+	father = rolloning1
+	1025.1.1 = {
+		birth = yes
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+
+rolloning10 = {
+	name = "Alice" #wife of Ranulph of Bayeux
+	female = yes
+	dynasty = 307
+	religion = catholic
+	culture = norman
+	trait = bastard
+	father = rolloning2
+	1024.1.1 = { #fic
+		birth = yes
+	}
+	1061.1.1 = { #fic
+		death = yes
+	}
+}
+
+rolloning11 = {
+	name = "Nicholas" #monk
+	dynasty = 307
+	religion = catholic
+	culture = norman
+	trait = bastard
+	trait = devoted
+	father = rolloning2
+	1027.1.1 = { #fic
+		birth = yes
+	}
+	1092.2.26 = {
+		death = yes
+	}
+}
+
+rolloning12 = {
+	name = "Guillaume" #Guillaume the Great
+	dna = 140_william_the_bastard
+	dynasty = 307
+	martial = 7
+	diplomacy = 7
+	intrigue = 10
+	stewardship = 6
+	prowess = 10
+	religion = catholic
+	culture = norman
+	disallow_random_traits = yes
+	trait = ambitious
+	trait = diligent
+	trait = brave
+	trait = legitimized_bastard
+	trait = education_martial_4
+	sexuality = heterosexual
+	father = rolloning3
+	1028.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+		give_nickname = nick_the_bastard
+	}
+	1066.12.25  = {
+		give_nickname = nick_the_conqueror
+	}
+	1087.9.9 = {
+		death = yes
+	}
+}
+
+rolloning13 = {
+	name = "Adélaïde" #wife of Enguerrand II of Ponthie, wife of Lambert II of Lens, wife of Odo II of Champagne
+	female = yes
+	dynasty = 307
+	religion = catholic
+	culture = norman
+	trait = bastard
+	father = rolloning3
+	1030.1.1 = { #est
+		birth = yes
+	}
+	1090.1.1 = { #est
+		death = yes
+	}
+}
+
+rolloning14 = {
+	name = "Robert" # Robert II of Normandy
+	dna = 142_robert_curthose
+	dynasty = 307
+	martial = 6
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 3
+	religion = catholic
+	culture = norman
+	disallow_random_traits = yes
+	trait = bossy
+	trait = zealous
+	trait = lazy
+	trait = education_martial_3
+	father = rolloning12
+	1054.1.1 = { #est
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}
+		give_nickname = nick_the_curthose
+	}
+	1134.2.3 = {
+		death = yes
+	}
+}

@@ -1,6 +1,6 @@
 ﻿raabs1 = {
 	name = "Ulrich" # Ulrich I of Raabs
-	dynasty = 10
+	dynasty_house = house_raabs
 	culture = austrian
 	religion = catholic
 	trait = bastard_founder

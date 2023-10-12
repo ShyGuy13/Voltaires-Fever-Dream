@@ -1,0 +1,119 @@
+﻿boulogne1 = {
+	name = "Eustace" # Eustace II of Boulogne
+	dynasty = 10
+	religion = catholic
+	culture = picard
+	father = boulogne3
+	1015.1.1 = { #est
+		birth = yes
+		give_nickname = nick_with_the_long_moustaches
+	}
+	1087.1.1 = { #est
+		death = yes
+	}
+}
+
+boulogne2 = {
+	name = "Eustace" # Eustace III of Boulogne
+	dynasty = 10
+	religion = catholic
+	culture = picard
+	father = boulogne1
+	1048.1.1 = { #est
+		birth = yes
+	}
+	1127.1.1 = { #est
+		death = yes
+	}
+}
+
+boulogne3 = {
+	name = "Eustace" # Eustace I of Boulogne
+	dynasty = 10
+	religion = catholic
+	culture = picard
+	992.1.1 = { #fic
+		birth = yes
+	}
+	1049.1.1 = { #fic
+		death = yes
+	}
+}
+
+boulogne4 = {
+	name = "Godfrey" # bishop of Paris
+	dynasty = 10
+	religion = catholic
+	culture = picard
+	father = boulogne3
+	1021.1.1 = { #fic
+		birth = yes
+	}
+	1095.1.1 = {
+		death = yes
+	}
+}
+
+boulogne5 = {
+	name = "Lambert" # Lambert II of Lens
+	dynasty = 10
+	religion = catholic
+	culture = picard
+	father = boulogne3
+	1026.1.1 = { #fic
+		birth = yes
+	}
+	1053.1.1 = {
+		add_spouse = rolloning13 #Adelaide
+	}
+	1054.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+boulogne6 = {
+	name = "Gerberga" # wife of Friedrich II of Luxemburg
+	female = yes
+	dynasty = 10
+	religion = catholic
+	culture = picard
+	father = boulogne3
+	1029.1.1 = { #fic
+		birth = yes
+	}
+	1049.1.1 = {
+		death = yes
+	}
+}
+
+boulogne7 = {
+	name = "Adalolphe" # 
+	dynasty = 192
+	religion = catholic
+	culture = picard
+	father = vlaanderen13
+	890.1.1 = { #est
+		birth = yes
+	}
+	933.11.13 = {
+		death = yes
+	}
+}
+
+boulogne8 = {
+	name = "Judith" # wife of Waltheof I of Northampton
+	female = yes
+	dynasty = 192
+	religion = catholic
+	culture = picard
+	father = boulogne5
+	mother = rolloning13
+	1054.1.1 = {
+		birth = yes
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}

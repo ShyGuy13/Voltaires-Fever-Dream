@@ -35,7 +35,7 @@ abenberg3 = {
 	dynasty = 248
 	religion = catholic
 	culture = franconian
-	father = abenberg5
+	#unknown parents
 	969.1.1 = { #fic
 		birth = yes
 	}
@@ -62,32 +62,9 @@ abenberg4 = {
 	}
 }
 
-abenberg5 = {
-	name = "Burkhard" #fictional
-	dynasty = 248
-	religion = catholic
-	culture = franconian
-	923.1.1 = {
-		birth = yes
-	}
-	979.1.1 = {
-		death = yes
-	}
-}
 
-abenberg6 = {
-	name = "Eberhard" #bishop of Bamberg
-	dynasty = 248
-	religion = catholic
-	culture = franconian
-	father = abenberg5
-	973.1.1 = { #est
-		birth = yes
-	}
-	1040.8.13 = {
-		death = yes
-	}
-}
+
+
 
 abenberg7 = {
 	name = "Wolfram" #Wolfram II of Abenberg

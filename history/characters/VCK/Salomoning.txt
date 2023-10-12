@@ -38,6 +38,7 @@ salomoning4 = {
 	name = "Waldo" # Waldo of Freising, brother of salomoning3
 	dynasty = 314
 	culture = boden_alemannic
+	religion = catholic
 	853.1.1 = { #est
 		birth = yes
 	}

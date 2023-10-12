@@ -2,7 +2,7 @@ aldobrandeschi1 = {
 	name = "Ildebrando" # Ildebrando V of Dauphine
 	dynasty = 284
 	religion = catholic
-	culture = italian
+	culture = tuscan
 	1006.1.1 = { #fic
 		birth = yes
 	}

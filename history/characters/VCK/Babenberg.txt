@@ -1,6 +1,6 @@
 ﻿babenberg1 = {
 	name = "Albrecht" #Albrecht I of Austria
-	dynasty = 3
+	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
 	father = babenberg7
@@ -15,7 +15,7 @@
 
 babenberg2 = {
 	name = "Ernst" #Ernst I of Austria
-	dynasty = 3
+	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
 	trait = brave
@@ -30,7 +30,7 @@ babenberg2 = {
 
 babenberg3 = {
 	name = "Leopold"
-	dynasty = 3
+	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
 	father = babenberg1
@@ -47,7 +47,7 @@ babenberg3 = {
 
 babenberg4 = {
 	name = "Leopold" #Leopold II of Austria
-	dynasty = 3
+	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
 	trait = beauty_good_2
@@ -64,7 +64,7 @@ babenberg4 = {
 babenberg6 = {
 	name = "Justizia" #wife of Otto of Wolfratshausen
 	female = yes
-	dynasty = 3
+	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
 	father = babenberg2
@@ -78,9 +78,10 @@ babenberg6 = {
 
 babenberg7 = {
 	name = "Leopold" #Leopold I of Austria
-	dynasty = 3
+	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
+	father = luitpolding1 # debated
 	940.1.1 = {
 		birth = yes
 		give_nickname = nick_the_illustrious
@@ -92,7 +93,7 @@ babenberg7 = {
 
 babenberg8 = {
 	name = "Heinrich" #Heinrich I of Austria
-	dynasty = 3
+	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
 	father = babenberg7
@@ -107,7 +108,7 @@ babenberg8 = {
 
 babenberg9 = {
 	name = "Ernst" #Ernst I of Swabia
-	dynasty = 3
+	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
 	father = babenberg7
@@ -121,7 +122,7 @@ babenberg9 = {
 
 babenberg10 = {
 	name = "Poppo" #bishop of Trier
-	dynasty = 3
+	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
 	father = babenberg7
@@ -135,7 +136,7 @@ babenberg10 = {
 
 babenberg11 = {
 	name = "Luitpold" #bishop of Mainz
-	dynasty = 3
+	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
 	father = babenberg7
@@ -150,7 +151,7 @@ babenberg11 = {
 babenberg12 = {
 	name = "Judith"
 	female = yes
-	dynasty = 3
+	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
 	father = babenberg7

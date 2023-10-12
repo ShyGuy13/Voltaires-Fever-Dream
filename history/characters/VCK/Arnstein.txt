@@ -1,12 +1,43 @@
 ﻿arnstein1 = {
 	name = "Walter" # Walter I of Arnstein
-	dynasty = 103
+	dynasty_house = house_arnstein
 	religion = catholic
 	culture = thuringian
-	1020.1.1 = { #fic
+	father = steusslingen5
+	1062.1.1 = { #est
 		birth = yes
 	}
-	1090.1.1 = {
+	1126.2.16 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+arnstein2 = {
+	name = "Walter" # Walter II of Arnstein
+	dynasty_house = house_arnstein
+	religion = catholic
+	culture = thuringian
+	father = arnstein1
+	1103.1.1 = { #est
+		birth = yes
+	}
+	1162.1.1 = { #est
+		death = yes
+	}
+}
+
+arnstein3 = {
+	name = "Walter" # Walter III of Arnstein
+	dynasty_house = house_arnstein
+	religion = catholic
+	culture = thuringian
+	father = arnstein2
+	1049.1.1 = { #est
+		birth = yes
+	}
+	1196.1.1 = { #est
 		death = yes
 	}
 }

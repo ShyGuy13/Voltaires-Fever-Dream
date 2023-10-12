@@ -1,15 +1,74 @@
 ﻿#All bishops and archbishops with unknown dynasty or of lowborn heritage
 
 #Augsburg
-augsburg_heinrich_1 = {
-	name = "Heinrich" # Heinrich I of Augsburg
-	#Luitpolding ?
+augsburg_adalbero = {
+	name = "Adalbero" # Adalbero I of Augsburg
 	religion = catholic
 	culture = swabian
-	923.1.1 = {
+	848.1.1 = { #fic
 		birth = yes
 	}
-	982.7.13 = {
+	909.4.28 = {
+		death = yes
+	}
+}
+
+augsburg_hiltin = {
+	name = "Hiltin" # Hiltin I of Augsburg
+	religion = catholic
+	culture = swabian
+	866.1.1 = { #fic
+		birth = yes
+	}
+	923.11.8 = {
+		death = yes
+	}
+}
+
+augsburg_eticho = {
+	name = "Eticho" # Eticho I of Augsburg
+	religion = catholic
+	culture = swabian
+	944.1.1 = { #est
+		birth = yes
+	}
+	988.6.24 = {
+		death = yes
+	}
+}
+
+augsburg_liutold = {
+	name = "Liutold" # Liutold I of Augsburg
+	religion = catholic
+	culture = swabian
+	936.1.1 = { #fic
+		birth = yes
+	}
+	996.6.27 = {
+		death = yes
+	}
+}
+
+augsburg_gebhard = {
+	name = "Gebhard" # Gebhard I of Augsburg
+	religion = catholic
+	culture = swabian
+	941.1.1 = { #fic
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+
+augsburg_siegfried_1 = {
+	name = "Siegfried" # Siegfried I of Augsburg
+	religion = catholic
+	culture = swabian
+	947.1.1 = { #fic
+		birth = yes
+	}
+	1006.5.5 = {
 		death = yes
 	}
 }
@@ -39,11 +98,35 @@ augsburg_heinrich_2 = {
 }
 
 #Salzburg
+salzburg_adalbert_1 = {
+	name = "Adalbert" # Adalbert I of Salzburg
+	religion = catholic
+	culture = austrian
+	832.1.1 = { #fic
+		birth = yes
+	}
+	874.7.30 = {
+		death = yes
+	}
+}
+
+salzburg_dietmar_2 = {
+	name = "Dietmar" # Dietmar II of Salzburg
+	religion = catholic
+	culture = austrian
+	989.1.1 = { #fic
+		birth = yes
+	}
+	1041.7.28 = {
+		death = yes
+	}
+}
+
 salzburg_balduin = {
-	name = "Balduin"
+	name = "Balduin" # Balduin of Salzburg
 	religion = catholic
 	culture = flemish
-	1000.1.1 = { #est
+	1003.1.1 = { #est
 		birth = yes
 	}
 	1060.4.8 = {
@@ -53,7 +136,7 @@ salzburg_balduin = {
 
 #Strassburg
 strassburg_wizelin = {
-	name = "Wizelin"
+	name = "Wizelin" #Wizelin I of Strassburg
 	religion = catholic
 	culture = boden_alemannic
 	990.1.1 = { #fic
@@ -127,8 +210,6 @@ sitten_ermenfroi = {
 		death = yes
 	}
 }
-
-
 
 #Chadé
 chade_thietmar = {
@@ -462,6 +543,54 @@ speyer_sigibodo = {
 }
 
 #Merseburg
+merseburg_bruno = {
+	name = "Bruno" # Bruno I
+	religion = catholic
+	culture = saxon
+	974.1.1 = { #fic
+		birth = yes
+	}
+	1036.1.1 = {
+		death = yes
+	}
+}
+
+merseburg_hunold = {
+	name = "Hunold" # Hunold I
+	religion = catholic
+	culture = thuringian
+	983.1.1 = { #fic
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+
+merseburg_alberich = {
+	name = "Alberich" # Alberich I
+	religion = catholic
+	culture = thuringian
+	991.1.1 = { #fic
+		birth = yes
+	}
+	1053.4.2 = {
+		death = yes
+	}
+}
+
+merseburg_winther = {
+	name = "Winther" # Winther I
+	religion = catholic
+	culture = thuringian
+	986.1.1 = { #fic
+		birth = yes
+	}
+	1054.1.1 = {
+		death = yes
+	}
+}
+
 merseburg_ezzelin_1 = {
 	name = "Ezzelin" # Ezzelin I
 	religion = catholic

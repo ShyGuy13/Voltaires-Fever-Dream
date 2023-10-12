@@ -1,12 +1,188 @@
 ﻿steusslingen1 = {
-	name = "Walter" # Walter I of Arnstein
+	name = "Walter" # Walter I of Steußlingen
 	dynasty = 247
 	religion = catholic
 	culture = thuringian
-	1035.1.1 = { #fic
+	983.1.1 = { #est
 		birth = yes
 	}
-	1090.1.1 = {
+	1056.9.8 = {
+		death = yes
+	}
+}
+
+steusslingen2 = {
+	name = "Anno" # bishop of Cologne
+	dynasty = 247
+	religion = catholic
+	culture = thuringian
+	father = steusslingen1
+	1007.1.1 = { #est
+		birth = yes
+	}
+	1075.12.4 = {
+		death = yes
+	}
+}
+
+steusslingen3 = {
+	name = "Werner" # bishop of Halberstadt
+	dynasty = 247
+	religion = catholic
+	culture = thuringian
+	father = steusslingen1
+	1012.1.1 = { #est
+		birth = yes
+	}
+	1078.8.8 = {
+		death = {
+			death_reason = death_flight_attempt
+		}
+	}
+}
+
+steusslingen4 = {
+	name = "Walter" # Walter II of Steußlingen
+	dynasty = 247
+	religion = catholic
+	culture = thuringian
+	trait = twin
+	father = steusslingen1
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1087.10.28 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+steusslingen5 = {
+	name = "Adalbero" # Adalbero I of Steußlingen
+	dynasty = 247
+	religion = catholic
+	culture = thuringian
+	father = steusslingen1
+	1029.1.1 = { #est
+		birth = yes
+	}
+	1079.1.1 = { #fic
+		death = yes
+	}
+}
+
+steusslingen6 = {
+	name = "Hazecha" # wife of Eilolfus von Pfullingen
+	female = yes
+	dynasty = 247
+	religion = catholic
+	culture = thuringian
+	father = steusslingen1
+	1018.1.1 = { #fic
+		birth = yes
+	}
+	1065.1.1 = { #fic
+		death = yes
+	}
+}
+
+steusslingen7 = {
+	name = "Engela" # wife of Eilolfus von Pfullingen
+	female = yes
+	dynasty = 247
+	religion = catholic
+	culture = thuringian
+	trait = twin
+	father = steusslingen1
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1065.1.1 = { #fic
+		death = yes
+	}
+}
+
+steusslingen8 = {
+	name = "Otto" 
+	dynasty = 247
+	religion = catholic
+	culture = thuringian
+	father = steusslingen1
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	1093.1.1 = { #fic
+		death = yes
+	}
+}
+
+steusslingen9 = {
+	name = "Haimo" 
+	dynasty = 247
+	religion = catholic
+	culture = thuringian
+	father = steusslingen1
+	1025.1.1 = { #fic
+		birth = yes
+	}
+	1087.1.1 = { #fic
+		death = yes
+	}
+}
+
+steusslingen10 = {
+	name = "Anno" 
+	dynasty = 247
+	religion = catholic
+	culture = thuringian
+	father = steusslingen5
+	1057.1.1 = { #fic
+		birth = yes
+	}
+	1121.1.1 = {
+		death = yes
+	}
+}
+
+steusslingen11 = {
+	name = "Werner" #bishop of Münster
+	dynasty = 247
+	religion = catholic
+	culture = thuringian
+	father = steusslingen5
+	1078.1.1 = { #fic
+		birth = yes
+	}
+	1151.1.1 = {
+		death = yes
+	}
+}
+
+steusslingen12 = {
+	name = "Adalbero" #
+	dynasty = 247
+	religion = catholic
+	culture = thuringian
+	father = steusslingen5
+	1066.1.1 = { #fic
+		birth = yes
+	}
+	1124.1.1 = {
+		death = yes
+	}
+}
+
+steusslingen13 = {
+	name = "Adalbert" #
+	dynasty = 247
+	religion = catholic
+	culture = thuringian
+	father = steusslingen5
+	1073.1.1 = { #fic
+		birth = yes
+	}
+	1120.1.1 = {
 		death = yes
 	}
 }

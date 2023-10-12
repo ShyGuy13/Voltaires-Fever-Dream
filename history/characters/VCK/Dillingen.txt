@@ -3,7 +3,8 @@
 	dynasty = 43
 	religion = catholic
 	culture = swabian
-	1000.1.1 = { #fic
+	father = dillingen3
+	1003.1.1 = { #fic
 		birth = yes
 	}
 	1074.3.5 = {
@@ -21,6 +22,122 @@ dillingen2 = {
 		birth = yes
 	}
 	1121.4.16 = {
+		death = yes
+	}
+}
+
+dillingen3 = {
+	name = "Manegold" # Manegold II of Dillingen
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen4
+	964.1.1 = { #fic
+		birth = yes
+	}
+	1019.1.1 = { #fic
+		death = yes
+	}
+}
+
+dillingen4 = {
+	name = "Hupold" # Hupold II of Dillingen
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen5
+	942.1.1 = { #fic
+		birth = yes
+	}
+	1005.1.1 = { #fic
+		death = yes
+	}
+}
+
+dillingen5 = {
+	name = "Manegold" # Manegold I of Dillingen
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen6
+	907.1.1 = { #fic
+		birth = yes
+	}
+	974.1.1 = { #fic
+		death = yes
+	}
+}
+
+dillingen6 = {
+	name = "Hupold" # Hupold I of Dillingen
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	868.1.1 = { #fic
+		birth = yes
+	}
+	909.1.1 = {
+		death = yes
+	}
+}
+
+dillingen7 = {
+	name = "Dietbold" # Dietbold I of Dillingen
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen6
+	888.1.1 = { #est
+		birth = yes
+	}
+	955.8.10 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+dillingen8 = {
+	name = "Ulrich" # bishop of Augsburg
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	trait = saint
+	father = dillingen6
+	890.1.1 = {
+		birth = yes
+	}
+	973.7.4 = {
+		death = yes
+	}
+}
+
+dillingen9 = {
+	name = "Liutgard" # wife of Immedinger member
+	female = yes
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen6
+	894.1.1 = { #fic
+		birth = yes
+	}
+	948.1.1 = { #fic
+		death = yes
+	}
+}
+
+dillingen10 = {
+	name = "Heilwig" # wife of Hermann I of Lorraine
+	female = yes
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen6
+	924.1.1 = { #fic
+		birth = yes
+	}
+	971.1.1 = { #fic
 		death = yes
 	}
 }

@@ -4,6 +4,7 @@
 	religion = catholic
 	culture = flemish
 	father = vlaanderen2
+	mother = luxemburg9
 	1012.8.19 = {
 		birth = yes
 		give_nickname = nick_the_pious
@@ -18,8 +19,16 @@ vlaanderen2 = {
 	dynasty = 192
 	religion = catholic
 	culture = flemish
+	father = vlaanderen6
 	980.1.1 = {
 		birth = yes
+		give_nickname = nick_the_bearded
+	}
+	1012.1.1 = {
+		add_spouse = luxemburg9 # Otgiva of Luxemburg
+	}
+	1031.1.1 = {
+		add_spouse = rolloning6 # Eleonor of Normandy
 	}
 	1035.5.30 = {
 		death = yes
@@ -56,6 +65,259 @@ vlaanderen4 = {
 		give_nickname = nick_the_unhappy
 	}
 	1071.2.22 = {
+		death = yes
+	}
+}
+
+vlaanderen5 = {
+	name = "Judith" # wife of Tostig Godwinson of Northumbria
+	female = yes
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen2
+	mother = rolloning6
+	1033.1.1 = {
+		birth = yes
+	}
+	1095.3.5 = {
+		death = yes
+	}
+}
+
+vlaanderen6 = {
+	name = "Arnulf" # Arnulf II of Flanders
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen8
+	961.1.1 = {
+		birth = yes
+		give_nickname = nick_the_younger
+	}
+	987.3.30 = {
+		death = yes
+	}
+}
+
+vlaanderen7 = {
+	name = "Mathilde" # 
+	female = yes
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen6
+	983.1.1 = { #fic
+		birth = yes
+	}
+	995.7.24 = {
+		death = yes
+	}
+}
+
+vlaanderen8 = {
+	name = "Baudouin" # Baudouin III of Flanders
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen9
+	940.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_young
+	}
+	962.1.1 = {
+		death = yes
+	}
+}
+
+vlaanderen9 = {
+	name = "Arnulf" # Arnulf I of Flanders
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen13
+	889.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_great
+	}
+	965.3.27 = {
+		death = yes
+	}
+}
+
+vlaanderen10 = {
+	name = "Hildegarde" # wife of Dirk II of Holland
+	female = yes
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen9
+	934.1.1 = { #est
+		birth = yes
+	}
+	972.1.1 = { #est
+		death = yes
+	}
+}
+
+vlaanderen11 = {
+	name = "Elftrude" # wife of Siegfried de Guînes 
+	female = yes
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen9
+	941.1.1 = { #fic
+		birth = yes
+	}
+	977.1.1 = { #fic
+		death = yes
+	}
+}
+
+vlaanderen12 = {
+	name = "Luitgard" # wife of Wichmann of Hamaland 
+	female = yes
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen9
+	935.1.1 = { #fic
+		birth = yes
+	}
+	962.10.18 = {
+		death = yes
+	}
+}
+
+vlaanderen13 = {
+	name = "Baudouin" # Baudouin II of Flanders
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen17
+	866.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_bald
+	}
+	918.9.10 = {
+		death = yes
+	}
+}
+
+vlaanderen14 = {
+	name = "Ealswid" # 
+	dynasty = 192
+	religion = catholic
+	culture = picard
+	father = vlaanderen13
+	893.1.1 = { #fic
+		birth = yes
+	}
+	902.1.1 = { #fic
+		death = yes
+	}
+}
+
+vlaanderen15 = {
+	name = "Ermentrude" # 
+	female = yes
+	dynasty = 192
+	religion = catholic
+	culture = picard
+	father = vlaanderen13
+	898.1.1 = { #fic
+		birth = yes
+	}
+	909.1.1 = { #fic
+		death = yes
+	}
+}
+
+vlaanderen16 = {
+	name = "Albert" # bishop of Paris
+	dynasty = 192
+	religion = catholic
+	culture = picard
+	father = vlaanderen13
+	906.1.1 = { #fic
+		birth = yes
+	}
+	977.1.1 = {
+		death = yes
+	}
+}
+
+vlaanderen17 = {
+	name = "Baudouin" # Baudouin I of Flanders
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	837.1.1 = { #est
+		birth = yes
+		give_nickname = nick_iron_arm
+	}
+	879.1.1 = {
+		death = yes
+	}
+}
+
+vlaanderen18 = {
+	name = "Rudolf" # Rudolf of Cambrai
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen17
+	869.1.1 = { #est
+		birth = yes
+	}
+	896.6.17 = {
+		death = {
+			death_reason = death_dungeon
+			killer = vermandois11
+		}
+	}
+}
+
+vlaanderen19 = {
+	name = "Charles" # 
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen17
+	862.1.1 = { #fic
+		birth = yes
+	}
+	869.1.1 = { #fic
+		death = yes
+	}
+}
+
+vlaanderen20 = {
+	name = "Guinidilda" # wife of Wilfred I of Barcelona
+	female = yes
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen17 #debated
+	859.1.1 = { #fic
+		birth = yes
+	}
+	902.1.1 = { #fic
+		death = yes
+	}
+}
+
+vlaanderen21 = {
+	name = "Ekbert" # 
+	dynasty = 192
+	religion = catholic
+	culture = flemish
+	father = vlaanderen9
+	936.1.1 = { #fic
+		birth = yes
+	}
+	953.7.10 = {
 		death = yes
 	}
 }
