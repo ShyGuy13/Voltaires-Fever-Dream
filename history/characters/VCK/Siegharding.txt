@@ -36,7 +36,9 @@ siegharding3 = {
 		birth = yes
 	}
 	1044.7.5 = {
-		death = yes
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 
@@ -49,7 +51,7 @@ siegharding4 = {
 	970.1.1 = { #fic
 		birth = yes
 	}
-	1020.1.1 = {
+	1020.6.9 = {
 		death = yes
 	}
 }
@@ -59,10 +61,11 @@ siegharding5 = {
 	dynasty = 13
 	culture = bavarian
 	religion = catholic
-	950.1.1 = { #fic
+	father = siegharding8
+	911.1.1 = { #fic
 		birth = yes
 	}
-	980.1.1 = {
+	980.9.26 = {
 		death = yes
 	}
 }
@@ -73,7 +76,7 @@ siegharding6 = {
 	culture = bavarian
 	religion = catholic
 	father = siegharding5
-	968.1.1 = { #fic
+	920.1.1 = { #fic
 		birth = yes
 	}
 	1020.1.1 = {
@@ -87,10 +90,137 @@ siegharding7 = {
 	culture = bavarian
 	religion = catholic
 	father = siegharding6
-	1000.1.1 = { #fic
+	980.1.1 = { #fic
 		birth = yes
 	}
 	1046.1.1 = {
+		death = yes
+	}
+}
+
+siegharding8 = {
+	name = "Sieghard" #Sieghard III of Chiemgau
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding9
+	891.1.1 = { #fic
+		birth = yes
+	}
+	959.1.1 = {
+		death = yes
+	}
+}
+
+siegharding9 = {
+	name = "Sieghard" #Sieghard II of Chiemgau
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding10
+	868.1.1 = { #fic
+		birth = yes
+	}
+	923.1.1 = {
+		death = yes
+	}
+}
+
+siegharding10 = {
+	name = "Sieghard" #Sieghard I of Chiemgau & Ebersberg
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	849.1.1 = { #fic
+		birth = yes
+	}
+	906.10.10 = {
+		death = yes
+	}
+}
+
+siegharding11 = {
+	name = "Friedrich" #Friedrich II of Chiemgau
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding5
+	931.1.1 = { #fic
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+
+siegharding12 = {
+	name = "Richgard" #wife of Eberhard of Eppenstein
+	female = yes
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding11
+	976.1.1 = { #fic
+		birth = yes
+	}
+	1033.1.1 = { #est
+		death = yes
+	}
+}
+
+siegharding13 = {
+	name = "Nordbert" #Nordbert II of Chiemgau
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding5
+	935.1.1 = { #fic
+		birth = yes
+	}
+	1007.1.1 = { #est
+		death = yes
+	}
+}
+
+siegharding14 = {
+	name = "Pilgrim" #bishop of Passau
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding5
+	938.1.1 = { #est
+		birth = yes
+	}
+	991.5.21 = {
+		death = yes
+	}
+}
+
+siegharding15 = {
+	name = "Engelbert" #Engelbert III of Chiemgau
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding5
+	955.1.1 = { #fic
+		birth = yes
+	}
+	1020.5.21 = {
+		death = yes
+	}
+}
+
+siegharding16 = {
+	name = "Hartwig" #bishop of Brixen
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding15
+	988.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_lucky
+	}
+	1039.1.31 = {
 		death = yes
 	}
 }
