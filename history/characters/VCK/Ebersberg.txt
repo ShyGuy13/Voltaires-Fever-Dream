@@ -1,0 +1,188 @@
+ebersberg1 = {
+	name = "Ratold" # Ratold I of Ebersberg / Sempt
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+	father = siegharding10
+	872.1.1 = { #fic
+		birth = yes
+	}
+	919.1.20 = {
+		death = yes
+	}
+}
+
+ebersberg2 = {
+	name = "Ratold" # Ratold II of Ebersberg / Sempt
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+	father = ebersberg1
+	895.1.1 = { #fic
+		birth = yes
+	}
+	960.3.29 = {
+		death = yes
+	}
+}
+
+ebersberg3 = {
+	name = "Eberhard" # Eberhard I of Ebersberg / Sempt
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+  trait = twin
+	father = ebersberg1
+	907.1.1 = { #fic
+		birth = yes
+	}
+	959.11.16 = {
+		death = yes
+	}
+}
+
+ebersberg4 = {
+	name = "Adalbero" # Adalbero I of Ebersberg / Sempt
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+  trait = twin
+	father = ebersberg1
+	907.1.1 = { #fic
+		birth = yes
+	}
+	969.9.10 = {
+		death = yes
+	}
+}
+
+ebersberg5 = {
+	name = "Lambert" # bishop of Freising
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+  trait = saint
+	899.1.1 = { #fic
+		birth = yes
+	}
+	957.9.19 = {
+		death = yes
+	}
+}
+
+ebersberg6 = {
+	name = "Willibirg" # wife of Etchio II of Welf
+  female = yes
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+	father = ebersberg1
+	909.1.1 = { #fic
+		birth = yes
+	}
+	985.11.16 = {
+		death = yes
+	}
+}
+
+ebersberg7 = {
+	name = "Hadamut" # wife of Marquard III of Eppenstein
+  female = yes
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+	father = ebersberg4
+	958.1.1 = { #est
+		birth = yes
+	}
+	1001.2.19 = {
+		death = yes
+	}
+}
+
+ebersberg8 = {
+	name = "Ulrich" # Ulrich I of Ebersberg
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+	father = ebersberg4
+	963.1.1 = { #est
+		birth = yes
+	}
+	1029.3.11 = {
+		death = yes
+	}
+}
+
+ebersberg9 = {
+	name = "Willibirg" # wife of Poppo II of Krain
+  female = yes
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+	father = ebersberg4
+	939.1.1 = { #fic
+		birth = yes
+	}
+	976.1.1 = {
+		death = yes
+	}
+}
+
+ebersberg10 = {
+	name = "Adalbero" # Adalbero II of Ebersberg
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+	father = ebersberg8
+	981.1.1 = { #est
+		birth = yes
+	}
+	1045.3.27 = {
+		death = yes
+	}
+}
+
+ebersberg11 = {
+	name = "Eberhard" # Eberhard II of Ebersberg
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+	father = ebersberg8
+	996.1.1 = { #est
+		birth = yes
+	}
+	1041.7.24 = {
+		death = yes
+	}
+}
+
+ebersberg12 = {
+	name = "Judith" # wife of Sieghard VI of Chiemgau
+  female = yes
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+	father = ebersberg8
+	993.1.1 = { #est
+		birth = yes
+	}
+	1048.1.1 = {
+		death = yes
+	}
+}
+
+ebersberg13 = {
+	name = "Willibirg" # wife of Weriand of Friuli
+  female = yes
+	dynasty_house = house_ebersberg
+	religion = catholic
+	culture = bavarian
+	father = ebersberg8
+	1001.1.1 = { #est
+		birth = yes
+	}
+	1056.11.25 = {
+		death = yes
+	}
+}
