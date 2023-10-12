@@ -32,7 +32,7 @@ siegharding3 = {
 	culture = bavarian
 	religion = catholic
 	father = siegharding4
-	1010.1.1 = {
+	989.1.1 = { #est
 		birth = yes
 	}
 	1044.7.5 = {
@@ -197,15 +197,15 @@ siegharding14 = {
 }
 
 siegharding15 = {
-	name = "Engelbert" #Engelbert III of Chiemgau
+	name = "Engelbert" #Engelbert IV of Chiemgau
 	dynasty = 13
 	culture = bavarian
 	religion = catholic
-	father = siegharding5
-	955.1.1 = { #fic
+	father = siegharding4
+	991.1.1 = { #est
 		birth = yes
 	}
-	1020.5.21 = {
+	1040.3.15 = {
 		death = yes
 	}
 }
@@ -215,12 +215,128 @@ siegharding16 = {
 	dynasty = 13
 	culture = bavarian
 	religion = catholic
-	father = siegharding15
-	988.1.1 = { #est
+	father = siegharding4
+	993.1.1 = { #est
 		birth = yes
 		give_nickname = nick_the_lucky
 	}
 	1039.1.31 = {
+		death = yes
+	}
+}
+
+siegharding17 = {
+	name = "Meginhard" #
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding4
+	1002.1.1 = { #fic
+		birth = yes
+	}
+	1055.1.1 = {
+		death = yes
+	}
+}
+
+﻿siegharding18 = {
+	name = "Meginfried"
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding7
+	1028.1.1 = { #fic
+		birth = yes
+	}
+	1064.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿siegharding19 = {
+	name = "Engelbert" # Engelbert V of Chiemgau
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding7
+	1033.1.1 = { #fic
+		birth = yes
+	}
+	1078.1.1 = {
+		death = yes
+	}
+}
+
+﻿siegharding20 = {
+	name = "Friedrich" # Friedrich I of Tengling
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding3
+	1028.1.1 = { #est
+		birth = yes
+	}
+	1071.7.17 = {
+		death = yes
+	}
+}
+
+﻿siegharding21 = {
+	name = "Sieghard" # bshop of Aquileia
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding3
+	1033.1.1 = { #est
+		birth = yes
+	}
+	1077.8.12 = {
+		death = yes
+	}
+}
+
+﻿siegharding22 = {
+	name = "Friedgrund" # nun
+	female = yes
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	trait = devoted
+	father = siegharding3
+	1038.1.1 = { #fic
+		birth = yes
+	}
+	1084.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿siegharding23 = {
+	name = "Hildburg" # wife of Conrad I of Bohemia
+	female = yes
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding3
+	1041.1.1 = { #fic
+		birth = yes
+	}
+	1088.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿siegharding24 = {
+	name = "Swanhild" # wife of Ernst I of Austria
+	female = yes
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding3
+	1043.1.1 = { #fic
+		birth = yes
+	}
+	1120.1.1 = {
 		death = yes
 	}
 }
