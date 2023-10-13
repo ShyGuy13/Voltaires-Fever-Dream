@@ -3,10 +3,61 @@
 	dynasty = 234
 	religion = catholic
 	culture = eastphalian
-	1029.1.1 = { #fic
+	#unknown parents
+	1039.1.1 = { #fic
 		birth = yes
 	}
+	1047.1.1 = { #fic
+		add_spouse = dassel1_wife # Kunhilde
+	}
 	1097.1.1 = {
+		death = yes
+	}
+}
+
+﻿dassel2 = {
+	name = "Helenburg" # wife of Dedo of Ziegenberg
+	female = yes
+	dynasty = 234
+	religion = catholic
+	culture = eastphalian
+	father = dassel1
+	mother = dassel1_wife
+	1067.1.1 = { #fic
+		birth = yes
+	}
+	1119.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿dassel3 = {
+	name = "Reinhold" # Reinhold I of Dassel
+	dynasty = 234
+	religion = catholic
+	culture = eastphalian
+	father = dassel1
+	mother = dassel1_wife
+	1073.1.1 = { #fic
+		birth = yes
+	}
+	#spouse = Mathilde von Schauenburg
+	1127.1.1 = { #fic
+		death = yes
+	}
+}
+
+#wifes
+﻿dassel1_wife = {
+	name = "Kunhilde"
+	female = yes
+	#dynasty = unknown
+	religion = catholic
+	culture = eastphalian
+	1042.1.1 = { #fic
+		birth = yes
+	}
+	1091.1.1 = { #fic
 		death = yes
 	}
 }
