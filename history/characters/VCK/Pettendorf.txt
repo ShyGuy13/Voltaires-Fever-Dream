@@ -1,0 +1,48 @@
+pettendorf1 = {
+	name = "Friedrich" # Friedrich I of Pettendorf
+	dynasty = 334
+	religion = catholic
+	culture = bavarian
+	#unknown parents
+	1026.1.1 = { #est
+		birth = yes
+	}
+  1051.1.1 = {
+    add_spouse = leinungen1 # Sigenia von Leinungen
+  }
+	1063.1.1 = { #est
+		death = yes
+	}
+}
+
+pettendorf2 = {
+	name = "Friedrich" # Friedrich II of Pettendorf
+	dynasty = 334
+	religion = catholic
+	culture = bavarian
+	father = pettendorf1
+  mother = leinungen1
+	1051.1.1 = { #est
+		birth = yes
+	}
+  #no wife / no children
+	1084.1.1 = { #fic
+		death = yes
+	}
+}
+
+pettendorf3 = {
+	name = "Isingardis" # wife of Rutger von Veltheim
+  female = yes
+	dynasty = 334
+	religion = catholic
+	culture = bavarian
+	father = pettendorf1
+  mother = leinungen1
+	1054.1.1 = { #est
+		birth = yes
+	}
+	1117.1.1 = { #est
+		death = yes
+	}
+}
