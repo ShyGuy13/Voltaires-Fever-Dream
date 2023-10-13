@@ -3,10 +3,46 @@
 	dynasty = 21
 	religion = catholic
 	culture = bavarian
-	997.1.1 = { #fic
+	#unknown parents
+	1010.1.1 = { #est
 		birth = yes
 	}
-	1066.1.1 = {
+	#unknown wife
+	1074.1.1 = {
+		death = yes
+	}
+}
+
+﻿lechsgemund2 = {
+	name = "Heinrich" #Heinrich I of Lechsgemünd
+	dynasty = 21
+	religion = catholic
+	culture = bavarian
+	father = lechsgemund1
+	#unknown mom
+	1038.1.1 = { #est
+		birth = yes
+	}
+	#spouse = Irmgard von Rott
+	1078.8.7 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+﻿lechsgemund3 = {
+	name = "Konrad" #Konrad I of Harburg
+	dynasty = 21
+	religion = catholic
+	culture = bavarian
+	father = lechsgemund1
+	#unknown mom
+	1041.1.1 = { #est
+		birth = yes
+	}
+	#spouse = Mathilde von Achalm
+	1091.9.21 = {
 		death = yes
 	}
 }
