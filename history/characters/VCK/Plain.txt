@@ -1,0 +1,15 @@
+plain1 = {
+	name = "Liutold" # Liutold IV
+	dynasty_house = house_plain
+	religion = catholic
+	culture = austrian
+  father = wilhelming6
+  #mother = Leopirgis
+	1041.1.1 = { #fic
+		birth = yes
+	}
+  #unknown spouse
+	1122.10.31 = {
+		death = yes
+	}
+}
