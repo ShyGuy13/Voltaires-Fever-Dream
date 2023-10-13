@@ -66,7 +66,7 @@ groitzsch5 = {
 	name = "Wulf" #
 	#dynasty = 269
 	religion = slavic
-	culture = kashubian
+	culture = polabian
 	#unknown parents
 	982.1.1 = { #est
 		birth = yes
