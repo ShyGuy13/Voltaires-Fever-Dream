@@ -4,10 +4,11 @@ groitzsch1 = {
 	religion = catholic
 	culture = saxon
 	father = groitzsch5
+	#unknown mom
 	1016.1.1 = { #fic
 		birth = yes
 	}
-	1041.1.1 = {
+	1041.1.1 = { #fic
 		add_spouse = leinungen1 # Sigena
 	}
 	1061.1.1 = {
@@ -38,10 +39,10 @@ groitzsch3 = {
 	culture = saxon
 	father = groitzsch1
 	mother = leinungen1
-	1041.1.1 = { #fic
+	1060.1.1 = { #fic
 		birth = yes
 	}
-	1102.1.1 = { #fic
+	1112.1.1 = { #fic
 		death = yes
 	}
 }
@@ -53,29 +54,31 @@ groitzsch4 = {
 	culture = saxon
 	father = groitzsch1
 	mother = leinungen1
-	1046.1.1 = { #fic
+	1057.1.1 = { #fic
 		birth = yes
 	}
-	1105.1.1 = { #fic
+	1115.1.1 = { #fic
 		death = yes
 	}
 }
 
 groitzsch5 = {
 	name = "Wulf" #
-	dynasty = 269
-	religion = catholic
-	culture = saxon
-	985.1.1 = { #est
+	#dynasty = 269
+	religion = slavic
+	culture = kashubian
+	#unknown parents
+	982.1.1 = { #est
 		birth = yes
 	}
-	1041.1.1 = { #fic
+	#unknown wife
+	1033.1.1 = { #fic
 		death = yes
 	}
 }
 
 groitzsch6 = {
-	name = "Johanna" # fictional name
+	name = "Johanna" # fictional name, wife of Heinrich of Leinungen
 	female = yes
 	dynasty = 269
 	religion = catholic
@@ -91,8 +94,8 @@ groitzsch6 = {
 	}
 }
 
-groitzsch6 = {
-	name = "Ursula" # fictional name
+groitzsch7 = {
+	name = "Ursula" # fictional name, wife of Werner of Veltheim
 	female = yes
 	dynasty = 269
 	religion = catholic
