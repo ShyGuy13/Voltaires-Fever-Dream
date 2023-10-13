@@ -5,13 +5,13 @@ groitzsch1 = {
 	culture = saxon
 	father = groitzsch5
 	#unknown mom
-	1016.1.1 = { #fic
+	1006.1.1 = { #fic
 		birth = yes
 	}
 	1041.1.1 = { #fic
 		add_spouse = leinungen1 # Sigena
 	}
-	1061.1.1 = {
+	1049.1.1 = { #fic
 		death = yes
 	}
 }
@@ -24,7 +24,7 @@ groitzsch2 = {
 	trait = twin
 	father = groitzsch1
 	mother = leinungen1
-	1050.1.1 = { #est
+	1042.1.1 = { #est
 		birth = yes
 	}
 	1124.5.22 = {
@@ -39,10 +39,10 @@ groitzsch3 = {
 	culture = saxon
 	father = groitzsch1
 	mother = leinungen1
-	1060.1.1 = { #fic
+	1044.1.1 = { #fic
 		birth = yes
 	}
-	1112.1.1 = { #fic
+	1102.1.1 = { #fic
 		death = yes
 	}
 }
@@ -54,10 +54,10 @@ groitzsch4 = {
 	culture = saxon
 	father = groitzsch1
 	mother = leinungen1
-	1057.1.1 = { #fic
+	1047.1.1 = { #fic
 		birth = yes
 	}
-	1115.1.1 = { #fic
+	1105.1.1 = { #fic
 		death = yes
 	}
 }
@@ -86,7 +86,7 @@ groitzsch6 = {
 	trait = twin
 	father = groitzsch1
 	mother = leinungen1
-	1050.1.1 = { #fic
+	1042.1.1 = { #fic
 		birth = yes
 	}
 	1098.1.1 = { #fic
@@ -102,7 +102,7 @@ groitzsch7 = {
 	culture = saxon
 	father = groitzsch1
 	mother = leinungen1
-	1053.1.1 = { #fic
+	1048.1.1 = { #fic
 		birth = yes
 	}
 	1107.1.1 = { #fic
