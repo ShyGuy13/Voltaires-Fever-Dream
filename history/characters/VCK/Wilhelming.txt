@@ -1,0 +1,146 @@
+wilhelming1 = {
+	name = "Wilhelm" # Wilhelm IV of Friesach & Trixen
+	dynasty = 333
+	religion = catholic
+	culture = austrian
+  father = wilhelming2
+	966.1.1 = { #fic
+		birth = yes
+	}
+	1036.3.20 = {
+		death = {
+      death_reason = death_murder
+      #killer = Adalbero of Eppenstein
+    }
+	}
+}
+
+wilhelming2 = {
+	name = "Wilhelm" # Wilhelm III of Friesach & Trixen
+	dynasty = 333
+	religion = catholic
+	culture = austrian
+  father = wilhelming4
+	941.1.1 = { #fic
+		birth = yes
+	}
+	1010.9.29 = {
+		death = yes
+	}
+}
+
+wilhelming3 = {
+	name = "Liutold" # Liutold II
+	dynasty = 333
+	religion = catholic
+	culture = austrian
+  father = wilhelming2
+	971.1.1 = { #fic
+		birth = yes
+	}
+	1003.1.1 = {
+		death = yes
+	}
+}
+
+wilhelming4 = {
+	name = "Wilhelm" # Wilhelm II of Friesach & Trixen
+	dynasty = 333
+	religion = catholic
+	culture = austrian
+	911.1.1 = { #fic
+		birth = yes
+	}
+	963.1.1 = {
+		death = yes
+	}
+}
+
+wilhelming5 = {
+	name = "Liutold" # Liutold I
+	dynasty = 333
+	religion = catholic
+	culture = austrian
+  father = wilhelming4
+	956.1.1 = { #fic
+		birth = yes
+	}
+	963.1.1 = {
+		death = yes
+	}
+}
+
+wilhelming6 = {
+	name = "Liutold" # Liutold III
+	dynasty = 333
+	religion = catholic
+	culture = austrian
+  father = wilhelming3
+	997.1.1 = { #fic
+		birth = yes
+    give_nickname = nick_the_holy
+	}
+	1041.9.8 = {
+		death = yes
+	}
+}
+
+wilhelming7 = {
+	name = "Wilhelm" # Wilhelm VI
+	dynasty = 333
+	religion = catholic
+	culture = austrian
+  father = wilhelming6
+	1018.1.1 = { #fic
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+
+wilhelming8 = {
+	name = "Liutold" # Liutold IV
+	dynasty = 333
+	religion = catholic
+	culture = austrian
+  father = wilhelming6
+	1026.1.1 = { #fic
+		birth = yes
+	}
+	1085.5.24 = {
+		death = yes
+	}
+}
+
+wilhelming9 = {
+	name = "Hartwig" # 
+	dynasty = 333
+	religion = catholic
+	culture = austrian
+  father = wilhelming1
+	1024.1.1 = { #fic
+		birth = yes
+	}
+	1036.1.1 = {
+		death = {
+      death_reason = death_murder
+    }
+	}
+}
+
+wilhelming10 = {
+	name = "Wilhelm" # Wilhelm V
+	dynasty = 333
+	religion = catholic
+	culture = austrian
+  father = wilhelming1
+	1028.1.1 = { #fic
+		birth = yes
+	}
+	1036.1.1 = {
+		death = {
+      death_reason = death_murder
+    }
+	}
+}
