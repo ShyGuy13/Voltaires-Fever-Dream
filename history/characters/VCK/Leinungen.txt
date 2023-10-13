@@ -1,27 +1,31 @@
 leinungen1 = {
-	name = "Sigena" # wife of Wiprecht I von Groitzsch
+	name = "Sigena" # wife of Wiprecht I von Groitzsch & Friedrich I. von Pettendorf
 	female = yes
 	dynasty = 299
 	religion = catholic
 	culture = saxon
 	father = leinungen2
-	1025.1.1 = { #est
+	#unknown mom
+	1030.1.1 = { #est
 		birth = yes
 	}
-	1110.1.1 = { #est
+	1110.2.24 = {
 		death = yes
 	}
 }
 
 leinungen2 = {
-	name = "Goswin" # 
+	name = "Goswin" # wife of 
 	dynasty = 299
 	religion = catholic
 	culture = saxon
-	982.1.1 = { #fic
+	#unknown parents
+	998.1.1 = { #fic
 		birth = yes
+		give_nickname = nick_the_older
 	}
-	1044.1.1 = { #fic
+	#unknown wife
+	1053.1.1 = { #fic
 		death = yes
 	}
 }
