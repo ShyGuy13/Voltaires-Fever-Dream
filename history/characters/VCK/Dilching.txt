@@ -1,40 +1,50 @@
-﻿dilching1 = {
-	name = "Patto" #Patto of Inntal
+﻿#DONE FORE 1054
+dilching1 = {
+	name = "Patto" #Patto of Inntal / Weyarn
 	dynasty = 20
 	culture = bavarian
 	religion = catholic
-	1010.1.1 = { #fic
+	#unknown parents
+	1004.1.1 = { #fic
 		birth = yes
 	}
-	1066.1.1 = {
-		death = yes
+	#unknown wife
+	1040.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 
 dilching2 = {
-	name = "Siboto" #Siboto I of Inntal
+	name = "Sigiboto" #Sigiboto I of Inntal / Weyarn
 	dynasty = 20
 	culture = bavarian
 	religion = catholic
 	father = dilching1
-	1040.1.1 = { #fic
+	#unknown mom
+	1037.1.1 = { #fic
 		birth = yes
+	}
+	1053.1.1 = { #fic
+		add_spouse = dilching2_wife # Luitgard
 	}
 	1084.1.1 = {
 		death = yes
 	}
 }
 
-dilching3 = {
-	name = "Herrand" #Herrand I of Falkenstein
-	dynasty = 20
+#wifes
+dilching2_wife = {
+	name = "Luitgard" #
+	female = yes
+	#dynasty = unknown
 	culture = bavarian
 	religion = catholic
-	father = dilching1
-	1050.1.1 = { #fic
+	1035.1.1 = { #fic
 		birth = yes
 	}
-	1100.1.1 = { #fic
+	1089.1.1 = { #fic
 		death = yes
 	}
 }

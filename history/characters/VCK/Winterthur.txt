@@ -52,7 +52,9 @@ winterthur4 = {
 		birth = yes
 	}
 	1053.6.18 = {
-		death = yes
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 
@@ -69,7 +71,9 @@ winterthur5 = {
 		add_spouse = eberharding17 # Irmengard
 	}
 	1040.8.22 = {
-		death = { death_reason = death_battle }
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 

@@ -8,7 +8,8 @@
 	culture = austrian
 }
 3 = {
-	#free
+	name = "dynn_Konrading"
+	culture = swabian
 }
 4 = {
 	prefix = "dynnp_von"
@@ -135,8 +136,8 @@
 }
 30 = {
 	prefix = "dynnp_von"
-	name = "dynn_Hohenlohe"
-	culture = franconian
+	name = "dynn_Scherffenberg"
+	culture = austrian
 }
 31 = {
 	prefix = "dynnp_zu"
@@ -640,9 +641,8 @@
 	culture = hannoverian
 }
 136 = {
-	prefix = "dynnp_von"
-	name = "dynn_Falkenstein"
-	culture = hessian
+	name = "dynn_Rudolfing"
+	culture = swabian
 }
 137 = {
 	prefix = "dynnp_von"
@@ -1491,54 +1491,57 @@
 318 = {
 	
 }
-# 319 = {
+319 = {
 	
-# }
-# 320 = {
+}
+320 = {
 	
-# }
-# 321 = {
+}
+321 = {
 	
-# }
-# 322 = {
+}
+322 = {
 	
-# }
-# 323 = {
+}
+323 = {
 	
-# }
-# 324 = {
+}
+324 = {
 	
-# }
-# 325 = {
+}
+325 = {
 	
-# }
-# 326 = {
+}
+326 = {
 	
-# }
-# 327 = {
+}
+327 = {
 	
-# }
-# 328 = {
+}
+328 = {
 	
-# }
-# 329 = {
+}
+329 = {
 	
-# }
-# 330 = {
+}
+330 = {
 	
-# }
-# 331 = {
+}
+331 = {
 	
-# }
-# 332 = {
+}
+332 = {
 	
-# }
-# 333 = {
-	
-# }
-# 334 = {
-	
-# }
+}
+333 = {
+	name = "dynn_Wilhelming"
+	culture = austrian
+}
+334 = {
+	prefix = "dynnp_von"
+	name = "dynn_Pettendorf"
+	culture = bavarian
+}
 # 335 = {
 	
 # }

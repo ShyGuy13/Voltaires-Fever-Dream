@@ -1,5 +1,5 @@
 ﻿ezzoning1 = {
-	name = "Kuno" #Kuno I of Bavaria
+	name = "Konrad" #Konrad I of Bavaria
 	dynasty = 81
 	religion = catholic
 	culture = pfalzish
@@ -25,7 +25,10 @@ ezzoning2 = {
 		birth = yes
 		give_nickname = nick_the_insane
 	}
-	1058.1.1 = { #goes insane, kills wife, is sent into monastery
+	1048.1.1 = {
+		add_spouse = wigeriching8 # Mathilde
+	}
+	1060.6.27 = { #goes insane, kills wife, is sent into monastery
 		give_nickname = nick_the_monk
 		trait = murderer
 		trait = devoted
@@ -41,7 +44,8 @@ ezzoning3 = {
 	religion = catholic
 	culture = pfalzish
 	father = ezzoning2
-	1049.1.1 = {
+	mother = wigeriching8
+	1049.1.1 = { #est
 		birth = yes
 	}
 	1085.9.20 = {
@@ -69,6 +73,7 @@ ezzoning5 = {
 	religion = catholic
 	culture = pfalzish
 	father = ezzoning6
+	mother = dillingen10
 	985.1.1 = {
 		birth = yes
 	}
@@ -86,6 +91,9 @@ ezzoning6 = {
 	935.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_slender
+	}
+	955.1.1 = {
+		add_spouse = dillingen10 # Heilwig
 	}
 	996.7.16 = {
 		death = yes
@@ -112,7 +120,8 @@ ezzoning8 = {
 	religion = catholic
 	culture = pfalzish
 	father = ezzoning6
-	955.1.1 = {
+	mother = dillingen10
+	955.1.1 = { #est
 		birth = yes
 	}
 	1034.5.21 = {
@@ -140,6 +149,7 @@ ezzoning10 = {
 	religion = catholic
 	culture = pfalzish
 	father = ezzoning6
+	mother = dillingen10
 	960.1.1 = { #fic
 		birth = yes
 	}
@@ -192,12 +202,12 @@ ezzoning13 = {
 }
 
 ezzoning14 = {
-	name = "Hermann" #
+	name = "Hermann" # Hermann IV. von Saffenberg
 	dynasty = 81
 	religion = catholic
 	culture = pfalzish
 	father = ezzoning12
-	1011.1.1 = { #fic
+	1027.1.1 = { #fic
 		birth = yes
 	}
 	1091.1.1 = {

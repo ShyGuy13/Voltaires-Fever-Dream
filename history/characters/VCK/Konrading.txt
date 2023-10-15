@@ -1,0 +1,16 @@
+﻿konrading1 = {
+	name = "Hermann" #Hermann II of Swabia
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	#mother = Judith von Marchtal
+	947.1.1 = { #est
+		birth = yes
+	}
+	#986.1.1 = {
+	#	add_spouse = Gerberga von Burgund
+	#}
+	1003.5.4 = {
+		death = yes
+	}
+}

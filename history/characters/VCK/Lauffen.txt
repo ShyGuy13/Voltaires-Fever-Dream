@@ -1,13 +1,15 @@
-﻿lauffen1 = {
-	name = "Boppo" #Boppo II of Lauffen
+﻿#DONE FOR 1054
+lauffen1 = {
+	name = "Poppo" #Poppo I of Lauffen
 	dynasty = 32
 	religion = catholic
 	culture = franconian
-	father = lauffen3
-	1020.1.1 = { #fic
+	#unknown parents, might be related to Popppnings
+	977.1.1 = { #fic
 		birth = yes
 	}
-	1067.1.1 = {
+	#unknown spouse
+	1023.1.1 = { #fic
 		death = yes
 	}
 }
@@ -18,37 +20,78 @@ lauffen2 = {
 	religion = catholic
 	culture = franconian
 	father = lauffen1
-	1050.1.1 = { #fic
+	#unknown mom
+	994.1.1 = { #fic
 		birth = yes
 	}
-	1080.1.1 = {
+	#unknown wife
+	1035.1.1 = { #fic
 		death = yes
 	}
 }
 
 lauffen3 = {
-	name = "Boppo" #Boppo I of Lauffen
+	name = "Arnold" #Arnold I of Lauffen
 	dynasty = 32
 	religion = catholic
 	culture = franconian
-	980.1.1 = { #fic
+	father = lauffen2
+	#unknown mom
+	1018.1.1 = { #fic
 		birth = yes
 	}
-	1030.1.1 = { #fic
+	1045.1.1 = { #fic
+		add_spouse = eberharding9 # Adelheid
+	}
+	1067.1.1 = { #fic
 		death = yes
 	}
 }
 
 lauffen4 = {
-	name = "Heinrich" #
+	name = "Poppo" # Poppo II of Lauffen
 	dynasty = 32
 	religion = catholic
 	culture = franconian
 	father = lauffen3
-	1000.1.1 = { #fic
+	mother = eberharding9
+	1047.1.1 = { #fic
 		birth = yes
 	}
-	1025.1.1 = { #fic
+	#Mathilde von Hohenberg
+	1037.1.1 = { #fic
+		death = yes
+	}
+}
+
+lauffen5 = {
+	name = "Heinrich" #Heinrich II of Lauffen
+	dynasty = 32
+	religion = catholic
+	culture = franconian
+	father = lauffen3
+	mother = eberharding9
+	1049.1.1 = { #fic
+		birth = yes
+	}
+	#Ida von Werl
+	1067.1.1 = {
+		death = yes
+	}
+}
+
+lauffen6 = {
+	name = "Bruno" #bishop of Trier
+	dynasty = 32
+	religion = catholic
+	culture = franconian
+	father = lauffen3
+	mother = eberharding9
+	1052.1.1 = { #est
+		birth = yes
+	}
+	#unknown spouse
+	1124.4.25 = {
 		death = yes
 	}
 }

@@ -1,4 +1,5 @@
-﻿veltheim1 = {
+﻿#DONE FOR 1054
+veltheim1 = {
 	name = "Adalgot" # Adalgot of Veltheim
 	dynasty = 313
 	religion = catholic
@@ -56,6 +57,7 @@ veltheim4 = {
 	1032.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1094.1.1 = { #fic
 		death = yes
 	}

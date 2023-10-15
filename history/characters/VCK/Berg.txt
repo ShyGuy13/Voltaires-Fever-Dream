@@ -4,7 +4,7 @@
 	religion = catholic
 	culture = ripuarian
 	father = ezzoning12
-	1014.1.1 = { #fic
+	1022.1.1 = { #fic
 		birth = yes
 	}
 	1086.1.1 = {
@@ -21,6 +21,7 @@ berg2 = {
 	1045.1.1 = {
 		birth = yes
 	}
+	#Adelheid von Lauffen
 	1106.7.31 = {
 		death = yes
 	}

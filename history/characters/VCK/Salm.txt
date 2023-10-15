@@ -4,10 +4,17 @@ salm1 = {
 	culture = lorrainian
 	religion = catholic
 	father = luxemburg4
+	#mother = daughter of Pfalzgraf Hezelin
 	1039.1.1 = { #est
 		birth = yes
+		give_nickname = nick_the_garlic
+	}
+	1079.1.1 = { #fic
+		add_spouse = formbach15 # Sophia
 	}
 	1088.9.28 = {
-		death = yes
+		death = {
+			death_reason = death_battle
+		}
 	}
 }

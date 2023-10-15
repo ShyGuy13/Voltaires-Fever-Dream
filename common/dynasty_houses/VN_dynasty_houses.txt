@@ -76,7 +76,7 @@ house_maden = {
 house_bogen = {
 	prefix = "dynnp_von"
 	name = "dynn_Bogen"
-	dynasty = 3 # Babenberg
+	dynasty = 63 # Luitpolding
 }
 house_urach = {
 	prefix = "dynnp_von"
@@ -122,4 +122,14 @@ house_arnstein = {
 	prefix = "dynnp_von"
 	name = "dynn_Arnstein"
 	dynasty = 247 # Steusslingen
+}
+house_plain = {
+	prefix = "dynnp_von"
+	name = "dynn_Plain"
+	dynasty = 333 # Wilhelming
+}
+house_falkenstein = {
+	prefix = "dynnp_von"
+	name = "dynn_Falkenstein"
+	dynasty = 20 # Dilching
 }

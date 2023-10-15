@@ -1,13 +1,15 @@
-bogen1 = {
+﻿bogen1 = {
 	name = "Albert" #Albert of Bogen, Windberg and Pernegg 
 	dynasty_house = house_bogen
 	culture = bavarian
 	religion = catholic
 	father = babenberg2
+	mother = wettin5
 	1054.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_faceless
 	}
+	#spouse = Liutgard von Diessen
 	1100.7.27 = {
 		death = yes
 	}

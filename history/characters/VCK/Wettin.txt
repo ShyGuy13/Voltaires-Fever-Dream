@@ -60,7 +60,7 @@ wettin4 = {
 }
 
 wettin5 = {
-	name = "Adelaide" # wife of Ernst of Austria
+	name = "Adelheid" # wife of Ernst of Austria
 	female = yes
 	dynasty = 102
 	religion = catholic

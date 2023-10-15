@@ -1,17 +1,18 @@
-wilhelming1 = {
+﻿wilhelming1 = {
 	name = "Wilhelm" # Wilhelm IV of Friesach & Trixen
 	dynasty = 333
 	religion = catholic
 	culture = austrian
-  father = wilhelming2
+  	father = wilhelming2
 	966.1.1 = { #fic
 		birth = yes
 	}
+	#spouse = Hemma von Gurk
 	1036.3.20 = {
 		death = {
-      death_reason = death_murder
-      #killer = Adalbero of Eppenstein
-    }
+      		death_reason = death_revenge
+      		killer = eppenstein4 # Albrecht I of Eppenstien
+    	}
 	}
 }
 
@@ -20,7 +21,7 @@ wilhelming2 = {
 	dynasty = 333
 	religion = catholic
 	culture = austrian
-  father = wilhelming4
+  	father = wilhelming4
 	941.1.1 = { #fic
 		birth = yes
 	}
@@ -34,7 +35,7 @@ wilhelming3 = {
 	dynasty = 333
 	religion = catholic
 	culture = austrian
-  father = wilhelming2
+  	father = wilhelming2
 	971.1.1 = { #fic
 		birth = yes
 	}
@@ -61,7 +62,7 @@ wilhelming5 = {
 	dynasty = 333
 	religion = catholic
 	culture = austrian
-  father = wilhelming4
+  	father = wilhelming4
 	956.1.1 = { #fic
 		birth = yes
 	}
@@ -75,12 +76,12 @@ wilhelming6 = {
 	dynasty = 333
 	religion = catholic
 	culture = austrian
-  father = wilhelming3
+  	father = wilhelming3
 	997.1.1 = { #fic
 		birth = yes
-    give_nickname = nick_the_holy
+    	give_nickname = nick_the_holy
 	}
-	1041.9.8 = {
+	1041.8.9 = {
 		death = yes
 	}
 }
@@ -90,8 +91,8 @@ wilhelming7 = {
 	dynasty = 333
 	religion = catholic
 	culture = austrian
-  father = wilhelming6
-	1018.1.1 = { #fic
+  	father = wilhelming3
+	1008.1.1 = { #fic
 		birth = yes
 	}
 	1060.1.1 = {
@@ -104,7 +105,7 @@ wilhelming8 = {
 	dynasty = 333
 	religion = catholic
 	culture = austrian
-  father = wilhelming6
+  	father = wilhelming6
 	1026.1.1 = { #fic
 		birth = yes
 	}
@@ -118,14 +119,14 @@ wilhelming9 = {
 	dynasty = 333
 	religion = catholic
 	culture = austrian
-  father = wilhelming1
+  	father = wilhelming1
 	1024.1.1 = { #fic
 		birth = yes
 	}
 	1036.1.1 = {
 		death = {
-      death_reason = death_murder
-    }
+      		death_reason = death_murder
+    	}
 	}
 }
 
@@ -134,13 +135,28 @@ wilhelming10 = {
 	dynasty = 333
 	religion = catholic
 	culture = austrian
-  father = wilhelming1
+  	father = wilhelming1
 	1028.1.1 = { #fic
 		birth = yes
 	}
 	1036.1.1 = {
 		death = {
-      death_reason = death_murder
-    }
+      		death_reason = death_murder
+    	}
+	}
+}
+
+wilhelming11 = {
+	name = "Liutbirg" # wife of Marquard IV of Eppenstein
+	female = yes
+	dynasty = 333
+	religion = catholic
+	culture = austrian
+  	father = wilhelming3
+	1024.1.1 = { #fic
+		birth = yes
+	}
+	1083.1.1 = { #fic
+		death = yes
 	}
 }

@@ -96,6 +96,9 @@ d_bm_halberstadt = {
 	1035.8.23 = {
 		holder = schweinfurt9 # Burkhard I
 	}
+	1059.10.18 = {
+		holder = veltheim3 # Burkhard II
+	}
 }
 
 d_bm_passau = {
@@ -124,7 +127,10 @@ d_bm_wurzburg = {
 
 d_bm_augsburg = {
 	300.1.1 = { government = theocracy_government }
-	973.1.1 = {
+	923.11.8 = {
+		holder = dillingen8 # Ulrich I
+	}
+	973.7.4 = {
 		holder = geisenhausen1 # Heinrich I
 	}
 	#982.7.13 = {

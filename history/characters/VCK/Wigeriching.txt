@@ -112,7 +112,10 @@ wigeriching8 = {
 		birth = yes
 	}
 	1060.6.27 = {
-		death = yes
+		death = {
+			death_reason = death_viciously_dismembered
+			killer = ezzoning2
+		}
 	}
 }
 

@@ -3,11 +3,11 @@ cappenberg1 = {
 	dynasty = 314
 	religion = catholic
 	culture = eastphalian
-  #unknown parents
+  	#unknown parents
 	1010.1.1 = { #est
 		birth = yes
 	}
-  #spouse = Mathilde Wigeriche
+  	#spouse = Mathilde Wigeriche
 	1060.1.1 = { #est
 		death = yes
 	}
@@ -18,12 +18,12 @@ cappenberg2 = {
 	dynasty = 314
 	religion = catholic
 	culture = eastphalian
-  father = cappenberg1
-  #mother = Mathilde Wigeriche
+  	father = cappenberg1
+  	#mother = Mathilde Wigeriche
 	1037.1.1 = { #est
 		birth = yes
 	}
-  #spouse = Gerberga of Hüneburg / Bliekastel
+  	#spouse = Gerberga of Hüneburg / Bliekastel
 	1091.1.1 = { #est
 		death = yes
 	}
@@ -34,15 +34,16 @@ cappenberg3 = {
 	dynasty = 314
 	religion = catholic
 	culture = eastphalian
-  father = cappenberg2
-  #mother = Gerberga of Hüneburg / Bliekastel
+  	father = cappenberg2
+  	#mother = Gerberga of Hüneburg / Bliekastel
 	1054.1.1 = { #est
 		birth = yes
 	}
-  #spouse = Beatrix von Schweinfurt
+  	#spouse = Beatrix von Schweinfurt
 	1106.1.1 = {
 		death = {
-      death_reason = death_battle
+      		death_reason = death_battle
+		}
 	}
 }
 
@@ -51,14 +52,15 @@ cappenberg4 = {
 	dynasty = 314
 	religion = catholic
 	culture = eastphalian
-  father = cappenberg2
-  #mother = Gerberga of Hüneburg / Bliekastel
+  	father = cappenberg2
+  	#mother = Gerberga of Hüneburg / Bliekastel
 	1057.1.1 = { #fic
 		birth = yes
 	}
 	1085.1.1 = {
 		death = {
-      death_reason = death_murder
+      		death_reason = death_murder
+		}
 	}
 }
 
@@ -67,13 +69,14 @@ cappenberg5 = {
 	dynasty = 314
 	religion = catholic
 	culture = eastphalian
-  father = cappenberg2
-  #mother = Gerberga of Hüneburg / Bliekastel
+  	father = cappenberg2
+  	#mother = Gerberga of Hüneburg / Bliekastel
 	1060.1.1 = { #fic
 		birth = yes
 	}
 	1085.1.1 = {
 		death = {
-      death_reason = death_murder
+      		death_reason = death_murder
+		}
 	}
 }

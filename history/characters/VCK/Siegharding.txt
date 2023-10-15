@@ -327,7 +327,7 @@ siegharding23 = {
 }
 
 siegharding24 = {
-	name = "Swanhild" # wife of Ernst I of Austria
+	name = "Schwanhilde" # wife of Ernst I of Austria
 	female = yes
 	dynasty = 13
 	culture = bavarian

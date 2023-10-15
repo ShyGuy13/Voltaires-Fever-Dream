@@ -1,4 +1,5 @@
-﻿geisenhausen1 = {
+﻿#DONE FORE 1054
+geisenhausen1 = {
 	name = "Heinrich" # bishop of Augsburg
 	dynasty = 308
 	religion = catholic

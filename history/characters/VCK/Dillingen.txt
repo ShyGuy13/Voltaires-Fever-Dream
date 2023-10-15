@@ -18,8 +18,11 @@ dillingen2 = {
 	religion = catholic
 	culture = swabian
 	father = dillingen1
-	1040.1.1 = {
+	1043.1.1 = { #est
 		birth = yes
+	}
+	1054.1.1 = { #fic
+		add_spouse = winterthur1 # Adelheid
 	}
 	1121.4.16 = {
 		death = yes
@@ -104,7 +107,7 @@ dillingen8 = {
 	culture = swabian
 	trait = saint
 	father = dillingen6
-	890.1.1 = {
+	890.1.1 = { #est
 		birth = yes
 	}
 	973.7.4 = {

@@ -4,11 +4,17 @@
 	religion = catholic
 	culture = swabian
 	father = maden2
+	#unknown mom
 	1040.1.1 = {
 		birth = yes
 	}
+	1050.1.1 = { #fic
+		add_spouse = achalm12 # Willibirg of Achalm
+	}
 	1065.2.24 = {
-		death = yes
+		death = {
+			death_reason = death_courtier_mistakenly_stabbed
+		}
 	}
 }
 
@@ -19,10 +25,64 @@ maden2 = {
 	culture = swabian
 	father = winterthur5
 	mother = eberharding17
-	1021.1.1 = { #fic
+	1021.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1053.6.18 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+maden3 = {
+	name = "Werner" # Werner IV of Neckargau
+	dynasty_house = house_maden
+	religion = catholic
+	culture = swabian
+	father = maden1
+	mother = achalm12
+	1062.1.1 = { #est
+		birth = yes
+	}
+	1085.1.1 = { #fic
+		add_spouse = maden3_wife # Gisela
+	}
+	1121.2.22 = {
 		death = yes
+	}
+}
+
+maden4 = {
+	name = "Agnes" # fictional name, wife of Adalbert of Kislau in 1116
+	female = yes
+	dynasty_house = house_maden
+	religion = catholic
+	culture = swabian
+	father = maden3
+	mother = maden3_wife
+	1085.1.1 = { #fic
+		birth = yes
+	}
+	1144.1.1 = { #fic
+		death = yes
+	}
+}
+
+#wifes
+maden3_wife = {
+	name = "Gisela" # 
+	#dynasty = unknown
+	religion = catholic
+	culture = hessian
+	1062.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1121.2.22 = {
+		death = {
+			death_reason = death_battle
+		}
 	}
 }

@@ -1,4 +1,5 @@
-﻿dassel1 = {
+﻿#DONE FOR 1054
+dassel1 = {
 	name = "Dietrich" # Dietrich I of Dassel
 	dynasty = 234
 	religion = catholic
@@ -15,7 +16,7 @@
 	}
 }
 
-﻿dassel2 = {
+dassel2 = {
 	name = "Helenburg" # wife of Dedo of Ziegenberg
 	female = yes
 	dynasty = 234
@@ -31,7 +32,7 @@
 	}
 }
 
-﻿dassel3 = {
+dassel3 = {
 	name = "Reinhold" # Reinhold I of Dassel
 	dynasty = 234
 	religion = catholic
@@ -48,7 +49,7 @@
 }
 
 #wifes
-﻿dassel1_wife = {
+dassel1_wife = {
 	name = "Kunhilde"
 	female = yes
 	#dynasty = unknown

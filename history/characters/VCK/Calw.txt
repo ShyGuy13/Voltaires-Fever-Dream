@@ -1,5 +1,5 @@
 ﻿calw1 = {
-	name = "Gebhard" #bishop of Eichstätt & Pope Victor II
+	name = "Gebhard" #bishop of Eichstätt
 	dynasty = 42
 	religion = catholic
 	culture = swabian
@@ -16,7 +16,7 @@
 	1018.1.1 = {
 		birth = yes
 	}
-	1054.4.19 = {
+	1054.4.19 = { # Pope Victor II
 		name = "Victor"
 	}
 	1057.7.28 = {

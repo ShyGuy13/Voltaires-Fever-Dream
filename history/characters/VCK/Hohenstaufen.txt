@@ -1,26 +1,105 @@
-﻿hohenstaufen1 = {
+﻿#DONE FOR 1054
+hohenstaufen1 = {
 	name = "Friedrich" # Friedrich I of Swabia
 	dynasty = 44
 	religion = catholic
 	culture = swabian
+	martial = 5
+	diplomacy = 6
+	intrigue = 7
+	stewardship = 8
+	trait = calm
+	trait = deceitful
+	trait = education_intrigue_1
 	father = hohenstaufen2
-	1050.1.1 = {
+	mother = dagsburg2
+	1047.1.1 = { #est
 		birth = yes
 	}
+	#1086.3.24 = {
+		#add_spouse = Agnes Salier
+	#}
 	1105.7.21 = {
 		death = yes
 	}
 }
 
 hohenstaufen2 = {
-	name = "Friedrich" # 
+	name = "Friedrich" # Friedrich von Büren
 	dynasty = 44
 	religion = catholic
 	culture = swabian
-	1010.1.1 = { #fic
+	martial = 5
+	diplomacy = 6
+	intrigue = 7
+	stewardship = 6
+	father = hohenstaufen5
+	#unknown mom
+	1018.1.1 = { #fic
 		birth = yes
 	}
+	1047.1.1 = {
+		add_spouse = dagsburg2 # Hildegard
+	}
 	1075.1.1 = { #fic
+		death = yes
+	}
+}
+
+hohenstaufen3 = {
+	name = "Otto" # bishop of Strassburg
+	dynasty = 44
+	religion = catholic
+	culture = swabian
+	martial = 3
+	diplomacy = 8
+	intrigue = 9
+	stewardship = 6
+	trait = chaste
+	trait = education_learning_3
+	trait = greedy
+	father = hohenstaufen2
+	mother = dagsburg2
+	1050.1.1 = { #est
+		birth = yes
+	}
+	1100.8.3 = {
+		death = yes
+	}
+}
+
+hohenstaufen4 = {
+	name = "Ludwig" # Ludwig of Pfalz
+	dynasty = 44
+	religion = catholic
+	culture = swabian
+	martial = 6
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 5
+	trait = education_martial_2
+	father = hohenstaufen2
+	mother = dagsburg2
+	1053.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1095.7.23 = {
+		death = yes
+	}
+}
+
+hohenstaufen5 = {
+	name = "Friedrich"
+	dynasty = 44
+	religion = catholic
+	culture = swabian
+	#unknown parents
+	994.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1034.1.1 = { #fic
 		death = yes
 	}
 }

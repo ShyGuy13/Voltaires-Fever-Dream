@@ -1,12 +1,16 @@
-﻿falkenstein1 = {
-	name = "Arnold" #bishop of Speyer
-	dynasty = 136
+﻿#DONE FORE 1054
+falkenstein1 = {
+	name = "Herrand" #Herrand I of Falkenstein
+	dynasty_house = house_falkenstein
+	culture = pfalzish
 	religion = catholic
-	culture = hessian
-	1027.1.1 = { #fic
+	father = dilching1
+	#unknown mom
+	1039.1.1 = { #fic
 		birth = yes
 	}
-	1095.1.1 = {
+	#unknown wife
+	1100.1.1 = { #est
 		death = yes
 	}
 }

@@ -23,6 +23,12 @@ babenberg2 = {
 	1027.1.1 = { #fic
 		birth = yes
 	}
+	1050.1.1 = {
+		add_spouse = wettin5 # Adelheid
+	}
+	1072.1.1 = {
+		add_spouse = siegharding24 # Schwanhilde
+	}
 	1075.6.10 = {
 		death = yes
 	}
@@ -52,6 +58,7 @@ babenberg4 = {
 	religion = catholic
 	trait = beauty_good_2
 	father = babenberg2
+	mother = wettin5
 	1050.1.1 = {
 		birth = yes
 		give_nickname = nick_the_beautiful
@@ -68,6 +75,7 @@ babenberg6 = {
 	culture = austrian
 	religion = catholic
 	father = babenberg2
+	mother = wettin5
 	1052.1.1 = { #fic
 		birth = yes
 	}
