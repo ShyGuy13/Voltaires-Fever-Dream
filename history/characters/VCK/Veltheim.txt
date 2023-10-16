@@ -72,12 +72,62 @@ veltheim5 = {
   	#unknown mom
 	1041.1.1 = { #fic
 		birth = yes
-    	give_nickname = nick_the_older
+    		give_nickname = nick_the_older
 	}
   	1065.1.1 = { #fic
-    	add_spouse = groitzsch6
+    		add_spouse = groitzsch7 # unknown daughter of Wiprecht I of Groitzsch
   	}
 	1089.1.1 = { #fic
+		death = yes
+	}
+}
+
+veltheim6 = {
+	name = "Rudgar" # Rudgar of Veltheim
+	dynasty = 313
+	religion = catholic
+	culture = central_margravian
+	#his parents are actually unknown but I had to connect him to the dynasty somehow
+  	father = veltheim1 #fic
+	#unknown mom
+	1048.1.1 = { #est
+		birth = yes
+	}
+  	1069.1.1 = { #fic
+		add_spouse = pettendorf3 # Isengardis
+	}
+	1107.1.1 = { #fic
+		death = yes
+	}
+}
+
+veltheim7 = {
+	name = "Friedrich" # Friedrich III of Pettendorf
+	dynasty = 313
+	religion = catholic
+	culture = central_margravian
+  	father = veltheim1
+	mother = pettendorf3
+	1069.1.1 = { #est
+		birth = yes
+	}
+	#spouse = Heilika of Hohenstaufen, daughter of Friedrich I # debated
+	1119.4.3 = {
+		death = yes
+	}
+}
+
+veltheim8 = {
+	name = "Rudgar" # bishop of Magdeburg
+	dynasty = 313
+	religion = catholic
+	culture = central_margravian
+  	father = veltheim1
+	mother = pettendorf3
+	1072.1.1 = { #est
+		birth = yes
+	}
+	1125.12.20 = {
 		death = yes
 	}
 }
