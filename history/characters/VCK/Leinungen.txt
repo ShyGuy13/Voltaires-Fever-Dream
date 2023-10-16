@@ -1,9 +1,10 @@
+#DONE FOR 1054
 leinungen1 = {
 	name = "Sigena" # wife of Wiprecht I von Groitzsch & Friedrich I. von Pettendorf
 	female = yes
 	dynasty = 299
 	religion = catholic
-	culture = saxon
+	culture = thuringian
 	father = leinungen2
 	#unknown mom
 	1025.1.1 = { #est
@@ -15,10 +16,10 @@ leinungen1 = {
 }
 
 leinungen2 = {
-	name = "Goswin" # wife of 
+	name = "Goswin" # lord of Leinungen
 	dynasty = 299
 	religion = catholic
-	culture = saxon
+	culture = thuringian
 	#unknown parents
 	998.1.1 = { #fic
 		birth = yes
