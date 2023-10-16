@@ -72,8 +72,10 @@ werl5 = {
 	1001.1.1 = { #est
 		birth = yes
 	}
-	#Richenza Ezzoning
-	1055.1.1 = { #est
+	1040.1.1 = { #est
+		add_spouse = ezzoning15 # Richenza
+	}
+	1050.1.1 = { #est
 		death = yes
 	}
 }
@@ -99,6 +101,7 @@ werl7 = {
 	religion = catholic
 	culture = hannoverian
 	father = werl5
+	mother = ezzoning15
 	1048.1.1 = { #est
 		birth = yes
 	}

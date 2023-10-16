@@ -31,7 +31,7 @@ pilgriming2 = {
 }
 
 pilgriming3 = {
-	name = "Irmgard" #
+	name = "Irmgard" # wife of Engelbert V Siegharding, Gebhard I of Sulzbach & Kuno of Lechsgemünd
 	female = yes
 	dynasty = 15
 	religion = catholic

@@ -214,3 +214,18 @@ ezzoning14 = {
 		death = yes
 	}
 }
+
+ezzoning15 = {
+	name = "Richenza" # wife of Hermann III of Werl & Otto I of Northeim
+	female = yes
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning9 # debated
+	1025.1.1 = { #est
+		birth = yes
+	}
+	1083.1.1 = { #est
+		death = yes
+	}
+}

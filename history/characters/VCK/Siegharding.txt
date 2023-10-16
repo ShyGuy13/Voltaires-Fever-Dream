@@ -262,8 +262,13 @@ siegharding19 = {
 	1033.1.1 = { #fic
 		birth = yes
 	}
-	1078.1.1 = {
-		death = yes
+	1075.1.1 = { #fic
+		add_spouse = pilgriming3 # Irmgard
+	}
+	1078.8.7 = {
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 

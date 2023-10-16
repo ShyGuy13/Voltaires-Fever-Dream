@@ -1,4 +1,7 @@
-﻿lechsgemund1 = {
+﻿#DONE FOR 1054
+#Lechsgemünds's first generations are very debated; family relationships are heavily different dependent on historian
+
+lechsgemund1 = {
 	name = "Luitger" #Luitger I of Lechsgemünd
 	dynasty = 21
 	religion = catholic
@@ -13,7 +16,7 @@
 	}
 }
 
-﻿lechsgemund2 = {
+lechsgemund2 = {
 	name = "Heinrich" #Heinrich I of Lechsgemünd
 	dynasty = 21
 	religion = catholic
@@ -23,15 +26,15 @@
 	1038.1.1 = { #est
 		birth = yes
 	}
-	#spouse = Irmgard von Rott
-	1078.8.7 = {
-		death = {
-			death_reason = death_battle
-		}
+	1054.1.1 = { #fic
+		add_spouse = pilgriming3 # Irmgard
+	}
+	1074.1.1 = { # 1078.8.7 by battle; I changed this so that Irmgard's marriages make sense as her husband Engelbert also died in the same battle???? 
+		death = yes
 	}
 }
 
-﻿lechsgemund3 = {
+lechsgemund3 = {
 	name = "Konrad" #Konrad I of Harburg
 	dynasty = 21
 	religion = catholic
@@ -41,7 +44,9 @@
 	1041.1.1 = { #est
 		birth = yes
 	}
-	#spouse = Mathilde von Achalm
+	1059.1.1 = { #fic
+		add_spouse = achalm13 # Mathilde / Mechthild
+	}
 	1091.9.21 = {
 		death = yes
 	}

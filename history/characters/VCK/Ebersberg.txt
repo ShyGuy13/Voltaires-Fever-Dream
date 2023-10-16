@@ -73,7 +73,7 @@ ebersberg5 = {
 
 ebersberg6 = {
 	name = "Willibirg" # wife of Etchio II of Welf
-  female = yes
+  	female = yes
 	dynasty_house = house_ebersberg
 	religion = catholic
 	culture = bavarian

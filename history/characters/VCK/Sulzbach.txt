@@ -31,7 +31,7 @@ sulzbach2 = {
 	}
 }
 
-﻿sulzbach3 = {
+sulzbach3 = {
 	name = "Richwara" #wife of Berthold I of Zähringen
 	female = yes
 	dynasty = 90
@@ -47,7 +47,7 @@ sulzbach2 = {
 	}
 }
 
-﻿sulzbach4 = {
+sulzbach4 = {
 	name = "Adelheid" # wife of Heinrich II of Formbach & Arnulf of Diessen
 	female = yes
 	dynasty = 90
@@ -63,7 +63,7 @@ sulzbach2 = {
 	}
 }
 
-﻿sulzbach5 = {
+sulzbach5 = {
 	name = "Berengar" # Berengar I of Aibling
 	dynasty = 90
 	religion = catholic
@@ -79,7 +79,7 @@ sulzbach2 = {
 	}
 }
 
-﻿sulzbach6 = {
+sulzbach6 = {
 	name = "Gebhard" # Gebhard II of Sulzbach
 	dynasty = 90
 	religion = catholic
@@ -89,15 +89,15 @@ sulzbach2 = {
 	1041.1.1 = { #fic
 		birth = yes
 	}
-	1060.1.1 = { #fic
+	1079.1.1 = { #fic
 		add_spouse = pilgriming3 # Irmgard
 	}
-	1088.1.1 = { #est
+	1085.1.1 = { #est
 		death = yes
 	}
 }
 
-﻿sulzbach7 = {
+sulzbach7 = {
 	name = "Hermann" # Hermann I of Poigen
 	dynasty = 90
 	religion = catholic
@@ -113,7 +113,7 @@ sulzbach2 = {
 	}
 }
 
-﻿sulzbach8 = {
+sulzbach8 = {
 	name = "Friedrun" # nun
 	female = yes
 	dynasty = 90
@@ -130,7 +130,7 @@ sulzbach2 = {
 	}
 }
 
-﻿sulzbach8 = {
+sulzbach9 = {
 	name = "Richwara" # wife of Marquard of Marquard I of Leuchtenberg-Auerbach
 	female = yes
 	dynasty = 90

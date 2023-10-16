@@ -312,7 +312,6 @@
  dynn_Geisenhausen: "Geisenhausen"
  dynn_Walbeck: "Walbeck"
  dynn_Hohenlohe: "Hohenlohe"
- dynn_Kastl: "Kastl"
  dynn_Stahleck: "Stahleck"
  dynn_Veltheim: "Veltheim"
  dynn_Cappenberg: "Cappenberg"
@@ -346,6 +345,7 @@
  dynn_Arnstein: "Arnstein"
  dynn_Plain: "Plain"
  dynn_Falkenstein: "Falkenstein"
+ dynn_Kastl: "Kastl"
 #Cultures
 #Central Germanic
 #North Germanic

@@ -1,12 +1,33 @@
+﻿#DONE FOR 1054
 calvelage1 = {
 	name = "Hermann" # Hermann I of Calvelage
 	dynasty = 277
 	religion = catholic
 	culture = hannoverian
+	#unknown parents
 	1031.1.1 = { #fic
 		birth = yes
 	}
+	1070.1.1 = {
+		add_spouse = northeim7 # Ethelinde
+	}
 	1082.1.1 = {
+		death = yes
+	}
+}
+
+calvelage2 = {
+	name = "Hermann" # Hermann I of Ravensberg
+	dynasty = 277
+	religion = catholic
+	culture = hannoverian
+	father = calvelage1
+	mother = northeim7
+	1077.1.1 = { #est
+		birth = yes
+	}
+	#Judith von Zütphen
+	1144.1.1 = { #est
 		death = yes
 	}
 }

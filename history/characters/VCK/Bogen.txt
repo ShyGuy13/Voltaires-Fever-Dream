@@ -1,5 +1,6 @@
-﻿bogen1 = {
-	name = "Albert" #Albert of Bogen, Windberg and Pernegg 
+﻿#DONE FOR 1054
+bogen1 = {
+	name = "Albrecht" #Albrecht of Bogen, Windberg and Pernegg 
 	dynasty_house = house_bogen
 	culture = bavarian
 	religion = catholic

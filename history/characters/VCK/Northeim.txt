@@ -4,8 +4,12 @@
 	religion = catholic
 	culture = thuringian
 	father = northeim4
+	#Eilikia
 	1020.1.1 = {
 		birth = yes
+	}
+	1050.1.1 = { #est
+		add_spouse = ezzoning15 # Richenza
 	}
 	1083.1.11 = {
 		death = yes
@@ -17,7 +21,9 @@ northeim2 = {
 	dynasty = 184
 	religion = catholic
 	culture = thuringian
+	trait = twin
 	father = northeim1
+	mother = ezzoning15
 	1050.1.1 = { #est
 		birth = yes
 		give_nickname = nick_the_fat
@@ -33,6 +39,7 @@ northeim3 = {
 	religion = catholic
 	culture = thuringian
 	father = northeim1
+	mother = ezzoning15
 	1053.1.1 = { #est
 		birth = yes
 	}
@@ -50,10 +57,12 @@ northeim4 = {
 	religion = catholic
 	culture = thuringian
 	father = northeim6
-	978.1.1 = { #fic
+	#mom = Mathilde
+	988.1.1 = { #est
 		birth = yes
 	}
-	1040.1.1 = {
+	#wife = Eilikia of Stade-Nordmark
+	1049.1.1 = { #est
 		death = yes
 	}
 }
@@ -64,11 +73,15 @@ northeim5 = {
 	religion = catholic
 	culture = thuringian
 	father = northeim6
+	#mom = Mathilde
 	983.1.1 = { #est
 		birth = yes
 	}
+	#no wife, no children
 	1025.1.1 = {
-		death = yes
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 
@@ -77,10 +90,32 @@ northeim6 = {
 	dynasty = 184
 	religion = catholic
 	culture = thuringian
-	958.1.1 = { #est
+	#son of Siegfried II of Hassegau
+	#OR Otto of Northeim
+	#OR Siegfried I of Luxemburg
+	965.1.1 = { #est
 		birth = yes
 	}
-	1004.11.1 = {
+	#1st wife = Mathilde
+	#2nd wife = Ethelinde
+	1004.8.15 = {
+		death = yes
+	}
+}
+
+northeim7 = {
+	name = "Ethelinde" # wife of Welf IV of Bavaria & Herman I of Calvelage
+	female = yes
+	dynasty = 184
+	religion = catholic
+	culture = thuringian
+	trait = twin
+	father = northeim1
+	mother = ezzoning15
+	1050.1.1 = { #est
+		birth = yes
+	}
+	1081.1.1 = { #est
 		death = yes
 	}
 }

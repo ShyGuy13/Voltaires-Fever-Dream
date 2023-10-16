@@ -15,7 +15,7 @@
 	}
 }
 
-﻿kastl2 = {
+kastl2 = {
 	name = "Hermann" # Hermann II of Cham
 	dynasty_house = house_kastl
 	religion = catholic
@@ -32,7 +32,7 @@
 	}
 }
 
-﻿kastl3 = {
+kastl3 = {
 	name = "Friedrich" # Friedrich I of Kastl
 	dynasty_house = house_kastl
 	religion = catholic
@@ -48,7 +48,7 @@
 	}
 }
 
-﻿kastl4 = {
+kastl4 = {
 	name = "Mathilde" # wife of Rapoto III/IV of Traungau, died 15.10.1080
   	female = yes
 	dynasty_house = house_kastl
