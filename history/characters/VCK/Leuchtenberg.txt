@@ -1,12 +1,33 @@
-﻿leuchtenberg1 = {
-	name = "Marquard" #Marquard I of Leuchtenberg
+#DONE FOR 1054
+leuchtenberg1 = {
+	name = "Marquard" #Marquard I of Leuchtenberg-Auerbach
 	dynasty = 22
 	religion = catholic
 	culture = bavarian
-	1030.1.1 = { #fic
+	#unknown parents
+	1054.1.1 = { #fic
 		birth = yes
 	}
-	1100.1.1 = { #fic
+	#wife = daughter of Gebhard I of Sulzbach, named Richwara??
+	1111.1.1 = { #est
+		death = yes
+	}
+}
+
+﻿leuchtenberg2 = {
+	name = "Gebhard" #Gebhard I of Leuchtenberg
+	dynasty = 22
+	religion = catholic
+	culture = bavarian
+	father = leuchtenberg1
+	#mother = daughter of Gebhard I of Sulzbach, named Richwara??
+	1086.1.1 = { #fic
+		birth = yes
+	}
+	1024.1.1 = { #fic
+		add_spouse = veltheim10 # Heilwiga
+	}
+	1146.1.1 = {
 		death = yes
 	}
 }
