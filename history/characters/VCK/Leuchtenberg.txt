@@ -8,7 +8,9 @@ leuchtenberg1 = {
 	1054.1.1 = { #fic
 		birth = yes
 	}
-	#wife = daughter of Gebhard I of Sulzbach, named Richwara??
+	1086.1.1 = {
+		add_spouse = sulzbach8 # Richwara
+	}
 	1111.1.1 = { #est
 		death = yes
 	}
@@ -20,7 +22,7 @@ leuchtenberg1 = {
 	religion = catholic
 	culture = bavarian
 	father = leuchtenberg1
-	#mother = daughter of Gebhard I of Sulzbach, named Richwara??
+	mother = sulzbach8
 	1086.1.1 = { #fic
 		birth = yes
 	}
