@@ -1,14 +1,15 @@
 ﻿kastl1 = {
 	name = "Hermann" # Hermann I of Kastl
-	dynasty = 311
+	dynasty_house = house_kastl
 	religion = catholic
 	culture = bavarian
-  #unknown parents
-	1026.1.1 = {
+  	father = sulzbach2 # debated, it could also be Hermann IV of Swabia
+	#unknown mom
+	1026.1.1 = { #est
 		birth = yes
-    give_nickname = nick_the_older
+    		give_nickname = nick_the_older
 	}
-  #spouse = Haziga von Dießen
+  	#spouse = Haziga von Dießen
 	1056.1.27 = {
 		death = yes
 	}
@@ -16,16 +17,16 @@
 
 ﻿kastl2 = {
 	name = "Hermann" # Hermann II of Cham
-	dynasty = 311
+	dynasty_house = house_kastl
 	religion = catholic
 	culture = bavarian
-  father = kastl1
-  #mother = Hadegunde von Diessen
+  	father = kastl1
+  	#mother = Hadegunde von Diessen
 	1048.1.1 = { #fic
 		birth = yes
-    give_nickname = nick_the_younger
+    		give_nickname = nick_the_younger
 	}
-  #spouse = Bertha von Schweinfurt
+  	#spouse = Bertha von Schweinfurt
 	1071.1.1 = { #est
 		death = yes
 	}
@@ -33,15 +34,15 @@
 
 ﻿kastl3 = {
 	name = "Friedrich" # Friedrich I of Kastl
-	dynasty = 311
+	dynasty_house = house_kastl
 	religion = catholic
 	culture = bavarian
-  father = kastl1
-  #mother = Hadegunde von Diessen
+  	father = kastl1
+  	#mother = Hadegunde von Diessen
 	1051.1.1 = { #fic
 		birth = yes
 	}
-  #spouse = also Bertha von Schweinfurt
+  	#spouse = also Bertha von Schweinfurt
 	1103.11.11 = {
 		death = yes
 	}
@@ -49,12 +50,12 @@
 
 ﻿kastl4 = {
 	name = "Mathilde" # wife of Rapoto III/IV of Traungau, died 15.10.1080
-  female = yes
-	dynasty = 311
+  	female = yes
+	dynasty_house = house_kastl
 	religion = catholic
 	culture = bavarian
-  father = kastl1
-  #mother = Hadegunde von Diessen
+ 	father = kastl1
+  	#mother = Hadegunde von Diessen
 	1053.1.1 = { #fic
 		birth = yes
 	}
