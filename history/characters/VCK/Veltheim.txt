@@ -131,3 +131,35 @@ veltheim8 = {
 		death = yes
 	}
 }
+
+veltheim9 = {
+	name = "Heilika" # wife of Heilika of Hohenstaufen
+	female = yes
+	dynasty = 313
+	religion = catholic
+	culture = central_margravian
+  	father = veltheim7
+	#mother = Heilika of Hohenstaufen
+	1103.1.1 = { #est
+		birth = yes
+	}
+	1170.9.14 = {
+		death = yes
+	}
+}
+
+veltheim10 = {
+	name = "Heilwiga" # wife of Gebhard I. von Leuchtenberg
+	female = yes
+	dynasty = 313
+	religion = catholic
+	culture = central_margravian
+  	father = veltheim7
+	#mother = Heilika of Hohenstaufen
+	1110.1.1 = { #fic
+		birth = yes
+	}
+	1160.1.1 = {
+		death = yes
+	}
+}
