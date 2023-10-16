@@ -8,6 +8,9 @@
 		birth  = yes
 		give_nickname = nick_the_bearded
 	}
+	1035.1.1 = { #fic
+		add_spouse = sulzbach3 # debated
+	}
 	1078.11.6 = {
 		death = yes
 	}
@@ -19,6 +22,7 @@ zahringen2 = {
 	religion = catholic
 	culture = boden_alemannic
 	father = zahringen1
+	mother = sulzbach3
 	1038.1.1 = {
 		birth  = yes
 	}
@@ -34,6 +38,7 @@ zahringen3 = {
 	religion = catholic
 	culture = boden_alemannic
 	father = zahringen1
+	mother = sulzbach3
 	1047.1.1 = {
 		birth  = yes
 	}
@@ -48,6 +53,7 @@ zahringen4 = {
 	religion = catholic
 	culture = boden_alemannic
 	father = zahringen1
+	mother = sulzbach3
 	1050.1.1 = {
 		birth  = yes
 	}
@@ -62,6 +68,7 @@ zahringen5 = {
 	religion = catholic
 	culture = boden_alemannic
 	father = zahringen1
+	mother = sulzbach3
 	1053.1.1 = {
 		birth  = yes
 	}
@@ -146,6 +153,7 @@ zahringen11 = {
 	religion = catholic
 	culture = boden_alemannic
 	father = zahringen1
+	mother = sulzbach3
 	1054.1.1 = { #fic
 		birth  = yes
 	}
