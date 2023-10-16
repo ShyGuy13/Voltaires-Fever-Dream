@@ -8,7 +8,7 @@ leuchtenberg1 = {
 	1054.1.1 = { #fic
 		birth = yes
 	}
-	1086.1.1 = {
+	1086.1.1 = { #fic
 		add_spouse = sulzbach8 # Richwara
 	}
 	1111.1.1 = { #est
