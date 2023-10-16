@@ -10,6 +10,9 @@ leinungen1 = {
 	1025.1.1 = { #est
 		birth = yes
 	}
+	1065.1.1 = { # she becomes nun after both husbands died
+		trait = devoted
+	}
 	1110.2.24 = {
 		death = yes
 	}
