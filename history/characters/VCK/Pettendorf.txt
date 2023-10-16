@@ -1,3 +1,4 @@
+#DONE FOR 1054
 pettendorf1 = {
 	name = "Friedrich" # Friedrich I of Pettendorf
 	dynasty = 334
@@ -7,9 +8,9 @@ pettendorf1 = {
 	1026.1.1 = { #est
 		birth = yes
 	}
-  1051.1.1 = {
-    add_spouse = leinungen1 # Sigenia von Leinungen
-  }
+	1051.1.1 = {
+	    add_spouse = leinungen1 # Sigenia von Leinungen
+	}
 	1063.1.1 = { #est
 		death = yes
 	}
@@ -21,24 +22,24 @@ pettendorf2 = {
 	religion = catholic
 	culture = bavarian
 	father = pettendorf1
-  mother = leinungen1
+  	mother = leinungen1
 	1051.1.1 = { #est
 		birth = yes
 	}
-  #no wife / no children
+ 	#no wife / no children
 	1084.1.1 = { #fic
 		death = yes
 	}
 }
 
 pettendorf3 = {
-	name = "Isingardis" # wife of Rutger von Veltheim
-  female = yes
+	name = "Isengard" # wife of Rutger von Veltheim
+  	female = yes
 	dynasty = 334
 	religion = catholic
 	culture = bavarian
 	father = pettendorf1
-  mother = leinungen1
+  	mother = leinungen1
 	1054.1.1 = { #est
 		birth = yes
 	}
