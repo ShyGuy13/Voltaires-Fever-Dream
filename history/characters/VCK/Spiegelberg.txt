@@ -1,12 +1,31 @@
+#DONE FOR 1054
 spiegelberg1 = {
-	name = "Konrad" # Konrad I of Spiegelberg
+	name = "Friedrich" # Friedrich I of Spiegelberg / Poppenburg
 	dynasty = 268
 	religion = catholic
 	culture = eastphalian
-	1025.1.1 = { #fic
+	#unknown parents
+	1013.1.1 = { #fic
 		birth = yes
 	}
-	1100.1.1 = { #fic
+	#unknown wife
+	1069.1.1 = { #fic
+		death = yes
+	}
+}
+
+spiegelberg2 = {
+	name = "Konrad" # Konrad I of Spiegelberg / Poppenburg
+	dynasty = 268
+	religion = catholic
+	culture = eastphalian
+	father = spiegelberg1
+	#unknown mom
+	1039.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1095.1.1 = { #fic
 		death = yes
 	}
 }
