@@ -1,12 +1,15 @@
-﻿wertheim1 = {
+#DONE FOR 1054
+wertheim1 = {
 	name = "Bruno" # Bruno I of Wertheim
 	dynasty = 249
 	religion = catholic
 	culture = franconian
-	1031.1.1 = { #fic
+	#unknown parents
+	1039.1.1 = { #fic
 		birth = yes
 	}
-	1088.1.1 = {
+	#unknown wife
+	1103.1.1 = { #fic
 		death = yes
 	}
 }
@@ -17,10 +20,12 @@ wertheim2 = {
 	religion = catholic
 	culture = franconian
 	father = wertheim1
-	1053.1.1 = { #fic
+	#unknown mom
+	1083.1.1 = { #est
 		birth = yes
 	}
-	1116.1.1 = {
+	#unknown wife
+	1157.1.1 = {
 		death = yes
 	}
 }
