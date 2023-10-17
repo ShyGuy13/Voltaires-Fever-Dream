@@ -1,26 +1,47 @@
-﻿bederkesa1 = {
+#DONE FOR 1054
+bederkesa1 = {
 	name = "Bederich" # Bederich I of Bederkesa
 	dynasty = 215
 	religion = catholic
 	culture = low_elbish
-	991.1.1 = { #fic
+	#unknown parents
+	1014.1.1 = { #fic
 		birth = yes
 	}
-	1060.1.1 = {
+	#unknown wife
+	1060.1.1 = { #fic
 		death = yes
 	}
 }
 
 bederkesa2 = {
+	name = "Friedrich" # Friedrich I of Bederkesa
+	dynasty = 215
+	religion = catholic
+	culture = low_elbish
+	father = bederkesa1
+	#unknown mother
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1068.1.1 = { #fic
+		death = yes
+	}
+}
+
+bederkesa3 = {
 	name = "Marquard" # Marquard I of Bederkesa
 	dynasty = 215
 	religion = catholic
 	culture = low_elbish
 	father = bederkesa1
-	1025.1.1 = { #fic
+	#unknown mother
+	1040.1.1 = { #fic
 		birth = yes
 	}
-	1090.1.1 = {
+	#unknown wife
+	1103.1.1 = { #fic
 		death = yes
 	}
 }
