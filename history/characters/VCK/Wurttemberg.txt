@@ -3,12 +3,93 @@
 	dynasty = 62
 	religion = catholic
 	culture = swabian
-	1044.1.1 = {
+	father = wurttemberg4 #debated
+	#unknown mom
+	1053.1.1 = { #fic
 		birth = yes
 	}
-	1110.1.1 = {
+	1080.1.1 = { #fic
+		add_spouse = wurttemberg1_wife # Werntrud
+	}
+	1110.5.12 = {
 		death = yes
 	}
 }
 
+﻿wurttemberg2 = {
+	name = "Bruno" # monk
+	dynasty = 62
+	religion = catholic
+	culture = swabian
+	trait = devoted
+	father = wurttemberg4 #debated
+	#unknown mom
+	1064.1.1 = { #fic
+		birth = yes
+	}
+	1120.3.23 = {
+		death = yes
+	}
+}
 
+﻿wurttemberg3 = {
+	name = "Luitgard" # 
+	female = yes
+	dynasty = 62
+	religion = catholic
+	culture = swabian
+	father = wurttemberg4 #debated
+	#unknown mom
+	1051.1.1 = { #fic
+		birth = yes
+	}
+	#matrilineal marriage with ﻿wurttemberg3_husband 
+	1105.1.1 = {  #fic
+		death = yes
+	}
+}
+
+﻿wurttemberg4 = {
+	name = "Konrad" # 
+	dynasty = 62
+	religion = catholic
+	culture = swabian
+	father = salier5 Konrad II Salier #debated
+	#unknown mom
+	1027.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1066.1.1 = { #fic
+		death = yes
+	}
+}
+
+#wifes
+﻿wurttemberg1_wife = {
+	name = "Werntrud" # 
+	female = yes
+	religion = catholic
+	culture = swabian
+	1060.1.1 = { #fic
+		birth = yes
+	}
+	1114.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿wurttemberg3_husband = {
+	name = "Wolfram" # unknown name
+	religion = catholic
+	culture = swabian
+	1044.1.1 = { #fic
+		birth = yes
+	}
+	1054.1.1 = { #fic
+		add_matrilineal_spouse = ﻿wurttemberg3
+	}
+	1097.1.1 = { #fic
+		death = yes
+	}
+}
