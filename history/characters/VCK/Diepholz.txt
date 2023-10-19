@@ -1,12 +1,45 @@
-﻿diepholz1 = {
+#DONE FOR 1054
+diepholz1 = {
 	name = "Gottschalk" # Gottschalk I of Diepholz
 	dynasty = 217
 	religion = catholic
 	culture = low_elbish
-	1030.1.1 = { #fic
+	#unknown parents
+	1039.1.1 = { #fic
 		birth = yes
 	}
-	1090.1.1 = { #fic
+	#unknown wife
+	1088.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿diepholz2 = {
+	name = "Georg" # Georg I of Diepholz
+	dynasty = 217
+	religion = catholic
+	culture = low_elbish
+	father = diepholz1
+	#unknown mom
+	1064.1.1 = { #fic
+		birth = yes
+	}
+	1023.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿diepholz3 = {
+	name = "Gottschalk" # bishop of Osnabrück
+	dynasty = 217
+	religion = catholic
+	culture = low_elbish
+	father = diepholz1
+	#unknown mom
+	1067.1.1 = { #fic
+		birth = yes
+	}
+	1119.1.1 = {
 		death = yes
 	}
 }
