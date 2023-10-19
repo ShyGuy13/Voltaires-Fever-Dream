@@ -8,6 +8,15 @@
 	1050.11.11 = {
 		birth = yes
 	}
+	1055.12.25 = {
+		add_spouse = savoia4 # Bertha
+	}
+	#1089.8.14 = {
+	#	add_spouse = # Adelheid of Kiev Rurikid
+	#}
+	#1095.1.1 = {
+	#	remove_spouse = Adelheid of Kiev Rurikid 
+	#}
 	1106.8.7 = {
 		death = yes
 	}
@@ -22,6 +31,7 @@ salier2 = {
 	mother = ramnulfing1
 	1052.10.1 = {
 		birth = yes
+		give_nickname = nick_the_child
 	}
 	1055.4.10 = {
 		death = yes
@@ -42,7 +52,8 @@ salier3 = {
 		}
 		capital = c_worms
 	}
-	1043.1.1 = {
+	#1036 = Gunhilde of Denmark
+	1043.11.21 = {
 		add_spouse = ramnulfing1 # Agnes
 	}
 	1056.10.5 = {
@@ -199,6 +210,106 @@ salier13 = {
 		birth = yes
 	}
 	1061.7.13 = {
+		death = yes
+	}
+}
+
+salier14 = {
+	name = "Adelheid" #
+	female = yes
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier1
+	mother = savoia4
+	1070.1.1 = { #est
+		birth = yes
+	}
+	1079.6.4 = {
+		death = yes
+	}
+}
+
+salier15 = {
+	name = "Heinrich" #
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier1
+	mother = savoia4
+	1071.1.1 = { #est
+		birth = yes
+	}
+	1071.8.2 = {
+		death = yes
+	}
+}
+
+salier16 = {
+	name = "Agnes" # wife of Friedrich I von Hohenstaufen & Leopold III von Babenberg
+	female = yes
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier1
+	mother = savoia4
+	1073.1.1 = { #est
+		birth = yes
+	}
+	1143.9.24 = {
+		death = yes
+	}
+}
+
+salier17 = {
+	name = "Konrad" # Konrad III of HRE
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier1
+	mother = savoia4
+	1074.2.12 = {
+		birth = yes
+	}
+	#1095 Konstanze of Hauteville
+	1101.7.27 = {
+		death = yes
+	}
+}
+
+salier18 = {
+	name = "Heinrich" # Heinrich V of HRE
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier1
+	mother = savoia4
+	1086.8.11 = {
+		birth = yes
+	}
+	#1114.1.7 = {
+	#	add_spouse = Matilda Rolloning
+	#}
+	1125.5.23 = {
+		death = {
+			death_reason = death_cancer
+		}
+	}
+}
+
+salier19 = {
+	name = "Bertha" # wife of Ptolemäus II of Tusculum
+	female = yes
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	trait = bastard
+	father = salier18
+	#unknown mom
+	1107.1.1 = { #fic
+		birth = yes
+	}
+	1168.1.1 = { #fic
 		death = yes
 	}
 }
