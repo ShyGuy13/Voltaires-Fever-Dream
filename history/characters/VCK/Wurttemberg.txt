@@ -1,4 +1,5 @@
-﻿wurttemberg1 = {
+#DONE FOR 1054
+wurttemberg1 = {
 	name = "Konrad" # Konrad I of Württemberg
 	dynasty = 62
 	religion = catholic
