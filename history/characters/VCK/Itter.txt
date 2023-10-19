@@ -1,12 +1,75 @@
 ﻿itter1 = {
-	name = "Rember" # Rember I of Ittergau
+	name = "Rembert" # Rembert I of Ittergau
 	dynasty = 232
 	religion = catholic
 	culture = hannoverian
-	1028.1.1 = { #fic
+	father = itter2
+	#unknown mom
+	1026.1.1 = { #fic
 		birth = yes
 	}
-	1094.1.1 = {
+	1068.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿itter2 = {
+	name = "Remwerk" # Remwerk I of Ittergau
+	dynasty = 232
+	religion = catholic
+	culture = hannoverian
+	father = itter4
+	994.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1032.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿itter3 = {
+	name = "Witherald" # 
+	dynasty = 232
+	religion = catholic
+	culture = hannoverian
+	father = itter2
+	#unknown mom
+	1039.1.1 = { #fic
+		birth = yes
+	}
+	1076.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿itter4 = {
+	name = "Gumbert" # Gumbert I of Ittergau
+	dynasty = 232
+	religion = catholic
+	culture = hannoverian
+	father = itter5
+	973.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1011.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿itter5 = {
+	name = "Reinward" # Reinward I of Ittergau
+	dynasty = 232
+	religion = catholic
+	culture = hannoverian
+	#father = Elli Esikoning
+	#mother = Judith
+	941.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	974.1.1 = { #fic
 		death = yes
 	}
 }
