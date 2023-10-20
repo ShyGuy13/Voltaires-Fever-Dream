@@ -3,6 +3,7 @@
 	dynasty = 3
 	religion = catholic
 	culture = swabian
+	father = konrading3
 	#mother = Judith von Marchtal
 	947.1.1 = { #est
 		birth = yes
@@ -11,6 +12,51 @@
 	#	add_spouse = Gerberga von Burgund
 	#}
 	1003.5.4 = {
+		death = yes
+	}
+}
+
+﻿konrading2 = {
+	name = "Luitold" #Luitold of Montbéliard
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading3
+	#mother = Judith von Marchtal
+	939.1.1 = { #fic
+		birth = yes
+	}
+	#Willibirg of Ebersberg
+	1001.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿konrading3 = {
+	name = "Konrad" #Konrad II of Swabia
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	918.1.1 = { #est
+		birth = yes
+	}
+	#Judith von Marchtal
+	997.8.20 = {
+		death = yes
+	}
+}
+
+﻿konrading4 = {
+	name = "Otto" #
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading2
+
+	977.1.1 = { #fic
+		birth = yes
+	}
+	1044.1.1 = { #est
 		death = yes
 	}
 }
