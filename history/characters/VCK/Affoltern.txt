@@ -1,25 +1,31 @@
-﻿affoltern1 = {
-	name = "Luitold" # Luitold I of Regensburg
+DONE FOR 1054
+affoltern1 = {
+	name = "Luitold" # Luitold I of Affoltern
 	dynasty = 71
 	religion = catholic
 	culture = swiss
+	father = konrading4 #debated
+	#unknown mom
 	1005.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1066.1.1 = {
 		death = yes
 	}
 }
 
 affoltern2 = {
-	name = "Luitold" # Luitold II of Regensburg
+	name = "Luitold" # Luitold I of Regensberg
 	dynasty = 71
 	religion = catholic
 	culture = swiss
 	father = affoltern1
-	1040.1.1 = { #fic
+	#unknown mom
+	1040.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1088.1.1 = {
 		death = yes
 	}
