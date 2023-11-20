@@ -4,10 +4,13 @@
 	religion = catholic
 	culture = bavarian
 	father = andechs2
-	1027.1.1 = { #fic
+	1037.1.1 = { #fic
 		birth = yes
 	}
-	1098.1.1 = {
+	1053.1.1 = { #fic
+		add_spouse = schweinfurt3 # Gisela
+	}
+	1098.2.8 = {
 		death = yes
 	}
 }
@@ -32,10 +35,11 @@ andechs3 = {
 	religion = catholic
 	culture = bavarian
 	father = andechs4
-	990.1.1 = { #fic
+	986.1.1 = { #fic
 		birth = yes
 	}
-	1030.1.1 = {
+	#unknown wife
+	1031.1.1 = { #est
 		death = yes
 	}
 }
@@ -48,7 +52,8 @@ andechs4 = {
 	960.1.1 = { #fic
 		birth = yes
 	}
-	1020.1.1 = {
+	#Kunigunde Konrading
+	1018.1.1 = { #est
 		death = yes
 	}
 }
@@ -59,7 +64,8 @@ andechs5 = {
 	dynasty = 27
 	religion = catholic
 	culture = bavarian
-	father = andechs2
+	father = andechs2 #debated
+	#mother = Irmgard of Gilching #debated
 	1029.1.1 = { #fic
 		birth = yes
 	}
