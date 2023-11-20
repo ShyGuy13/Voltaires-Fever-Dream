@@ -1,26 +1,105 @@
-﻿toggenburg1 = {
-	name = "Diethelm" # Diethelm II of Toggenburg
+#DONE FOR 1054
+toggenburg1 = {
+	name = "Diethelm" # Diethelm I of Toggenburg
 	dynasty = 74
 	religion = catholic
 	culture = swiss
-	1024.1.1 = { #fic
+	#unknown parents
+	1002.1.1 = { #fic
 		birth = yes
 	}
-	1075.1.1 = {
+	#unknown wife
+	1057.1.1 = { #fic
 		death = yes
 	}
 }
 
 toggenburg2 = {
-	name = "Diethelm" # Diethelm II of Toggenburg
+	name = "Berthold" # Berthold I of Toggenburg
 	dynasty = 74
 	religion = catholic
 	culture = swiss
 	father = toggenburg1
+	#unknown mother
+	1024.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1063.1.1 = { #fic
+		death = yes
+	}
+}
+
+toggenburg3 = {
+	name = "Ulrich" # Ulrich I of Toggenburg
+	dynasty = 74
+	religion = catholic
+	culture = swiss
+	father = toggenburg1
+	#unknown mother
+	1029.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1069.1.1 = { #fic
+		death = yes
+	}
+}
+
+toggenburg4 = {
+	name = "Volkhard" # Volkhard I of Toggenburg
+	dynasty = 74
+	religion = catholic
+	culture = swiss
+	father = toggenburg3 #unknown if toggenburg2 or toggenburg3
+	#unknown mother
 	1048.1.1 = { #fic
 		birth = yes
 	}
-	1100.1.1 = {
+	#unknown wife
+	1081.1.1 = { #est
+		death = {
+			death = yes
+			death_reason = deathreason_murder
+			killer = eppenstein16 # abbot of St Gallen
+		}
+	}
+}
+
+toggenburg5 = {
+	name = "Diethelm" # Diethelm II of Toggenburg
+	dynasty = 74
+	religion = catholic
+	culture = swiss
+	father = toggenburg3 #unknown if toggenburg2 or toggenburg3
+	#unknown mother
+	1051.1.1 = { #fic
+		birth = yes
+	}
+	1070.1.1 = { #fic
+		add_spouse = toggenburg5_wife # Irmgard
+	}
+	1081.1.1 = {
+		add_rival = eppenstein16 #killer of his brother
+	}
+	1102.7.14 = { #est
+		death = yes
+	}
+}
+
+
+#spouses
+toggenburg5_wife = {
+	name = "Irmgard" # wife of toggenburg4 or toggenburg5
+	female = yes
+	#dynasty = unknown
+	religion = catholic
+	culture = swiss
+	#unknown parents
+	1057.1.1 = { #fic
+		birth = yes
+	}
+	1106.1.1 = { #fic
 		death = yes
 	}
 }
