@@ -1,12 +1,17 @@
-﻿tirol1 = {
+#DONE FOR 1054
+tirol1 = {
 	name = "Albrecht" #Albrecht I of Tirol
 	dynasty = 8
 	culture = austrian
 	religion = catholic
-	1000.1.1 = {
+	#unknown parents
+	1031.1.1 = { #fic
 		birth = yes
 	}
-	1078.1.1 = {
+	1053.1.1 = { #fic
+		add_spouse = tirol1_wife # Bertha
+	}
+	1098.1.1 = { #est
 		death = yes
 	}
 }
@@ -17,10 +22,60 @@ tirol2 = {
 	culture = austrian
 	religion = catholic
 	father = tirol1
-	1054.7.1 = {
+	mother = tirol1_wife
+	1063.1.1 = { #fic
 		birth = yes
 	}
-	1125.1.1 = {
+	#Adelaide of Andechs
+	1123.1.1 = { #est
+		death = yes
+	}
+}
+
+tirol3 = {
+	name = "Dorothea" #fictional name, wife of Heinrich I of Eppan
+	female = yes
+	dynasty = 8
+	culture = austrian
+	religion = catholic
+	father = tirol1
+	mother = tirol1_wife
+	1067.1.1 = { #fic
+		birth = yes
+	}
+	1124.1.1 = { #fic
+		death = yes
+	}
+}
+
+tirol4 = {
+	name = "Otto" #Otto I of Tirol
+	dynasty = 8
+	culture = austrian
+	religion = catholic
+	father = tirol1
+	mother = tirol1_wife
+	1082.1.1 = { #fic
+		birth = yes
+	}
+	#
+	1147.1.1 = { #est
+		death = yes
+	}
+}
+
+#spouses
+﻿tirol1_wife = {
+	name = "Bertha" #
+	female = yes
+	#dynasty = unknown
+	culture = austrian
+	religion = catholic
+	#unknown parents
+	1029.1.1 = { #fic
+		birth = yes
+	}
+	1091.1.1 = { #est
 		death = yes
 	}
 }
