@@ -7,6 +7,7 @@
 	997.1.1 = {
 		birth = yes
 	}
+	#spouse = Adelheid of Rheinfelden
 	1057.11.7 = {
 		death = yes
 	}
@@ -46,7 +47,7 @@ udoning4 = {
 	religion = catholic
 	culture = low_elbish
 	father = udoning3
-	945.1.1 = { #fic
+	947.1.1 = { #fic
 		give_nickname = nick_the_good
 		birth = yes
 	}
@@ -61,11 +62,15 @@ udoning5 = {
 	religion = catholic
 	culture = low_elbish
 	father = udoning3
+	#mother = Judith Konrading
 	950.1.1 = {
 		birth = yes
 	}
 	994.6.23 = {
-		death = yes
+		death = {
+			death = yes
+			death_reason = death_battle
+		}
 	}
 }
 
@@ -75,10 +80,95 @@ udoning6 = {
 	religion = catholic
 	culture = low_elbish
 	father = udoning1
-	1020.1.1 = {
+	#mother = Adelheid von Rheinfelden
+	1024.1.1 = { #est
 		birth = yes
 	}
+	#Oda von Werl
 	1082.5.4 = {
 		death = yes
+	}
+}
+
+udoning7 = {
+	name = "Siegfried" #Siegfried II of Stade
+	dynasty = 223
+	religion = catholic
+	culture = low_elbish
+	father = udoning3
+	#mother = Judith Konrading
+	963.1.1 = { #est
+		birth = yes
+	}
+	1037.1.6 = {
+		death = yes
+	}
+}
+
+udoning8 = {
+	name = "Gertrud" # wife of Brun of Arneburg
+	female = yes
+	dynasty = 223
+	religion = catholic
+	culture = low_elbish
+	father = udoning3
+	#mother = Judith Konrading
+	967.1.1 = { #fic
+		birth = yes
+	}
+	1001.1.1 = { #est
+		death = yes
+	}
+}
+
+udoning9 = {
+	name = "Hedwig" # nun
+	female = yes
+	dynasty = 223
+	religion = catholic
+	culture = low_elbish
+	trait = devoted
+	father = udoning3
+	#mother = Judith Konrading
+	958.1.1 = { #est
+		birth = yes
+	}
+	1006.1.1 = { #fic
+		death = yes
+	}
+}
+
+udoning10 = {
+	name = "Kunigunde" # wife of Siegfried of Walbeck
+	female = yes
+	dynasty = 223
+	religion = catholic
+	culture = low_elbish
+	father = udoning3
+	#mother = Judith Konrading
+	953.1.1 = { #fic
+		birth = yes
+	}
+	997.7.13 = { #fic
+		death = yes
+	}
+}
+
+udoning11 = {
+	name = "Hildegard" # wife of Bernhard I Billung
+	female = yes
+	dynasty = 223
+	religion = catholic
+	culture = low_elbish
+	father = udoning3
+	#mother = Hildegard von Rheinhausen
+	976.1.1 = { #fic
+		birth = yes
+	}
+	1011.10.3 = {
+		death = {
+			death = yes
+			death_reason = death_bubonic_plague
+		}
 	}
 }
