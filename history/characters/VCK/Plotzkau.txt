@@ -1,0 +1,96 @@
+plotzkau1 = {
+    name = "Egino" # Egino I
+  	dynasty = 350
+  	religion = catholic
+  	culture = eastphalian
+    #unknown parents
+  	921.1.1 = { #fic
+        birth = yes
+  	}
+    #unknown wife
+  	979.1.1 = { #fic
+        death = yes
+  	}
+}
+
+plotzkau2 = {
+    name = "Alverich" # Alverich I
+  	dynasty = 350
+  	religion = catholic
+  	culture = eastphalian
+    father = plotzkau1
+    #unknown mom
+  	944.1.1 = { #fic
+        birth = yes
+  	}
+    #unknown wife
+  	993.1.1 = { #fic
+        death = yes
+  	}
+}
+
+plotzkau3 = {
+    name = "Egino" # Egino II
+  	dynasty = 350
+  	religion = catholic
+  	culture = eastphalian
+    father = plotzkau2
+    #unknown mom
+  	974.1.1 = { #fic
+        birth = yes
+        add_nickname = nick_the_older
+  	}
+    #unknown wife
+  	1025.1.1 = { #fic
+        death = yes
+  	}
+}
+
+plotzkau4 = {
+    name = "Alverich" # Alverich II
+  	dynasty = 350
+  	religion = catholic
+  	culture = eastphalian
+    father = plotzkau3
+    #unknown mom
+  	1001.1.1 = { #fic
+        birth = yes
+  	}
+    #unknown wife
+  	1048.1.1 = { #fic
+        death = yes
+  	}
+}
+
+plotzkau5 = {
+    name = "Bernhard" # Bernhard I
+  	dynasty = 350
+  	religion = catholic
+  	culture = eastphalian
+    father = plotzkau4
+    #unknown mom
+  	1034.1.1 = { #est
+        birth = yes
+  	}
+    1054.1.1 = { #fic
+        add_spouse = plotzkau5_wife # Irmingard 
+    }
+  	1069.10.28 = { 
+        death = yes
+  	}
+}
+
+#wifes
+plotzkau5_wife = {
+    name = "Irmingard" # 
+    female = yes
+    #dynasty = unknown
+  	religion = catholic
+  	culture = eastphalian
+  	1037.1.1 = { #fic
+        birth = yes
+  	}
+  	1081.1.1 = {  #fic
+        death = yes
+  	}
+}
