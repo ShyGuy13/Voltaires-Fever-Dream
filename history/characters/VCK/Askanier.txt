@@ -1,5 +1,5 @@
 ﻿askanier1 = {
-	name = "Esico" # Esico I of Ballenstedt
+	name = "Eskio" # Eskio I of Ballenstedt
 	dynasty = 218
 	religion = catholic
 	culture = saxon
@@ -8,7 +8,8 @@
 	994.1.1 = { #est
 		birth = yes
 	}
-	1059.1.1 = { #est
+	#Mathilde Konrading
+	1060.1.1 = { #est
 		death = yes
 	}
 }
@@ -19,10 +20,11 @@ askanier2 = {
 	religion = catholic
 	culture = saxon
 	father = askanier1
-	1020.1.1 = { #fic
+	#mother = Mathilde Konrading
+	1024.1.1 = { #fic
 		birth = yes
 	}
-	1050.1.1 = { #fic
+	1033.1.1 = { #fic
 		death = yes
 	}
 }
@@ -33,8 +35,12 @@ askanier3 = {
 	religion = catholic
 	culture = saxon
 	father = askanier1
-	1030.1.1 = {
+	#mother = Mathilde Konrading
+	1029.1.1 = { #est
 		birth = yes
+	}
+	1068.1.1 = { #est
+		add_spouse = weimar7 # Adelheid
 	}
 	1078.1.1 = { #est
 		death = {
@@ -46,16 +52,16 @@ askanier3 = {
 }
 
 askanier4 = {
-	name = "Adelheid" #
+	name = "Adelheid" # wife of Dietmar of Schraplau
 	female = yes
 	dynasty = 218
 	religion = catholic
 	culture = saxon
 	father = askanier1
-	1035.1.1 = { #fic
+	1034.1.1 = { #fic
 		birth = yes
 	}
-	1090.1.1 = { #fic
+	1091.1.1 = { #fic
 		death = yes
 	}
 }
