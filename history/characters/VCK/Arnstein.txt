@@ -4,9 +4,11 @@
 	religion = catholic
 	culture = thuringian
 	father = steusslingen5
+	#mother = Judith
 	1062.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1126.2.16 = {
 		death = {
 			death_reason = death_battle
@@ -20,9 +22,11 @@ arnstein2 = {
 	religion = catholic
 	culture = thuringian
 	father = arnstein1
+	#unknown mom
 	1103.1.1 = { #est
 		birth = yes
 	}
+	#wife = Ermengard von Plötzkau, daughter of Helperich von Plötzkau
 	1162.1.1 = { #est
 		death = yes
 	}
@@ -34,9 +38,11 @@ arnstein3 = {
 	religion = catholic
 	culture = thuringian
 	father = arnstein2
-	1049.1.1 = { #est
+	#mother = Ermengard von Plötzkau
+	1149.1.1 = { #est
 		birth = yes
 	}
+	#wife = Gertrud von Ballenstedt/Askanier
 	1196.1.1 = { #est
 		death = yes
 	}
