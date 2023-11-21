@@ -7,6 +7,9 @@
 	985.1.1 = {
 		birth = yes
 	}
+	1026.1.1 = { #est
+		add_spouse = askanier6 # Uta
+	}
 	1046.1.24 = {
 		death = yes
 	}
