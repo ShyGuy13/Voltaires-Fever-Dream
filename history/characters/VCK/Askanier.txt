@@ -3,10 +3,12 @@
 	dynasty = 218
 	religion = catholic
 	culture = saxon
-	1000.1.1 = {
+	father = askanier5
+	#mother = Hidda Billung
+	994.1.1 = { #est
 		birth = yes
 	}
-	1060.1.1 = {
+	1059.1.1 = { #est
 		death = yes
 	}
 }
@@ -54,6 +56,87 @@ askanier4 = {
 		birth = yes
 	}
 	1090.1.1 = { #fic
+		death = yes
+	}
+}
+
+askanier5 = {
+	name = "Adalbert" #
+	female = yes
+	dynasty = 218
+	religion = catholic
+	culture = saxon
+	#unknown parents
+	968.1.1 = { #est
+		birth = yes
+	}
+	#wife = Hidda, daughter of Odo I Billung of Lusatia
+	1031.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿askanier6 = {
+	name = "Uta" # wife of Ekkehard II of Meißen
+	female = yes
+	dynasty = 218
+	religion = catholic
+	culture = saxon
+	father = askanier5
+	#mother = Hidda Billung
+	997.1.1 = { #fic
+		birth = yes
+	}
+	1046.10.23 = {
+		death = yes
+	}
+}
+
+﻿askanier7 = {
+	name = "Hazecha" # nun
+	female = yes
+	dynasty = 218
+	religion = catholic
+	culture = saxon
+	trait = devoted
+	father = askanier5
+	#mother = Hidda Billung
+	1003.1.1 = { #fic
+		birth = yes
+	}
+	1052.1.1 = { #est
+		death = yes
+	}
+}
+
+﻿askanier8 = {
+	name = "Ludolf" # monk
+	dynasty = 218
+	religion = catholic
+	culture = saxon
+	trait = devoted
+	father = askanier5
+	#mother = Hidda Billung
+	1006.1.1 = { #fic
+		birth = yes
+	}
+	1071.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿askanier9 = {
+	name = "Dietrich" # monk
+	dynasty = 218
+	religion = catholic
+	culture = saxon
+	trait = devoted
+	father = askanier5
+	#mother = Hidda Billung
+	1012.1.1 = { #fic
+		birth = yes
+	}
+	1074.1.1 = { #fic
 		death = yes
 	}
 }
