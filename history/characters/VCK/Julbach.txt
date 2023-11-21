@@ -1,12 +1,15 @@
-﻿julbach1 = {
+#DONE FOR 1054
+julbach1 = {
 	name = "Raffolt" #Raffolt I of Schaunberg
 	dynasty = 6
 	religion = catholic
 	culture = austrian
-	1044.1.1 = {
+	#unknown parents
+	1043.1.1 = { #fic
 		birth = yes
 	}
-	1112.1.1 = {
+	#unknown wife
+	1112.1.1 = { #fic
 		death = yes
 	}
 }
