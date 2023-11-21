@@ -4,11 +4,16 @@
 	religion = catholic
 	culture = swabian
 	father = hohenzollern3
+	#mother = Irmentrud of Nellenburg, daughter of Burkhard Eberharding
 	1010.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1061.1.1 = {
-		death = yes
+		death = {
+			death = yes
+			death_reason = death_battle
+		}
 	}
 }
 
@@ -18,22 +23,26 @@ hohenzollern2 = {
 	religion = catholic
 	culture = swabian
 	father = hohenzollern1
-	1040.1.1 = { #fic
+	#unknown mother
+	1042.1.1 = { #fic
 		birth = yes
 	}
-	1108.1.1 = {
+	#wife = Udilhild von Urach
+	1115.1.1 = { #est
 		death = yes
 	}
 }
 
 hohenzollern3 = {
-	name = "Friedrich"
+	name = "Friedrich" # Friedrich of Sülichgau / Tübingen
 	dynasty = 64
 	religion = catholic
 	culture = swabian
+	#unknown parents
 	980.1.1 = { #fic
 		birth = yes
 	}
+	#wife = Irmentrud of Nellenburg, daughter of Burkhard Eberharding
 	1040.1.1 = { #fic
 		death = yes
 	}
