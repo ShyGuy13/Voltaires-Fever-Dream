@@ -1,4 +1,5 @@
-﻿eppenstein1 = {
+#DONE FOR 1054
+eppenstein1 = {
 	name = "Marquard" #Marquard IV of Carinthia
 	dynasty = 1
 	culture = austrian
@@ -26,6 +27,7 @@ eppenstein2 = {
 	1043.1.1 = { #est
 		birth = yes
 	}
+	#unknown wifes
 	1090.5.12 = {
 		birth = yes
 	}
@@ -41,6 +43,9 @@ eppenstein3 = {
 	1047.1.1 = { #est
 		birth = yes
 	}
+	#Beatrix von Dießen
+	#Liutgard
+	#Sophia of Austria
 	1122.12.4 = {
 		death = yes
 	}
@@ -237,6 +242,7 @@ eppenstein15 = {
 	1049.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1076.6.16 = {
 		death = yes
 	}
