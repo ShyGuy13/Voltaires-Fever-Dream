@@ -1,12 +1,86 @@
 aldobrandeschi1 = {
-	name = "Ildebrando" # Ildebrando V of Dauphine
+	name = "Ildebrando" # Ildebrando V 
 	dynasty = 284
 	religion = catholic
 	culture = tuscan
+	father = aldobrandeschi2
 	1006.1.1 = { #fic
 		birth = yes
 	}
 	1077.1.1 = {
+		death = yes
+	}
+}
+
+aldobrandeschi2 = {
+	name = "Ildebrando" # Ildebrando IV 
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi3
+	#mother = Willa Landulfing, daughter of Landolfo IV
+	988.1.1 = { #est
+		birth = yes
+	}
+	1040.1.1 = { #est
+		death = yes
+	}
+}
+
+aldobrandeschi3 = {
+	name = "Rodolfo" # Rodolfo II
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	951.1.1 = { #fic
+		birth = yes
+	}
+	992.1.1 = { #fic
+		death = yes
+	}
+}
+
+aldobrandeschi4 = {
+	name = "Enrico" # 
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi2
+	1009.1.1 = { #fic
+		birth = yes
+	}
+	#Ghisla or Ermellina
+	1038.1.1 = { #est
+		death = yes
+	}
+}
+
+aldobrandeschi5 = {
+	name = "Ranieri" # 
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi2
+	1014.1.1 = { #fic
+		birth = yes
+	}
+	#Willa Guiglieschi (Siena)
+	1081.1.1 = { #fic
+		death = yes
+	}
+}
+
+aldobrandeschi6 = {
+	name = "Berta" # wife of Guinisci Berardenghi
+	female = yes
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi2
+	1021.1.1 = { #fic
+		birth = yes
+	}
+	1085.1.1 = { #fic
 		death = yes
 	}
 }
