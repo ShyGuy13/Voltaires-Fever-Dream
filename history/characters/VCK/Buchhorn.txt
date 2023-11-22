@@ -1,11 +1,16 @@
-﻿buchhorn1 = {
+﻿#DONE FOR 1054
+buchhorn1 = {
 	name = "Otto" #Otto I of Buchhorn
 	dynasty_house = house_buchhorn
 	religion = catholic
 	culture = boden_alemannic
 	father = udalriching4
+	#unknown mother
 	1013.1.1 = { #fic
 		birth = yes
+	}
+	1038.1.1 = { #fic
+		add_spouse = buchhorn1_wife # Bertha
 	}
 	1057.1.1 = { #fic
 		death = yes
@@ -18,10 +23,48 @@ buchhorn2 = {
 	religion = catholic
 	culture = boden_alemannic
 	father = buchhorn1
-	1048.1.1 = { #fic
+	mother = buchhorn1_wife
+	1038.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
+	1079.1.1 = {
+		trait = excommunicated
+	}
 	1089.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+buchhorn3 = {
+	name = "Walburga" #fictional name, mother of Hartmann I of Kirchberg
+	female = yes
+	dynasty_house = house_buchhorn
+	religion = catholic
+	culture = boden_alemannic
+	father = buchhorn1
+	mother = buchhorn1_wife
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1098.1.1 = { #fic
+		death = yes
+	}
+}
+
+#wifes
+buchhorn1_wife = {
+	name = "Bertha" #
+	female = yes
+	#dynasty = unknown
+	religion = catholic
+	culture = boden_alemannic
+	1017.1.1 = { #fic
+		birth = yes
+	}
+	1073.1.1 = { #fic
 		death = yes
 	}
 }

@@ -1,35 +1,36 @@
+﻿#DONE FOR 1054
 valkenstein1 = {
-    name = "Burkhard" # Burkhard I
-  	dynasty_house = house_valkenstein
-  	religion = catholic
-  	culture = eastphalian
-    father = plotzkau3
-    #unknown mom
-  	1006.1.1 = { #fic
-        birth = yes
-  	}
-    #unknown wife
-  	1073.1.1 = { #fic
-        death = yes
-  	}
+  name = "Burkhard" # Burkhard I of Konradsberg
+  dynasty_house = house_valkenstein
+  religion = catholic
+  culture = eastphalian
+  father = plotzkau3
+  #unknown mom
+  1006.1.1 = { #fic
+    birth = yes
+  }
+  #unknown wife
+  1073.1.1 = { #fic
+    death = yes
+  }
 }
 
 valkenstein2 = {
-    name = "Egino" # Egino III
-  	dynasty_house = house_valkenstein
-  	religion = catholic
-  	culture = eastphalian
-    father = valkenstein1
-    #unknown mom
-  	1039.1.1 = { #fic
-        birth = yes
-        give_nickname = nick_the_younger
-  	}
-    1078.1.1 = { #est
-        trait = murderer #killed Albrecht II Askanier
-    }
-    #unknown wife
-  	1106.1.1 = { #fic
-        death = yes
-  	}
+  name = "Egino" # Egino III of Konradsberg
+  dynasty_house = house_valkenstein
+  religion = catholic
+  culture = eastphalian
+  father = valkenstein1
+  #unknown mom
+  1039.1.1 = { #fic
+    birth = yes
+    give_nickname = nick_the_younger
+  }
+  1078.1.1 = { #est
+    trait = murderer #killed Albrecht II Askanier
+  }
+  #unknown wife
+  1106.1.1 = { #fic
+    death = yes
+  }
 }

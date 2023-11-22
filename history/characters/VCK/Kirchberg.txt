@@ -1,13 +1,15 @@
-﻿kirchberg1 = {
+﻿#DONE FOR 1054
+kirchberg1 = {
 	name = "Otto" # Otto I of Kirchberg
 	dynasty = 50
 	culture = swabian
 	religion = catholic
 	father = kirchberg3
-	1037.1.1 = { #fic
+	mother = buchhorn3
+	1053.1.1 = { #fic
 		birth = yes
 	}
-	1093.1.1 = {
+	1107.1.1 = { #est
 		death = yes
 	}
 }
@@ -18,23 +20,44 @@ kirchberg2 = {
 	culture = swabian
 	religion = catholic
 	father = kirchberg3
-	1048.1.1 = { #fic
+	mother = buchhorn3
+	1057.1.1 = { #fic
 		birth = yes
 	}
-	1122.1.1 = {
+	#unknown wife
+	1122.1.1 = { #est
 		death = yes
 	}
 }
 
 kirchberg3 = {
-	name = "Hartmann" #
+	name = "Gottfried" #fictional name
 	dynasty = 50
 	culture = swabian
 	religion = catholic
-	998.1.1 = { #fic
+	1031.1.1 = { #fic
 		birth = yes
 	}
-	1051.1.1 = { #fic
+	1053.1.1 = { #fic
+		add_spouse = buchhorn3 # 
+	}
+	1095.1.1 = { #fic
+		death = yes
+	}
+}
+
+kirchberg4 = {
+	name = "Berthold" # 
+	dynasty = 50
+	culture = swabian
+	religion = catholic
+	father = kirchberg3
+	mother = buchhorn3
+	1061.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1105.1.1 = { #est
 		death = yes
 	}
 }

@@ -136,5 +136,10 @@ house_falkenstein = {
 house_kastl = {
 	prefix = "dynnp_von"
 	name = "dynn_Kastl"
-	dynasty = 90 # SUlzbach	
+	dynasty = 90 # Sulzbach	
+}
+house_valkenstein = {
+	prefix = "dynnp_von"
+	name = "dynn_Valkenstein"
+	dynasty = 350 # Plötzkau	
 }

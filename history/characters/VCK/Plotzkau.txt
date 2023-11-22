@@ -1,5 +1,6 @@
+#DONE FOR 1054
 plotzkau1 = {
-    name = "Egino" # Egino I
+    name = "Egino" # Egino I of Plötzkau
   	dynasty = 350
   	religion = catholic
   	culture = eastphalian
@@ -14,7 +15,7 @@ plotzkau1 = {
 }
 
 plotzkau2 = {
-    name = "Alverich" # Alverich I
+    name = "Alverich" # Alverich I of Plötzkau
   	dynasty = 350
   	religion = catholic
   	culture = eastphalian
@@ -30,7 +31,7 @@ plotzkau2 = {
 }
 
 plotzkau3 = {
-    name = "Egino" # Egino II
+    name = "Egino" # Egino II of Plötzkau
   	dynasty = 350
   	religion = catholic
   	culture = eastphalian
@@ -38,7 +39,7 @@ plotzkau3 = {
     #unknown mom
   	974.1.1 = { #fic
         birth = yes
-        add_nickname = nick_the_older
+        give_nickname = nick_the_older
   	}
     #unknown wife
   	1025.1.1 = { #fic
@@ -47,7 +48,7 @@ plotzkau3 = {
 }
 
 plotzkau4 = {
-    name = "Alverich" # Alverich II
+    name = "Alverich" # Alverich II of Plötzkau
   	dynasty = 350
   	religion = catholic
   	culture = eastphalian
@@ -57,13 +58,13 @@ plotzkau4 = {
         birth = yes
   	}
     #unknown wife
-  	1048.1.1 = { #fic
+  	1057.1.1 = { #fic
         death = yes
   	}
 }
 
 plotzkau5 = {
-    name = "Bernhard" # Bernhard I
+    name = "Bernhard" # Bernhard I of Plötzkau
   	dynasty = 350
   	religion = catholic
   	culture = eastphalian
