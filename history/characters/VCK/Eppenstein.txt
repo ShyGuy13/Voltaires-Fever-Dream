@@ -4,6 +4,7 @@
 	culture = austrian
 	religion = catholic
 	father = eppenstein4
+	mother = konrading8
 	1020.1.1 = {
 		birth = yes
 	}
@@ -22,7 +23,7 @@ eppenstein2 = {
 	religion = catholic
 	father = eppenstein1
 	mother = wilhelming11
-	1045.1.1 = {
+	1043.1.1 = { #est
 		birth = yes
 	}
 	1090.5.12 = {
@@ -37,7 +38,7 @@ eppenstein3 = {
 	religion = catholic
 	father = eppenstein1
 	mother = wilhelming11
-	1050.1.1 = {
+	1047.1.1 = { #est
 		birth = yes
 	}
 	1122.12.4 = {
@@ -55,6 +56,9 @@ eppenstein4 = {
 	980.1.1 = {
 		birth = yes
 	}
+	1007.1.1 = { #fic
+		add_spouse = konrading8 # Beatrix
+	}
 	1039.11.28 = {
 		death = yes
 	}
@@ -66,6 +70,7 @@ eppenstein5 = {
 	culture = austrian
 	religion = catholic
 	father = eppenstein4
+	mother = konrading8
 	1022.1.1 = { #fic
 		birth = yes
 	}
@@ -81,6 +86,7 @@ eppenstein6 = {
 	culture = austrian
 	religion = catholic
 	father = eppenstein4
+	mother = konrading8
 	1025.1.1 = { #fic
 		birth = yes
 	}
@@ -95,6 +101,7 @@ eppenstein7 = {
 	culture = austrian
 	religion = catholic
 	father = eppenstein8
+	#unknown mother
 	950.1.1 = { #fic
 		birth = yes
 	}
@@ -112,9 +119,11 @@ eppenstein8 = {
 	culture = austrian
 	religion = catholic
 	father = eppenstein9
+	#unknown mother
 	920.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	980.4.13 = { #fic
 		death = yes
 	}
@@ -125,9 +134,11 @@ eppenstein9 = {
 	dynasty = 1
 	culture = austrian
 	religion = catholic
+	#unknown parents
 	890.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	940.1.1 = { #fic
 		death = yes
 	}
@@ -140,6 +151,7 @@ eppenstein10 = {
 	culture = austrian
 	religion = catholic
 	father = eppenstein8
+	#unknown mother
 	945.1.1 = { #fic
 		birth = yes
 	}
@@ -149,7 +161,7 @@ eppenstein10 = {
 }
 
 eppenstein11 = {
-	name = "Eberhard" #Eberhad an der Isar
+	name = "Eberhard" #Eberhard an der Isar
 	dynasty = 1
 	culture = austrian
 	religion = catholic
@@ -158,7 +170,10 @@ eppenstein11 = {
 	984.1.1 = { #fic
 		birth = yes
 	}
-	1039.1.1 = { #fic
+	1005.1.1 = { #fic
+		add_spouse = siegharding12 # Richardis
+	}
+	1043.1.1 = { #fic
 		death = yes
 	}
 }
@@ -170,6 +185,7 @@ eppenstein12 = {
 	culture = austrian
 	religion = catholic
 	father = eppenstein11
+	mother = siegharding12
 	1011.1.1 = { #fic
 		birth = yes
 	}
@@ -184,8 +200,12 @@ eppenstein13 = {
 	culture = austrian
 	religion = catholic
 	father = eppenstein11
+	mother = siegharding12
 	1014.1.1 = { #fic
 		birth = yes
+	}
+	1029.1.1 = { #fic
+		add_spouse = andechs6 # Christine
 	}
 	1065.1.1 = { #est
 		death = yes
@@ -208,13 +228,13 @@ eppenstein14 = {
 }
 
 eppenstein15 = {
-	name = "Marquard" # 
+	name = "Marquard" # Marquard V
 	dynasty = 1
 	culture = austrian
 	religion = catholic
 	father = eppenstein1
 	mother = wilhelming11
-	1058.1.1 = { #fic
+	1049.1.1 = { #est
 		birth = yes
 	}
 	1076.6.16 = {
@@ -230,10 +250,42 @@ eppenstein16 = {
 	trait = devoted
 	father = eppenstein1
 	mother = wilhelming11
-	1063.1.1 = { #fic
+	1052.1.1 = { #est
 		birth = yes
 	}
 	1121.12.21 = {
+		death = yes
+	}
+}
+
+eppenstein17 = {
+	name = "Rüdiger" #Rüdiger I
+	dynasty = 1
+	culture = austrian
+	religion = catholic
+	father = eppenstein8
+	#unknown mother
+	950.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	999.12.4 = {
+		death = yes
+	}
+}
+
+eppenstein18 = {
+	name = "Ernst" #
+	dynasty = 1
+	culture = austrian
+	religion = catholic
+	father = eppenstein7
+	mother = ebersberg7
+	994.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1059.1.1 = { #fic
 		death = yes
 	}
 }
