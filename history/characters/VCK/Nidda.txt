@@ -1,0 +1,65 @@
+#DONE FOR 1054
+nidda1 = {
+	name = "Volkold" # Volkold I of Nidda
+	dynasty = 140
+	religion = catholic
+	culture = hessian
+	#unknown parents
+	1038.1.1 = { #est
+		birth = yes
+	}
+	1062.1.1 = { #fic
+		add_spouse = bilstein1 # Friedrun
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}
+
+nidda2 = {
+	name = "Ulrich" # 
+	dynasty = 140
+	religion = catholic
+	culture = hessian
+	father = nidda1
+	mother = bilstein1
+	1064.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1124.1.1 = { #fic
+		death = yes
+	}
+}
+
+nidda3 = {
+	name = "Volkold" # Volkold II of Nidda
+	dynasty = 140
+	religion = catholic
+	culture = hessian
+	father = nidda1
+	mother = bilstein1
+	1068.1.1 = { #est
+		birth = yes
+	}
+	#Luitgart von Nürings
+	1131.1.1 = { #est
+		death = yes
+	}
+}
+
+nidda4 = {
+	name = "Bernhard" # 
+	dynasty = 140
+	religion = catholic
+	culture = hessian
+	father = nidda1
+	mother = bilstein1
+	1073.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1120.1.1 = { #fic
+		death = yes
+	}
+}
