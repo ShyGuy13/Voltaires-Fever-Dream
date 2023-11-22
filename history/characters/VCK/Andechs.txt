@@ -24,7 +24,7 @@ andechs2 = {
 	1005.1.1 = {
 		birth = yes
 	}
-	1075.1.1 = {
+	1075.6.30 = {
 		death = yes
 	}
 }
@@ -70,6 +70,21 @@ andechs5 = {
 		birth = yes
 	}
 	1071.1.1 = { #fic
+		death = yes
+	}
+}
+
+andechs6 = {
+	name = "Christine" #wife of Friedrich von Eppenstein
+	female = yes
+	dynasty = 27
+	religion = catholic
+	culture = bavarian
+	father = andechs3
+	1008.1.1 = { #fic
+		birth = yes
+	}
+	1073.1.1 = { #fic
 		death = yes
 	}
 }
