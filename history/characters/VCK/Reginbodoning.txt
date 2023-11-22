@@ -46,6 +46,7 @@ reginbodoning4 = {
 	dynasty = 24
 	religion = catholic
 	culture = hessian
+	father = konrading3
 	968.1.1 = {
 		birth = yes
 	}
