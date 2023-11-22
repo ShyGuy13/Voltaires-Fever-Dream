@@ -44,8 +44,7 @@ askanier3 = {
 	}
 	1078.1.1 = { #est
 		death = {
-			death = yes
-			death_reason = death_reason_murder
+			death_reason = death_murder
 			killer = valkenstein2
 		}
 	}
@@ -82,7 +81,7 @@ askanier5 = {
 	}
 }
 
-﻿askanier6 = {
+askanier6 = {
 	name = "Uta" # wife of Ekkehard II of Meißen
 	female = yes
 	dynasty = 218
@@ -98,7 +97,7 @@ askanier5 = {
 	}
 }
 
-﻿askanier7 = {
+askanier7 = {
 	name = "Hazecha" # nun
 	female = yes
 	dynasty = 218
@@ -115,7 +114,7 @@ askanier5 = {
 	}
 }
 
-﻿askanier8 = {
+askanier8 = {
 	name = "Ludolf" # monk
 	dynasty = 218
 	religion = catholic
@@ -131,7 +130,7 @@ askanier5 = {
 	}
 }
 
-﻿askanier9 = {
+askanier9 = {
 	name = "Dietrich" # monk
 	dynasty = 218
 	religion = catholic

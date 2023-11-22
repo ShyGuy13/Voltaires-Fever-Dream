@@ -17,7 +17,7 @@ wurttemberg1 = {
 	}
 }
 
-﻿wurttemberg2 = {
+wurttemberg2 = {
 	name = "Bruno" # monk
 	dynasty = 62
 	religion = catholic
@@ -33,7 +33,7 @@ wurttemberg1 = {
 	}
 }
 
-﻿wurttemberg3 = {
+wurttemberg3 = {
 	name = "Luitgard" # 
 	female = yes
 	dynasty = 62
@@ -44,13 +44,13 @@ wurttemberg1 = {
 	1051.1.1 = { #fic
 		birth = yes
 	}
-	#matrilineal marriage with ﻿wurttemberg3_husband 
+	#matrilineal marriage with wurttemberg3_husband 
 	1105.1.1 = {  #fic
 		death = yes
 	}
 }
 
-﻿wurttemberg4 = {
+wurttemberg4 = {
 	name = "Konrad" # 
 	dynasty = 62
 	religion = catholic
@@ -67,7 +67,7 @@ wurttemberg1 = {
 }
 
 #wifes
-﻿wurttemberg1_wife = {
+wurttemberg1_wife = {
 	name = "Werntrud" # 
 	female = yes
 	religion = catholic
@@ -80,7 +80,7 @@ wurttemberg1 = {
 	}
 }
 
-﻿wurttemberg3_husband = {
+wurttemberg3_husband = {
 	name = "Wolfram" # unknown name
 	religion = catholic
 	culture = swabian
@@ -88,7 +88,7 @@ wurttemberg1 = {
 		birth = yes
 	}
 	1054.1.1 = { #fic
-		add_matrilineal_spouse = ﻿wurttemberg3
+		add_matrilineal_spouse = wurttemberg3
 	}
 	1097.1.1 = { #fic
 		death = yes

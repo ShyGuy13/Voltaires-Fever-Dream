@@ -16,7 +16,7 @@
 	}
 }
 
-﻿konrading2 = {
+konrading2 = {
 	name = "Luitold" #Luitold of Montbéliard
 	dynasty = 3
 	religion = catholic
@@ -32,7 +32,7 @@
 	}
 }
 
-﻿konrading3 = {
+konrading3 = {
 	name = "Konrad" #Konrad II of Swabia
 	dynasty = 3
 	religion = catholic
@@ -46,7 +46,7 @@
 	}
 }
 
-﻿konrading4 = {
+konrading4 = {
 	name = "Otto" #
 	dynasty = 3
 	religion = catholic
@@ -61,7 +61,7 @@
 	}
 }
 
-﻿konrading5 = {
+konrading5 = {
 	name = "Mathilde" #wife of Konrad I Salier & Friedrich II Wigeriching & Eskio Askanier
 	female = yes
 	dynasty = 3
@@ -77,7 +77,7 @@
 	}
 }
 
-﻿konrading6 = {
+konrading6 = {
 	name = "Gisela" #wife of Bruno Brunoning & Ernst I of Austria & Konrad II Salier
 	female = yes
 	dynasty = 3
@@ -93,7 +93,7 @@
 	}
 }
 
-﻿konrading7 = {
+konrading7 = {
 	name = "Berthold" 
 	dynasty = 3
 	religion = catholic
@@ -108,7 +108,7 @@
 	}
 }
 
-﻿konrading8 = {
+konrading8 = {
 	name = "Beatrix" # wife of Adalbero of Eppenstein
 	female = yes
 	dynasty = 3

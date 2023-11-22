@@ -1,14 +1,14 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 leuchtenberg1 = {
 	name = "Marquard" #Marquard I of Leuchtenberg-Auerbach
 	dynasty = 22
 	religion = catholic
 	culture = bavarian
 	#unknown parents
-	1054.1.1 = { #fic
+	1044.1.1 = { #fic
 		birth = yes
 	}
-	1086.1.1 = { #fic
+	1076.1.1 = { #fic
 		add_spouse = sulzbach8 # Richwara
 	}
 	1111.1.1 = { #est
@@ -16,14 +16,14 @@ leuchtenberg1 = {
 	}
 }
 
-﻿leuchtenberg2 = {
+leuchtenberg2 = {
 	name = "Gebhard" #Gebhard I of Leuchtenberg
 	dynasty = 22
 	religion = catholic
 	culture = bavarian
 	father = leuchtenberg1
 	mother = sulzbach8
-	1086.1.1 = { #fic
+	1076.1.1 = { #fic
 		birth = yes
 	}
 	1024.1.1 = { #fic

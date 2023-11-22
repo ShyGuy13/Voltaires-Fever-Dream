@@ -1,0 +1,23 @@
+albanian = {
+	color = albanian
+	ethos = ethos_stoic
+	heritage = heritage_albanian
+	language = language_albanian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_highland_warriors
+		tradition_stalwart_defenders
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_albanian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}

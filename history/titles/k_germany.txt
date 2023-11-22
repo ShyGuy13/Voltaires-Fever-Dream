@@ -101,11 +101,15 @@ c_ravensburg = {
 
 #Lauffen
 c_lauffen = {
-	1000.1.1 = {
-		holder = lauffen3 # Boppo I
+	1011.5.9 = {
+		liege = d_bm_worms
+		holder = lauffen1 # Boppo I
 	}
-	1030.1.1 = {
-		holder = lauffen1 # Boppo II
+	1023.1.1 = {
+		holder = lauffen2 # Heinrich I
+	}
+	1035.1.1 = {
+		holder = lauffen3 # Arnold I
 	}
 }
 
@@ -509,17 +513,6 @@ c_amstetten = {
 		holder = babenberg1 #Albrecht I
 	}
 }
-c_freistadt = {
-	981.1.1 = {
-		holder = babenberg7 #Leopold I
-	}
-	994.7.10 = {
-		holder = babenberg8 #Heinrich I
-	}
-	1018.6.23 = {
-		holder = babenberg1 #Albrecht I
-	}
-}
 
 #Neuburg
 c_neuburg = {
@@ -583,7 +576,7 @@ c_volkermarkt = {
 #Grimma
 c_grimma = {
 	1054.1.1 = {
-		holder = dewin1 # Tammo I
+		holder = doben1 # Tammo I
 	}
 }
 
@@ -1060,6 +1053,12 @@ c_tettnang = {
 	}
 }
 
+#Freising
+c_freising = {
+	1052.4.6 = {
+		holder = siegharding2
+	}
+}
 
 #Nordgau
 d_nordgau = {
@@ -1129,7 +1128,7 @@ c_wiltberg = {
 #Schweinfurt
 c_schweinfurt = {
 	1054.1.1 = {
-		holder = luitpolding6 # Beatrix
+		holder = schweinfurt6 # Beatrix
 	}
 }
 
@@ -1267,7 +1266,7 @@ c_leiningen = {
 #Falkenstein
 c_falkenstein = {
 	1054.1.1 = {
-		holder = falkenstein1 # Werner I
+		holder = falkenberg1 # Werner I
 	}
 }
 
@@ -1330,6 +1329,14 @@ c_hall = {
 c_schwarzburg = {
 	1054.1.1 = {
 		holder = schwarzburg1 # Sizzo II
+	}
+}
+
+#Perg
+c_freistadt = {
+	1030.1.1 = {
+		liege = d_osterreich
+		holder = perg1 # Pero I
 	}
 }
 
@@ -1530,6 +1537,20 @@ c_dillingen = {
 c_sulz = {
 	1054.1.1 = {
 		holder = sulz1 # Alwig I
+	}
+}
+
+#Neumark
+c_neumarkt = {
+	983.1.1 = {
+		liege = d_nordgau
+		holder = baboning3 # Babo I
+	}
+	1001.3.6 = {
+		holder = baboning2 # Ruprecht I
+	}
+	1035.12.13 = {
+		holder = baboning4 # Babo II
 	}
 }
 
@@ -1740,8 +1761,12 @@ c_aschaffenburg = {
 
 #Augsburg
 c_augsburg = {
-	973.1.1 = {
-		holder = augsburg_heinrich_1 # Heinrich I
+	300.1.1 = { government = theocracy_government }
+	923.11.8 = {
+		holder = dillingen8 # Ulrich I
+	}
+	973.7.4 = {
+		holder = geisenhausen1 # Heinrich I
 	}
 	#982.7.13 = {
 	#
@@ -1951,22 +1976,22 @@ c_ziegenhain = {
 #Swabia
 d_swabia = {
 	1047.9.7 = {
-		holder = luitpolding1
+		holder = schweinfurt1
 	}
 }
 c_fussen = {
 	1047.9.7 = {
-		holder = luitpolding1
+		holder = schweinfurt1
 	}
 }
 c_kempten = {
 	1047.9.7 = {
-		holder = luitpolding1
+		holder = schweinfurt1
 	}
 }
 c_ansbach = {
 	1047.9.7 = {
-		holder = luitpolding1
+		holder = schweinfurt1
 	}
 }
 
@@ -2040,7 +2065,7 @@ c_eberstein = {
 #Nidda
 c_nidda = {
 	1054.1.1 = {
-		holder = malsburg1 # Volkold I
+		holder = nidda1 # Volkold I
 	}
 }
 
@@ -2077,7 +2102,7 @@ c_berchtesgaden = {
 #Abensberg
 c_abensberg = {
 	1054.1.1 = {
-		holder = abensberg1
+		holder = abensberg1 # Eberhard I
 	}
 }
 
@@ -2214,7 +2239,7 @@ c_dresden = {
 }
 
 #Halberstadt
-c_halberstadt = {
+schweinfurt9 = {
 	1035.8.23 = {
 		holder = luitpolding9 # Burkhard I
 	}
@@ -3211,18 +3236,6 @@ c_ortenberg = {
 	}
 }
 
-#Freising
-c_freising = {
-	1052.4.6 = {
-		holder = siegharding2
-	}
-}
-c_waidhofen = {
-	1052.4.6 = {
-		holder = siegharding2
-	}
-}
-
 #Wasserburg
 # c_wasserburg = {
 # 	#1000.1.1 = {
@@ -3236,20 +3249,6 @@ c_waidhofen = {
 #  	#	reset_name = yes
 #  	#}
 # }
-
-#Neumark
-c_neumarkt = {
-	983.1.1 = {
-		liege = d_nordgau
-		holder = baboning3 # Babo I
-	}
-	1001.3.6 = {
-		holder = baboning2 # Ruprecht I
-	}
-	1035.12.13 = {
-		holder = baboning4 # Babo II
-	}
-}
 
 #Rheingraviate
 c_rheingraviate = {

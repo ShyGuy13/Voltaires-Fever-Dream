@@ -1,4 +1,4 @@
-DONE FOR 1054
+﻿#DONE FOR 1054
 affoltern1 = {
 	name = "Luitold" # Luitold I of Affoltern
 	dynasty = 71

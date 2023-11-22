@@ -74,8 +74,8 @@ c_veneto = {
 	}
 }
 
-#Trieste
-c_trieste = {
+#Duino
+c_duino = {
 	1050.1.1 = {
 		holder = tybein1
 	}
@@ -83,6 +83,14 @@ c_trieste = {
 
 #Monferrato
 c_monferrato = {
+	958.1.1 = {
+		holder = aleraming5 # Aleramo I
+	}
+	1042.1.1 = {
+		holder = aleraming1 # Ottone II
+	}
+}
+c_vercelli = {
 	958.1.1 = {
 		holder = aleraming5 # Aleramo I
 	}
@@ -307,6 +315,11 @@ c_vicenza = {
 		holder = widoning1 # Uberto I
 	}
 }
+c_padova = {
+	1054.1.1 = {
+		holder = widoning1 # Uberto I
+	}
+}
 
 #Lomello
 c_lomellina = {
@@ -396,6 +409,11 @@ c_brescia = {
 		holder = ugoning1 # Ugo II
 	}
 }
+c_sondrio = {
+	1054.1.1 = {
+		holder = ugoning1 # Ugo II
+	}
+}
 
 #Pistoia
 c_pistoia = {
@@ -412,6 +430,11 @@ c_massa = {
 }
 
 #Seprio
+c_seprio = {
+	1043.1.1 = {
+		holder = supponing1 # Vifredo II
+	}
+}
 c_como = {
 	1043.1.1 = {
 		holder = supponing1 # Vifredo II
@@ -432,6 +455,16 @@ c_sovana = {
 
 #Novara
 c_novara = {
+	1025.1.1 = {
+		holder = confalonieri1 # Guido I
+	}
+}
+c_ticono = {
+	1025.1.1 = {
+		holder = confalonieri1 # Guido I
+	}
+}
+c_valsesia = {
 	1025.1.1 = {
 		holder = confalonieri1 # Guido I
 	}

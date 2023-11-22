@@ -492,11 +492,13 @@ c_briey = {
 #Limburg
 c_limburg = {
 	1054.1.1 = {
+		liege = d_luxembourg
 		holder = limburg1 # Waleran
 	}
 }
 c_valkenburg = {
 	1054.1.1 = {
+		liege = d_luxembourg
 		holder = limburg1 # Waleran
 	}
 }

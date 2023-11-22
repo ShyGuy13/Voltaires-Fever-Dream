@@ -59,8 +59,7 @@ toggenburg4 = {
 	#unknown wife
 	1081.1.1 = { #est
 		death = {
-			death = yes
-			death_reason = deathreason_murder
+			death_reason = death_murder
 			killer = eppenstein16 # abbot of St Gallen
 		}
 	}
@@ -80,7 +79,13 @@ toggenburg5 = {
 		add_spouse = toggenburg5_wife # Irmgard
 	}
 	1081.1.1 = {
-		add_rival = eppenstein16 #killer of his brother
+		effect = {
+			set_relation_rival = {
+				#killer of his brother
+				target = character:eppenstein16
+				reason = rival_historical
+			}
+		}
 	}
 	1102.7.14 = { #est
 		death = yes

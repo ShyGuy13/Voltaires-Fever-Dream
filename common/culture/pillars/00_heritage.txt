@@ -2,6 +2,22 @@
 	type = heritage
 }
 
+heritage_baltic = {
+	type = heritage
+}
+
+heritage_balto_finnic = {
+	type = heritage
+}
+
+heritage_berber = {
+	type = heritage
+}
+
+heritage_brythonic = {
+	type = heritage
+}
+
 heritage_byzantine = {
 	type = heritage
 }
@@ -10,7 +26,23 @@ heritage_central_germanic = {
 	type = heritage
 }
 
+heritage_east_slavic = {
+	type = heritage
+}
+
 heritage_frankish = {
+	type = heritage
+}
+
+heritage_goidelic = {
+	type = heritage
+}
+
+heritage_iberian = {
+	type = heritage
+}
+
+heritage_iranian = {
 	type = heritage
 }
 
@@ -22,6 +54,14 @@ heritage_latin = {
 	type = heritage
 }
 
+heritage_magyar = {
+	type = heritage
+}
+
+heritage_mongolic = {
+	type = heritage
+}
+
 heritage_north_germanic = {
 	type = heritage
 }
@@ -30,6 +70,59 @@ heritage_south_slavic = {
 	type = heritage
 }
 
+heritage_turkic = {
+	type = heritage
+}
+
+heritage_ugro_permian = {
+	type = heritage
+}
+
+heritage_volga_finnic = {
+	type = heritage
+}
+
+heritage_west_germanic = {
+	type = heritage
+}
+
 heritage_west_slavic = {
+	type = heritage
+}
+
+heritage_vlach = {
+	type = heritage
+}
+
+#mod
+heritage_dutch = {
+	type = heritage
+}
+
+heritage_rhaetic = {
+	type = heritage
+}
+
+heritage_albanian = {
+	type = heritage
+}
+
+heritage_basque = {
+	type = heritage
+}
+
+heritage_caucasian = {
+	type = heritage
+}
+
+heritage_dagestani = {
+	type = heritage
+}
+
+heritage_armenian = {
+	type = heritage
+}
+
+heritage_abkhazian = {
 	type = heritage
 }

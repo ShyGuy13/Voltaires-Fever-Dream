@@ -65,7 +65,7 @@ tirol4 = {
 }
 
 #spouses
-﻿tirol1_wife = {
+tirol1_wife = {
 	name = "Bertha" #
 	female = yes
 	#dynasty = unknown

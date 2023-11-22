@@ -1,7 +1,0 @@
-heritage_dutch = {
-	type = heritage
-}
-
-heritage_rhaetic = {
-	type = heritage
-}

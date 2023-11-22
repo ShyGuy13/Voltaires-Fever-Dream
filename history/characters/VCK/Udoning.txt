@@ -68,7 +68,6 @@ udoning5 = {
 	}
 	994.6.23 = {
 		death = {
-			death = yes
 			death_reason = death_battle
 		}
 	}
@@ -167,7 +166,6 @@ udoning11 = {
 	}
 	1011.10.3 = {
 		death = {
-			death = yes
 			death_reason = death_bubonic_plague
 		}
 	}

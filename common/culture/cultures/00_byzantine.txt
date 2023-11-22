@@ -27,8 +27,8 @@
 #mod
 griko = {
 	color = griko
-	created = 800.1.1
-	parents = { greek langobard }
+	created = 950.1.1
+	parents = { greek italian }
 
 	ethos = ethos_communal
 	heritage = heritage_byzantine

@@ -1,12 +1,63 @@
-﻿kuenring1 = {
+﻿#DONE FOR 1054
+kuenring1 = {
 	name = "Azzo" # Azzo of Krems
 	dynasty = 127
 	religion = catholic
-	culture = saxon
-	1028.1.1 = { #fic
+	culture = austrian
+	#unknown parents
+	1033.1.1 = { #fic
 		birth = yes
 	}
-	1100.1.1 = {
+	#unknown wife
+	1100.1.1 = { #est
+		death = yes
+	}
+}
+
+kuenring2 = {
+	name = "Anselm" # 
+	dynasty = 127
+	religion = catholic
+	culture = austrian
+	father = kuenring1
+	#unknown mom
+	1058.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1137.1.1 = { #est
+		death = yes
+	}
+}
+
+kuenring3 = {
+	name = "Nitker" # 
+	dynasty = 127
+	religion = catholic
+	culture = austrian
+	father = kuenring1
+	#unknown mom
+	1063.1.1 = { #fic
+		birth = yes
+	}
+	#Truta
+	1114.1.1 = { #est
+		death = yes
+	}
+}
+
+kuenring4 = {
+	name = "Adalbert" # Adalbert I
+	dynasty = 127
+	religion = catholic
+	culture = austrian
+	father = kuenring1
+	#unknown mom
+	1067.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1118.1.1 = { #est
 		death = yes
 	}
 }

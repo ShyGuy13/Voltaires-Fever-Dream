@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 diepholz1 = {
 	name = "Gottschalk" # Gottschalk I of Diepholz
 	dynasty = 217
@@ -14,7 +14,7 @@ diepholz1 = {
 	}
 }
 
-﻿diepholz2 = {
+diepholz2 = {
 	name = "Georg" # Georg I of Diepholz
 	dynasty = 217
 	religion = catholic
@@ -29,7 +29,7 @@ diepholz1 = {
 	}
 }
 
-﻿diepholz3 = {
+diepholz3 = {
 	name = "Gottschalk" # bishop of Osnabrück
 	dynasty = 217
 	religion = catholic

@@ -660,7 +660,7 @@
 }
 140 = {
 	prefix = "dynnp_von"
-	name = "dynn_Malsburg"
+	name = "dynn_Nidda"
 	culture = hessian
 }
 141 = {
@@ -1460,9 +1460,7 @@
 	culture = franconian
 }
 311 = {
-	prefix = "dynnp_von"
-	name = "dynn_Kastl"
-	culture = bavarian
+	#free
 }
 312 = {
 	prefix = "dynnp_von"

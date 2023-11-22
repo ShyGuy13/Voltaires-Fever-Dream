@@ -14,7 +14,7 @@
 	}
 }
 
-﻿beaujeu2 = {
+beaujeu2 = {
 	name = "Guichard" # Guichard I of Beaujeu
 	dynasty = 235
 	religion = catholic
@@ -32,7 +32,7 @@
 	}
 }
 
-﻿beaujeu3 = {
+beaujeu3 = {
 	name = "Humbert" # Humbert I of Beaujeu
 	dynasty = 235
 	religion = catholic
@@ -50,7 +50,7 @@
 	}
 }
 
-﻿beaujeu4 = {
+beaujeu4 = {
 	name = "Beraud" # 
 	dynasty = 235
 	religion = catholic
@@ -65,7 +65,7 @@
 	}
 }
 
-﻿beaujeu5 = {
+beaujeu5 = {
 	name = "Adélaïde" # 
 	female = yes
 	dynasty = 235
@@ -81,7 +81,7 @@
 	}
 }
 
-﻿beaujeu6 = {
+beaujeu6 = {
 	name = "Léotald" # 
 	dynasty = 235
 	religion = catholic
@@ -96,7 +96,7 @@
 	}
 }
 
-﻿beaujeu7 = {
+beaujeu7 = {
 	name = "Beraud" #  
 	dynasty = 235
 	religion = catholic
@@ -111,7 +111,7 @@
 	}
 }
 
-﻿beaujeu8 = {
+beaujeu8 = {
 	name = "Guichard" # 
 	dynasty = 235
 	religion = catholic
@@ -129,7 +129,7 @@
 	}
 }
 
-﻿beaujeu9 = {
+beaujeu9 = {
 	name = "Étienne" # 
 	dynasty = 235
 	religion = catholic
@@ -144,7 +144,7 @@
 	}
 }
 
-﻿beaujeu10 = {
+beaujeu10 = {
 	name = "Umfred" # 
 	dynasty = 235
 	religion = catholic
@@ -159,7 +159,7 @@
 	}
 }
 
-﻿beaujeu11 = {
+beaujeu11 = {
 	name = "Guigues" # 
 	dynasty = 235
 	religion = catholic
@@ -174,7 +174,7 @@
 	}
 }
 
-﻿beaujeu12 = {
+beaujeu12 = {
 	name = "Wenceline" # 
 	female = yes
 	dynasty = 235
@@ -190,7 +190,7 @@
 	}
 }
 
-﻿beaujeu13 = {
+beaujeu13 = {
 	name = "Humbert" # Humbert II of Beaujeu
 	dynasty = 235
 	religion = catholic
@@ -205,7 +205,7 @@
 	}
 }
 
-﻿beaujeu14 = {
+beaujeu14 = {
 	name = "Melisende" # fictional name, wife of Liébaut de Digoine
 	female = yes
 	dynasty = 235
@@ -220,7 +220,7 @@
 	}
 }
 
-﻿beaujeu15 = {
+beaujeu15 = {
 	name = "Guichard" # 
 	dynasty = 235
 	religion = catholic
@@ -234,7 +234,7 @@
 	}
 }
 
-﻿beaujeu16 = {
+beaujeu16 = {
 	name = "Dalmais" # 
 	dynasty = 235
 	religion = catholic
@@ -248,7 +248,7 @@
 	}
 }
 
-﻿beaujeu17 = {
+beaujeu17 = {
 	name = "Gomard" # 
 	dynasty = 235
 	religion = catholic
@@ -262,7 +262,7 @@
 	}
 }
 
-﻿beaujeu18 = {
+beaujeu18 = {
 	name = "Hugues" # 
 	dynasty = 235
 	religion = catholic

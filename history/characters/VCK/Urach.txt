@@ -3,11 +3,87 @@
 	dynasty_house = house_urach
 	religion = catholic
 	culture = swabian
-	father = achalm1
+	father = urach2
 	1038.1.1 = { #fic
 		birth = yes
 	}
+	1054.1.1 = { #fic
+		add_spouse = urach1_wife # Kunigunde
+	}
 	1105.7.7 = {
+		death = yes
+	}
+}
+
+urach2 = {
+	name = "Egino" # Egino I of Dettingen
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = achalm3
+	1001.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_older
+	}
+	1049.1.1 = { #est
+		death = yes
+	}
+}
+
+urach3 = {
+	name = "Mechthild" # wife of Manegold von Sulmetting
+	female = yes
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = urach2
+	1041.1.1 = { #fic
+		birth = yes
+	}
+	1111.11.20 = { #fic
+		death = yes
+	}
+}
+
+urach4 = {
+	name = "Gebhard" # bishop of Speyer
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = urach2
+	1046.1.1 = { #fic
+		birth = yes
+	}
+	1110.3.1 = {
+		death = yes
+	}
+}
+
+urach5 = {
+	name = "Kuno" # bishop of Palestrina
+	dynasty = 134
+	religion = catholic
+	culture = swabian
+	father = urach2
+	1048.1.1 = { #fic
+		birth = yes
+	}
+	1122.8.9 = { #fic
+		death = yes
+	}
+}
+
+#wifes
+urach1_wife = {
+	name = "Kunigunde" # 
+	female = yes
+	#dynasty = unknown
+	religion = catholic
+	culture = swabian
+	1039.1.1 = { #fic
+		birth = yes
+	}
+	1103.1.1 = {
 		death = yes
 	}
 }

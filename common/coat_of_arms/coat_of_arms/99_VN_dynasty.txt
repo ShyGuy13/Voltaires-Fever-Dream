@@ -60,7 +60,7 @@
 
 14 = c_bozen
 
-15 = { # Pilgriming
+15 = { # Pilgriming; CoA of Allershausen
 	pattern = "pattern_solid.dds"
 	color1 = "red"
 	color2 = "yellow"
@@ -102,7 +102,24 @@
 	}	
 }
 
-# 20 Dilching
+20 = { # Dilching
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_mount.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.66 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_falcon.dds" #changed color to distinguish it from Falkenstein
+		color1 = "red"
+		color2 = "yellow"
+		color3 = "yellow"
+		instance = { position = { 0.5 0.48 } scale = { 1.0 1.0 }  }
+	}
+}
 
 21 = c_lechsgemund # Lechsgemünd
 
@@ -153,6 +170,8 @@
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }			
 	}	
 }
+
+
 
 30 = c_hohenlohe # Hohenlohe
 
@@ -262,7 +281,17 @@
 
 62 = c_wurttemberg # Württemberg
 
-# 63 Luitpolding
+63 = { # Luitpolding
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_fess_dancetty.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
 
 64 = c_zollern # Hohenzollern
 
@@ -628,7 +657,7 @@
 
 135 = c_arnsberg # Arnsberg
 
-136 = c_falkenstein # Falkenstein
+#136 =  # Falkenberg
 
 137 = { # Selbold
 	pattern = "pattern_solid.dds"
@@ -657,32 +686,34 @@
 	}	
 }
 
-140 = { # Malsburg
-	pattern = "pattern_horizontal_split_01.dds"
-	color1 = "yellow"
-	color2 = "blue"
-	colored_emblem = {
-		texture = "ce_lion_passant.dds"
-		color1 = "red"
-		color2 = "red"
-		color3 = "yellow"
-		instance = { position = { 0.5 0.29 } scale = { 0.65 0.65 }  }
-	}
-	colored_emblem = {
-		texture = "ce_crown_small.dds"
-		color1 = "red"
-		instance = { position = { 0.42 0.06 } scale = { 0.15 0.15 }  }
-	}
-	colored_emblem = {
-		color1 = "white"
-		color2 = "white"
-		color3 = "yellow"
-		texture = "ce_flower.dds"
-		instance = { position = { 0.50 0.77 } scale = { 0.28 0.28 } rotation = 180 }
-		instance = { position = { 0.25 0.67 } scale = { 0.28 0.28 } rotation = 180 }
-		instance = { position = { 0.75 0.67 } scale = { 0.28 0.28 } rotation = 180 }
-	}
-}
+140 = c_nidda # Nidda
+
+# 140 = { # Malsburg
+# 	pattern = "pattern_horizontal_split_01.dds"
+# 	color1 = "yellow"
+# 	color2 = "blue"
+# 	colored_emblem = {
+# 		texture = "ce_lion_passant.dds"
+# 		color1 = "red"
+# 		color2 = "red"
+# 		color3 = "yellow"
+# 		instance = { position = { 0.5 0.29 } scale = { 0.65 0.65 }  }
+# 	}
+# 	colored_emblem = {
+# 		texture = "ce_crown_small.dds"
+# 		color1 = "red"
+# 		instance = { position = { 0.42 0.06 } scale = { 0.15 0.15 }  }
+# 	}
+# 	colored_emblem = {
+# 		color1 = "white"
+# 		color2 = "white"
+# 		color3 = "yellow"
+# 		texture = "ce_flower.dds"
+# 		instance = { position = { 0.50 0.77 } scale = { 0.28 0.28 } rotation = 180 }
+# 		instance = { position = { 0.25 0.67 } scale = { 0.28 0.28 } rotation = 180 }
+# 		instance = { position = { 0.75 0.67 } scale = { 0.28 0.28 } rotation = 180 }
+# 	}
+# }
 
 141 = c_diez # Diez
 
@@ -1307,6 +1338,18 @@
 	}
 }
 
+233 = { # Grone
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_points_09.dds"
+		color1 = "red"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.4 0.5 } rotation = 45 }
+	}
+}
+
 234 = c_dassel # Dassel
 
 235 = c_beaujeu # Beaujeu
@@ -1671,22 +1714,29 @@
 	}
 }
 
-coa_title_3721={
-	custom=yes
-	pattern="pattern_horizontal_stripes_01.dds"
-	color1=black
-	color2=white
-	color3=blue
-	colored_emblem={
-		color1=white
-		texture="ce_fleur.dds"
-		instance={
-			scale={ 0.700000 0.700000 }
-		}
-
+314 = { # Cappenberg
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_ordinary_fess_5.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.45 } scale = { 1.0 1.4 }  }
 	}
-
 }
+
+333 = { # Wilhelming
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_vol.dds"
+		color1 = "white"
+		color2 = "white"
+	}
+}
+
 
 
 
@@ -2353,6 +2403,8 @@ house_ortenburg = c_spittal # Ortenburg
 
 house_raabs = c_raabs # Raabs
 
+house_schweinfurt = c_schweinfurt # Schweinfurt
+
 house_babenberg = d_osterreich # Babenberg
 
 house_ebersberg = { # Ebersberg 
@@ -2374,3 +2426,50 @@ house_ebersberg = { # Ebersberg
 }
 
 house_arnstein = c_arnstein # Arnstein
+
+house_plain = { # Plain
+	pattern = "pattern_vertical_split_01.dds"
+	color1 = "red"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_vol.dds"
+		color1 = "white"
+		color2 = "white"
+	}
+}
+
+house_falkenstein = { # Falkenstein
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_mount.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.66 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_falcon.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "black"
+		instance = { position = { 0.5 0.48 } scale = { 1.0 1.0 }  }
+	}
+}
+
+house_kastl = { # Kastl
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_fleur.dds"
+		color1 = "white"
+		color2 = "white"		
+		instance = { position = { 0.5 0.22 } scale = { 0.31 0.31 }  }	
+		instance = { position = { 0.5 0.78 } scale = { 0.31 0.31 }  }	
+		instance = { position = { 0.26 0.22 } scale = { 0.31 0.31 }  }	
+		instance = { position = { 0.74 0.22 } scale = { 0.31 0.31 }  }	
+		instance = { position = { 0.37 0.50 } scale = { 0.31 0.31 }  }	
+		instance = { position = { 0.63 0.50 } scale = { 0.31 0.31 }  }			
+	}			
+}
