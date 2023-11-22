@@ -1,4 +1,5 @@
-﻿maden1 = {
+#DONE FOR 1054
+maden1 = {
 	name = "Werner" # Werner III of Neckargau
 	dynasty_house = house_maden
 	religion = catholic
@@ -76,13 +77,11 @@ maden3_wife = {
 	#dynasty = unknown
 	religion = catholic
 	culture = hessian
-	1062.1.1 = { #est
+	1065.1.1 = { #fic
 		birth = yes
 	}
 	#unknown wife
-	1121.2.22 = {
-		death = {
-			death_reason = death_battle
-		}
+	1131.1.1 = { #fic
+		death = yes
 	}
 }
