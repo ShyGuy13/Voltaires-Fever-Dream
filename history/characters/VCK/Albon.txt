@@ -3,9 +3,10 @@
 	dynasty = 229
 	religion = catholic
 	culture = arpitan
-	1000.1.1 = { #est
+	997.1.1 = { #est
 		birth = yes
 	}
+	#Adelaide
 	1070.1.1 = {
 		death = yes
 	}
@@ -17,9 +18,13 @@ albon2 = {
 	religion = catholic
 	culture = arpitan
 	father = albon1
+	#mother = Adelaide 
 	1025.1.1 = { #est
 		birth = yes
+		give_nickname = nick_the_fat
 	}
+	#Petronille
+	#Iñes of Barcelona
 	1079.1.1 = {
 		death = yes
 	}
@@ -36,6 +41,23 @@ albon3 = {
 		birth = yes
 	}
 	1068.1.1 = { #fic
+		death = yes
+	}
+}
+
+albon4 = {
+	name = "Guigues" # Guigues III of Dauphine
+	dynasty = 229
+	religion = catholic
+	culture = arpitan
+	father = albon2
+	#mother = Petronille 
+	1054.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_old
+	}
+	#1095 = Mathilde de Hauteville, daughter of Roger I of Sicily
+	1133.12.21 = {
 		death = yes
 	}
 }
