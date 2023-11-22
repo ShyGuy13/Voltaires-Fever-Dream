@@ -60,3 +60,83 @@
 		death = yes
 	}
 }
+
+﻿konrading5 = {
+	name = "Mathilde" #wife of Konrad I Salier & Friedrich II Wigeriching & Eskio Askanier
+	female = yes
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading1
+	#mother = Gerberga von Burgund
+	988.1.1 = { #est
+		birth = yes
+	}
+	1032.7.29 = {
+		death = yes
+	}
+}
+
+﻿konrading6 = {
+	name = "Gisela" #wife of Bruno Brunoning & Ernst I of Austria & Konrad II Salier
+	female = yes
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading1
+	#mother = Gerberga von Burgund
+	989.11.11 = { #est
+		birth = yes
+	}
+	1043.2.15 = {
+		death = yes
+	}
+}
+
+﻿konrading7 = {
+	name = "Berthold" 
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading1
+	#mother = Gerberga von Burgund
+	992.1.1 = { #est
+		birth = yes
+	}
+	993.1.1 = { #est
+		death = yes
+	}
+}
+
+﻿konrading8 = {
+	name = "Beatrix" # wife of Adalbero of Eppenstein
+	female = yes
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	trait = twin
+	father = konrading1
+	#mother = Gerberga von Burgund
+	994.1.1 = { #est
+		birth = yes
+	}
+	1025.5.12 = { #est
+		death = yes
+	}
+}
+
+konrading9 = {
+	name = "Hermann" # Hermann III of Swabia
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	trait = twin
+	father = konrading1
+	#mother = Gerberga von Burgund
+	994.1.1 = { #est
+		birth = yes
+	}
+	1012.4.1 = {
+		death = yes
+	}
+}
