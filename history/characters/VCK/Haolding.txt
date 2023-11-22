@@ -1,0 +1,60 @@
+haolding1 = {
+  	name = "Erp" #Erp I
+  	dynasty = 364
+  	religion = catholic
+  	culture = eastphalian
+    #
+  	930.1.1 = { #fic
+  		  birth = yes
+  	}
+    #Amulrad von Marsleben
+    996.1.1 = { #fic
+  		  death = yes
+  	}
+}
+
+haolding2 = {
+  	name = "Walther" #bishop of Magdeburg
+  	dynasty = 364
+  	religion = catholic
+  	culture = eastphalian
+    father = haolding1
+    #mother = Amulrad von Marsleben
+  	958.1.1 = { #est
+  		  birth = yes
+  	}
+    1012.8.12 = {
+  		  death = yes
+  	}
+}
+
+haolding3 = {
+  	name = "Ludolf" #
+  	dynasty = 364
+  	religion = catholic
+  	culture = eastphalian
+    father = haolding1
+    #mother = Amulrad von Marsleben
+  	956.1.1 = { #fic
+  		  birth = yes
+  	}
+    1021.1.1 = {
+  		  death = yes
+  	}
+}
+
+haolding4 = {
+  	name = "Amulrad" # wife of Konrad of Morsleben
+    female = yes
+  	dynasty = 364
+  	religion = catholic
+  	culture = eastphalian
+    father = haolding1
+    #mother = Amulrad von Marsleben
+  	974.1.1 = { #est
+  		  birth = yes
+  	}
+    1034.1.1 = { #fic
+  		  death = yes
+  	}
+}
