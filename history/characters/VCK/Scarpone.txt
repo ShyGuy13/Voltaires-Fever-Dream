@@ -43,3 +43,20 @@ scarpone3 = {
 		death = yes
 	}
 }
+
+scarpone4 = {
+	name = "Sophie" # wife of Volmar I of Frohburg
+	female = yes
+	dynasty = 187
+	religion = catholic
+	culture = lorrainian
+	father = scarpone1
+	mother = wigeriching1
+	1060.1.1 = {
+		birth = yes
+	}
+	1123.1.1 = { #fic
+		death = yes
+	}
+}
+
