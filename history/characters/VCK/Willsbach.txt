@@ -1,9 +1,11 @@
-﻿willsbach1 = {
-	name = "Cunizza" # Cunizza of Willsbach
+#DONE FOR 1054
+willsbach1 = {
+	name = "Kunigunde" # wife of Adalbert IV of Calw
 	female = yes
-	dynasty = 33
+	dynasty = 33 #a proper dynasty?
 	religion = catholic
 	culture = franconian
+	#unknown parents
 	1030.1.1 = { #fic
 		birth = yes
 	}
