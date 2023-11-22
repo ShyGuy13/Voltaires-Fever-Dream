@@ -1,0 +1,14 @@
+bilstein1 = {
+  	name = "Friedrun" # wife of Volkold I of Nidda
+    female = yes
+  	dynasty = 365
+  	religion = catholic
+  	culture = hessian
+  	#unknown parents
+  	1043.1.1 = { #fic
+  		  birth = yes
+  	}
+  	1102.1.1 = { #fic
+  		  death = yes
+  	}
+}
