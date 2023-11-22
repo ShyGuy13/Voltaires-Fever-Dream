@@ -3,12 +3,43 @@ bilstein1 = {
     female = yes
   	dynasty = 365
   	religion = catholic
-  	culture = hessian
+  	culture = thuringian
   	#unknown parents
   	1043.1.1 = { #fic
   		  birth = yes
   	}
   	1102.1.1 = { #fic
+  		  death = yes
+  	}
+}
+
+bilstein2 = {
+  	name = "Wigger" # Wigger I of Bilstein
+  	dynasty = 365
+  	religion = catholic
+  	culture = thuringian
+  	#father = Wilhelm I of Weimar?
+  	941.1.1 = { #fic
+  		  birth = yes
+  	}
+    #unknown wife
+  	987.1.1 = {
+  		  death = yes
+  	}
+}
+
+bilstein3 = {
+  	name = "Wigger" # Wigger II of Bilstein
+  	dynasty = 365
+  	religion = catholic
+  	culture = thuringian
+  	father = bilstein2
+    #unknown mother
+  	977.1.1 = { #fic
+  		  birth = yes
+  	}
+    #unknown wife
+  	1034.1.1 = {
   		  death = yes
   	}
 }
