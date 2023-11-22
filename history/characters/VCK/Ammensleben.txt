@@ -1,0 +1,65 @@
+ammensleben1 = {
+      name = "Milo" #Milo I of Ammensleben
+    	dynasty = 360
+    	culture = central_margraviate
+    	religion = catholic
+    	#unknown parents
+    	946.1.1 = { #fic
+    		  birth = yes
+    	}
+      #unknown wife
+    	1010.1.1 = { #est
+    		  death = yes
+    	}
+}
+
+ammensleben2 = {
+      name = "Hanulf" #
+    	dynasty = 360
+    	culture = central_margraviate
+    	religion = catholic
+      father = ammensleben1
+    	#unknown mother
+    	979.1.1 = { #fic
+    		  birth = yes
+    	}
+      #unknown wife
+    	1026.1.1 = { #fic
+    		  death = yes
+    	}
+}
+
+ammensleben3 = {
+      name = "Dietrich" # Dietrich I of Ammensleben
+    	dynasty = 360
+    	culture = central_margraviate
+    	religion = catholic
+      father = ammensleben1
+    	#unknown mother
+    	986.1.1 = { #fic
+    		  birth = yes
+    	}
+      #wife = Margarete von Morsleben
+    	1032.1.1 = { #fic
+    		  death = yes
+    	}
+}
+
+ammensleben4 = {
+      name = "Amelrada" # wife of Ekbert von Harbke and Heseberg & Dietrich (Er war der Sohn einer Schwester des Gegenkönigs Hermann von Salm)
+      female = yes
+    	dynasty = 360
+    	culture = central_margraviate
+    	religion = catholic
+      father = ammensleben3
+    	#unknown mother
+    	986.1.1 = { #fic
+    		  birth = yes
+    	}
+      #wife = Margarete von Morsleben
+    	1032.1.1 = { #fic
+    		  death = yes
+    	}
+}
+
+#Dedi?
