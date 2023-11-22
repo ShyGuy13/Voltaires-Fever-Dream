@@ -55,7 +55,7 @@ wurttemberg1 = {
 	dynasty = 62
 	religion = catholic
 	culture = swabian
-	father = salier5 Konrad II Salier #debated
+	father = salier5 # Konrad II Salier #debated
 	#unknown mom
 	1027.1.1 = { #fic
 		birth = yes
