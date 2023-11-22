@@ -19,7 +19,7 @@ aldobrandeschi2 = {
 	culture = tuscan
 	father = aldobrandeschi3
 	#mother = Willa Landulfing, daughter of Landolfo IV
-	988.1.1 = { #est
+	983.1.1 = { #est
 		birth = yes
 	}
 	1040.1.1 = { #est
@@ -32,10 +32,11 @@ aldobrandeschi3 = {
 	dynasty = 284
 	religion = catholic
 	culture = tuscan
+	father = aldobrandeschi9
 	951.1.1 = { #fic
 		birth = yes
 	}
-	992.1.1 = { #fic
+	987.1.1 = { #fic
 		death = yes
 	}
 }
@@ -81,6 +82,177 @@ aldobrandeschi6 = {
 		birth = yes
 	}
 	1085.1.1 = { #fic
+		death = yes
+	}
+}
+
+aldobrandeschi7 = {
+	name = "Ranieri" # Ranieri II
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi1
+	#unknown mother
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1096.1.1 = { #est
+		death = yes
+	}
+}
+
+aldobrandeschi8 = {
+	name = "Ugo" # 
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi1
+	#unknown mother
+	1037.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1096.1.1 = { #est
+		death = yes
+	}
+}
+
+aldobrandeschi9 = {
+	name = "Rodolfo" # Rodolfo I
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi10
+	922.1.1 = { #fic
+		birth = yes
+	}
+	990.1.1 = { #est
+		death = yes
+	}
+}
+
+aldobrandeschi10 = {
+	name = "Gherardo" # Gherardo I
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi12
+	898.1.1 = { #fic
+		birth = yes
+	}
+	956.1.1 = { #fic
+		death = yes
+	}
+}
+
+aldobrandeschi11 = {
+	name = "Lamberto" # 
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi12
+	903.1.1 = { #fic
+		birth = yes
+	}
+	967.1.1 = { #fic
+		death = yes
+	}
+}
+
+aldobrandeschi12 = {
+	name = "Ildebrando" # Ildebrando III
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi13
+	871.1.1 = { #fic
+		birth = yes
+	}
+	929.1.1 = { #fic
+		death = yes
+	}
+}
+
+aldobrandeschi13 = {
+	name = "Ildebrando" # Ildebrando II
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi14
+	836.1.1 = { #fic
+		birth = yes
+	}
+	899.1.1 = { #est
+		death = yes
+	}
+}
+
+aldobrandeschi14 = {
+	name = "Eriprando" # Eriprando I
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi16
+	798.1.1 = { #fic
+		birth = yes
+	}
+	861.1.1 = {
+		death = yes
+	}
+}
+
+aldobrandeschi15 = {
+	name = "Ilprando" # Ilprando II
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi16
+	795.1.1 = { #fic
+		birth = yes
+	}
+	804.1.1 = { #est
+		death = yes
+	}
+}
+
+aldobrandeschi16 = {
+	name = "Ildebrando" # Ildebrando I
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi17
+	774.1.1 = { #fic
+		birth = yes
+	}
+	826.1.1 = { #fic
+		death = yes
+	}
+}
+
+aldobrandeschi17 = {
+	name = "Ilprando" # Ilprando I
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi18
+	741.1.1 = { #fic
+		birth = yes
+	}
+	804.1.1 = { #fic
+		death = yes
+	}
+}
+
+aldobrandeschi18 = {
+	name = "Alperto" # Alperto I
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	718.1.1 = { #fic
+		birth = yes
+	}
+	778.1.1 = { #fic
 		death = yes
 	}
 }
