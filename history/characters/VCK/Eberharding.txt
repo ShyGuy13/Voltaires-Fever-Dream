@@ -83,12 +83,12 @@ eberharding6 = {
 }
 
 eberharding7 = {
-	name = "Eberhard" #
+	name = "Burkhard" #
 	dynasty = 95
 	religion = catholic
 	culture = boden_alemannic
 	father = eberharding2
-	1009.1.1 = {
+	1006.1.1 = { #est
 		birth = yes
 	}
 	1053.6.18 = {
@@ -235,6 +235,21 @@ eberharding17 = {
 		birth = yes
 	}
 	1043.1.1 = { #fic
+		death = yes
+	}
+}
+
+eberharding18 = {
+	name = "Irmentrud" # wife of Burkhard I of Zollern
+	female = yes
+	dynasty = 95
+	religion = catholic
+	culture = boden_alemannic
+	father = eberharding7 # it might be a different Burkhard
+	1024.1.1 = { #fic
+		birth = yes
+	}
+	1083.1.1 = { #fic
 		death = yes
 	}
 }
