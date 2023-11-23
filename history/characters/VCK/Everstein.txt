@@ -1,5 +1,5 @@
 #DONE FOR 1054
-#everstein3 (Konrad I of Everstein) ist the first known member of this dynasty. I added fictional ancestors to make this dynasty present in 1054.
+#everstein3 (Konrad I of Everstein) is the first known member of this dynasty. I added fictional ancestors to make this dynasty present in 1054.
 
 everstein1 = {
 	name = "Gottfried" # fictional character
