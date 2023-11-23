@@ -31,6 +31,7 @@ weimar3 = {
 	dynasty = 4
 	culture = thuringian
 	religion = catholic
+	father = weimar10
 	930.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_great
@@ -129,6 +130,49 @@ weimar9 = {
 		birth = yes
 	}
 	1140.1.1 = {
+		death = yes
+	}
+}
+
+weimar10 = {
+	name = "Wilhelm" #Wilhelm I of Weimar
+	dynasty = 4
+	culture = thuringian
+	religion = catholic
+	#unknown parents
+	901.1.1 = { #fic
+		birth = yes
+	}
+	#wife = daughter of Poppo II Popponing
+	963.4.16 = {
+		death = yes
+	}
+}
+
+weimar11 = {
+	name = "Poppo" #
+	dynasty = 4
+	culture = thuringian
+	religion = catholic
+	father = weimar10
+	934.1.1 = { #fic
+		birth = yes
+	}
+	973.1.1 = { #fic
+		death = yes
+	}
+}
+
+weimar12 = {
+	name = "Siegbert" #
+	dynasty = 4
+	culture = thuringian
+	religion = catholic
+	father = weimar10
+	938.1.1 = { #fic
+		birth = yes
+	}
+	1006.1.1 = { #fic
 		death = yes
 	}
 }
