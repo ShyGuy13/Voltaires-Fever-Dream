@@ -1,7 +1,7 @@
 bilstein1 = {
   	name = "Friedrun" # wife of Volkold I of Nidda
     female = yes
-  	dynasty = 365
+  	dynasty_house = house_bilstein
   	religion = catholic
   	culture = thuringian
     father = bilstein4 # in fact unknown parents, I just had to connect her to the family somehow
@@ -15,10 +15,11 @@ bilstein1 = {
 
 bilstein2 = {
   	name = "Wigger" # Wigger I of Bilstein
-  	dynasty = 365
+  	dynasty_house = house_bilstein
   	religion = catholic
   	culture = thuringian
-  	#father = Wilhelm I of Weimar?
+  	father = weimar10
+    #add mother
   	941.1.1 = { #fic
   		  birth = yes
   	}
@@ -30,7 +31,7 @@ bilstein2 = {
 
 bilstein3 = {
   	name = "Wigger" # Wigger II of Bilstein
-  	dynasty = 365
+  	dynasty_house = house_bilstein
   	religion = catholic
   	culture = thuringian
   	father = bilstein2
@@ -46,7 +47,7 @@ bilstein3 = {
 
 bilstein4 = {
   	name = "Rüdiger" # Rüdiger I of Bilstein
-  	dynasty = 365
+    dynasty_house = house_bilstein
   	religion = catholic
   	culture = thuringian
   	father = bilstein3
@@ -62,7 +63,7 @@ bilstein4 = {
 
 bilstein5 = {
   	name = "Eberhard" # 
-  	dynasty = 365
+  	dynasty_house = house_bilstein
   	religion = catholic
   	culture = thuringian
   	father = bilstein3
@@ -78,7 +79,7 @@ bilstein5 = {
 
 bilstein6 = {
   	name = "Erpho" # Erpho I of Bilstein
-  	dynasty = 365
+  	dynasty_house = house_bilstein
   	religion = catholic
   	culture = thuringian
   	father = bilstein3
@@ -94,7 +95,7 @@ bilstein6 = {
 
 bilstein7 = {
   	name = "Rüdiger" # Rüdiger II of Bilstein
-  	dynasty = 365
+  	dynasty_house = house_bilstein
   	religion = catholic
   	culture = thuringian
   	father = bilstein4
@@ -111,7 +112,7 @@ bilstein7 = {
 bilstein8 = {
   	name = "Kunigunde" # wife of Giso IV Gisoning & Heinrich Raspe I Ludowing
     female = yes
-  	dynasty = 365
+  	dynasty_house = house_bilstein
   	religion = catholic
   	culture = thuringian
   	father = bilstein7
