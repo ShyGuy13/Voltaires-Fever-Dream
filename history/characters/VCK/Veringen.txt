@@ -1,11 +1,16 @@
-﻿veringen1 = {
-	name = "Wolfrad" #Wolfrad I of Veringen
+#DONE FOR 1054
+veringen1 = {
+	name = "Wolfrad" #Wolfrad II of Veringen
 	dynasty = 60
 	religion = catholic
 	culture = swabian
 	father = veringen2
-	992.1.1 = { #fic
+	mother = veringen2_wife
+	992.1.1 = { #est
 		birth = yes
+	}
+	1009.1.1 = {
+		add_spouse = veringen1_wife # Hiltrude
 	}
 	1065.1.1 = {
 		death = yes
@@ -13,12 +18,16 @@
 }
 
 veringen2 = {
-	name = "Wolfrad" #
+	name = "Wolfrad" # Wolfrad I of Veringen
 	dynasty = 60
 	religion = catholic
 	culture = swabian
+	#unknown parents
 	972.1.1 = {
 		birth = yes
+	}
+	990.1.1 = { #fic
+		add_spouse = veringen2_wife # Bertha
 	}
 	1010.3.4 = {
 		death = yes
@@ -26,27 +35,35 @@ veringen2 = {
 }
 
 veringen3 = {
-	name = "Wolfrad" #
+	name = "Wolfrad" # Wolfrad III of Veringen
 	dynasty = 60
 	religion = catholic
 	culture = swabian
 	father = veringen1
-	1010.1.1 = { #fic
+	mother = veringen1_wife
+	1010.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1065.1.1 = {
 		death = yes
 	}
 }
 
 veringen4 = {
-	name = "Hermann" #
+	name = "Hermann" # monk
 	dynasty = 60
 	religion = catholic
 	culture = swabian
 	trait = devoted
+	trait = intellect_good_3
+	trait = clubfooted
+	trait = lisping
+	trait = weak
+	trait = poet
 	father = veringen1
-	1013.7.18 = { #fic
+	mother = veringen1_wife
+	1013.7.18 = {
 		birth = yes
 		give_nickname = nick_the_lame
 	}
@@ -56,13 +73,14 @@ veringen4 = {
 }
 
 veringen5 = {
-	name = "Werner" #
+	name = "Werner" # monk
 	dynasty = 60
 	religion = catholic
 	culture = swabian
 	trait = devoted
 	father = veringen1
-	1021.1.1 = {
+	mother = veringen1_wife
+	1021.11.1 = {
 		birth = yes
 	}
 	1053.1.1 = {
@@ -76,10 +94,142 @@ veringen6 = {
 	religion = catholic
 	culture = swabian
 	father = veringen1
+	mother = veringen1_wife
 	1025.1.1 = { #fic
 		birth = yes
 	}
-	1109.1.1 = {
+	1050.1.1 = { #fic
+		add_spouse = veringen6_wife # Lietphild
+	}
+	1104.3.7 = {
+		death = yes
+	}
+}
+
+veringen7 = {
+	name = "Tuticha" #
+	female = yes
+	dynasty = 60
+	religion = catholic
+	culture = swabian
+	father = veringen1
+	mother = veringen1_wife
+	1027.1.1 = { #fic
+		birth = yes
+	}
+	1081.1.1 = { #fic
+		death = yes
+	}
+}
+
+veringen8 = {
+	name = "Mathilde" #
+	female = yes
+	dynasty = 60
+	religion = catholic
+	culture = swabian
+	father = veringen1
+	mother = veringen1_wife
+	1030.1.1 = { #fic
+		birth = yes
+	}
+	1088.1.1 = { #fic
+		death = yes
+	}
+}
+
+veringen9 = {
+	name = "Irmgard" #
+	female = yes
+	dynasty = 60
+	religion = catholic
+	culture = swabian
+	trait = twin
+	father = veringen1
+	mother = veringen1_wife
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1099.1.1 = { #fic
+		death = yes
+	}
+}
+
+veringen10 = {
+	name = "Luitpold" #
+	dynasty = 60
+	religion = catholic
+	culture = swabian
+	trait = twin
+	father = veringen1
+	mother = veringen1_wife
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1042.12.15 = {
+		death = yes
+	}
+}
+
+veringen11 = {
+	name = "Walther" #Walther I of Veringen
+	dynasty = 60
+	religion = catholic
+	culture = swabian
+	father = veringen6
+	mother = veringen6_wife
+	1052.1.1 = { #fic
+		birth = yes
+	}
+	#no wife
+	1109.1.10 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+#wifes
+veringen1_wife = {
+	name = "Hiltrude" #
+	female = yes
+	#dynasty = unknown
+	religion = catholic
+	culture = swabian
+	#Peregin 
+	#Bertha
+	991.1.1 = { #est
+		birth = yes
+	}
+	1052.1.9 = {
+		death = yes
+	}
+}
+
+veringen2_wife = {
+	name = "Bertha" #
+	female = yes
+	#dynasty = unknown
+	religion = catholic
+	culture = swabian
+	975.1.1 = { #fic
+		birth = yes
+	}
+	1032.12.22 = {
+		death = yes
+	}
+}
+
+veringen6_wife = {
+	name = "Lietphild" #
+	female = yes
+	#dynasty = unknown
+	religion = catholic
+	culture = swabian
+	1026.1.1 = { #fic
+		birth = yes
+	}
+	1096.1.1 = {
 		death = yes
 	}
 }
