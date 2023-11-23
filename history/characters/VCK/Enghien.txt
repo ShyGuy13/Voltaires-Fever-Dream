@@ -1,12 +1,31 @@
-﻿enghien1 = {
+#DONE FOR 1054
+enghien1 = {
+	name = "Ansiaul" # Ansiaul of Enghien
+	dynasty = 200
+	religion = catholic
+	culture = picard
+	#unknown parents
+	1025.1.1 = { #fic
+		birth = yes
+	} 
+	#unknown wife
+	1079.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿enghien2 = {
 	name = "Engelbert" # Engelbert I of Enghien
 	dynasty = 200
 	religion = catholic
 	culture = picard
-	1025.1.1 = { # fic
+	father = enghien1
+	#unknown mother
+	1065.1.1 = { #fic
 		birth = yes
-	} 
-	1090.1.1 = {
+	}
+	#unknown wife
+	1100.1.1 = { #fic
 		death = yes
 	}
 }
