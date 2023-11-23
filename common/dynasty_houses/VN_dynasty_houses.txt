@@ -1,7 +1,7 @@
 ﻿house_eppan = {
 	prefix = "dynnp_von"
 	name = "dynn_Eppan"
-	dynasty = 14 #Bozen
+	dynasty = 93 #Welf
 }
 house_vasto = {
 	prefix = "dynnp_del"
