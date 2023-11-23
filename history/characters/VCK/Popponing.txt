@@ -1,5 +1,5 @@
 ﻿popponing1 = {
-	name = "Gebhard" #bishop of Regensburg
+	name = "Gebhard" #bishop of Grabfeld
 	dynasty = 34
 	religion = catholic
 	culture = bavarian
@@ -13,7 +13,7 @@
 }
 
 popponing2 = {
-	name = "Poppo" #Poppo I of Henneberg
+	name = "Poppo" #Poppo I of Grabfeld
 	dynasty = 34
 	religion = catholic
 	culture = bavarian
@@ -27,7 +27,7 @@ popponing2 = {
 }
 
 popponing3 = {
-	name = "Otto" #Otto III of Henneberg
+	name = "Otto" #Otto III of Grabfeld
 	dynasty = 34
 	religion = catholic
 	culture = bavarian
@@ -41,10 +41,11 @@ popponing3 = {
 }
 
 popponing4 = {
-	name = "Otto" #Otto II of Henneberg
+	name = "Otto" #Otto II of Grabfeld
 	dynasty = 34
 	religion = catholic
 	culture = bavarian
+	father = popponing7
 	941.1.1 = { #fic
 		birth = yes
 	}
@@ -78,6 +79,160 @@ popponing6 = {
 		birth = yes
 	}
 	1068.4.2 = { #fic
+		death = yes
+	}
+}
+
+popponing7 = {
+	name = "Otto" #Otto I of Grabfeld
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing8
+	#unknown mother
+	917.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	982.1.1 = {
+		death = yes
+	}
+}
+
+popponing8 = {
+	name = "Poppo" #Poppo III of Grabfeld
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing9
+	#unknown mother
+	879.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	945.1.1 = {
+		death = yes
+	}
+}
+
+popponing9 = {
+	name = "Poppo" #Poppo II of Grabfeld
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing10
+	#unknown mother
+	834.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	906.1.1 = { #est
+		death = yes
+	}
+}
+
+popponing10 = {
+	name = "Poppo" #Poppo I of Grabfeld
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	#unknown mother
+	793.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	841.1.1 = {
+		death = yes
+	}
+}
+
+popponing11 = {
+	name = "Heinrich" #Heinrich of Frisia
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing10
+	#unknown mother
+	830.1.1 = { #est
+		birth = yes
+	}
+	#Judith of Friuli
+	886.8.28 = {
+		death = {
+			death_reason = death_trap
+		}
+	}
+}
+
+popponing12 = {
+	name = "Adalbert" #
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing11
+	#Judith of Friuli
+	854.1.1 = {
+		birth = yes
+	}
+	#Brunhilde von Schwaben
+	906.9.9 = {
+		death = {
+			death_reason = death_decapitalized
+			#killer = Gebhard Konrading
+		}
+	}
+}
+
+popponing13 = {
+	name = "Adalhard" #
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing11
+	#Judith of Friuli
+	858.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	903.1.1 = {
+		death = {
+			death_reason = death_decapitalized
+			#killer = Gebhard Konrading
+		}
+	}
+}
+
+popponing14 = {
+	name = "Heinrich" #
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing11
+	#Judith of Friuli
+	864.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	902.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+popponing15 = {
+	name = "Hedwig" # wife of Otto Luidolfing
+	female = yes
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing11
+	#Judith of Friuli
+	851.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	903.12.14 = {
 		death = yes
 	}
 }
