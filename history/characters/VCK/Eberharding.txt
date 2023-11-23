@@ -33,7 +33,7 @@ eberharding3 = {
 	religion = catholic
 	culture = swiss
 	father = eberharding4
-	940.1.1 = { #est
+	943.1.1 = { #est
 		birth = yes
 	}
 	991.1.1 = {
@@ -42,25 +42,25 @@ eberharding3 = {
 }
 
 eberharding4 = {
-	name = "Burkhard" #
+	name = "Burkhard" # Burkhard I of Zürichgau
 	dynasty = 95
 	religion = catholic
 	culture = swiss
-	915.1.1 = { #est
+	918.1.1 = { #est
 		birth = yes
 	}
-	968.1.1 = {
+	973.1.1 = { #est
 		death = yes
 	}
 }
 
 eberharding5 = {
-	name = "Eberhard" #
+	name = "Eberhard" # Eberhard IV
 	dynasty = 95
 	religion = catholic
 	culture = swiss
 	father = eberharding4
-	940.1.1 = { #est
+	937.1.1 = { #est
 		birth = yes
 	}
 	995.1.1 = {
@@ -69,10 +69,11 @@ eberharding5 = {
 }
 
 eberharding6 = {
-	name = "Gottfried" #
+	name = "Gottfried" # monk
 	dynasty = 95
 	religion = catholic
 	culture = swiss
+	trait = devoted
 	father = eberharding4
 	940.1.1 = { #est
 		birth = yes
