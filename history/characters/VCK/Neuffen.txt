@@ -4,23 +4,27 @@ neuffen1 = {
 	religion = catholic
 	culture = arpitan
 	father = neuffen2
-	1053.1.1 = { #fic
+	#mother = Ita von Winterthur
+	1053.1.1 = { #est
 		birth = yes
 	}
-	1122.1.1 = {
+	#Mathilde of Urach
+	1122.8.11 = {
 		death = yes
 	}
 }
 
 neuffen2 = {
-	name = "Mangold" # Bertolds I of Sperberseck
+	name = "Berthold" # Berthold I of Sperberseck
 	dynasty = 45
 	religion = catholic
 	culture = arpitan
-	1020.1.1 = {
+	#unknown parents
+	1028.1.1 = { #est
 		birth = yes
 	}
-	1090.1.1 = {
+	# Ita von Winterthur, daughter of winterthur10
+	1093.1.1 = { #fic
 		death = yes
 	}
 }
