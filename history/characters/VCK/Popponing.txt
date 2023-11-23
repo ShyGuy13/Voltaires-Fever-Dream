@@ -177,7 +177,7 @@ popponing12 = {
 	#Brunhilde von Schwaben
 	906.9.9 = {
 		death = {
-			death_reason = death_decapitalized
+			death_reason = death_decapitated
 			#killer = Gebhard Konrading
 		}
 	}
@@ -196,7 +196,7 @@ popponing13 = {
 	#unknown wife
 	903.1.1 = {
 		death = {
-			death_reason = death_decapitalized
+			death_reason = death_decapitated
 			#killer = Gebhard Konrading
 		}
 	}

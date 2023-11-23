@@ -74,7 +74,7 @@ ariboning6 = {
 	religion = catholic
 	culture = bavarian
 	father = ariboning5
-	990.1.1 = { #fic
+	988.1.1 = { #est
 		birth = yes
 	}
 	1031.4.6 = {
@@ -232,6 +232,32 @@ ariboning17 = {
 		birth = yes
 	}
 	967.1.1 = { #fic
+		death = yes
+	}
+}
+
+ariboning18 = {
+	name = "Aribo" # Aribo I of Bavaria
+	dynasty = 12
+	culture = austrian
+	religion = catholic
+	931.1.1 = { #est
+		birth = yes
+	}
+	985.9.16 = {
+		death = yes
+	}
+}
+
+ariboning19 = {
+	name = "Aribo" # Aribo I of Bavaria
+	dynasty = 12
+	culture = austrian
+	religion = catholic
+	931.1.1 = { #est
+		birth = yes
+	}
+	985.9.16 = {
 		death = yes
 	}
 }

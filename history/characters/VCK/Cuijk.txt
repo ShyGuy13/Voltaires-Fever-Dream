@@ -1,15 +1,18 @@
+﻿#DONE FOR 1054
 cuijk1 = {
-	name = "Herman" # Herman I of Cuijk
+	name = "Herman" # Herman I of Cuijk / van Malsen
 	dynasty = 205
 	religion = catholic
 	culture = brabantian
-	1030.1.1 = {
+	#unknown parents, maybe a father named Unroch
+	1033.1.1 = { #est
 		birth = yes
 	}
-	1054.1.1 = {
+	1054.1.1 = { #fic
 		add_spouse = namur10 # Irmgard of Namur
 	}
-	1080.1.1 = {
+	#Ida of Boulogne
+	1082.1.1 = { #est
 		death = yes
 	}
 }

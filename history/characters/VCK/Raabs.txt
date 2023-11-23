@@ -1,14 +1,32 @@
-﻿raabs1 = {
+﻿#DONE FOR 1054
+raabs1 = {
 	name = "Ulrich" # Ulrich I of Raabs
 	dynasty_house = house_raabs
 	culture = austrian
 	religion = catholic
-	trait = bastard_founder
 	father = diepolding1 #debated
+	mother = schweinfurt13
 	1034.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1083.1.1 = {
+		death = yes
+	}
+}
+
+raabs2 = {
+	name = "Gottfried" # Gottfried I of Raabs
+	dynasty_house = house_raabs
+	culture = austrian
+	religion = catholic
+	father = raabs1
+	#unknown mother
+	1052.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1084.3.31 = {
 		death = yes
 	}
 }

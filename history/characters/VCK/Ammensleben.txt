@@ -62,4 +62,4 @@ ammensleben4 = {
     }
 }
 
-#Dedi?
+#Dedi? = Dietrich

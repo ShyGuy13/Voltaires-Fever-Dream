@@ -174,3 +174,18 @@ schweinfurt12 = {
 		death = yes
 	}
 }
+
+schweinfurt13 = {
+	name = "Gerbera" #fictional name, wife of Diepold I of Nordgau
+	female = yes
+	dynasty_house = house_schweinfurt
+	religion = catholic
+	culture = swabian
+	father = schweinfurt1
+	1011.1.1 = { #fic
+		birth = yes
+	}
+	1072.1.1 = { #fic
+		death = yes
+	}
+}

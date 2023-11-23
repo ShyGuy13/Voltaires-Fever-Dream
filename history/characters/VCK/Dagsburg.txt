@@ -68,9 +68,12 @@ dagsburg5 = {
 	988.1.1 = { #fic
 		birth = yes
 	}
+	#Bertha, daughter of Robert of Genf
 	1038.1.1 = {
-		death = yes
-		#slayed by Reginbald von Rappoltstein
+		death = {
+			death_reason = death_murder
+			killer = rappoltstein1 # Reginbold
+		}
 	}
 }
 
@@ -170,6 +173,7 @@ dagsburg12 = {
 	919.1.1 = { #fic
 		birth = yes
 	}
+	#945 = Luitgard, daughter of count Wigerich
 	967.2.18 = {
 		death = yes
 	}

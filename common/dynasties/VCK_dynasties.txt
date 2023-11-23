@@ -1460,7 +1460,8 @@
 	culture = franconian
 }
 311 = {
-	#free
+	name = "dynn_Immeding"
+	culture = hannoverian
 }
 312 = {
 	prefix = "dynnp_von"
@@ -1617,9 +1618,11 @@
 # 359 = {
 	
 # }
-# 360 = {
-	
-# }
+360 = {
+	prefix = "dynnp_von"
+	name = "dynn_Ammensleben"
+	culture = central_margravian
+}
 # 361 = {
 	
 # }

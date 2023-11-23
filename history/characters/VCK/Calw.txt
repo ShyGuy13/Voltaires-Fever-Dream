@@ -47,6 +47,7 @@ calw3 = {
 	dynasty = 42
 	religion = catholic
 	culture = swabian
+	#unknown parents
 	974.1.1 = { #fic
 		birth = yes
 	}
@@ -97,6 +98,7 @@ calw6 = {
 	religion = catholic
 	culture = swabian
 	father = calw3
+	mother = popponing6
 	999.1.1 = { #fic
 		birth = yes
 	}

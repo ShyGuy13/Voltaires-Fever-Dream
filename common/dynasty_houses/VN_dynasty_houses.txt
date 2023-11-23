@@ -143,3 +143,13 @@ house_valkenstein = {
 	name = "dynn_Valkenstein"
 	dynasty = 350 # Plötzkau	
 }
+house_sponheim = {
+	prefix = "dynnp_von"
+	name = "dynn_Sponheim"
+	dynasty = 12 # Ariboning
+}
+house_este = {
+	prefix = "dynnp_d_"
+	name = "dynn_Este"
+	dynasty = 241 # Oberting
+}

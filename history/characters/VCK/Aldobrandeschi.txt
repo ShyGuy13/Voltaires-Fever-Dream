@@ -1,4 +1,4 @@
-aldobrandeschi1 = {
+﻿aldobrandeschi1 = {
 	name = "Ildebrando" # Ildebrando V 
 	dynasty = 284
 	religion = catholic
@@ -18,7 +18,7 @@ aldobrandeschi2 = {
 	religion = catholic
 	culture = tuscan
 	father = aldobrandeschi3
-	#mother = Willa Landulfing, daughter of Landolfo IV
+	mother = landulfing10
 	983.1.1 = { #est
 		birth = yes
 	}
@@ -35,6 +35,9 @@ aldobrandeschi3 = {
 	father = aldobrandeschi9
 	951.1.1 = { #fic
 		birth = yes
+	}
+	970.1.1 = { #fic
+		add_spouse = landulfing10 # Willa
 	}
 	987.1.1 = { #fic
 		death = yes
@@ -96,7 +99,7 @@ aldobrandeschi7 = {
 	1032.1.1 = { #fic
 		birth = yes
 	}
-	#unknown wife
+	#Adalasia
 	1096.1.1 = { #est
 		death = yes
 	}
@@ -155,7 +158,7 @@ aldobrandeschi11 = {
 	903.1.1 = { #fic
 		birth = yes
 	}
-	967.1.1 = { #fic
+	969.1.1 = { #fic
 		death = yes
 	}
 }
@@ -169,7 +172,7 @@ aldobrandeschi12 = {
 	871.1.1 = { #fic
 		birth = yes
 	}
-	929.1.1 = { #fic
+	927.1.1 = { #fic
 		death = yes
 	}
 }
@@ -180,7 +183,7 @@ aldobrandeschi13 = {
 	religion = catholic
 	culture = tuscan
 	father = aldobrandeschi14
-	836.1.1 = { #fic
+	826.1.1 = { #fic
 		birth = yes
 	}
 	899.1.1 = { #est
@@ -225,6 +228,7 @@ aldobrandeschi16 = {
 	774.1.1 = { #fic
 		birth = yes
 	}
+	#Ferilapa, daughter of Ferualdo of Alateo
 	826.1.1 = { #fic
 		death = yes
 	}
@@ -253,6 +257,63 @@ aldobrandeschi18 = {
 		birth = yes
 	}
 	778.1.1 = { #fic
+		death = yes
+	}
+}
+
+aldobrandeschi19 = {
+	name = "Alperto" # Alperto II
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi17
+	777.1.1 = { #fic
+		birth = yes
+	}
+	822.1.1 = { #fic
+		death = yes
+	}
+}
+
+aldobrandeschi20 = {
+	name = "Geremia" # bishop of Lucca
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi14
+	819.1.1 = { #fic
+		birth = yes
+	}
+	868.1.1 = { #est
+		death = yes
+	}
+}
+
+aldobrandeschi21 = {
+	name = "Eriprando" # Eriprando II
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi14
+	831.1.1 = { #fic
+		birth = yes
+	}
+	892.1.1 = { #fic
+		death = yes
+	}
+}
+
+aldobrandeschi22 = {
+	name = "Ademari" # 
+	female = yes
+	dynasty = 284
+	religion = catholic
+	culture = tuscan
+	father = aldobrandeschi14
+	837.1.1 = { #fic
+		birth = yes
+	}
+	903.1.1 = { #fic
 		death = yes
 	}
 }

@@ -4,6 +4,7 @@
 	religion = catholic
 	culture = saxon
 	father = wettin7
+	mother = ekkeharding12
 	1020.1.1 = {
 		birth = yes
 	}
@@ -37,7 +38,8 @@ wettin3 = {
 	religion = catholic
 	culture = saxon
 	father = wettin7
-	1004.1.1 = {
+	mother = ekkeharding12
+	1004.1.1 = { #est
 		birth = yes
 	}
 	1075.10.1 = {
@@ -95,11 +97,18 @@ wettin7 = {
 	religion = catholic
 	culture = saxon
 	father = wettin14
-	987.1.1 = {
+	mother = haldensleben9
+	987.1.1 = { #est
 		birth = yes
 	}
+	1010.1.1 = {
+		add_spouse = ekkeharding12 # Mathilde
+	}
 	1034.11.19 = {
-		death = yes
+		death = {
+			death_reason = death_murder
+			killer = ekkeharding1
+		}
 	}
 }
 
@@ -110,6 +119,7 @@ wettin8 = {
 	culture = saxon
 	trait = devoted
 	father = wettin7
+	mother = ekkeharding12
 	1017.1.1 = { #est
 		birth = yes
 	}
@@ -119,11 +129,12 @@ wettin8 = {
 }
 
 wettin9 = {
-	name = "Thimo" # Thimo I of Wettin
+	name = "Dietmar" # Thimo I of Wettin
 	dynasty = 102
 	religion = catholic
 	culture = saxon
 	father = wettin7
+	mother = ekkeharding12
 	1016.1.1 = { #est
 		birth = yes
 		give_nickname = nick_the_brave
@@ -134,20 +145,23 @@ wettin9 = {
 }
 
 wettin10 = {
-	name = "Friedrich" # Burggraf Friedrich I
+	name = "Friedrich" # Burggraf Friedrich I of Eilenburg
 	dynasty = 102
 	religion = catholic
 	culture = saxon
+	father = wettin15
+	#unknown mother
 	960.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1017.1.5 = {
 		death = yes
 	}
 }
 
 wettin11 = {
-	name = "Oda" # 
+	name = "Oda" # wife of Albrecht of Tautenberg
 	female = yes
 	dynasty = 102
 	religion = catholic
@@ -162,7 +176,7 @@ wettin11 = {
 }
 
 wettin12 = {
-	name = "Hilda" # 
+	name = "Hilda" # wife of ? zu Naumburg, Wettin und Seußlitz 
 	female = yes
 	dynasty = 102
 	religion = catholic
@@ -189,17 +203,36 @@ wettin13 = {
 	1068.1.1 = { #fic
 		death = yes
 	}
-}
+} 
 
 wettin14 = {
 	name = "Dietrich" # Dietrich I of Wettin
 	dynasty = 102
 	religion = catholic
 	culture = saxon
+	father = wettin15
+	#unknown mother
 	957.1.1 = { #est
 		birth = yes
 	}
+	985.1.1 = { #est
+		add_spouse = haldensleben9 # Thietburg
+	}
 	1009.11.13 = {
+		death = yes
+	}
+}
+
+wettin15 = {
+	name = "Dietrich" # 
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	#parents are debated
+	912.1.1 = { #fic
+		birth = yes
+	}
+	976.1.1 = { #est
 		death = yes
 	}
 }

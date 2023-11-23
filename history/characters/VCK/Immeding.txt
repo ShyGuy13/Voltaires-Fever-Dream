@@ -1,0 +1,41 @@
+immeding1 = {
+	name = "Meinwerk" # bishop of Paderborn
+	dynasty = 311
+	religion = catholic
+	culture = hannoverian
+	father = immeding2
+	975.1.1 = { #est
+		birth = yes
+	}
+	1036.6.5 = {
+		death = yes
+	}
+}
+
+immeding2 = {
+	name = "Immed" # Immed IV of Westsachsen
+	dynasty = 311
+	religion = catholic
+	culture = hannoverian
+	947.1.1 = { #fic
+		birth = yes
+	}
+	983.1.29 = {
+		death = yes
+	}
+}
+
+immeding3 = {
+	name = "Glismod" # wife of Albrecht I of Babenberg
+	female = yes
+	dynasty = 311
+	religion = catholic
+	culture = hannoverian
+	father = immeding2
+	979.1.1 = { #est
+		birth = yes
+	}
+	1041.2.5 = {
+		death = yes
+	}
+}

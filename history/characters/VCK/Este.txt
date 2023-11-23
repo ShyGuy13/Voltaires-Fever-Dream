@@ -3,7 +3,7 @@
 	dynasty_house = house_este #making him part of the Obertings would make more sense but I want the Este house to be present in 1054
 	religion = catholic
 	culture = emilian
-	father = este2
+	father = oberting7
 	1009.7.10 = {
 		birth = yes
 	}
@@ -19,16 +19,17 @@
 }
 
 este2 = {
-	name = "Alberto Azzo" # Alberto Azzo I of Milan
-	dynasty = 241
+	name = "Ugo" # Ugo V of Maine
+	dynasty_house = house_este #making him part of the Obertings would make more sense but I want the Este house to be present in 1054
 	religion = catholic
 	culture = emilian
-	father = oberting4 
-	970.1.1 = { #est
+	father = este1
+	#mother = Garsendes of Maine
+	1057.1.1 = { #est
 		birth = yes
 	}
-	#Adela of Sabbioneta
-	1029.1.1 = { #est
+	#Gersent, daughter of Robert Guiscard de Hauteville
+	1131.1.1 = { #est
 		death = yes
 	}
 }
@@ -45,22 +46,6 @@ este3 = {
 	}
 	#unknown wife
 	1128.12.15 = {
-		death = yes
-	}
-}
-
-este4 = {
-	name = "Ugo" # Ugo V of Maine
-	dynasty_house = house_este #making him part of the Obertings would make more sense but I want the Este house to be present in 1054
-	religion = catholic
-	culture = emilian
-	father = este1
-	#mother = Garsendes of Maine
-	1057.1.1 = { #est
-		birth = yes
-	}
-	#Gersent, daughter of Robert Guiscard de Hauteville
-	1131.1.1 = { #est
 		death = yes
 	}
 }

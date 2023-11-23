@@ -119,3 +119,18 @@ landulfing9 = {
 		death = yes
 	}
 }
+
+landulfing10 = {
+	name = "Willa" # wife of Rodolfo II Aldobrandeschi
+	female = yes
+	dynasty = 148
+	religion = catholic
+	culture = langobard
+	#figlia di Landolfo IV di Benevento
+	947.1.1 = { #fic
+		birth = yes
+	}
+	995.1.1 = { #fic
+		death = yes
+	}
+}

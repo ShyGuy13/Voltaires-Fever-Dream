@@ -7,6 +7,9 @@
 	1005.1.1 = { #est
 		birth = yes
 	}
+	1025.1.1 = { #fic
+		add_spouse = schweinfurt13
+	}
 	1060.5.18 = {
 		death = yes
 	}
@@ -18,6 +21,7 @@ diepolding2 = {
 	religion = catholic
 	culture = bavarian
 	father = diepolding1
+	mother = schweinfurt13
 	1030.1.1 = { #est
 		birth = yes
 	}
@@ -87,6 +91,7 @@ diepolding7 = {
 	religion = catholic
 	culture = bavarian
 	father = diepolding1
+	mother = schweinfurt13
 	1026.1.1 = {
 		birth = yes
 	}
@@ -102,6 +107,7 @@ diepolding8 = {
 	religion = catholic
 	culture = bavarian
 	father = diepolding1
+	mother = schweinfurt13
 	1028.1.1 = {
 		birth = yes
 	}
@@ -119,6 +125,7 @@ diepolding9 = {
 	religion = catholic
 	culture = bavarian
 	father = diepolding1
+	mother = schweinfurt13
 	1032.1.1 = { #fic
 		birth = yes
 	}

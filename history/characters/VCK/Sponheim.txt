@@ -29,7 +29,7 @@ sponheim2 = {
 	#Richgardis Siegharding, daughter of Engelbert IV
 	1065.2.7 = {
 		death = {
-			death_reason = death_pilgrimage
+			death_reason = death_pilgrimage_bandit_attack
 		}
 	}
 }

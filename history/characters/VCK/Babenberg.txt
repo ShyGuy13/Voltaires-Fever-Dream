@@ -8,6 +8,9 @@
 		birth = yes
 		give_nickname = nick_the_victorious
 	}
+	1015.1.1 = { #fic
+		add_spouse = immeding3 # Glismod
+	}
 	1055.5.26 = {
 		death = yes
 	}
@@ -20,6 +23,7 @@ babenberg2 = {
 	religion = catholic
 	trait = brave
 	father = babenberg1
+	mother = immeding3
 	1027.1.1 = { #fic
 		birth = yes
 	}
@@ -40,6 +44,7 @@ babenberg3 = {
 	culture = austrian
 	religion = catholic
 	father = babenberg1
+	mother = immeding3
 	1020.1.1 = { #fic
 		birth = yes
 	}

@@ -14,7 +14,7 @@ enghien1 = {
 	}
 }
 
-﻿enghien2 = {
+enghien2 = {
 	name = "Engelbert" # Engelbert I of Enghien
 	dynasty = 200
 	religion = catholic

@@ -13,7 +13,7 @@
 	}
 }
 
-﻿itter2 = {
+itter2 = {
 	name = "Remwerk" # Remwerk I of Ittergau
 	dynasty = 232
 	religion = catholic
@@ -28,7 +28,7 @@
 	}
 }
 
-﻿itter3 = {
+itter3 = {
 	name = "Witherald" # 
 	dynasty = 232
 	religion = catholic
@@ -43,7 +43,7 @@
 	}
 }
 
-﻿itter4 = {
+itter4 = {
 	name = "Gumbert" # Gumbert I of Ittergau
 	dynasty = 232
 	religion = catholic
@@ -58,7 +58,7 @@
 	}
 }
 
-﻿itter5 = {
+itter5 = {
 	name = "Reinward" # Reinward I of Ittergau
 	dynasty = 232
 	religion = catholic

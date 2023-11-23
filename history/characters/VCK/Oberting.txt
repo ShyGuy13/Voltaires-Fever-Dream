@@ -79,3 +79,18 @@ oberting6 = {
 		death = yes
 	}
 }
+
+oberting7 = {
+	name = "Alberto Azzo" # Alberto Azzo I of Milan
+	dynasty = 241
+	religion = catholic
+	culture = emilian
+	father = oberting4 
+	970.1.1 = { #est
+		birth = yes
+	}
+	#Adela of Sabbioneta
+	1029.1.1 = { #est
+		death = yes
+	}
+}

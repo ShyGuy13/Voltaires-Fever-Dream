@@ -10,12 +10,12 @@ eppan1 = {
 	1033.1.1 = { #fic
 		birth = yes
 	}
-	1085.1 = { #fic
+	1085.1.1 = { #fic
 		death = yes
 	}
 }
 
-﻿eppan2 = {
+eppan2 = {
 	name = "Arnold" #Arnold II of Eppan
 	dynasty_house = house_eppan
 	culture = bavarian
@@ -31,7 +31,7 @@ eppan1 = {
 	}
 }
 
-﻿eppan3 = {
+eppan3 = {
 	name = "Ulrich" #Ulrich II of Eppan
 	dynasty_house = house_eppan
 	culture = bavarian
@@ -47,7 +47,7 @@ eppan1 = {
 	}
 }
 
-﻿eppan4 = {
+eppan4 = {
 	name = "Heinrich" #Heinrich I of Eppan
 	dynasty_house = house_eppan
 	culture = bavarian

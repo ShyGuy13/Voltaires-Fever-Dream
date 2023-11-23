@@ -26,7 +26,7 @@ stahleck2 = {
  	#unknown spouse
 	1065.1.1 = {
 		death = {
-      		death_reson = death_battle
+			death_reason = death_battle
 		}
 	}
 }
