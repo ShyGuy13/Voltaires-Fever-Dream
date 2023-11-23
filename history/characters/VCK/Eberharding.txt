@@ -245,11 +245,11 @@ eberharding18 = {
 	dynasty = 95
 	religion = catholic
 	culture = boden_alemannic
-	father = eberharding7 # it might be a different Burkhard
-	1024.1.1 = { #fic
+	father = eberharding4 # it might be a different Burkhard
+	967.1.1 = { #fic
 		birth = yes
 	}
-	1083.1.1 = { #fic
+	1024.1.1 = { #fic
 		death = yes
 	}
 }
