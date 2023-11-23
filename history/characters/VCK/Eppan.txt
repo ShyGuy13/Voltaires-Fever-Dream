@@ -1,12 +1,64 @@
-﻿eppan1 = {
-	name = "Friedrich" #Friedrich I of Eppan
+#DONE FOR 1054
+eppan1 = {
+	name = "Friedrich" #Friedrich I of Eppan / Bozen
 	dynasty_house = house_eppan
 	culture = bavarian
 	religion = catholic
-	1030.1.1 = { #fic
+	trait = bastard_founder
+	father = welf1 # his real parents are unknown but he was likely a bastard son of the Welf dynasty. However, he probably should not be a son of Welf III who died without *any* son.
+	#mother not needed
+	1033.1.1 = { #fic
 		birth = yes
 	}
-	1078.1.1 = { #fic
+	1085.1 = { #fic
+		death = yes
+	}
+}
+
+﻿eppan2 = {
+	name = "Arnold" #Arnold II of Eppan
+	dynasty_house = house_eppan
+	culture = bavarian
+	religion = catholic
+	father = eppan1
+	#unknown mother
+	1069.1.1 = { #est
+		birth = yes
+	}
+	#Irmgard
+	1125.1.1 = { #est
+		death = yes
+	}
+}
+
+﻿eppan3 = {
+	name = "Ulrich" #Ulrich II of Eppan
+	dynasty_house = house_eppan
+	culture = bavarian
+	religion = catholic
+	father = eppan1
+	#unknown mother
+	1083.1.1 = { #est
+		birth = yes
+	}
+	#Adelheit
+	1151.1.1 = { #est
+		death = yes
+	}
+}
+
+﻿eppan4 = {
+	name = "Heinrich" #Heinrich I of Eppan
+	dynasty_house = house_eppan
+	culture = bavarian
+	religion = catholic
+	father = eppan1
+	#unknown mother
+	1074.1.1 = { #fic
+		birth = yes
+	}
+	#no wife
+	1120.1.1 = { #fic
 		death = yes
 	}
 }
