@@ -1,0 +1,147 @@
+
+#the exact relations between sponheim2 (Siegfried I) and sponheim8 (Stephan I) are debated. They could be cousins, brothers or uncle/nephew.
+sponheim1 = {
+	name = "Eberhard" #Eberhard I of Sponheim
+	dynasty_house = house_sponheim
+	religion = catholic
+	culture = pfalzish
+	father = ariboning5 #debated
+	#mother
+	992.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1044.1.1 = { #est
+		death = yes
+	}
+}
+
+sponheim2 = {
+	name = "Siegfried" #Siegfried I of Ungarnmark
+	dynasty_house = house_sponheim
+	religion = catholic
+	culture = pfalzish
+	father = sponheim1
+	#unknown mother
+	1011.1.1 = { #est
+		birth = yes
+	}
+	#Richgardis Siegharding, daughter of Engelbert IV
+	1065.2.7 = {
+		death = {
+			death_reason = death_pilgrimage
+		}
+	}
+}
+
+sponheim3 = {
+	name = "Friedrich" #Friedrich I of Sponheim
+	dynasty_house = house_sponheim
+	religion = catholic
+	culture = pfalzish
+	father = sponheim1
+	#unknown mother
+	1014.1.1 = { #fic
+		birth = yes
+	}
+	1058.1.1 = {
+		death = yes
+	}
+}
+
+sponheim4 = {
+	name = "Eberhard" #Eberhard II of Sponheim
+	dynasty_house = house_sponheim
+	religion = catholic
+	culture = pfalzish
+	father = sponheim1
+	#unknown mother
+	1021.1.1 = { #fic
+		birth = yes
+	}
+	1079.1.1 = { #fic
+		death = yes
+	}
+}
+
+sponheim5 = {
+	name = "Hermann" #Hermann I of Sponheim
+	dynasty_house = house_sponheim
+	religion = catholic
+	culture = pfalzish
+	trait = twin
+	father = sponheim2
+	#Richgardis Siegharding
+	1032.1.1 = { #est
+		birth = yes
+	}
+	1118.7.22 = {
+		death = yes
+	}
+}
+
+sponheim6 = {
+	name = "Hartwig" #bishop of Magdeburg
+	dynasty_house = house_sponheim
+	religion = catholic
+	culture = pfalzish
+	trait = twin
+	father = sponheim2
+	#Richgardis Siegharding
+	1032.1.1 = { #est
+		birth = yes
+	}
+	1102.6.17 = {
+		death = yes
+	}
+}
+
+sponheim7 = {
+	name = "Engelbert" #Engelbert I of Sponheim
+	dynasty_house = house_sponheim
+	religion = catholic
+	culture = pfalzish
+	father = sponheim2
+	#Richgardis Siegharding
+	1029.1.1 = { #est
+		birth = yes
+	}
+	#wife = Hedwig Billung
+	1096.4.1 = {
+		death = yes
+	}
+}
+
+sponheim8 = {
+	name = "Stephan" #Stephan I of Sponheim
+	dynasty_house = house_sponheim
+	religion = catholic
+	culture = pfalzish
+	father = sponheim2 # debated
+	#Richgardis Siegharding # debated
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	#sister of Berthold IV of Stromberg
+	1079.1.1 = { #est
+		death = yes
+	}
+}
+
+sponheim9 = {
+	name = "Stephan" #Stephan II of Sponheim
+	dynasty_house = house_sponheim
+	religion = catholic
+	culture = pfalzish
+	father = sponheim8
+	#sister of Berthold IV of Stromberg
+	1052.1.1 = { #est
+		birth = yes
+	}
+	1089.1.1 = { #est
+		add_spouse = formbach15 # Sophia of Formbach
+	}
+	1118.2.25 = {
+		death = yes
+	}
+}
