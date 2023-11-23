@@ -1,17 +1,17 @@
-﻿hohenzollern1 = {
+#DONE FOR 1054
+hohenzollern1 = {
 	name = "Burkhard" # Burkhard I of Zollern
 	dynasty = 64
 	religion = catholic
 	culture = swabian
 	father = hohenzollern3
 	mother = eberharding18 
-	1019.1.1 = { #fic
+	1009.1.1 = { #fic
 		birth = yes
 	}
 	#unknown wife
 	1061.1.1 = {
 		death = {
-			death = yes
 			death_reason = death_battle
 		}
 	}
@@ -39,13 +39,13 @@ hohenzollern3 = {
 	religion = catholic
 	culture = swabian
 	#unknown parents
-	980.1.1 = { #fic
+	970.1.1 = { #fic
 		birth = yes
 	}
-	1000.1.1 = { #fic
+	995.1.1 = { #fic
 		add_spouse = eberharding18 # Irmentrude
 	}
-	1043.1.1 = { #fic
+	1033.1.1 = { #fic
 		death = yes
 	}
 }
