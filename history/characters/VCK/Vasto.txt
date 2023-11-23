@@ -35,7 +35,7 @@ vasto3 = {
 	980.1.1 = { #fic
 		birth = yes
 	}
-	1050.1.1 = {
+	1050.1.1 = { #est
 		death = yes
 	}
 }
@@ -46,10 +46,41 @@ vasto4 = {
 	religion = catholic
 	culture = ligurian
 	father = aleraming5
+	#mother
 	940.1.1 = { #fic
 		birth = yes
 	}
+	#Gisla di Milano
 	998.1.1 = {
+		death = yes
+	}
+}
+
+vasto5 = {
+	name = "Oberto" # Oberto I of Savona
+	dynasty_house = house_vasto
+	religion = catholic
+	culture = ligurian
+	father = vasto4
+	973.1.1 = { #fic
+		birth = yes
+	}
+	1030.1.1 = { #est
+		death = yes
+	}
+}
+
+vasto6 = {
+	name = "Ugo" # 
+	dynasty_house = house_vasto
+	religion = catholic
+	culture = ligurian
+	father = vasto4
+	986.1.1 = { #fic
+		birth = yes
+	}
+	#no wife
+	1047.1.1 = { #fic
 		death = yes
 	}
 }
