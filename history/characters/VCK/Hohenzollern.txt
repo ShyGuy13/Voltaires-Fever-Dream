@@ -4,8 +4,8 @@
 	religion = catholic
 	culture = swabian
 	father = hohenzollern3
-	#mother = Irmentrud of Nellenburg, daughter of Burkhard Eberharding
-	1010.1.1 = { #fic
+	mother = eberharding18 
+	1019.1.1 = { #fic
 		birth = yes
 	}
 	#unknown wife
@@ -42,8 +42,10 @@ hohenzollern3 = {
 	980.1.1 = { #fic
 		birth = yes
 	}
-	#wife = Irmentrud of Nellenburg, daughter of Burkhard Eberharding
-	1040.1.1 = { #fic
+	1000.1.1 = { #fic
+		add_spouse = eberharding18 # Irmentrude
+	}
+	1043.1.1 = { #fic
 		death = yes
 	}
 }
