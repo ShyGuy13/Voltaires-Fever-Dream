@@ -4,7 +4,7 @@ bilstein1 = {
   	dynasty = 365
   	religion = catholic
   	culture = thuringian
-  	#unknown parents
+    father = bilstein4 # in fact unknown parents, I just had to connect her to the family somehow
   	1043.1.1 = { #fic
   		  birth = yes
   	}
@@ -40,6 +40,87 @@ bilstein3 = {
   	}
     #unknown wife
   	1034.1.1 = {
+  		  death = yes
+  	}
+}
+
+bilstein4 = {
+  	name = "Rüdiger" # Rüdiger I of Bilstein
+  	dynasty = 365
+  	religion = catholic
+  	culture = thuringian
+  	father = bilstein3
+    #unknown mother
+  	1012.1.1 = { #fic
+  		  birth = yes
+  	}
+    #unknown wife
+  	1074.1.1 = { #fic
+  		  death = yes
+  	}
+}
+
+bilstein5 = {
+  	name = "Eberhard" # 
+  	dynasty = 365
+  	religion = catholic
+  	culture = thuringian
+  	father = bilstein3
+    #unknown mother
+  	1018.1.1 = { #fic
+  		  birth = yes
+  	}
+    #unknown wife
+  	1065.1.1 = { #fic
+  		  death = yes
+  	}
+}
+
+bilstein6 = {
+  	name = "Erpho" # Erpho I of Bilstein
+  	dynasty = 365
+  	religion = catholic
+  	culture = thuringian
+  	father = bilstein3
+    #unknown mother
+  	1025.1.1 = { #fic
+  		  birth = yes
+  	}
+    #unknown wife
+  	1093.1.1 = { #fic
+  		  death = yes
+  	}
+}
+
+bilstein7 = {
+  	name = "Rüdiger" # Rüdiger II of Bilstein
+  	dynasty = 365
+  	religion = catholic
+  	culture = thuringian
+  	father = bilstein4
+    #unknown mother
+  	1059.1.1 = { #fic
+  		  birth = yes
+  	}
+    #wife = daughter of Werner III of Maden
+  	1131.1.1 = { #fic
+  		  death = yes
+  	}
+}
+
+bilstein8 = {
+  	name = "Kunigunde" # wife of Giso IV Gisoning & Heinrich Raspe I Ludowing
+    female = yes
+  	dynasty = 365
+  	religion = catholic
+  	culture = thuringian
+  	father = bilstein7
+    #mother = daughter of Werner III of Maden
+  	1083.1.1 = { #est
+  		  birth = yes
+  	}
+    #unknown wife
+  	1140.1.1 = { #est
   		  death = yes
   	}
 }
