@@ -103,3 +103,18 @@ andechs7 = {
 		death = yes
 	}
 }
+
+andechs8 = {
+	name = "Bertha" #wife of Adalbert I of Ortenburg
+	female = yes
+	dynasty = 27
+	religion = catholic
+	culture = bavarian
+	father = andechs2 #debated
+	1048.1.1 = { #est
+		birth = yes
+	}
+	1109.1.1 = { #fic
+		death = yes
+	}
+}
