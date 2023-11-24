@@ -3,10 +3,12 @@
 	dynasty = 210
 	religion = catholic
 	culture = lorrainian
-	1027.1.1 = {
+	father = aspremont3
+	#Mechtilde d'Arles or d'Arlon or Adèle or Odile
+	1027.1.1 = { #est
 		birth = yes
 	}
-	1061.1.1 = {
+	1061.1.1 = { #est
 		death = yes
 	}
 }
@@ -16,11 +18,104 @@ aspremont2 = {
 	dynasty = 210
 	religion = catholic
 	culture = lorrainian
-	father = aspremont1
-	1047.1.1 = {
+	father = aspremont5
+	1052.1.1 = {
 		birth = yes
 	}
-	1096.1.1 = {
+	#Helwide de Luxembourg daughter of Friedrich of Luxemburg 
+	1096.1.1 = { #est
+		death = yes
+	}
+}
+
+aspremont3 = {
+	name = "Arnold" # Arnold I of Aspremont
+	dynasty = 210
+	religion = catholic
+	culture = lorrainian
+	#father = Albert II
+	1005.1.1 = { #est
+		birth = yes
+	}
+	#Mechtilde d'Arles or d'Arlon or Adèle or Odile
+	1060.1.1 = { #est
+		death = yes
+	}
+}
+
+﻿aspremont4 = {
+	name = "Thierry" # Thierry I of Aspremont
+	dynasty = 210
+	religion = catholic
+	culture = lorrainian
+	father = aspremont3
+	#Mechtilde d'Arles or d'Arlon or Adèle or Odile
+	1025.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1077.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿aspremont5 = {
+	name = "Albert" # 
+	dynasty = 210
+	religion = catholic
+	culture = lorrainian
+	father = aspremont3
+	#Mechtilde d'Arles or d'Arlon or Adèle or Odile
+	1030.1.1 = { #est
+		birth = yes
+	}
+	#Marguerite de Thionville
+	1114.3.10 = { #fic
+		death = yes
+	}
+}
+
+aspremont6 = {
+	name = "Guy" # 
+	dynasty = 210
+	religion = catholic
+	culture = lorrainian
+	father = aspremont1
+	1054.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife 
+	1096.1.1 = { #est
+		death = yes
+	}
+}
+
+aspremont7 = {
+	name = "Arnold" # Arnold II of Aspremont
+	dynasty = 210
+	religion = catholic
+	culture = lorrainian
+	father = aspremont5
+	1058.1.1 = { #fic
+		birth = yes
+	}
+	1101.1.1 = { #fic
+		death = yes
+	}
+}
+
+aspremont8 = {
+	name = "Leucarde" # wife of Ricuin de Commercy
+	female = yes
+	dynasty = 210
+	religion = catholic
+	culture = lorrainian
+	father = aspremont3 # unknown parents actually
+	#Mechtilde d'Arles or d'Arlon or Adèle or Odile
+	1028.1.1 = { #fic
+		birth = yes
+	}
+	1081.1.1 = { #fic
 		death = yes
 	}
 }
