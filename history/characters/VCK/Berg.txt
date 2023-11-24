@@ -48,7 +48,7 @@ berg3 = {
 }
 
 berg4 = {
-	name = "Eberhard" # bishop of Cologne
+	name = "Bruno" # bishop of Cologne
 	dynasty = 315
 	religion = catholic
 	culture = ripuarian
