@@ -1,12 +1,21 @@
+
+#the early generations are unknown; Emicho II is the first known member who might have been grandson of Emicho the Crusader.
+#also their descendance of the ﻿Embrichonings is debated but likely.
 leiningen1 = {
-	name = "Emicho" #Emicho I of Leiningen
-	dynasty = 167
+	name = "Emicho" #Emicho the Crusader
+	dynasty_house = house_leiningen
 	religion = catholic
 	culture = pfalzish
-	1022.1.1 = { #fic
+	#parents = 
+	1052.1.1 = { #est
 		birth = yes
 	}
-	1098.1.1 = {
+	#unknown wife
+	1096.8.15 = {
+		add_trait = holy_warrior
+		give_nickname = nick_the_crusader
+	}
+	1108.1.1 = { #est
 		death = yes
 	}
 }
