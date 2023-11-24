@@ -1,12 +1,15 @@
-﻿lippe1 = {
-	name = "Hermann" # Hermann I of Lippe
+#DONE FOR 1054
+lippe1 = {
+	name = "Hermann" # Hermann of Lippe (no regal number, his son is Hermann I)
 	dynasty = 226
 	religion = catholic
 	culture = hannoverian
-	1040.1.1 = {
+	#unknown parents (Berhard II/III von Werl is debated but unlikely)
+	1045.1.1 = { #fic
 		birth = yes
 	}
-	1104.1.1 = {
+	#unknown wife
+	1096.1.1 = { #fic
 		death = yes
 	}
 }
