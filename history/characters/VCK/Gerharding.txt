@@ -3,14 +3,88 @@
 	dynasty = 186
 	religion = catholic
 	culture = lorrainian
+	father = gerharding3
+	mother = gerharding3_wife
 	1030.1.1 = {
 		birth = yes
 		give_nickname = nick_the_wonderful
 	}
 	1050.1.1 = {
-		add_spouse = namur4
+		add_spouse = namur4 # Hedwig
 	}
 	1070.4.14 = {
+		death = {
+			death_reason = death_poison
+		}
+	}
+}
+
+﻿gerharding2 = {
+	name = "Thierry" #Thierry II of Lorraine
+	dynasty = 186
+	religion = catholic
+	culture = lorrainian
+	father = gerharding1
+	mother = namur4
+	1048.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_brave
+	}
+	#1079 Hedwig von Formbach
+	#1095 Gertrud von Flandern
+	1115.12.30 = {
+		death = yes
+	}
+}
+
+﻿gerharding3 = {
+	name = "Gérard" #Gérard IV of Metz
+	dynasty = 186
+	religion = catholic
+	culture = lorrainian
+	#father = Adalbert II of Metz
+	#mother = Judith of Öhningen
+	993.1.1 = { #est
+		birth = yes
+	}
+	1015.1.1 = { #fic
+		add_spouse = gerharding3_wife # Gisela
+	}
+	1045.1.1 = { #est
+		death = yes
+	}
+}
+
+gerharding4 = {
+	name = "Adalbert" #duke of Lorraine
+	dynasty = 186
+	religion = catholic
+	culture = lorrainian
+	father = gerharding3
+	mother = gerharding3_wife
+	1024.1.1 = { #est
+		birth = yes
+	}
+	#no wife
+	1048.11.11 = {
+		death = {
+			death_reason = death_battle
+			killer = wigeriching2 # Gottfried III of Lower Lorraine
+		}
+	}
+}
+
+#wifes
+﻿gerharding3_wife = {
+	name = "Gisela" #
+	female = yes
+	#dynasty = unknown
+	religion = catholic
+	culture = lorrainian
+	997.1.1 = { #fic
+		birth = yes
+	}
+	1059.1.1 = { #fic
 		death = yes
 	}
 }
