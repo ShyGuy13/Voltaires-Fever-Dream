@@ -1,6 +1,6 @@
 
 #the early generations are unknown; Emicho II is the first known member who might have been grandson of Emicho the Crusader.
-#also their descendance of the ﻿Embrichonings is debated but likely.
+#also their descendance of the ﻿Emichonings is debated but likely.
 leiningen1 = {
 	name = "Emicho" #Emicho the Crusader
 	dynasty_house = house_leiningen
