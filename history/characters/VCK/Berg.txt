@@ -1,28 +1,63 @@
-﻿berg1 = {
+#DONE FOR 1054
+#Sources about the early generations of this dynasty are very inconsistent. 
+berg1 = {
 	name = "Adolf" # Adolf I of Berg
-	dynasty_house = house_berg
+	dynasty = 315
 	religion = catholic
 	culture = ripuarian
-	father = ezzoning12
-	1022.1.1 = { #fic
+	#unknown parents
+	1044.1.1 = { #est
 		birth = yes
 	}
-	1086.1.1 = {
+	#1090 = wife = Adelheid von Lauffen
+	1106.7.31 = {
 		death = yes
 	}
 }
 
 berg2 = {
 	name = "Adolf" # Adolf II of Berg
-	dynasty_house = house_berg
+	dynasty = 315
 	religion = catholic
 	culture = ripuarian
 	father = berg1
-	1045.1.1 = {
+	#mother = Adelheid von Lauffen
+	1092.1.1 = { #est
 		birth = yes
 	}
-	#Adelheid von Lauffen
-	1106.7.31 = {
+	#Adelheid von Arnsberg
+	1164.10.12 = { #est
+		death = yes
+	}
+}
+
+berg3 = {
+	name = "Eberhard" # monk
+	dynasty = 315
+	religion = catholic
+	culture = ripuarian
+	trait = devoted
+	father = berg1
+	#mother = Adelheid von Lauffen
+	1097.1.1 = { #est
+		birth = yes
+	}
+	1149.1.1 = { #est
+		death = yes
+	}
+}
+
+berg4 = {
+	name = "Eberhard" # bishop of Cologne
+	dynasty = 315
+	religion = catholic
+	culture = ripuarian
+	father = berg1
+	#mother = Adelheid von Lauffen
+	1099.1.1 = { #est
+		birth = yes
+	}
+	1137.5.29 = {
 		death = yes
 	}
 }
