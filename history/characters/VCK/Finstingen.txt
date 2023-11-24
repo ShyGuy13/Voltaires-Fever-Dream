@@ -1,26 +1,47 @@
-﻿finstingen1 = {
-	name = "Adalbert" # Adalbert I of Finstingen
+#DONE FOR 1054
+finstingen1 = {
+	name = "Adalbert" # Adalbert I of Malberg
 	dynasty = 159
 	religion = catholic
 	culture = pfalzish
-	1014.1.1 = {
+	father = finstingen3
+	#unknown mother
+	1018.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1061.1.1 = {
 		death = yes
 	}
 }
 
 finstingen2 = {
-	name = "Kuno" # Kuno I of Finstingen
+	name = "Kuno" # Kuno I of Malberg
 	dynasty = 159
 	religion = catholic
 	culture = pfalzish
 	father = finstingen1
-	1045.1.1 = {
+	#unknown mother
+	1059.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1107.1.1 = {
+		death = yes
+	}
+}
+
+finstingen3 = {
+	name = "Ravenger" # Ravenger I of Malberg
+	dynasty = 159
+	religion = catholic
+	culture = pfalzish
+	#unknown parents
+	981.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1042.1.1 = {
 		death = yes
 	}
 }
