@@ -1,9 +1,12 @@
-﻿falkenberg1 = {
+#DONE FOR 1054
+#This dynasty is actually a cadet branch of the von Hebel dynasty.
+#Very little is known about dynasty members, both von Hebel and von Falkenberg.
+falkenberg1 = {
 	name = "Arnold" #bishop of Speyer
 	dynasty = 28
 	religion = catholic
 	culture = franconian
-	1000.1.1 = { #fic
+	1002.1.1 = { #fic
 		birth = yes
 	}
 	1055.10.2 = {
