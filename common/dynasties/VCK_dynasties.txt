@@ -1479,7 +1479,9 @@
 	culture = eastphalian
 }
 315 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Berg"
+	culture = ripuarian
 }
 316 = {
 	
