@@ -1,11 +1,15 @@
-﻿ortenburg1 = {
+ortenburg1 = {
 	name = "Adalbert" # Adalbert I of Ortenburg
 	dynasty_house = house_ortenburg
 	religion = catholic
 	culture = austrian
 	father = hirschberg1
+	#
 	1038.1.1 = { #est
 		birth = yes
+	}
+	1070.1.1 = { #est
+		add_spouse = andechs8 # Bertha
 	}
 	1096.8.1 = {
 		death = yes
