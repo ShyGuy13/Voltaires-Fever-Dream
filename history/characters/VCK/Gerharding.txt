@@ -19,7 +19,7 @@
 	}
 }
 
-﻿gerharding2 = {
+gerharding2 = {
 	name = "Thierry" #Thierry II of Lorraine
 	dynasty = 186
 	religion = catholic
@@ -37,7 +37,7 @@
 	}
 }
 
-﻿gerharding3 = {
+gerharding3 = {
 	name = "Gérard" #Gérard IV of Metz
 	dynasty = 186
 	religion = catholic
@@ -75,7 +75,7 @@ gerharding4 = {
 }
 
 #wifes
-﻿gerharding3_wife = {
+gerharding3_wife = {
 	name = "Gisela" #
 	female = yes
 	#dynasty = unknown

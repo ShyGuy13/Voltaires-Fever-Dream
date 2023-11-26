@@ -43,7 +43,7 @@ aspremont3 = {
 	}
 }
 
-﻿aspremont4 = {
+aspremont4 = {
 	name = "Thierry" # Thierry I of Aspremont
 	dynasty = 210
 	religion = catholic
@@ -59,7 +59,7 @@ aspremont3 = {
 	}
 }
 
-﻿aspremont5 = {
+aspremont5 = {
 	name = "Albert" # 
 	dynasty = 210
 	religion = catholic

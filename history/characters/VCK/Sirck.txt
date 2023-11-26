@@ -1,5 +1,5 @@
 ﻿sirck1 = {
-	name = "Sigebert" # Sigebert I of Kriechingen
+	name = "Siegbert" # Sigebert I of Kriechingen
 	dynasty = 168
 	religion = catholic
 	culture = pfalzish

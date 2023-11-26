@@ -71,6 +71,22 @@ maden4 = {
 	}
 }
 
+maden5 = {
+	name = "Brigitte" # fictional name
+	female = yes
+	dynasty_house = house_maden
+	religion = catholic
+	culture = swabian
+	father = maden1
+	mother = achalm12
+	1065.1.1 = { #fic
+		birth = yes
+	}
+	1028.1.1 = { #fic
+		death = yes
+	}
+}
+
 #wifes
 maden3_wife = {
 	name = "Gisela" # 

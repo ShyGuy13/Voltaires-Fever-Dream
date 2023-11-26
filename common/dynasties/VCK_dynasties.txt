@@ -4,8 +4,8 @@
 	culture = austrian
 }
 2 = {
-	name = "dynn_Meinharding"
-	culture = austrian
+	name = "dynn_Árpáden"
+	culture = hungarian
 }
 3 = {
 	name = "dynn_Konrading"
@@ -493,7 +493,8 @@
 	culture = thuringian
 }
 103 = {
-	#free
+	name = "dynn_Bertholding"
+	culture = pfalzish
 }
 104 = {
 	prefix = "dynnp_von"
@@ -1484,7 +1485,8 @@
 	culture = ripuarian
 }
 316 = {
-	
+	name = "dynn_Unruoching"
+	culture = frankish
 }
 317 = {
 	
@@ -1529,10 +1531,12 @@
 	
 }
 331 = {
-	
+	name = "dynn_Rurikovich"
+	culture = russian
 }
 332 = {
-	
+	name = "dynn_Gandolfing"
+	culture = emilian
 }
 333 = {
 	name = "dynn_Wilhelming"
@@ -1634,9 +1638,10 @@
 # 363 = {
 	
 # }
-# 364 = {
-	
-# }
+364 = {
+	name = "dynn_Haolding"
+	culture = eastphalian
+}
 # 365 = {
 	
 # }

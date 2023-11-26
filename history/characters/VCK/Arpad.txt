@@ -1,0 +1,29 @@
+﻿arpad1 = {
+	name = "BE_la" # Bela I of Hungary
+	dynasty = 2
+	religion = catholic
+	culture = hungarian
+	1015.1.1 = { #est
+		birth = yes
+	}
+	1063.11.11 = {
+		death = {
+			death_reason = death_fall # fell from his throne lol
+		}
+	}
+}
+
+arpad2 = {
+	name = "ZsO_fia" # Fiancée of Wilhelm IV of Weimar, wife of Ulrich I of Weimar & Magnus Billung
+	female = yes
+	dynasty = 2
+	religion = catholic
+	culture = hungarian
+	father = arpad1
+	1050.1.1 = { #est
+		birth = yes
+	}
+	1095.6.18 = {
+		death = yes
+	}
+}

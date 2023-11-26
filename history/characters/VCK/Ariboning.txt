@@ -63,6 +63,7 @@ ariboning5 = {
 	940.1.1 = { #fic
 		birth = yes
 	}
+	#Adala of Bavaria
 	1001.1.1 = {
 		death = yes
 	}

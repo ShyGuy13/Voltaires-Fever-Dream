@@ -19,7 +19,7 @@
 	}	
 }
 
-2 = c_gorz # Meinharding
+
 
 
 4 = b_weimar # Weimar
@@ -481,6 +481,21 @@
 
 102 = c_wettin # Wettin
 
+103 = { # Bertholding, modern CoA of Stromberg
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_lion_rampant_crown.dds"
+		color1 = "yellow"
+		color2 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_mount.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.50 0.59 } scale = { 1.1 0.8 }  }
+	}
+}
 
 104 = c_hohnstein # Hohnstein
 
@@ -1737,8 +1752,16 @@
 	}
 }
 
-
-
+350 = { # Plötzkau, modern Plötzkau CoA
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_vn_crane.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 }  }
+	}
+}
 
 # 2 = { #Heeckeren
 # 	pattern = "pattern_cross_01.dds"
@@ -2473,3 +2496,17 @@ house_kastl = { # Kastl
 		instance = { position = { 0.63 0.50 } scale = { 0.31 0.31 }  }			
 	}			
 }
+
+house_bilstein = { # Bilstein
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "green"
+	colored_emblem = {
+		texture = "ce_vertical_stripes_08.dds"
+		color1 = "green"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
+house_meinharding = c_gorz # Meinharding

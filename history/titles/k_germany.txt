@@ -446,6 +446,14 @@ c_blaubeuren = {
 	}
 }
 
+#Pulstertal
+c_bruneck = {
+	1048.1.1 = {
+		liege = d_carinthia
+		holder = sponheim2 #Siegfried I
+	}
+}
+
 #Austria
 d_osterreich = {
 	981.1.1 = {
@@ -3167,6 +3175,19 @@ c_ischgl = {
 
 #Bavaria
 d_bavaria = {
+	907.7.4 = {
+		holder = luitpolding1 # Arnulf the Evil
+	}
+	937.7.14 = {
+		holder = luitpolding3 # Eberhard
+	}
+	940.1.1 = {
+		holder = luitpolding14 # Berthold
+	}
+	#947.11.23 = {
+	#
+	#}
+	#...
 	1026.2.27 = {
 		holder = salier4
 	}

@@ -148,3 +148,17 @@ house_este = {
 	name = "dynn_Este"
 	dynasty = 241 # Oberting
 }
+house_bilstein = {
+	prefix = "dynnp_von"
+	name = "dynn_Bilstein"
+	dynasty = 4 # Weimar
+}
+house_meinharding = {
+	name = "dynn_Meinharding"
+	dynasty = 2 # Siegharding
+}
+house_arnsberg = {
+	prefix = "dynnp_von"
+	name = "dynn_Arnsberg"
+	dynasty = 156 # Werl
+}

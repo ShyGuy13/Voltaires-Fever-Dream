@@ -7,6 +7,9 @@
 	1030.1.1 = { #fic
 		birth = yes
 	}
+	1062.1.1 = {
+		add_spouse = arpad2 # Sophia
+	}
 	1070.3.6 = {
 		death = yes
 	}
@@ -32,6 +35,7 @@ weimar3 = {
 	culture = thuringian
 	religion = catholic
 	father = weimar10
+	mother = popponing16
 	930.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_great
@@ -64,8 +68,13 @@ weimar5 = {
 	1000.1.1 = { #fic
 		birth = yes
 	}
+	1061.1.1 = { #fic
+		add_spouse = arpad2 # Sophia
+	}
 	1062.1.1 = {
-		death = yes
+		death = {
+			death_reason = death_ill
+		}
 	}
 }
 
@@ -143,7 +152,9 @@ weimar10 = {
 	901.1.1 = { #fic
 		birth = yes
 	}
-	#wife = daughter of Poppo II Popponing
+	920.1.1 = { #fic
+		add_spouse = popponing16 # daughter of Poppo II Popponing
+	}
 	963.4.16 = {
 		death = yes
 	}
@@ -155,6 +166,7 @@ weimar11 = {
 	culture = thuringian
 	religion = catholic
 	father = weimar10
+	mother = popponing16
 	934.1.1 = { #fic
 		birth = yes
 	}
@@ -169,6 +181,7 @@ weimar12 = {
 	culture = thuringian
 	religion = catholic
 	father = weimar10
+	mother = popponing16
 	938.1.1 = { #fic
 		birth = yes
 	}

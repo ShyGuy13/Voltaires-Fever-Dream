@@ -4,6 +4,7 @@
 	religion = catholic
 	culture = low_elbish
 	father = billung7
+	mother = udoning11
 	995.1.1 = {
 		birth = yes
 	}
@@ -94,8 +95,11 @@ billung7 = {
 	religion = catholic
 	culture = low_elbish
 	father = billung8
-	950.1.1 = {
+	950.1.1 = { #est
 		birth = yes
+	}
+	985.1.1 = { #est
+		add_spouse = udoning11 # Hildegard
 	}
 	1011.2.9 = {
 		death = yes
@@ -199,6 +203,55 @@ billung14 = {
 		birth = yes
 	}
 	1008.5.25 = {
+		death = yes
+	}
+}
+
+billung15 = {
+	name = "Hermann" # 
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung7
+	mother = udoning11
+	991.1.1 = { #fic
+		birth = yes
+	}
+	998.1.1 = { #fic
+		death = yes
+	}
+}
+
+billung16 = {
+	name = "Dietmar" # Dietmar of Bründorf
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung7
+	mother = udoning11
+	997.1.1 = { #fic
+		birth = yes
+	}
+	1048.9.30 = {
+		death = {
+			death_reason = death_duel
+		}
+	}
+}
+
+billung17 = {
+	name = "Godesdiu" # nun
+	female = yes
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	trait = devoted
+	father = billung7
+	mother = udoning11
+	986.1.1 = { #fic
+		birth = yes
+	}
+	1042.1.1 = {
 		death = yes
 	}
 }

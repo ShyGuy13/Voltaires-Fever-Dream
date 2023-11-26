@@ -95,6 +95,7 @@ babenberg7 = {
 	culture = austrian
 	religion = catholic
 	father = luitpolding1 # debated
+	mother = unruoching1 # debated
 	940.1.1 = {
 		birth = yes
 		give_nickname = nick_the_illustrious

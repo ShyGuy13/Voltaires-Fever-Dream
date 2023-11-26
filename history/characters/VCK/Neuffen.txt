@@ -1,14 +1,17 @@
+﻿#DONE FOR 1054
 neuffen1 = {
 	name = "Mangold" # Mangold I of Sperberseck
 	dynasty = 45
 	religion = catholic
 	culture = arpitan
 	father = neuffen2
-	#mother = Ita von Winterthur
+	mother = winterthur12
 	1053.1.1 = { #est
 		birth = yes
 	}
-	#Mathilde of Urach
+	1070.1.1 = { #fic
+		add_spouse = urach3 # Mathilde
+	}
 	1122.8.11 = {
 		death = yes
 	}
@@ -23,7 +26,9 @@ neuffen2 = {
 	1028.1.1 = { #est
 		birth = yes
 	}
-	# Ita von Winterthur, daughter of winterthur10
+	1050.1.1 = { #fic
+		add_spouse = winterthur12 # Ita
+	}
 	1093.1.1 = { #fic
 		death = yes
 	}

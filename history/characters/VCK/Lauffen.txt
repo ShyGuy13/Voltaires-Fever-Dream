@@ -74,7 +74,9 @@ lauffen5 = {
 	1049.1.1 = { #fic
 		birth = yes
 	}
-	#Ida von Werl
+	1065.1.1 = { #fic
+		add_spouse = werl17 # Ida
+	}
 	1067.1.1 = {
 		death = yes
 	}

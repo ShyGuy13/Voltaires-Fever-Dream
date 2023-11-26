@@ -6,6 +6,7 @@
 	983.1.1 = { #est
 		birth = yes
 	}
+	#Engela Konrading, possible daughter of konrading3
 	1056.9.8 = {
 		death = yes
 	}

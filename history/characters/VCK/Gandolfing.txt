@@ -1,0 +1,16 @@
+﻿gandolfing1 = {
+	name = "Immigla" # wife of Uberto I Confalonieri
+	female = yes
+	dynasty = 332
+	religion = catholic
+	culture = emilian
+	#father = Lanfranco I or Lanfranco II
+	#Berta, daughter of Adalberto I of Milan
+	995.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1057.1.1 = { #fic
+		death = yes
+	}
+}

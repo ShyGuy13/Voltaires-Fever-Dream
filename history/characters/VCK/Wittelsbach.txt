@@ -1,4 +1,5 @@
-﻿wittelsbach1 = {
+﻿#DONE FOR 1054
+wittelsbach1 = {
 	name = "Otto" #Otto I of Scheyern
 	dynasty= 19
 	culture = bavarian
@@ -7,7 +8,10 @@
 	1022.12.3 = {
 		birth = yes
 	}
-	#
+	#different wifes according to historians 
+	1040.1.1 = { #fic
+		add_spouse = andechs7 # Hadegunde
+	}
 	1072.12.3 = {
 		death = yes
 	}
@@ -19,11 +23,12 @@ wittelsbach2 = {
 	culture = bavarian
 	religion = catholic
 	father = wittelsbach1
-	#mother
+	mother = andechs7
 	1052.1.1 = { #est
 		birth = yes
 	}
-	1091.5.10 = {
+	#Richardis of Weimar
+	1091.5.10 = { #could be 1101
 		death = yes
 	}
 }

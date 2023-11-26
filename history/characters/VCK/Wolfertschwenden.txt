@@ -1,11 +1,15 @@
-﻿wolfertschwenden1 = {
+﻿
+#basically only the names of these dynasty members are known.
+wolfertschwenden1 = {
 	name = "Giselfried" # Giselfried I of Wolfertschwenden
 	dynasty = 52
 	culture = swabian
 	religion = catholic
+	#unknown parents
 	981.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1038.1.1 = { #fic
 		death = yes
 	}
@@ -17,9 +21,11 @@ wolfertschwenden2 = {
 	culture = swabian
 	religion = catholic
 	father = wolfertschwenden1
+	#unknown mother
 	1013.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1072.1.1 = { #fic
 		death = yes
 	}
@@ -31,9 +37,11 @@ wolfertschwenden3 = {
 	culture = swabian
 	religion = catholic
 	father = wolfertschwenden2
+	#unknown mother
 	1043.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1107.1.1 = { #fic
 		death = yes
 	}
@@ -45,9 +53,11 @@ wolfertschwenden4 = {
 	culture = swabian
 	religion = catholic
 	father = wolfertschwenden2
-	105.1.1 = { #fic
+	#unknown mother
+	1051.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1089.1.1 = { #fic
 		death = yes
 	}
@@ -59,21 +69,24 @@ wolfertschwenden5 = {
 	culture = swabian
 	religion = catholic
 	father = wolfertschwenden2
+	#unknown mother
 	1057.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1092.1.1 = { #fic
 		death = yes
 	}
 }
 
 wolfertschwenden6 = {
-	name = "Emma" # wife of X of Sagens, mother of Kuno of Sagens 
+	name = "Emma" # wife of X of Sagens, mother of Kuno of Sagogn/Sagens 
 	female = yes
 	dynasty = 52
 	culture = swabian
 	religion = catholic
 	father = wolfertschwenden2
+	#unknown mother
 	1065.1.1 = { #fic
 		birth = yes
 	}

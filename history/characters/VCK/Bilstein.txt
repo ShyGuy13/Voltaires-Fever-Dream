@@ -1,3 +1,4 @@
+﻿#DONE FOR 1054
 bilstein1 = {
   	name = "Friedrun" # wife of Volkold I of Nidda
     female = yes
@@ -18,8 +19,8 @@ bilstein2 = {
   	dynasty_house = house_bilstein
   	religion = catholic
   	culture = thuringian
-  	father = weimar10
-    #add mother
+  	father = weimar10 #debated, could also be Siegfried von Merseburg
+    mother = popponing16 #debated
   	941.1.1 = { #fic
   		  birth = yes
   	}
@@ -103,7 +104,9 @@ bilstein7 = {
   	1059.1.1 = { #fic
   		  birth = yes
   	}
-    #wife = daughter of Werner III of Maden
+	1080.1.1 = { #fic
+		add_spouse = maden5 # debated, daughter of Werner III of Maden
+	}
   	1131.1.1 = { #fic
   		  death = yes
   	}
@@ -116,7 +119,7 @@ bilstein8 = {
   	religion = catholic
   	culture = thuringian
   	father = bilstein7
-    #mother = daughter of Werner III of Maden
+    mother = maden5 # debated
   	1083.1.1 = { #est
   		  birth = yes
   	}

@@ -159,7 +159,7 @@ popponing11 = {
 	#Judith of Friuli
 	886.8.28 = {
 		death = {
-			death_reason = death_trap
+			death_reason = death_raid
 		}
 	}
 }
@@ -233,6 +233,23 @@ popponing15 = {
 	}
 	#unknown wife
 	903.12.14 = {
+		death = yes
+	}
+}
+
+popponing16 = {
+	name = "Oda" #fictional name, wife of Wilhelm I of Weimar
+	female = yes
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing9
+	#unknown mother
+	886.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	949.1.1 = { #fic
 		death = yes
 	}
 }

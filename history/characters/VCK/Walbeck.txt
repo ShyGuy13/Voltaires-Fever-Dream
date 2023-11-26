@@ -27,7 +27,7 @@ walbeck2 = {
 		birth = yes
 		give_nickname = nick_the_younger
 	}
-	#spouse = Mathilde of Arneburg
+	#spouse = Mathilde of Arneburg (Querfurt?)
 	964.1.21 = {
 		death = yes
 	}
@@ -41,10 +41,10 @@ walbeck3 = {
 	religion = catholic
 	father = walbeck1
 	#unknown mom
-	898.1.1 = { #est
+	913.1.1 = { #fic
 		birth = yes
 	}
-	964.1.21 = {
+	979.1.1 = { #fic
 		death = yes
 	}
 }

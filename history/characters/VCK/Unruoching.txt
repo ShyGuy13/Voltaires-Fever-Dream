@@ -1,0 +1,14 @@
+﻿unruoching1 = {
+	name = "Judith" # wife of Arnulf Luitpolding
+	female = yes
+	dynasty = 316
+	religion = catholic
+	culture = austrian
+	888.1.1 = { #fic
+		birth = yes
+	}
+	957.1.1 = { #fic
+		death = yes
+	}
+}
+

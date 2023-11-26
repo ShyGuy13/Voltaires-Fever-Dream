@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 commercy1 = {
 	name = "Ricuin" # Ricuin I of Commercy
 	dynasty = 213
@@ -16,7 +16,7 @@ commercy1 = {
 	}
 }
 
-﻿commercy2 = {
+commercy2 = {
 	name = "Richwin" # bishop of Toul
 	dynasty = 213
 	religion = catholic
@@ -31,7 +31,7 @@ commercy1 = {
 	}
 }
 
-﻿commercy3 = {
+commercy3 = {
 	name = "Hastica" # wife of Thierry of Barrois
 	female = yes
 	dynasty = 213

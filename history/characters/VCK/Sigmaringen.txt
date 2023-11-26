@@ -1,12 +1,15 @@
-﻿sigmaringen1 = {
+﻿#DONE FOR 1054
+sigmaringen1 = {
 	name = "Manegold" # Manegold I of Sigmaringen
 	dynasty = 47
 	religion = catholic
 	culture = swabian
 	father = sigmaringen3
-	1020.1.1 = {
+	#unknown mother
+	1024.1.1 = {
 		birth = yes
 	}
+	#unknown wife
 	1084.1.1 = {
 		death = yes
 	}
@@ -18,11 +21,12 @@ sigmaringen2 = {
 	religion = catholic
 	culture = swabian
 	father = sigmaringen3
-	1025.1.1 = { #fic
+	#unknown mother
+	1031.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_old
 	}
-	1083.1.1 = {
+	1083.1.1 = { 
 		add_spouse = zahringen11 # Richenza of Zähringen
 	}
 	1092.1.1 = {
@@ -35,9 +39,11 @@ sigmaringen3 = {
 	dynasty = 47
 	religion = catholic
 	culture = swabian
+	#unknown parents
 	993.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1043.1.1 = { #fic
 		death = yes
 	}

@@ -26,7 +26,9 @@ sponheim2 = {
 	1011.1.1 = { #est
 		birth = yes
 	}
-	#Richgardis Siegharding, daughter of Engelbert IV
+	1035.1.1 = { #est
+		add_spouse = siegharding25 # Richgardis
+	}
 	1065.2.7 = {
 		death = {
 			death_reason = death_pilgrimage_bandit_attack
@@ -71,7 +73,7 @@ sponheim5 = {
 	culture = pfalzish
 	trait = twin
 	father = sponheim2
-	#Richgardis Siegharding
+	mother = siegharding25
 	1032.1.1 = { #est
 		birth = yes
 	}
@@ -87,7 +89,7 @@ sponheim6 = {
 	culture = pfalzish
 	trait = twin
 	father = sponheim2
-	#Richgardis Siegharding
+	mother = siegharding25
 	1032.1.1 = { #est
 		birth = yes
 	}
@@ -102,7 +104,7 @@ sponheim7 = {
 	religion = catholic
 	culture = pfalzish
 	father = sponheim2
-	#Richgardis Siegharding
+	mother = siegharding25
 	1029.1.1 = { #est
 		birth = yes
 	}
@@ -113,28 +115,30 @@ sponheim7 = {
 }
 
 sponheim8 = {
-	name = "Stephan" #Stephan I of Sponheim
+	name = "Stefan" #Stefan I of Sponheim
 	dynasty_house = house_sponheim
 	religion = catholic
 	culture = pfalzish
 	father = sponheim2 # debated
-	#Richgardis Siegharding # debated
+	mother = siegharding25 # debated
 	1035.1.1 = { #fic
 		birth = yes
 	}
-	#sister of Berthold IV of Stromberg
+	1051.1.1 = { # fic
+		add_spouse = bertholding6 #sister of Berthold IV of Stromberg
+	}
 	1079.1.1 = { #est
 		death = yes
 	}
 }
 
 sponheim9 = {
-	name = "Stephan" #Stephan II of Sponheim
+	name = "Stefan" #Stefan II of Sponheim
 	dynasty_house = house_sponheim
 	religion = catholic
 	culture = pfalzish
 	father = sponheim8
-	#sister of Berthold IV of Stromberg
+	mother = bertholding6
 	1052.1.1 = { #est
 		birth = yes
 	}

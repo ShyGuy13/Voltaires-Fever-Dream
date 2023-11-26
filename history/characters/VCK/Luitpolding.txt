@@ -4,9 +4,13 @@
 	religion = catholic
 	culture = bavarian
 	father = luitpolding13
+	#Kunigunde Alaholfing
 	885.1.1 = { #est
 		birth = yes
 		give_nickname = nick_the_evil
+	}
+	910.1.1 = { # est
+		add_spouse = unruoching1 # Judith
 	}
 	937.7.14 = {
 		death = yes
@@ -20,6 +24,7 @@ luitpolding2 = {
 	religion = catholic
 	culture = bavarian
 	father = luitpolding1
+	mother = unruoching1
 	933.1.1 = { #fic
 		birth = yes
 	}
@@ -29,11 +34,12 @@ luitpolding2 = {
 }
 
 luitpolding3 = {
-	name = "Eberhard" # wife of Burkhard of Geisenhausen
+	name = "Eberhard" # Eberhard of Bavaria
 	dynasty = 63
 	religion = catholic
 	culture = bavarian
 	father = luitpolding1
+	mother = unruoching1
 	912.1.1 = { #est
 		birth = yes
 	}
@@ -77,6 +83,7 @@ luitpolding6 = {
 	religion = catholic
 	culture = bavarian
 	father = luitpolding1
+	mother = unruoching1
 	913.1.1 = { #est
 		birth = yes
 	}
@@ -122,6 +129,7 @@ luitpolding9 = {
 	religion = catholic
 	culture = bavarian
 	father = luitpolding1
+	mother = unruoching1
 	919.1.1 = { #fic
 		birth = yes
 	}
@@ -139,6 +147,7 @@ luitpolding10 = {
 	religion = catholic
 	culture = bavarian
 	father = luitpolding1
+	mother = unruoching1
 	922.1.1 = { #fic
 		birth = yes
 	}
@@ -154,6 +163,7 @@ luitpolding11 = {
 	religion = catholic
 	culture = bavarian
 	father = luitpolding1
+	mother = unruoching1
 	925.1.1 = { #est
 		birth = yes
 	}
@@ -171,6 +181,7 @@ luitpolding12 = {
 	religion = catholic
 	culture = bavarian
 	father = luitpolding1
+	mother = unruoching1
 	931.1.1 = { #est
 		birth = yes
 	}
@@ -184,9 +195,11 @@ luitpolding13 = {
 	dynasty = 63
 	religion = catholic
 	culture = bavarian
+	#unknown parents
 	860.1.1 = { #est
 		birth = yes
 	}
+	#wife = Kunigunde Alaholfing
 	907.7.4 = {
 		death = {
 			death_reason = death_battle
@@ -200,6 +213,7 @@ luitpolding14 = {
 	religion = catholic
 	culture = bavarian
 	father = luitpolding13
+	#Kunigunde Alaholfing
 	897.1.1 = { #est
 		birth = yes
 	}

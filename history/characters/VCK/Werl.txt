@@ -251,3 +251,19 @@ werl16 = {
 		death = yes
 	}
 }
+
+werl17 = {
+	name = "Ida" # wife of Heinrich II of Lauffen
+	female = yes
+	dynasty = 156
+	religion = catholic
+	culture = hannoverian
+	father = werl4 #debated
+	#unknown mother
+	1019.1.1 = { #fic
+		birth = yes
+	}
+	1082.1.1 = {  #fic
+		death = yes
+	}
+}

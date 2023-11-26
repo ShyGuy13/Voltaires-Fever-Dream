@@ -8,7 +8,7 @@
 #Historical
 #Dynasties
  dynn_Eppenstein: "Eppenstein"
- dynn_Meinharding: "Meinharding"
+ dynn_Arpad: "Árpád"
  dynn_Weimar: "Weimar"
  dynn_Formbach: "Formbach"
  dynn_Julbach: "Julbach"
@@ -137,7 +137,6 @@
  dynn_Zahringen: "Zähringen"
  dynn_Munzenberg: "Münzenberg"
  dynn_Achalm: "Achalm"
- dynn_Arnsberg: "Arnsberg"
  dynn_Selbold: "Selbold"
  dynn_Gisoning: "Gisoning"
  dynn_Dorfelden: "Dorfelden"
@@ -346,6 +345,9 @@
  dynn_Plain: "Plain"
  dynn_Falkenstein: "Falkenstein"
  dynn_Kastl: "Kastl"
+ dynn_Meinharding: "Meinharding"
+ dynn_bilstein: "Bilstein"
+ dynn_Arnsberg: "Arnsberg"
 #Cultures
 #Central Germanic
 #North Germanic

@@ -9,6 +9,7 @@ kirchberg1 = {
 	1053.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1107.1.1 = { #est
 		death = yes
 	}

@@ -1,0 +1,146 @@
+
+bertholding1 = {
+	name = "Berthold" # Berthold III of Stromberg / Maifeldgau / Trechirgau
+	dynasty = 103
+	religion = catholic
+	culture = pfalzish
+	father = bertholding7
+	#unknown mother
+	986.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife of Ezzoning
+	1043.1.1 = { #est
+		death = yes
+	}
+}
+
+bertholding2 = {
+	name = "Berthold" # Berthold IV of Stromberg / Maifeldgau / Trechirgau
+	dynasty = 103
+	religion = catholic
+	culture = pfalzish
+	father = bertholding1
+	#Ezzoning
+	1016.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1078.1.1 = { #est
+		death = yes
+	}
+}
+
+bertholding3 = {
+	name = "Udo" # 
+	dynasty = 103
+	religion = catholic
+	culture = pfalzish
+	father = bertholding1
+	#Ezzoning
+	1019.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1075.1.1 = { #fic
+		death = yes
+	}
+}
+
+bertholding4 = {
+	name = "Ezzo" # Ezzo of Niddagau
+	dynasty = 103
+	religion = catholic
+	culture = pfalzish
+	father = bertholding1
+	#Ezzoning
+	1021.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1077.1.1 = { #fic
+		death = yes
+	}
+}
+
+bertholding5 = {
+	name = "Kunigunde" # wife of Emich IV Emichoning of Nahegau
+	female = yes
+	dynasty = 103
+	religion = catholic
+	culture = pfalzish
+	father = bertholding1
+	#Ezzoning
+	1024.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1083.1.1 = { #fic
+		death = yes
+	}
+}
+
+bertholding6 = {
+	name = "Waldtraud" # fictional name, wife of Stefan I of Sponheim
+	female = yes
+	dynasty = 103
+	religion = catholic
+	culture = pfalzish
+	father = bertholding1
+	#Ezzoning
+	1024.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1083.1.1 = { #fic
+		death = yes
+	}
+}
+
+bertholding7 = {
+	name = "Berthold" # Berthold II of Stromberg / Maifeldgau / Trechirgau
+	dynasty = 103
+	religion = catholic
+	culture = pfalzish
+	father = bertholding9
+	#Alberada, granddaughter of Eberhard (II) of Maienfeld Mattfriding
+	952.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1010.1.1 = { #est
+		death = yes
+	}
+}
+
+bertholding8 = {
+	name = "Gerlach" # Gerlach of Lower Lahngau & Maingau, founder of the House of Diez
+	dynasty = 103
+	religion = catholic
+	culture = pfalzish
+	father = bertholding9
+	#Alberada, granddaughter of Eberhard (II) of Maienfeld Mattfriding
+	959.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1013.1.1 = { #fic
+		death = yes
+	}
+}
+
+bertholding9 = {
+	name = "Berthold" # Berthold I of Stromberg / Maifeldgau / Trechirgau
+	dynasty = 103
+	religion = catholic
+	culture = pfalzish
+	#Ernst II/IV of Wettin?
+	#sister of Ehrenfried Ezzoning?
+	929.1.1 = { #fic
+		birth = yes
+	}
+	#Alberada, granddaughter of Eberhard (II) of Maienfeld Mattfriding
+	984.1.1 = { #fic
+		death = yes
+	}
+}

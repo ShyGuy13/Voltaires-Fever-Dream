@@ -1,9 +1,10 @@
-confalonieri1 = {
+﻿confalonieri1 = {
 	name = "Guido" # Guido I of Pombia
 	dynasty = 117
 	religion = catholic
 	culture = lombard
 	father = confalonieri2
+	mother = gandolfing1
 	1004.1.1 = { #fic
 		birth = yes
 	}
@@ -17,8 +18,11 @@ confalonieri2 = {
 	dynasty = 117
 	religion = catholic
 	culture = lombard
-	971.1.1 = { #fic
+	991.1.1 = {
 		birth = yes
+	}
+	1010.1.1 = { #fic
+		add_spouse = gandolfing1 # Immigla
 	}
 	1032.1.1 = { #est
 		death = yes
@@ -31,7 +35,8 @@ confalonieri3 = {
 	religion = catholic
 	culture = lombard
 	father = confalonieri2
-	996.1.1 = {
+	mother = gandolfing1
+	1016.1.1 = {
 		birth = yes
 	}
 	1034.1.1 = { #est
@@ -45,7 +50,7 @@ confalonieri4 = {
 	religion = catholic
 	culture = lombard
 	father = confalonieri3
-	1022.1.1 = { #fic
+	1034.1.1 = {
 		birth = yes
 	}
 	1093.1.1 = { #est
@@ -73,7 +78,8 @@ confalonieri6 = {
 	religion = catholic
 	culture = lombard
 	father = confalonieri2
-	993.1.1 = { #fic
+	mother = gandolfing1
+	10.1.1 = { #fic
 		birth = yes
 	}
 	1050.1.1 = {
@@ -82,15 +88,18 @@ confalonieri6 = {
 }
 
 confalonieri7 = {
-	name = "Guido" #
+	name = "Guido" # Guido 
 	dynasty = 117
 	religion = catholic
 	culture = lombard
 	father = confalonieri3
-	1020.1.1 = { #fic
+	#unknown mother
+	1032.1.1 = { #fic
 		birth = yes
 	}
-	1040.1.1 = { #fic
+	1079.1.1 = { #fic
 		death = yes
 	}
 }
+
+#wifes

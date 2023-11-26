@@ -1,0 +1,34 @@
+﻿rurikovich1 = {
+	name = "Vladimirovna" # wife of Bernhard of Haldensleben
+	dynasty = 331
+	female = yes
+	culture = russian
+	religion = orthodox
+	trait = bastard
+	father = rurikovich2
+	#unknown wife
+	991.1.1 = { #fic
+		birth = yes
+	}
+	1061.1.1 = { #fic
+		death = yes
+	}
+}
+
+rurikovich2 = {
+	name = "Vladimir" # Vladimir the Great of Kiev
+	dynasty = 331
+	female = yes
+	culture = russian
+	religion = orthodox
+	#father = Sviatoslav I
+	#mother = Malusha
+	958.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_great
+	}
+	#several wifes
+	1015.7.15 = {
+		death = yes
+	}
+}

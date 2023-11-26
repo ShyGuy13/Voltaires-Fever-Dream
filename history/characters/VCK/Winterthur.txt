@@ -5,6 +5,7 @@
 	religion = catholic
 	culture = boden_alemannic
 	father = winterthur4
+	#unknown mother
 	1050.1.1 = {
 		birth = yes
 	}
@@ -22,6 +23,7 @@ winterthur2 = {
 	930.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	972.3.16 = {
 		death = yes
 	}
@@ -33,9 +35,11 @@ winterthur3 = {
 	religion = catholic
 	culture = boden_alemannic
 	father = winterthur2
+	#unknown mother
 	960.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1030.9.8 = {
 		death = yes
 	}
@@ -51,6 +55,7 @@ winterthur4 = {
 	1022.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1053.6.18 = {
 		death = {
 			death_reason = death_battle
@@ -64,6 +69,7 @@ winterthur5 = {
 	religion = catholic
 	culture = boden_alemannic
 	father = winterthur3
+	#unknown mother
 	1000.1.1 = {
 		birth = yes
 	}
@@ -97,6 +103,7 @@ winterthur7 = {
 	religion = catholic
 	culture = boden_alemannic
 	father = winterthur2
+	#unknown mother
 	969.1.1 = { #fic
 		birth = yes
 	}
@@ -111,6 +118,7 @@ winterthur8 = {
 	religion = catholic
 	culture = boden_alemannic
 	father = winterthur2
+	#unknown mother
 	971.1.1 = { #fic
 		birth = yes
 	}
@@ -143,6 +151,7 @@ winterthur10 = {
 	1024.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1040.8.22 = {
 		death = { death_reason = death_battle }
 	}
@@ -160,6 +169,22 @@ winterthur11 = {
 		birth = yes
 	}
 	1065.1.1 = {
+		death = yes
+	}
+}
+
+winterthur12 = {
+	name = "Ida" # wife of Berthold I of Neuffen
+	female = yes
+	dynasty_house = house_winterthur
+	religion = catholic
+	culture = boden_alemannic
+	father = winterthur10
+	#unknown mother
+	1031.1.1 = { #fic
+		birth = yes
+	}
+	1088.1.1 = {
 		death = yes
 	}
 }

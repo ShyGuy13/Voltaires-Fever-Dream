@@ -1,23 +1,41 @@
 ﻿meinharding1 = {
-	name = "Meginhard" #Meginhard I of Gorizia
-	dynasty = 2
+	name = "Meinhard" #Meginhard I of Gorizia
+	dynasty_house = house_meinharding
 	culture = austrian
 	religion = catholic
-	1020.1.1 = { #fic
+	father = siegharding15 #debated
+	1039.1.1 = { #fic
 		birth = yes
 	}
-	1090.1.1 = {
+	#unknown wife
+	1090.1.1 = { #est
 		death = yes
 	}
 }
 
 meinharding2 = {
 	name = "Engelbert" #Engelbert I of Gorizia
-	dynasty = 2
+	dynasty_house = house_meinharding
 	culture = austrian
 	religion = catholic
 	father = meinharding1
-	1050.1.1 = { #fic
+	#unknown mother
+	1061.1.1 = { #fic
+		birth = yes
+	}
+	1122.1.1 = {
+		death = yes
+	}
+}
+
+meinharding3 = {
+	name = "Meinhard" #Engelbert I of Gorizia
+	dynasty_house = house_meinharding
+	culture = austrian
+	religion = catholic
+	father = meinharding1
+	#unknown mother
+	1076.1.1 = { #fic
 		birth = yes
 	}
 	1142.1.1 = {

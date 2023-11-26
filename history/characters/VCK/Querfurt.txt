@@ -50,13 +50,14 @@ querfurt4 = {
 	culture = thuringian
 	trait = twin
 	trait = devoted
+	trait = saint
 	father = querfurt7
 	975.1.1 = {
 		birth = yes
 		give_nickname = nick_the_holy
 	}
 	1009.3.9 = {
-		death = { death_reason = death_decapitated }
+		death = { death_reason = death_martyrdom }
 	}
 }
 
@@ -93,6 +94,8 @@ querfurt7 = {
 	dynasty = 108
 	religion = catholic
 	culture = thuringian
+	father = querfurt8
+	#Frideruna of Wettin, daughter of Folkmar I
 	940.1.1 = {
 		birth = yes
 		give_nickname = nick_the_old
@@ -101,6 +104,41 @@ querfurt7 = {
 		trait = devoted
 	}
 	1013.10.19 = {
+		death = yes
+	}
+}
+
+querfurt8 = {
+	name = "Bruno" # Bruno von Arneburg
+	dynasty = 108
+	religion = catholic
+	culture = thuringian
+	#unknown parents
+	912.1.1 = { #fic
+		birth = yes
+	}
+	#Frideruna of Wettin, daughter of Folkmar I
+	978.11.30 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+querfurt9 = {
+	name = "Dietrich" # Dietrich I of Querfurt
+	dynasty = 108
+	religion = catholic
+	culture = thuringian
+	father = querfurt8
+	#Frideruna of Wettin, daughter of Folkmar I
+	977.1.1 = { #fic
+		birth = yes
+	}
+	995.1.1 = { #fic
+		add_spouse = udoning8 # Gertrude
+	}
+	1023.1.1 = {
 		death = yes
 	}
 }
