@@ -189,3 +189,18 @@ weimar12 = {
 		death = yes
 	}
 }
+
+weimar13 = {
+	name = "Agnes" #wife of Friedrich of Goseck
+	female = yes
+	dynasty = 4
+	culture = thuringian
+	religion = catholic
+	father = weimar3
+	996.1.1 = { #fic
+		birth = yes
+	}
+	1061.1.1 = { #fic
+		death = yes
+	}
+}

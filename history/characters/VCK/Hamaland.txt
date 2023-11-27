@@ -1,4 +1,4 @@
-hamaland1 = {
+﻿hamaland1 = {
 	name = "Wichmann" # Wichmann II of Hamaland
 	dynasty = 330
 	religion = catholic
@@ -18,12 +18,12 @@ hamaland1 = {
 
 hamaland2 = {
 	name = "Luitgard" # nun
-  female = yes
+  	female = yes
 	dynasty = 330
 	religion = catholic
 	culture = dutch
-  father = hamaland1
-  mother = vlaanderen12
+  	father = hamaland1
+  	mother = vlaanderen12
 	953.1.1 = {
 		birth = yes
 	}
@@ -34,12 +34,12 @@ hamaland2 = {
 
 hamaland3 = {
 	name = "Adela" # wife of Immed IV Immeding & Balduin of Drenthe
-  female = yes
+  	female = yes
 	dynasty = 330
 	religion = catholic
 	culture = dutch
-  father = hamaland1
-  mother = vlaanderen12
+  	father = hamaland1
+  	mother = vlaanderen12
 	955.1.1 = { #est
 		birth = yes
 	}
@@ -53,8 +53,8 @@ hamaland4 = {
 	dynasty = 330
 	religion = catholic
 	culture = dutch
-  father = hamaland1
-  mother = vlaanderen12
+  	father = hamaland1
+  	mother = vlaanderen12
 	957.1.1 = { #est
 		birth = yes
 	}

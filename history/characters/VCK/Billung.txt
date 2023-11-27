@@ -25,6 +25,7 @@ billung2 = {
 	1022.1.1 = {
 		birth = yes
 	}
+	#Ulfild of Norway
 	1072.3.28 = {
 		death = yes
 	}
@@ -39,6 +40,7 @@ billung3 = {
 	1025.1.1 = {
 		birth = yes
 	}
+	#no wife
 	1086.5.31 = {
 		death = yes
 	}

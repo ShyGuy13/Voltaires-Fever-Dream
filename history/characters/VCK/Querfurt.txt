@@ -35,10 +35,10 @@ querfurt3 = {
 	culture = thuringian
 	trait = twin
 	father = querfurt7
-	975.1.1 = {
+	975.1.1 = { #est
 		birth = yes
 	}
-	1017.1.1 = {
+	1017.1.1 = { #est
 		death = yes
 	}
 }

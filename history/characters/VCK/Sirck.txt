@@ -1,12 +1,14 @@
 ﻿sirck1 = {
-	name = "Siegbert" # Sigebert I of Kriechingen
+	name = "Siegbert" # Siegbert I of Saargau 
 	dynasty = 168
 	religion = catholic
 	culture = pfalzish
-	1030.1.1 = { #fic
+	#unknown parents
+	1039.1.1 = { #est
 		birth = yes
 	}
-	1110.1.1 = {
+	#unknown wife
+	1105.1.1 = { #est
 		death = yes
 	}
 }

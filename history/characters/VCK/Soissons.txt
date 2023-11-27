@@ -1,4 +1,4 @@
-soissons1 = {
+﻿soissons1 = {
 	name = "Guy" # Guy II of Soissons
 	dynasty_house = house_soissons
 	religion = catholic
@@ -56,7 +56,7 @@ soissons4 = {
 }
 
 soissons5 = {
-	name = "Adelise" # Adelise I of Soissons
+	name = "Adelise" # Adelise I of Soissons, wife of Nocher II of Bar-sur-Aube
 	female = yes
 	dynasty_house = house_soissons
 	religion = catholic

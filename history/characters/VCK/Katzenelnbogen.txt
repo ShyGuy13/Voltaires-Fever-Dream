@@ -1,12 +1,32 @@
-﻿katzenelnbogen1 = {
-	name = "Diether" #Diether I of Katzenelnbogen
+﻿#DONE FOR 1054
+#sources for this dynasty are sparse.
+katzenelnbogen1 = {
+	name = "Tidard" #Tidard I of Katzenelnbogen
 	dynasty = 144
 	religion = catholic
 	culture = hessian
-	1035.1.1 = { #fic
+	#unknown parents
+	1041.1.1 = { #fic
 		birth = yes
 	}
-	1095.1.1 = {
+	#unknown wife
+	1087.1.1 = { #fic
+		death = yes
+	}
+}
+
+katzenelnbogen2 = {
+	name = "Dieter" #Dieter I of Katzenelnbogen
+	dynasty = 144
+	religion = catholic
+	culture = hessian
+	father = katzenelnbogen1
+	#unknown mother
+	1067.1.1 = { #fic
+		birth = yes
+	}
+	#Meinlindis
+	1111.1.1 = { #fic
 		death = yes
 	}
 }

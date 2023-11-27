@@ -1,12 +1,155 @@
-goseck1 = {
+﻿goseck1 = {
 	name = "Bruno" # bishop of Minden
 	dynasty = 225
 	religion = catholic
 	culture = saxon
-	1000.1.1 = {
+	father = goseck3
+	#Oda of Merseburg
+	1000.1.1 = { #est
 		birth = yes
 	}
 	1055.2.10 = {
+		death = yes
+	}
+}
+
+goseck2 = {
+	name = "Siegfried" # Pfalzgraf Siegfried of Saxony
+	dynasty = 225
+	religion = catholic
+	culture = saxon
+	father = goseck3
+	#Oda of Merseburg
+	996.1.1 = { #est
+		birth = yes
+	}
+	#no wife
+	1038.4.15 = {
+		death = yes
+	}
+}
+
+goseck3 = {
+	name = "Burchard" # Burchard V (I) of Hassegau
+	dynasty = 225
+	religion = catholic
+	culture = saxon
+	father = goseck4
+	968.1.1 = { #fic
+		birth = yes
+	}
+	#Oda of Merseburg
+	1017.11.3 = {
+		death = yes
+	}
+}
+
+goseck4 = {
+	name = "Burchard" # Burchard IV of Hassegau
+	dynasty = 225
+	religion = catholic
+	culture = saxon
+	931.1.1 = { #fic
+		birth = yes
+	}
+	982.7.13 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+goseck5 = {
+	name = "Friedrich" # Friedrich I of Goseck
+	dynasty = 225
+	religion = catholic
+	culture = saxon
+	father = goseck3 # debated, either goseck4 or goseck3
+	#Oda of Merseburg
+	1007.1.1 = { #fic
+		birth = yes
+	}
+	1025.1.1 = { #fic
+		add_spouse = weimar13 # Agnes
+	}
+	1042.1.1 = { #est
+		death = yes
+	}
+}
+
+goseck6 = {
+	name = "Jutta" # fictional name, wife of Gebhard I of Querfurt
+	female = yes
+	dynasty = 225
+	religion = catholic
+	culture = saxon
+	father = goseck4
+	981.1.1 = { #fic
+		birth = yes
+	}
+	1049.1.1 = { #fic
+		death = yes
+	}
+}
+
+goseck7 = {
+	name = "Friedrich" # Friedrich II of Goseck
+	dynasty = 225
+	religion = catholic
+	culture = saxon
+	father = goseck5
+	1003.1.1 = { #fic
+		birth = yes
+	}
+	#Hedwig of Bavaria
+	1088.5.27 = {
+		death = yes
+	}
+}
+
+goseck8 = {
+	name = "Adalbert" # bishop of Bremen
+	dynasty = 225
+	religion = catholic
+	culture = saxon
+	father = goseck5
+	1006.1.1 = { #fic
+		birth = yes
+	}
+	1072.3.16 = {
+		death = yes
+	}
+}
+
+goseck9 = {
+	name = "Dietrich" # Dietrich I of Hassegau
+	dynasty = 225
+	religion = catholic
+	culture = saxon
+	father = goseck5
+	997.1.1 = { #est
+		birth = yes
+	}
+	#no wife
+	1056.5.5 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+goseck10 = {
+	name = "Oda" # wife of Adalbert of Sommerschenburg
+	female = yes
+	dynasty = 225
+	religion = catholic
+	culture = saxon
+	father = goseck5
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	#no wife
+	1088.1.1 = {
 		death = yes
 	}
 }

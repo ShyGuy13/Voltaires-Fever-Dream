@@ -10,14 +10,16 @@
 	trait = calm
 	trait = education_martial_3
 	father = traungau4
-	1010.1.1 = { #fic
+	1016.1.1 = { #fic
 		birth = yes
 	}
 	1040.1.1 = { #fic
 		add_spouse = eppenstein6 #Willibirg of Eppenstein
 	}
 	1075.3.29 = {
-		death = yes
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 
@@ -33,12 +35,23 @@ traungau2 = {
 	father = traungau1
 	mother = eppenstein6
 	trait = education_stewardship_2
-	1040.1.1 = { #fic
+	1048.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_rough
 	}
+	1075.3.29 = {
+		effect = {
+			set_relation_rival = {
+				target = character:traungau3 # his brother
+				reason = rival_historical
+			}
+		}
+	}
+	#no wife
 	1082.1.1 = {
-		death = yes
+		death = {
+			death_reason = death_murder
+		}
 	}
 }
 
@@ -49,9 +62,10 @@ traungau3 = {
 	religion = catholic
 	father = traungau1
 	mother = eppenstein6
-	1045.1.1 = { #fic
+	1052.1.1 = { #fic
 		birth = yes
 	}
+	#1090 Elisabeth of Babenberg
 	1122.11.28 = {
 		death = yes
 	}

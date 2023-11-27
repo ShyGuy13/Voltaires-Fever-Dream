@@ -1,9 +1,10 @@
-immeding1 = {
+﻿immeding1 = {
 	name = "Meinwerk" # bishop of Paderborn
 	dynasty = 311
 	religion = catholic
 	culture = hannoverian
 	father = immeding2
+	mother = hamaland3
 	975.1.1 = { #est
 		birth = yes
 	}
@@ -17,8 +18,13 @@ immeding2 = {
 	dynasty = 311
 	religion = catholic
 	culture = hannoverian
+	father = immeding7
+	mother = immeding7_wife
 	947.1.1 = { #fic
 		birth = yes
+	}
+	970.1.1 = { #fic
+		add_spouse = hamaland3 # Adela
 	}
 	983.1.29 = {
 		death = yes
@@ -26,16 +32,120 @@ immeding2 = {
 }
 
 immeding3 = {
-	name = "Glismod" # wife of Albrecht I of Babenberg
+	name = "Glismod" # wife of Albrecht I of Babenberg & Otakar of Traungau & X of Reding
 	female = yes
 	dynasty = 311
 	religion = catholic
 	culture = hannoverian
 	father = immeding2
+	mother = hamaland3
 	979.1.1 = { #est
 		birth = yes
 	}
 	1041.2.5 = {
 		death = yes
+	}
+}
+
+immeding4 = {
+	name = "Dietrich" # count in Liege
+	dynasty = 311
+	religion = catholic
+	culture = hannoverian
+	father = immeding2
+	mother = hamaland3
+	972.1.1 = { #est
+		birth = yes
+	}
+	1014.4.17 = {
+		death = {
+			death_reason = death_murder
+			#killer = Balderich von Drenthe
+		}
+	}
+}
+
+immeding5 = {
+	name = "Athela" # nun
+	female = yes
+	dynasty = 311
+	religion = catholic
+	culture = hannoverian
+	father = immeding2
+	mother = hamaland3
+	977.1.1 = { #fic
+		birth = yes
+	}
+	1027.1.1 = { #fic
+		death = yes
+	}
+}
+
+immeding6 = {
+	name = "Emma" # wife of Liudger Billung
+	female = yes
+	dynasty = 311
+	religion = catholic
+	culture = hannoverian
+	trait = saint
+	father = immeding2
+	mother = hamaland3
+	982.1.1 = { #est
+		birth = yes
+	}
+	1038.12.3 = {
+		death = yes
+	}
+}
+
+immeding7 = {
+	name = "Immed" # Immed III
+	dynasty = 311
+	religion = catholic
+	culture = hannoverian
+	923.1.1 = { #fic
+		birth = yes
+	}
+	945.1.1 = { #fic
+		add_spouse = immeding7_wife # Mathilde
+	}
+	953.10.12 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+immeding8 = {
+	name = "Waldered" # 
+	dynasty = 311
+	religion = catholic
+	culture = hannoverian
+	father = immeding7
+	mother = immeding7_wife
+	945.1.1 = { #fic
+		birth = yes
+	}
+	#Bertha Burcharding
+	984.1.1 = { #est
+		death = yes
+	}
+}
+
+#wifes
+immeding7_wife = {
+	name = "Mathilde"
+	female = yes
+	dynasty = 311
+	religion = catholic
+	culture = hannoverian
+	
+	982.1.1 = { #est
+		birth = yes
+	}
+	953.10.12 = {
+		death = {
+			death_reason = death_battle
+		}
 	}
 }

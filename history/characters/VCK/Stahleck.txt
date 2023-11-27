@@ -1,4 +1,5 @@
-﻿stahleck1 = {
+﻿#DONE FOR 1054
+stahleck1 = {
 	name = "Goswin" #Goswin I of Grabfeld
 	dynasty = 312
 	religion = catholic
