@@ -5,6 +5,7 @@
 	religion = catholic
 	culture = bavarian
 	father = baboning2
+	mother = schweinfurt14
 	1020.1.1 = { #fic
 		birth = yes
 	}
@@ -19,8 +20,12 @@ baboning2 = {
 	religion = catholic
 	culture = bavarian
 	father = baboning3
+	#mother = Mathilde von Formbach, daughter of Ulrich of Schweinachgau
 	998.1.1 = { #fic
 		birth = yes
+	}
+	1016.1.1 = { #fic
+		add_spouse = schweinfurt14
 	}
 	1035.12.13 = {
 		death = yes
@@ -32,9 +37,11 @@ baboning3 = {
 	dynasty = 287
 	religion = catholic
 	culture = bavarian
-	940.1.1 = { #est
+	#unknown parents
+	935.1.1 = { #est
 		birth = yes
 	}
+	#Mathilde von Formbach, daughter of Ulrich of Schweinachgau
 	1001.3.6 = {
 		death = yes
 	}
@@ -46,9 +53,11 @@ baboning4 = {
 	religion = catholic
 	culture = bavarian
 	father = baboning2
+	mother = schweinfurt14
 	1017.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1080.1.1 = {
 		death = yes
 	}
@@ -60,6 +69,7 @@ baboning5 = {
 	religion = catholic
 	culture = bavarian
 	father = baboning2
+	mother = schweinfurt14
 	1023.1.1 = { #fic
 		birth = yes
 	}
@@ -69,14 +79,16 @@ baboning5 = {
 }
 
 baboning6 = {
-	name = "Heinrich" # 
+	name = "Heinrich" # Heinrich I of Regensburg
 	dynasty = 287
 	religion = catholic
 	culture = bavarian
 	father = baboning2
+	mother = schweinfurt14
 	1029.1.1 = { #fic
 		birth = yes
 	}
+	#Wilitrud?
 	1083.9.30 = {
 		death = yes
 	}
@@ -88,6 +100,7 @@ baboning7 = {
 	religion = catholic
 	culture = bavarian
 	father = baboning3
+	#mother = Mathilde von Formbach, daughter of Ulrich of Schweinachgau
 	994.1.1 = { #fic
 		birth = yes
 	}
@@ -97,12 +110,13 @@ baboning7 = {
 }
 
 baboning8 = {
-	name = "Ludolf" # 
+	name = "Ludolf" # monk
 	dynasty = 287
 	religion = catholic
 	culture = bavarian
 	trait = devoted
 	father = baboning3
+	#mother = Mathilde von Formbach, daughter of Ulrich of Schweinachgau
 	996.1.1 = { #fic
 		birth = yes
 	}
