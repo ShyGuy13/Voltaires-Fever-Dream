@@ -313,3 +313,84 @@ salier19 = {
 		death = yes
 	}
 }
+
+salier20 = {
+	name = "Konrad" # Konrad I of Carinthia
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	#Otto
+	
+	975.1.1 = { #est
+		birth = yes
+	}
+	#Mathilde of Swabia
+	1011.12.12 = {
+		death = yes
+	}
+}
+
+salier21 = {
+	name = "Konrad" # Konrad II of Carinthia
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier20
+	#Mathilde von Schwaben
+	1003.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_younger
+	}
+	#no wife
+	1039.7.20 = {
+		death = yes
+	}
+}
+
+salier22 = {
+	name = "Bruno" # bishop of Würzburg
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier20
+	#Mathilde von Schwaben
+	1005.1.1 = { #est
+		birth = yes
+	}
+	1045.5.27 = {
+		death = {
+			death_reason = death_fell_from_high_ground
+		}
+	}
+}
+
+salier23 = {
+	name = "Wolfram" # 
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier20
+	#Mathilde von Schwaben
+	1007.1.1 = { #est
+		birth = yes
+	}
+	1010.1.1 = { #est
+		death = yes
+	}
+}
+
+salier24 = {
+	name = "Cecilia" # fictional name, wife of Gerhard IV of Metz or Hezelin Ezzoning??
+	female = yes
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier20
+	#Mathilde von Schwaben
+	1010.1.1 = { #fic
+		birth = yes
+	}
+	1062.1.1 = { #fic
+		death = yes
+	}
+}
