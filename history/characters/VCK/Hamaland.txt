@@ -1,9 +1,10 @@
-meginharding1 = {
+hamaland1 = {
 	name = "Wichmann" # Wichmann II of Hamaland
 	dynasty = 330
 	religion = catholic
 	culture = dutch
-  #Meginhard IV
+  	father = hamaland5
+	#Kunigunde
 	929.1.1 = { #fic
 		birth = yes
 	}
@@ -15,13 +16,13 @@ meginharding1 = {
 	}
 }
 
-meginharding2 = {
+hamaland2 = {
 	name = "Luitgard" # nun
   female = yes
 	dynasty = 330
 	religion = catholic
 	culture = dutch
-  father = meginharding1
+  father = hamaland1
   mother = vlaanderen12
 	953.1.1 = {
 		birth = yes
@@ -31,13 +32,13 @@ meginharding2 = {
 	}
 }
 
-meginharding3 = {
+hamaland3 = {
 	name = "Adela" # wife of Immed IV Immeding & Balduin of Drenthe
   female = yes
 	dynasty = 330
 	religion = catholic
 	culture = dutch
-  father = meginharding1
+  father = hamaland1
   mother = vlaanderen12
 	955.1.1 = { #est
 		birth = yes
@@ -47,17 +48,47 @@ meginharding3 = {
 	}
 }
 
-meginharding4 = {
+hamaland4 = {
 	name = "Wichmann" # 
 	dynasty = 330
 	religion = catholic
 	culture = dutch
-  father = meginharding1
+  father = hamaland1
   mother = vlaanderen12
 	957.1.1 = { #est
 		birth = yes
 	}
 	965.8.1 = {
+		death = yes
+	}
+}
+
+hamaland5 = {
+	name = "Meginhard" # Meginhard IV of Hamaland
+	dynasty = 330
+	religion = catholic
+	culture = dutch
+  	father = hamaland6
+	888.1.1 = { #est
+		birth = yes
+	}
+	#Kunigunde
+	956.1.1 = { #est
+		death = yes
+	}
+}
+
+hamaland6 = {
+	name = "Everhard" # Everhard Saxo of Hamaland
+	dynasty = 330
+	religion = catholic
+	culture = dutch
+  	#Everhard Saxo
+	#Kunigunde
+	830.1.1 = { #est
+		birth = yes
+	}
+	898.1.1 = { #est
 		death = yes
 	}
 }
