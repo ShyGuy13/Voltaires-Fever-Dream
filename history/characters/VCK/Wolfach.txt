@@ -1,13 +1,211 @@
-﻿#von Wolfach = von Sulz???
+#DONE FOR 1054
+#sources are very sparse for this dynasty.
 wolfach1 = {
 	name = "Friedrich" # Friedrich I of Wolfach
 	dynasty = 97
 	religion = catholic
 	culture = boden_alemannic
-	1020.1.1 = { #fic
+	#he might be a descendant of the von Sulz dynasty
+	1048.1.1 = { #fic
 		birth = yes
 	}
-	1086.1.1 = {
+	#unknown wife
+	1106.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfach2 = {
+	name = "Friedrich" # Friedrich II of Wolfach
+	dynasty = 97
+	religion = catholic
+	culture = boden_alemannic
+	father = wolfach1
+	#unknown mother
+	1091.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1137.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfach3 = {
+	name = "Gerhard" # Gerhard I of Wolfach
+	dynasty = 97
+	religion = catholic
+	culture = boden_alemannic
+	father = wolfach1
+	#unknown mother
+	1099.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1165.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfach4 = {
+	name = "Friedrich" # Friedrich III of Wolfach
+	dynasty = 97
+	religion = catholic
+	culture = boden_alemannic
+	father = wolfach2
+	#unknown mother
+	1142.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1203.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfach5 = {
+	name = "Arnold" # Arnold I of Wolfach
+	dynasty = 97
+	religion = catholic
+	culture = boden_alemannic
+	father = wolfach2
+	#unknown mother
+	1148.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1201.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfach6 = {
+	name = "Konrad" # monk
+	dynasty = 97
+	religion = catholic
+	culture = boden_alemannic
+	trait = devoted
+	father = wolfach2
+	#unknown mother
+	1153.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1210.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfach7 = {
+	name = "Gottfried" # Gottfried I of Wolfach
+	dynasty = 97
+	religion = catholic
+	culture = boden_alemannic
+	father = wolfach4
+	#unknown mother
+	1175.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1247.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfach8 = {
+	name = "Konrad" # another monk named Konrad
+	dynasty = 97
+	religion = catholic
+	culture = boden_alemannic
+	trait = devoted
+	father = wolfach4
+	#unknown mother
+	1183.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1239.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfach9 = {
+	name = "Friedrich" # Friedrich IV of Wolfach
+	dynasty = 97
+	religion = catholic
+	culture = boden_alemannic
+	father = wolfach7
+	#unknown mother
+	1198.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1280.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfach10 = {
+	name = "Konrad" # again another monk named Konrad
+	dynasty = 97
+	religion = catholic
+	culture = boden_alemannic
+	trait = devoted
+	father = wolfach7
+	#unknown mother
+	1203.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1279.1.1 = { #fic
+		death = yes
+	}
+}
+
+wolfach11 = {
+	name = "Udelhild" # wife of Friedrich I of Fürstenberg
+	female = yes
+	dynasty = 97
+	religion = catholic
+	culture = boden_alemannic
+	father = wolfach9
+	#unknown mother
+	1254.1.1 = { #est
+		birth = yes
+	}
+	1305.4.26 = {
+		death = yes
+	}
+}
+
+wolfach12 = {
+	name = "Hildegard" # fictional name; wife of someone von Lupfen
+	female = yes
+	dynasty = 97
+	religion = catholic
+	culture = boden_alemannic
+	father = wolfach9
+	#unknown mother
+	1259.1.1 = { #fic
+		birth = yes
+	}
+	1312.1.1 = {  #fic
+		death = yes
+	}
+}
+
+wolfach13 = {
+	name = "Sophie" # fictional name; wife of someone von Zimmern
+	female = yes
+	dynasty = 97
+	religion = catholic
+	culture = boden_alemannic
+	father = wolfach9
+	#unknown mother
+	1263.1.1 = { #fic
+		birth = yes
+	}
+	1321.1.1 = { #fic
 		death = yes
 	}
 }
