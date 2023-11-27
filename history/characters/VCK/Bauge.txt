@@ -1,12 +1,64 @@
-﻿bauge1 = {
+#DONE FOR 1054
+#I was not able to find a proper source on this dynasty at all.
+bauge1 = {
 	name = "Raimond" # Raimond of Bresse
 	dynasty = 231
 	religion = catholic
 	culture = arpitan
-	1015.1.1 = { #fic
+	father = bauge2
+	#unknown mother
+	1019.1.1 = { #est
 		birth = yes
 	}
-	1072.1.1 = {
+	#unknown wife
+	1072.1.1 = { #est
+		death = yes
+	}
+}
+
+bauge2 = {
+	name = "Rodolphe" # Rodolphe of Bresse
+	dynasty = 231
+	religion = catholic
+	culture = arpitan
+	father = bauge3
+	#unknown mother
+	996.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1023.1.1 = { #est
+		death = yes
+	}
+}
+
+bauge3 = {
+	name = "Hugues" # Hugues of Bresse
+	dynasty = 231
+	religion = catholic
+	culture = arpitan
+	#unknown parents
+	968.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1015.1.1 = { #est
+		death = yes
+	}
+}
+
+bauge4 = {
+	name = "Goserand" # Goserand of Bresse
+	dynasty = 231
+	religion = catholic
+	culture = arpitan
+	father = bauge1
+	#unknown mother
+	1046.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1108.1.1 = { #est
 		death = yes
 	}
 }
