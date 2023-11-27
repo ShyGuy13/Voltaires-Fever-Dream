@@ -394,3 +394,19 @@ salier24 = {
 		death = yes
 	}
 }
+
+salier25 = {
+	name = "Richwara" # wife of Berthold I of Baden
+	female = yes
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier21 # debated
+	#unknown mother
+	1021.1.1 = { #fic
+		birth = yes
+	}
+	1073.1.1 = { #fic
+		death = yes
+	}
+}
