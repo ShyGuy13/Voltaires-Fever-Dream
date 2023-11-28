@@ -10,7 +10,7 @@ ludowing1 = {
 		give_nickname = nick_the_bearded
 	}
 	1039.1.1 = { #est
-		add_spouse = sangershausen1 # Cäcilie
+		add_spouse = sangerhausen1 # Cäcilie
 	}
 	1056.6.13 = {
 		death = {
@@ -25,7 +25,7 @@ ludowing2 = {
 	religion = catholic
 	culture = thuringian
 	father = ludowing1
-	mother = sangershausen1
+	mother = sangerhausen1
 	1042.1.1 = {
 		birth = yes
 		give_nickname = nick_the_springer
@@ -43,7 +43,7 @@ ludowing3 = {
 	religion = catholic
 	culture = thuringian
 	father = ludowing1
-	mother = sangershausen1
+	mother = sangerhausen1
 	1051.1.1 = { #fic
 		birth = yes
 	}
@@ -58,7 +58,7 @@ ludowing4 = {
 	religion = catholic
 	culture = thuringian
 	father = ludowing1
-	mother = sangershausen1
+	mother = sangerhausen1
 	1056.1.1 = {
 		birth = yes
 	}
@@ -75,7 +75,7 @@ ludowing5 = {
 	religion = catholic
 	culture = thuringian
 	father = ludowing1
-	mother = sangershausen1
+	mother = sangerhausen1
 	1049.1.1 = { #fic
 		birth = yes
 	}
@@ -91,7 +91,7 @@ ludowing6 = {
 	religion = catholic
 	culture = thuringian
 	father = ludowing1
-	mother = sangershausen1
+	mother = sangerhausen1
 	1045.1.1 = { #fic
 		birth = yes
 	}
