@@ -1511,7 +1511,7 @@
 }
 324 = {
 	prefix = "dynnp_von"
-	name = "dynn_Sangershausen"
+	name = "dynn_Sangerhausen"
 	culture = thuringian
 }
 325 = {
