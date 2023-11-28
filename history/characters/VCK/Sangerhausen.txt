@@ -1,5 +1,5 @@
 #DONE FOR 1054
-sangershausen1 = {
+sangerhausen1 = {
 	name = "Cäcilie" # wife of Ludwig I of Thuringia
   female = yes
 	dynasty = 324
@@ -15,8 +15,8 @@ sangershausen1 = {
 	}
 }
 
-sangershausen2 = {
-	name = "Berthold" # Berthold I of Sangershausen
+sangerhausen2 = {
+	name = "Berthold" # Berthold I of Sangerhausen
 	dynasty = 324
 	religion = catholic
 	culture = thuringian
