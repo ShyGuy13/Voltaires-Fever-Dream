@@ -1513,7 +1513,9 @@
 	
 }
 325 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Lohra"
+	culture = thuringian
 }
 326 = {
 	
