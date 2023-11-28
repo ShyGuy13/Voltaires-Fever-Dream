@@ -114,3 +114,18 @@ brunoning8 = {
 		death = yes
 	}
 }
+
+brunoning9 = {
+	name = "Gisela" # wife of Berthold of Sangershausen
+	female = yes
+	dynasty = 157
+	religion = catholic
+	culture = eastphalian
+	father = brunoning7
+	1006.1.1 = { #est
+		birth = yes
+	}
+	1073.1.1 = { #fic
+		death = yes
+	}
+}
