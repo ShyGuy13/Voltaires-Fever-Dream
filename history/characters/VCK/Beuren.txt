@@ -1,12 +1,32 @@
-﻿beuren1 = {
-	name = "Wolftrigel" #Wolftrigel of Beuren
+#DONE FOR 1054
+#sources are very sparse here.
+beuren1 = {
+	name = "Wolftrigel" #Wolftrigel I of Beuren
 	dynasty = 49
 	religion = catholic
 	culture = swabian
-	1025.1.1 = { #fic
+	#unknown parents
+	1036.1.1 = { #fic
 		birth = yes
 	}
-	1100.1.1 = {
+	#unknown wife
+	1100.1.1 = { #fic
+		death = yes
+	}
+}
+
+beuren2 = {
+	name = "Wolftrigel" #Wolftrigel II of Beuren
+	dynasty = 49
+	religion = catholic
+	culture = swabian
+	father = beuren1
+	#unknown mother
+	1084.1.1 = { #fic
+		birth = yes
+	}
+	#Gotelinda
+	1140.1.1 = { #fic
 		death = yes
 	}
 }
