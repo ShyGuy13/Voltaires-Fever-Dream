@@ -1,12 +1,14 @@
 ﻿neuchatel1 = {
-	name = "Ulrich" # Ulrich I of Neuchâtel
+	name = "Ulrich" # Ulrich I of Fenis
 	dynasty = 96
 	religion = catholic
 	culture = arpitan
-	1020.1.1 = {
+	#unknown parents
+	1024.1.1 = { #fic
 		birth = yes
 	}
-	1090.1.1 = {
+	#unknown wife
+	1070.1.1 = { #fic
 		death = yes
 	}
 }
@@ -17,7 +19,8 @@ neuchatel2 = {
 	religion = catholic
 	culture = arpitan
 	father = neuchatel1
-	1040.1.1 = {
+	#unknown mother
+	1040.1.1 = { #est
 		birth = yes
 	}
 	1107.4.12 = {
@@ -31,10 +34,27 @@ neuchatel3 = {
 	religion = catholic
 	culture = arpitan
 	father = neuchatel1
+	#unknown mother
 	1045.1.1 = { #fic
 		birth = yes
 	}
 	1103.12.19 = {
+		death = yes
+	}
+}
+
+neuchatel4 = {
+	name = "Mangold" # Mangold of Neuchatel
+	dynasty = 96
+	religion = catholic
+	culture = arpitan
+	father = neuchatel1
+	#unknown mother
+	1054.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1096.1.1 = { #fic
 		death = yes
 	}
 }
