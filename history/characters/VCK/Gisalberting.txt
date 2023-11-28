@@ -4,7 +4,7 @@ gisalberting1 = {
 	religion = catholic
 	culture = lombard
 	father = gisalberting2
-	1002.1.1 = { #fic
+	1006.1.1 = { #fic
 		birth = yes
 	}
 	1064.1.1 = {
@@ -18,7 +18,7 @@ gisalberting2 = {
 	religion = catholic
 	culture = lombard
 	father = gisalberting3
-	974.1.1 = { #fic
+	984.1.1 = { #fic
 		birth = yes
 	}
 	1053.1.1 = {
@@ -31,7 +31,8 @@ gisalberting3 = {
 	dynasty = 112
 	religion = catholic
 	culture = lombard
-	949.1.1 = { #fic
+	father = gisalberting6
+	959.1.1 = { #fic
 		birth = yes
 	}
 	1022.1.1 = {
@@ -63,6 +64,51 @@ gisalberting5 = {
 		birth = yes
 	}
 	1103.1.1 = {
+		death = yes
+	}
+}
+
+gisalberting6 = {
+	name = "Gisalberto" #Gisalberto II of Bergamo
+	dynasty = 112
+	religion = catholic
+	culture = lombard
+	father = gisalberting7
+	934.1.1 = { #fic
+		birth = yes
+	}
+	#Alsinda, daughter of Arduin Glabrio
+	1004.1.1 = { #est
+		death = yes
+	}
+}
+
+gisalberting7 = {
+	name = "Lanfranc" #Lanfranc I of Bergamo
+	dynasty = 112
+	religion = catholic
+	culture = lombard
+	father = gisalberting8
+	900.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	953.6.23 = {
+		death = yes
+	}
+}
+
+gisalberting8 = {
+	name = "Gisalberto" #Gisalberto I of Bergamo
+	dynasty = 112
+	religion = catholic
+	culture = lombard
+	#unknown parents
+	874.1.1 = { #fic
+		birth = yes
+	}
+	#Rotruda of Pavia, daughter of Walpert of Pavia
+	929.11.19 = {
 		death = yes
 	}
 }
