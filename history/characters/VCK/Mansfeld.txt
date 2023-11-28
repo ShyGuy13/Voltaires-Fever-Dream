@@ -3,10 +3,31 @@ mansfeld1 = {
 	dynasty = 106
 	religion = catholic
 	culture = thuringian
-	1015.1.1 = { #fic
+	#unknown parents
+	1023.1.1 = { #fic
 		birth = yes
 	}
-	1070.1.1 = {
+	#Christine, daughter of Siegfried III of Hassegau & Uta
+	1075.1.1 = { #fic
 		death = yes
+	}
+}
+
+mansfeld2 = {
+	name = "Hoyer" # Hoyer II of Mansfeld
+	dynasty = 106
+	religion = catholic
+	culture = thuringian
+	father = mansfeld1
+	#Christine, daughter of Siegfried III of Hassegau & Uta (who is this supposed to be?)
+	1058.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_great
+	}
+	1115.2.11 = { #fic
+		death = {
+			death_reason = death_battle
+			killer = groitzsch2 # Wiprecht II of Groitzsch
+		}
 	}
 }
