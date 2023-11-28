@@ -1,0 +1,14 @@
+#DONE FOR 1054
+lohra1 = {
+	name = "Dietrich" # Dietrich of Linderbach
+	dynasty = 325
+	religion = catholic
+	culture = thuringian
+	1027.1.1 = { #est
+		birth = yes
+	}
+  #1059 = Uta Ludowing
+	1099.1.1 = { #est
+		death = yes
+	}
+}
