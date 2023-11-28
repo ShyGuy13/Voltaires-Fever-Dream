@@ -1,14 +1,21 @@
-﻿ludowing1 = {
+#DONE FOR 1054
+ludowing1 = {
 	name = "Ludwig" # Ludwig I of Thuringia
 	dynasty = 109
 	religion = catholic
 	culture = thuringian
+	#unknown parents
 	987.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_bearded
 	}
-	1056.1.1 = {
-		death = yes
+	1039.1.1 = { #est
+		add_spouse = sangershausen1 # Cäcilie
+	}
+	1056.6.13 = {
+		death = {
+			death_reason = death_ill
+		}
 	}
 }
 
@@ -18,11 +25,77 @@ ludowing2 = {
 	religion = catholic
 	culture = thuringian
 	father = ludowing1
+	mother = sangershausen1
 	1042.1.1 = {
 		birth = yes
 		give_nickname = nick_the_springer
 	}
+	#Adelheid von Stade
 	1123.5.8 = {
+		death = yes
+	}
+}
+
+ludowing3 = {
+	name = "Uta" # wife of Dietrich of Lindenbach
+	female = yes
+	dynasty = 109
+	religion = catholic
+	culture = thuringian
+	father = ludowing1
+	mother = sangershausen1
+	1051.1.1 = { #fic
+		birth = yes
+	}
+	1122.1.1 = { #fic
+		death = yes
+	}
+}
+
+ludowing4 = {
+	name = "Beringer" # Beringer I of Sangershausen
+	dynasty = 109
+	religion = catholic
+	culture = thuringian
+	father = ludowing1
+	mother = sangershausen1
+	1056.1.1 = {
+		birth = yes
+	}
+	#Bertrada von Wettin
+	1110.7.25 = {
+		death = yes
+	}
+}
+
+ludowing5 = {
+	name = "Hildegard" # wife of Poppo I of Henneberg
+	female = yes
+	dynasty = 109
+	religion = catholic
+	culture = thuringian
+	father = ludowing1
+	mother = sangershausen1
+	1049.1.1 = { #fic
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
+
+ludowing6 = {
+	name = "Adelheid" # wife of Ludwig I of Wippra
+	female = yes	
+	dynasty = 109
+	religion = catholic
+	culture = thuringian
+	father = ludowing1
+	mother = sangershausen1
+	1045.1.1 = { #fic
+		birth = yes
+	}
+	1098.1.1 = { #fic
 		death = yes
 	}
 }
