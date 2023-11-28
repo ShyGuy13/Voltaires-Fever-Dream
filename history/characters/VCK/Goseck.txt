@@ -153,3 +153,18 @@ goseck10 = {
 		death = yes
 	}
 }
+
+goseck11 = {
+	name = "Christina" # wife of Hoyer I of Manderscheid
+	female = yes
+	dynasty = 225
+	religion = catholic
+	culture = saxon
+	father = goseck2 # debated; she is daughter of Siegfried III of Hassegau
+	1028.1.1 = { #fic
+		birth = yes
+	}
+	1081.1.1 = { #fic
+		death = yes
+	}
+}
