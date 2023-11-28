@@ -155,7 +155,7 @@ goseck10 = {
 }
 
 goseck11 = {
-	name = "Christina" # wife of Hoyer I of Manderscheid
+	name = "Christina" # wife of Hoyer I of Mansfeld
 	female = yes
 	dynasty = 225
 	religion = catholic
