@@ -1,0 +1,33 @@
+#DONE FOR 1054
+sangershausen1 = {
+	name = "Cäcilie" # wife of Ludwig I of Thuringia
+  female = yes
+	dynasty = 324
+	religion = catholic
+	culture = thuringian
+	father = sangershausen2
+  mother = brunoning9
+	1029.1.1 = { #est
+		birth = yes
+	}
+	1091.1.1 = { #est
+		death = yes
+	}
+}
+
+sangershausen2 = {
+	name = "Berthold" # Berthold I of Sangershausen
+	dynasty = 324
+	religion = catholic
+	culture = thuringian
+  #unknown parents, maybe Siegfied II of Goseck?
+	997.1.1 = { #est
+		birth = yes
+	}
+  1025.1.1 = { # fic
+    add_spouse = brunoning9 # Gisela
+  }
+	1055.1.1 = { #est
+		death = yes
+	}
+}
