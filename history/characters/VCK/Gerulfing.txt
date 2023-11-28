@@ -3,14 +3,16 @@
 	dynasty = 199
 	religion = catholic
 	culture = dutch
-	1017.1.1 = {
+	1017.1.1 = { #est
 		birth = yes
 	}
-	1050.1.1 = {
+	1050.1.1 = { #est
 		add_spouse = billung4 # Gertrude Billung
 	}
 	1061.6.28 = {
-		death = yes
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 
@@ -21,10 +23,177 @@ gerulfing2 = {
 	culture = dutch
 	father = gerulfing1
 	mother = billung4
-	1051.1.1 = {
+	1051.1.1 = { #est
 		birth = yes
 	}
 	1091.6.17 = {
+		death = yes
+	}
+}
+
+﻿gerulfing3 = {
+	name = "Dirk" #Dirk III of Holland
+	dynasty = 199
+	religion = catholic
+	culture = dutch
+	982.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_jerusalemite
+	}
+	#Othelendis Billung
+	1039.5.27 = {
+		death = yes
+	}
+}
+
+﻿gerulfing4 = {
+	name = "Dirk" #Dirk IV of Holland
+	dynasty = 199
+	religion = catholic
+	culture = dutch
+	1014.1.1 = { #est
+		birth = yes
+	}
+	#no wife
+	1049.1.13 = {
+		death = {
+			death_reason = death_ambush
+			#killer = bishop Bernold of Utrecht
+		}
+	}
+}
+
+﻿gerulfing5 = {
+	name = "Bertha" #wife of Dietrich I of Katlenburg
+	female = yes
+	dynasty = 199
+	religion = catholic
+	culture = dutch
+	1022.1.1 = { #fic
+		birth = yes
+	}
+	1089.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿gerulfing6 = {
+	name = "Swanhilde" #wife of Emmo of Loon
+	female = yes
+	dynasty = 199
+	religion = catholic
+	culture = dutch
+	1025.1.1 = { #fic
+		birth = yes
+	}
+	1087.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿gerulfing7 = {
+	name = "Arnulf" #Arnulf I of Holland
+	dynasty = 199
+	religion = catholic
+	culture = dutch
+	951.1.1 = { #est
+		birth = yes
+	}
+	#Liutgard of Luxemburg
+	993.11.18 = {
+		death = yes
+	}
+}
+
+﻿gerulfing8 = {
+	name = "Dirk" #Dirk II of Holland
+	dynasty = 199
+	religion = catholic
+	culture = dutch
+	father = gerulfing9
+	932.1.1 = { #est
+		birth = yes
+	}
+	#Hildegard of Flanders
+	988.5.6 = { 
+		death = yes
+	}
+}
+
+﻿gerulfing9 = {
+	name = "Dirk" # 
+	dynasty = 199
+	religion = catholic
+	culture = dutch
+	father = gerulfing10
+	901.1.1 = { #fic
+		birth = yes
+	}
+	#Geva
+	935.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿gerulfing10 = {
+	name = "Dirk" #Dirk I of Holland
+	dynasty = 199
+	religion = catholic
+	culture = dutch
+	father = gerulfing11
+	875.1.1 = { #est
+		birth = yes
+	}
+	#Geva of Hamaland
+	939.10.5 = { 
+		death = yes
+	}
+}
+
+﻿gerulfing11 = {
+	name = "Gerulf" #Gerulf II of Holland
+	dynasty = 199
+	religion = catholic
+	culture = dutch
+	father = gerulfing12
+	850.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_younger
+	}
+	#
+	898.1.1 = { 
+		death = yes
+	}
+}
+
+﻿gerulfing12 = {
+	name = "Gerulf" #Gerulf I of Holland
+	dynasty = 199
+	religion = catholic
+	culture = dutch
+	father = gerulfing13
+	#unknown mother
+	827.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_older
+	}
+	#
+	856.1.1 = { #est
+		death = yes
+	}
+}
+
+﻿gerulfing13 = {
+	name = "Dirk" #
+	dynasty = 199
+	religion = catholic
+	culture = dutch
+	#unknown parents
+	793.1.1 = {
+		birth = yes
+	}
+	#unknown wife
+	836.1.1 = { #fic
 		death = yes
 	}
 }
