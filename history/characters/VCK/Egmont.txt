@@ -1,12 +1,16 @@
-﻿egmont1 = {
+
+#family relations might to be correct in the first generations.
+egmont1 = {
 	name = "Beerwout" # Beerwout I of Egmont
 	dynasty = 303
 	religion = catholic
 	culture = dutch
 	father = egmont2
+	#Appolonia of Limburg, Daughter of Walram II, comte d'Arlon, graaf van Limburg and Jutta of Lower Lorraine
 	1049.1.1 = { #est
 		birth = yes
 	}
+	#Eleonora van Oostervant
 	1114.1.1 = {
 		death = yes
 	}
@@ -18,10 +22,12 @@ egmont2 = {
 	religion = catholic
 	culture = dutch
 	father = egmont3
+	#Helena of Brandenburg
 	1011.1.1 = { #fic
 		birth = yes
 	}
-	1074.1.1 = {
+	#Appolonia of Limburg, Daughter of Walram II, comte d'Arlon, graaf van Limburg and Jutta of Lower Lorraine
+	1074.3.10 = {
 		death = yes
 	}
 }
@@ -32,10 +38,13 @@ egmont3 = {
 	religion = catholic
 	culture = dutch
 	father = egmont4
-	982.1.1 = { #fic
+	#Kornelia of Brunswick
+	959.1.1 = { #fic
 		birth = yes
 	}
-	1036.1.1 = {
+	#Katharina of Gloucester
+	#Helena of Brandenburg
+	1036.1.2 = {
 		death = yes
 	}
 }
@@ -46,37 +55,139 @@ egmont4 = {
 	religion = catholic
 	culture = dutch
 	father = egmont5
-	937.1.1 = { #fic
+	#Lucretia Karling, daughter of Charles the Bald
+	884.1.1 = { #fic
 		birth = yes
 	}
-	1006.1.1 = { #fic
+	#Kornelia of Brunswick
+	977.5.21 = {
 		death = yes
 	}
 }
 
 egmont5 = {
-	name = "Wolbrand" # Wolbrand I of Egmont
+	name = "Radboud" # Radboud II of Egmont
 	dynasty = 303
 	religion = catholic
 	culture = dutch
 	father = egmont6
-	909.1.1 = { #fic
+	#unknown mother
+	847.1.1 = { #fic
 		birth = yes
 	}
-	968.1.1 = { #fic
+	#Lucretia Karling, daughter of Charles the Bald
+	919.8.4 = {
 		death = yes
 	}
 }
 
 egmont6 = {
-	name = "Radbold" # Radbold I of Egmont
+	name = "Wolbrant" # Wolbrant I of Egmont
 	dynasty = 303
 	religion = catholic
 	culture = dutch
-	876.1.1 = {
+	father = egmont8
+	#Aaea v. Hongarije
+	775.1.1 = { #fic
 		birth = yes
 	}
-	932.1.1 = {
+	#Aleid v. Saksen († 04-04-869)
+	868.12.11 = {
+		death = yes
+	}
+}
+
+egmont7 = {
+	name = "Garbrant" # Garbrant I of Egmont
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	father = egmont8
+	#Aaea v. Hongarije
+	769.1.1 = { #fic
+		birth = yes
+	}
+	#no wife
+	845.3.10 = {
+		death = yes
+	}
+}
+
+egmont8 = {
+	name = "Radboud" # Radboud I of Egmont
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	#younger son of King Adgillus II of Frisia
+	714.1.1 = { #fic
+		birth = yes
+	}
+	#Aaea v. Hongarije
+	792.1.28 = {
+		death = yes
+	}
+}
+
+egmont7 = {
+	name = "Maria" # wife of king x of Sweden
+	female = yes
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	father = egmont8
+	#Aaea v. Hongarije
+	784.1.1 = { #fic
+		birth = yes
+	}
+	#no wife
+	851.1.1 = { #fic
+		death = yes
+	}
+}
+
+egmont8 = {
+	name = "Gerbrant" # 
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	father = egmont6
+	#unknown mother
+	858.1.1 = { #fic
+		birth = yes
+	}
+	864.1.1 = {
+		death = yes
+	}
+}
+
+egmont9 = {
+	name = "Tekla" # wife of x of Arkel
+	female = yes
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	father = egmont6
+	#unknown mother
+	873.1.1 = { #fic
+		birth = yes
+	}
+	935.1.1 = { #fic
+		death = yes
+	}
+}
+
+egmont10 = {
+	name = "Cecilia" # wife of x of Wassenaer
+	female = yes
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	father = egmont6
+	#unknown mother
+	873.1.1 = { #fic
+		birth = yes
+	}
+	935.1.1 = { #fic
 		death = yes
 	}
 }
