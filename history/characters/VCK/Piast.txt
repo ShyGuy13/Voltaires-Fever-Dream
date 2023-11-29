@@ -1,10 +1,13 @@
 piast1 = {
-	name = "Kazimierz"
+	name = "Kazimierz" Kazimierz I of Poland
 	dynasty = 281
 	culture = polish
 	religion = catholic
+	father = piast4
+	#Richeza Ezzoning
 	1016.6.25 = {
 		birth = yes
+		give_nickname = nick_the_restorer
 	}
 	1058.11.28 = {
 		death = yes
@@ -12,17 +15,47 @@ piast1 = {
 }
 
 piast2 = {
-	name = "Regelinda"
+	name = "Regelinda" wife of Hermann I Ekkeharding
 	female = yes
 	dynasty = 281
 	culture = polish
 	religion = catholic
-	#Bolesław I. Chrobry
+	father = piast3
 	#Emnilda
 	989.1.1 = { #est
 		birth = yes
 	}
 	1016.3.21 = {
+		death = yes
+	}
+}
+
+piast3 = {
+	name = "Bolesław" # Bolesław I of Poland
+	dynasty = 281
+	culture = polish
+	religion = catholic
+	967.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_brave
+	}
+	1025.6.17 = {
+		death = yes
+	}
+}
+
+piast4 = {
+	name = "Mieszko" # Mieszko II of Poland
+	dynasty = 281
+	culture = polish
+	religion = catholic
+	father = piast3
+	#Emnilda
+	990.1.1 = { #est
+		birth = yes
+	}
+	#1013 = Richeza Ezzoning
+	1034.5.10 = {
 		death = yes
 	}
 }
