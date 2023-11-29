@@ -1,69 +1,79 @@
-﻿eberstein1 = {
-	name = "Berthold" # Berthold I 
+#DONE FOR 1054
+eberstein1 = {
+	name = "Berthold" # Berthold I of Eberstein
 	dynasty = 125
 	religion = catholic
 	culture = boden_alemannic
 	father = eberstein3
-	1020.1.1 = {
+	#unknown mother
+	1016.1.1 = { #fic
 		birth = yes
 	}
-	1085.1.1 = {
+	#unknown wife
+	1085.1.1 = { #est
 		death = yes
 	}
 }
 
 eberstein2 = {
-	name = "Berthold" # Berthold II 
+	name = "Berthold" # Berthold II of Eberstein
 	dynasty = 125
 	religion = catholic
 	culture = boden_alemannic
 	father = eberstein1
-	1045.1.1 = {
+	#unknown mother
+	1044.1.1 = { #est
 		birth = yes
 	}
-	1085.12.1 = {
+	#unknown wife
+	1007.1.1 = { #fic
 		death = yes
 	}
 }
 
 eberstein3 = {
-	name = "Adalbert" # Adalbert I 
+	name = "Adalbert" # Adalbert I of Eberstein
 	dynasty = 125
 	religion = catholic
 	culture = boden_alemannic
 	father = eberstein4
-	995.1.1 = {
+	#unknown mother
+	979.1.1 = { #fic
 		birth = yes
 	}
-	1046.1.1 = {
+	#unknown wife
+	1046.1.1 = { #est
 		death = yes
 	}
 }
 
 eberstein4 = {
-	name = "Gerhard" # Gerhard I 
+	name = "Gerhard" # Gerhard I of Eberstein
 	dynasty = 125
 	religion = catholic
 	culture = boden_alemannic
 	father = eberstein5
-	940.1.1 = {
+	#unknown mother
+	941.1.1 = { #fic
 		birth = yes
 	}
+	unknown wife
 	1010.1.1 = { #fic
 		death = yes
 	}
 }
 
 eberstein5 = {
-	name = "Eberhard" # Eberhard I 
+	name = "Eberhard" # Eberhard I of Eberstein
 	dynasty = 125
 	religion = catholic
 	culture = boden_alemannic
-	910.1.1 = {
+	#unknown parents
+	907.1.1 = { #fic
 		birth = yes
 	}
-	960.1.1 = { #fic
+	#unknown wife
+	962.1.1 = { #fic
 		death = yes
 	}
 }
-
