@@ -1,5 +1,4 @@
 
-#family relations might to be correct in the first generations.
 egmont1 = {
 	name = "Beerwout" # Beerwout I of Egmont
 	dynasty = 303
@@ -42,9 +41,9 @@ egmont3 = {
 	959.1.1 = { #fic
 		birth = yes
 	}
-	#Katharina of Gloucester
-	#Helena of Brandenburg
-	1036.1.2 = {
+	#Katharina of Colchester (dies 1004.8.27)
+	#Helena of Brandenburg (dies 1026.7.22)
+	1016.1.2 = {
 		death = yes
 	}
 }
@@ -59,7 +58,7 @@ egmont4 = {
 	884.1.1 = { #fic
 		birth = yes
 	}
-	#Kornelia of Brunswick
+	#Kornelia of Brunswick (dies in 982)
 	977.5.21 = {
 		death = yes
 	}
@@ -75,7 +74,7 @@ egmont5 = {
 	847.1.1 = { #fic
 		birth = yes
 	}
-	#Lucretia Karling, daughter of Charles the Bald
+	#Lucretia Karling, daughter of Charles the Bald (dies in 884)
 	919.8.4 = {
 		death = yes
 	}
@@ -184,10 +183,75 @@ egmont10 = {
 	culture = dutch
 	father = egmont6
 	#unknown mother
-	873.1.1 = { #fic
+	876.1.1 = { #fic
 		birth = yes
 	}
-	935.1.1 = { #fic
+	941.1.1 = { #fic
+		death = yes
+	}
+}
+
+egmont11 = {
+	name = "Antonia" # wife of X of Leerkendam
+	female = yes
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	father = egmont4
+	#Kornelia of Brunswick
+	965.1.1 = { #fic
+		birth = yes
+	}
+	1012.1.1 = { #fic
+		death = yes
+	}
+}
+
+egmont12 = {
+	name = "Ghibert" # monk
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	trait = devoted
+	father = egmont3
+	#Helena of Brandenburg
+	1007.1.1 = { #fic
+		birth = yes
+	}
+	#no wife
+	1079.1.1 = { #fic
+		death = yes
+	}
+}
+
+egmont13 = {
+	name = "Perinne" # wife of x of Kormond
+	female = yes
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	father = egmont2
+	#Appolonia of Limburg, Daughter of Walram II, comte d'Arlon, graaf van Limburg and Jutta of Lower Lorraine
+	1052.1.1 = { #est
+		birth = yes
+	}
+	1098.1.1 = { #ic
+		death = yes
+	}
+}
+
+egmont14 = {
+	name = "Oktrude" # wife of x of Lomerveld
+	female = yes
+	dynasty = 303
+	religion = catholic
+	culture = dutch
+	father = egmont2
+	#Appolonia of Limburg, Daughter of Walram II, comte d'Arlon, graaf van Limburg and Jutta of Lower Lorraine
+	1056.1.1 = { #est
+		birth = yes
+	}
+	1009.1.1 = { #ic
 		death = yes
 	}
 }
