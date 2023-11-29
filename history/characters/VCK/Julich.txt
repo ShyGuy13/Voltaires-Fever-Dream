@@ -1,12 +1,15 @@
-﻿julich1 = {
+#DONE FOR 1054
+julich1 = {
 	name = "Gerhard" # Gerhard I of Jülich
 	dynasty = 172
 	religion = catholic
 	culture = ripuarian
-	980.1.1 = { #fic
+	#father = Gerhard von Metz????
+	993.1.1 = { #fic
 		birth = yes
 	}
-	1040.1.1 = {
+	#unknown wife
+	1040.6.1 = { #est
 		death = yes
 	}
 }
@@ -17,9 +20,11 @@ julich2 = {
 	religion = catholic
 	culture = ripuarian
 	father = julich1
-	1010.1.1 = { #fic
+	#unknown mother
+	1014.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1081.1.1 = {
 		death = yes
 	}
@@ -31,9 +36,11 @@ julich3 = {
 	religion = catholic
 	culture = ripuarian
 	father = julich2
-	1040.1.1 = {
+	#unknown mother
+	1049.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1128.1.1 = {
 		death = yes
 	}
