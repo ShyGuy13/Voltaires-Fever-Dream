@@ -1,9 +1,11 @@
-﻿opbrakel1 = {
-	name = "Liebert" # bishop of Cambrai
-	dynasty = 194
+#I think he should be of no dynasty as I could not find any information about an Opbrakel dynasty.
+opbrakel1 = {
+	name = "Liébert" # bishop of Cambrai
+	#dynasty = 194
 	religion = catholic
 	culture = picard
-	1010.1.1 = {
+	trait = saint
+	1010.1.1 = { #est
 		birth = yes
 	}
 	1076.9.28 = {
