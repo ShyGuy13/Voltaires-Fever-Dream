@@ -132,6 +132,21 @@ immeding8 = {
 	}
 }
 
+immeding9 = {
+	name = "Mathilde" # fictional name, wife of Gerard II of Gelre
+	female = yes
+	dynasty = 311
+	religion = catholic
+	culture = hannoverian
+	father = immeding4
+	1004.1.1 = { #fic
+		birth = yes
+	}
+	1073.1.1 = { #fic
+		death = yes
+	}
+}
+
 #wifes
 immeding7_wife = {
 	name = "Mathilde"
