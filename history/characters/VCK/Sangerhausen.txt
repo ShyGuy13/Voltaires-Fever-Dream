@@ -1,12 +1,12 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 sangerhausen1 = {
 	name = "Cäcilie" # wife of Ludwig I of Thuringia
-  female = yes
+  	female = yes
 	dynasty = 324
 	religion = catholic
 	culture = thuringian
 	father = sangershausen2
-  mother = brunoning9
+  	mother = brunoning9
 	1029.1.1 = { #est
 		birth = yes
 	}
@@ -20,13 +20,13 @@ sangerhausen2 = {
 	dynasty = 324
 	religion = catholic
 	culture = thuringian
-  #unknown parents, maybe Siegfied II of Goseck?
+  	#unknown parents, maybe Siegfied II of Goseck?
 	997.1.1 = { #est
 		birth = yes
 	}
-  1025.1.1 = { # fic
-    add_spouse = brunoning9 # Gisela
-  }
+  	1025.1.1 = { # fic
+    	add_spouse = brunoning9 # Gisela
+  	}
 	1055.1.1 = { #est
 		death = yes
 	}

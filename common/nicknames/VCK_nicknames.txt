@@ -17,3 +17,4 @@ nick_iron_arm = {}
 nick_the_slender = {}
 nick_the_bavarian = {}
 nick_with_the_long_moustaches = {}
+nick_the_jerusalemite = {}

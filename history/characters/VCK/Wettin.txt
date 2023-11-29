@@ -1,4 +1,6 @@
-﻿wettin1 = {
+﻿
+#There are three theories about the ancestry of the Wettins.
+wettin1 = {
 	name = "Gero" # Gero I of Brehna
 	dynasty = 102
 	religion = catholic

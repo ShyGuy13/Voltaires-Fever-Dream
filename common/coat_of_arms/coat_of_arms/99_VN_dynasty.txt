@@ -1295,7 +1295,7 @@
 
 224 = c_wolpe # Wölpe
 
-225 = { # Goseck
+225 = { # Goseck, inspired by modern CoA of Goseck
 	pattern = "pattern_solid.dds"
 	color1 = "white"
 	color2 = "blue"

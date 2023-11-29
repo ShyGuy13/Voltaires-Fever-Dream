@@ -4,10 +4,12 @@
 	religion = catholic
 	culture = thuringian
 	father = querfurt3
+	mother = goseck6
 	1015.1.1 = {
 		birth = yes
 		give_nickname = nick_the_pious
 	}
+	#unknown wife
 	1075.1.1 = {
 		death = yes
 	}
@@ -20,6 +22,7 @@ querfurt2 = {
 	religion = catholic
 	culture = thuringian
 	father = querfurt3
+	mother = goseck6
 	1017.1.1 = { #fic
 		birth = yes
 	}
@@ -33,12 +36,14 @@ querfurt3 = {
 	dynasty = 108
 	religion = catholic
 	culture = thuringian
-	trait = twin
 	father = querfurt7
-	975.1.1 = { #est
+	971.1.1 = { #est
 		birth = yes
 	}
-	1017.1.1 = { #est
+	990.1.1 = {
+		add_spouse = goseck6 # 
+	}
+	1019.1.1 = { #est
 		death = yes
 	}
 }
@@ -48,11 +53,10 @@ querfurt4 = {
 	dynasty = 108
 	religion = catholic
 	culture = thuringian
-	trait = twin
 	trait = devoted
 	trait = saint
 	father = querfurt7
-	975.1.1 = {
+	974.1.1 = { #est
 		birth = yes
 		give_nickname = nick_the_holy
 	}
@@ -67,10 +71,11 @@ querfurt5 = {
 	religion = catholic
 	culture = thuringian
 	father = querfurt7
-	977.1.1 = {
+	977.1.1 = { #est
 		birth = yes
 	}
-	1012.1.1 = { #fic
+	#unknown wife
+	1022.1.1 = { #fic
 		death = yes
 	}
 }
@@ -81,10 +86,11 @@ querfurt6 = {
 	religion = catholic
 	culture = thuringian
 	father = querfurt7
-	979.1.1 = {
+	979.1.1 = { #est
 		birth = yes
 	}
-	1008.1.1 = { #fic
+	#unknown wife
+	1038.1.1 = { #fic
 		death = yes
 	}
 }
@@ -100,9 +106,10 @@ querfurt7 = {
 		birth = yes
 		give_nickname = nick_the_old
 	}
-	1009.1.1 = {
-		trait = devoted
-	}
+	#Ida Ekkberting
+	#1009.1.1 = {
+	#	trait = devoted
+	#}
 	1013.10.19 = {
 		death = yes
 	}
@@ -114,7 +121,7 @@ querfurt8 = {
 	religion = catholic
 	culture = thuringian
 	#unknown parents
-	912.1.1 = { #fic
+	932.1.1 = { #fic
 		birth = yes
 	}
 	#Frideruna of Wettin, daughter of Folkmar I
@@ -132,13 +139,62 @@ querfurt9 = {
 	culture = thuringian
 	father = querfurt8
 	#Frideruna of Wettin, daughter of Folkmar I
-	977.1.1 = { #fic
+	967.1.1 = { #fic
 		birth = yes
 	}
 	995.1.1 = { #fic
 		add_spouse = udoning8 # Gertrude
 	}
 	1023.1.1 = {
+		death = yes
+	}
+}
+
+querfurt10 = {
+	name = "Mathilde" # wife of Lothar II of Walbeck
+	female = yes
+	dynasty = 108
+	religion = catholic
+	culture = thuringian
+	father = querfurt8
+	#Frideruna of Wettin, daughter of Folkmar I
+	940.1.1 = { #est
+		birth = yes
+	}
+	992.12.3 = {
+		death = yes
+	}
+}
+
+querfurt11 = {
+	name = "Rikbert" # Rikbert of Hassegau
+	dynasty = 108
+	religion = catholic
+	culture = thuringian
+	father = querfurt8
+	#Frideruna of Wettin, daughter of Folkmar I
+	948.1.1 = { #fic
+		birth = yes
+	}
+	1022.2.9 = {
+		death = yes
+	}
+}
+
+querfurt12 = {
+	name = "Christian" # Christian of Seeburg
+	dynasty = 108
+	religion = catholic
+	culture = thuringian
+	father = querfurt3
+	mother = goseck6
+	1019.1.1 = { #fic
+		birth = yes
+	}
+	1040.1.1 = { #fic
+		add_spouse = haldensleben13 # Oda
+	}
+	1067.1.1 = { #est
 		death = yes
 	}
 }

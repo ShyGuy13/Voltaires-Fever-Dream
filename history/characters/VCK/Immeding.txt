@@ -158,9 +158,7 @@ immeding7_wife = {
 	982.1.1 = { #est
 		birth = yes
 	}
-	953.10.12 = {
-		death = {
-			death_reason = death_battle
-		}
+	1033.1.1 = { #fic
+		death = yes
 	}
 }

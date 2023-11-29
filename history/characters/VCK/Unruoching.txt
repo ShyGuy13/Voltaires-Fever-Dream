@@ -4,10 +4,38 @@
 	dynasty = 316
 	religion = catholic
 	culture = austrian
+	father = unruoching2
 	888.1.1 = { #fic
 		birth = yes
 	}
 	957.1.1 = { #fic
+		death = yes
+	}
+}
+
+unruoching2 = {
+	name = "Eberhard" # Eberhard of Sülichgau
+	dynasty = 316
+	religion = catholic
+	culture = austrian
+	father = unruoching3
+	856.1.1 = { #est
+		birth = yes
+	}
+	889.1.1 = { #est
+		death = yes
+	}
+}
+
+unruoching2 = {
+	name = "Adalhard" # Adalhard of Burc
+	dynasty = 316
+	religion = catholic
+	culture = austrian
+	831.1.1 = { #fic
+		birth = yes
+	}
+	874.7.1 = { #est
 		death = yes
 	}
 }

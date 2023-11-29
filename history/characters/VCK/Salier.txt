@@ -45,6 +45,7 @@ salier3 = {
 	culture = swabian
 	religion = catholic
 	father = salier4
+	mother = konrading6
 	1016.10.28 = {
 		birth = yes
 		effect = {
@@ -67,8 +68,11 @@ salier4 = {
 	culture = swabian
 	religion = catholic
 	father = salier5
-	990.1.1 = {
+	990.1.1 = { #est
 		birth = yes
+	}
+	1016.1.1 = { #est
+		add_spouse = konrading6 # Gisela
 	}
 	1039.6.4 = {
 		death = yes
@@ -148,7 +152,7 @@ salier9 = {
 }
 
 salier10 = {
-	name = "Mathilda" # 
+	name = "Adelheid" # nun
 	female = yes
 	dynasty = 38
 	culture = swabian
@@ -199,13 +203,14 @@ salier12 = {
 }
 
 salier13 = {
-	name = "Beatrix" #
+	name = "Beatrix" # nun
 	female = yes
 	dynasty = 38
 	culture = swabian
 	religion = catholic
 	trait = devoted
 	father = salier3
+	#Kunigunde of Denmar
 	1037.1.1 = {
 		birth = yes
 	}
@@ -407,6 +412,39 @@ salier25 = {
 		birth = yes
 	}
 	1073.1.1 = { #fic
+		death = yes
+	}
+}
+
+salier26 = {
+	name = "Beatrix" # 
+	female = yes
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier4
+	mother = konrading6
+	1030.1.1 = { #est
+		birth = yes
+	}
+	1036.10.25 = {
+		death = yes
+	}
+}
+
+salier27 = {
+	name = "Mathilda" # fiance of Henry I of France
+	female = yes
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier4
+	mother = konrading6
+	1027.1.1 = { #est
+		birth = yes
+	}
+	#1033 = engagement
+	1034.1.1 = {
 		death = yes
 	}
 }

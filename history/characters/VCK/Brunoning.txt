@@ -91,13 +91,16 @@ brunoning7 = {
 	religion = catholic
 	culture = eastphalian
 	father = brunoning8
-	960.1.1 = {
+	961.1.1 = { #est
 		birth = yes
 	}
-	1014.1.1 = {
+	1003.1.1 = {
+		add_spouse = konrading6 # Gisela
+	}
+	1008.1.1 = { #est
 		death = {
-			death_reason = death_skull_cracked_open 
-			#killer = slain by Milo of Ammensleben
+			death_reason = death_murder
+			killer = ammensleben1 # Milo of Ammensleben
 		}
 	}
 }

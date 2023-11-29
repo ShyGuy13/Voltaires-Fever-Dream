@@ -4,12 +4,12 @@ ammensleben1 = {
     culture = central_margravian
     religion = catholic
     #unknown parents
-    946.1.1 = { #fic
+    951.1.1 = { #fic
     	birth = yes
     }
     #unknown wife
-    1010.1.1 = { #est
-    	  death = yes
+    1015.1.1 = { #est
+    	death = yes
     }
 }
 

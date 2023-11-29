@@ -1,4 +1,4 @@
-﻿
+﻿#DONE FOR 1054
 #basically only the names of these dynasty members are known.
 wolfertschwenden1 = {
 	name = "Giselfried" # Giselfried I of Wolfertschwenden

@@ -221,7 +221,7 @@ popponing14 = {
 }
 
 popponing15 = {
-	name = "Hedwig" # wife of Otto Luidolfing
+	name = "Hedwig" # wife of Otto Liudolfing
 	female = yes
 	dynasty = 34
 	religion = catholic

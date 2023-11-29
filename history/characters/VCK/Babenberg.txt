@@ -129,8 +129,13 @@ babenberg9 = {
 	978.1.1 = { #fic
 		birth = yes
 	}
+	1012.1.1 = { #est
+		add_spouse = konrading6 # Gisela
+	}
 	1015.5.31 = {
-		death = yes
+		death = {
+			death_reason = death_hunting_mistakenly_shot
+		}
 	}
 }
 
@@ -174,5 +179,23 @@ babenberg12 = {
 	}
 	1020.1.1 = { #fic
 		death = yes
+	}
+}
+
+babenberg13 = {
+	name = "Ernst" #Ernst II of Swabia
+	dynasty_house = house_babenberg
+	culture = austrian
+	religion = catholic
+	father = babenberg9
+	mother = konrading6
+	1013.1.1 = { #est
+		birth = yes
+	}
+	1030.8.17 = {
+		death = {
+			death_reason = death_battle
+			#killer = Warmann von Konstanz
+		}
 	}
 }

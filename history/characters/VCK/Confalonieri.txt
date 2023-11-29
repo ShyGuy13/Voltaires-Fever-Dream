@@ -18,6 +18,8 @@ confalonieri2 = {
 	dynasty = 117
 	religion = catholic
 	culture = lombard
+	father = confalonieri8
+	#unknown mother
 	991.1.1 = {
 		birth = yes
 	}
@@ -98,6 +100,20 @@ confalonieri7 = {
 		birth = yes
 	}
 	1079.1.1 = { #fic
+		death = yes
+	}
+}
+
+confalonieri8 = {
+	name = "Ildeprando" # Ildeprando I of Pombia 
+	dynasty = 117
+	religion = catholic
+	culture = lombard
+	#unknown parents
+	971.1.1 = { #fic
+		birth = yes
+	}
+	1009.1.1 = { #est
 		death = yes
 	}
 }

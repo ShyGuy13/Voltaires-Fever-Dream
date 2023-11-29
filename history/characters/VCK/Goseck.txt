@@ -84,10 +84,10 @@ goseck6 = {
 	religion = catholic
 	culture = saxon
 	father = goseck4
-	981.1.1 = { #fic
+	972.1.1 = { #fic
 		birth = yes
 	}
-	1049.1.1 = { #fic
+	1039.1.1 = { #fic
 		death = yes
 	}
 }

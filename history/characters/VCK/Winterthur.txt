@@ -93,7 +93,10 @@ winterthur6 = {
 		birth = yes
 	}
 	1030.8.17 = {
-		death = yes
+		death = {
+			death_reason = death_battle
+			#killer = Warmann von Konstanz
+		}
 	}
 }
 
