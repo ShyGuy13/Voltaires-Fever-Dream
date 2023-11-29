@@ -10,3 +10,19 @@ piast1 = {
 		death = yes
 	}
 }
+
+piast2 = {
+	name = "Regelinda"
+	female = yes
+	dynasty = 281
+	culture = polish
+	religion = catholic
+	#Bolesław I. Chrobry
+	#Emnilda
+	989.1.1 = { #est
+		birth = yes
+	}
+	1016.3.21 = {
+		death = yes
+	}
+}
