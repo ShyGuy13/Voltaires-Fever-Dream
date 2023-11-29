@@ -4,7 +4,8 @@
 	religion = catholic
 	culture = thuringian
 	father = ekkeharding2
-	985.1.1 = {
+	mother = billung13
+	985.1.1 = { #est
 		birth = yes
 	}
 	1026.1.1 = { #est
@@ -24,6 +25,9 @@ ekkeharding2 = {
 	960.1.1 = { #est
 		birth = yes
 	}
+	985.1.1 = { #fic
+		add_spouse = billung13 #Schwanhilde
+	}
 	1002.4.30 = {
 		death = {
 			death_reason = death_raid
@@ -38,8 +42,12 @@ ekkeharding3 = {
 	religion = catholic
 	culture = thuringian
 	father = ekkeharding2
+	mother = billung13
 	977.1.1 = { #est
 		birth = yes
+	}
+	1002.1.1 = {
+		add_spouse = piast2 # Reglindis
 	}
 	1038.11.1 = {
 		death = yes
@@ -55,8 +63,12 @@ ekkeharding4 = {
 	928.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	982.7.13 = {
-		death = yes
+		death = {
+			death_reason = death_battle
+			#killer = Abu l-Qasim of Sicily
+	 	}
 	}
 }
 
@@ -69,6 +81,7 @@ ekkeharding5 = {
 	965.1.1 = { #est
 		birth = yes
 	}
+	#daughter of Dobremir of Hevelli; they had a son named Albi
 	1017.1.1 = {
 		death = yes
 	}
@@ -80,9 +93,11 @@ ekkeharding6 = {
 	religion = catholic
 	culture = thuringian
 	father = ekkeharding4
+	#unknown mother
 	973.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1031.1.1 = { #fic
 		death = yes
 	}
@@ -94,9 +109,11 @@ ekkeharding7 = {
 	religion = catholic
 	culture = thuringian
 	father = ekkeharding8
+	#unknown mother
 	903.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	954.8.30 = {
 		death = yes
 	}
@@ -107,9 +124,11 @@ ekkeharding8 = {
 	dynasty = 275
 	religion = catholic
 	culture = thuringian
+	#unknown parents, he might be a descendant of Emperor Otto I Liudolfing
 	875.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	938.1.1 = { #fic
 		death = yes
 	}
@@ -122,6 +141,7 @@ ekkeharding9 = {
 	religion = catholic
 	culture = thuringian
 	father = ekkeharding2
+	mother = billung13
 	983.1.1 = { #est
 		birth = yes
 	}
@@ -136,6 +156,7 @@ ekkeharding10 = {
 	religion = catholic
 	culture = thuringian
 	father = ekkeharding2
+	mother = billung13
 	979.1.1 = { #est
 		birth = yes
 	}
@@ -150,6 +171,7 @@ ekkeharding11 = {
 	religion = catholic
 	culture = thuringian
 	father = ekkeharding2
+	mother = billung13
 	988.1.1 = { #fic
 		birth = yes
 	}
@@ -165,6 +187,7 @@ ekkeharding12 = {
 	religion = catholic
 	culture = thuringian
 	father = ekkeharding2
+	mother = billung13
 	992.1.1 = { #fic
 		birth = yes
 	}
@@ -180,6 +203,7 @@ ekkeharding13 = {
 	religion = catholic
 	culture = thuringian
 	father = ekkeharding2
+	mother = billung13
 	995.1.1 = { #est
 		birth = yes
 	}
