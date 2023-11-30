@@ -18,7 +18,7 @@
 }
 
 luitpolding2 = {
-	name = "Adelheid" # wife of Burkhard of Geisenhausen
+	name = "Adelheid" # fictional name, wife of Burkhard of Geisenhausen
 	female = yes
 	dynasty = 63
 	religion = catholic
@@ -43,6 +43,7 @@ luitpolding3 = {
 	912.1.1 = { #est
 		birth = yes
 	}
+	#Liutgard von Lothringen-Verdun
 	940.1.1 = { #est
 		death = yes
 	}
@@ -54,6 +55,7 @@ luitpolding4 = {
 	religion = catholic
 	culture = bavarian
 	father = luitpolding3
+	#Liutgard von Lothringen-Verdun
 	929.1.1 = { #est
 		birth = yes
 	}
@@ -69,6 +71,7 @@ luitpolding5 = {
 	religion = catholic
 	culture = bavarian
 	father = luitpolding3
+	#Liutgard von Lothringen-Verdun
 	938.1.1 = { #est
 		birth = yes
 	}
@@ -87,6 +90,7 @@ luitpolding6 = {
 	913.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	954.7.22 = {
 		death = {
 			death_reason = death_siege
@@ -101,9 +105,11 @@ luitpolding7 = {
 	religion = catholic
 	culture = bavarian
 	father = luitpolding6
+	#unknown mother
 	945.1.1 = { #fic
 		birth = yes
 	}
+	#no wife
 	999.8.26 = {
 		death = yes
 	}
@@ -115,6 +121,7 @@ luitpolding8 = {
 	religion = catholic
 	culture = bavarian
 	father = luitpolding6
+	#unknown mother
 	948.1.1 = { #fic
 		birth = yes
 	}
@@ -133,6 +140,7 @@ luitpolding9 = {
 	919.1.1 = { #fic
 		birth = yes
 	}
+	#no wife
 	954.7.22 = {
 		death = {
 			death_reason = death_dungeon_passive
@@ -151,6 +159,7 @@ luitpolding10 = {
 	922.1.1 = { #fic
 		birth = yes
 	}
+	#no wife
 	929.1.1 = { #fic
 		death = yes
 	}
@@ -167,9 +176,9 @@ luitpolding11 = {
 	925.1.1 = { #est
 		birth = yes
 	}
-	974.1.1 = {
-		trait = devoted
-	}
+	#974.1.1 = {
+	#	trait = devoted
+	#}
 	984.7.29 = {
 		death = yes
 	}
@@ -185,13 +194,14 @@ luitpolding12 = {
 	931.1.1 = { #est
 		birth = yes
 	}
+	#no wife
 	974.1.1 = {
 		death = yes
 	}
 }
 
 luitpolding13 = {
-	name = "Luitpold"
+	name = "Luitpold" # Luitpold of Carantania
 	dynasty = 63
 	religion = catholic
 	culture = bavarian
@@ -208,7 +218,7 @@ luitpolding13 = {
 }
 
 luitpolding14 = {
-	name = "Berthold"
+	name = "Berthold" # Berthold of Bavaria & Carinthia
 	dynasty = 63
 	religion = catholic
 	culture = bavarian
@@ -217,6 +227,7 @@ luitpolding14 = {
 	897.1.1 = { #est
 		birth = yes
 	}
+	#Wiltrud von Bergen
 	947.11.23 = {
 		death = yes
 	}
@@ -228,10 +239,12 @@ luitpolding15 = {
 	religion = catholic
 	culture = bavarian
 	father = luitpolding14
+	#Wiltrud von Bergen
 	943.1.1 = { #est
 		birth = yes
 		give_nickname = nick_the_younger
 	}
+	#no wife
 	989.10.5 = {
 		death = yes
 	}
@@ -244,6 +257,7 @@ luitpolding16 = {
 	religion = catholic
 	culture = bavarian
 	father = luitpolding14
+	#Wiltrud von Bergen
 	946.1.1 = { #fic
 		birth = yes
 	}
