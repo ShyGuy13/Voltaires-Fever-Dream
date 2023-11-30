@@ -1,12 +1,16 @@
-﻿kaltenbach1 = {
-	name = "Berchtold"
+#DONE FOR 1054
+kaltenbach1 = {
+	name = "Werner" # Werner I of Kaltenbach
 	dynasty = 76
 	religion = catholic
 	culture = swiss
-	1028.1.1 = {
+	#unknown parents
+	1054.1.1 = { #1060
 		birth = yes
+		give_nickname = nick_the_older
 	}
-	1086.1.1 = {
+	#Ita
+	1125.8.31 = {
 		death = yes
 	}
 }
