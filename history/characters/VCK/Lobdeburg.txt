@@ -51,7 +51,7 @@ lobdeburg3 = {
 }
 
 lobdeburg4 = {
-	name = "Otto" # 
+	name = "Hartmann" # 
 	dynasty = 105
 	religion = catholic
 	culture = thuringian
