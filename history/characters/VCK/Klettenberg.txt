@@ -1,12 +1,18 @@
-﻿klettenberg1 = {
+#DONE FOR 1054
+#von Klettenberg = von Ballenhausen
+#sources for this dynasty are very sparse.
+
+klettenberg1 = {
 	name = "Heselin" #Heselin I of Klettenberg
 	dynasty = 111
 	religion = catholic
 	culture = thuringian
-	1040.1.1 = { #fic
+	#unknown parents
+	1038.1.1 = { #fic
 		birth = yes
 	}
-	1110.1.1 = {
+	#unknown wife
+	1110.1.1 = { #fic
 		death = yes
 	}
 }
