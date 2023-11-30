@@ -1,25 +1,83 @@
-﻿lobdeburg1 = {
-	name = "Hermann" # Hermann I of Lobdeburg
+#DONE FOR 1054
+#von Lobdeburg = von Auhausen
+#the dynasty has existed since 959 but sources before Hartmann (died in 1150) are sparse.
+#there have been a couple of Hartmanns in the 10th and 11th century but most of this is made up by me.
+
+lobdeburg1 = {
+	name = "Hartmann" # got Auhausen in 959 from Emperor Otto I
 	dynasty = 105
 	religion = catholic
 	culture = thuringian
-	1011.1.1 = { #fic
+	#unknown parents
+	928.1.1 = { #fic
 		birth = yes
 	}
-	1080.1.1 = {
+	#unknown wife
+	991.1.1 = {
 		death = yes
 	}
 }
 
 lobdeburg2 = {
-	name = "Hermann" # Hermann II of Lobdeburg
+	name = "Hermann" # 
 	dynasty = 105
 	religion = catholic
 	culture = thuringian
-	1043.1.1 = { #fic
+	father = lobdeburg1
+	#unknown mother
+	959.1.1 = { #fic
 		birth = yes
 	}
-	1100.1.1 = {
+	#unknown wife
+	1017.1.1 = { #fic
+		death = yes
+	}
+}
+
+lobdeburg3 = {
+	name = "Hartmann" # 
+	dynasty = 105
+	religion = catholic
+	culture = thuringian
+	father = lobdeburg2
+	#unknown mother
+	980.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1034.1.1 = { #fic
+		death = yes
+	}
+}
+
+lobdeburg4 = {
+	name = "Otto" # 
+	dynasty = 105
+	religion = catholic
+	culture = thuringian
+	father = lobdeburg3
+	#unknown mother
+	1003.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1052.1.1 = { #fic
+		death = yes
+	}
+}
+
+lobdeburg5 = {
+	name = "Hartmann" # 
+	dynasty = 105
+	religion = catholic
+	culture = thuringian
+	father = lobdeburg4
+	#unknown mother
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1093.1.1 = { #fic
 		death = yes
 	}
 }
