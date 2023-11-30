@@ -1,0 +1,30 @@
+alaholfing1 = {
+	name = "Kunigunde" # wife of Luitpold of Bavaria & Konrad I of East Francia
+	female = yes
+	dynasty = 323
+	religion = catholic
+	culture = swabian
+	father = alaholfing2
+  #unknown mother
+	882.1.1 = { #est
+		birth = yes
+	}
+	915.2.7 = {
+		death = yes
+	}
+}
+
+alaholfing2 = {
+	name = "Berthold" # Berthold I of Swabia
+	dynasty = 323
+	religion = catholic
+	culture = swabian
+	#unknown parents
+	857.1.1 = { #fic
+		birth = yes
+	}
+  #unknown wife
+	902.1.1 = { #fic
+		death = yes
+	}
+}
