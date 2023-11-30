@@ -1507,7 +1507,8 @@
 	
 }
 323 = {
-	
+	name = "dynn_Alaholfing"
+	culture = swabian
 }
 324 = {
 	prefix = "dynnp_von"
