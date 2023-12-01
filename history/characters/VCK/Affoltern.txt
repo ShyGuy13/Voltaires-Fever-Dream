@@ -1,4 +1,5 @@
 ﻿#DONE FOR 1054
+#von Affoltern = von Regensberg
 affoltern1 = {
 	name = "Luitold" # Luitold I of Affoltern
 	dynasty = 71
