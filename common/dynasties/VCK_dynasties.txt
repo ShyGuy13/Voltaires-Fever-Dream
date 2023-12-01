@@ -1526,7 +1526,9 @@
 	culture = angevin
 }
 327 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Krenkingen"
+	culture = swiss
 }
 328 = {
 	
