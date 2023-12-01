@@ -1,12 +1,32 @@
-﻿lille1 = {
+#DONE FOR 1054
+#sources are sparse here.
+lille1 = {
 	name = "Saswallon" # Saswallon I of Lille
 	dynasty = 193
 	religion = catholic
 	culture = picard
-	1020.1.1 = { #fic
+	#unknown parents
+	1008.1.1 = { #fic
 		birth = yes
 	}
-	1097.1.1 = {
+	#unknown wife
+	1071.1.1 = { #fic
+		death = yes
+	}
+}
+
+lille2 = {
+	name = "Gérard" # Gérard I of Lille
+	dynasty = 193 # maybe of the Fresnes dynasty???
+	religion = catholic
+	culture = picard
+	father = lille1 # his father-in-law???
+	#unknown mother
+	1036.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife / daughter of lille1???
+	1089.1.1 = { #fic
 		death = yes
 	}
 }
