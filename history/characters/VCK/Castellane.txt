@@ -1,12 +1,50 @@
+#DONE FOR 1054
+#sources ara sparse and ambivalent
 castellane1 = {
 	name = "Boniface" # Boniface I of Castellane
 	dynasty = 296
 	religion = catholic
 	culture = provencal
-	1019.1.1 = { #fic
+	#unknown parents
+	1028.1.1 = { #fic
 		birth = yes
 	}
-	1083.1.1 = { #fic
+	1054.1.1 = { #fic
+		add_spouse = amboise1
+	}
+	1089.1.1 = { #est
+		death = yes
+	}
+}
+
+castellane2 = {
+	name = "Laugier" # Laugier I of Castellane
+	dynasty = 296
+	religion = catholic
+	culture = provencal
+	father = castellane1
+	mother = amboise1
+	1066.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1127.1.1 = { #fic
+		death = yes
+	}
+}
+
+castellane3 = {
+	name = "Boniface" # Boniface I of Castellane
+	dynasty = 296
+	religion = catholic
+	culture = provencal
+	father = castellane2
+	#unknown mother
+	1091.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1156.1.1 = { #fic
 		death = yes
 	}
 }
