@@ -1,0 +1,44 @@
+
+
+amboise1 = {
+	name = "Pernille" # fictional name; wife of Boniface I of Castellane???
+  female = yes
+	dynasty = 326
+	religion = catholic
+	culture = angevin
+	1019.1.1 = { #fic
+		birth = yes
+	}
+	1083.1.1 = { #fic
+		death = yes
+	}
+}
+
+amboise2 = {
+	name = "Lisois" # Lisois de Bazouges
+	dynasty = 326
+	religion = catholic
+	culture = angevin
+  father = amboise3
+	1007.1.1 = { #est
+		birth = yes
+	}
+  #Hersende de Buzançais
+	1065.1.1 = { #est
+		death = yes
+	}
+}
+
+amboise3 = {
+	name = "Hugues" # Hugues de Lavardin
+	dynasty = 326
+	religion = catholic
+	culture = angevin
+	980.1.1 = { #est
+		birth = yes
+	}
+  #
+	1007.1.1 = { #est
+		death = yes
+	}
+}
