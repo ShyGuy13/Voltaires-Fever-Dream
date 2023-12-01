@@ -1,39 +1,63 @@
-﻿kussenberg1 = {
-	name = "Ulrich"
+#DONE FOR 1054
+#sources are sparse, many family members are unknown, family relations are unknown.
+kussenberg1 = {
+	name = "Ulrich" #fictional
 	dynasty = 301
 	culture = swiss
 	religion = catholic
-	991.1.1 = { #fic
+	#unknown parents
+	1012.1.1 = { #fic
 		birth = yes
 	}
-	1054.1.1 = { #fic
+	#unknown wife
+	1074.1.1 = { #fic
 		death = yes
 	}
 }
 
 kussenberg2 = {
-	name = "Liutold"
+	name = "Gerung" # Gerung of Stühlingen
 	dynasty = 301
 	culture = swiss
 	religion = catholic
 	father = kussenberg1
-	1017.1.1 = { #fic
+	#unknown mother
+	1039.1.1 = { #fic
 		birth = yes
 	}
-	1065.1.1 = { #fic
+	#unknown wife
+	1096.1.1 = { #fic
 		death = yes
 	}
 }
 
 kussenberg3 = {
-	name = "Gerung"
+	name = "Eberhard" # fictional
 	dynasty = 301
 	culture = swiss
 	religion = catholic
-	father = kussenberg1
-	1041.1.1 = { #fic
+	father = kussenberg2
+	#unknown mother
+	1068.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
+	1119.1.1 = { #fic
+		death = yes
+	}
+}
+
+kussenberg4 = {
+	name = "Luitold" # Luitold of Stühlingen
+	dynasty = 301
+	culture = swiss
+	religion = catholic
+	father = kussenberg3
+	#unknown mother
+	1108.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
 	1067.1.1 = { #fic
 		death = yes
 	}
