@@ -1,13 +1,15 @@
+#DONE FOR 1054
+#von Hohenlohe = von Pfitzingen
 hohenlohe1 = {
 	name = "Gundelo" # Gundelo of Pfitzingen
 	dynasty = 310
 	religion = catholic
 	culture = franconian
-  #unknown parents
+ 	#unknown parents
 	1032.1.1 = { #est
 		birth = yes
 	}
-  #unknown spouse
+  	#unknown spouse
 	1103.1.1 = { #est
 		death = yes
 	}
@@ -18,8 +20,8 @@ hohenlohe2 = {
 	dynasty = 310
 	religion = catholic
 	culture = franconian
-  father = hohenlohe1
-  #unknown mom
+  	father = hohenlohe1
+  	#unknown mom
 	1055.1.1 = { #est
 		birth = yes
 	}
@@ -33,8 +35,8 @@ hohenlohe3 = {
 	dynasty = 310
 	religion = catholic
 	culture = franconian
-  father = hohenlohe1
-  #unknown mom
+  	father = hohenlohe1
+  	#unknown mom
 	1060.1.1 = { #est
 		birth = yes
 	}
