@@ -4,7 +4,7 @@
 	culture = austrian
 }
 2 = {
-	name = "dynn_Árpáden"
+	name = "dynn_Árpád"
 	culture = hungarian
 }
 3 = {
