@@ -9,6 +9,11 @@
 	1035.1.1 = {
 		birth = yes
 	}
+	#Margareta von Loewen
+	1054.1.1 = {
+		add_friend = nakoning1 # Gottschalk Nakoning
+		add_friend = nakoning7 # öHeinrich Nakoning
+	}
 	1093.10.31 = {
 		death = yes
 	}
