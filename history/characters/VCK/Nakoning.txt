@@ -4,7 +4,7 @@
 	religion = catholic
 	culture = polabian
 	father = nakoning2
-	1010.1.1 = {
+	1007.1.1 = { #est
 		birth = yes
 	}
 	1066.6.7 = {
@@ -22,7 +22,9 @@ nakoning2 = {
 		birth = yes
 	}
 	1028.1.1 = {
-		death = yes
+		death = {
+			death_reason = death_cruelty
+		}
 	}
 }
 
@@ -78,5 +80,36 @@ nakoning6 = {
 	}
 	988.1.1 = { #fic
 		death = yes
+	}
+}
+
+﻿nakoning7 = {
+	name = "Henryk"
+	dynasty = 185
+	religion = catholic
+	culture = polabian
+	father = nakoning1
+	1049.1.1 = { #fic
+		birth = yes
+	}
+	1127.3.22 = {
+		death = { death_reason = death_heretics }
+	}
+}
+
+﻿nakoning8 = {
+	name = "Budivoj"
+	dynasty = 185
+	religion = catholic
+	culture = polabian
+	father = nakoning1
+	1036.1.1 = { #fic
+		birth = yes
+	}
+	1071.8.8 = {
+		death = {
+			death_reason = death_murder
+			#killer = Kruto the Wend
+		}
 	}
 }
