@@ -1,12 +1,47 @@
-﻿helfenstein1 = {
-	name = "Manegold" # Manegold I of Helfenstein
+#DONE FOR 1054
+#von Helfenstein = von Stubersheim
+helfenstein1 = {
+	name = "Adalbert" # Adalbert 
 	dynasty = 46
 	religion = catholic
 	culture = swabian
-	1032.1.1 = { #fic
+	#unknown parents
+	1018.1.1 = { #est
 		birth = yes
 	}
-	1100.1.1 = {
+	1070.1.1 = { #est
+		death = yes
+	}
+}
+
+helfenstein2 = {
+	name = "Adalbert" # Adalbert the Older
+	dynasty = 46
+	religion = catholic
+	culture = swabian
+	father = helfenstein1
+	#unknown mother
+	1044.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife of Nellenburg
+	1107.1.1 = { #fic
+		death = yes
+	}
+}
+
+helfenstein3 = {
+	name = "Berengar" # Berengar I of Helfenstein
+	dynasty = 46
+	religion = catholic
+	culture = swabian
+	father = helfenstein1
+	#unknown mother
+	1049.1.1 = { #fic
+		birth = yes
+	}
+	#Adelheid von Büren
+	1116.1.1 = { #fic
 		death = yes
 	}
 }
