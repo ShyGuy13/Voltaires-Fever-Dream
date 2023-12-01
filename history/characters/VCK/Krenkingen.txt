@@ -1,0 +1,16 @@
+#DONE FOR 1054
+#sources are sparse for this dynasty.
+krenkingen1 = {
+	name = "Adalhard" # Adalhard of Krenkingen
+	dynasty = 327
+	religion = catholic
+	culture = swiss
+	#unknown parents
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1102.1.1 = { #fic
+		death = yes
+	}
+}
