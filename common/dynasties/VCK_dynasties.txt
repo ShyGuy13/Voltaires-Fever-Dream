@@ -1521,7 +1521,9 @@
 	culture = thuringian
 }
 326 = {
-	
+	prefix = "dynnp_d_"
+	name = "dynn_Amboise"
+	culture = angevin
 }
 327 = {
 	
