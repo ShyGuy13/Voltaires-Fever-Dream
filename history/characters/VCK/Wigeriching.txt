@@ -242,6 +242,7 @@ wigeriching17 = {
 	religion = catholic
 	culture = lorrainian
 	father = wigeriching18
+	mother = billung14
 	966.1.1 = { #est
 		birth = yes
 	}
@@ -260,6 +261,9 @@ wigeriching18 = {
 	935.1.1 = { #est
 		birth = yes
 	}
+	963.1.1 = { #est
+		add_spouse = billung14 # Mathilde
+	}
 	985.1.1 = {
 		give_nickname = nick_the_captive
 	}
@@ -274,6 +278,7 @@ wigeriching19 = {
 	religion = catholic
 	culture = lorrainian
 	father = wigeriching18
+	mother = billung14
 	970.1.1 = { #est
 		birth = yes
 		give_nickname = nick_the_great
@@ -373,6 +378,7 @@ wigeriching26 = {
 	religion = catholic
 	culture = lorrainian
 	father = wigeriching18
+	mother = billung14
 	964.1.1 = {
 		birth = yes
 	}
@@ -387,10 +393,27 @@ wigeriching27 = {
 	religion = catholic
 	culture = lorrainian
 	father = wigeriching18
+	mother = billung14
 	976.1.1 = {
 		birth = yes
 	}
 	1022.1.6 = {
+		death = yes
+	}
+}
+
+wigeriching28 = {
+	name = "Regilla" # wife of Arnold II of Formbach
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching18
+	mother = billung14
+	992.1.1 = { #est
+		birth = yes
+	}
+	1050.2.1 = {
 		death = yes
 	}
 }

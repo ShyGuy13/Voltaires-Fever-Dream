@@ -127,7 +127,7 @@ egmont8 = {
 	}
 }
 
-egmont7 = {
+egmont9 = {
 	name = "Maria" # wife of king x of Sweden
 	female = yes
 	dynasty = 303
@@ -144,7 +144,7 @@ egmont7 = {
 	}
 }
 
-egmont8 = {
+egmont10 = {
 	name = "Gerbrant" # 
 	dynasty = 303
 	religion = catholic
@@ -159,7 +159,7 @@ egmont8 = {
 	}
 }
 
-egmont9 = {
+egmont11 = {
 	name = "Tekla" # wife of x of Arkel
 	female = yes
 	dynasty = 303
@@ -175,7 +175,7 @@ egmont9 = {
 	}
 }
 
-egmont10 = {
+egmont12 = {
 	name = "Cecilia" # wife of x of Wassenaer
 	female = yes
 	dynasty = 303
@@ -191,7 +191,7 @@ egmont10 = {
 	}
 }
 
-egmont11 = {
+egmont13 = {
 	name = "Antonia" # wife of X of Leerkendam
 	female = yes
 	dynasty = 303
@@ -207,7 +207,7 @@ egmont11 = {
 	}
 }
 
-egmont12 = {
+egmont14 = {
 	name = "Ghibert" # monk
 	dynasty = 303
 	religion = catholic
@@ -224,7 +224,7 @@ egmont12 = {
 	}
 }
 
-egmont13 = {
+egmont15 = {
 	name = "Perinne" # wife of x of Kormond
 	female = yes
 	dynasty = 303
@@ -240,7 +240,7 @@ egmont13 = {
 	}
 }
 
-egmont14 = {
+egmont16 = {
 	name = "Oktrude" # wife of x of Lomerveld
 	female = yes
 	dynasty = 303

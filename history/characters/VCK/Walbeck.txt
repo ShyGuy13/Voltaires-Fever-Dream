@@ -90,6 +90,9 @@ walbeck6 = {
 	946.1.1 = { #est
 		birth = yes
 	}
+	964.1.1 = { #fic
+		add_spouse = udoning10 # Kunigunde
+	}
 	991.3.15 = {
 		death = yes
 	}
@@ -132,7 +135,7 @@ walbeck9 = {
 	culture = central_margravian
 	religion = catholic
 	father = walbeck6
-	#mother = Kunigunde von Stade
+	mother = udoning10
 	972.1.1 = { #est
 		birth = yes
 	}
@@ -147,7 +150,7 @@ walbeck10 = {
 	culture = central_margravian
 	religion = catholic
 	father = walbeck6
-	#mother = Kunigunde von Stade
+	mother = udoning10
 	974.1.1 = { #est
 		birth = yes
 	}
@@ -162,7 +165,7 @@ walbeck11 = {
 	culture = central_margravian
 	religion = catholic
 	father = walbeck6
-	#mother = Kunigunde von Stade
+	mother = udoning10
 	976.7.25 = {
 		birth = yes
 	}
@@ -177,7 +180,7 @@ walbeck12 = {
 	culture = central_margravian
 	religion = catholic
 	father = walbeck6
-	#mother = Kunigunde von Stade
+	mother = udoning10
 	983.1.1 = { #fic
 		birth = yes
 	}
@@ -192,7 +195,7 @@ walbeck13 = {
 	culture = central_margravian
 	religion = catholic
 	father = walbeck6
-	#mother = Kunigunde von Stade
+	mother = udoning10
 	987.1.1 = { #fic
 		birth = yes
 	}
@@ -242,8 +245,13 @@ walbeck16 = {
 	982.1.1 = { #est
 		birth = yes
 	}
+	1002.1.1 = {
+		add_spouse = ekkeharding9 # # Liudgard
+	}
 	1014.11.11 = {
-		death = yes
+		death = {
+			death_reason = death_wounded_1
+		}
 	}
 }
 
@@ -318,10 +326,11 @@ walbeck21 = {
 	culture = central_margravian
 	religion = catholic
 	father = walbeck16
-	#mother = 
+	mother = ekkeharding9
 	1008.1.1 = { #est
 		birth = yes
 	}
+
 	1087.1.1 = { #est
 		death = yes
 	}
@@ -333,7 +342,7 @@ walbeck22 = {
 	culture = central_margravian
 	religion = catholic
 	father = walbeck16
-	#mother = 
+	mother = ekkeharding9
 	1011.1.1 = { #est
 		birth = yes
 	}

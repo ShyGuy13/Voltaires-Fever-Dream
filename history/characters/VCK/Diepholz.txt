@@ -24,7 +24,7 @@ diepholz2 = {
 	1064.1.1 = { #fic
 		birth = yes
 	}
-	1023.1.1 = { #fic
+	1123.1.1 = { #fic
 		death = yes
 	}
 }

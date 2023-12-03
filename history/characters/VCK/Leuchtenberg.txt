@@ -26,7 +26,7 @@ leuchtenberg2 = {
 	1076.1.1 = { #fic
 		birth = yes
 	}
-	1024.1.1 = { #fic
+	1124.1.1 = { #fic
 		add_spouse = veltheim10 # Heilwiga
 	}
 	1146.1.1 = {

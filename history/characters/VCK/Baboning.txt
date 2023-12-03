@@ -95,21 +95,6 @@ baboning6 = {
 }
 
 baboning7 = {
-	name = "Bertold" # Bertold von Prunn
-	dynasty = 287
-	religion = catholic
-	culture = bavarian
-	father = baboning3
-	#mother = Mathilde von Formbach, daughter of Ulrich of Schweinachgau
-	994.1.1 = { #fic
-		birth = yes
-	}
-	1071.1.1 = { #fic
-		death = yes
-	}
-}
-
-baboning8 = {
 	name = "Ludolf" # monk
 	dynasty = 287
 	religion = catholic

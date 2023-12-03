@@ -4,9 +4,11 @@
 	religion = catholic
 	culture = swabian
 	father = dillingen3
-	1003.1.1 = { #fic
+	#unknown mother
+	1000.1.1 = { #fic
 		birth = yes
 	}
+	#Adelheid von Gerhausen 
 	1074.3.5 = {
 		death = yes
 	}
@@ -18,6 +20,7 @@ dillingen2 = {
 	religion = catholic
 	culture = swabian
 	father = dillingen1
+	#Adelheid von Gerhausen
 	1043.1.1 = { #est
 		birth = yes
 	}
@@ -35,9 +38,11 @@ dillingen3 = {
 	religion = catholic
 	culture = swabian
 	father = dillingen4
+	#unknown mother
 	964.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1019.1.1 = { #fic
 		death = yes
 	}
@@ -49,10 +54,12 @@ dillingen4 = {
 	religion = catholic
 	culture = swabian
 	father = dillingen5
-	942.1.1 = { #fic
+	#unknown mother
+	935.1.1 = { #fic
 		birth = yes
 	}
-	1005.1.1 = { #fic
+	#unknown wife
+	974.1.1 = { #fic
 		death = yes
 	}
 }
@@ -63,9 +70,11 @@ dillingen5 = {
 	religion = catholic
 	culture = swabian
 	father = dillingen6
-	907.1.1 = { #fic
+	#Dietbirg Hunfriding
+	895.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	974.1.1 = { #fic
 		death = yes
 	}
@@ -79,7 +88,8 @@ dillingen6 = {
 	868.1.1 = { #fic
 		birth = yes
 	}
-	909.1.1 = {
+	#Dietbirg Hunfriding
+	909.7.16 = {
 		death = yes
 	}
 }
@@ -90,9 +100,11 @@ dillingen7 = {
 	religion = catholic
 	culture = swabian
 	father = dillingen6
+	#Dietbirg Hunfriding
 	888.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	955.8.10 = {
 		death = {
 			death_reason = death_battle
@@ -107,6 +119,7 @@ dillingen8 = {
 	culture = swabian
 	trait = saint
 	father = dillingen6
+	#Dietbirg Hunfriding
 	890.1.1 = { #est
 		birth = yes
 	}
@@ -116,12 +129,13 @@ dillingen8 = {
 }
 
 dillingen9 = {
-	name = "Liutgard" # wife of Immedinger member
+	name = "Liutgard" # wife of Peiere Immedinger 
 	female = yes
 	dynasty = 43
 	religion = catholic
 	culture = swabian
 	father = dillingen6
+	#Dietbirg Hunfriding
 	894.1.1 = { #fic
 		birth = yes
 	}
@@ -137,10 +151,138 @@ dillingen10 = {
 	religion = catholic
 	culture = swabian
 	father = dillingen6
+	#Dietbirg Hunfriding
 	924.1.1 = { #fic
 		birth = yes
 	}
 	971.1.1 = { #fic
+		death = yes
+	}
+}
+
+dillingen11 = {
+	name = "Hedwig" # 
+	female = yes
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen1
+	#Adelheid von Gerhausen
+	1048.1.1 = { #fic
+		birth = yes
+	}
+	1109.1.1 = { #fic
+		death = yes
+	}
+}
+
+dillingen12 = {
+	name = "Manegold" # Manegold III of Dillingen
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen3
+	#unknown mother
+	995.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife 
+	1028.1.1 = { #fic
+		death = yes
+	}
+}
+
+dillingen13 = {
+	name = "Adelheid" # wife of Adalbert
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen3
+	#unknown mother
+	997.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife 
+	1058.1.1 = { #fic
+		death = yes
+	}
+}
+
+dillingen14 = {
+	name = "Hildegard" # fictional name, wife of X of Werd
+	female = yes
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen5
+	#unknown mother
+	940.1.1 = { #fic
+		birth = yes
+	}
+	1006.1.1 = { #fic
+		death = yes
+	}
+}
+
+dillingen15 = {
+	name = "Riwin" # Riwin I of Dillingen
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen7
+	#unknown mother
+	930.1.1 = { #fic
+		birth = yes
+	}
+	#Hildegard
+	973.1.1 = { #fic
+		death = yes
+	}
+}
+
+dillingen16 = {
+	name = "Riwin" # Riwin II of Dillingen
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen15
+	#Hildegard
+	954.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1007.1.1 = { #fic
+		death = yes
+	}
+}
+
+dillingen17 = {
+	name = "Oda" # fictional name, wife of Rapoto of Traungau
+	female = yes
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen16
+	#unknown mother
+	982.1.1 = { #fic
+		birth = yes
+	}
+	1053.1.1 = { #fic
+		death = yes
+	}
+}
+
+dillingen18 = {
+	name = "Ulrich" # 
+	dynasty = 43
+	religion = catholic
+	culture = swabian
+	father = dillingen16
+	#unknown mother
+	986.1.1 = { #fic
+		birth = yes
+	}
+	1059.1.1 = { #fic
 		death = yes
 	}
 }

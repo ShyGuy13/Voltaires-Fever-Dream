@@ -4,10 +4,39 @@
 	dynasty = 237
 	religion = catholic
 	culture = cisalpine
-	1020.1.1 = {
+	father = arduining3
+	1018.1.1 = { #est
 		birth = yes
 	}
 	1091.12.19 = {
+		death = yes
+	}
+}
+
+arduining2 = {
+	name = "Immilla" # wife of Otto III of Swabia & Ekbert I Brunoning
+	female = yes
+	dynasty = 237
+	religion = catholic
+	culture = cisalpine
+	father = arduining3
+	1022.1.1 = { #est
+		birth = yes
+	}
+	1078.1.1 = {
+		death = yes
+	}
+}
+
+arduining3 = {
+	name = "Manfredi" # Oderico Manfredi II of Turin
+	dynasty = 237
+	religion = catholic
+	culture = cisalpine
+	992.1.1 = { #est
+		birth = yes
+	}
+	1034.10.29 = {
 		death = yes
 	}
 }

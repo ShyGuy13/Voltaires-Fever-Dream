@@ -3,10 +3,11 @@
 	dynasty = 16
 	religion = catholic
 	culture = bavarian
-	1020.1.1 = { #fic
+	1014.1.1 = { #fic
 		birth = yes
 	}
-	1078.1.1 = {
+	#daugher of Berthold II of Andechs
+	1078.1.1 = { #est
 		death = yes
 	}
 }
@@ -17,10 +18,25 @@ moosburg2 = {
 	religion = catholic
 	culture = bavarian
 	father = moosburg1
-	1040.1.1 = { #fic
+	1039.1.1 = { #fic
 		birth = yes
 	}
-	1101.1.1 = {
+	1107.2.13 = {
+		death = yes
+	}
+}
+
+moosburg3 = {
+	name = "Mathilde" #wife of Eberhard I of Abensberg
+	female = yes
+	dynasty = 16
+	religion = catholic
+	culture = bavarian
+	father = moosburg1
+	1042.1.1 = { #fic
+		birth = yes
+	}
+	1102.1.1 = { #fic
 		death = yes
 	}
 }

@@ -83,7 +83,7 @@ nakoning6 = {
 	}
 }
 
-﻿nakoning7 = {
+nakoning7 = {
 	name = "Henryk"
 	dynasty = 185
 	religion = catholic
@@ -97,7 +97,7 @@ nakoning6 = {
 	}
 }
 
-﻿nakoning8 = {
+nakoning8 = {
 	name = "Budivoj"
 	dynasty = 185
 	religion = catholic

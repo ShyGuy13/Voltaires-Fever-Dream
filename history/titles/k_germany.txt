@@ -2247,9 +2247,9 @@ c_dresden = {
 }
 
 #Halberstadt
-schweinfurt9 = {
+c_halberstadt = {
 	1035.8.23 = {
-		holder = luitpolding9 # Burkhard I
+		holder = schweinfurt9 # Burkhard I
 	}
 }
 
@@ -2429,31 +2429,31 @@ c_ottersberg = {
 c_hamburg = {
 	1054.1.1 = { # actually 1059
 		liege = d_altsachsen
-		holder = hamburg1 # Heinrich I
+		holder = udoning12 # Heinrich I
 	}
 }
 c_pinneberg = {
 	1054.1.1 = { # actually 1059
 		liege = d_altsachsen
-		holder = hamburg1 # Heinrich I
+		holder = udoning12 # Heinrich I
 	}
 }
 c_segeberg = {
 	1054.1.1 = { # actually 1059
 		liege = d_altsachsen
-		holder = hamburg1 # Heinrich I
+		holder = udoning12 # Heinrich I
 	}
 }
 c_itzehoe = {
 	1054.1.1 = { # actually 1059
 		liege = d_altsachsen
-		holder = hamburg1 # Heinrich I
+		holder = udoning12 # Heinrich I
 	}
 }
 c_rendsburg = {
 	1054.1.1 = { # actually 1059
 		liege = d_altsachsen
-		holder = hamburg1 # Heinrich I
+		holder = udoning12 # Heinrich I
 	}
 }
 

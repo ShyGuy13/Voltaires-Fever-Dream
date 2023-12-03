@@ -278,8 +278,11 @@ siegharding20 = {
 	culture = bavarian
 	religion = catholic
 	father = siegharding3
-	1028.1.1 = { #est
+	1029.1.1 = { #est
 		birth = yes
+	}
+	1048.1.1 = { #fic
+		add_spouse = diepolding8 # Mathilda
 	}
 	1071.7.17 = {
 		death = yes
@@ -301,7 +304,7 @@ siegharding21 = {
 }
 
 siegharding22 = {
-	name = "Friedgrund" # nun
+	name = "Friedgund" # nun
 	female = yes
 	dynasty = 13
 	culture = bavarian
@@ -401,6 +404,21 @@ siegharding28 = {
 		birth = yes
 	}
 	1090.1.1 = {  #est
+		death = yes
+	}
+}
+
+siegharding29 = {
+	name = "Mathilde" # wife of Rapoto IV of Nordgau
+	female = yes
+	dynasty = 13
+	culture = bavarian
+	religion = catholic
+	father = siegharding3
+	1027.1.1 = { #fic
+		birth = yes
+	}
+	1079.1.1 = { #fic
 		death = yes
 	}
 }

@@ -4,9 +4,15 @@
 	religion = catholic
 	culture = swabian
 	father = schweinfurt7
+	mother = popponing17
 	994.1.1 = {
 		birth = yes
 		give_nickname = nick_the_white
+	}
+	#1035 = Mathilde Piast
+	#1036 = remove Mathilde Piast
+	1038.1.1 = { #est
+		add_spouse = arduining2 # Immila
 	}
 	1057.9.28 = {
 		death = yes
@@ -20,6 +26,7 @@ schweinfurt2 = {
 	religion = catholic
 	culture = swabian
 	father = schweinfurt1
+	mother = arduining2
 	1025.1.1 = { #fic
 		birth = yes
 	}
@@ -35,6 +42,7 @@ schweinfurt3 = {
 	religion = catholic
 	culture = swabian
 	father = schweinfurt1
+	mother = arduining2
 	1030.1.1 = { #fic
 		birth = yes
 	}
@@ -50,6 +58,7 @@ schweinfurt4 = {
 	religion = catholic
 	culture = swabian
 	father = schweinfurt1
+	mother = arduining2
 	1033.1.1 = { #fic
 		birth = yes
 	}
@@ -66,6 +75,7 @@ schweinfurt5 = {
 	culture = swabian
 	trait = devoted
 	father = schweinfurt1
+	mother = arduining2
 	1035.1.1 = { #fic
 		birth = yes
 	}
@@ -81,6 +91,7 @@ schweinfurt6 = {
 	religion = catholic
 	culture = swabian
 	father = schweinfurt1
+	mother = arduining2
 	1040.1.1 = {
 		birth = yes
 	}
@@ -95,8 +106,12 @@ schweinfurt7 = {
 	religion = catholic
 	culture = swabian
 	father = schweinfurt12
-	969.1.1 = { #est
+	mother = walbeck5
+	971.1.1 = { #est
 		birth = yes
+	}
+	1000.1.1 = { #est
+		add_spouse = popponing17 # Gerberga # est
 	}
 	1017.9.18 = {
 		death = yes
@@ -110,6 +125,7 @@ schweinfurt8 = {
 	religion = catholic
 	culture = swabian
 	father = schweinfurt7
+	mother = popponing17
 	1004.1.1 = { #est
 		birth = yes
 	}
@@ -124,6 +140,7 @@ schweinfurt9 = {
 	religion = catholic
 	culture = swabian
 	father = schweinfurt7
+	mother = popponing17
 	1001.1.1 = { #est
 		birth = yes
 	}
@@ -138,6 +155,7 @@ schweinfurt10 = {
 	religion = catholic
 	culture = swabian
 	father = schweinfurt7 #debated
+	mother = popponing17
 	1007.1.1 = { #fic
 		birth = yes
 	}
@@ -153,6 +171,7 @@ schweinfurt11 = {
 	religion = catholic
 	culture = swabian
 	father = schweinfurt7
+	mother = popponing17
 	999.1.1 = { #est
 		birth = yes
 	}
@@ -167,8 +186,12 @@ schweinfurt12 = {
 	religion = catholic
 	culture = swabian
 	father = luitpolding1
+	mother = unruoching1
 	937.1.1 = { #est
 		birth = yes
+	}
+	970.1.1 = {
+		add_spouse = walbeck5 # Eilikia
 	}
 	980.1.15 = {
 		death = yes
@@ -176,12 +199,13 @@ schweinfurt12 = {
 }
 
 schweinfurt13 = {
-	name = "Gerbera" #fictional name, wife of Diepold I of Nordgau
+	name = "Gerberga" #fictional name, wife of Diepold I of Nordgau
 	female = yes
 	dynasty_house = house_schweinfurt
 	religion = catholic
 	culture = swabian
 	father = schweinfurt1
+	mother = arduining2
 	1011.1.1 = { #fic
 		birth = yes
 	}
@@ -197,10 +221,11 @@ schweinfurt14 = {
 	religion = catholic
 	culture = swabian
 	father = schweinfurt7
-	1013.1.1 = { #fic
+	mother = popponing17
+	993.1.1 = { #fic
 		birth = yes
 	}
-	1075.1.1 = { #fic
+	1059.1.1 = { #fic
 		death = yes
 	}
 }

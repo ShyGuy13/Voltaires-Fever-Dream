@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 eberstein1 = {
 	name = "Berthold" # Berthold I of Eberstein
 	dynasty = 125
@@ -57,7 +57,7 @@ eberstein4 = {
 	941.1.1 = { #fic
 		birth = yes
 	}
-	unknown wife
+	#unknown wife
 	1010.1.1 = { #fic
 		death = yes
 	}

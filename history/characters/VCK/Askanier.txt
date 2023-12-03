@@ -67,7 +67,6 @@ askanier4 = {
 
 askanier5 = {
 	name = "Adalbert" #
-	female = yes
 	dynasty = 218
 	religion = catholic
 	culture = saxon

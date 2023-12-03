@@ -1,4 +1,8 @@
-﻿meinharding1 = {
+﻿
+#there are two theories about the ancestry of the Meinhardings
+#they are either a descendant of Engelbert IV. Siegharding or Heinrich III von Eppenstein
+#I went with the Sieghardings
+meinharding1 = {
 	name = "Meinhard" #Meginhard I of Gorizia
 	dynasty_house = house_meinharding
 	culture = austrian

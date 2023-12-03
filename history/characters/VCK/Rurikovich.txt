@@ -18,7 +18,6 @@
 rurikovich2 = {
 	name = "Vladimir" # Vladimir the Great of Kiev
 	dynasty = 331
-	female = yes
 	culture = russian
 	religion = orthodox
 	#father = Sviatoslav I

@@ -1,0 +1,95 @@
+﻿prunn1 = {
+	name = "Bertold" # Bertold von Prunn
+	dynasty_house = house_prunn
+	religion = catholic
+	culture = bavarian
+	father = baboning3
+	#mother = Mathilde von Formbach, daughter of Ulrich of Schweinachgau
+	1007.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1080.1.1 = { #fic
+		death = yes
+	}
+}
+
+prunn2 = {
+	name = "Ulrich" # Ulrich von Prunn
+	dynasty_house = house_prunn
+	religion = catholic
+	culture = bavarian
+	father = prunn1
+	#unknown mother
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1099.1.1 = { #fic
+		death = yes
+	}
+}
+
+prunn3 = {
+	name = "Werner" # Werner I von Prunn
+	dynasty_house = house_prunn
+	religion = catholic
+	culture = bavarian
+	father = prunn1
+	#unknown mother
+	1037.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1105.1.1 = { #fic
+		death = yes
+	}
+}
+
+prunn4 = {
+	name = "Eberhard" # Werner I von Prunn
+	dynasty_house = house_prunn
+	religion = catholic
+	culture = bavarian
+	father = prunn1
+	#unknown mother
+	1041.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1096.1.1 = { #fic
+		death = yes
+	}
+}
+
+prunn5 = {
+	name = "Werner" # Werner I von Prunn
+	dynasty_house = house_prunn
+	religion = catholic
+	culture = bavarian
+	father = prunn1
+	#unknown mother
+	1044.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1102.1.1 = { #fic
+		death = yes
+	}
+}
+
+prunn6 = {
+	name = "Albwin" # Albwin I von Prunn
+	dynasty_house = house_prunn
+	religion = catholic
+	culture = bavarian
+	father = prunn1
+	#unknown mother
+	1048.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1111.1.1 = { #fic
+		death = yes
+	}
+}

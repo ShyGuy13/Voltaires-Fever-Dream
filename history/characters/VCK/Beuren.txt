@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 #sources are very sparse here.
 beuren1 = {
 	name = "Wolftrigel" #Wolftrigel I of Beuren

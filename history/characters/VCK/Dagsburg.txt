@@ -5,10 +5,10 @@
 	culture = pfalzish
 	father = dagsburg3
 	mother = dagsburg3_wife
-	1016.1.1 = { #fic
+	1047.1.1 = { #fic
 		birth = yes
 	}
-	1065.6.28 = {
+	1064.6.28 = {
 		death = yes
 	}
 }
@@ -115,10 +115,10 @@ dagsburg8 = {
 	culture = pfalzish
 	father = dagsburg3
 	mother = dagsburg3_wife
-	1031.1.1 = { #fic
+	1051.1.1 = { #est
 		birth = yes
 	}
-	1098.1.1 = {
+	1098.8.24 = {
 		death = yes
 	}
 }
@@ -170,6 +170,7 @@ dagsburg12 = {
 	dynasty = 158
 	religion = catholic
 	culture = pfalzish
+	father = dagsburg16
 	919.1.1 = { #fic
 		birth = yes
 	}
@@ -219,6 +220,67 @@ dagsburg15 = {
 		birth = yes
 	}
 	1061.1.1 = {
+		death = yes
+	}
+}
+
+dagsburg16 = {
+	name = "Hugo" # Hugo III of Nordgau
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg18
+	876.1.1 = { #fic
+		birth = yes
+	}
+	#Hildegard
+	940.1.1 = {
+		death = yes
+	}
+}
+
+dagsburg17 = {
+	name = "Hugo" # Hugo IV of Nordgau
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg16
+	924.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	959.1.1 = { #fic
+		death = yes
+	}
+}
+
+dagsburg18 = {
+	name = "Eberhard" # Eberhard III of Nordgau
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	#unknown parents
+	#great-great-grandson of Battichos, Hugos or Haichos
+	851.1.1 = { #fic
+		birth = yes
+	}
+	#Adelinda
+	898.1.1 = { #est
+		death = yes
+	}
+}
+
+dagsburg19 = {
+	name = "Eberhard"
+	dynasty = 158
+	religion = catholic
+	culture = pfalzish
+	father = dagsburg18
+	872.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	933.1.1 = {
 		death = yes
 	}
 }

@@ -23,11 +23,6 @@ house_soissons = {
 	name = "dynn_Soissons"
 	dynasty = 211 # Karling
 }
-house_hamburg = {
-	prefix = "dynnp_von"
-	name = "dynn_Hamburg"
-	dynasty = 223 # Udoning
-}
 house_thiers = {
 	prefix = "dynnp_de"
 	name = "dynn_Thiers"
@@ -161,4 +156,9 @@ house_arnsberg = {
 	prefix = "dynnp_von"
 	name = "dynn_Arnsberg"
 	dynasty = 156 # Werl
+}
+house_prunn = {
+	prefix = "dynnp_von"
+	name = "dynn_Prunn"
+	dynasty = 287 # Baboning
 }

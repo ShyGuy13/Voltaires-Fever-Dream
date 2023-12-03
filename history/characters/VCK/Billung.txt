@@ -114,6 +114,7 @@ billung8 = {
 	religion = catholic
 	culture = low_elbish
 	father = billung9
+	mother = billung9_wife
 	912.1.1 = {
 		birth = yes
 	}
@@ -127,8 +128,11 @@ billung9 = {
 	dynasty = 110
 	religion = catholic
 	culture = low_elbish
-	880.1.1 = {
+	880.1.1 = { #est
 		birth = yes
+	}
+	900.1.1 = { # fic
+		add_spouse = billung9_wife # Imma
 	}
 	967.5.26 = {
 		death = yes
@@ -195,7 +199,7 @@ billung13 = {
 }
 
 billung14 = {
-	name = "Mathilde" # wife of Balduin III of Flanders
+	name = "Mathilde" # wife of Balduin III of Flanders & Gottfried I Wigeriche
 	female = yes
 	dynasty = 110
 	religion = catholic
@@ -254,6 +258,66 @@ billung17 = {
 		birth = yes
 	}
 	1042.1.1 = {
+		death = yes
+	}
+}
+
+billung18 = {
+	name = "Wichmann" # 
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung9
+	mother = billung9_wife
+	903.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_older
+	}
+	944.4.23 = {
+		death = yes
+	}
+}
+
+billung19 = {
+	name = "Amelung" # bishop of Verdun
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung9
+	mother = billung9_wife
+	908.1.1 = { #est
+		birth = yes
+	}
+	962.5.5 = {
+		death = yes
+	}
+}
+
+billung20 = {
+	name = "Hidda" # wife of 
+	female = yes
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	887.1.1 = { #est
+		birth = yes
+	}
+	969.1.1 = { #est
+		death = yes
+	}
+}
+
+#wifes
+billung9_wife = {
+	name = "Imma" # 
+	female = yes
+	#dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	881.1.1 = { #fic
+		birth = yes
+	}
+	951.1.1 = { #fic
 		death = yes
 	}
 }

@@ -253,3 +253,18 @@ popponing16 = {
 		death = yes
 	}
 }
+
+popponing17 = {
+	name = "Gerberga" # wife of Heinrich of Schweinfurt
+	female = yes
+	dynasty = 34
+	religion = catholic
+	culture = bavarian
+	father = popponing4
+	985.1.1 = { #est
+		birth = yes
+	}
+	1036.1.1 = { #est
+		death = yes
+	}
+}

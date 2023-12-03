@@ -1,4 +1,4 @@
-chyzani1 = {
+﻿chyzani1 = {
 	name = "Zdislav" #fic for 1054
 	dynasty = 250
 	culture = polabian

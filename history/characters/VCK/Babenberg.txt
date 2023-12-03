@@ -3,6 +3,10 @@
 	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
+	martial = 5
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 7
 	father = babenberg7
 	985.1.1 = {
 		birth = yes
@@ -21,7 +25,14 @@ babenberg2 = {
 	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
+	martial = 5
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 7
 	trait = brave
+	trait = diligent
+	trait = honest
+	trait = education_intrigue_2
 	father = babenberg1
 	mother = immeding3
 	1027.1.1 = { #fic
@@ -61,7 +72,14 @@ babenberg4 = {
 	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
+	martial = 5
+	diplomacy = 4
+	intrigue = 7
+	stewardship = 8
 	trait = beauty_good_2
+	trait = arrogant
+	trait = calm
+	trait = education_martial_3
 	father = babenberg2
 	mother = wettin5
 	1050.1.1 = {
@@ -94,6 +112,10 @@ babenberg7 = {
 	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
+	martial = 5
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
 	father = luitpolding1 # debated
 	mother = unruoching1 # debated
 	940.1.1 = {
@@ -125,6 +147,11 @@ babenberg9 = {
 	dynasty_house = house_babenberg
 	culture = austrian
 	religion = catholic
+	martial = 5
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	trait = lifestyle_hunter
 	father = babenberg7
 	978.1.1 = { #fic
 		birth = yes
@@ -197,5 +224,51 @@ babenberg13 = {
 			death_reason = death_battle
 			#killer = Warmann von Konstanz
 		}
+	}
+}
+
+babenberg14 = {
+	name = "Kunigunde"
+	female = yes
+	dynasty_house = house_babenberg
+	culture = austrian
+	religion = catholic
+	father = babenberg7
+	980.1.1 = { #fic
+		birth = yes
+	}
+	1032.1.1 = { #fic
+		death = yes
+	}
+}
+
+babenberg15 = {
+	name = "Hemma" # wife of Rapoto III of Nordgau
+	female = yes
+	dynasty_house = house_babenberg
+	culture = austrian
+	religion = catholic
+	father = babenberg7
+	989.1.1 = { #fic
+		birth = yes
+	}
+	1048.1.1 = { #fic
+		death = yes
+	}
+}
+
+babenberg16 = {
+	name = "Christine" # nun
+	female = yes
+	dynasty_house = house_babenberg
+	culture = austrian
+	religion = catholic
+	trait = devoted
+	father = babenberg7
+	993.1.1 = { #fic
+		birth = yes
+	}
+	1059.1.1 = { #fic
+		death = yes
 	}
 }

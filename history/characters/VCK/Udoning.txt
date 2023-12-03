@@ -170,3 +170,32 @@ udoning11 = {
 		}
 	}
 }
+
+udoning12 = {
+	name = "Heinrich" # Heinrich of Hamburg
+	dynasty = 223
+	religion = catholic
+	culture = low_elbish
+	trait = bastard
+	father = udoning1 #debated
+	mother = billung12
+	1035.1.1 = {
+		birth = yes
+	}
+	#Margareta von Loewen
+	1054.1.1 = {
+		effect = {
+			set_relation_friend = {
+				reason = friend_generic_history
+				target = character:nakoning1  # Gottschalk Nakoning
+			}
+			set_relation_friend = {
+				reason = friend_generic_history
+				target = character:nakoning7  # Heinrich Nakoning
+			}
+		}
+	}
+	1093.10.31 = {
+		death = yes
+	}
+}

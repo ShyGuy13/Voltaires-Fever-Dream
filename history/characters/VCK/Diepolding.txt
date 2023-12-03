@@ -4,6 +4,7 @@
 	religion = catholic
 	culture = bavarian
 	father = diepolding5
+	mother = dillingen17
 	1005.1.1 = { #est
 		birth = yes
 	}
@@ -25,8 +26,13 @@ diepolding2 = {
 	1030.1.1 = { #est
 		birth = yes
 	}
+	1050.1.1 = { #fic
+		add_spouse = zahringen3 # Luitgard
+	}
 	1078.8.7 = {
-		death = yes
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 
@@ -36,8 +42,12 @@ diepolding3 = {
 	religion = catholic
 	culture = bavarian
 	father = diepolding5
+	mother = dillingen17
 	1000.1.1 = { #fic
 		birth = yes
+	}
+	1018.1.1 = { #fic
+		add_spouse = babenberg15 # Hemma
 	}
 	1050.6.19 = {
 		death = yes
@@ -45,15 +55,17 @@ diepolding3 = {
 }
 
 diepolding4 = {
-	name = "Ulrich"
+	name = "Ulrich" # Ulrich I of Salzachgau
 	dynasty = 26
 	religion = catholic
 	culture = bavarian
 	father = diepolding5
-	1005.1.1 = { #fic
+	mother = dillingen17
+	1002.1.1 = { #fic
 		birth = yes
 	}
-	1051.3.5 = {
+	#unknown wife
+	1057.3.5 = {
 		death = yes
 	}
 }
@@ -67,26 +79,31 @@ diepolding5 = {
 	980.1.1 = { #fic
 		birth = yes
 	}
+	1005.1.1 = { #fic
+		add_spouse = dillingen17 
+	}
 	1025.1.1 = { #fic
 		death = yes
 	}
 }
 
 diepolding6 = {
-	name = "Rapato" #Rapato I of Nordgau
+	name = "Rapato" #Rapato I of Traungau
 	dynasty = 26
 	religion = catholic
 	culture = bavarian
-	956.1.1 = {
+	#unknown parents
+	936.1.1 = { #fic
 		birth = yes
 	}
-	984.1.1 = {
+	#unknown wife
+	984.10.7 = {
 		death = yes
 	}
 }
 
 diepolding7 = {
-	name = "Rapoto" # 
+	name = "Rapoto" # Rapoto IV of Nordgau
 	dynasty = 26
 	religion = catholic
 	culture = bavarian
@@ -95,8 +112,14 @@ diepolding7 = {
 	1026.1.1 = {
 		birth = yes
 	}
+	#Mathilde Siegharding OR Mathilde of Formbach
+	1048.1.1 = { #est
+		add_spouse = siegharding29 # Mathilde
+	}
 	1080.10.15 = {
-		death = yes
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 
@@ -120,16 +143,114 @@ diepolding8 = {
 }
 
 diepolding9 = {
-	name = "Heinrich"
+	name = "Heinrich" # Heinrich I of Berg-Schelklingen
 	dynasty = 26
 	religion = catholic
 	culture = bavarian
-	father = diepolding1
-	mother = schweinfurt13
+	father = diepolding1 #debated, Poppo of Berg-Schelklingen
+	mother = schweinfurt13 #debated, Sophia 
 	1032.1.1 = { #fic
 		birth = yes
 	}
+	#Adelheid von Mochental, daughert of Diepold II. von Giengen and Liutgard von Zähringen
 	1116.9.24 = {
 		death = yes
 	}
 }
+
+diepolding10 = {
+	name = "Ulrich" # Ulrich II of Salzachgau
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	father = diepolding4
+	#unknown mother
+	1028.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1079.1.10 = {
+		death = yes
+	}
+}
+
+diepolding11 = {
+	name = "Rapoto" # Rapoto V of Nordgau 
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	father = diepolding7
+	mother = siegharding29
+	1050.1.1 = { #fic
+		birth = yes
+	}
+	#Elisabeth from Lorraine, widow of Kuno the Younger of Rott
+	1099.4.14 = {
+		death = yes
+	}
+}
+
+diepolding12 = {
+	name = "Rapoto" # Rapoto V of Nordgau 
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	father = diepolding7
+	mother = siegharding29
+	1053.1.1 = { #fic
+		birth = yes
+		give_nickname = nick_the_rich
+	}
+	#Adelheid von Frontenhausen
+	1099.2.24 = {
+		death = yes
+	}
+}
+
+diepolding13 = {
+	name = "Mathilde" # wife of Ulrich III of Formbach
+	female = yes
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	father = diepolding7
+	mother = siegharding29
+	1057.1.1 = { #fic
+		birth = yes
+	}
+	1125.1.1 = { #est
+		death = yes
+	}
+}
+
+diepolding14 = {
+	name = "Hermann" # bishop of Augsburg
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	father = diepolding7
+	mother = siegharding29
+	1061.1.1 = { #fic
+		birth = yes
+	}
+	1133.3.18 = {
+		death = yes
+	}
+}
+
+diepolding15 = {
+	name = "Hedwig" # wife of Wolfram II of Abenberg
+	female = yes
+	dynasty = 26
+	religion = catholic
+	culture = bavarian
+	father = diepolding7
+	mother = siegharding29
+	1065.1.1 = { #fic
+		birth = yes
+	}
+	1123.1.1 = { #fic
+		death = yes
+	}
+}
+

@@ -27,12 +27,13 @@ unruoching2 = {
 	}
 }
 
-unruoching2 = {
+unruoching3 = {
 	name = "Adalhard" # Adalhard of Burc
 	dynasty = 316
 	religion = catholic
 	culture = austrian
-	831.1.1 = { #fic
+	father = unruoching4
+	841.1.1 = { #fic
 		birth = yes
 	}
 	874.7.1 = { #est
@@ -40,3 +41,150 @@ unruoching2 = {
 	}
 }
 
+unruoching4 = {
+	name = "Eberhard" # Eberhard of Friuli
+	dynasty = 316
+	religion = catholic
+	culture = austrian
+	810.1.1 = { #est
+		birth = yes
+	}
+	#Gisela, daughter of Louis the Pious Karling
+	866.12.16 = {
+		death = yes
+	}
+}
+
+unruoching5 = {
+	name = "Eberhard" # 
+	dynasty = 316
+	religion = catholic
+	culture = austrian
+	father = unruoching4
+	837.1.1 = { #est
+		birth = yes
+	}
+	840.6.20 = {
+		death = yes
+	}
+}
+
+unruoching6 = {
+	name = "Ingeltrud" # 
+	female = yes
+	dynasty = 316
+	religion = catholic
+	culture = austrian
+	father = unruoching4
+	839.1.1 = { #est
+		birth = yes
+	}
+	870.4.2 = {
+		death = yes
+	}
+}
+
+unruoching7 = {
+	name = "Unruoch" # Unruoch III of Friuli
+	dynasty = 316
+	religion = catholic
+	culture = austrian
+	father = unruoching4
+	843.1.1 = { #est
+		birth = yes
+	}
+	874.6.1 = {
+		death = yes
+	}
+}
+
+unruoching8 = {
+	name = "Berengar" # Berengar I of Friuli
+	dynasty = 316
+	religion = catholic
+	culture = austrian
+	father = unruoching4
+	850.1.1 = { #est
+		birth = yes
+	}
+	#Bertila von Spoleto
+	#Anna
+	924.4.7 = {
+		death = yes
+	}
+}
+
+unruoching9 = {
+	name = "Rudolf" #
+	dynasty = 316
+	religion = catholic
+	culture = austrian
+	father = unruoching4
+	852.1.1 = { #est
+		birth = yes
+	}
+	892.5.1 = {
+		death = yes
+	}
+}
+
+unruoching10 = {
+	name = "Alpais" # 
+	female = yes
+	dynasty = 316
+	religion = catholic
+	culture = austrian
+	father = unruoching4
+	854.1.1 = { #fic
+		birth = yes
+	}
+	859.5.1 = { #fic
+		death = yes
+	}
+}
+
+unruoching11 = {
+	name = "Heilwig" # wife of Hucpald of Dillingen
+	female = yes
+	dynasty = 316
+	religion = catholic
+	culture = austrian
+	father = unruoching4
+	857.1.1 = { #fic
+		birth = yes
+	}
+	895.1.1 = { #est
+		death = yes
+	}
+}
+
+unruoching12 = {
+	name = "Gisela" # nun
+	female = yes
+	dynasty = 316
+	religion = catholic
+	culture = austrian
+	trait = devoted
+	father = unruoching4
+	840.1.1 = { #fic
+		birth = yes
+	}
+	863.4.1 = {
+		death = yes
+	}
+}
+
+unruoching13 = {
+	name = "Judith" # wife of Konrad II of Burgund
+	female = yes
+	dynasty = 316
+	religion = catholic
+	culture = austrian
+	father = unruoching4
+	843.1.1 = { #fic
+		birth = yes
+	}
+	888.1.1 = { #fic
+		death = yes
+	}
+}

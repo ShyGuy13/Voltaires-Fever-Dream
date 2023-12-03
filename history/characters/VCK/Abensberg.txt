@@ -3,10 +3,12 @@
 	dynasty = 35
 	religion = catholic
 	culture = bavarian
-	1006.1.1 = { #fic
+	#unknown parents
+	1001.1.1 = { #est
 		birth = yes
 	}
-	1065.1.1 = {
+	#unknown wife
+	1065.1.1 = { #est
 		death = yes
 	}
 }
@@ -26,7 +28,7 @@ abensberg2 = {
 }
 
 abensberg3 = {
-	name = "Rotpert" #Rotpert of Umelsdorf
+	name = "Rudbert" #Rotpert of Umelsdorf
 	dynasty = 35
 	religion = catholic
 	culture = bavarian
@@ -40,13 +42,16 @@ abensberg3 = {
 }
 
 abensberg4 = {
-	name = "Eberhard" #Eberhard I of Ratzenhofen
+	name = "Eberhard" #Eberhard I of Ratzenhofen-Moosburg
 	dynasty = 35
 	religion = catholic
 	culture = bavarian
 	father = abensberg1
 	1034.1.1 = { #fic
 		birth = yes
+	}
+	1054.1.1 = { #fic
+		add_spouse = moosburg3 # Mathilda
 	}
 	1097.1.1 = {
 		death = yes
@@ -87,7 +92,8 @@ abensberg6 = {
 	religion = catholic
 	culture = bavarian
 	father = abensberg4
-	1048.1.1 = { #fic
+	mother = moosburg3
+	1052.1.1 = { #fic
 		birth = yes
 	}
 	1115.1.1 = {
@@ -101,7 +107,8 @@ abensberg7 = {
 	religion = catholic
 	culture = bavarian
 	father = abensberg4
-	1052.1.1 = { #fic
+	mother = moosburg3
+	1054.1.1 = { #fic
 		birth = yes
 	}
 	1085.1.1 = {

@@ -5,6 +5,7 @@
 	culture = austrian
 	religion = catholic
 	father = formbach2
+	#unknown mother
 	1037.1.1 = {
 		birth = yes
 	}
@@ -19,10 +20,12 @@ formbach2 = {
 	culture = austrian
 	religion = catholic
 	father = formbach3
-	1005.1.1 = {
+	mother = wigeriching28
+	1005.1.1 = { #est
 		birth = yes
 	}
-	1050.1.1 = {
+	#unknown wife
+	1050.2.8 = {
 		death = yes
 	}
 }
@@ -35,6 +38,9 @@ formbach3 = {
 	father = formbach4
 	980.1.1 = { #fic
 		birth = yes
+	}
+	1025.1.1 = {
+		add_spouse = wigeriching28 # Regilla
 	}
 	1055.1.1 = {
 		death = yes
@@ -61,7 +67,8 @@ formbach5 = {
 	culture = austrian
 	religion = catholic
 	father = formbach3
-	1005.1.1 = { #fic
+	mother = wigeriching28
+	998.1.1 = { #fic
 		birth = yes
 	}
 	1050.1.1 = {
@@ -78,7 +85,7 @@ formbach6 = {
 	1010.1.1 = { #fic
 		birth = yes
 	}
-	1066.1.1 = {
+	1067.2.6 = {
 		death = yes
 	}
 }
@@ -105,10 +112,10 @@ formbach8 = {
 	culture = austrian
 	religion = catholic
 	father = formbach9
-	980.1.1 = { #fic
+	992.1.1 = { #fic
 		birth = yes
 	}
-	1040.1.1 = {
+	1040.8.28 = {
 		death = yes
 	}
 }
@@ -122,7 +129,7 @@ formbach9 = {
 	960.1.1 = { #fic
 		birth = yes
 	}
-	1025.1.1 = {
+	1025.1.1 = { #est
 		death = yes
 	}
 }
@@ -187,7 +194,9 @@ formbach14 = {
 	dynasty = 5
 	culture = austrian
 	religion = catholic
+	trait = saint
 	father = formbach3
+	mother = wigeriching28
 	1010.1.1 = {
 		birth = yes
 	}
@@ -207,6 +216,68 @@ formbach15 = {
 		birth = yes
 	}
 	1094.1.1 = { #est
+		death = yes
+	}
+}
+
+formbach16 = {
+	name = "Heinrich" # 
+	dynasty = 5
+	culture = austrian
+	religion = catholic
+	father = formbach9
+	983.1.1 = { #fic
+		birth = yes
+	}
+	1030.1.1 = { #est
+		death = yes
+	}
+}
+
+formbach17 = {
+	name = "Mathilde" # wife of Rapoto IV of Nordgau
+	female = yes
+	dynasty = 5
+	culture = austrian
+	religion = catholic
+	father = formbach3
+	mother = wigeriching28
+	1007.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1068.1.1 = { #fic
+		death = yes
+	}
+}
+
+formbach18 = {
+	name = "Dietmar" # bishop of Salzburg
+	dynasty = 5
+	culture = austrian
+	religion = catholic
+	father = formbach8
+	1040.1.1 = { #est
+		birth = yes
+	}
+	1101.9.28 = {
+		death = yes
+	}
+}
+
+formbach19 = {
+	name = "Ekbert" # Ekbert I of Formbach
+	dynasty = 5
+	culture = austrian
+	religion = catholic
+	father = formbach8
+	1036.1.1 = { #fic
+		birth = yes
+	}
+	1054.1.1 = { #fic
+		add_spouse = formbach1 # Mathilde
+	}
+	1109.1.1 = {
 		death = yes
 	}
 }
