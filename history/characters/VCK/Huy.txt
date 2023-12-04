@@ -1,0 +1,32 @@
+#DONE FOR 1054
+# de Huy = de Beaufort-Spontin
+﻿huy1 = {
+	name = "Boson" # Boson I of Huy
+	dynasty = 317
+	religion = catholic
+	culture = wallonian
+	#unknown parents
+	1034.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1091.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿huy2 = {
+	name = "Gauthier" # Gauthier I of Huy
+	dynasty = 317
+	religion = catholic
+	culture = wallonian
+  father = huy1
+	#unknown mother
+	1051.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1106.1.1 = { #fic
+		death = yes
+	}
+}
