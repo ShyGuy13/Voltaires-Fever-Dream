@@ -33,9 +33,11 @@ habsburg3 = {
 	culture = swiss
 	religion = catholic
 	father = habsburg7
+	##Ida of Calw (Itha de MONTFORT)
 	940.1.1 = { #fic
 		birth = yes
 	}
+	#Luitgard Eberharding, daugher of Eberhard
 	991.1.1 = {
 		death = yes
 	}
@@ -88,10 +90,13 @@ habsburg7 = {
 	dynasty = 70
 	culture = swiss
 	religion = catholic
+	#father = Hugo III of Dagsburg???
+	#mother = Hildegard???
 	920.1.1 = { #est
 		birth = yes
 		give_nickname = nick_the_rich
 	}
+	#Ida of Calw (Itha de MONTFORT)
 	973.3.26 = {
 		death = yes
 	}
