@@ -7,7 +7,9 @@
 	997.1.1 = {
 		birth = yes
 	}
-	#spouse = Adelheid of Rheinfelden
+	1020.1.1 = { #fic
+		add_spouse = rheinfelden5 # Adelheid
+	}
 	1057.11.7 = {
 		death = yes
 	}
@@ -79,7 +81,7 @@ udoning6 = {
 	religion = catholic
 	culture = low_elbish
 	father = udoning1
-	#mother = Adelheid von Rheinfelden
+	mother = rheinfelden5
 	1024.1.1 = { #est
 		birth = yes
 	}
