@@ -4,6 +4,7 @@
 	religion = catholic
 	culture = swiss
 	father = rheinfelden2
+	#Liutgard of Nellenburg, daughter of Eberhard III, widow of Lanzelin of Habsburg
 	1027.1.1 = { #est
 		birth = yes
 	}
@@ -23,9 +24,11 @@ rheinfelden2 = {
 	dynasty = 68
 	religion = catholic
 	culture = swiss
+	father = rheinfelden6
 	997.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1035.1.1 = { #fic
 		death = yes
 	}
@@ -37,6 +40,7 @@ rheinfelden3 = {
 	religion = catholic
 	culture = swiss
 	father = rheinfelden2
+	#unknown mother
 	1030.1.1 = {
 		birth = yes
 		give_nickname = nick_the_fat
@@ -53,10 +57,42 @@ rheinfelden4 = {
 	religion = catholic
 	culture = swiss
 	father = rheinfelden2
+	#unknown mother
 	1023.1.1 = {
 		birth = yes
 	}
 	1076.1.1 = {
+		death = yes
+	}
+}
+
+rheinfelden5 = {
+	name = "Adelheid" # wife of Lothar II Udoning
+	female = yes
+	dynasty = 68
+	religion = catholic
+	culture = swiss
+	father = rheinfelden6
+	#Liutgard of Nellenburg, daughter of Eberhard III, widow of Lanzelin of Habsburg
+	999.1.1 = { #est
+		birth = yes
+	}
+	1057.12.7 = {
+		death = yes
+	}
+}
+
+rheinfelden6 = {
+	name = "Kuno" # 
+	dynasty = 68
+	religion = catholic
+	culture = swiss
+	#father = King Rudolf II of Burgundy???
+	965.1.1 = { #est
+		birth = yes
+	}
+	#Liutgard of Nellenburg, daughter of Eberhard III, widow of Lanzelin of Habsburg
+	1001.1.1 = { #est
 		death = yes
 	}
 }
