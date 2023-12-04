@@ -6,6 +6,9 @@ gerolding1 = {
 	1014.1.1 = { #est
 		birth = yes
 	}
+	1030.1.1 = {
+		add_spouse = rheinfelden4
+	}
 	1061.1.1 = {
 		death = yes
 	}
@@ -17,6 +20,7 @@ gerolding2 = {
 	culture = arpitan
 	religion = catholic
 	father = gerolding1
+	mother = rheinfelden4
 	1039.1.1 = { #fic
 		birth = yes
 	}
