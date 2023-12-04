@@ -4,20 +4,26 @@
 	religion = catholic
 	culture = swiss
 	father = rheinfelden2
-	1025.1.1 = {
+	1027.1.1 = { #est
 		birth = yes
 	}
+	1059.1.1 = {
+		add_spouse = salier9 # Mathilde
+	}
+	#1062 Adelheid of Susa
 	1080.10.16 = {
-		death = yes
+		death = {
+			death_reason = death_wounded
+		}
 	}
 }
 
 rheinfelden2 = {
-	name = "Kuno" #
+	name = "Kuno" # Kuno of Rheinfelden
 	dynasty = 68
 	religion = catholic
 	culture = swiss
-	995.1.1 = { #est
+	997.1.1 = { #est
 		birth = yes
 	}
 	1035.1.1 = { #fic
@@ -36,6 +42,21 @@ rheinfelden3 = {
 		give_nickname = nick_the_fat
 	}
 	1070.8.6 = {
+		death = yes
+	}
+}
+
+rheinfelden4 = {
+	name = "Emma" #fictional name, wife of Gerold of Geneva
+	female = yes
+	dynasty = 68
+	religion = catholic
+	culture = swiss
+	father = rheinfelden2
+	1023.1.1 = {
+		birth = yes
+	}
+	1076.1.1 = {
 		death = yes
 	}
 }
