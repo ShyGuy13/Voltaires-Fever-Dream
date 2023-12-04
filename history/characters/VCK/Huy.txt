@@ -6,11 +6,11 @@
 	religion = catholic
 	culture = wallonian
 	#unknown parents
-	1034.1.1 = { #fic
+	1004.1.1 = { #fic
 		birth = yes
 	}
 	#unknown wife
-	1091.1.1 = { #fic
+	1066.1.1 = { #fic
 		death = yes
 	}
 }
@@ -20,13 +20,13 @@
 	dynasty = 317
 	religion = catholic
 	culture = wallonian
-  father = huy1
+  	father = huy1
 	#unknown mother
-	1051.1.1 = { #fic
+	1039.1.1 = { #fic
 		birth = yes
 	}
 	#unknown wife
-	1106.1.1 = { #fic
+	1091.1.1 = { #fic
 		death = yes
 	}
 }
