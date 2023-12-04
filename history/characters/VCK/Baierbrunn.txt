@@ -1,0 +1,15 @@
+#DONE FOR 1054
+﻿baierbrunn1 = {
+	name = "Sigibodo" # Sigibodo I von Baierbrunn
+	dynasty = 168
+	religion = catholic
+	culture = bavarian
+	#unknown parents
+	1037.1.1 = { #fic
+		birth = yes
+	}
+  #unknown wife
+	1096.1.1 = { #fic
+		death = yes
+	}
+}
