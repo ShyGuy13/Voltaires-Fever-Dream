@@ -1,12 +1,70 @@
 ﻿tubingen1 = {
-	name = "Anselm" # Anselm I of Tübingen
+	name = "Anselm" # Anselm I the Younger of Nagoldgau
 	dynasty = 56
 	religion = catholic
 	culture = swabian
+	father = tubingen2
+	1024.1.1 = { #fic
+		birth = yes
+	}
+	#Bertha von Rheinfelden
+	1087.12.25 = {
+		death = yes
+	}
+}
+
+﻿tubingen2 = {
+	name = "Hugo" # Hugo II of Nagoldgau
+	dynasty = 56
+	religion = catholic
+	culture = swabian
+	982.1.1 = { #fic
+		birth = yes
+	}
+	1037.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿tubingen3 = {
+	name = "Hugo" # Hugo III of Nagoldgau / Hugo I of Tübingen
+	dynasty = 56
+	religion = catholic
+	culture = swabian
+	father = tubingen2
 	1020.1.1 = { #fic
 		birth = yes
 	}
-	1087.12.25 = {
+	#unknown wife
+	1089.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿tubingen4 = {
+	name = "Sigibodo" # Sigibodo I of Ruck
+	dynasty = 56
+	religion = catholic
+	culture = swabian
+	father = tubingen2
+	1028.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1083.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿tubingen5 = {
+	name = "Anselm" # 
+	dynasty = 56
+	religion = catholic
+	culture = swabian
+	982.1.1 = { #fic
+		birth = yes
+	}
+	1037.1.1 = { #fic
 		death = yes
 	}
 }
