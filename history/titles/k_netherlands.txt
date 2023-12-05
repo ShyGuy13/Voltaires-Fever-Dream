@@ -180,7 +180,7 @@ d_lower_lorraine = {
 		holder = wigeriching17 # Godefroid II
 	}
 	1023.9.26 = {
-		holder = wigeriching19 # Gothelon I
+		holder = wigeriching3 # Gothelon I
 	}
 	1044.4.19 = {
 		holder = luxemburg3 # Friedrich I
@@ -194,7 +194,7 @@ c_antwerpen = {
 		holder = wigeriching17 # Godefroid II
 	}
 	1023.9.26 = {
-		holder = wigeriching19 # Gothelon I
+		holder = wigeriching3 # Gothelon I
 	}
 	1044.4.19 = {
 		holder = luxemburg3 # Friedrich I

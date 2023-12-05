@@ -83,6 +83,7 @@ luxemburg6 = {
 	919.1.1 = { #est
 		birth = yes
 	}
+	#Hedwig, daughter of Berthold of Schweinfurt or Eberhard of Nordgau???????
 	998.10.28 = {
 		death = yes
 	}
@@ -217,6 +218,130 @@ luxemburg15 = {
 		birth = yes
 	}
 	1090.1.1 = { #fic
+		death = yes
+	}
+}
+
+luxemburg16 = {
+	name = "Heinrich" # Heinrich V of Bavaria & Heinrich I of Luxemburg
+	dynasty_house = house_luxemburg
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg6
+	960.1.1 = { #est
+		birth = yes
+	}
+	#no wife
+	1026.2.27 = {
+		death = yes
+	}
+}
+
+luxemburg17 = {
+	name = "Giselbert" # Giselbert of Wallerfangen
+	dynasty_house = house_luxemburg
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg6
+	968.1.1 = { #est
+		birth = yes
+	}
+	#no wife
+	1004.5.18 = {
+		death = {
+			death_reason = death_wounded_1
+		}
+	}
+}
+
+luxemburg18 = {
+	name = "Dietrich" # bishop of Metz
+	dynasty_house = house_luxemburg
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg6
+	973.1.1 = { #fic
+		birth = yes
+	}
+	#no wife
+	1047.4.30 = {
+		death = yes
+	}
+}
+
+luxemburg19 = {
+	name = "Adalbert" # monk
+	dynasty_house = house_luxemburg
+	religion = catholic
+	culture = moselle_franconian
+	trait = devoted
+	father = luxemburg6
+	977.1.1 = { #fic
+		birth = yes
+	}
+	1037.1.1 = { #est
+		death = yes
+	}
+}
+
+luxemburg20 = {
+	name = "Liutgard" # wife of Arnulf of Westfriesland
+	female = yes
+	dynasty_house = house_luxemburg
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg6
+	979.1.1 = { #fic
+		birth = yes
+	}
+	1005.5.14 = { #est
+		death = yes
+	}
+}
+
+luxemburg21 = {
+	name = "Kunigunde" # wife of Emperor Heinrich II Liudolfing
+	female = yes
+	dynasty_house = house_luxemburg
+	religion = catholic
+	culture = moselle_franconian
+	trait = saint
+	father = luxemburg6
+	982.1.1 = { #est
+		birth = yes
+	}
+	1033.3.3 = {
+		death = yes
+	}
+}
+
+luxemburg22 = {
+	name = "Eva" # wife of Gerhard III of Metz
+	female = yes
+	dynasty_house = house_luxemburg
+	religion = catholic
+	culture = moselle_franconian
+	father = luxemburg6
+	984.1.1 = { #fic
+		birth = yes
+	}
+	1029.4.19 = { #est
+		death = yes
+	}
+}
+
+luxemburg23 = {
+	name = "Ermentrud" # nun
+	female = yes
+	dynasty_house = house_luxemburg
+	religion = catholic
+	culture = moselle_franconian
+	trait = devoted
+	father = luxemburg6
+	989.1.1 = { #fic
+		birth = yes
+	}
+	1051.1.1 = { #fic
 		death = yes
 	}
 }

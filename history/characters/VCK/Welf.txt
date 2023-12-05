@@ -104,7 +104,7 @@ welf7 = {
 	}
 	1045.6.12 = {
 		death = {
-			death_reason = death_fell_from_high_ground
+			death_reason = death_fall
 		}
 	}
 }

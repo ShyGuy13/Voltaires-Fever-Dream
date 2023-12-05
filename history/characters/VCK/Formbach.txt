@@ -26,7 +26,9 @@ formbach2 = {
 	}
 	#unknown wife
 	1050.2.8 = {
-		death = yes
+		death = {
+			death_reason = death_murdered_by_rebels
+		}
 	}
 }
 
@@ -71,8 +73,10 @@ formbach5 = {
 	998.1.1 = { #fic
 		birth = yes
 	}
-	1050.1.1 = {
-		death = yes
+	1050.2.1 = {
+		death = {
+			death_reason = death_murdered_by_rebels
+		}
 	}
 }
 

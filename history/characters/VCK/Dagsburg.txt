@@ -100,6 +100,7 @@ dagsburg7 = {
 	religion = catholic
 	culture = pfalzish
 	father = dagsburg12
+	mother = wigeriching23
 	945.1.1 = { #est
 		birth = yes
 	}
@@ -174,7 +175,9 @@ dagsburg12 = {
 	919.1.1 = { #fic
 		birth = yes
 	}
-	#945 = Luitgard, daughter of count Wigerich
+	945.1.1 = {
+		add_spouse = wigeriching23 # Liutgard
+	}
 	967.2.18 = {
 		death = yes
 	}

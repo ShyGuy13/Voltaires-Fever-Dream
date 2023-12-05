@@ -33,6 +33,7 @@ reginaring3 = {
 	religion = catholic
 	culture = picard
 	father = reginaring6
+	mother = cappenberg10
 	1018.1.1 = {
 		birth = yes
 	}
@@ -86,6 +87,9 @@ reginaring6 = {
 	995.1.1 = {
 		birth = yes
 	}
+	1015.1.1 = {
+		add_spouse = cappenberg10 # Mathilda
+	}
 	1039.1.1 = {
 		death = yes
 	}
@@ -128,6 +132,9 @@ reginaring9 = {
 	father = reginaring7
 	992.1.1 = { #est
 		birth = yes
+	}
+	1020.1.1 = { #fic
+		add_spouse = wigeriching7 # Oda
 	}
 	1054.6.19 = {
 		death = yes
@@ -214,7 +221,9 @@ reginaring15 = {
 		birth = yes
 	}
 	939.10.2 = {
-		death = yes
+		death = {
+			death_reason = death_drowned
+		}
 	}
 }
 

@@ -8,6 +8,10 @@
 		birth = yes
 		give_nickname = nick_with_the_long_moustaches
 	}
+	#Goda, sister of Edward the Confessor
+	1049.1.1 = {
+		add_spouse = wigeriching10 # Ida
+	}
 	1087.1.1 = { #est
 		death = yes
 	}
@@ -19,7 +23,8 @@ boulogne2 = {
 	religion = catholic
 	culture = picard
 	father = boulogne1
-	1048.1.1 = { #est
+	mother = wigeriching10
+	1054.1.1 = { #est
 		birth = yes
 	}
 	1127.1.1 = { #est

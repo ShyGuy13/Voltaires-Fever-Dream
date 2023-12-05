@@ -5,6 +5,7 @@
 	religion = catholic
 	culture = lorrainian
 	father = wigeriching14
+	mother = konrading5
 	1018.1.1 = {
 		birth = yes
 	}
@@ -33,10 +34,13 @@ wigeriching3 = {
 	dynasty = 120
 	religion = catholic
 	culture = wallonian
-	967.1.1 = {
+	father = wigeriching18
+	mother = billung14
+	972.1.1 = { #est
 		birth = yes
 		give_nickname = nick_the_great
 	}
+	#Urraca d'Ivrea OR Barbe de Lebarten (Lebarten = Laurenburg = Nassau???)
 	1044.4.19 = {
 		death = yes
 	}
@@ -66,6 +70,9 @@ wigeriching5 = {
 	1020.1.1 = {
 		birth = yes
 	}
+	1057.7.28 = {
+		name = "Stephanus"
+	}
 	1058.3.29 = {
 		death = yes
 	}
@@ -78,7 +85,7 @@ wigeriching6 = {
 	religion = catholic
 	culture = wallonian
 	father = wigeriching3
-	1000.1.1 = { #fic
+	996.1.1 = { #fic
 		birth = yes
 	}
 	1067.1.1 = {
@@ -93,16 +100,16 @@ wigeriching7 = {
 	religion = catholic
 	culture = wallonian
 	father = wigeriching3
-	1005.1.1 = { #fic
+	1003.1.1 = { #fic
 		birth = yes
 	}
-	1070.1.1 = { #fic
+	1069.1.1 = { #fic
 		death = yes
 	}
 }
 
 wigeriching8 = {
-	name = "Mathilde" # wife of Heinrich I of Pfalz
+	name = "Mathilde" # wife of Sigebodo of Saintois & Heinrich I of Pfalz
 	female = yes
 	dynasty = 120
 	religion = catholic
@@ -113,7 +120,7 @@ wigeriching8 = {
 	}
 	1060.6.27 = {
 		death = {
-			death_reason = death_viciously_dismembered
+			death_reason = death_chopped_to_pieces
 			killer = ezzoning2
 		}
 	}
@@ -124,13 +131,20 @@ wigeriching9 = {
 	dynasty = 120
 	religion = catholic
 	culture = wallonian
+	trait = hunchbacked
 	father = wigeriching2
-	1040.1.1 = {
+	1040.1.1 = { #est
 		birth = yes
 		give_nickname = nick_the_hunchback
 	}
+	1069.1.1 = {
+		add_spouse = attoning1 # Mathilde
+	}
 	1076.2.27 = {
-		death = yes
+		death = {
+			death_reason = death_murder
+			#killer = Robert I of Flanders
+		}
 	}
 }
 
@@ -141,7 +155,7 @@ wigeriching10 = {
 	religion = catholic
 	culture = wallonian
 	father = wigeriching2
-	1042.1.1 = {
+	1038.1.1 = { #est
 		birth = yes
 	}
 	1113.4.13 = {
@@ -186,6 +200,7 @@ wigeriching13 = {
 	religion = catholic
 	culture = wallonian
 	father = wigeriching14
+	mother = konrading5
 	1020.1.1 = { #est
 		birth = yes
 	}
@@ -203,6 +218,9 @@ wigeriching14 = {
 	994.1.1 = { #est
 		birth = yes
 	}
+	1012.1.1 = {
+		add_spouse = konrading5 # Mathilda
+	}
 	1026.1.1 = {
 		death = yes
 	}
@@ -214,6 +232,7 @@ wigeriching15 = {
 	religion = catholic
 	culture = wallonian
 	father = wigeriching14
+	mother = konrading5
 	1022.1.1 = { #est
 		birth = yes
 	}
@@ -231,6 +250,7 @@ wigeriching16 = {
 	965.1.1 = { #est
 		birth = yes
 	}
+	#Richilde, daughter of Folmar I of Metz of Bliesgau
 	1026.4.11 = {
 		death = yes
 	}
@@ -243,9 +263,10 @@ wigeriching17 = {
 	culture = lorrainian
 	father = wigeriching18
 	mother = billung14
-	966.1.1 = { #est
+	968.1.1 = { #est
 		birth = yes
 	}
+	#no wife
 	1023.9.26 = {
 		death = yes
 		give_nickname = nick_the_childless
@@ -273,17 +294,16 @@ wigeriching18 = {
 }
 
 wigeriching19 = {
-	name = "Gothelon" # Gothelon I of Upper Lorraine
+	name = "Giselbert" #
 	dynasty = 120
 	religion = catholic
 	culture = lorrainian
-	father = wigeriching18
-	mother = billung14
-	970.1.1 = { #est
+	father = wigeriching21
+	916.1.1 = { #fic
 		birth = yes
-		give_nickname = nick_the_great
 	}
-	1044.4.19 = {
+	#Hedwig
+	965.1.1 = { #est
 		death = yes
 	}
 }
@@ -307,9 +327,12 @@ wigeriching21 = {
 	dynasty = 120
 	religion = catholic
 	culture = lorrainian
+	father = wigeriching29 # debated
+	#unknown mother
 	870.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	922.1.1 = {
 		death = yes
 	}
@@ -335,7 +358,7 @@ wigeriching23 = {
 	dynasty = 120
 	religion = catholic
 	culture = lorrainian
-	father = wigeriching21
+	father = wigeriching21 # she is in fact a daughter of a different Wigerich, son of Roric
 	914.1.1 = { #fic
 		birth = yes
 	}
@@ -392,6 +415,7 @@ wigeriching27 = {
 	dynasty = 120
 	religion = catholic
 	culture = lorrainian
+	trait = devoted
 	father = wigeriching18
 	mother = billung14
 	976.1.1 = {
@@ -403,7 +427,7 @@ wigeriching27 = {
 }
 
 wigeriching28 = {
-	name = "Regilla" # wife of Arnold II of Formbach
+	name = "Régelinde" # wife of Arnold II of Formbach
 	female = yes
 	dynasty = 120
 	religion = catholic
@@ -414,6 +438,273 @@ wigeriching28 = {
 		birth = yes
 	}
 	1050.2.1 = {
+		death = {
+			death_reason = death_murdered_by_rebels
+		}
+	}
+}
+
+wigeriching29 = {
+	name = "Odoacar" # Odoacar of Bliesgau
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	#unknown parents
+	864.1.1 = { #fic
+		birth = yes
+	}
+	902.2.1 = { #fic
+		death = yes
+	}
+}
+
+wigeriching30 = {
+	name = "Frédéric" # 
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	trait = devoted
+	father = wigeriching29 # debated
+	#unknown mother
+	877.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	942.10.23 = {
+		death = yes
+	}
+}
+
+wigeriching31 = {
+	name = "Godefroid" #
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching19
+	#Hedwig
+	939.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	991.1.1 = { #fic
+		death = yes
+	}
+}
+
+wigeriching32 = {
+	name = "Reginar" # Reginar of Bastogne
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching20
+	927.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	996.1.1 = { #fic
+		death = yes
+	}
+}
+
+wigeriching33 = {
+	name = "Henri" # Henri of Arlon
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching20
+	931.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	998.10.6 = { #fic
+		death = yes
+	}
+}
+
+wigeriching34 = {
+	name = "Bardo" # 
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching32
+	#unknown mother
+	945.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1004.1.1 = { #fic
+		death = yes
+	}
+}
+
+wigeriching35 = {
+	name = "Adalbero" # bishop of Laon
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching32
+	#unknown mother
+	947.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1030.1.27 = {
+		death = yes
+	}
+}
+
+wigeriching36 = {
+	name = "Gothelon" # 
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching32
+	#unknown mother
+	959.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1028.1.1 = { #fic
+		death = yes
+	}
+}
+
+wigeriching37 = {
+	name = "Cunégonde" # 
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching35
+	#unknown mother
+	983.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1045.1.1 = { #fic
+		death = yes
+	}
+}
+
+wigeriching38 = {
+	name = "Adalbero" # bishop of Reims
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching20
+	925.1.1 = { #est
+		birth = yes
+	}
+	989.1.23 = {
+		death = yes
+	}
+}
+
+wigeriching39 = {
+	name = "Adela" # wife of Godizo of Aspel and Heimbach
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching18
+	mother = billung14
+	974.1.1 = { #fic
+		birth = yes
+	}
+	1032.1.1 = { #fic
+		death = yes
+	}
+}
+
+wigeriching40 = {
+	name = "Imgard" # wife of Otto von Hammerstein of Wetterau
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching18
+	mother = billung14
+	977.1.1 = { #fic
+		birth = yes
+	}
+	1042.1.1 = {
+		death = yes
+	}
+}
+
+wigeriching41 = {
+	name = "Ermentrude" # wife of Arnold I of Florennes
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching18
+	mother = billung14
+	981.1.1 = { #fic
+		birth = yes
+	}
+	1010.3.7 = {
+		death = yes
+	}
+}
+
+wigeriching42 = {
+	name = "Gerberga" # wife of Folmer I of Bliesgau
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = lorrainian
+	father = wigeriching18
+	mother = billung14
+	985.1.1 = { #fic
+		birth = yes
+	}
+	1039.1.1 = { #fic
+		death = yes
+	}
+}
+
+wigeriching43 = {
+	name = "Henri" # 
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching24
+	940.1.1 = { #fic
+		birth = yes
+	}
+	#no wife
+	978.1.1 = {
+		death = yes
+	}
+}
+
+wigeriching44 = {
+	name = "Adalbero" # monk
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	trait = devoted
+	father = wigeriching16
+	997.1.1 = { #est
+		birth = yes
+	}
+	1014.3.24 = {
+		death = yes
+	}
+}
+
+wigeriching45 = {
+	name = "Adélaïde" # wife of Walram I of Arlon
+	female = yes
+	dynasty = 120
+	religion = catholic
+	culture = wallonian
+	father = wigeriching16
+	1003.1.1 = { #fic
+		birth = yes
+	}
+	1032.1.1 = { #est
 		death = yes
 	}
 }

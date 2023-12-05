@@ -1,14 +1,14 @@
-cappenberg1 = {
+﻿cappenberg1 = {
 	name = "Gottfried"
 	dynasty = 314
 	religion = catholic
 	culture = eastphalian
-  	#unknown parents
-	1010.1.1 = { #est
+	father = cappenberg6
+	#Mathilde, dynasty unknown, maybe daughter of Ludwig of Dagsburg
+	1003.1.1 = { #fic
 		birth = yes
 	}
-  	#spouse = Mathilde Wigeriche
-	1060.1.1 = { #est
+	1064.1.1 = { #fic
 		death = yes
 	}
 }
@@ -78,5 +78,84 @@ cappenberg5 = {
 		death = {
       		death_reason = death_murder
 		}
+	}
+}
+
+cappenberg6 = {
+	name = "Hermann" # Hermann von Eenham
+	dynasty = 314
+	religion = catholic
+	culture = eastphalian
+	father = wigeriching18
+	mother = billung14
+	965.1.1 = { #fic
+		birth = yes
+	}
+	#spouse = Mathilde, dynasty unknown, maybe daughter of Ludwig of Dagsburg
+	1029.5.29 = {
+		death = yes
+	}
+}
+
+cappenberg7 = {
+	name = "Hermann"
+	dynasty = 314
+	religion = catholic
+	culture = eastphalian
+	father = cappenberg6
+	#Mathilde, dynasty unknown, maybe daughter of Ludwig of Dagsburg
+	989.1.1 = { #fic
+		birth = yes
+	}
+	998.1.1 = { #fic
+		death = yes
+	}
+}
+
+cappenberg8 = {
+	name = "Berthilde"
+	female = yes
+	dynasty = 314
+	religion = catholic
+	culture = eastphalian
+	father = cappenberg6
+	#Mathilde, dynasty unknown, maybe daughter of Ludwig of Dagsburg
+	993.1.1 = { #fic
+		birth = yes
+	}
+	995.1.1 = { #fic
+		death = yes
+	}
+}
+
+cappenberg9 = {
+	name = "Gregor"
+	dynasty = 314
+	religion = catholic
+	culture = eastphalian
+	trait = devoted
+	father = cappenberg6
+	#Mathilde, dynasty unknown, maybe daughter of Ludwig of Dagsburg
+	996.1.1 = { #fic
+		birth = yes
+	}
+	1059.1.1 = { #fic
+		death = yes
+	}
+}
+
+cappenberg10 = {
+	name = "Mathilde" # wife of Reginar V of Hainaut
+	female = yes
+	dynasty = 314
+	religion = catholic
+	culture = eastphalian
+	father = cappenberg6
+	#Mathilde, dynasty unknown, maybe daughter of Ludwig of Dagsburg
+	999.1.1 = { #fic
+		birth = yes
+	}
+	1071.1.1 = { #fic
+		death = yes
 	}
 }
