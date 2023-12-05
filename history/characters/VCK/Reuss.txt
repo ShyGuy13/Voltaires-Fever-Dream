@@ -1,12 +1,19 @@
-﻿reuss1 = {
-	name = "Erkenbert" # Erkenbert I of Vogtland
+#DONE FOR 1054
+reuss1 = {
+	name = "Heinrich" # Heinrich vom Gleißberg
 	dynasty = 85
 	religion = catholic
 	culture = franconian
+	#unknown parents
 	1043.1.1 = { #fic
 		birth = yes
+		give_nickname = nick_the_pious
 	}
-	1110.1.1 = {
+	#Lukarda von Leutenburg
+	#1080.1.1 = { #fic
+	#	add_spouse = schwarzburg8 # Juliana
+	#}
+	1118.1.1 = { #est
 		death = yes
 	}
 }
