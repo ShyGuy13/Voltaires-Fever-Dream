@@ -1,27 +1,32 @@
-﻿schwarzburg1 = {
-	name = "Sizzo" # Sizzo II of Schwarzburg
+
+#Sizzoning = von Schwarzburg = von Kevernburg
+#sources about the early generations are sparse so I made things up here.
+schwarzburg1 = {
+	name = "Sieghard" # Sizzo I of Schwarzburg
 	dynasty = 100
 	religion = catholic
 	culture = thuringian
-	father = schwarzburg5
-	1020.1.1 = {
+	father = schwarzburg7
+	1018.1.1 = { #fic
 		birth = yes
 	}
-	1075.1.1 = {
+	#unknown wife
+	1075.1.1 = { #est
 		death = yes
 	}
 }
 
 schwarzburg2 = {
-	name = "Sizzo" # Sizzo I of Schwarzburg
+	name = "Sieghard" # 
 	dynasty = 100
 	religion = catholic
 	culture = thuringian
 	father = schwarzburg4
-	950.1.1 = {
+	951.1.1 = { #fic
 		birth = yes
 	}
-	1005.1.1 = {
+	#unknown wife
+	1005.1.1 = { #est
 		death = yes
 	}
 }
@@ -32,9 +37,11 @@ schwarzburg3 = {
 	religion = catholic
 	culture = thuringian
 	father = schwarzburg4
-	955.1.1 = {
+	#unknown mother
+	959.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1005.12.25 = {
 		trait = devoted
 		give_nickname = nick_the_hermit
@@ -49,24 +56,27 @@ schwarzburg4 = {
 	dynasty = 100
 	religion = catholic
 	culture = thuringian
-	920.1.1 = { #fic
+	#unknown parents
+	931.1.1 = { #fic
 		birth = yes
 	}
-	970.1.1 = { #fic
+	989.1.1 = { #fic
 		death = yes
 	}
 }
 
 schwarzburg5 = {
-	name = "Günther" # unknown name
+	name = "Günther" #
 	dynasty = 100
 	religion = catholic
 	culture = thuringian
 	father = schwarzburg2
-	980.1.1 = { #fic
+	#unknown mother
+	986.1.1 = { #fic
 		birth = yes
 	}
-	1040.1.1 = { #fic
+	#unknown wife
+	1047.1.1 = { #fic
 		death = yes
 	}
 }
@@ -77,10 +87,42 @@ schwarzburg6 = {
 	religion = catholic
 	culture = thuringian
 	father = schwarzburg2
-	1000.1.1 = { #fic
+	990.1.1 = { #fic
 		birth = yes
 	}
-	1060.1.1 = { #fic
+	#unknown wife
+	1056.1.1 = { #fic
+		death = yes
+	}
+}
+
+schwarzburg7 = {
+	name = "Sieghard" # unknown name
+	dynasty = 100
+	religion = catholic
+	culture = thuringian
+	father = schwarzburg2
+	981.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1049.1.1 = { #est
+		death = yes
+	}
+}
+
+schwarzburg8 = {
+	name = "Juliana" # wife of Heinrich vom Gleißberg
+	female = yes
+	dynasty = 100
+	religion = catholic
+	culture = thuringian
+	father = schwarzburg1 # someone named Sizzo
+	#unknown mother
+	1043.1.1 = { #fic
+		birth = yes
+	}
+	1108.1.1 = { #fic
 		death = yes
 	}
 }
