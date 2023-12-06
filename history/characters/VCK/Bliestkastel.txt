@@ -1,0 +1,62 @@
+﻿bliestkastel1 = {
+	name = "Folmar" # Folmar of Worms (no regal number)
+	dynasty = 328
+	religion = catholic
+	culture = pfalzish
+	#unknown parents
+	878.1.1 = { #fic
+		birth = yes
+	}
+  # Richilde of METZ ??
+	933.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿bliestkastel2 = {
+	name = "Folmar" # Folmar of Metz (no regal number)
+	dynasty = 328
+	religion = catholic
+	culture = pfalzish
+	father = bliestkastel1
+  #unknown mother
+	909.1.1 = { #fic
+		birth = yes
+	}
+  #unknown wife
+	957.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿bliestkastel3 = {
+	name = "Folmar" # Folmar I of Metz
+	dynasty = 328
+	religion = catholic
+	culture = pfalzish
+	father = bliestkastel2
+  #unknown mother
+	942.1.1 = { #fic
+		birth = yes
+	}
+  #unknown wife
+	994.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿bliestkastel4 = {
+	name = "Folmar" # Folmar II of Metz
+	dynasty = 328
+	religion = catholic
+	culture = pfalzish
+	father = bliestkastel3
+  #unknown mother
+	974.1.1 = { #fic
+		birth = yes
+	}
+  #unknown wife
+	1029.1.1 = { #fic
+		death = yes
+	}
+}
