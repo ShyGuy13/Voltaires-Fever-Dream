@@ -760,9 +760,7 @@
 	culture = pfalzish
 }
 161 = {
-	prefix = "dynnp_von"
-	name = "dynn_Bliesgau"
-	culture = pfalzish
+	#free
 }
 162 = {
 	prefix = "dynnp_von"
@@ -1533,9 +1531,7 @@
 	culture = swiss
 }
 328 = {
-	prefix = "dynnp_von"
-	name = "dynn_Blieskastel"
-	culture = pfalzish
+	
 }
 329 = {
 	
