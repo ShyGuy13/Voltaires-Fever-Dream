@@ -109,3 +109,64 @@ blieskastel1 = {
 		death = yes
 	}
 }
+
+﻿blieskastel8 = {
+	name = "Folmar" # Folmar III of Metz
+	dynasty = 328
+	religion = catholic
+	culture = pfalzish
+	father = blieskastel4
+  	#unknown mother
+	1008.1.1 = { #fic
+		birth = yes
+	}
+	#SPANCHILDIS
+	1077.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿blieskastel9 = {
+	name = "Folmar" # Folmar IV of Metz
+	dynasty = 328
+	religion = catholic
+	culture = pfalzish
+	father = blieskastel8
+  	#unknown mother
+	1041.1.1 = { #fic
+		birth = yes
+	}
+	1111.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿blieskastel10 = {
+	name = "Hermann" # 
+	dynasty = 328
+	religion = catholic
+	culture = pfalzish
+	father = blieskastel4
+  	#unknown mother
+	1003.1.1 = { #fic
+		birth = yes
+	}
+	1034.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿blieskastel11 = {
+	name = "Stephan" # bishop of Toul
+	dynasty = 328
+	religion = catholic
+	culture = pfalzish
+	father = blieskastel3
+  	#unknown mother
+	970.1.1 = { #fic
+		birth = yes
+	}
+	995.3.12 = {
+		death = yes
+	}
+}
