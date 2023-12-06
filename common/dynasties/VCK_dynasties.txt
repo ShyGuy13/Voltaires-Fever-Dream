@@ -1533,7 +1533,9 @@
 	culture = swiss
 }
 328 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Blieskastel"
+	culture = pfalzish
 }
 329 = {
 	
