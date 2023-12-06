@@ -1,0 +1,45 @@
+hochstaden1 = {
+    name = "Gerhard" # Gerhard I of Hochstaden
+    dynasty = 322
+    culture = ripuarian
+    religion = catholic
+    father = hochstaden3
+    #unknown mother
+    1037.1.1 = { #fic
+    	birth = yes
+    }
+    #unknown wife
+    1096.1.1 = {
+    	death = yes
+    }
+}
+
+hochstaden2 = {
+    name = "Hermann" # bishop of Cologne
+    dynasty = 322
+    culture = ripuarian
+    religion = catholic
+    father = hochstaden3
+    #unknown mother
+    1041.1.1 = { #fic
+    	birth = yes
+    }
+    1099.11.21 = {
+    	death = yes
+    }
+}
+
+hochstaden3 = {
+    name = "Gerlach" # he might be related to the Jülich dynasty; I will not connect him the Jülich dynasty as the early Jülich generations are very poorly researched
+    dynasty = 322
+    culture = ripuarian
+    religion = catholic
+    #unknown parents
+    1013.1.1 = { #fic
+    	birth = yes
+    }
+    #wife = someone of the Ezzoning dynasty?
+    1069.1.1 = { #fic
+    	death = yes
+    }
+}
