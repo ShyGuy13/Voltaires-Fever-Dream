@@ -35,11 +35,11 @@ blieskastel1 = {
 	religion = catholic
 	culture = pfalzish
 	father = blieskastel2
-  #unknown mother
+  	#unknown mother
 	942.1.1 = { #fic
 		birth = yes
 	}
-  #unknown wife
+  	# Berta (von TRIER ?)
 	994.1.1 = { #fic
 		death = yes
 	}
@@ -51,12 +51,61 @@ blieskastel1 = {
 	religion = catholic
 	culture = pfalzish
 	father = blieskastel3
-  #unknown mother
+  	#unknown mother
 	974.1.1 = { #fic
 		birth = yes
 	}
-  #unknown wife
+  	#Gerberge Wigeriching
 	1029.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿blieskastel5 = {
+	name = "Richilde" # wife of Dietrich I of Bar
+	female = yes
+	dynasty = 328
+	religion = catholic
+	culture = pfalzish
+	father = blieskastel3
+  	#unknown mother
+	968.1.1 = { #fic
+		birth = yes
+	}
+  	#unknown wife
+	1032.4.11 = {
+		death = yes
+	}
+}
+
+﻿blieskastel6 = {
+	name = "Gottfried" # Gottfried I of Metz
+	dynasty = 328
+	religion = catholic
+	culture = pfalzish
+	father = blieskastel4
+  	#unknown mother
+	997.1.1 = { #fic
+		birth = yes
+	}
+	#Judith von Luxemburg
+	1053.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿blieskastel7 = {
+	name = "Folmar" # Folmar VI of Metz
+	dynasty = 328
+	religion = catholic
+	culture = pfalzish
+	father = blieskastel6
+  	#unknown mother
+	1036.1.1 = { #fic
+		birth = yes
+	}
+	#Schwanhild (Princess) of EGISHEIM
+	1087.1.1 = { #fic
 		death = yes
 	}
 }
