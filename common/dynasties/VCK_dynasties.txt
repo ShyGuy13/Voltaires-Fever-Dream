@@ -1504,7 +1504,9 @@
 	
 }
 322 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Hochstaden"
+	culture = ripuarian
 }
 323 = {
 	name = "dynn_Alaholfing"
