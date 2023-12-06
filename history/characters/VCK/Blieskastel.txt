@@ -1,6 +1,6 @@
-﻿bliestkastel1 = {
+blieskastel1 = {
 	name = "Folmar" # Folmar of Worms (no regal number)
-	dynasty = 328
+	dynasty = 160
 	religion = catholic
 	culture = pfalzish
 	#unknown parents
@@ -13,12 +13,12 @@
 	}
 }
 
-﻿bliestkastel2 = {
+﻿blieskastel2 = {
 	name = "Folmar" # Folmar of Metz (no regal number)
 	dynasty = 328
 	religion = catholic
 	culture = pfalzish
-	father = bliestkastel1
+	father = blieskastel1
   #unknown mother
 	909.1.1 = { #fic
 		birth = yes
@@ -29,12 +29,12 @@
 	}
 }
 
-﻿bliestkastel3 = {
+﻿blieskastel3 = {
 	name = "Folmar" # Folmar I of Metz
 	dynasty = 328
 	religion = catholic
 	culture = pfalzish
-	father = bliestkastel2
+	father = blieskastel2
   #unknown mother
 	942.1.1 = { #fic
 		birth = yes
@@ -45,12 +45,12 @@
 	}
 }
 
-﻿bliestkastel4 = {
+﻿blieskastel4 = {
 	name = "Folmar" # Folmar II of Metz
 	dynasty = 328
 	religion = catholic
 	culture = pfalzish
-	father = bliestkastel3
+	father = blieskastel3
   #unknown mother
 	974.1.1 = { #fic
 		birth = yes
