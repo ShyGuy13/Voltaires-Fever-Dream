@@ -1,3 +1,4 @@
+#DONE FOR 1054
 hochstaden1 = {
     name = "Gerhard" # Gerhard I of Hochstaden
     dynasty = 322
