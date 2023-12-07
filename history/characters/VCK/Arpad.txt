@@ -3,9 +3,12 @@
 	dynasty = 2
 	religion = catholic
 	culture = hungarian
+	father = arpad7
 	1015.1.1 = { #est
 		birth = yes
+		give_nickname = nick_the_wisent
 	}
+	#Richeza of Poland
 	1063.11.11 = {
 		death = {
 			death_reason = death_fall # fell from his throne lol
@@ -20,10 +23,87 @@ arpad2 = {
 	religion = catholic
 	culture = hungarian
 	father = arpad1
-	1050.1.1 = { #est
+	#Richeza of Poland
+	1052.1.1 = { #est
 		birth = yes
 	}
 	1095.6.18 = {
+		death = yes
+	}
+}
+
+arpad3 = {
+	name = "Géza" # Géza I of Hungary
+	dynasty = 2
+	religion = catholic
+	culture = hungarian
+	father = arpad1
+	#Richeza of Poland
+	1044.1.1 = { #est
+		birth = yes
+	}
+	1077.4.25 = {
+		death = yes
+	}
+}
+
+arpad4 = {
+	name = "László" # László I of Hungary & Nitra
+	dynasty = 2
+	religion = catholic
+	culture = hungarian
+	father = arpad1
+	#Richeza of Poland
+	1048.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_holy
+	}
+	1095.7.29 = {
+		death = yes
+	}
+}
+
+arpad5 = {
+	name = "Lampert" # 
+	dynasty = 2
+	religion = catholic
+	culture = hungarian
+	father = arpad1
+	#Richeza of Poland
+	1050.1.1 = { #est
+		birth = yes
+	}
+	1096.1.1 = {
+		death = yes
+	}
+}
+
+arpad6 = {
+	name = "Eufémia" # wife of Otto I of Moravia
+	female = yes
+	dynasty = 2
+	religion = catholic
+	culture = hungarian
+	father = arpad1
+	#Richeza of Poland
+	1050.1.1 = { #est
+		birth = yes
+	}
+	1111.4.11 = {
+		death = yes
+	}
+}
+
+﻿arpad7 = {
+	name = "Vászoly" # Vászoly of Nitra
+	dynasty = 2
+	religion = catholic
+	culture = hungarian
+	990.1.1 = { #est
+		birth = yes
+	}
+	#unknown member of Tátony clan
+	1037.1.1 = { #est
 		death = yes
 	}
 }
