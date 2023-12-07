@@ -1,28 +1,49 @@
 #DONE FOR 1054
-#basically nothing is known about this dynasty
+#basically nothing is known about this dynasty, I will add some characters to make generations more realistic.
 #von Opelingen = von Ringgenberg
 ringgenberg1 = {
 	name = "Arnold" # 
 	dynasty = 298
 	religion = catholic
 	culture = swiss
+	#unknown parents
 	1038.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1107.1.1 = { #fic
 		death = yes
 	}
 }
 
 ringgenberg2 = {
+	name = "Arnold" # 
+	dynasty = 298
+	religion = catholic
+	culture = swiss
+	father = ringgenberg1
+	#unknown mother
+	1073.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1136.1.1 = { #fic
+		death = yes
+	}
+}
+
+ringgenberg3 = {
 	name = "Diethelm" # Diethelm von Opelingen
 	dynasty = 298
 	religion = catholic
 	culture = swiss
-	1073.1.1 = { #fic
+	father = ringgenberg2
+	1099.1.1 = { #fic
 		birth = yes
 	}
-	1146.1.1 = { #fic
+	#unknown wife
+	#unknown mother
+	1163.1.1 = { #fic
 		death = yes
 	}
 }
