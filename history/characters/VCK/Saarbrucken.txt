@@ -1,12 +1,47 @@
-﻿saarbrucken1 = {
-	name = "Reginhard" # Reginhard I of Ronsberg
+#DONE FOR 1054
+saarbrucken1 = {
+	name = "Siegbert" # Siegbert I of Saarbrücken
 	dynasty = 163
 	culture = pfalzish
 	religion = catholic
-	1030.1.1 = { #fic
+	father = saarbrucken3
+	#unknown mother
+	1048.1.1 = { #fic
 		birth = yes
 	}
-	1104.1.1 = {
+	#unknown wife
+	1105.1.1 = { #est
+		death = yes
+	}
+}
+
+﻿saarbrucken2 = {
+	name = "Winther" # monk
+	dynasty = 163
+	culture = pfalzish
+	religion = catholic
+	#trait = devoted
+	father = saarbrucken3
+	#unknown mother
+	1052.1.1 = { #fic
+		birth = yes
+	}
+	1104.1.1 = { #est
+		death = yes
+	}
+}
+
+﻿saarbrucken3 = {
+	name = "Heinrich" # fictional character, just to make saarbrucken1 and saarbrucken2 brothers
+	dynasty = 163
+	culture = pfalzish
+	religion = catholic
+	#unknown parents
+	1009.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1053.1.1 = { #fic
 		death = yes
 	}
 }
