@@ -170,3 +170,19 @@ blieskastel1 = {
 		death = yes
 	}
 }
+
+﻿blieskastel12 = {
+	name = "Hedwig" # wife of Gerhard of Rieneck
+	female = yes
+	dynasty = 328
+	religion = catholic
+	culture = pfalzish
+	father = blieskastel6
+  	#unknown mother
+	1045.1.1 = { #fic
+		birth = yes
+	}
+	1127.1.1 = { #fic
+		death = yes
+	}
+}
