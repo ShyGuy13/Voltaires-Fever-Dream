@@ -4,8 +4,12 @@
 	religion = catholic
 	culture = franconian
 	father = rieneck2
+	#unknown mother
 	1039.11.25 = {
 		birth = yes
+	}
+	1050.1.1 = { # fic
+		add_spouse = blieskastel12 # Hedwig
 	}
 	1105.4.11 = {
 		death = yes
@@ -13,29 +17,49 @@
 }
 
 rieneck2 = {
-	name = "Gerard" #Gerhard I of Rieneck
+	name = "Heinrich" # fictional name
 	dynasty = 37
 	religion = catholic
 	culture = franconian
 	father = rieneck3
+	#unknown mother
 	995.1.1 = { #fic
 		birth = yes
 	}
-	1045.1.1 = { #fic
+	#unknown wife
+	1044.1.1 = { #fic
 		death = yes
 	}
 }
 
 rieneck3 = {
-	name = "Gebhard" #Gerhard I of Rieneck
+	name = "Gebhard" #Gebhard von Gleiberg
 	dynasty = 37
 	religion = catholic
 	culture = franconian
-	#father = #Heribert
-	965.1.1 = {
+	#father = Heribert Konrading https://de.wikipedia.org/wiki/Heribert_von_der_Wetterau
+	#mother = Imiza Matfriding
+	965.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1016.11.8 = {
+		death = yes
+	}
+}
+
+rieneck4 = {
+	name = "Agnes" #wife of Arnold I of Loon
+	female = yes
+	dynasty = 37
+	religion = catholic
+	culture = franconian
+	father = rieneck1
+	mother = blieskastel12
+	1063.1.1 = { #fic
+		birth = yes
+	}
+	1136.1.1 = { #fic
 		death = yes
 	}
 }
