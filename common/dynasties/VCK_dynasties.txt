@@ -1539,7 +1539,9 @@
 	
 }
 330 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Odenkirchen"
+	culture = moselle_franconian
 }
 331 = {
 	name = "dynn_Rurikovich"
