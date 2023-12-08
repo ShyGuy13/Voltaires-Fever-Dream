@@ -3,9 +3,11 @@
 	dynasty = 137
 	religion = catholic
 	culture = hessian
+	#Diemar von Trifels Reginbodoning
 	1045.1.1 = {
 		birth = yes
 	}
+	#Adelheid, vermutlich Tochter der Markgräfin Gisela von Schweinfurt aus erster Ehe mit einem Graf Wichmann (laut Hartmann wohl Ludowinger, Vetter von Ludwig der Springer)
 	1110.1.1 = {
 		death = yes
 	}
