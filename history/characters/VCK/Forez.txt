@@ -1,12 +1,28 @@
 ﻿forez1 = {
-	name = "Artaud" # Artaud III of Forez
+	name = "Artaud" # Artaud IV of Forez
 	dynasty = 236
 	culture = arpitan
 	religion = catholic
-	1015.1.1 = { #fic
+	father = forez2
+	#Adelaide, daughter of Pons de Gevaudan
+	1014.1.1 = { #fic
 		birth = yes
 	}
 	1078.1.1 = {
+		death = yes
+	}
+}
+
+﻿forez2 = {
+	name = "Géraud" # Géraud II of Forez
+	dynasty = 236
+	culture = arpitan
+	religion = catholic
+	979.1.1 = { #fic
+		birth = yes
+	}
+	#Adelaide, daughter of Pons de Gevaudan
+	1046.1.1 = {
 		death = yes
 	}
 }
