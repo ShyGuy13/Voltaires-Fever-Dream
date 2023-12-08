@@ -4,10 +4,24 @@ fos1 = {
 	dynasty = 289
 	culture = provencal
 	religion = catholic
+	father = fos2
 	971.1.1 = { #fic
 		birth = yes
 	}
 	1018.1.1 = { #fic
+		death = yes
+	}
+}
+
+fos2 = {
+	name = "Pons" # Pons de Fos
+	dynasty = 289
+	culture = provencal
+	religion = catholic
+	935.1.1 = { #fic
+		birth = yes
+	}
+	998.1.1 = { #fic
 		death = yes
 	}
 }
