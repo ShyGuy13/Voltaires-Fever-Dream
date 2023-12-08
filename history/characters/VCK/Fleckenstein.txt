@@ -1,26 +1,49 @@
-﻿fleckenstein1 = {
-	name = "Gottfried" # Gottfried I of Fleckenstein
+#DONE FOR 1054
+#Gottfried von Fleckenstein was first mentioned in 1129. I added some fictional ancestors to make this dynasty present in 1054.
+fleckenstein1 = {
+	name = "Siegmund" # 
 	dynasty = 122
 	culture = pfalzish
 	religion = catholic
+	#unknown parents
 	1028.1.1 = { #fic
 		birth = yes
 	}
-	1094.1.1 = {
+	#unknown wife
+	1094.1.1 = { #fic
 		death = yes
 	}
 }
 
 fleckenstein2 = {
-	name = "Heinrich" # Heinrich I of Fleckenstein
+	name = "Dietrich" # 
 	dynasty = 122
 	culture = pfalzish
 	religion = catholic
 	father = fleckenstein1
-	1054.1.1 = { #fic
+	#unknown mother
+	1051.1.1 = { #fic
 		birth = yes
 	}
-	1125.1.1 = {
+	#unknown wife
+	1005.1.1 = { #fic
+		death = yes
+	}
+}
+
+
+fleckenstein3 = {
+	name = "Gottfried" # Gottfried I of Fleckenstein
+	dynasty = 122
+	culture = pfalzish
+	religion = catholic
+	father = fleckenstein2
+	#unknown mother
+	1089.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1135.1.1 = { #fic
 		death = yes
 	}
 }
