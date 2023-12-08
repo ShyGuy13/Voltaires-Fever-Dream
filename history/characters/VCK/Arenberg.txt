@@ -1,12 +1,44 @@
-﻿arenberg1 = {
+#DONE FOR 1054
+arenberg1 = {
 	name = "Ulrich" #Ulrich I of Arenberg
 	dynasty = 182
 	religion = catholic
 	culture = moselle_franconian
-	1015.1.1 = { #fic
+	#unknown parents
+	997.1.1 = { #fic
 		birth = yes
 	}
-	1061.1.1 = {
+	1032.1.1 = {
+		death = yes
+	}
+}
+
+﻿arenberg2 = {
+	name = "Frank" #Frank I of Arenberg
+	dynasty = 182
+	religion = catholic
+	culture = moselle_franconian
+	father = arenberg1
+	#unknown mother
+	1028.1.1 = { #fic
+		birth = yes
+	}
+	1074.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿arenberg3 = {
+	name = "Arnold" #Arnold I of Arenberg
+	dynasty = 182
+	religion = catholic
+	culture = moselle_franconian
+	father = arenberg2
+	#unknown mother
+	1054.1.1 = { #fic
+		birth = yes
+	}
+	1095.1.1 = { #fic
 		death = yes
 	}
 }
