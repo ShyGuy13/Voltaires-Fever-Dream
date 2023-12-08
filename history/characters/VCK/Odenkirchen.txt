@@ -1,0 +1,64 @@
+#DONE FOR 1054
+#not much is known about this dynasty.
+odenkirchen1 = {
+	name = "Christian" # Christian I of Odenkirchen
+	dynasty = 330
+	religion = catholic
+	culture = moselle_franconian
+	#unknown parents
+	982.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1028.1.1 = { #fic
+		death = yes
+	}
+}
+
+odenkirchen2 = {
+	name = "Ernst" # fictional name
+	dynasty = 330
+	religion = catholic
+	culture = moselle_franconian
+  father = odenkirchen1
+	#unknown mother
+	1008.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1077.1.1 = { #fic
+		death = yes
+	}
+}
+
+odenkirchen3 = {
+	name = "Hermann" #Hermann I of Odenkirchen
+	dynasty = 330
+	religion = catholic
+	culture = moselle_franconian
+  father = odenkirchen1
+	#unknown mother
+	1052.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1116.3.17 = {
+		death = yes
+	}
+}
+
+odenkirchen4 = {
+	name = "Arnold" #Arnold I of Odenkirchen
+	dynasty = 330
+	religion = catholic
+	culture = moselle_franconian
+  father = odenkirchen1
+	#unknown mother
+	1052.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1118.4.5 = {
+		death = yes
+	}
+}
