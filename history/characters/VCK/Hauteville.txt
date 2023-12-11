@@ -4,9 +4,10 @@
 	religion = catholic
 	culture = norman
 	father = hauteville2
-	1010.1.1 = {
+	1010.1.1 = { #est
 		birth = yes
 	}
+	#Gaitelgrima, a daughter of Guaimar III of Salerno
 	1057.8.1 = {
 		death = yes
 	}
@@ -110,5 +111,38 @@ hauteville8 = {
 	}
 	1046.1.1 = {
 		death = yes
+	}
+}
+
+﻿hauteville9 = {
+	name = "Abagelard" # 
+	dynasty = 150
+	religion = catholic
+	culture = norman
+	father = hauteville1
+	1044.1.1 = { #est
+		birth = yes
+	}
+	1081.1.1 = {
+		death = yes
+	}
+}
+
+﻿hauteville10 = {
+	name = "Herman" # 
+	dynasty = 150
+	religion = catholic
+	culture = norman
+	father = hauteville1
+	1046.1.1 = { #est
+		birth = yes
+	}
+	1095.8.15 = {
+		trait = crusader
+	}
+	1097.1.1 = {
+		death = {
+			death_reason = death_siege
+		}
 	}
 }
