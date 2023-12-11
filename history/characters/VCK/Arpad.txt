@@ -33,7 +33,7 @@ arpad2 = {
 }
 
 arpad3 = {
-	name = "Géza" # Géza I of Hungary
+	name = "GE_za" # Géza I of Hungary
 	dynasty = 2
 	religion = catholic
 	culture = hungarian
@@ -48,7 +48,7 @@ arpad3 = {
 }
 
 arpad4 = {
-	name = "László" # László I of Hungary & Nitra
+	name = "LA_szlO_" # László I of Hungary & Nitra
 	dynasty = 2
 	religion = catholic
 	culture = hungarian
@@ -79,7 +79,7 @@ arpad5 = {
 }
 
 arpad6 = {
-	name = "Eufémia" # wife of Otto I of Moravia
+	name = "EufE_mia" # wife of Otto I of Moravia
 	female = yes
 	dynasty = 2
 	religion = catholic
@@ -94,8 +94,8 @@ arpad6 = {
 	}
 }
 
-﻿arpad7 = {
-	name = "Vászoly" # Vászoly of Nitra
+arpad7 = {
+	name = "VA_szoly" # Vászoly of Nitra
 	dynasty = 2
 	religion = catholic
 	culture = hungarian

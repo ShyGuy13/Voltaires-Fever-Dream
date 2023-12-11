@@ -4,6 +4,7 @@
 	religion = catholic
 	culture = moselle_franconian
 	father = luxemburg5
+	mother = konrading10
 	1005.1.1 = {
 		birth = yes
 	}
@@ -18,6 +19,7 @@ luxemburg2 = {
 	religion = catholic
 	culture = moselle_franconian
 	father = luxemburg5
+	mother = konrading10
 	1010.1.1 = {
 		birth = yes
 	}
@@ -32,6 +34,7 @@ luxemburg3 = {
 	religion = catholic
 	culture = moselle_franconian
 	father = luxemburg5
+	mother = konrading10
 	1003.1.1 = { #est
 		birth = yes
 	}
@@ -52,6 +55,7 @@ luxemburg4 = {
 	religion = catholic
 	culture = moselle_franconian
 	father = luxemburg5
+	mother = konrading10
 	1007.1.1 = {
 		birth = yes
 	}
@@ -68,6 +72,9 @@ luxemburg5 = {
 	father = luxemburg6
 	965.1.1 = { #est
 		birth = yes
+	}
+	985.1.1 = { #fic
+		add_spouse = konrading10 # Irmtrud
 	}
 	1019.10.6 = {
 		death = yes
@@ -95,6 +102,7 @@ luxemburg7 = {
 	religion = catholic
 	culture = moselle_franconian
 	father = luxemburg5
+	mother = konrading10
 	1012.1.1 = {
 		birth = yes
 	}
@@ -109,6 +117,7 @@ luxemburg8 = {
 	religion = catholic
 	culture = moselle_franconian
 	father = luxemburg5
+	mother = konrading10
 	1015.1.1 = {
 		birth = yes
 	}
@@ -124,6 +133,7 @@ luxemburg9 = {
 	religion = catholic
 	culture = moselle_franconian
 	father = luxemburg5
+	mother = konrading10
 	995.1.1 = {
 		birth = yes
 	}
@@ -139,6 +149,7 @@ luxemburg10 = {
 	religion = catholic
 	culture = moselle_franconian
 	father = luxemburg5
+	mother = konrading10
 	1007.1.1 = {
 		birth = yes
 	}
@@ -154,6 +165,7 @@ luxemburg11 = {
 	religion = catholic
 	culture = moselle_franconian
 	father = luxemburg5
+	mother = konrading10
 	989.1.1 = { #est
 		birth = yes
 	}
@@ -170,6 +182,7 @@ luxemburg12 = {
 	culture = moselle_franconian
 	trait = devoted
 	father = luxemburg5
+	mother = konrading10
 	1016.1.1 = {
 		birth = yes
 	}
@@ -243,7 +256,7 @@ luxemburg17 = {
 	religion = catholic
 	culture = moselle_franconian
 	father = luxemburg6
-	968.1.1 = { #est
+	963.1.1 = { #est
 		birth = yes
 	}
 	#no wife
@@ -345,3 +358,4 @@ luxemburg23 = {
 		death = yes
 	}
 }
+

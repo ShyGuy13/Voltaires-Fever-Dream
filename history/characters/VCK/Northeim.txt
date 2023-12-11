@@ -93,7 +93,8 @@ northeim6 = {
 	#son of Siegfried II of Hassegau
 	#OR Otto of Northeim
 	#OR Siegfried I of Luxemburg
-	965.1.1 = { #est
+	father = luxemburg6
+	964.1.1 = { #est
 		birth = yes
 	}
 	#1st wife = Mathilde

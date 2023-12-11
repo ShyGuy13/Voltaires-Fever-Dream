@@ -4,6 +4,7 @@
 	religion = catholic
 	culture = wallonian
 	father = namur5
+	mother = karling3
 	997.1.1 = { #fic
 		birth = yes
 	}
@@ -70,6 +71,9 @@ namur5 = {
 	950.1.1 = { #fic
 		birth = yes
 	}
+	970.1.1 = { #fic
+		add_spouse = karling3 # Ermengarde
+	}
 	1011.1.1 = {
 		death = yes
 	}
@@ -94,6 +98,7 @@ namur7 = {
 	religion = catholic
 	culture = wallonian
 	father = namur5
+	mother = karling3
 	995.1.1 = { #fic
 		birth = yes
 	}

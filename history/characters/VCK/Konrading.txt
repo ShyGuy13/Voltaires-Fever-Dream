@@ -33,7 +33,7 @@ konrading2 = {
 }
 
 konrading3 = {
-	name = "Konrad" #Konrad II of Swabia
+	name = "Konrad" #Konrad II of Swabia / Öhningen
 	dynasty = 3
 	religion = catholic
 	culture = swabian
@@ -137,6 +137,77 @@ konrading9 = {
 		birth = yes
 	}
 	1012.4.1 = {
+		death = yes
+	}
+}
+
+konrading10 = {
+	name = "Irmtrud" # wife of Friedrich I of Luxemburg
+	female = yes
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading11
+	972.1.1 = { #est
+		birth = yes
+	}
+	1022.1.1 = { #fic
+		death = yes
+	}
+}
+
+konrading11 = {
+	name = "Herbert" # Heribert von der Wetterau
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	927.1.1 = { #est
+		birth = yes
+	}
+	992.1.1 = {
+		death = yes
+	}
+}
+
+konrading12 = {
+	name = "Gebhart" # 
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading11
+	965.1.1 = { #est
+		birth = yes
+	}
+	1016.11.8 = {
+		death = yes
+	}
+}
+
+konrading13 = {
+	name = "Otto" # Otto I of Hammerstein
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading11
+	975.1.1 = { #est
+		birth = yes
+	}
+	1036.6.5 = {
+		death = yes
+	}
+}
+
+konrading14 = {
+	name = "Gerberga" # wife of Heinrich of Schweinfurt?
+	female = yes
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading11
+	961.1.1 = { #est
+		birth = yes
+	}
+	1037.1.1 = { #fic
 		death = yes
 	}
 }

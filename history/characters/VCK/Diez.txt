@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 #there is not much known about this dynasty.
 diez1 = {
 	name = "Embricho" #Embricho I of Niederlahngau

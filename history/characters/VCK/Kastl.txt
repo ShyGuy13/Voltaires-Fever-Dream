@@ -26,6 +26,9 @@ kastl2 = {
 		birth = yes
     		give_nickname = nick_the_younger
 	}
+	1054.1.1 = { #fic
+		add_spouse = schweinfurt2 # Bertha
+	}
   	#spouse = Bertha von Schweinfurt
 	1071.1.1 = { #est
 		death = yes
@@ -42,7 +45,9 @@ kastl3 = {
 	1051.1.1 = { #fic
 		birth = yes
 	}
-  	#spouse = also Bertha von Schweinfurt
+	1072.1.1 = { #fic
+		add_spouse = schweinfurt2 # also Bertha
+	}
 	1103.11.11 = {
 		death = yes
 	}

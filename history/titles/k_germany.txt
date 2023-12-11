@@ -456,6 +456,9 @@ c_bruneck = {
 
 #Austria
 d_osterreich = {
+	800.1.1 = {
+		succession_laws = { male_only_law }
+	}
 	981.1.1 = {
 		holder = babenberg7 #Leopold I
 	}
@@ -1983,6 +1986,9 @@ c_ziegenhain = {
 
 #Swabia
 d_swabia = {
+	1000.1.1 = {
+		succession_laws = { male_only_law }
+	}
 	1047.9.7 = {
 		holder = schweinfurt1
 	}
@@ -2283,6 +2289,9 @@ c_schwalenberg = {
 
 #Altsachsen
 d_altsachsen = {
+	800.1.1 = {
+		succession_laws = { male_only_law }
+	}
 	973.3.27 = {
 		holder = billung7 # Bernhard I
 	}
@@ -3175,6 +3184,9 @@ c_ischgl = {
 
 #Bavaria
 d_bavaria = {
+	800.1.1 = {
+		succession_laws = { male_only_law }
+	}
 	907.7.4 = {
 		holder = luitpolding1 # Arnulf the Evil
 	}

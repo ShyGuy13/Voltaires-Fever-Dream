@@ -2,7 +2,7 @@
 
 amboise1 = {
 	name = "Pernille" # fictional name; wife of Boniface I of Castellane???
-  female = yes
+  	female = yes
 	dynasty = 326
 	religion = catholic
 	culture = angevin
@@ -19,11 +19,11 @@ amboise2 = {
 	dynasty = 326
 	religion = catholic
 	culture = angevin
-  father = amboise3
+  	father = amboise3
 	1007.1.1 = { #est
 		birth = yes
 	}
-  #Hersende de Buzançais
+  	#Hersende de Buzançais
 	1065.1.1 = { #est
 		death = yes
 	}
@@ -37,7 +37,7 @@ amboise3 = {
 	980.1.1 = { #est
 		birth = yes
 	}
-  #
+  	#
 	1007.1.1 = { #est
 		death = yes
 	}

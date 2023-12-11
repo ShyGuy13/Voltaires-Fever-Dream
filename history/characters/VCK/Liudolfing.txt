@@ -1,0 +1,97 @@
+﻿luitpolding1 = {
+	name = "Heinrich" # Emperor Heinrich II
+	dynasty = 161
+	religion = catholic
+	culture = low_elbish
+	father = luitpolding2
+	# Gisela von Burgund
+	973.5.6 = {
+		birth = yes
+		give_nickname = nick_the_holy
+	}
+	1000.1.1 = { #est
+		add_spouse = luxemburg21 # Kunigunde
+	}
+	1024.7.13 = {
+		death = yes
+	}
+}
+
+luitpolding2 = {
+	name = "Heinrich" # Heinrich II of Bavaria
+	dynasty = 161
+	religion = catholic
+	culture = low_elbish
+	951.1.1 = {
+		birth = yes
+		give_nickname = nick_the_quarreller
+	}
+	# Gisela von Burgund
+	995.8.25 = {
+		death = yes
+	}
+}
+
+luitpolding3 = {
+	name = "Bruno" # bishop of Augsburg
+	dynasty = 161
+	religion = catholic
+	culture = low_elbish
+	father = luitpolding2
+	# Gisela von Burgund
+	992.1.1 = { #est
+		birth = yes
+	}
+	1029.4.24 = {
+		death = yes
+	}
+}
+
+luitpolding4 = {
+	name = "Gisela" # wife of Stephan I of Hungary
+	female = yes
+	dynasty = 161
+	religion = catholic
+	culture = low_elbish
+	father = luitpolding2
+	# Gisela von Burgund
+	984.1.1 = { #est
+		birth = yes
+	}
+	1065.5.7 = {
+		death = yes
+	}
+}
+
+luitpolding5 = {
+	name = "Brigida" # nun
+	female = yes
+	dynasty = 161
+	religion = catholic
+	culture = low_elbish
+	trait = devoted
+	father = luitpolding2
+	# Gisela von Burgund
+	987.1.1 = { #fic
+		birth = yes
+	}
+	1044.1.1 = { #fic
+		death = yes
+	}
+}
+
+luitpolding6 = {
+	name = "Arnold" # bishop of Ravenna
+	dynasty = 161
+	religion = catholic
+	culture = low_elbish
+	trait = bastard
+	father = luitpolding2
+	#no mother due bastard
+	977.1.1 = { #fic
+		birth = yes
+	}
+	1019.11.17 = {
+		death = yes
+	}
+}

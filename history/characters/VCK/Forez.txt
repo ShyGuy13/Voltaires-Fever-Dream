@@ -13,7 +13,7 @@
 	}
 }
 
-﻿forez2 = {
+forez2 = {
 	name = "Géraud" # Géraud II of Forez
 	dynasty = 236
 	culture = arpitan

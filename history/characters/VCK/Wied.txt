@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 #Metfried I's parents are in fact unknown.
 wied1 = {
 	name = "Widukind" # Widukind I of Engersgau
@@ -15,7 +15,7 @@ wied1 = {
 	}
 }
 
-﻿wied2 = {
+wied2 = {
 	name = "Metfried" # Metfried I of Wied
 	dynasty = 181
 	religion = catholic

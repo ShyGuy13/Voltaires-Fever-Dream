@@ -49,6 +49,9 @@ ariboning4 = {
 	1028.1.1 = {
 		birth = yes
 	}
+	1057.1.1 = { #fic
+		add_spouse = schweinfurt4 # Judith
+	}
 	1104.3.1 = {
 		death = yes
 	}

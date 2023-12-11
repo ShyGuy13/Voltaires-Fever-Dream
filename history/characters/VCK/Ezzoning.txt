@@ -6,6 +6,9 @@
 	1020.1.1 = {
 		birth = yes
 	}
+	1050.1.1 = { #fic
+		add_spouse = schweinfurt4 #Judith
+	}
 	#1053.1.1 = {
 		#gets deposed & moves to Andreas of Hungary
 	#}
@@ -226,6 +229,22 @@ ezzoning15 = {
 		birth = yes
 	}
 	1083.1.1 = { #est
+		death = yes
+	}
+}
+
+ezzoning16 = {
+	name = "Wazela" #wife of Rüdiger of Kleve
+	female = yes
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning6
+	mother = dillingen10
+	971.1.1 = { #fic
+		birth = yes
+	}
+	1032.1.1 = { #fic
 		death = yes
 	}
 }

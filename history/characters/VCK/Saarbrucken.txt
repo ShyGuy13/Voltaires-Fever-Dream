@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 saarbrucken1 = {
 	name = "Siegbert" # Siegbert I of Saarbrücken
 	dynasty = 163
@@ -6,7 +6,7 @@ saarbrucken1 = {
 	religion = catholic
 	father = saarbrucken3
 	#unknown mother
-	1048.1.1 = { #fic
+	1038.1.1 = { #fic
 		birth = yes
 	}
 	#unknown wife
@@ -15,7 +15,7 @@ saarbrucken1 = {
 	}
 }
 
-﻿saarbrucken2 = {
+saarbrucken2 = {
 	name = "Winther" # monk
 	dynasty = 163
 	culture = pfalzish
@@ -23,7 +23,7 @@ saarbrucken1 = {
 	#trait = devoted
 	father = saarbrucken3
 	#unknown mother
-	1052.1.1 = { #fic
+	1042.1.1 = { #fic
 		birth = yes
 	}
 	1104.1.1 = { #est
@@ -31,13 +31,13 @@ saarbrucken1 = {
 	}
 }
 
-﻿saarbrucken3 = {
+saarbrucken3 = {
 	name = "Heinrich" # fictional character, just to make saarbrucken1 and saarbrucken2 brothers
 	dynasty = 163
 	culture = pfalzish
 	religion = catholic
 	#unknown parents
-	1009.1.1 = { #fic
+	999.1.1 = { #fic
 		birth = yes
 	}
 	#unknown wife

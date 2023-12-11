@@ -13,7 +13,7 @@ arenberg1 = {
 	}
 }
 
-﻿arenberg2 = {
+arenberg2 = {
 	name = "Frank" #Frank I of Arenberg
 	dynasty = 182
 	religion = catholic
@@ -28,7 +28,7 @@ arenberg1 = {
 	}
 }
 
-﻿arenberg3 = {
+arenberg3 = {
 	name = "Arnold" #Arnold I of Arenberg
 	dynasty = 182
 	religion = catholic

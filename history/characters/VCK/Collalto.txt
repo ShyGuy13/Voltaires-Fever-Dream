@@ -92,7 +92,7 @@ collalto6 = {
 	}
 }
 
-﻿collalto7 = {
+collalto7 = {
 	name = "Rambaldo" # Rambaldo III of Treviso
 	dynasty = 99
 	religion = catholic
@@ -108,7 +108,7 @@ collalto6 = {
 	}
 }
 
-﻿collalto8 = {
+collalto8 = {
 	name = "Rambaldo" # Rambaldo II of Treviso
 	dynasty = 99
 	religion = catholic
@@ -124,7 +124,7 @@ collalto6 = {
 	}
 }
 
-﻿collalto9 = {
+collalto9 = {
 	name = "Giovanni" # 
 	dynasty = 99
 	religion = catholic
@@ -140,7 +140,7 @@ collalto6 = {
 	}
 }
 
-﻿collalto10 = {
+collalto10 = {
 	name = "Guidone" # 
 	dynasty = 99
 	religion = catholic
@@ -156,7 +156,7 @@ collalto6 = {
 	}
 }
 
-﻿collalto11 = {
+collalto11 = {
 	name = "Pietro" # 
 	dynasty = 99
 	religion = catholic
@@ -172,7 +172,7 @@ collalto6 = {
 	}
 }
 
-﻿collalto12 = {
+collalto12 = {
 	name = "Matilda" # wife of Ugo of Sabbioneta
 	female = yes
 	dynasty = 99
@@ -189,7 +189,7 @@ collalto6 = {
 	}
 }
 
-﻿collalto13 = {
+collalto13 = {
 	name = "Rambaldo" # Rambaldo I of Treviso
 	dynasty = 99
 	religion = catholic
@@ -204,7 +204,7 @@ collalto6 = {
 	}
 }
 
-﻿collalto14 = {
+collalto14 = {
 	name = "Giberto" # Giberto I of Trevigiana
 	dynasty = 99
 	religion = catholic
@@ -219,7 +219,7 @@ collalto6 = {
 	}
 }
 
-﻿collalto15 = {
+collalto15 = {
 	name = "Bianchino" # Bianchino I of Camino
 	dynasty = 99
 	religion = catholic

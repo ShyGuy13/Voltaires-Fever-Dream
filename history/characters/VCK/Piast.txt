@@ -1,5 +1,5 @@
 piast1 = {
-	name = "Kazimierz" Kazimierz I of Poland
+	name = "Kazimierz" # Kazimierz I of Poland
 	dynasty = 281
 	culture = polish
 	religion = catholic
@@ -15,7 +15,7 @@ piast1 = {
 }
 
 piast2 = {
-	name = "Regelinda" wife of Hermann I Ekkeharding
+	name = "Regelinda" # wife of Hermann I Ekkeharding
 	female = yes
 	dynasty = 281
 	culture = polish
@@ -31,7 +31,7 @@ piast2 = {
 }
 
 piast3 = {
-	name = "Bolesław" # Bolesław I of Poland
+	name = "BolesL_aw" # Bolesław I of Poland
 	dynasty = 281
 	culture = polish
 	religion = catholic

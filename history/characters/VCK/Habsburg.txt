@@ -4,9 +4,13 @@
 	culture = swiss
 	religion = catholic
 	father = habsburg2
-	1030.1.1 = {
+	#Ita Matfriding
+	1030.1.1 = { #est
 		birth = yes
 		give_nickname = nick_the_pious
+	}
+	1054.1.1 = { #fic
+		add_spouse = zahringen12 # Reginlind
 	}
 	1096.11.11 = {
 		death = yes
@@ -22,6 +26,7 @@ habsburg2 = {
 	985.1.1 = {
 		birth = yes
 	}
+	#Ita Matfriding
 	1045.6.30 = {
 		death = yes
 	}
@@ -108,6 +113,7 @@ habsburg8 = {
 	culture = swiss
 	religion = catholic
 	father = habsburg2
+	#Ita Matfriding
 	1015.1.1 = {
 		birth = yes
 	}
@@ -122,6 +128,7 @@ habsburg9 = {
 	culture = swiss
 	religion = catholic
 	father = habsburg2
+	#Ita Matfriding
 	1016.1.1 = {
 		birth = yes
 	}
@@ -137,6 +144,7 @@ habsburg10 = {
 	culture = swiss
 	religion = catholic
 	father = habsburg2
+	#Ita Matfriding
 	1026.1.1 = { #fic
 		birth = yes
 	}

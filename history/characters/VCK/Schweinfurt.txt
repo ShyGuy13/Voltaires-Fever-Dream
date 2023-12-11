@@ -110,6 +110,8 @@ schweinfurt7 = {
 	971.1.1 = { #est
 		birth = yes
 	}
+	#wife was either Gerberga (popponing17), daughter of Otto of Henneberg
+	#OR Gerberga (konrading14), daughter of Heribert of Wetterau
 	1000.1.1 = { #est
 		add_spouse = popponing17 # Gerberga # est
 	}

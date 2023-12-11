@@ -114,7 +114,7 @@ hauteville8 = {
 	}
 }
 
-﻿hauteville9 = {
+hauteville9 = {
 	name = "Abagelard" # 
 	dynasty = 150
 	religion = catholic
@@ -128,7 +128,7 @@ hauteville8 = {
 	}
 }
 
-﻿hauteville10 = {
+hauteville10 = {
 	name = "Herman" # 
 	dynasty = 150
 	religion = catholic

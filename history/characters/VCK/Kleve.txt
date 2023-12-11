@@ -1,11 +1,16 @@
-﻿kleve1 = {
-	name = "Rutger" #Rutger I of Kleve
+﻿#DONE FOR 1054
+kleve1 = {
+	name = "Rüdiger" #Rutger I of Kleve
 	dynasty_house = house_kleve
 	religion = catholic
 	culture = ripuarian
 	father = gelre4
+	#unknown mother
 	972.1.1 = { #est
 		birth = yes
+	}
+	990.1.1 = { #fic
+		add_spouse = ezzoning16 # Wazela
 	}
 	1050.1.1 = { #est
 		death = yes
@@ -13,14 +18,16 @@
 }
 
 kleve2 = {
-	name = "Rutger" #Rutger II of Kleve
+	name = "Rüdiger" #Rutger II of Kleve
 	dynasty_house = house_kleve
 	religion = catholic
 	culture = ripuarian
 	father = kleve1
-	1000.1.1 = { #fic
+	mother = ezzoning16
+	1012.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1075.1.1 = {
 		death = yes
 	}
@@ -32,10 +39,13 @@ kleve3 = {
 	religion = catholic
 	culture = ripuarian
 	father = kleve2
-	1030.1.1 = { #fic
+	#unknown mother
+	1042.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1091.1.1 = {
 		death = yes
 	}
 }
+

@@ -281,18 +281,45 @@ c_fassa = {
 
 #Treviso
 c_treviso = {
-	1054.1.1 = {
-		holder = collalto1 # Rambaldo III
+	960.1.1 = {
+		holder = collalto13 # Rambaldo I
+	}
+	999.1.1 = {
+		holder = collalto8 # Rambaldo II
+	}
+	1048.1.1 = {
+		holder = collalto7 # Rambaldo III
+	}
+	1077.1.1 = {
+		holder = collalto1 # Rambaldo IV
 	}
 }
 c_belluno = {
-	1054.1.1 = {
-		holder = collalto1 # Rambaldo III
+	960.1.1 = {
+		holder = collalto13 # Rambaldo I
+	}
+	999.1.1 = {
+		holder = collalto8 # Rambaldo II
+	}
+	1048.1.1 = {
+		holder = collalto7 # Rambaldo III
+	}
+	1077.1.1 = {
+		holder = collalto1 # Rambaldo IV
 	}
 }
 c_ceneda = {
-	1054.1.1 = {
-		holder = collalto1 # Rambaldo III
+	960.1.1 = {
+		holder = collalto13 # Rambaldo I
+	}
+	999.1.1 = {
+		holder = collalto8 # Rambaldo II
+	}
+	1048.1.1 = {
+		holder = collalto7 # Rambaldo III
+	}
+	1077.1.1 = {
+		holder = collalto1 # Rambaldo IV
 	}
 }
 

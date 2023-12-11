@@ -53,17 +53,3 @@ lenzburg4 = {
 		death = yes
 	}
 }
-
-lenzburg2 = {
-	name = "Henri" #Henri II of Lausanne
-	dynasty = 80
-	religion = catholic
-	culture = arpitan
-	father = lenzburg3
-	994.1.1 = { #fic
-		birth = yes
-	}
-	1056.1.16 = {
-		death = yes
-	}
-}

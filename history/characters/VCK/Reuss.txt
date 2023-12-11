@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 reuss1 = {
 	name = "Heinrich" # Heinrich vom Gleißberg
 	dynasty = 85

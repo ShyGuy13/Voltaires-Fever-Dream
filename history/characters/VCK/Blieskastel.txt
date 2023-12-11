@@ -7,29 +7,29 @@ blieskastel1 = {
 	878.1.1 = { #fic
 		birth = yes
 	}
-  # Richilde of METZ ??
+  	# Richilde of METZ ??
 	933.1.1 = { #fic
 		death = yes
 	}
 }
 
-﻿blieskastel2 = {
+blieskastel2 = {
 	name = "Folmar" # Folmar of Metz (no regal number)
 	dynasty = 328
 	religion = catholic
 	culture = pfalzish
 	father = blieskastel1
-  #unknown mother
+  	#unknown mother
 	909.1.1 = { #fic
 		birth = yes
 	}
-  #unknown wife
+  	#unknown wife
 	957.1.1 = { #fic
 		death = yes
 	}
 }
 
-﻿blieskastel3 = {
+blieskastel3 = {
 	name = "Folmar" # Folmar I of Metz
 	dynasty = 328
 	religion = catholic
@@ -45,7 +45,7 @@ blieskastel1 = {
 	}
 }
 
-﻿blieskastel4 = {
+blieskastel4 = {
 	name = "Folmar" # Folmar II of Metz
 	dynasty = 328
 	religion = catholic
@@ -61,7 +61,7 @@ blieskastel1 = {
 	}
 }
 
-﻿blieskastel5 = {
+blieskastel5 = {
 	name = "Richilde" # wife of Dietrich I of Bar
 	female = yes
 	dynasty = 328
@@ -78,7 +78,7 @@ blieskastel1 = {
 	}
 }
 
-﻿blieskastel6 = {
+blieskastel6 = {
 	name = "Gottfried" # Gottfried I of Metz
 	dynasty = 328
 	religion = catholic
@@ -94,7 +94,7 @@ blieskastel1 = {
 	}
 }
 
-﻿blieskastel7 = {
+blieskastel7 = {
 	name = "Folmar" # Folmar VI of Metz
 	dynasty = 328
 	religion = catholic
@@ -110,7 +110,7 @@ blieskastel1 = {
 	}
 }
 
-﻿blieskastel8 = {
+blieskastel8 = {
 	name = "Folmar" # Folmar III of Metz
 	dynasty = 328
 	religion = catholic
@@ -126,7 +126,7 @@ blieskastel1 = {
 	}
 }
 
-﻿blieskastel9 = {
+blieskastel9 = {
 	name = "Folmar" # Folmar IV of Metz
 	dynasty = 328
 	religion = catholic
@@ -141,7 +141,7 @@ blieskastel1 = {
 	}
 }
 
-﻿blieskastel10 = {
+blieskastel10 = {
 	name = "Hermann" # 
 	dynasty = 328
 	religion = catholic
@@ -156,7 +156,7 @@ blieskastel1 = {
 	}
 }
 
-﻿blieskastel11 = {
+blieskastel11 = {
 	name = "Stephan" # bishop of Toul
 	dynasty = 328
 	religion = catholic
@@ -171,7 +171,7 @@ blieskastel1 = {
 	}
 }
 
-﻿blieskastel12 = {
+blieskastel12 = {
 	name = "Hedwig" # wife of Gerhard of Rieneck
 	female = yes
 	dynasty = 328

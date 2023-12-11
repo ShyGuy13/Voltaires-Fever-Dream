@@ -760,7 +760,8 @@
 	culture = pfalzish
 }
 161 = {
-	#free
+	name = "dynn_Liudolfing"
+	culture = low_elbish
 }
 162 = {
 	prefix = "dynnp_von"

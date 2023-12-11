@@ -1,5 +1,5 @@
-#DONE FOR 1054
-﻿baierbrunn1 = {
+﻿#DONE FOR 1054
+baierbrunn1 = {
 	name = "Sigibodo" # Sigibodo I von Baierbrunn
 	dynasty = 168
 	religion = catholic

@@ -1,6 +1,6 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 # de Huy = de Beaufort-Spontin
-﻿huy1 = {
+huy1 = {
 	name = "Boson" # Boson I of Huy
 	dynasty = 317
 	religion = catholic
@@ -15,7 +15,7 @@
 	}
 }
 
-﻿huy2 = {
+huy2 = {
 	name = "Gauthier" # Gauthier I of Huy
 	dynasty = 317
 	religion = catholic

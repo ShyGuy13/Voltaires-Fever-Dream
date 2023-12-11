@@ -14,7 +14,7 @@
 	#1062 Adelheid of Susa
 	1080.10.16 = {
 		death = {
-			death_reason = death_wounded
+			death_reason = death_wounded_1
 		}
 	}
 }

@@ -163,3 +163,19 @@ zahringen11 = {
 		death = yes
 	}
 }
+
+zahringen12 = {
+	name = "Reginlind" # wife of Werner II of Habsburg
+	female = yes
+	dynasty = 132
+	religion = catholic
+	culture = boden_alemannic
+	father = zahringen1
+	mother = sulzbach3
+	1041.1.1 = { #fic
+		birth  = yes
+	}
+	1104.1.1 = { #fic
+		death = yes
+	}
+}
