@@ -1,12 +1,15 @@
 ﻿collalto1 = {
-	name = "Rambaldo" # Rambaldo III of Treviso
+	name = "Rambaldo" # Rambaldo IV of Treviso
 	dynasty = 99
 	religion = catholic
 	culture = venetian
-	1010.1.1 = { #fic
+	father = collalto7
+	#unknown mother
+	1054.1.1 = { #fic
 		birth = yes
 	}
-	1085.1.1 = {
+	#Metilda, figlia del conte di Borgogna
+	1110.1.1 = { #fic
 		death = yes
 	}
 }
@@ -17,10 +20,216 @@ collalto2 = {
 	religion = catholic
 	culture = venetian
 	father = collalto1
-	1040.1.1 = { #fic
+	#Metilda, figlia del conte di Borgogna
+	1083.1.1 = { #fic
 		birth = yes
 	}
-	1115.1.1 = {
+	1126.1.1 = { #fic
+		death = yes
+	}
+}
+
+collalto3 = {
+	name = "Guidone" # Guidone II of Guidotto
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	father = collalto1
+	#Metilda, figlia del conte di Borgogna
+	1087.1.1 = { #fic
+		birth = yes
+	}
+	1116.1.1 = { #fic
+		death = yes
+	}
+}
+
+collalto4 = {
+	name = "Rambaldo" # Rambaldo V of Lovadina
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	father = collalto1
+	#Metilda, figlia del conte di Borgogna
+	1092.1.1 = { #fic
+		birth = yes
+	}
+	#no wife
+	1149.1.1 = { #fic
+		death = yes
+	}
+}
+
+collalto5 = {
+	name = "Matilda" # wife of Gabriele of Camino
+	female = yes
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	father = collalto1
+	#Metilda, figlia del conte di Borgogna
+	1096.1.1 = { #fic
+		birth = yes
+	}
+	1161.1.1 = { #fic
+		death = yes
+	}
+}
+
+collalto6 = {
+	name = "Valfredo" # Valfredo of Colfosco
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	father = collalto1
+	#Metilda, figlia del conte di Borgogna
+	1101.1.1 = { #fic
+		birth = yes
+	}
+	#Adelaide contessa di Zumelle, figlia del barone Adalfredo
+	1166.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿collalto7 = {
+	name = "Rambaldo" # Rambaldo III of Treviso
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	father = collalto8
+	#Gisla di Paoluccio, console di Padova
+	1011.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1077.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿collalto8 = {
+	name = "Rambaldo" # Rambaldo II of Treviso
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	father = collalto13
+	#Gesilla o Gisla, figlia di Berengario II
+	992.1.1 = { #fic
+		birth = yes
+	}
+	#Gisla di Paoluccio, console di Padova
+	1048.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿collalto9 = {
+	name = "Giovanni" # 
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	father = collalto8
+	#Gisla di Paoluccio, console di Padova
+	1015.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1083.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿collalto10 = {
+	name = "Guidone" # 
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	father = collalto8
+	#Gisla di Paoluccio, console di Padova
+	1019.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1087.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿collalto11 = {
+	name = "Pietro" # 
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	father = collalto8
+	#Gisla di Paoluccio, console di Padova
+	1023.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1084.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿collalto12 = {
+	name = "Matilda" # wife of Ugo of Sabbioneta
+	female = yes
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	father = collalto8
+	#Gisla di Paoluccio, console di Padova
+	1043.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1114.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿collalto13 = {
+	name = "Rambaldo" # Rambaldo I of Treviso
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	#unknown parents
+	932.1.1 = { #fic
+		birth = yes
+	}
+	#Gesilla o Gisla, figlia di Berengario II
+	999.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿collalto14 = {
+	name = "Giberto" # Giberto I of Trevigiana
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	father = collalto13
+	#Gesilla o Gisla, figlia di Berengario II
+	998.1.1 = { #fic
+		birth = yes
+	}
+	1060.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿collalto15 = {
+	name = "Bianchino" # Bianchino I of Camino
+	dynasty = 99
+	religion = catholic
+	culture = venetian
+	father = collalto13
+	#Gesilla o Gisla, figlia di Berengario II
+	995.1.1 = { #fic
+		birth = yes
+	}
+	1058.1.1 = { #fic
 		death = yes
 	}
 }
