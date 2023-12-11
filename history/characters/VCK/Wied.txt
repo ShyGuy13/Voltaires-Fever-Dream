@@ -1,12 +1,32 @@
-﻿wied1 = {
-	name = "Wittekind" # Wittekind I of Wied
+#DONE FOR 1054
+#Metfried I's parents are in fact unknown.
+wied1 = {
+	name = "Widukind" # Widukind I of Engersgau
 	dynasty = 181
 	religion = catholic
 	culture = moselle_franconian
-	1010.1.1 = { #fic
+	#unknown parents
+	1023.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1084.1.1 = {
+		death = yes
+	}
+}
+
+﻿wied2 = {
+	name = "Metfried" # Metfried I of Wied
+	dynasty = 181
+	religion = catholic
+	culture = moselle_franconian
+	father = wied1 # debated
+	#unknown mother
+	1073.1.1 = { #est
+		birth = yes
+	}
+	#Osterlind
+	1029.1.1 = {
 		death = yes
 	}
 }
