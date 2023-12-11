@@ -1,4 +1,5 @@
-﻿hirschberg1 = {
+#von Hirschberg = von Grögling
+hirschberg1 = {
 	name = "Hartwig" #Hartwig II of Hirschberg
 	dynasty = 17
 	religion = catholic
