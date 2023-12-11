@@ -1,40 +1,80 @@
-﻿diez1 = {
+#DONE FOR 1054
+#there is not much known about this dynasty.
+diez1 = {
 	name = "Embricho" #Embricho I of Niederlahngau
 	dynasty = 141
 	religion = catholic
 	culture = hessian
+	father = diez5
+	#unknown mother
 	1020.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1073.1.1 = {
 		death = yes
 	}
 }
 
 diez2 = {
-	name = "Heinrich" # Heinrich I  of Niederlahngau
+	name = "Heinrich" # Heinrich I of Niederlahngau
 	dynasty = 141
 	religion = catholic
 	culture = hessian
 	father = diez1
+	#unknown mother
 	1045.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1101.1.1 = { #fic
 		death = yes
 	}
 }
 
 diez3 = {
-	name = "Gerhard" # Gerhard I  of Niederlahngau
+	name = "Gerhard" # Gerhard I of Niederlahngau
 	dynasty = 141
 	religion = catholic
 	culture = hessian
 	father = diez1
+	#unknown mother
 	1049.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1120.1.1 = { #fic
+		death = yes
+	}
+}
+
+diez4 = {
+	name = "Godebold" # 
+	dynasty = 141
+	religion = catholic
+	culture = hessian
+	father = diez5
+	#unknown mother
+	1023.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1068.1.1 = { #fic
+		death = yes
+	}
+}
+
+diez5 = {
+	name = "Gottfried" # fictional character to make Embricho and Godebold brothers
+	dynasty = 141
+	religion = catholic
+	culture = hessian
+	#unknown parents
+	979.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1032.1.1 = { #fic
 		death = yes
 	}
 }
