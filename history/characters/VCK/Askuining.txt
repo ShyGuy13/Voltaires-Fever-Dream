@@ -3,10 +3,78 @@
 	dynasty = 9
 	religion = catholic
 	culture = slovenian
-	1010.1.1 = { #fic
+	#unknown parents
+	1002.1.1 = { #fic
 		birth = yes
 	}
-	1060.1.1 = {
+	#unknown wife
+	1058.1.1 = { #est
+		death = yes
+	}
+}
+
+﻿askuining2 = {
+	name = "Starchand" #Starchand I of Savinja
+	dynasty = 9
+	religion = catholic
+	culture = slovenian
+	father = askuining1
+	#unknown mother
+	1031.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1090.1.1 = { #est
+		death = yes
+	}
+}
+
+﻿askuining3 = {
+	name = "Werner" #Werner of Reichersberg 
+	dynasty = 9
+	religion = catholic
+	culture = slovenian
+	father = askuining1
+	#unknown mother
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1088.1.1 = { #est
+		death = yes
+	}
+}
+
+﻿askuining4 = {
+	name = "Aribo" #
+	dynasty = 9
+	religion = catholic
+	culture = slovenian
+	father = askuining1
+	#unknown mother
+	1038.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1086.1.1 = { #est
+		death = yes
+	}
+}
+
+#Hemma's ancestry is driving me crazy.
+﻿askuining5 = {
+	name = "Hemma" # Hemma of Gurk
+	female = yes
+	dynasty = 9
+	religion = catholic
+	culture = slovenian
+	trait = saint
+	#unknown parents
+	997.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1045.6.29 = {
 		death = yes
 	}
 }
