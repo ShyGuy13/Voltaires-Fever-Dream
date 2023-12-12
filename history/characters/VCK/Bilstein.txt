@@ -1,4 +1,4 @@
-﻿#DONE FOR 1054
+
 bilstein1 = {
   	name = "Friedrun" # wife of Volkold I of Nidda
     female = yes
@@ -79,7 +79,7 @@ bilstein5 = {
 }
 
 bilstein6 = {
-  	name = "Erpho" # Erpho I of Bilstein
+  	name = "Eberhard" # Erpho I of Bilstein
   	dynasty_house = house_bilstein
   	religion = catholic
   	culture = thuringian
@@ -125,6 +125,22 @@ bilstein8 = {
   	}
     #unknown wife
   	1140.1.1 = { #est
+  		  death = yes
+  	}
+}
+
+bilstein9 = {
+  	name = "Mathilde" # wife of Kuno of Arnsburg
+	female = yes
+  	dynasty_house = house_bilstein
+  	religion = catholic
+  	culture = thuringian
+  	father = bilstein6
+    	#unknown mother
+  	1052.1.1 = { #est
+  		  birth = yes
+  	}
+  	1102.1.1 = { #est
   		  death = yes
   	}
 }
