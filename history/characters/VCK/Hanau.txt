@@ -1,0 +1,51 @@
+#DONE FOR 1054
+#before Reinhard I of Hanau, there have been the von Buchen and von Dorfelden dynasties ruling in Hanau.
+#their relations to each other have not been properly researched.
+#I will merge them into a single von Hanau dynasty with arbitrary generations until Reinhard I von Hanau.
+#von Dorfelden = von Buchern = von Hanau
+hanau1 = {
+	name = "Arnold" #fictional
+	dynasty = 139
+	religion = catholic
+	culture = hessian
+	#unknown parents
+	1008.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1082.1.1 = {
+		death = yes
+	}
+}
+
+hanau2 = {
+	name = "Waldemar" #fictional
+	dynasty = 139
+	religion = catholic
+	culture = hessian
+	father = hanau1
+	#unknown mother
+	1049.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1113.1.1 = {
+		death = yes
+	}
+}
+
+hanau3 = {
+	name = "Dammo" #Dammo I of Buchen
+	dynasty = 139
+	religion = catholic
+	culture = hessian
+	father = hanau2
+	#unknown mother	
+	1077.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1145.1.1 = {
+		death = yes
+	}
+}
