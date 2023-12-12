@@ -137,6 +137,7 @@ babenberg8 = {
 		birth = yes
 		give_nickname = nick_the_strong
 	}
+	#no wife
 	1018.6.23 = {
 		death = yes
 	}
@@ -243,7 +244,7 @@ babenberg14 = {
 }
 
 babenberg15 = {
-	name = "Hemma" # wife of Rapoto III of Nordgau
+	name = "Emma" # wife of Rapoto III of Nordgau
 	female = yes
 	dynasty_house = house_babenberg
 	culture = austrian
