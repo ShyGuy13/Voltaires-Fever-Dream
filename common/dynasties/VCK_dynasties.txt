@@ -656,7 +656,7 @@
 }
 139 = {
 	prefix = "dynnp_von"
-	name = "dynn_Dorfelden"
+	name = "dynn_Hanau"
 	culture = hessian
 }
 140 = {
