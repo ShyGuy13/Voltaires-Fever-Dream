@@ -7,6 +7,15 @@ d_bm_aquileia = {
 
 d_bm_konstanz = {
 	1000.1.1 = { government = theocracy_government }
+	1026.3.18 = {
+		holder = dillingen19 # Warmann
+	}
+	1034.4.10 = {
+		holder = dillingen20 # Eberhard
+	}
+	1046.12.25 = {
+		holder = konstanz_theoderich # Theoderich
+	}
 	1051.6.22 = {
 		holder = konstanz_rumold # Rumold I
 	}

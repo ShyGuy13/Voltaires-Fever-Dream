@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 #Sources about the early generations of this dynasty are very inconsistent. 
 berg1 = {
 	name = "Adolf" # Adolf I of Berg

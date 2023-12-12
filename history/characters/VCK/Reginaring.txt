@@ -12,20 +12,20 @@
 	}
 }
 
-reginaring2 = {
-	name = "Richilde" # Richilde of Hainaut
-	female = yes
-	dynasty = 195
-	religion = catholic
-	culture = picard
-	father = reginaring8
-	1018.1.1 = {
-		birth = yes
-	}
-	1086.3.15 = {
-		death = yes
-	}
-}
+# reginaring2 = {
+# 	name = "Richilde" # Richilde of Hainaut
+# 	female = yes
+# 	dynasty = 195
+# 	religion = catholic
+# 	culture = picard
+# 	father = reginaring8
+# 	1018.1.1 = {
+# 		birth = yes
+# 	}
+# 	1086.3.15 = {
+# 		death = yes
+# 	}
+# }
 
 reginaring3 = {
 	name = "Herman" # Herman I of Hainaut
@@ -37,9 +37,9 @@ reginaring3 = {
 	1018.1.1 = {
 		birth = yes
 	}
-	1040.1.1 = {
-		add_spouse = reginaring2 # Richilde
-	}
+	#1040.1.1 = {
+	#	add_spouse = reginaring2 # Richilde
+	#}
 	1049.7.3 = {
 		death = yes
 	}
@@ -52,7 +52,7 @@ reginaring4 = {
 	culture = brabantian
 	trait = disinherited
 	father = reginaring3
-	mother = reginaring2
+	#mother = reginaring2
 	1042.1.1 = { #fic
 		birth = yes
 	}
@@ -69,7 +69,7 @@ reginaring5 = {
 	culture = brabantian
 	trait = disinherited
 	father = reginaring3
-	mother = reginaring2
+	#mother = reginaring2
 	1045.1.1 = { #fic
 		birth = yes
 	}

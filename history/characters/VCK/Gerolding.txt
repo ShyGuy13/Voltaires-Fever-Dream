@@ -1,8 +1,10 @@
-gerolding1 = {
+﻿gerolding1 = {
 	name = "Gérold" # Gérold I of Genf
 	dynasty = 282
 	culture = arpitan
 	religion = catholic
+	father = gerolding3
+	#Bertha
 	1014.1.1 = { #est
 		birth = yes
 	}
@@ -25,6 +27,37 @@ gerolding2 = {
 		birth = yes
 	}
 	1080.1.1 = {
+		death = yes
+	}
+}
+
+gerolding3 = {
+	name = "Conon" # 
+	dynasty = 282
+	culture = arpitan
+	religion = catholic
+	father = gerolding4
+	#unknown wife
+	990.1.1 = { #fic
+		birth = yes
+	}
+	#Bertha, daughter of Mathilde, sister of Rudolf III von Welf???
+	1044.1.1 = { #fic
+		death = yes
+	}
+}
+
+gerolding4 = {
+	name = "Robert" # 
+	dynasty = 282
+	culture = arpitan
+	religion = catholic
+	#https://www.geni.com/people/Conrad-I-comte-de-Gen%C3%A8ve/6000000003152759523
+	952.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1016.1.1 = { #fic
 		death = yes
 	}
 }

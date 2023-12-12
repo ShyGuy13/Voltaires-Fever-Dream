@@ -20,7 +20,7 @@ baboning2 = {
 	religion = catholic
 	culture = bavarian
 	father = baboning3
-	#mother = Mathilde von Formbach, daughter of Ulrich of Schweinachgau
+	mother = formbach20
 	998.1.1 = { #fic
 		birth = yes
 	}
@@ -41,7 +41,9 @@ baboning3 = {
 	935.1.1 = { #est
 		birth = yes
 	}
-	#Mathilde von Formbach, daughter of Ulrich of Schweinachgau
+	960.1.1 = { #fic
+		add_spouse = formbach20 # Mathilda
+	}
 	1001.3.6 = {
 		death = yes
 	}
@@ -101,7 +103,7 @@ baboning7 = {
 	culture = bavarian
 	trait = devoted
 	father = baboning3
-	#mother = Mathilde von Formbach, daughter of Ulrich of Schweinachgau
+	mother = formbach20
 	996.1.1 = { #fic
 		birth = yes
 	}

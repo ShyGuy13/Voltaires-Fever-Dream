@@ -13,7 +13,7 @@
 	}
 }
 
-﻿askuining2 = {
+askuining2 = {
 	name = "Starchand" #Starchand I of Savinja
 	dynasty = 9
 	religion = catholic
@@ -29,7 +29,7 @@
 	}
 }
 
-﻿askuining3 = {
+askuining3 = {
 	name = "Werner" #Werner of Reichersberg 
 	dynasty = 9
 	religion = catholic
@@ -45,7 +45,7 @@
 	}
 }
 
-﻿askuining4 = {
+askuining4 = {
 	name = "Aribo" #
 	dynasty = 9
 	religion = catholic
@@ -62,7 +62,7 @@
 }
 
 #Hemma's ancestry is driving me crazy.
-﻿askuining5 = {
+askuining5 = {
 	name = "Hemma" # Hemma of Gurk
 	female = yes
 	dynasty = 9

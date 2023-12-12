@@ -166,7 +166,7 @@ formbach11 = {
 }
 
 formbach12 = {
-	name = "Ulrich" #Ulrich I
+	name = "Ulrich" #Ulrich I of Schweinachgau
 	dynasty = 5
 	culture = austrian
 	religion = catholic
@@ -174,13 +174,14 @@ formbach12 = {
 	925.1.1 = { #fic
 		birth = yes
 	}
+	#Kunigunde of Bavaria
 	970.1.1 = {
 		death = yes
 	}
 }
 
 formbach13 = {
-	name = "Bertold" #Bertold I
+	name = "Bertold" #Bertold I of Lurngau
 	dynasty = 5
 	culture = austrian
 	religion = catholic
@@ -282,6 +283,21 @@ formbach19 = {
 		add_spouse = formbach1 # Mathilde
 	}
 	1109.1.1 = {
+		death = yes
+	}
+}
+
+formbach20 = {
+	name = "Mathilde" #wife of Babo I Baboning
+	female = yes
+	dynasty = 5
+	culture = austrian
+	religion = catholic
+	father = formbach12
+	945.1.1 = { #fic
+		birth = yes
+	}
+	1009.1.1 = { #fic
 		death = yes
 	}
 }

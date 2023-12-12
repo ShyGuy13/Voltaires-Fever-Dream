@@ -8,7 +8,7 @@
 		birth = yes
 	}
 	978.1.1 = {
-		add_spouse = rudolfing1 # Gerberga
+		add_spouse = welf14 # Gerberga
 	}
 	988.1.1 = { #est
 		death = yes
@@ -21,7 +21,7 @@ werl2 = {
 	religion = catholic
 	culture = hannoverian
 	father = werl1
-	mother = rudolfing1
+	mother = welf14
 	980.1.1 = { #est
 		birth = yes
 	}
@@ -38,7 +38,7 @@ werl3 = {
 	religion = catholic
 	culture = hannoverian
 	father = werl1
-	mother = rudolfing1
+	mother = welf14
 	984.1.1 = { #est
 		birth = yes
 	}
@@ -54,7 +54,7 @@ werl4 = {
 	religion = catholic
 	culture = hannoverian
 	father = werl1
-	mother = rudolfing1
+	mother = welf14
 	986.1.1 = { #est
 		birth = yes
 	}

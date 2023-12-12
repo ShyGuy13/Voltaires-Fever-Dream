@@ -4,7 +4,7 @@
 	religion = catholic
 	culture = low_elbish
 	father = luitpolding2
-	# Gisela von Burgund
+	mother = welf16
 	973.5.6 = {
 		birth = yes
 		give_nickname = nick_the_holy
@@ -26,7 +26,9 @@ luitpolding2 = {
 		birth = yes
 		give_nickname = nick_the_quarreller
 	}
-	# Gisela von Burgund
+	972.1.1 = { #est
+		add_spouse = welf16 # Gisela
+	}
 	995.8.25 = {
 		death = yes
 	}
@@ -38,7 +40,7 @@ luitpolding3 = {
 	religion = catholic
 	culture = low_elbish
 	father = luitpolding2
-	# Gisela von Burgund
+	mother = welf16
 	992.1.1 = { #est
 		birth = yes
 	}
@@ -54,7 +56,7 @@ luitpolding4 = {
 	religion = catholic
 	culture = low_elbish
 	father = luitpolding2
-	# Gisela von Burgund
+	mother = welf16
 	984.1.1 = { #est
 		birth = yes
 	}
@@ -71,7 +73,7 @@ luitpolding5 = {
 	culture = low_elbish
 	trait = devoted
 	father = luitpolding2
-	# Gisela von Burgund
+	mother = welf16
 	987.1.1 = { #fic
 		birth = yes
 	}
@@ -92,6 +94,31 @@ luitpolding6 = {
 		birth = yes
 	}
 	1019.11.17 = {
+		death = yes
+	}
+}
+
+luitpolding7 = {
+	name = "Otto" # Emperor Otto I of HRE
+	dynasty = 161
+	religion = catholic
+	culture = low_elbish
+	martial = 7
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 6
+	trait = greedy
+	trait = diligent
+	trait = deceitful
+	trait = education_martial_3
+	912.11.23 = {
+		birth = yes
+	}
+	951.10.10 = {
+		add_spouse = welf23 # Adelheid
+		give_nickname = nick_the_great
+	}
+	973.5.7 = {
 		death = yes
 	}
 }

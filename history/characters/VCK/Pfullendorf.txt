@@ -1,4 +1,4 @@
-pfullendorf1 = {
+﻿pfullendorf1 = {
 	name = "Ludwig" #Ludwig I of Pfullendorf
 	dynasty_house = house_pfullendorf
 	religion = catholic

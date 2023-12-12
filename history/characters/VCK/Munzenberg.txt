@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 munzenberg1 = {
 	name = "Eberhard" # Eberhard I von Hagen
 	dynasty = 133
@@ -8,10 +8,26 @@ munzenberg1 = {
 	1050.1.1 = { #est
 		birth = yes
 	}
-	1054.1.1 = { #fic
+	1080.1.1 = { #fic
 		add_spouse = arnsburg1 # Gertude
 	}
 	1122.1.1 = { #est
+		death = yes
+	}
+}
+
+munzenberg2 = {
+	name = "Konrad" # Konrad I of Hagen-Arnsburg
+	dynasty = 133
+	religion = catholic
+	culture = hessian
+	father = munzenberg1
+	mother = arnsburg1
+	1082.1.1 = { #est
+		birth = yes
+	}
+	#Luitgard
+	1137.1.1 = { #est
 		death = yes
 	}
 }

@@ -1037,3 +1037,18 @@ karling68 = {
 		death = yes
 	}
 }
+
+karling69 = {
+	name = "Maude" # wife of Konrad III of Burgundy
+	female = yes
+	dynasty = 211
+	religion = catholic
+	culture = french
+	father = karling7
+	943.1.1 = {
+		birth = yes	
+	}
+	981.11.26 = {
+		death = yes
+	}
+}

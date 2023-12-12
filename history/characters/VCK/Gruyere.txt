@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 gruyere1 = {
 	name = "Guillaime" #Guillaime I of Gruyère
 	dynasty = 92

@@ -1,4 +1,4 @@
-groitzsch1 = {
+﻿groitzsch1 = {
 	name = "Wiprecht" #Wiprecht I of Leisnig
 	dynasty = 269
 	religion = catholic

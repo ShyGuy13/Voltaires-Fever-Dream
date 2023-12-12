@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 #before Reinhard I of Hanau, there have been the von Buchen and von Dorfelden dynasties ruling in Hanau.
 #their relations to each other have not been properly researched.
 #I will merge them into a single von Hanau dynasty with arbitrary generations until Reinhard I von Hanau.

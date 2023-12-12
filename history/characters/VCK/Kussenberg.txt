@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 #sources are sparse, many family members are unknown, family relations are unknown.
 kussenberg1 = {
 	name = "Ulrich" #fictional

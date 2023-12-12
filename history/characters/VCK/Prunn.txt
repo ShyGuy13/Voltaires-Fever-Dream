@@ -1,15 +1,16 @@
-﻿prunn1 = {
+﻿#DONE FOR 1054
+prunn1 = {
 	name = "Bertold" # Bertold von Prunn
 	dynasty_house = house_prunn
 	religion = catholic
 	culture = bavarian
 	father = baboning3
-	#mother = Mathilde von Formbach, daughter of Ulrich of Schweinachgau
-	1007.1.1 = { #fic
+	mother = formbach20
+	1000.1.1 = { #fic
 		birth = yes
 	}
 	#unknown wife
-	1080.1.1 = { #fic
+	1074.1.1 = { #fic
 		death = yes
 	}
 }

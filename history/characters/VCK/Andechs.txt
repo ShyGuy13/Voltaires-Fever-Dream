@@ -1,4 +1,7 @@
-﻿andechs1 = {
+﻿
+
+#von Andechs = von Dießen
+andechs1 = {
 	name = "Arnold" #Arnold I of Andechs
 	dynasty = 27
 	religion = catholic
@@ -24,6 +27,8 @@ andechs2 = {
 	1005.1.1 = {
 		birth = yes
 	}
+	#Irmgard[5] (von Gilching), Tochter von Arnold (von Gilching)
+	#Tuta von Regensburg († (27. Juni)), Erbtochter von Domvogt Hartwig I. von Regensburg
 	1075.6.30 = {
 		death = yes
 	}

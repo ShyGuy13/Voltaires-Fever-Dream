@@ -8,9 +8,9 @@
 	947.1.1 = { #est
 		birth = yes
 	}
-	#986.1.1 = {
-	#	add_spouse = Gerberga von Burgund
-	#}
+	986.1.1 = {
+		add_spouse = welf14 # Gerberga
+	}
 	1003.5.4 = {
 		death = yes
 	}
@@ -68,7 +68,7 @@ konrading5 = {
 	religion = catholic
 	culture = swabian
 	father = konrading1
-	#mother = Gerberga von Burgund
+	mother = welf14
 	988.1.1 = { #est
 		birth = yes
 	}
@@ -84,7 +84,7 @@ konrading6 = {
 	religion = catholic
 	culture = swabian
 	father = konrading1
-	#mother = Gerberga von Burgund
+	mother = welf14
 	989.11.11 = { #est
 		birth = yes
 	}
@@ -99,7 +99,7 @@ konrading7 = {
 	religion = catholic
 	culture = swabian
 	father = konrading1
-	#mother = Gerberga von Burgund
+	mother = welf14
 	992.1.1 = { #est
 		birth = yes
 	}
@@ -116,7 +116,7 @@ konrading8 = {
 	culture = swabian
 	trait = twin
 	father = konrading1
-	#mother = Gerberga von Burgund
+	mother = welf14
 	994.1.1 = { #est
 		birth = yes
 	}
@@ -132,7 +132,7 @@ konrading9 = {
 	culture = swabian
 	trait = twin
 	father = konrading1
-	#mother = Gerberga von Burgund
+	mother = welf14
 	994.1.1 = { #est
 		birth = yes
 	}

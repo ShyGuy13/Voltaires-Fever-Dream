@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 frohburg1 = {
 	name = "Albrecht" # Albrecht I of Solothurn
 	dynasty = 73

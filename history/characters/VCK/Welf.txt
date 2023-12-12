@@ -193,3 +193,190 @@ welf13 = {
 		death = yes
 	}
 }
+
+welf14 = {
+	name = "Gerberga" # wife of Herman of Werl & Hermann II of Swabia
+	female = yes
+	dynasty = 136
+	religion = catholic
+	culture = swabian
+	father = welf15
+	mother = karling69
+	966.1.1 = { #est
+		birth = yes
+	}
+	1019.7.7 = {
+		death = yes
+	}
+}
+
+welf15 = {
+	name = "Konrad" # Konrad III of Burgundy
+	dynasty = 136
+	religion = catholic
+	culture = swabian
+	father = welf22
+	925.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_peaceful
+	}
+	943.1.1 = { #fic
+		add_spouse = welf15_wife # Adela
+	}
+	963.1.1 = { #est
+		add_spouse = karling69 # Mathilda
+	}
+	993.10.19 = {
+		death = yes
+	}
+}
+
+welf16 = {
+	name = "Gisela" # wife of Heinrich II of Bavaria
+	female = yes
+	dynasty = 136
+	religion = catholic
+	culture = swabian
+	father = welf15_wife
+	mother = karling69
+	952.1.1 = { #est
+		birth = yes
+	}
+	1007.7.21 = {
+		death = yes
+	}
+}
+
+welf17 = {
+	name = "Konrad" # 
+	dynasty = 136
+	religion = catholic
+	culture = swabian
+	father = welf15_wife
+	mother = karling69
+	949.1.1 = { #fic
+		birth = yes
+	}
+	966.1.1 = { #fic
+		death = yes
+	}
+}
+
+welf18 = {
+	name = "Mathilde" # grand mother of Gerold of Genf, possible wife of Egino of Urach/Achalm????
+	female = yes
+	dynasty = 136
+	religion = catholic
+	culture = swabian
+	father = welf15
+	mother = karling69
+	969.1.1 = {
+		birth = yes
+	}
+	1028.1.1 = { #fic
+		death = yes
+	}
+}
+
+welf19 = {
+	name = "Rudolf" # Rudolf III of Burgundy
+	dynasty = 136
+	religion = catholic
+	culture = swabian
+	father = welf15
+	mother = karling69
+	971.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_idle
+	}
+	1032.9.6 = { #fic
+		death = yes
+	}
+}
+
+welf20 = {
+	name = "Bertha" # wife of Odo I of Blois & Robert II of France
+	female = yes
+	dynasty = 136
+	religion = catholic
+	culture = swabian
+	father = welf15
+	mother = karling69
+	964.1.1 = {
+		birth = yes
+	}
+	1010.1.16 = {
+		death = yes
+	}
+}
+
+welf21 = {
+	name = "Burkhard" # bishop of Lyon
+	dynasty = 136
+	religion = catholic
+	culture = swabian
+	trait = bastard
+	father = welf15
+	mother = welf15_concubine
+	961.1.1 = { #fic
+		birth = yes
+	}
+	1030.6.22 = {
+		death = yes
+	}
+}
+
+welf22 = {
+	name = "Rudolf" # Rudolf II of Burgundy
+	dynasty = 136
+	religion = catholic
+	culture = swabian
+	880.1.1 = { #est
+		birth = yes
+	}
+	937.7.11 = {
+		death = yes
+	}
+}
+
+welf23 = {
+	name = "Adelheid" # wife of Emperor Otto the Great
+	female = yes
+	dynasty = 136
+	religion = catholic
+	culture = swabian
+	father = welf22
+	931.1.1 = {
+		birth = yes
+	}
+	999.12.16 = {
+		death = yes
+	}
+}
+
+#wifes
+welf15_wife = {
+	name = "Adela" # Adelaide of Bellay
+	female = yes
+	religion = catholic
+	culture = swabian
+	926.1.1 = { #fic
+		birth = yes
+	}
+	963.3.23 = {
+		death = yes
+	}
+}
+
+welf15_concubine = {
+	name = "Aldiud" # 
+	female = yes
+	religion = catholic
+	culture = burgundian
+	938.1.1 = { #fic
+		birth = yes
+	}
+	1003.1.1 = {  #fic
+		death = yes
+	}
+}

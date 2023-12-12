@@ -1,4 +1,4 @@
-ammensleben1 = {
+﻿ammensleben1 = {
     name = "Milo" #Milo I of Ammensleben
     dynasty = 360
     culture = central_margravian
