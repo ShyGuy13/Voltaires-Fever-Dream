@@ -1,0 +1,33 @@
+#DONE FOR 1054
+arnsburg1 = {
+	name = "Gertrude" # wife of Eberhard I of Münzenberg
+  female = yes
+	dynasty = 328
+	religion = catholic
+	culture = hessian
+  father = arnsburg2
+  mother = bilstein9
+	1065.1.1 = { #est
+		birth = yes
+	}
+	1091.1.1 = {
+		death = yes
+	}
+}
+
+﻿arnsburg2 = {
+	name = "Konrad" # Kuno of Arnsburg
+	dynasty = 328
+	religion = catholic
+	culture = hessian
+  #unknown parents
+	1027.1.1 = { #est
+		birth = yes
+	}
+	1054.1.1 = { #fic
+    add_spouse = bilstein9 # Mathilda
+  }
+	1093.1.1 = { #est
+		death = yes
+	}
+}
