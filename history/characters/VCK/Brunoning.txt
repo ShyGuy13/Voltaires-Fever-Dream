@@ -7,8 +7,12 @@
 	1024.1.1 = {
 		birth = yes
 	}
+	#no wife, no children
 	1057.6.26 = {
-		death = yes
+		death = {
+			death_reason = death_battle
+			killer = haldensleben2 # Otto OR Wilhelm von Haldensleben
+		}
 	}
 }
 
@@ -20,6 +24,9 @@ brunoning2 = {
 	father = brunoning3
 	1036.1.1 = {
 		birth = yes
+	}
+	1058.1.1 = {
+		add_spouse = arduining2 # Immilla
 	}
 	1068.1.11 = {
 		death = yes
@@ -35,6 +42,7 @@ brunoning3 = {
 	1003.1.1 = {
 		birth = yes
 	}
+	#Gertrud die Ältere von Braunschweig
 	1038.4.23 = {
 		death = yes
 	}
