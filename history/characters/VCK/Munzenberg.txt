@@ -1,12 +1,17 @@
-﻿munzenberg1 = {
-	name = "Kuno" # Kuno I of Arnsburg
+#DONE FOR 1054
+munzenberg1 = {
+	name = "Eberhard" # Eberhard I von Hagen
 	dynasty = 133
 	religion = catholic
 	culture = hessian
-	1012.1.1 = { #fic
+	#unknown parents
+	1050.1.1 = { #est
 		birth = yes
 	}
-	1075.1.1 = {
+	1054.1.1 = { #fic
+		add_spouse = arnsburg1 # Gertude
+	}
+	1122.1.1 = { #est
 		death = yes
 	}
 }
