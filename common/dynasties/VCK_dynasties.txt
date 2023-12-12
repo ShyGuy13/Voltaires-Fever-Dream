@@ -638,7 +638,7 @@
 }
 135 = {
 	prefix = "dynnp_von"
-	name = "dynn_Arnsberg"
+	name = "dynn_Arnsberg" # major dynasty related to Werl & Rietberg
 	culture = hannoverian
 }
 136 = {
@@ -1534,7 +1534,9 @@
 	culture = swiss
 }
 328 = {
-	
+	prefix = "dynnp_von"
+	name = "dynn_Arnsburg" # minor dynasty related to Münzenberg
+	culture = hessian
 }
 329 = {
 	prefix = "dynnp_von"
