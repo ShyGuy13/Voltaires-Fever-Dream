@@ -115,6 +115,7 @@ goseck8 = {
 	father = goseck5
 	1006.1.1 = { #fic
 		birth = yes
+		set_friend = salier3 # Heinrich III
 	}
 	1072.3.16 = {
 		death = yes
@@ -165,6 +166,22 @@ goseck11 = {
 		birth = yes
 	}
 	1081.1.1 = { #fic
+		death = yes
+	}
+}
+
+goseck12 = {
+	name = "Richenza" # wife of Egilmar I of Oldenburg
+	female = yes
+	dynasty = 225
+	religion = catholic
+	culture = saxon
+	father = goseck9 # debated
+	#mother = Ida of Elsdorf
+	1042.1.1 = { #fic
+		birth = yes
+	}
+	1109.1.1 = { #fic
 		death = yes
 	}
 }
