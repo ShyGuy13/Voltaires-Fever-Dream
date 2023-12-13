@@ -1564,9 +1564,11 @@
 	name = "dynn_Pettendorf"
 	culture = bavarian
 }
-# 335 = {
-	
-# }
+335 = {
+	prefix = "dynnp_von"
+	name = "dynn_Stumpenhusen"
+	culture = eastphalian
+}
 # 336 = {
 	
 # }
