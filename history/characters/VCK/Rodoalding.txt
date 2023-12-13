@@ -1,12 +1,100 @@
 ﻿rodoalding1 = {
-	name = "Atenolfo" #Atenolfo of Gaeta
+	name = "Atenolfo" #Atenolfo I of Gaeta / Atenolfo V of Aquino
 	dynasty = 238
 	religion = catholic
 	culture = langobard
-	1001.1.1 = { #fic
+	father = rodoalding3
+	1010.1.1 = { #est
 		birth = yes
 	}
+	#Maria, figlia di Pandolfo IV di Capua
 	1062.2.2 = {
+		death = yes
+	}
+}
+
+﻿rodoalding2 = {
+	name = "Atenolfo" #Atenolfo II of Gaeta / Atenolfo VI of Aquino
+	dynasty = 238
+	religion = catholic
+	culture = langobard
+	father = ﻿rodoalding1
+	#Maria, figlia di Pandolfo IV di Capua
+	1038.1.1 = { #fic
+		birth = yes
+	}
+	1064.10.10 = {
+		death = yes
+	}
+}
+
+﻿rodoalding3 = {
+	name = "Atenolfo" # Atenolfo IV of Aquino
+	dynasty = 238
+	religion = catholic
+	culture = langobard
+	986.1.1 = { #fic
+		birth = yes
+	}
+	1040.1.1 = {
+		death = yes
+	}
+}
+
+﻿rodoalding4 = {
+	name = "Lando" # Lando I of Gaeta / Aquino
+	dynasty = 238
+	religion = catholic
+	culture = langobard
+	father = rodoalding3
+	1013.1.1 = { #fic
+		birth = yes
+	}
+	1083.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿rodoalding5 = {
+	name = "Pietro" #
+	dynasty = 238
+	religion = catholic
+	culture = langobard
+	father = rodoalding4
+	1035.1.1 = { #fic
+		birth = yes
+	}
+	1092.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿rodoalding6 = {
+	name = "Lando" #
+	dynasty = 238
+	religion = catholic
+	culture = langobard
+	father = rodoalding4
+	1043.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1114.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿rodoalding7 = {
+	name = "Atenolfo" #
+	dynasty = 238
+	religion = catholic
+	culture = langobard
+	father = rodoalding4
+	1049.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1108.1.1 = { #fic
 		death = yes
 	}
 }
