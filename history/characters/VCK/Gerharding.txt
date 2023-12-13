@@ -42,7 +42,7 @@ gerharding3 = {
 	dynasty = 186
 	religion = catholic
 	culture = lorrainian
-	#father = Adalbert II of Metz
+	father = gerharding5
 	#mother = Judith of Öhningen
 	993.1.1 = { #est
 		birth = yes
@@ -71,6 +71,53 @@ gerharding4 = {
 			death_reason = death_battle
 			killer = wigeriching2 # Gottfried III of Lower Lorraine
 		}
+	}
+}
+
+gerharding5 = {
+	name = "Adalbert" #Adalbert II of Metz
+	dynasty = 186
+	religion = catholic
+	culture = lorrainian
+	
+	972.1.1 = { #est
+		birth = yes
+	}
+	#979 = Judith von Öhningen
+	1033.6.30 = {
+		death = yes
+	}
+}
+
+gerharding6 = {
+	name = "Ida" #wife of Radbot of Habsburg
+	female = yes
+	dynasty = 186
+	religion = catholic
+	culture = lorrainian
+	father = gerharding5
+	#mother = Judith of Öhningen
+	995.7.23 = {
+		birth = yes
+	}
+	1035.1.1 = { #est
+		death = yes
+	}
+}
+
+gerharding7 = {
+	name = "Hildegarde" #wife of Foulques III of Anjou
+	female = yes
+	dynasty = 186
+	religion = catholic
+	culture = lorrainian
+	father = gerharding5
+	#mother = Judith of Öhningen
+	981.1.1 = { #fic
+		birth = yes
+	}
+	1038.1.1 = { #fic
+		death = yes
 	}
 }
 
