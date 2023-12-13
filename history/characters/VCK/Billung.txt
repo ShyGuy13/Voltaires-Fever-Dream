@@ -9,7 +9,7 @@
 		birth = yes
 	}
 	1020.1.1 = {
-		add_spouse = luitpolding8 # Eilika Luitpolding
+		add_spouse = schweinfurt8 # Eilika Luitpolding
 	}
 	1059.6.29 = {
 		death = yes

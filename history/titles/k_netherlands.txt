@@ -135,7 +135,7 @@ c_enghein = {
 #Emsigerland
 c_auricherland = {
 	1044.7.12 = {
-		holder = werl1 # Hermann III
+		holder = werl5 # Hermann III
 	}
 }
 

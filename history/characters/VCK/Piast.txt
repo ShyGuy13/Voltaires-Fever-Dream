@@ -1,10 +1,10 @@
-piast1 = {
+﻿piast1 = {
 	name = "Kazimierz" # Kazimierz I of Poland
 	dynasty = 281
 	culture = polish
 	religion = catholic
 	father = piast4
-	#Richeza Ezzoning
+	mother = ezzoning20
 	1016.6.25 = {
 		birth = yes
 		give_nickname = nick_the_restorer
@@ -54,7 +54,9 @@ piast4 = {
 	990.1.1 = { #est
 		birth = yes
 	}
-	#1013 = Richeza Ezzoning
+	1013.1.1 = {
+		add_spouse = ezzoning20 # Richeza
+	}
 	1034.5.10 = {
 		death = yes
 	}

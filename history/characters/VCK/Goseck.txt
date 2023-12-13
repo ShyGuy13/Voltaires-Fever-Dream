@@ -115,7 +115,12 @@ goseck8 = {
 	father = goseck5
 	1006.1.1 = { #fic
 		birth = yes
-		set_friend = salier3 # Heinrich III
+		effect = {
+			set_relation_friend = {
+				reason = friend_generic_history
+				target = character:salier3 # Heinrich III
+			}
+		}
 	}
 	1072.3.16 = {
 		death = yes

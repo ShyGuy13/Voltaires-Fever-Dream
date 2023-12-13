@@ -1,4 +1,6 @@
-﻿pfullendorf1 = {
+﻿#DONE FOR 1054
+#sources are very sparse.
+pfullendorf1 = {
 	name = "Ludwig" #Ludwig I of Pfullendorf
 	dynasty_house = house_pfullendorf
 	religion = catholic
@@ -7,9 +9,11 @@
 	trait = dull
 	trait = lisping
 	father = udalriching2 # his historical father isn't known
+	#unknown mother
 	1018.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1086.12.24 = {
 		death = yes
 	}
@@ -21,10 +25,14 @@ pfullendorf2 = {
 	religion = catholic
 	culture = swabian
 	father = pfullendorf1
-	1050.1.1 = { #fic
+	#unknown mother
+	1053.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1116.5.17 = {
-		death = yes
+		death = {
+			death_reason = death_drowned
+		}
 	}
 }

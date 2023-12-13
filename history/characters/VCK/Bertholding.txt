@@ -1,4 +1,4 @@
-
+﻿
 bertholding1 = {
 	name = "Berthold" # Berthold III of Stromberg / Maifeldgau / Trechirgau
 	dynasty = 103

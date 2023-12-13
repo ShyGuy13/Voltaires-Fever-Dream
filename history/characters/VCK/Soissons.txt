@@ -4,9 +4,11 @@
 	religion = catholic
 	culture = champenois
 	father = soissons2
+	#Lessaline de Dammartin
 	1008.1.1 = { #fic
 		birth = yes
 	}
+	#no wife, no children
 	1057.1.1 = {
 		death = yes
 	}
@@ -17,22 +19,27 @@ soissons2 = {
 	dynasty_house = house_soissons
 	religion = catholic
 	culture = champenois
-	mother = soissons5
+	father = soissons4
+	#Adelaide
 	985.1.1 = {
 		birth = yes
 	}
+	#Lessaline de Dammartin
 	1057.1.1 = {
-		death = yes
+		death = {
+			death_reason = death_siege
+		}
 	}
 }
 
 soissons3 = {
-	name = "Adelaide" # Adelaide I of Soissons
+	name = "Adélaïde" # Adélaïde I of Soissons, wife of William Busac of Eu
 	female = yes
 	dynasty_house = house_soissons
 	religion = catholic
 	culture = champenois
 	father = soissons2
+	#Lessaline de Dammartin
 	1031.1.1 = { #fic
 		birth = yes
 	}
@@ -47,9 +54,11 @@ soissons4 = {
 	religion = catholic
 	culture = champenois
 	father = vermandois10
+	#Adele
 	942.1.1 = { #fic
 		birth = yes
 	}
+	#Adelaide, daughter of a Count Giselbert
 	988.1.1 = {
 		death = yes
 	}

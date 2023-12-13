@@ -34,6 +34,7 @@ udoning3 = {
 	dynasty = 223
 	religion = catholic
 	culture = thuringian
+	father = udoning13
 	910.1.1 = { #fic
 		give_nickname = nick_the_bald
 		birth = yes
@@ -199,5 +200,39 @@ udoning12 = {
 	}
 	1093.10.31 = {
 		death = yes
+	}
+}
+
+udoning13 = {
+	name = "Lothar" # Lothar II of Stade
+	dynasty = 223
+	religion = catholic
+	culture = low_elbish
+	father = udoning14
+	872.1.1 = { #fic
+		birth = yes
+	}
+	#Schwanhilde
+	929.9.5 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+udoning14 = {
+	name = "Lothar" # Lothar I of Stade
+	dynasty = 223
+	religion = catholic
+	culture = low_elbish
+	#unknown parents
+	839.1.1 = { #fic
+		birth = yes
+	}
+	#Enda von Sachsen, Tochter des Herzogs Liudolf
+	880.2.2 = {
+		death = {
+			death_reason = death_battle
+		}
 	}
 }

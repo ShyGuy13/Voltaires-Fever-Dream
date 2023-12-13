@@ -577,7 +577,6 @@ c_orlamunde = {
 c_volkermarkt = {
 	1000.1.1 = {
 		liege = d_carinthia
-		holder = heunburg5
 	}
 	1043.1.1 = {
 		holder = heunburg1 # Gero I
@@ -1932,7 +1931,7 @@ c_solms = {
 #Hanau
 c_hanau = {
 	1054.1.1 = {
-		holder = dorfelden1 # Reinhold I
+		holder = hanau1 # Arnold I
 	}
 }
 

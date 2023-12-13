@@ -26,7 +26,7 @@ wied2 = {
 		birth = yes
 	}
 	#Osterlind
-	1029.1.1 = {
+	1129.1.1 = {
 		death = yes
 	}
 }

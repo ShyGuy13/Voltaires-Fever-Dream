@@ -1,5 +1,4 @@
 ﻿#Sulzbach's first generations are very debated; family relationships are heavily different dependent on historian
-
 sulzbach1 = {
 	name = "Gebhard" #Gebhard I of Sulzbach
 	dynasty = 90

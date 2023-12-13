@@ -13,12 +13,12 @@
 	}
 }
 
-﻿rodoalding2 = {
+rodoalding2 = {
 	name = "Atenolfo" #Atenolfo II of Gaeta / Atenolfo VI of Aquino
 	dynasty = 238
 	religion = catholic
 	culture = langobard
-	father = ﻿rodoalding1
+	father = rodoalding1
 	#Maria, figlia di Pandolfo IV di Capua
 	1038.1.1 = { #fic
 		birth = yes
@@ -28,7 +28,7 @@
 	}
 }
 
-﻿rodoalding3 = {
+rodoalding3 = {
 	name = "Atenolfo" # Atenolfo IV of Aquino
 	dynasty = 238
 	religion = catholic
@@ -41,7 +41,7 @@
 	}
 }
 
-﻿rodoalding4 = {
+rodoalding4 = {
 	name = "Lando" # Lando I of Gaeta / Aquino
 	dynasty = 238
 	religion = catholic
@@ -55,7 +55,7 @@
 	}
 }
 
-﻿rodoalding5 = {
+rodoalding5 = {
 	name = "Pietro" #
 	dynasty = 238
 	religion = catholic
@@ -69,7 +69,7 @@
 	}
 }
 
-﻿rodoalding6 = {
+rodoalding6 = {
 	name = "Lando" #
 	dynasty = 238
 	religion = catholic
@@ -84,7 +84,7 @@
 	}
 }
 
-﻿rodoalding7 = {
+rodoalding7 = {
 	name = "Atenolfo" #
 	dynasty = 238
 	religion = catholic

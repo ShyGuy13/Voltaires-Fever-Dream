@@ -52,11 +52,10 @@ ammensleben4 = {
     culture = central_margravian
     religion = catholic
     father = ammensleben3
-    #unknown mother
+    #Margarete von Morsleben
     986.1.1 = { #fic
     	birth = yes
     }
-    #wife = Margarete von Morsleben
     1032.1.1 = { #fic
     	death = yes
     }

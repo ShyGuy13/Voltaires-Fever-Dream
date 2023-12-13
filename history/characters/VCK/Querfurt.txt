@@ -158,7 +158,7 @@ querfurt10 = {
 	culture = thuringian
 	father = querfurt8
 	#Frideruna of Wettin, daughter of Folkmar I
-	940.1.1 = { #est
+	918.1.1 = { #est
 		birth = yes
 	}
 	992.12.3 = {
@@ -176,6 +176,7 @@ querfurt11 = {
 	948.1.1 = { #fic
 		birth = yes
 	}
+	#no wife, no children
 	1022.2.9 = {
 		death = yes
 	}

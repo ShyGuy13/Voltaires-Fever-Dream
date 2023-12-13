@@ -1,4 +1,5 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
+#sources are sparse.
 arenberg1 = {
 	name = "Ulrich" #Ulrich I of Arenberg
 	dynasty = 182
@@ -8,6 +9,7 @@ arenberg1 = {
 	997.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1032.1.1 = {
 		death = yes
 	}
@@ -23,6 +25,7 @@ arenberg2 = {
 	1028.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1074.1.1 = { #fic
 		death = yes
 	}
@@ -38,6 +41,7 @@ arenberg3 = {
 	1054.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1095.1.1 = { #fic
 		death = yes
 	}

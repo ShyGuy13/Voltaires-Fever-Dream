@@ -12,20 +12,20 @@
 	}
 }
 
-# reginaring2 = {
-# 	name = "Richilde" # Richilde of Hainaut
-# 	female = yes
-# 	dynasty = 195
-# 	religion = catholic
-# 	culture = picard
-# 	father = reginaring8
-# 	1018.1.1 = {
-# 		birth = yes
-# 	}
-# 	1086.3.15 = {
-# 		death = yes
-# 	}
-# }
+reginaring2 = {
+	name = "Richilde" # Richilde of Hainaut
+	female = yes
+	dynasty = 195 #TODO: CHANGE!
+	religion = catholic
+	culture = picard
+	father = reginaring8
+	1018.1.1 = {
+		birth = yes
+	}
+	1086.3.15 = {
+		death = yes
+	}
+}
 
 reginaring3 = {
 	name = "Herman" # Herman I of Hainaut

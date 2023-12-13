@@ -117,6 +117,7 @@ luitpolding7 = {
 
 luitpolding8 = {
 	name = "Walburga" # unknown name, wife of Meginhard I of Mangfall
+	female = yes
 	dynasty = 63
 	religion = catholic
 	culture = bavarian

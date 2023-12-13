@@ -1,9 +1,9 @@
-﻿luitpolding1 = {
+﻿liudolfing1 = {
 	name = "Heinrich" # Emperor Heinrich II
 	dynasty = 161
 	religion = catholic
 	culture = low_elbish
-	father = luitpolding2
+	father = liudolfing2
 	mother = welf16
 	973.5.6 = {
 		birth = yes
@@ -17,7 +17,7 @@
 	}
 }
 
-luitpolding2 = {
+liudolfing2 = {
 	name = "Heinrich" # Heinrich II of Bavaria
 	dynasty = 161
 	religion = catholic
@@ -34,12 +34,12 @@ luitpolding2 = {
 	}
 }
 
-luitpolding3 = {
+liudolfing3 = {
 	name = "Bruno" # bishop of Augsburg
 	dynasty = 161
 	religion = catholic
 	culture = low_elbish
-	father = luitpolding2
+	father = liudolfing2
 	mother = welf16
 	992.1.1 = { #est
 		birth = yes
@@ -49,13 +49,13 @@ luitpolding3 = {
 	}
 }
 
-luitpolding4 = {
+liudolfing4 = {
 	name = "Gisela" # wife of Stephan I of Hungary
 	female = yes
 	dynasty = 161
 	religion = catholic
 	culture = low_elbish
-	father = luitpolding2
+	father = liudolfing2
 	mother = welf16
 	984.1.1 = { #est
 		birth = yes
@@ -65,14 +65,14 @@ luitpolding4 = {
 	}
 }
 
-luitpolding5 = {
+liudolfing5 = {
 	name = "Brigida" # nun
 	female = yes
 	dynasty = 161
 	religion = catholic
 	culture = low_elbish
 	trait = devoted
-	father = luitpolding2
+	father = liudolfing2
 	mother = welf16
 	987.1.1 = { #fic
 		birth = yes
@@ -82,13 +82,13 @@ luitpolding5 = {
 	}
 }
 
-luitpolding6 = {
+liudolfing6 = {
 	name = "Arnold" # bishop of Ravenna
 	dynasty = 161
 	religion = catholic
 	culture = low_elbish
 	trait = bastard
-	father = luitpolding2
+	father = liudolfing2
 	#no mother due bastard
 	977.1.1 = { #fic
 		birth = yes
@@ -98,7 +98,7 @@ luitpolding6 = {
 	}
 }
 
-luitpolding7 = {
+liudolfing7 = {
 	name = "Otto" # Emperor Otto I of HRE
 	dynasty = 161
 	religion = catholic
@@ -119,6 +119,20 @@ luitpolding7 = {
 		give_nickname = nick_the_great
 	}
 	973.5.7 = {
+		death = yes
+	}
+}
+
+liudolfing7 = {
+	name = "Mathilde" # wife of Ezzo Ezzoning
+	female = yes
+	dynasty = 161
+	religion = catholic
+	culture = low_elbish
+	978.1.1 = {
+		birth = yes
+	}
+	1025.12.4 = {
 		death = yes
 	}
 }

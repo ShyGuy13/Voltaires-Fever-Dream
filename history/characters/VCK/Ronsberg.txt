@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 #von Ronsberg = von Ursin
 ronsberg1 = {
 	name = "Reginhard" # Reginhard II vn Ursin
@@ -9,7 +9,12 @@ ronsberg1 = {
 	#unknown mother
 	1010.1.1 = { #fic
 		birth = yes
-		set_friend = welf1 # Welf III
+		effect = {
+			set_relation_friend = {
+				reason = friend_generic_history
+				target = character:welf1  # Welf III
+			}
+		}
 	}
 	#unknown wife
 	1066.1.1 = { #fic

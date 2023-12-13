@@ -27,7 +27,9 @@ walbeck2 = {
 		birth = yes
 		give_nickname = nick_the_younger
 	}
-	#spouse = Mathilde of Arneburg (Querfurt?)
+	935.1.1 = { #fic
+		add_spouse = querfurt10 # Mathilde
+	}
 	964.1.21 = {
 		death = yes
 	}
@@ -55,7 +57,7 @@ walbeck4 = {
 	culture = central_margravian
 	religion = catholic
 	father = walbeck2
-	#mother = Mathilde of Arneburg
+	mother = querfurt10
 	942.1.1 = { #est
 		birth = yes
 	}
@@ -71,7 +73,7 @@ walbeck5 = {
 	culture = central_margravian
 	religion = catholic
 	father = walbeck2
-	#mother = Mathilde of Arneburg
+	mother = querfurt10
 	938.1.1 = { #est
 		birth = yes
 	}
@@ -86,7 +88,7 @@ walbeck6 = {
 	culture = central_margravian
 	religion = catholic
 	father = walbeck2
-	#mother = Mathilde of Arneburg
+	mother = querfurt10
 	946.1.1 = { #est
 		birth = yes
 	}
@@ -104,7 +106,7 @@ walbeck7 = {
 	culture = central_margravian
 	religion = catholic
 	father = walbeck2
-	#mother = Mathilde of Arneburg
+	mother = querfurt10
 	951.1.1 = { #fic
 		birth = yes
 	}
@@ -120,7 +122,7 @@ walbeck8 = {
 	religion = catholic
 	trait = devoted
 	father = walbeck2
-	#mother = Mathilde of Arneburg
+	mother = querfurt10
 	953.1.1 = { #fic
 		birth = yes
 	}

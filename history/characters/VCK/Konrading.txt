@@ -184,13 +184,16 @@ konrading12 = {
 }
 
 konrading13 = {
-	name = "Otto" # Otto I of Hammerstein
+	name = "Otto" # Otto I of Hammerstein / Zutphen
 	dynasty = 3
 	religion = catholic
 	culture = swabian
 	father = konrading11
 	975.1.1 = { #est
 		birth = yes
+	}
+	1000.1.1 = { #fic
+		add_spouse = wigeriching40 # Irmingard
 	}
 	1036.6.5 = {
 		death = yes
@@ -208,6 +211,37 @@ konrading14 = {
 		birth = yes
 	}
 	1037.1.1 = { #fic
+		death = yes
+	}
+}
+
+konrading15 = {
+	name = "Udo" # 
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading13
+	mother = wigeriching40
+	1001.1.1 = { #fic
+		birth = yes
+	}
+	1034.1.1 = {
+		death = yes
+	}
+}
+
+konrading16 = {
+	name = "Mathilde" # wife of Ludolf Ezzoning
+	female = yes
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading13
+	mother = wigeriching40
+	1006.1.1 = { #fic
+		birth = yes
+	}
+	1065.1.1 = { #fic
 		death = yes
 	}
 }

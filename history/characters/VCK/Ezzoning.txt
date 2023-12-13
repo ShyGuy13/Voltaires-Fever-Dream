@@ -3,6 +3,8 @@
 	dynasty = 81
 	religion = catholic
 	culture = pfalzish
+	father = ezzoning19
+	mother = konrading16
 	1020.1.1 = {
 		birth = yes
 	}
@@ -91,6 +93,7 @@ ezzoning6 = {
 	religion = catholic
 	culture = pfalzish
 	trait = physique_bad_1
+	father = ezzoning28
 	935.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_slender
@@ -108,8 +111,10 @@ ezzoning7 = {
 	dynasty = 81
 	religion = catholic
 	culture = pfalzish
+	trait = twin
 	father = ezzoning8
-	995.1.1 = {
+	mother = liudolfing7
+	997.1.1 = { #est
 		birth = yes
 	}
 	1056.2.11 = {
@@ -127,6 +132,9 @@ ezzoning8 = {
 	955.1.1 = { #est
 		birth = yes
 	}
+	991.6.15 = {
+		add_spouse = liudolfing7 # Mathilda
+	}
 	1034.5.21 = {
 		death = yes
 	}
@@ -138,6 +146,7 @@ ezzoning9 = {
 	religion = catholic
 	culture = pfalzish
 	father = ezzoning8
+	mother = liudolfing7
 	993.1.1 = {
 		birth = yes
 	}
@@ -245,6 +254,265 @@ ezzoning16 = {
 		birth = yes
 	}
 	1032.1.1 = { #fic
+		death = yes
+	}
+}
+
+ezzoning17 = {
+	name = "Adelheid" #wife of Gottschalk of Zutphen
+	female = yes
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning19
+	mother = konrading16
+	1023.1.1 = { #fic
+		birth = yes
+	}
+	1076.1.1 = { #fic
+		death = yes
+	}
+}
+
+ezzoning18 = {
+	name = "Heinrich" #
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning19
+	mother = konrading16
+	1017.1.1 = { #fic
+		birth = yes
+	}
+	1031.10.31 = {
+		death = yes
+	}
+}
+
+ezzoning19 = {
+	name = "Ludolf" # Ludolf of Braunweiler
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning8
+	mother = liudolfing7
+	990.1.1 = { #fic
+		birth = yes
+	}
+	1016.1.1 = { #fic
+		add_spouse = konrading16 # Mathilde
+	}
+	1031.4.11 = {
+		death = yes
+	}
+}
+
+ezzoning20 = {
+	name = "Richeza" # wife of Mieszko II of Poland
+	female = yes
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning8
+	mother = liudolfing7
+	995.1.1 = { #est
+		birth = yes
+	}
+	1063.3.21 = {
+		death = yes
+	}
+}
+
+ezzoning21 = {
+	name = "Theophanu" # nun
+	female = yes
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	trait = twin
+	trait = devoted
+	father = ezzoning8
+	mother = liudolfing7
+	997.1.1 = { #est
+		birth = yes
+	}
+	1058.3.5 = {
+		death = yes
+	}
+}
+
+ezzoning22 = {
+	name = "Heilwig" # nun
+	female = yes
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	trait = devoted
+	father = ezzoning8
+	mother = liudolfing7
+	1001.1.1 = { #fic
+		birth = yes
+	}
+	1076.9.21 = {
+		death = yes
+	}
+}
+
+ezzoning23 = {
+	name = "Mathilda" # nun
+	female = yes
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	trait = devoted
+	father = ezzoning8
+	mother = liudolfing7
+	1004.1.1 = { #fic
+		birth = yes
+	}
+	1057.1.1 = {
+		death = yes
+	}
+}
+
+ezzoning24 = {
+	name = "Sophia" # nun
+	female = yes
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	trait = devoted
+	father = ezzoning8
+	mother = liudolfing7
+	1008.1.1 = { #fic
+		birth = yes
+	}
+	1058.1.1 = {
+		death = yes
+	}
+}
+
+ezzoning25 = {
+	name = "Ida" # nun
+	female = yes
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	trait = devoted
+	father = ezzoning8
+	mother = liudolfing7
+	1011.1.1 = { #fic
+		birth = yes
+	}
+	1060.4.8 = {
+		death = yes
+	}
+}
+
+ezzoning26 = {
+	name = "Heinrich" # monk
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	trait = devoted
+	trait = bastard
+	father = ezzoning8
+	#no mother as bastard
+	1029.1.1 = { #fic
+		birth = yes
+	}
+	1093.5.1 = {
+		death = yes
+	}
+}
+
+ezzoning27 = {
+	name = "Ezzo" # monk
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	trait = devoted
+	trait = bastard
+	father = ezzoning8
+	#no mother as bastard
+	1032.1.1 = { #fic
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+
+ezzoning28 = {
+	name = "Ezzo" #Ezzo II of Zülpichgau
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning29
+	904.1.1 = { #fic
+		birth = yes
+	}
+	#Richwara
+	970.1.1 = { #est
+		death = yes
+	}
+}
+
+ezzoning29 = {
+	name = "Eberhard" #Eberhard I of Zülpichgau
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning30
+	867.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	937.1.1 = { #est
+		death = yes
+	}
+}
+
+ezzoning30 = {
+	name = "Ezzo" #Ezzo I of Bliesgau
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	881.1.1 = { #fic
+		birth = yes
+	}
+	#Adelgunde von Burgund, Tochter des Markgrafen Konrad II. und der Judith von Friaul 
+	937.1.1 = { #est
+		death = yes
+	}
+}
+
+ezzoning31 = {
+	name = "Hermann" #bishop of Cologne
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning30
+	871.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	924.4.11 = {
+		death = yes
+	}
+}
+
+ezzoning32 = {
+	name = "Ezzo" #
+	dynasty = 81
+	religion = catholic
+	culture = pfalzish
+	father = ezzoning30
+	875.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife, no children
+	933.1.1 = { #fic
 		death = yes
 	}
 }
