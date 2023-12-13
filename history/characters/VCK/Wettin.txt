@@ -238,3 +238,18 @@ wettin15 = {
 		death = yes
 	}
 }
+
+wettin16 = {
+	name = "Merswind" # wife of Gerbert of Stumpenhusen
+	female = yes
+	dynasty = 102
+	religion = catholic
+	culture = saxon
+	father = wettin1
+	1046.1.1 = { #est
+		birth = yes
+	}
+	1097.1.1 = { #est
+		death = yes
+	}
+}
