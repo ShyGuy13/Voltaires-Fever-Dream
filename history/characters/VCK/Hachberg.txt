@@ -1,12 +1,68 @@
+#DONE FOR 1054
+#basically nothing is known about this dynasty.
+#von Hachberg = von Emmendingen
 hachberg1 = {
-	name = "Dietrich" # Dietrich I of Hachberg
+	name = "Dietrich" # Dietrich I of Emmendingen
 	dynasty = 300
 	religion = catholic
 	culture = boden_alemannic
+	#unknown parents
 	1029.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1093.1.1 = { #fic
+		death = yes
+	}
+}
+
+hachberg2 = {
+	name = "Ludwig" # fictional
+	dynasty = 300
+	religion = catholic
+	culture = boden_alemannic
+	father = hachberg1
+	#unknown mother
+	1055.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1118.1.1 = { #fic
+		death = yes
+	}
+}
+
+hachberg3 = {
+	name = "Engelbert" # fictional
+	dynasty = 300
+	religion = catholic
+	culture = boden_alemannic
+	father = hachberg2
+	#unknown mother
+	1090.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1142.1.1 = { #fic
+		death = yes
+	}
+}
+
+hachberg4 = {
+	name = "Erkenbold" # Erkenbold I of Emmendingen
+	dynasty = 300
+	religion = catholic
+	culture = boden_alemannic
+	father = hachberg3
+	#unknown mother
+	1111.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1147.1.1 = { #second crusade
+		trait = crusader
+	}
+	1161.1.1 = { #fic
 		death = yes
 	}
 }
