@@ -1,12 +1,17 @@
-﻿oldenburg1 = {
+#DONE FOR 1054
+oldenburg1 = {
 	name = "Egilmar" # Egilmar I of Oldenburg
 	dynasty = 40
 	religion = catholic
 	culture = low_elbish
-	1040.1.1 = {
+	#unknown parents
+	1040.1.1 = { #est
 		birth = yes
 	}
-	1112.1.1 = {
+	1054.1.1 = { #fic
+		add_spouse = goseck12 # Richenza
+	}
+	1112.1.1 = { #est
 		death = yes
 	}
 }
