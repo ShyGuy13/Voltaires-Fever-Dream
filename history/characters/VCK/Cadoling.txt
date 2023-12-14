@@ -1,12 +1,103 @@
-﻿cadoling1 = {
-	name = "Gero" # Lotario I of Pistoia
+#https://museofucecchio.it/le-sale/sezione-archeologica/sala-4/
+#https://pescaglini.labcd.unipi.it/wp-content/uploads/2014/06/genealogia-cadolingi.png
+cadoling1 = {
+	name = "Lotario" # Lotario I of Pistoia
 	dynasty = 240
 	religion = catholic
 	culture = tuscan
-	1022.1.1 = { #fic
+	974.1.1 = { #fic
 		birth = yes
 	}
-	1085.1.1 = {
+	#Adelasia
+	1034.1.1 = {
+		death = yes
+	}
+}
+
+﻿cadoling2 = {
+	name = "Ugo" # 
+	dynasty = 240
+	religion = catholic
+	culture = tuscan
+	father = cadoling1
+	995.1.1 = { #fic
+		birth = yes
+	}
+	1011.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿cadoling3 = {
+	name = "Lotario" #
+	dynasty = 240
+	religion = catholic
+	culture = tuscan
+	father = cadoling1
+	999.1.1 = { #fic
+		birth = yes
+	}
+	1024.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿cadoling4 = {
+	name = "Raineri" #
+	dynasty = 240
+	religion = catholic
+	culture = tuscan
+	father = cadoling1
+	1006.1.1 = { #fic
+		birth = yes
+	}
+	1027.1.1 = {
+		death = yes
+	}
+}
+
+﻿cadoling5 = {
+	name = "Guglielmo" # Guglielmo I of Pistoia
+	dynasty = 240
+	religion = catholic
+	culture = tuscan
+	father = cadoling1
+	1013.1.1 = { #fic
+		birth = yes
+	}
+	#Gasdia
+	1075.1.1 = {
+		death = yes
+	}
+}
+
+﻿cadoling6 = {
+	name = "Bertha" # nun
+	female = yes
+	dynasty = 240
+	religion = catholic
+	culture = tuscan
+	father = cadoling1
+	trait = devoted
+	1019.1.1 = { #fic
+		birth = yes
+	}
+	1078.1.1 = { #fic
+		death = yes
+	}
+}
+
+﻿cadoling7 = {
+	name = "Ugo" # Ugo I of Pistoia
+	dynasty = 240
+	religion = catholic
+	culture = tuscan
+	father = cadoling5
+	1040.1.1 = { #fic
+		birth = yes
+	}
+	#Cilia
+	1096.5.10 = {
 		death = yes
 	}
 }
