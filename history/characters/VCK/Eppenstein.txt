@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 eppenstein1 = {
 	name = "Marquard" #Marquard IV of Carinthia
 	dynasty = 1

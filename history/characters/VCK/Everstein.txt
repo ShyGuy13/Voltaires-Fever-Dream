@@ -1,14 +1,15 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 #everstein3 (Konrad I of Everstein) is the first known member of this dynasty. I added fictional ancestors to make this dynasty present in 1054.
-
 everstein1 = {
 	name = "Gottfried" # fictional character
 	dynasty = 270
 	religion = catholic
 	culture = eastphalian
+	#unknown parents
 	1016.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1067.1.1 = { #fic
 		death = yes
 	}
@@ -20,9 +21,11 @@ everstein2 = {
 	religion = catholic
 	culture = eastphalian
 	father = everstein1
+	#unknown mother
 	1049.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1091.1.1 = { #fic
 		death = yes
 	}

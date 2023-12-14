@@ -123,7 +123,7 @@ liudolfing7 = {
 	}
 }
 
-liudolfing7 = {
+liudolfing8 = {
 	name = "Mathilde" # wife of Ezzo Ezzoning
 	female = yes
 	dynasty = 161
@@ -133,6 +133,21 @@ liudolfing7 = {
 		birth = yes
 	}
 	1025.12.4 = {
+		death = yes
+	}
+}
+
+liudolfing9 = {
+	name = "Liutgard" # wife of Konrad the Red Salier
+	female = yes
+	dynasty = 161
+	religion = catholic
+	culture = low_elbish
+	father = liudolfing7
+	931.1.1 = { #est
+		birth = yes
+	}
+	953.11.18 = {
 		death = yes
 	}
 }

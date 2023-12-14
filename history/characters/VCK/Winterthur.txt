@@ -156,7 +156,9 @@ winterthur10 = {
 	}
 	#unknown wife
 	1040.8.22 = {
-		death = { death_reason = death_battle }
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 

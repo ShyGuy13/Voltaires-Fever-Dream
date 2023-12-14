@@ -27,7 +27,7 @@ lenzburg2 = {
 }
 
 lenzburg3 = {
-	name = "Ulrich" #Ulrich I of Lausanne
+	name = "Ulrich" #Ulrich I of Zürich
 	dynasty = 80
 	religion = catholic
 	culture = arpitan

@@ -8,9 +8,9 @@
 	929.1.1 = { #fic
 		birth = yes
 	}
-  950.1.1 = {
-    add_spouse = vlaanderen12 # Luitgard
-  }
+  	950.1.1 = {
+    	add_spouse = vlaanderen12 # Luitgard
+  	}
 	973.6.20 = {
 		death = yes
 	}

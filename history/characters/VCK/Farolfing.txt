@@ -15,7 +15,7 @@ farolfing1 = {
 	}
 }
 
-﻿farolfing2 = {
+farolfing2 = {
 	name = "Farolfo" # Farolfo I of Perugia
 	dynasty = 286
 	religion = catholic

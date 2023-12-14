@@ -68,6 +68,7 @@ salier4 = {
 	culture = swabian
 	religion = catholic
 	father = salier5
+	mother = gerharding8
 	990.1.1 = { #est
 		birth = yes
 	}
@@ -85,10 +86,14 @@ salier5 = {
 	culture = swabian
 	religion = catholic
 	father = salier6
+	mother = luitpolding17
 	970.1.1 = {
 		birth = yes
 	}
-	991.1.1 = {
+	988.1.1 = { #fic
+		add_spouse = gerharding8 # Adelheid
+	}
+	992.1.1 = {
 		death = yes
 	}
 }
@@ -99,8 +104,12 @@ salier6 = {
 	culture = swabian
 	religion = catholic
 	father = salier7
+	mother = liudolfing9
 	948.1.1 = {
 		birth = yes
+	}
+	965.1.1 = { #fic
+		add_spouse = luitpolding17 # Judith
 	}
 	1004.11.4 = {
 		death = yes
@@ -112,12 +121,17 @@ salier7 = {
 	dynasty = 38
 	culture = swabian
 	religion = catholic
-	922.1.1 = {
+	922.1.1 = { #est
 		birth = yes
 		give_nickname = nick_the_red
 	}
+	945.1.1 = { #fic
+		add_spouse = liudolfing9 # Liutgard
+	}
 	955.8.10 = {
-		death = yes
+		death = {
+			death_reason = death_battle
+		}
 	}
 }
 
@@ -127,6 +141,7 @@ salier8 = {
 	culture = swabian
 	religion = catholic
 	father = salier6
+	mother = luitpolding17
 	980.1.1 = { #fic
 		birth = yes
 	}
@@ -324,12 +339,14 @@ salier20 = {
 	dynasty = 38
 	culture = swabian
 	religion = catholic
-	#Otto
-	
+	father = salier6
+	mother = luitpolding17
 	975.1.1 = { #est
 		birth = yes
 	}
-	#Mathilde of Swabia
+	1000.1.1 = { #fic
+		add_spouse = konrading5 # Mathilda
+	}
 	1011.12.12 = {
 		death = yes
 	}
@@ -341,10 +358,9 @@ salier21 = {
 	culture = swabian
 	religion = catholic
 	father = salier20
-	#Mathilde von Schwaben
+	mother = konrading5
 	1003.1.1 = { #est
 		birth = yes
-		give_nickname = nick_the_younger
 	}
 	#no wife
 	1039.7.20 = {
@@ -358,13 +374,13 @@ salier22 = {
 	culture = swabian
 	religion = catholic
 	father = salier20
-	#Mathilde von Schwaben
+	mother = konrading5
 	1005.1.1 = { #est
 		birth = yes
 	}
 	1045.5.27 = {
 		death = {
-			death_reason = death_fell_from_high_ground
+			death_reason = death_fall
 		}
 	}
 }
@@ -375,7 +391,7 @@ salier23 = {
 	culture = swabian
 	religion = catholic
 	father = salier20
-	#Mathilde von Schwaben
+	mother = konrading5
 	1007.1.1 = { #est
 		birth = yes
 	}
@@ -391,7 +407,7 @@ salier24 = {
 	culture = swabian
 	religion = catholic
 	father = salier20
-	#Mathilde von Schwaben
+	mother = konrading5
 	1010.1.1 = { #fic
 		birth = yes
 	}
@@ -445,6 +461,40 @@ salier27 = {
 	}
 	#1033 = engagement
 	1034.1.1 = {
+		death = yes
+	}
+}
+
+salier28 = {
+	name = "Bruno" #Pope Gregorius V
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier6
+	mother = luitpolding17
+	972.1.1 = {
+		birth = yes
+	}
+	996.3.1 = {
+		name = "Gregorius"
+	}
+	999.2.18 = {
+		death = yes
+	}
+}
+
+salier29 = {
+	name = "Judith" #
+	female = yes
+	dynasty = 38
+	culture = swabian
+	religion = catholic
+	father = salier5
+	mother = gerharding8
+	991.1.1 = { #est
+		birth = yes
+	}
+	1034.4.30 = {
 		death = yes
 	}
 }

@@ -1,11 +1,13 @@
-﻿sulz1 = {
-	name = "Alwig" # Alwig I
+﻿#DONE FOR 1054
+sulz1 = {
+	name = "Alwig" # Alwig I of Sulz
 	dynasty = 55
 	religion = catholic
 	culture = swabian
-	1020.1.1 = { #fic
+	1031.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1095.1.1 = {
 		death = yes
 	}

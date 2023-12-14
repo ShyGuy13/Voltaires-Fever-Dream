@@ -327,13 +327,14 @@ welf21 = {
 }
 
 welf22 = {
-	name = "Rudolf" # Rudolf II of Burgundy
+	name = "Rudolf" # Rudolf II of Burgundy & Italy
 	dynasty = 93
 	religion = catholic
 	culture = swabian
 	880.1.1 = { #est
 		birth = yes
 	}
+	#Bertha Burcharding
 	937.7.11 = {
 		death = yes
 	}
@@ -350,6 +351,50 @@ welf23 = {
 		birth = yes
 	}
 	999.12.16 = {
+		death = yes
+	}
+}
+
+welf24 = {
+	name = "Rudolf" # Rudolf I of Burgundy
+	dynasty = 93
+	religion = catholic
+	culture = swabian
+	father = welf26
+	859.1.1 = {
+		birth = yes
+	}
+	#Willa Buvining
+	912.10.25 = {
+		death = yes
+	}
+}
+
+welf25 = {
+	name = "Adelheid" # wife of Richard Justiciarius Buvining
+	female = yes
+	dynasty = 93
+	religion = catholic
+	culture = swabian
+	father = welf26
+	865.1.1 = { #fic
+		birth = yes
+	}
+	929.1.1 = { #est
+		death = yes
+	}
+}
+
+welf26 = {
+	name = "Konrad" # Konrad II of Auxerre
+	dynasty = 93
+	religion = catholic
+	culture = swabian
+	831.1.1 = { #fic
+		birth = yes
+	}
+	#Waldrada of Worms, daughter of Adrian of Orleans 
+	876.1.1 = { #est
 		death = yes
 	}
 }

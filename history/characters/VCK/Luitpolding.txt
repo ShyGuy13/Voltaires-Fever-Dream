@@ -161,7 +161,7 @@ luitpolding10 = {
 		birth = yes
 	}
 	#no wife
-	929.1.1 = { #fic
+	954.1.1 = { #fic
 		death = yes
 	}
 }
@@ -245,7 +245,7 @@ luitpolding15 = {
 		birth = yes
 		give_nickname = nick_the_younger
 	}
-	#no wife
+	#unknown wife
 	989.10.5 = {
 		death = yes
 	}
@@ -263,6 +263,22 @@ luitpolding16 = {
 		birth = yes
 	}
 	1002.1.1 = { #fic
+		death = yes
+	}
+}
+
+luitpolding17 = {
+	name = "Judith" # wife of Otto I Salier
+	female = yes
+	dynasty = 63
+	religion = catholic
+	culture = bavarian
+	father = luitpolding10
+	#unknown mother
+	948.1.1 = { #est
+		birth = yes
+	}
+	991.1.1 = {
 		death = yes
 	}
 }

@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 #basically nothing is known about this dynasty.
 #von Hachberg = von Emmendingen
 hachberg1 = {

@@ -1,6 +1,5 @@
 ﻿#DONE FOR 1054
 #Lechsgemünds's first generations are very debated; family relationships are heavily different dependent on historian
-
 lechsgemund1 = {
 	name = "Luitger" #Luitger I of Lechsgemünd
 	dynasty = 21

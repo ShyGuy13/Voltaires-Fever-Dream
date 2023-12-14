@@ -1,4 +1,5 @@
-﻿groitzsch1 = {
+﻿#DONE FOR 1054
+groitzsch1 = {
 	name = "Wiprecht" #Wiprecht I of Leisnig
 	dynasty = 269
 	religion = catholic
@@ -27,6 +28,8 @@ groitzsch2 = {
 	1042.1.1 = { #est
 		birth = yes
 	}
+	#1085 = Judith of Poland
+	#1110 = Kunigunde von Orlamünde
 	1124.5.22 = {
 		death = yes
 	}
@@ -41,6 +44,10 @@ groitzsch3 = {
 	mother = leinungen1
 	1044.1.1 = { #fic
 		birth = yes
+	}
+	#no wife
+	1065.1.1 = { #fic
+		trait = varangian
 	}
 	1102.1.1 = { #fic
 		death = yes
@@ -57,6 +64,7 @@ groitzsch4 = {
 	1047.1.1 = { #fic
 		birth = yes
 	}
+	#no wife
 	1105.1.1 = { #fic
 		death = yes
 	}
@@ -64,7 +72,7 @@ groitzsch4 = {
 
 groitzsch5 = {
 	name = "Wulf" #
-	#dynasty = 269
+	dynasty = 269
 	religion = slavic_pagan
 	culture = polabian
 	#unknown parents

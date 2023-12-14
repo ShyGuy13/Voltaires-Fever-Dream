@@ -1,7 +1,7 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 #Gottfried von Fleckenstein was first mentioned in 1129. I added some fictional ancestors to make this dynasty present in 1054.
 fleckenstein1 = {
-	name = "Siegmund" # 
+	name = "Siegmund" # fictional
 	dynasty = 122
 	culture = pfalzish
 	religion = catholic
@@ -16,7 +16,7 @@ fleckenstein1 = {
 }
 
 fleckenstein2 = {
-	name = "Dietrich" # 
+	name = "Dietrich" # fictional
 	dynasty = 122
 	culture = pfalzish
 	religion = catholic
@@ -30,7 +30,6 @@ fleckenstein2 = {
 		death = yes
 	}
 }
-
 
 fleckenstein3 = {
 	name = "Gottfried" # Gottfried I of Fleckenstein
