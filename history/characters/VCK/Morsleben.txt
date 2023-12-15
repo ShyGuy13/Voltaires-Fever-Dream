@@ -1,0 +1,82 @@
+morsleben1 = {
+	name = "Konrad" # Konrad of Morsleben-Horneburg
+	dynasty = 321
+	religion = catholic
+	culture = eastphalian
+	#unknown parents
+	967.1.1 = { #est
+		birth = yes
+	}
+  985.1.1 = { #fic
+    add_spouse = haolding4 # Amulrada
+  }
+	1031.1.1 = { #fic
+		death = yes
+	}
+}
+
+morsleben2 = {
+	name = "Konrad" # monk
+	dynasty = 321
+	religion = catholic
+	culture = eastphalian
+  trait = devoted
+	father = morsleben1
+  mother = haolding4
+	1000.1.1 = { #est
+		birth = yes
+	}
+	1057.1.1 = { #fic
+		death = yes
+	}
+}
+
+morsleben3 = {
+	name = "Adalbert" # Adalbert of Morsleben-Horneburg
+	dynasty = 321
+	religion = catholic
+	culture = eastphalian
+	father = morsleben1
+  mother = haolding4
+	1003.1.1 = { #est
+		birth = yes
+	}
+  #unknown wife
+	1059.1.1 = { #fic
+		death = yes
+	}
+}
+
+morsleben4 = {
+	name = "Suitger" # Pope Clemens II
+	dynasty = 321
+	religion = catholic
+	culture = eastphalian
+	father = morsleben1
+  mother = haolding4
+	1005.1.1 = { #est
+		birth = yes
+	}
+  1047.1.1 = {
+    name = "Clemens"
+  }
+	1047.10.9 = { #fic
+		death = yes
+	}
+}
+
+morsleben5 = {
+	name = "Margarethe" # wife of Dietrich of Ammensleben
+  female = yes
+	dynasty = 321
+	religion = catholic
+	culture = eastphalian
+	father = morsleben1
+  mother = haolding4
+	1007.1.1 = { #est
+		birth = yes
+	}
+	1072.1.1 = { #fic
+		death = yes
+	}
+}
