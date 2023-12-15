@@ -1,4 +1,6 @@
-﻿ammensleben1 = {
+#http://www.goldlauter.com/Gressler-Ahnen-Adel/ps252/ps252_415.html
+#there is some weird stuff going on here.
+ammensleben1 = {
     name = "Milo" #Milo I of Ammensleben
     dynasty = 360
     culture = central_margravian
@@ -36,7 +38,7 @@ ammensleben3 = {
     religion = catholic
     father = ammensleben1
     #unknown mother
-    1010.1.1 = { #fic
+    1007.1.1 = { #est
     	birth = yes
     }
     1030.1.1 = { #fic
