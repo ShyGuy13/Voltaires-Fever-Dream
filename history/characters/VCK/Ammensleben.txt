@@ -4,27 +4,27 @@
     culture = central_margravian
     religion = catholic
     #unknown parents
-    951.1.1 = { #fic
+    975.1.1 = { #est
     	birth = yes
     }
     #unknown wife
-    1015.1.1 = { #est
+    1027.1.1 = { #fic
     	death = yes
     }
 }
 
 ammensleben2 = {
-    name = "Hanulf" #
+    name = "Hanulf" # Hanulf of Rüstringen
     dynasty = 360
     culture = central_margravian
     religion = catholic
     father = ammensleben1
     #unknown mother
-    979.1.1 = { #fic
+    1013.1.1 = { #est
     	birth = yes
     }
     #unknown wife
-    1026.1.1 = { #fic
+    1091.1.1 = { #est
     	death = yes
     }
 }
@@ -36,11 +36,13 @@ ammensleben3 = {
     religion = catholic
     father = ammensleben1
     #unknown mother
-    986.1.1 = { #fic
+    1010.1.1 = { #fic
     	birth = yes
     }
-    #wife = Margarete von Morsleben
-    1032.1.1 = { #fic
+    1030.1.1 = { #fic
+        add_spouse = morsleben5 # Margareta 
+    }
+    1078.1.1 = { #fic
     	death = yes
     }
 }
@@ -52,11 +54,13 @@ ammensleben4 = {
     culture = central_margravian
     religion = catholic
     father = ammensleben3
-    #Margarete von Morsleben
-    986.1.1 = { #fic
+    mother = morsleben5
+    1036.1.1 = { #est
     	birth = yes
     }
-    1032.1.1 = { #fic
+    #1063 = Ekbert
+    #1070 Dietrich II Ammensleben
+    1099.1.1 = { #fic
     	death = yes
     }
 }
