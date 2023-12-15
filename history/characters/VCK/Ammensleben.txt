@@ -65,4 +65,18 @@ ammensleben4 = {
     }
 }
 
-#Dedi? = Dietrich
+ammensleben5 = {
+    name = "Richenza" # wife of Giselbert of Oldenburg
+    female = yes
+    dynasty = 360
+    culture = central_margravian
+    religion = catholic
+    father = ammensleben1
+    #unknown mother
+    1019.1.1 = { #est
+    	birth = yes
+    }
+    1082.1.1 = { #fic
+    	death = yes
+    }
+}
