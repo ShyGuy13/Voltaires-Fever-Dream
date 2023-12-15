@@ -4,6 +4,7 @@
 	religion = catholic
 	culture = bavarian
 	father = pilgriming5
+	mother = abenberg14
 	1015.1.1 = {
 		birth = yes
 	}
@@ -60,6 +61,7 @@ pilgriming4 = {
 	trait = zealous
 	trait = education_diplomacy_3
 	father = pilgriming5
+	mother = abenberg14
 	1019.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_bavarian
@@ -82,6 +84,9 @@ pilgriming5 = {
 	father = pilgriming6
 	991.1.1 = { #est
 		birth = yes
+	}
+	1010.1.1 = { #fic
+		add_spouse = abenberg14
 	}
 	1040.1.1 = { #est
 		death = yes
@@ -121,6 +126,7 @@ pilgriming8 = {
 	religion = catholic
 	culture = bavarian
 	father = pilgriming5
+	mother = abenberg14
 	1023.1.1 = { #fic
 		birth = yes
 	}
