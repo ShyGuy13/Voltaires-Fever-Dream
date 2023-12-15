@@ -1,9 +1,11 @@
-﻿abenberg1 = {
+#DONE FOR 1054
+abenberg1 = {
 	name = "Wolfram" #Wolfram I of Abenberg
 	dynasty = 248
 	religion = catholic
 	culture = franconian
 	father = abenberg2
+	#unknown mother
 	1011.1.1 = { #fic
 		birth = yes
 	}
@@ -25,6 +27,7 @@ abenberg2 = {
 	991.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1037.1.1 = { #est
 		death = yes
 	}
@@ -35,12 +38,13 @@ abenberg3 = {
 	dynasty = 248
 	religion = catholic
 	culture = franconian
-	#unknown parents
+	father = abenberg6
+	#unknown mother
 	969.1.1 = { #fic
 		birth = yes
 	}
 	985.1.1 = {
-		add_spouse = abenberg3_wife
+		add_spouse = abenberg3_wife # Irmengard
 	}
 	1021.1.1 = {
 		death = yes
@@ -48,7 +52,7 @@ abenberg3 = {
 }
 
 abenberg4 = {
-	name = "Adalbert" #Adalbert I of Abenberg
+	name = "Adalbert" #Adalbert I of Radenzgau 
 	dynasty = 248
 	religion = catholic
 	culture = franconian
@@ -57,14 +61,41 @@ abenberg4 = {
 	988.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1035.1.1 = {
 		death = yes
 	}
 }
 
+abenberg5 = {
+	name = "Eberhard" #bishop of Bamberg
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	father = abenberg6 #debated, could be Rudolf II von Welf
+	#unknown mother
+	975.1.1 = { #est
+		birth = yes
+	}
+	1040.8.13 = {
+		death = yes
+	}
+}
 
-
-
+abenberg6 = {
+	name = "Rüdiger" #fictional character to make Konrad and Eberhard brothers
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	#unknown parents
+	975.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1040.8.13 = {
+		death = yes
+	}
+}
 
 abenberg7 = {
 	name = "Wolfram" #Wolfram II of Abenberg
@@ -76,6 +107,8 @@ abenberg7 = {
 	1049.1.1 = { #est
 		birth = yes
 	}
+	#Gerhilt
+	#Hedwig von Banz-Vohburg, Tochter des Grafen Rapoto IV. von Cham
 	1116.1.1 = {
 		death = yes
 	}
@@ -91,6 +124,7 @@ abenberg8 = {
 	1052.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1108.1.1 = {
 		death = yes
 	}
@@ -106,6 +140,7 @@ abenberg9 = {
 	1062.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1098.1.1 = {
 		death = yes
 	}
@@ -143,28 +178,32 @@ abenberg11 = {
 }
 
 abenberg12 = {
-	name = "Adalbert" #Adalbert II of Abenberg
+	name = "Adalbert" #Adalbert II of Kunstadt  
 	dynasty = 248
 	religion = catholic
 	culture = franconian
 	father = abenberg4
+	#unknown mother
 	1009.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1064.1.1 = {
 		death = yes
 	}
 }
 
 abenberg13 = {
-	name = "Adalbert" #Adalbert III of Abenberg
+	name = "Adalbert" #Adalbert III of Radenzgau 
 	dynasty = 248
 	religion = catholic
 	culture = franconian
 	father = abenberg12
+	#unknown mother
 	1042.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1093.1.1 = {
 		death = yes
 	}
