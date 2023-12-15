@@ -88,11 +88,11 @@ abenberg6 = {
 	religion = catholic
 	culture = franconian
 	#unknown parents
-	975.1.1 = { #est
+	946.1.1 = { #fic
 		birth = yes
 	}
 	#unknown wife
-	1040.8.13 = {
+	1012.1.1 = { #fic
 		death = yes
 	}
 }
@@ -205,6 +205,22 @@ abenberg13 = {
 	}
 	#unknown wife
 	1093.1.1 = {
+		death = yes
+	}
+}
+
+abenberg14 = {
+	name = "Ludmilla" #fictional name, wife of Poppo II Pilgriming
+	female = yes
+	dynasty = 248
+	religion = catholic
+	culture = franconian
+	father = abenberg6
+	#unknown mother
+	983.1.1 = { #fic
+		birth = yes
+	}
+	1047.1.1 = { #fic
 		death = yes
 	}
 }
