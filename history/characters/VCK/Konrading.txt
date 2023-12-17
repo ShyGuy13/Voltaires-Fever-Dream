@@ -161,6 +161,8 @@ konrading11 = {
 	dynasty = 3
 	religion = catholic
 	culture = swabian
+	father = konrading17
+	mother = vermandois15
 	927.1.1 = { #est
 		birth = yes
 	}
@@ -170,7 +172,7 @@ konrading11 = {
 }
 
 konrading12 = {
-	name = "Gebhart" # 
+	name = "Gebhard" # Gebhard of Kinziggau
 	dynasty = 3
 	religion = catholic
 	culture = swabian
@@ -178,6 +180,7 @@ konrading12 = {
 	965.1.1 = { #est
 		birth = yes
 	}
+	#unknown wife
 	1016.11.8 = {
 		death = yes
 	}
@@ -242,6 +245,69 @@ konrading16 = {
 		birth = yes
 	}
 	1065.1.1 = { #fic
+		death = yes
+	}
+}
+
+konrading17 = {
+	name = "Udo" # 
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	
+	900.1.1 = { #est
+		birth = yes
+	}
+	915.1.1 = { #est
+		add_sposue = vermandois15 # Kunegunde
+	}
+	949.1.1 = { #est
+		death = yes
+	}
+}
+
+konrading18 = {
+	name = "Gebhard" # 
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading17
+	mother = vermandois15
+	918.1.1 = { #est
+		birth = yes
+	}
+	938.1.1 = {
+		death = yes
+	}
+}
+
+konrading19 = {
+	name = "Udo" # Udo II of Wetterau
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading17
+	mother = vermandois15
+	920.1.1 = { #est
+		birth = yes
+	}
+	982.7.14 = {
+		death = yes
+	}
+}
+
+konrading20 = {
+	name = "Judith" # wife of Heinrich I Udoning
+	female = yes
+	dynasty = 3
+	religion = catholic
+	culture = swabian
+	father = konrading17
+	mother = vermandois15
+	925.1.1 = { #est
+		birth = yes
+	}
+	973.10.16 = {
 		death = yes
 	}
 }

@@ -170,3 +170,23 @@ pope_stephanus_i = {
 		death = yes
 	}
 }
+
+#Gregory VI
+pope_gregorius_vi = {
+	name = "Stephanus"
+	religion = umbrian
+	culture = roman
+	trait = diligent
+	trait = calm
+	trait = zealous
+	trait = education_diplomacy_3
+	1004.1.1 = { #fic
+		birth = yes
+	}
+	1045.5.1 = {
+		name = "Gregorius"
+	}
+	1048.1.1 = { #est
+		death = yes
+	}
+}

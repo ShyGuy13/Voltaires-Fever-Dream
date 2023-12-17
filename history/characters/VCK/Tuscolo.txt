@@ -192,7 +192,7 @@ tuscolo15 = {
 }
 
 tuscolo16 = {
-	name = "Romano" # Pope John XIX
+	name = "Romano" # 
 	dynasty = 285
 	martial = 6
 	diplomacy = 7

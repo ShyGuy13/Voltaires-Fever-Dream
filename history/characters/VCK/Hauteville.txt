@@ -146,3 +146,36 @@ hauteville10 = {
 		}
 	}
 }
+
+hauteville11 = {
+	name = "Serlon" # Serlon I of Hauteville-la-Guichard
+	dynasty = 150
+	religion = catholic
+	culture = norman
+	father = hauteville2
+	1008.1.1 = { #est
+		birth = yes
+	}
+	#unknown wife
+	1041.1.1 = { #fic
+		death = yes
+	}
+}
+
+hauteville12 = {
+	name = "Serlon" # Serlon II of Gerace, Serrata, Surito, and Cerami
+	dynasty = 150
+	religion = catholic
+	culture = norman
+	father = hauteville11
+	#unknown mother
+	1027.1.1 = { #est
+		birth = yes
+	}
+	#Altruda, daughter of Roger de Moulins, count of Boiano
+	1072.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}

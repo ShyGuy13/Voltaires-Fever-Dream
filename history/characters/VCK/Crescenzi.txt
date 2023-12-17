@@ -1,0 +1,19 @@
+﻿crescenzi1 = {
+	name = "Giovanni" # Pope Sylvester III
+	dynasty = 349
+	religion = catholic
+	culture = umbrian
+	#
+	1000.1.1 = { #est
+		birth = yes
+	}
+	1045.1.20 = {
+		name = "Silvester"
+	}
+	1045.3.10 = {
+		name = "Giovanni"
+	}
+	1063.1.1 = {
+		death = yes
+	}
+}

@@ -3,11 +3,39 @@ k_papal_state = {
 	189.5.24 = {
 		holder = pope_victor_1 # Victor I
 	}
+	###
+	1024.4.9 = {
+		holder = tuscolo16 # Pope John XIX
+	}
+	1032.10.9 = {
+		holder = tuscolo6 # Benedict IX (1st time)
+	}
+	1045.1.20 = {
+		holder = crescenzi1 # Sylvester III
+	}
+	1045.3.20 = {
+		holder = tuscolo6 # Benedict IX (2nd time)
+	}
+	1045.5.1 = {
+		holder = pope_gregorius_vi # Gregory VI
+	}
+	1046.12.20 = {
+		holder = morsleben4 # Clemens II
+	}
+	1047.10.9 = {
+		holder = tuscolo6 # Benedict IX (3rd time)
+	}
+	1048.7.17. = {
+		holder = pilgriming4 # Damasus II
+	}
 	1048.8.9 = {
 		holder = dagsburg6 # Leo IX
 	}
 	1054.4.19 = {
 		holder = calw1 # Victor II
+	}
+	1057.7.28 = {
+		holder = wigeriching5 # Stephanus IX
 	}
 }
 c_roma = {

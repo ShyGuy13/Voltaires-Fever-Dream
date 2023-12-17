@@ -1,11 +1,11 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 ludowing1 = {
 	name = "Ludwig" # Ludwig I of Thuringia
 	dynasty = 109
 	religion = catholic
 	culture = thuringian
 	#unknown parents
-	987.1.1 = { #fic
+	1007.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_bearded
 	}

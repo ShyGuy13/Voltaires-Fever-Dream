@@ -293,7 +293,7 @@ d_bm_verden = {
 d_bm_bremen = {
 	1000.1.1 = { government = theocracy_government }
 	1043.4.15 = {
-		holder = wettin2 # Albrecht I
+		holder = goseck8 # Albrecht I
 	}
 }
 

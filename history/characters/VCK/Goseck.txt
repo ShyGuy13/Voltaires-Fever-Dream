@@ -108,10 +108,16 @@ goseck7 = {
 }
 
 goseck8 = {
-	name = "Adalbert" # bishop of Bremen
+	name = "Albrecht" # bishop of Bremen
 	dynasty = 225
 	religion = catholic
 	culture = saxon
+	martial = 5
+	diplomacy = 4
+	intrigue = 8
+	stewardship = 5
+	trait = temperate
+	trait = education_learning_3
 	father = goseck5
 	1006.1.1 = { #fic
 		birth = yes

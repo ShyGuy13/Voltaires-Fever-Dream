@@ -2419,17 +2419,17 @@ c_dassel = {
 #Bremen
 c_bremen = {
 	1043.4.15 = {
-		holder = wettin2 # Albrecht I
+		holder = goseck8 # Albrecht I
 	}
 }
 c_bremervorde = {
 	1043.4.15 = {
-		holder = wettin2 # Albrecht I
+		holder = goseck8 # Albrecht I
 	}
 }
 c_ottersberg = {
 	1043.4.15 = {
-		holder = wettin2 # Albrecht I
+		holder = goseck8 # Albrecht I
 	}
 }
 

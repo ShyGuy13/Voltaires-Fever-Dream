@@ -20,11 +20,11 @@ udoning2 = {
 	dynasty = 223
 	religion = catholic
 	culture = low_elbish
-	father = udoning3
-	956.1.1 = {
+	father = udoning13
+	919.1.1 = { #fic
 		birth = yes
 	}
-	1037.1.6 = {
+	973.1.1 = { #fic
 		death = yes
 	}
 }
@@ -39,6 +39,9 @@ udoning3 = {
 		give_nickname = nick_the_bald
 		birth = yes
 	}
+	959.1.1 = {
+		add_spouse = konrading20 # Judith
+	}
 	976.5.11 = {
 		death = yes
 	}
@@ -50,6 +53,7 @@ udoning4 = {
 	religion = catholic
 	culture = low_elbish
 	father = udoning3
+	mother = konrading20
 	947.1.1 = { #fic
 		give_nickname = nick_the_good
 		birth = yes
@@ -65,6 +69,7 @@ udoning5 = {
 	religion = catholic
 	culture = low_elbish
 	father = udoning3
+	mother = konrading20
 	#mother = Judith Konrading
 	950.1.1 = {
 		birth = yes
@@ -98,7 +103,7 @@ udoning7 = {
 	religion = catholic
 	culture = low_elbish
 	father = udoning3
-	#mother = Judith Konrading
+	mother = konrading20
 	963.1.1 = { #est
 		birth = yes
 	}
@@ -114,7 +119,7 @@ udoning8 = {
 	religion = catholic
 	culture = low_elbish
 	father = udoning3
-	#mother = Judith Konrading
+	mother = konrading20
 	967.1.1 = { #fic
 		birth = yes
 	}
@@ -131,7 +136,7 @@ udoning9 = {
 	culture = low_elbish
 	trait = devoted
 	father = udoning3
-	#mother = Judith Konrading
+	mother = konrading20
 	958.1.1 = { #est
 		birth = yes
 	}
@@ -147,7 +152,7 @@ udoning10 = {
 	religion = catholic
 	culture = low_elbish
 	father = udoning3
-	#mother = Judith Konrading
+	mother = konrading20
 	953.1.1 = { #fic
 		birth = yes
 	}

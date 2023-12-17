@@ -1,3 +1,4 @@
+﻿#DONE FOR 1054
 morsleben1 = {
 	name = "Konrad" # Konrad of Morsleben-Horneburg
 	dynasty = 321
@@ -7,9 +8,9 @@ morsleben1 = {
 	967.1.1 = { #est
 		birth = yes
 	}
-  985.1.1 = { #fic
-    add_spouse = haolding4 # Amulrada
-  }
+  	985.1.1 = { #fic
+    	add_spouse = haolding4 # Amulrada
+  	}
 	1031.1.1 = { #fic
 		death = yes
 	}
@@ -20,9 +21,9 @@ morsleben2 = {
 	dynasty = 321
 	religion = catholic
 	culture = eastphalian
-  trait = devoted
+  	trait = devoted
 	father = morsleben1
-  mother = haolding4
+  	mother = haolding4
 	1000.1.1 = { #est
 		birth = yes
 	}
@@ -37,11 +38,11 @@ morsleben3 = {
 	religion = catholic
 	culture = eastphalian
 	father = morsleben1
-  mother = haolding4
+  	mother = haolding4
 	1003.1.1 = { #est
 		birth = yes
 	}
-  #unknown wife
+  	#unknown wife
 	1059.1.1 = { #fic
 		death = yes
 	}
@@ -53,13 +54,13 @@ morsleben4 = {
 	religion = catholic
 	culture = eastphalian
 	father = morsleben1
-  mother = haolding4
+  	mother = haolding4
 	1005.1.1 = { #est
 		birth = yes
 	}
-  1047.1.1 = {
-    name = "Clemens"
-  }
+	1046.12.20 = {
+    	name = "Clemens"
+  	}
 	1047.10.9 = { #fic
 		death = yes
 	}
@@ -67,12 +68,12 @@ morsleben4 = {
 
 morsleben5 = {
 	name = "Margarethe" # wife of Dietrich of Ammensleben
-  female = yes
+  	female = yes
 	dynasty = 321
 	religion = catholic
 	culture = eastphalian
 	father = morsleben1
-  mother = haolding4
+  	mother = haolding4
 	1007.1.1 = { #est
 		birth = yes
 	}
