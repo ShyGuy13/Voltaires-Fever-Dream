@@ -307,6 +307,66 @@ billung20 = {
 	}
 }
 
+billung21 = {
+	name = "Wichmann" #  
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung18
+	931.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_younger
+	}
+	967.9.22 = {
+		death = yes
+	}
+}
+
+billung22 = {
+	name = "Ekbert" # 
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	trait = one_eyed
+	father = billung18
+	933.1.1 = { #est
+		birth = yes
+		give_nickname = nick_the_one_eyed
+	}
+	994.4.4 = {
+		death = yes
+	}
+}
+
+billung23 = {
+	name = "Bruno" # bishop of Verden
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung18
+	937.1.1 = { #fic
+		birth = yes
+	}
+	976.2.14 = {
+		death = yes
+	}
+}
+
+billung24 = {
+	name = "Hedwig" # wife of Siegfried, Sohn des Markgrafen Gero  - 24.6.959
+	female = yes
+	dynasty = 110
+	religion = catholic
+	culture = low_elbish
+	father = billung18
+	939.1.1 = {
+		birth = yes
+	}
+	1014.7.4 = {
+		death = yes
+	}
+}
+
 #wifes
 billung9_wife = {
 	name = "Imma" # 

@@ -1,5 +1,4 @@
-#http://www.goldlauter.com/Gressler-Ahnen-Adel/ps252/ps252_415.html
-#there is some weird stuff going on here.
+﻿#DONE FOR 1054
 ammensleben1 = {
     name = "Milo" #Milo I of Ammensleben
     dynasty = 360
@@ -50,7 +49,7 @@ ammensleben3 = {
 }
 
 ammensleben4 = {
-    name = "Amelrada" # wife of Ekbert von Harbke and Heseberg & Dietrich (Er war der Sohn einer Schwester des Gegenkönigs Hermann von Salm)
+    name = "Amelrada" # wife of Ekbert von Harbke and Meseberg & Dietrich (Er war der Sohn einer Schwester des Gegenkönigs Hermann von Salm)
     female = yes
     dynasty = 360
     culture = central_margravian
@@ -61,7 +60,7 @@ ammensleben4 = {
     	birth = yes
     }
     #1063 = Ekbert
-    #1070 Dietrich II Ammensleben
+    #1070 = Dietrich
     1099.1.1 = { #fic
     	death = yes
     }

@@ -5,7 +5,7 @@ ludowing1 = {
 	religion = catholic
 	culture = thuringian
 	#unknown parents
-	1007.1.1 = { #fic
+	1017.1.1 = { #fic
 		birth = yes
 		give_nickname = nick_the_bearded
 	}

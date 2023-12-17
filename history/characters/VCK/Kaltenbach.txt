@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 kaltenbach1 = {
 	name = "Werner" # Werner I of Kaltenbach
 	dynasty = 76
@@ -7,7 +7,7 @@ kaltenbach1 = {
 	#unknown parents
 	1054.1.1 = { #1060
 		birth = yes
-		give_nickname = nick_the_older
+		#give_nickname = nick_the_older
 	}
 	#Ita
 	1125.8.31 = {

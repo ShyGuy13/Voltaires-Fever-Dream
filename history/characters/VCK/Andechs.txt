@@ -24,7 +24,7 @@ andechs2 = {
 	religion = catholic
 	culture = bavarian
 	father = andechs3
-	1005.1.1 = {
+	1005.1.1 = { #est
 		birth = yes
 	}
 	#Irmgard[5] (von Gilching), Tochter von Arnold (von Gilching)
@@ -120,6 +120,51 @@ andechs8 = {
 		birth = yes
 	}
 	1109.1.1 = { #fic
+		death = yes
+	}
+}
+
+andechs9 = {
+	name = "Pilihild" #wife of Sieghard Siegahrding
+	female = yes
+	dynasty = 27
+	religion = catholic
+	culture = bavarian
+	father = andechs3
+	1012.1.1 = { #fic
+		birth = yes
+	}
+	1075.10.23 = {
+		death = yes
+	}
+}
+
+andechs10 = {
+	name = "Otto" # Otto of Wasserburg
+	dynasty = 27
+	religion = catholic
+	culture = bavarian
+	father = andechs3
+	1003.1.1 = { #fic
+		birth = yes
+	}
+	#Sophia, Tochter des Vogtes Chuono von Benediktbeuern 
+	1065.1.1 = {
+		death = yes
+	}
+}
+
+andechs11 = {
+	name = "Berthold" # Otto of Wasserburg
+	dynasty = 27
+	religion = catholic
+	culture = bavarian
+	father = andechs3
+	1001.1.1 = { #fic
+		birth = yes
+	}
+	#) N.N. (von Hohenwart), Tochter von (Konrad von Hohenwart) (–(1005))
+	1060.5.16 = {
 		death = yes
 	}
 }

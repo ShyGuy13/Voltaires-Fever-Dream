@@ -259,7 +259,7 @@ konrading17 = {
 		birth = yes
 	}
 	915.1.1 = { #est
-		add_sposue = vermandois15 # Kunegunde
+		add_spouse = vermandois15 # Kunegunde
 	}
 	949.1.1 = { #est
 		death = yes

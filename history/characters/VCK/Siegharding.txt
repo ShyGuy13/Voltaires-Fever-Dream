@@ -18,6 +18,7 @@ siegharding2 = {
 	culture = bavarian
 	religion = catholic
 	father = siegharding3
+	mother = andechs9
 	1030.1.1 = { #fic
 		birth = yes
 	}
@@ -34,6 +35,9 @@ siegharding3 = {
 	father = siegharding4
 	989.1.1 = { #est
 		birth = yes
+	}
+	1020.1.1 = { #fic
+		add_spouse = andechs9 # Pilihild
 	}
 	1044.7.5 = {
 		death = {
@@ -278,6 +282,7 @@ siegharding20 = {
 	culture = bavarian
 	religion = catholic
 	father = siegharding3
+	mother = andechs9
 	1029.1.1 = { #est
 		birth = yes
 	}
@@ -295,6 +300,7 @@ siegharding21 = {
 	culture = bavarian
 	religion = catholic
 	father = siegharding3
+	mother = andechs9
 	1033.1.1 = { #est
 		birth = yes
 	}
@@ -311,6 +317,7 @@ siegharding22 = {
 	religion = catholic
 	trait = devoted
 	father = siegharding3
+	mother = andechs9
 	1038.1.1 = { #fic
 		birth = yes
 	}
@@ -326,6 +333,7 @@ siegharding23 = {
 	culture = bavarian
 	religion = catholic
 	father = siegharding3
+	mother = andechs9
 	1041.1.1 = { #fic
 		birth = yes
 	}
@@ -341,6 +349,7 @@ siegharding24 = {
 	culture = bavarian
 	religion = catholic
 	father = siegharding3
+	mother = andechs9
 	1043.1.1 = { #fic
 		birth = yes
 	}
@@ -415,6 +424,7 @@ siegharding29 = {
 	culture = bavarian
 	religion = catholic
 	father = siegharding3
+	mother = andechs9
 	1027.1.1 = { #fic
 		birth = yes
 	}

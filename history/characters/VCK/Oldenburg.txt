@@ -1,4 +1,4 @@
-#DONE FOR 1054
+﻿#DONE FOR 1054
 oldenburg1 = {
 	name = "Egilmar" # Egilmar I of Oldenburg
 	dynasty = 40
