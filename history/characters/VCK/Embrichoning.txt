@@ -1,12 +1,15 @@
-﻿embrichoning1 = {
+#basically nothing is known about this dynasty.
+embrichoning1 = {
 	name = "Ludwig" # Ludwig I of Rheingraviate
 	dynasty = 146
 	culture = pfalzish
 	religion = catholic
 	father = embrichoning2
+	mother = embrichoning2_wife
 	1014.1.1 = {
 		birth = yes
 	}
+	#unknown wife
 	1076.1.1 = {
 		death = yes
 	}
@@ -17,10 +20,13 @@ embrichoning2 = {
 	dynasty = 146
 	culture = pfalzish
 	religion = catholic
-	985.1.1 = { #fic
+	984.1.1 = { #fic
 		birth = yes
 	}
-	1050.1.1 = {
+	1010.1.1 = { #fic
+		add_spouse = embrichoning2_wife # Adelind
+	}
+	1052.1.1 = {
 		death = yes
 	}
 }
@@ -34,6 +40,7 @@ embrichoning3 = {
 	1039.1.1 = { #fic
 		birth = yes
 	}
+	#Sophia
 	1104.1.1 = {
 		death = yes
 	}
@@ -62,7 +69,7 @@ embrichoning5 = {
 	1048.1.1 = { #fic
 		birth = yes
 	}
-	1109.1.1 = {
+	1109.5.2 = {
 		death = yes
 	}
 }
@@ -78,6 +85,21 @@ embrichoning6 = {
 		birth = yes
 	}
 	1112.1.1 = { #fic
+		death = yes
+	}
+}
+
+#wifes
+embrichoning2_wife = {
+	name = "Adelind" # 
+	female = yes
+	#dynasty = 146
+	culture = pfalzish
+	religion = catholic
+	991.1.1 = { #fic
+		birth = yes
+	}
+	1057.1.1 = { #fic
 		death = yes
 	}
 }
