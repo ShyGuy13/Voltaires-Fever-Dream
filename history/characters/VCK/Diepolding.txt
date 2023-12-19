@@ -55,7 +55,7 @@ diepolding3 = {
 }
 
 diepolding4 = {
-	name = "Ulrich" # Ulrich I of Salzachgau
+	name = "Ulrich" # Ulrich I of Salzach Estuary
 	dynasty = 26
 	religion = catholic
 	culture = bavarian
@@ -76,13 +76,13 @@ diepolding5 = {
 	religion = catholic
 	culture = bavarian
 	father = diepolding6
-	980.1.1 = { #fic
+	971.1.1 = { #fic
 		birth = yes
 	}
-	1005.1.1 = { #fic
+	1000.1.1 = { #fic
 		add_spouse = dillingen17 
 	}
-	1025.1.1 = { #fic
+	1020.6.13 = { #fic
 		death = yes
 	}
 }
@@ -124,7 +124,7 @@ diepolding7 = {
 }
 
 diepolding8 = {
-	name = "Mathilde" # wife of Friedrich I of Tengling
+	name = "Mathilde" # wife of Friedrich I Siegharding of Tengling 
 	female = yes
 	dynasty = 26
 	religion = catholic
@@ -134,9 +134,9 @@ diepolding8 = {
 	1028.1.1 = {
 		birth = yes
 	}
-	1092.1.1 = {
-		trait = devoted
-	}
+	#1092.1.1 = {
+	#	trait = devoted
+	#}
 	1100.9.30 = { #fic year
 		death = yes
 	}
@@ -152,14 +152,14 @@ diepolding9 = {
 	1032.1.1 = { #fic
 		birth = yes
 	}
-	#Adelheid von Mochental, daughert of Diepold II. von Giengen and Liutgard von Zähringen
+	#Adelheid von Mochental (his niece??????), daughter of Diepold II. von Giengen and Liutgard von Zähringen
 	1116.9.24 = {
 		death = yes
 	}
 }
 
 diepolding10 = {
-	name = "Ulrich" # Ulrich II of Salzachgau
+	name = "Ulrich" # Ulrich II of Salzach Estuary
 	dynasty = 26
 	religion = catholic
 	culture = bavarian
@@ -191,7 +191,7 @@ diepolding11 = {
 }
 
 diepolding12 = {
-	name = "Rapoto" # Rapoto V of Nordgau 
+	name = "Ulrich" # Ulrich of Finningen & Passau
 	dynasty = 26
 	religion = catholic
 	culture = bavarian
