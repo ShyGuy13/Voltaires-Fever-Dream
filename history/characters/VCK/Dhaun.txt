@@ -1,12 +1,102 @@
-﻿dhaun1 = {
-	name = "Arnold"
+#DONE FOR 1054
+#sources about the early generations are very sparse; all counts were named Emicho though.
+dhaun1 = {
+	name = "Emicho" # Emicho I of Nahegau
 	dynasty = 166
 	religion = catholic
 	culture = pfalzish
-	1020.1.1 = {
+	#unknown parents
+	932.1.1 = { #fic
 		birth = yes
 	}
-	1060.1.1 = {
+	#unknown wife
+	991.1.1 = { #fic
+		death = yes
+	}
+}
+
+dhaun2 = {
+	name = "Emicho" # Emicho II of Nahegau
+	dynasty = 166
+	religion = catholic
+	culture = pfalzish
+	father = dhaun1
+	#unknown mother
+	957.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1010.1.1 = { #fic
+		death = yes
+	}
+}
+
+dhaun3 = {
+	name = "Emicho" # Emicho III of Nahegau
+	dynasty = 166
+	religion = catholic
+	culture = pfalzish
+	father = dhaun2
+	#unknown mother
+	991.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1049.1.1 = { #fic
+		death = yes
+	}
+}
+
+dhaun4 = {
+	name = "Emicho" # Emicho IV of Nahegau
+	dynasty = 166
+	religion = catholic
+	culture = pfalzish
+	father = dhaun3
+	#unknown mother
+	1022.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1083.1.1 = { #fic
+		death = yes
+	}
+}
+
+dhaun5 = {
+	name = "Emicho" # Emicho V of Nahegau
+	dynasty = 166
+	religion = catholic
+	culture = pfalzish
+	father = dhaun4
+	#unknown mother
+	1049.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1083.1.1 = { #fic
+		death = yes
+	}
+}
+
+dhaun6 = {
+	name = "Emicho" # Emicho VI the Crusader of Nahegau
+	dynasty = 166
+	religion = catholic
+	culture = pfalzish
+	trait = zealous
+	trait = craven
+	trait = wrathful
+	father = dhaun5
+	#unknown mother
+	1076.1.1 = {
+		birth = yes
+	}
+	1096.8.15 = { #first crusade
+		give_nickname = nick_the_crusader
+	}
+	#unknown wife
+	1123.1.1 = {
 		death = yes
 	}
 }
