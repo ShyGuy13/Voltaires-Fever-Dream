@@ -31,7 +31,9 @@ groitzsch2 = {
 	#1085 = Judith of Poland
 	#1110 = Kunigunde von Orlamünde
 	1124.5.22 = {
-		death = yes
+		death = {
+			death_reason = death_burnt
+		}
 	}
 }
 
