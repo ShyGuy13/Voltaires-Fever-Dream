@@ -1,4 +1,5 @@
-﻿diepolding1 = {
+﻿#DONE FOR 1054
+diepolding1 = {
 	name = "Diepold" #Diepold I of Nordgau
 	dynasty = 26
 	religion = catholic
@@ -23,7 +24,7 @@ diepolding2 = {
 	culture = bavarian
 	father = diepolding1
 	mother = schweinfurt13
-	1030.1.1 = { #est
+	1034.1.1 = { #est
 		birth = yes
 	}
 	1050.1.1 = { #fic
@@ -142,21 +143,21 @@ diepolding8 = {
 	}
 }
 
-diepolding9 = {
-	name = "Heinrich" # Heinrich I of Berg-Schelklingen
-	dynasty = 26
-	religion = catholic
-	culture = bavarian
-	father = diepolding1 #debated, Poppo of Berg-Schelklingen
-	mother = schweinfurt13 #debated, Sophia 
-	1032.1.1 = { #fic
-		birth = yes
-	}
-	#Adelheid von Mochental (his niece??????), daughter of Diepold II. von Giengen and Liutgard von Zähringen
-	1116.9.24 = {
-		death = yes
-	}
-}
+# diepolding9 = {
+# 	name = "Heinrich" # Heinrich I of Berg-Schelklingen
+# 	dynasty = 26
+# 	religion = catholic
+# 	culture = bavarian
+# 	father = diepolding1 #debated, Poppo of Berg-Schelklingen
+# 	mother = schweinfurt13 #debated, Sophia 
+# 	1039.1.1 = { #fic
+# 		birth = yes
+# 	}
+# 	#Adelheid von Mochental (his niece??????), daughter of Diepold II. von Giengen and Liutgard von Zähringen
+# 	1116.9.24 = {
+# 		death = yes
+# 	}
+# }
 
 diepolding10 = {
 	name = "Ulrich" # Ulrich II of Salzach Estuary
