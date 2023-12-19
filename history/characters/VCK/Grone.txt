@@ -1,12 +1,64 @@
-﻿grone1 = {
-	name = "Bevo" #Bevo I of Göttingen
+#DONE FOR 1054
+#basically nothing is known about this dynasty. Everything here is made up.
+grone1 = {
+	name = "Dietrich" #fictional
 	dynasty = 233
 	religion = catholic
 	culture = eastphalian
-	1035.1.1 = { #fic
+	#unknown parents
+	1001.1.1 = { #fic
 		birth = yes
 	}
-	1100.1.1 = {
+	#unknown wife
+	1062.1.1 = { #fic
+		death = yes
+	}
+}
+
+grone2 = {
+	name = "Bruno" #fictional
+	dynasty = 233
+	religion = catholic
+	culture = eastphalian
+	father = grone1
+	#unknown mother
+	1025.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1084.1.1 = { #fic
+		death = yes
+	}
+}
+
+grone3 = {
+	name = "Johannes" #fictional
+	dynasty = 233
+	religion = catholic
+	culture = eastphalian
+	father = grone1
+	#unknown mother
+	1029.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1088.1.1 = { #fic
+		death = yes
+	}
+}
+
+grone4 = {
+	name = "Gottfried" #fictional
+	dynasty = 233
+	religion = catholic
+	culture = eastphalian
+	father = grone2
+	#unknown mother
+	1048.1.1 = { #fic
+		birth = yes
+	}
+	#unknown wife
+	1112.1.1 = { #fic
 		death = yes
 	}
 }
