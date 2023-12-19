@@ -2,7 +2,7 @@
 	name = "Bevo" #Bevo I of Göttingen
 	dynasty = 233
 	religion = catholic
-	culture = arpitan
+	culture = eastphalian
 	1035.1.1 = { #fic
 		birth = yes
 	}
