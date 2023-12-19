@@ -1,4 +1,6 @@
-#basically nothing is known about this dynasty.
+#DONE FOR 1054
+#basically nothing is known about this dynasty; family relationships are vague.
+#von Rheingau
 embrichoning1 = {
 	name = "Ludwig" # Ludwig I of Rheingraviate
 	dynasty = 146
@@ -20,6 +22,7 @@ embrichoning2 = {
 	dynasty = 146
 	culture = pfalzish
 	religion = catholic
+	#unknown parents
 	984.1.1 = { #fic
 		birth = yes
 	}
@@ -37,6 +40,7 @@ embrichoning3 = {
 	culture = pfalzish
 	religion = catholic
 	father = embrichoning1
+	#unknown mother
 	1039.1.1 = { #fic
 		birth = yes
 	}
@@ -52,9 +56,11 @@ embrichoning4 = {
 	culture = pfalzish
 	religion = catholic
 	father = embrichoning1
+	#unknown mother
 	1045.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1117.1.1 = {
 		death = yes
 	}
@@ -66,6 +72,7 @@ embrichoning5 = {
 	culture = pfalzish
 	religion = catholic
 	father = embrichoning1
+	#unknown mother
 	1048.1.1 = { #fic
 		birth = yes
 	}
@@ -81,6 +88,7 @@ embrichoning6 = {
 	culture = pfalzish
 	religion = catholic
 	father = embrichoning1
+	#unknown mother
 	1053.1.1 = { #fic
 		birth = yes
 	}
