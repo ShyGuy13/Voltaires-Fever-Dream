@@ -1,11 +1,15 @@
-﻿lobenhausen1 = {
+#DONE FOR 1054
+#nothing is known about this dynasty.
+lobenhausen1 = {
 	name = "Heinrich" #Heinrich I of Maulachgau
 	dynasty = 29
 	religion = catholic
 	culture = franconian
+	#unknown parents
 	1030.1.1 = { #fic
 		birth = yes
 	}
+	#unknown wife
 	1090.1.1 = { #fic
 		death = yes
 	}
